@@ -47,6 +47,14 @@
     {
       "rel": "commits",
       "to": "False attribution"
+    },
+    {
+      "rel": "commits",
+      "to": "Association fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Bulverism"
     }
   ],
   "sort": {

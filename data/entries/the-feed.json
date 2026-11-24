@@ -54,6 +54,10 @@
     {
       "rel": "houses",
       "to": "Astroturfing"
+    },
+    {
+      "rel": "houses",
+      "to": "Base rate fallacy"
     }
   ],
   "sort": {

@@ -62,6 +62,10 @@
     {
       "rel": "houses",
       "to": "Motte hop"
+    },
+    {
+      "rel": "houses",
+      "to": "Kafka trap"
     }
   ],
   "sort": {

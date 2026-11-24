@@ -1,0 +1,37 @@
+{
+  "term": "Bulverism",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 115,
+  "part_of_speech": "noun",
+  "etymology": "Coined by C. S. Lewis in 1941: the habit of assuming a person is wrong and then explaining, at leisure, why they came to be so wrong.",
+  "family": "Informal · Red herring",
+  "committed_when": "An argument has been made, and its psychology is easier to discuss than its evidence.",
+  "tell": "The reply explains why you believe it before establishing that it is false. The cause of the belief is offered in place of the truth of it.",
+  "counter": "Ask for the refutation first and the diagnosis second. A belief can have an unflattering cause and still be correct, so the cause is not the answer.",
+  "senses": [
+    "Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list.",
+    "It works because causes are always available and usually unflattering. Any position can be given a psychology, and a psychology is much easier to produce than a counter-argument."
+  ],
+  "example": "“Of course he thinks the zoning reform is fine - he bought his house in 1998.” The reform is still on the table.",
+  "confused_with": [
+    {
+      "term": "Ad hominem",
+      "tell": "Ad hominem attacks the arguer; Bulverism explains the arguer and treats the explanation as the refutation."
+    }
+  ],
+  "related": [
+    "Ad hominem",
+    "Appeal to motive",
+    "Poisoning the well"
+  ],
+  "cite": {
+    "label": "Wikipedia · Bulverism",
+    "url": "https://en.wikipedia.org/wiki/Bulverism"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

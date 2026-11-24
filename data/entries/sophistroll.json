@@ -55,6 +55,14 @@
     {
       "rel": "commits",
       "to": "Poisoning the well"
+    },
+    {
+      "rel": "commits",
+      "to": "Sealioning"
+    },
+    {
+      "rel": "commits",
+      "to": "The fallacy fallacy"
     }
   ],
   "sort": {

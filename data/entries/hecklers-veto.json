@@ -30,6 +30,10 @@
     {
       "rel": "commits",
       "to": "Appeal to fear"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to force"
     }
   ],
   "sort": {

@@ -43,6 +43,18 @@
     {
       "rel": "commits",
       "to": "Appeal to pity"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to consequences"
+    },
+    {
+      "rel": "commits",
+      "to": "Kafka trap"
+    },
+    {
+      "rel": "commits",
+      "to": "Nirvana fallacy"
     }
   ],
   "sort": {

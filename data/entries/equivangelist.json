@@ -35,6 +35,10 @@
     {
       "rel": "commits",
       "to": "Equivocation"
+    },
+    {
+      "rel": "commits",
+      "to": "Straw man"
     }
   ],
   "sort": {

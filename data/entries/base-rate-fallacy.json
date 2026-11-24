@@ -1,0 +1,37 @@
+{
+  "term": "Base rate fallacy",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 117,
+  "part_of_speech": "noun",
+  "etymology": "From the statistical base rate: how common a thing is before you know anything else about the particular case.",
+  "family": "Informal · Statistical",
+  "committed_when": "A vivid case is on the table and the question of how common it is has not been asked.",
+  "tell": "The number of incidents is quoted and the population is not. The story is true, the inference from it is not, and nobody multiplies.",
+  "counter": "Ask out of how many, and what the rate was before. A rise from two to four is a doubling and it is also two people.",
+  "senses": [
+    "Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with.",
+    "It works because the vivid case is the one that reaches you. Selection decides what you see, so the sample in your head is not the sample in the world - and the denominator is the part of the story that never travels."
+  ],
+  "example": "“Three of them in one month.” Three out of how many, in a city of how many, against a five-year average of what?",
+  "confused_with": [
+    {
+      "term": "Anecdotal evidence",
+      "tell": "Anecdotal evidence argues from one case; the base rate fallacy argues from one case while a rate sits unread beside it."
+    }
+  ],
+  "related": [
+    "Anecdotal evidence",
+    "Survivorship bias",
+    "Hasty generalization"
+  ],
+  "cite": {
+    "label": "Wikipedia · Base rate fallacy",
+    "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

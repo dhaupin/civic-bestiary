@@ -52,6 +52,10 @@
     {
       "rel": "commits",
       "to": "Appeal to ridicule"
+    },
+    {
+      "rel": "commits",
+      "to": "Straw man"
     }
   ],
   "sort": {

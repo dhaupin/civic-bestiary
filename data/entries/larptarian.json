@@ -43,6 +43,10 @@
     {
       "rel": "commits",
       "to": "Appeal to the stone"
+    },
+    {
+      "rel": "commits",
+      "to": "Survivorship bias"
     }
   ],
   "sort": {

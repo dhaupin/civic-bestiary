@@ -39,6 +39,14 @@
     {
       "rel": "commits",
       "to": "Appeal to consequences"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to motive"
+    },
+    {
+      "rel": "commits",
+      "to": "Slippery slope"
     }
   ],
   "sort": {

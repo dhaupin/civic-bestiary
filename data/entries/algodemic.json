@@ -47,6 +47,14 @@
     {
       "rel": "commits",
       "to": "Appeal to novelty"
+    },
+    {
+      "rel": "commits",
+      "to": "Base rate fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "McNamara fallacy"
     }
   ],
   "sort": {
