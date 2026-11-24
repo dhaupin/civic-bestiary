@@ -47,6 +47,10 @@
     {
       "rel": "commits",
       "to": "Gish gallop"
+    },
+    {
+      "rel": "uses",
+      "to": "Citizens United"
     }
   ],
   "sort": {

@@ -1,7 +1,7 @@
 {
   "record": {
     "title": "Entry record",
-    "path": "data/entries/<slug>.json",
+    "path": "data/entries/<kind>/<slug>.json",
     "description": "One file per term, named for the term's slug. Every audience reads this file: the README, the site, and the issue form a contributor fills in."
   },
   "issue": {
@@ -14,7 +14,7 @@
     ],
     "intro": "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a habitat is the place that houses them, a buff is a temporary condition, a fallacy is a documented argument, and a remedy or a keystone is a thing that answers one. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit.",
     "identification_hint": "Describe it the way its kind is described. Species: occasion, call, tell, counter. Move: trigger, tell, counter. Ability: effect, available to, counter. Habitat: carriers, economics, signature. Buff: effect, tell, expires. Fallacy: family, committed when, the tell, counter. Remedy: effect, costs, failure, tell. Keystone: office, call, tell, keystone.",
-    "outro": "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
+    "outro": "A proposal lands as a record under `data/entries/<kind>/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
   },
   "kinds": {
     "species": {

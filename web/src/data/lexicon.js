@@ -13,16 +13,16 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 171,
-  "coinages": 80,
+  "entries": 184,
+  "coinages": 93,
   "fallacies": 61,
   "chapters": 6,
   "kinds": {
     "species": 26,
-    "move": 14,
-    "ability": 17,
-    "habitat": 12,
-    "buff": 11,
+    "move": 17,
+    "ability": 23,
+    "habitat": 14,
+    "buff": 13,
     "fallacy": 61,
     "remedy": 16,
     "keystone": 14
@@ -342,6 +342,8 @@ export const chapters = [
       "convention-bounce",
       "cloture",
       "discharge-petition",
+      "vague-promises",
+      "citizens-united",
       "slippery-slope",
       "no-true-scotsman",
       "appeal-to-tradition",
@@ -377,6 +379,7 @@ export const chapters = [
       "motte-hop",
       "hecklers-veto",
       "flood-the-zone",
+      "good-cop-bad-cop",
       "ad-hominem",
       "straw-man",
       "appeal-to-authority",
@@ -423,6 +426,10 @@ export const chapters = [
       "nda",
       "qualified-immunity",
       "consent-decree",
+      "breaking-treaties",
+      "secret-meeting",
+      "good-ol-boys-club",
+      "unelected-official",
       "two-wrongs-make-a-right",
       "post-hoc-ergo-propter-hoc",
       "special-pleading",
@@ -460,6 +467,12 @@ export const chapters = [
       "perp-walk",
       "access",
       "hot-mic",
+      "wmd-mongering",
+      "lobbyism",
+      "pac-check",
+      "oil-diplomacy",
+      "climate-hoax",
+      "forever-war",
       "appeal-to-emotion",
       "appeal-to-fear",
       "moving-the-goalposts",
@@ -530,12 +543,12 @@ export const chapters = [
       "the-translator",
       "the-juror",
       "the-statistician",
-      "notice-and-comment",
       "recusal",
       "cross-examination",
       "the-stay",
       "the-redistricting-commission",
-      "the-carve-out"
+      "the-carve-out",
+      "notice-and-comment"
     ]
   }
 ]
@@ -546,6 +559,7 @@ export const entries = [
     "slug": "playtriot",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/playtriot.json",
     "path": "/species/playtriot/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -677,6 +691,7 @@ export const entries = [
     "slug": "freetard",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/freetard.json",
     "path": "/species/freetard/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -785,6 +800,7 @@ export const entries = [
     "slug": "larptarian",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/larptarian.json",
     "path": "/species/larptarian/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -907,6 +923,7 @@ export const entries = [
     "slug": "critizen",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/critizen.json",
     "path": "/species/critizen/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1041,6 +1058,7 @@ export const entries = [
     "slug": "sabotriot",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/sabotriot.json",
     "path": "/species/sabotriot/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1151,6 +1169,7 @@ export const entries = [
     "slug": "patriotainment",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/patriotainment.json",
     "path": "/habitats/patriotainment/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1259,6 +1278,13 @@ export const entries = [
         "term": "Gish gallop",
         "slug": "gish-gallop",
         "path": "/fallacies/gish-gallop/"
+      },
+      {
+        "rel": "uses",
+        "label": "Uses",
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/"
       }
     ],
     "backlinks": [
@@ -1276,6 +1302,7 @@ export const entries = [
     "slug": "patriotainer",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/patriotainer.json",
     "path": "/species/patriotainer/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1385,6 +1412,13 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "rel": "performs",
+        "label": "Performs",
+        "term": "Vague promises",
+        "slug": "vague-promises",
+        "path": "/moves/vague-promises/"
       }
     ],
     "backlinks": [
@@ -1423,6 +1457,7 @@ export const entries = [
     "slug": "filibluster",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/filibluster.json",
     "path": "/abilities/filibluster/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1523,6 +1558,7 @@ export const entries = [
     "slug": "gerrythm",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/gerrythm.json",
     "path": "/abilities/gerrythm/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1621,6 +1657,7 @@ export const entries = [
     "slug": "omnibust",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/omnibust.json",
     "path": "/abilities/omnibust/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1678,9 +1715,9 @@ export const entries = [
         "path": "/abilities/gerrythm/"
       },
       {
-        "term": "Crookmaxxing",
-        "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "term": "Oil diplomacy",
+        "slug": "oil-diplomacy",
+        "path": "/abilities/oil-diplomacy/"
       }
     ],
     "edges": [
@@ -1714,6 +1751,7 @@ export const entries = [
     "slug": "honeymoan",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/honeymoan.json",
     "path": "/buffs/honeymoan/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1799,6 +1837,7 @@ export const entries = [
     "slug": "pocketveto",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/pocketveto.json",
     "path": "/abilities/pocketveto/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1890,6 +1929,7 @@ export const entries = [
     "slug": "nightdocket",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/nightdocket.json",
     "path": "/abilities/nightdocket/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -1947,14 +1987,14 @@ export const entries = [
         "path": "/abilities/blueslip/"
       },
       {
-        "term": "Pocketveto",
-        "slug": "pocketveto",
-        "path": "/abilities/pocketveto/"
-      },
-      {
         "term": "The stay",
         "slug": "the-stay",
         "path": "/remedies/the-stay/"
+      },
+      {
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
       }
     ],
     "edges": [
@@ -1988,6 +2028,7 @@ export const entries = [
     "slug": "coattails",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/coattails.json",
     "path": "/buffs/coattails/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2071,6 +2112,7 @@ export const entries = [
     "slug": "convention-bounce",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/convention-bounce.json",
     "path": "/buffs/convention-bounce/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2154,6 +2196,7 @@ export const entries = [
     "slug": "cloture",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/cloture.json",
     "path": "/abilities/cloture/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2244,6 +2287,7 @@ export const entries = [
     "slug": "discharge-petition",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/discharge-petition.json",
     "path": "/abilities/discharge-petition/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2325,10 +2369,172 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Vague promises",
+    "slug": "vague-promises",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/vague-promises.json",
+    "path": "/moves/vague-promises/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/veɪɡ ˈprɒm.ɪs.ɪz/",
+    "position": 18,
+    "sort": {
+      "impact": 3,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "English: the promise with its content removed - a commitment kept only in tone.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A question that needs a number, a date, or a name."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The promise has an adjective where the figure should be: historic, unprecedented, soon."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the number and the date in the same sentence. A commitment that cannot survive being written down was a mood."
+      }
+    ],
+    "voice": "The promise has an adjective where the figure should be: historic, unprecedented, soon.",
+    "senses": [
+      "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.",
+      "It works because the shape of a promise is enough to be reported as one. The listener hears the certainty, the journalist quotes the adjective, and the only person who needed the figure was the one who will be blamed for asking."
+    ],
+    "notes": [],
+    "example": "“We will have a **bold, historic plan** within the first hundred days” - the plan had a title, a press conference, and no sentence that could be checked.",
+    "cite": null,
+    "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a...",
+    "confusedWith": [
+      {
+        "term": "Vaguebooking",
+        "slug": "vaguebooking",
+        "tell": "Vaguebooking withholds the subject; vague promises withhold the terms.",
+        "path": "/moves/vaguebooking/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "path": "/buffs/honeymoan/"
+      },
+      {
+        "term": "Convention bounce",
+        "slug": "convention-bounce",
+        "path": "/buffs/convention-bounce/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "performs",
+        "label": "Performed by",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      }
+    ]
+  },
+  {
+    "term": "Citizens United",
+    "slug": "citizens-united",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/citizens-united.json",
+    "path": "/abilities/citizens-united/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌsɪt.ɪ.zənz juːˈnaɪ.tɪd/",
+    "position": 19,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 1
+    },
+    "etymology": "Named for the 2010 decision that made independent political spending a form of speech, and the spender a kind of speaker.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen’s voice without taking on the citizen’s obligations."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any incorporated body with a treasury - a company, a union, a nonprofit, or a shell with a mailbox and a lawyer."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Disclosure before the vote rather than after it. An advertisement that has to name its funders loses the anonymity the doctrine depends on."
+      }
+    ],
+    "voice": "The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen’s voice without taking on the citizen’s obligations.",
+    "senses": [
+      "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker.",
+      "It works because the first amendment was written for people and the corporation learned to stand where the person stood. What the citizen has is a voice and a vote; what the doctrine grants is the voice, at any volume, without the vote’s obligation to answer for it."
+    ],
+    "notes": [],
+    "example": "“**Citizens United** means we are just exercising our speech” - said by a body that has never been to a town meeting and cannot be summoned to one.",
+    "cite": {
+      "label": "Wikipedia · Citizens United v. FEC",
+      "url": "https://en.wikipedia.org/wiki/Citizens_United_v._FEC"
+    },
+    "summary": "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker.",
+    "confusedWith": [
+      {
+        "term": "Access",
+        "slug": "access",
+        "tell": "Access buys the meeting; Citizens United buys the megaphone, and the megaphone reaches the people the meeting was about.",
+        "path": "/buffs/access/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
+      },
+      {
+        "term": "PAC check",
+        "slug": "pac-check",
+        "path": "/buffs/pac-check/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "uses",
+        "label": "Used by",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      }
+    ]
+  },
+  {
     "term": "Slippery slope",
     "slug": "slippery-slope",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/slippery-slope.json",
     "path": "/fallacies/slippery-slope/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2418,6 +2624,7 @@ export const entries = [
     "slug": "no-true-scotsman",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/no-true-scotsman.json",
     "path": "/fallacies/no-true-scotsman/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2507,6 +2714,7 @@ export const entries = [
     "slug": "appeal-to-tradition",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-tradition.json",
     "path": "/fallacies/appeal-to-tradition/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2610,6 +2818,7 @@ export const entries = [
     "slug": "appeal-to-nature",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-nature.json",
     "path": "/fallacies/appeal-to-nature/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2699,6 +2908,7 @@ export const entries = [
     "slug": "proof-by-assertion",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/proof-by-assertion.json",
     "path": "/fallacies/proof-by-assertion/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2816,6 +3026,7 @@ export const entries = [
     "slug": "sunk-cost-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/sunk-cost-fallacy.json",
     "path": "/fallacies/sunk-cost-fallacy/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2905,6 +3116,7 @@ export const entries = [
     "slug": "im-entitled-to-my-opinion",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/im-entitled-to-my-opinion.json",
     "path": "/fallacies/im-entitled-to-my-opinion/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
@@ -2994,6 +3206,7 @@ export const entries = [
     "slug": "sophistroll",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/sophistroll.json",
     "path": "/species/sophistroll/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3129,6 +3342,13 @@ export const entries = [
         "term": "Creeping normality",
         "slug": "creeping-normality",
         "path": "/fallacies/creeping-normality/"
+      },
+      {
+        "rel": "performs",
+        "label": "Performs",
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/"
       }
     ],
     "backlinks": [
@@ -3146,6 +3366,7 @@ export const entries = [
     "slug": "illogician",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/illogician.json",
     "path": "/species/illogician/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3270,6 +3491,7 @@ export const entries = [
     "slug": "jaqing-off",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/jaqing-off.json",
     "path": "/moves/jaqing-off/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3377,6 +3599,7 @@ export const entries = [
     "slug": "trust-me-brofessor",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/trust-me-brofessor.json",
     "path": "/species/trust-me-brofessor/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3487,6 +3710,7 @@ export const entries = [
     "slug": "biasographer",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/biasographer.json",
     "path": "/species/biasographer/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3618,6 +3842,7 @@ export const entries = [
     "slug": "bleatkeeper",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/bleatkeeper.json",
     "path": "/species/bleatkeeper/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3735,6 +3960,7 @@ export const entries = [
     "slug": "equivangelist",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/equivangelist.json",
     "path": "/species/equivangelist/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3843,6 +4069,7 @@ export const entries = [
     "slug": "gallopologist",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/gallopologist.json",
     "path": "/species/gallopologist/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -3960,6 +4187,7 @@ export const entries = [
     "slug": "decorumancer",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/decorumancer.json",
     "path": "/species/decorumancer/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4070,6 +4298,7 @@ export const entries = [
     "slug": "comment-section",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/comment-section.json",
     "path": "/habitats/comment-section/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4230,6 +4459,7 @@ export const entries = [
     "slug": "bothsidesing",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/bothsidesing.json",
     "path": "/moves/bothsidesing/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4344,6 +4574,7 @@ export const entries = [
     "slug": "vaguebooking",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/vaguebooking.json",
     "path": "/moves/vaguebooking/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4444,6 +4675,7 @@ export const entries = [
     "slug": "receiptbomb",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/receiptbomb.json",
     "path": "/moves/receiptbomb/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4544,6 +4776,7 @@ export const entries = [
     "slug": "dead-cat",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/dead-cat.json",
     "path": "/moves/dead-cat/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4642,6 +4875,7 @@ export const entries = [
     "slug": "trial-balloon",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/trial-balloon.json",
     "path": "/moves/trial-balloon/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4733,6 +4967,7 @@ export const entries = [
     "slug": "friday-news-dump",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/friday-news-dump.json",
     "path": "/moves/friday-news-dump/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4829,6 +5064,7 @@ export const entries = [
     "slug": "astroturfing",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/astroturfing.json",
     "path": "/moves/astroturfing/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -4927,6 +5163,7 @@ export const entries = [
     "slug": "motte-hop",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/motte-hop.json",
     "path": "/moves/motte-hop/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5032,6 +5269,7 @@ export const entries = [
     "slug": "hecklers-veto",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/hecklers-veto.json",
     "path": "/moves/hecklers-veto/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5137,6 +5375,7 @@ export const entries = [
     "slug": "flood-the-zone",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/flood-the-zone.json",
     "path": "/moves/flood-the-zone/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5238,10 +5477,85 @@ export const entries = [
     ]
   },
   {
+    "term": "Good cop, bad cop",
+    "slug": "good-cop-bad-cop",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/good-cop-bad-cop.json",
+    "path": "/moves/good-cop-bad-cop/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": "/ɡʊd kɒp bæd kɒp/",
+    "position": 21,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "From the interview room, exported to diplomacy: two speakers, one demand, and the appearance of a range.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A subject who will not move, and two people who can take turns."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "One asks for everything, and the other asks for the same thing and calls it a compromise."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer the pair as one actor: ask which of the two is authorised to settle. The offer collapses the moment the roles have to be named."
+      }
+    ],
+    "voice": "One asks for everything, and the other asks for the same thing and calls it a compromise.",
+    "senses": [
+      "The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions, then the envoy with the same terms and a softer voice.",
+      "It works because a range of options is easier to accept than an ultimatum, and two speakers are cheaper than one concession. The subject negotiates with the kind one, which is the point - the kind one is not authorised to move either."
+    ],
+    "notes": [],
+    "example": "“My colleague is being unreasonable, but I think we can work something out” - the **good cop, bad cop** routine, with the something being the same something and a hand on the shoulder.",
+    "cite": null,
+    "summary": "The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions...",
+    "confusedWith": [
+      {
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "tell": "Bothsidesing presents two positions as equally valid; good cop, bad cop presents two positions as a range, and both of them are the same position.",
+        "path": "/moves/bothsidesing/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "performs",
+        "label": "Performed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      }
+    ]
+  },
+  {
     "term": "Ad hominem",
     "slug": "ad-hominem",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/ad-hominem.json",
     "path": "/fallacies/ad-hominem/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5338,6 +5652,7 @@ export const entries = [
     "slug": "straw-man",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/straw-man.json",
     "path": "/fallacies/straw-man/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5446,6 +5761,7 @@ export const entries = [
     "slug": "appeal-to-authority",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-authority.json",
     "path": "/fallacies/appeal-to-authority/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5584,6 +5900,7 @@ export const entries = [
     "slug": "false-dilemma",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/false-dilemma.json",
     "path": "/fallacies/false-dilemma/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5680,6 +5997,7 @@ export const entries = [
     "slug": "loaded-question",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/loaded-question.json",
     "path": "/fallacies/loaded-question/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5776,6 +6094,7 @@ export const entries = [
     "slug": "circular-reasoning",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/circular-reasoning.json",
     "path": "/fallacies/circular-reasoning/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5865,6 +6184,7 @@ export const entries = [
     "slug": "argument-from-ignorance",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/argument-from-ignorance.json",
     "path": "/fallacies/argument-from-ignorance/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -5968,6 +6288,7 @@ export const entries = [
     "slug": "tone-policing",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/tone-policing.json",
     "path": "/fallacies/tone-policing/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6057,6 +6378,7 @@ export const entries = [
     "slug": "motte-and-bailey-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/motte-and-bailey-fallacy.json",
     "path": "/fallacies/motte-and-bailey-fallacy/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6146,6 +6468,7 @@ export const entries = [
     "slug": "texas-sharpshooter-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/texas-sharpshooter-fallacy.json",
     "path": "/fallacies/texas-sharpshooter-fallacy/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6242,6 +6565,7 @@ export const entries = [
     "slug": "poisoning-the-well",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/poisoning-the-well.json",
     "path": "/fallacies/poisoning-the-well/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6352,6 +6676,7 @@ export const entries = [
     "slug": "nut-picking",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/nut-picking.json",
     "path": "/fallacies/nut-picking/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6448,6 +6773,7 @@ export const entries = [
     "slug": "sealioning",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/sealioning.json",
     "path": "/fallacies/sealioning/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6544,6 +6870,7 @@ export const entries = [
     "slug": "kafka-trap",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/kafka-trap.json",
     "path": "/fallacies/kafka-trap/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6645,6 +6972,7 @@ export const entries = [
     "slug": "bulverism",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/bulverism.json",
     "path": "/fallacies/bulverism/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6739,6 +7067,7 @@ export const entries = [
     "slug": "nirvana-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/nirvana-fallacy.json",
     "path": "/fallacies/nirvana-fallacy/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6833,6 +7162,7 @@ export const entries = [
     "slug": "base-rate-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/base-rate-fallacy.json",
     "path": "/fallacies/base-rate-fallacy/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -6934,6 +7264,7 @@ export const entries = [
     "slug": "appeal-to-force",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-force.json",
     "path": "/fallacies/appeal-to-force/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -7035,6 +7366,7 @@ export const entries = [
     "slug": "the-fallacy-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/the-fallacy-fallacy.json",
     "path": "/fallacies/the-fallacy-fallacy/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -7136,6 +7468,7 @@ export const entries = [
     "slug": "mcnamara-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/mcnamara-fallacy.json",
     "path": "/fallacies/mcnamara-fallacy/",
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
@@ -7230,6 +7563,7 @@ export const entries = [
     "slug": "hypocontortionist",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/hypocontortionist.json",
     "path": "/species/hypocontortionist/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -7359,6 +7693,7 @@ export const entries = [
     "slug": "mythstorian",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/mythstorian.json",
     "path": "/species/mythstorian/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -7481,6 +7816,7 @@ export const entries = [
     "slug": "bootcurious",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/bootcurious.json",
     "path": "/buffs/bootcurious/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -7593,6 +7929,7 @@ export const entries = [
     "slug": "crookmaxxing",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/crookmaxxing.json",
     "path": "/moves/crookmaxxing/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -7693,6 +8030,7 @@ export const entries = [
     "slug": "capitulectual",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/capitulectual.json",
     "path": "/species/capitulectual/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -7829,6 +8167,7 @@ export const entries = [
     "slug": "subpoenado",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/subpoenado.json",
     "path": "/abilities/subpoenado/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -7922,6 +8261,7 @@ export const entries = [
     "slug": "cronycle",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/cronycle.json",
     "path": "/abilities/cronycle/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -7974,14 +8314,14 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Hypocontortionist",
-        "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
-      },
-      {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
       }
     ],
     "edges": [
@@ -8015,6 +8355,7 @@ export const entries = [
     "slug": "nonpology",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/nonpology.json",
     "path": "/moves/nonpology/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8122,6 +8463,7 @@ export const entries = [
     "slug": "school-board-meeting",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/school-board-meeting.json",
     "path": "/habitats/school-board-meeting/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8247,6 +8589,7 @@ export const entries = [
     "slug": "blueslip",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/blueslip.json",
     "path": "/abilities/blueslip/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8345,6 +8688,7 @@ export const entries = [
     "slug": "recessure",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/recessure.json",
     "path": "/abilities/recessure/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8397,11 +8741,6 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Blueslip",
-        "slug": "blueslip",
-        "path": "/abilities/blueslip/"
-      },
-      {
         "term": "Pocketveto",
         "slug": "pocketveto",
         "path": "/abilities/pocketveto/"
@@ -8410,6 +8749,11 @@ export const entries = [
         "term": "Nightdocket",
         "slug": "nightdocket",
         "path": "/abilities/nightdocket/"
+      },
+      {
+        "term": "Unelected official",
+        "slug": "unelected-official",
+        "path": "/buffs/unelected-official/"
       }
     ],
     "edges": [
@@ -8436,6 +8780,7 @@ export const entries = [
     "slug": "signaway",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/signaway.json",
     "path": "/abilities/signaway/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8488,11 +8833,6 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Subpoenado",
-        "slug": "subpoenado",
-        "path": "/abilities/subpoenado/"
-      },
-      {
         "term": "Omnibust",
         "slug": "omnibust",
         "path": "/abilities/omnibust/"
@@ -8501,6 +8841,11 @@ export const entries = [
         "term": "Notice and comment",
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
+      },
+      {
+        "term": "Breaking treaties",
+        "slug": "breaking-treaties",
+        "path": "/abilities/breaking-treaties/"
       }
     ],
     "edges": [
@@ -8534,6 +8879,7 @@ export const entries = [
     "slug": "lame-duck",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/lame-duck.json",
     "path": "/buffs/lame-duck/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8617,6 +8963,7 @@ export const entries = [
     "slug": "judge-shopping",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/judge-shopping.json",
     "path": "/abilities/judge-shopping/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8715,6 +9062,7 @@ export const entries = [
     "slug": "slapp",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/slapp.json",
     "path": "/abilities/slapp/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8813,6 +9161,7 @@ export const entries = [
     "slug": "nda",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/nda.json",
     "path": "/abilities/nda/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8904,6 +9253,7 @@ export const entries = [
     "slug": "qualified-immunity",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/qualified-immunity.json",
     "path": "/abilities/qualified-immunity/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -8995,6 +9345,7 @@ export const entries = [
     "slug": "consent-decree",
     "kind": "ability",
     "kindLabel": "Ability",
+    "source": "data/entries/abilities/consent-decree.json",
     "path": "/abilities/consent-decree/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -9061,10 +9412,287 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Breaking treaties",
+    "slug": "breaking-treaties",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/breaking-treaties.json",
+    "path": "/abilities/breaking-treaties/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈbreɪ.kɪŋ ˈtriː.tiz/",
+    "position": 19,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "English: the signature withdrawn by the hand that wrote it - exit announced as sovereignty.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "The capability of a signatory to leave an agreement it wrote: the obligations are kept as options, and withdrawal is presented as a return to first principles."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any state whose word is worth more abroad than its exit is worth at home."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Make the exit cost something durable: a successor agreement that names the withdrawal penalty, and allies who price the exit into everything that follows."
+      }
+    ],
+    "voice": "The capability of a signatory to leave an agreement it wrote: the obligations are kept as options, and withdrawal is presented as a return to first principles.",
+    "senses": [
+      "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal is announced in the language of liberation.",
+      "It works because the benefit of a treaty is paid over decades and the cost of leaving is paid once, in a news cycle. A signatory that keeps the benefits and drops the obligations has arbitraged its own credibility, and the bill arrives as a premium on every later promise."
+    ],
+    "notes": [],
+    "example": "“We are withdrawing from the agreement to protect our sovereignty” - the treaty had been drafted by the same government, and **breaking treaties** was the sovereignty in question.",
+    "cite": null,
+    "summary": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal is...",
+    "confusedWith": [
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "tell": "Signaway gives away a right in the fine print; breaking treaties takes back a promise in the headline.",
+        "path": "/abilities/signaway/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
+      }
+    ],
+    "edges": [],
+    "backlinks": []
+  },
+  {
+    "term": "Secret meeting",
+    "slug": "secret-meeting",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "source": "data/entries/habitats/secret-meeting.json",
+    "path": "/habitats/secret-meeting/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈsiː.krɪt ˈmiː.tɪŋ/",
+    "position": 20,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "English: the meeting that is not on the calendar and has no minutes, so the only record is the decision.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "Cabinets, boards, caucuses, and the dinner that appears on nobody’s schedule."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "The meeting is cheap and the minutes are expensive, so the minutes are what gets cut."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A decision that arrives fully formed, attributed to a process nobody watched."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A calendar rule: no decision without a record, and no record without a date. What cannot be minuted cannot be appealed."
+      }
+    ],
+    "voice": "A decision that arrives fully formed, attributed to a process nobody watched.",
+    "senses": [
+      "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum’s authority and none of a quorum’s exposure.",
+      "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else."
+    ],
+    "notes": [],
+    "example": "“The decision was made in the ordinary course” - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.",
+    "cite": null,
+    "summary": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision...",
+    "confusedWith": [
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "tell": "The night docket is a court deciding without explanation; a secret meeting is a room deciding without a witness.",
+        "path": "/abilities/nightdocket/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
+      }
+    ],
+    "edges": [],
+    "backlinks": []
+  },
+  {
+    "term": "Good ol' boys club",
+    "slug": "good-ol-boys-club",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "source": "data/entries/habitats/good-ol-boys-club.json",
+    "path": "/habitats/good-ol-boys-club/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ɡʊd ɒl bɔɪz klʌb/",
+    "position": 21,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Southern American English: the informal network whose membership is assumed rather than applied for.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "The alumni network, the county party, the trade association, and the fraternity that became a hiring pipeline."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Membership is free and admission is not: the dues are paid in favours, and the ledger is never written down."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "Every post is filled before it is advertised, and every candidate is somebody’s nephew."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting."
+      }
+    ],
+    "voice": "Every post is filled before it is advertised, and every candidate is somebody’s nephew.",
+    "senses": [
+      "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
+      "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document."
+    ],
+    "notes": [],
+    "example": "“He’s one of us” - the whole interview, in four words, before the résumé was opened: the **good ol’ boys club** doing its hiring in the open.",
+    "cite": null,
+    "summary": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to...",
+    "confusedWith": [
+      {
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "tell": "The cronycle is the cycle that fills the posts; the club is the room the cycle recruits from.",
+        "path": "/abilities/cronycle/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
+      }
+    ],
+    "edges": [],
+    "backlinks": []
+  },
+  {
+    "term": "Unelected official",
+    "slug": "unelected-official",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "source": "data/entries/buffs/unelected-official.json",
+    "path": "/buffs/unelected-official/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌʌn.ɪˈlek.tɪd əˈfɪʃ.əl/",
+    "position": 22,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 1
+    },
+    "etymology": "English: the office with a budget and no constituency - accountable to the appointment, not the public.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "A temporary condition in which an office holds power without a mandate: the title is real, the authority is borrowed, and the public has no lever short of a scandal."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The press release says the administration rather than a name, and the brief is answered by whoever appointed them."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "At the next appointment, at the next election that is not about them, or at the next scandal that makes them expendable."
+      }
+    ],
+    "voice": "The press release says the administration rather than a name, and the brief is answered by whoever appointed them.",
+    "senses": [
+      "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate and answers to nobody who votes.",
+      "It works because expertise is a real defence and a convenient one. Some offices should be insulated from the electorate - and the insulation is exactly what makes the office useful to the people who appointed it."
+    ],
+    "notes": [],
+    "example": "“Per the guidance issued by the office” - an **unelected official** whose name nobody in the room could give, exercising a power nobody in the room could vote on.",
+    "cite": null,
+    "summary": "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate...",
+    "confusedWith": [
+      {
+        "term": "Recessure",
+        "slug": "recessure",
+        "tell": "Recessure is the appointment made while the chamber is empty; the unelected official is what the appointment leaves behind.",
+        "path": "/abilities/recessure/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
+      }
+    ],
+    "edges": [],
+    "backlinks": []
+  },
+  {
     "term": "Two wrongs make a right",
     "slug": "two-wrongs-make-a-right",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/two-wrongs-make-a-right.json",
     "path": "/fallacies/two-wrongs-make-a-right/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -9161,6 +9789,7 @@ export const entries = [
     "slug": "post-hoc-ergo-propter-hoc",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/post-hoc-ergo-propter-hoc.json",
     "path": "/fallacies/post-hoc-ergo-propter-hoc/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -9250,6 +9879,7 @@ export const entries = [
     "slug": "special-pleading",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/special-pleading.json",
     "path": "/fallacies/special-pleading/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -9388,6 +10018,7 @@ export const entries = [
     "slug": "argument-to-moderation",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/argument-to-moderation.json",
     "path": "/fallacies/argument-to-moderation/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -9477,6 +10108,7 @@ export const entries = [
     "slug": "false-balance",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/false-balance.json",
     "path": "/fallacies/false-balance/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -9573,6 +10205,7 @@ export const entries = [
     "slug": "argument-from-silence",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/argument-from-silence.json",
     "path": "/fallacies/argument-from-silence/",
     "chapter": "hypocrisy-revisionism",
     "chapterRoman": "III",
@@ -9697,6 +10330,7 @@ export const entries = [
     "slug": "xenophobricator",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/xenophobricator.json",
     "path": "/species/xenophobricator/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -9821,6 +10455,7 @@ export const entries = [
     "slug": "dramagogue",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/dramagogue.json",
     "path": "/species/dramagogue/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -9926,6 +10561,20 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "rel": "performs",
+        "label": "Performs",
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
+      },
+      {
+        "rel": "uses",
+        "label": "Uses",
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
       }
     ],
     "backlinks": [
@@ -9943,6 +10592,7 @@ export const entries = [
     "slug": "ragesturbationist",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/ragesturbationist.json",
     "path": "/species/ragesturbationist/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10060,6 +10710,7 @@ export const entries = [
     "slug": "martyrholic",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/martyrholic.json",
     "path": "/species/martyrholic/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10177,6 +10828,7 @@ export const entries = [
     "slug": "algodemic",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/algodemic.json",
     "path": "/species/algodemic/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10322,6 +10974,7 @@ export const entries = [
     "slug": "plutomartyr",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/plutomartyr.json",
     "path": "/species/plutomartyr/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10467,6 +11120,7 @@ export const entries = [
     "slug": "slopagandist",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/slopagandist.json",
     "path": "/species/slopagandist/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10588,6 +11242,20 @@ export const entries = [
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
         "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "uses",
+        "label": "Uses",
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
+      },
+      {
+        "rel": "uses",
+        "label": "Uses",
+        "term": "Climate hoax",
+        "slug": "climate-hoax",
+        "path": "/abilities/climate-hoax/"
       }
     ],
     "backlinks": [
@@ -10626,6 +11294,7 @@ export const entries = [
     "slug": "cable-panel",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/cable-panel.json",
     "path": "/habitats/cable-panel/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10767,6 +11436,7 @@ export const entries = [
     "slug": "group-chat",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/group-chat.json",
     "path": "/habitats/group-chat/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10901,6 +11571,7 @@ export const entries = [
     "slug": "bluecheck",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/bluecheck.json",
     "path": "/buffs/bluecheck/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -10994,6 +11665,7 @@ export const entries = [
     "slug": "crisisglow",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/crisisglow.json",
     "path": "/buffs/crisisglow/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11092,6 +11764,7 @@ export const entries = [
     "slug": "indictbump",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/indictbump.json",
     "path": "/buffs/indictbump/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11177,6 +11850,7 @@ export const entries = [
     "slug": "the-feed",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/the-feed.json",
     "path": "/habitats/the-feed/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11318,6 +11992,7 @@ export const entries = [
     "slug": "rubber-chicken-circuit",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/rubber-chicken-circuit.json",
     "path": "/habitats/rubber-chicken-circuit/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11424,6 +12099,7 @@ export const entries = [
     "slug": "push-poll",
     "kind": "move",
     "kindLabel": "Move",
+    "source": "data/entries/moves/push-poll.json",
     "path": "/moves/push-poll/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11529,6 +12205,7 @@ export const entries = [
     "slug": "briefing-room",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/briefing-room.json",
     "path": "/habitats/briefing-room/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11647,6 +12324,7 @@ export const entries = [
     "slug": "spin-room",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/spin-room.json",
     "path": "/habitats/spin-room/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11751,6 +12429,7 @@ export const entries = [
     "slug": "rally",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/rally.json",
     "path": "/habitats/rally/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11876,6 +12555,7 @@ export const entries = [
     "slug": "frankincense",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/frankincense.json",
     "path": "/buffs/frankincense/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -11967,6 +12647,7 @@ export const entries = [
     "slug": "pseudo-event",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/pseudo-event.json",
     "path": "/habitats/pseudo-event/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12071,6 +12752,7 @@ export const entries = [
     "slug": "perp-walk",
     "kind": "habitat",
     "kindLabel": "Habitat",
+    "source": "data/entries/habitats/perp-walk.json",
     "path": "/habitats/perp-walk/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12175,6 +12857,7 @@ export const entries = [
     "slug": "access",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/access.json",
     "path": "/buffs/access/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12266,6 +12949,7 @@ export const entries = [
     "slug": "hot-mic",
     "kind": "buff",
     "kindLabel": "Buff",
+    "source": "data/entries/buffs/hot-mic.json",
     "path": "/buffs/hot-mic/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12345,10 +13029,454 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "WMD mongering",
+    "slug": "wmd-mongering",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/wmd-mongering.json",
+    "path": "/moves/wmd-mongering/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌdʌb.əl.juː.iːˈdiː ˈmʌŋ.ɡər.ɪŋ/",
+    "position": 24,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "English: the trade in weapons that may not exist, sold by the people who would know.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A war that needs a reason the public will accept before the evidence is in."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The case is a dossier, the dossier is a summary, and the summary is a mood."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Demand the inspectors’ report and the date, in public, before the vote. A threat that cannot survive inspection was a sales document."
+      }
+    ],
+    "voice": "The case is a dossier, the dossier is a summary, and the summary is a mood.",
+    "senses": [
+      "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory that is always forty-five minutes away.",
+      "It works because the public cannot audit a capability and the claim is unfalsifiable in the time available. By the time the inspectors publish, the vote is taken, the war is running, and the correction is a footnote in somebody else’s memoir."
+    ],
+    "notes": [],
+    "example": "“We cannot wait for the smoking gun to become a mushroom cloud” - **WMD mongering**, in the sentence that made waiting sound like complicity.",
+    "cite": null,
+    "summary": "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory...",
+    "confusedWith": [
+      {
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "tell": "Proof by assertion repeats the claim; WMD mongering manufactures the exhibit.",
+        "path": "/fallacies/proof-by-assertion/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
+      },
+      {
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "performs",
+        "label": "Performed by",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      }
+    ]
+  },
+  {
+    "term": "Lobbyism",
+    "slug": "lobbyism",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/lobbyism.json",
+    "path": "/abilities/lobbyism/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈlɒb.i.ɪ.zəm/",
+    "position": 25,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 1
+    },
+    "etymology": "From the lobby outside the chamber floor, with the -ism that turns a place into a system.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party’s letterhead already on it."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any body with a trade association, a district to spend in, and a former staffer to hire."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Read the bill’s authorship and the revolving door’s dates: who wrote it, and where they worked the year before."
+      }
+    ],
+    "voice": "The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party’s letterhead already on it.",
+    "senses": [
+      "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee’s friends.",
+      "It works because the legislator needs the expertise and the industry is the only body that funds it at scale. The information is real, the interest is real, and the two arrive in the same envelope."
+    ],
+    "notes": [],
+    "example": "“The bill was drafted with input from stakeholders” - **lobbyism** in one line: the stakeholders wrote it, and the input was the comma they removed.",
+    "cite": null,
+    "summary": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group...",
+    "confusedWith": [
+      {
+        "term": "Access",
+        "slug": "access",
+        "tell": "Access buys the meeting; lobbyism writes the text the meeting was about.",
+        "path": "/buffs/access/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "uses",
+        "label": "Used by",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      }
+    ]
+  },
+  {
+    "term": "PAC check",
+    "slug": "pac-check",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "source": "data/entries/buffs/pac-check.json",
+    "path": "/buffs/pac-check/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/pæk tʃek/",
+    "position": 26,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "American political finance: the committee's cheque, delivered before the vote and disclosed after it.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "A temporary condition in which a vote arrives already paid for: the maximum contribution, the bundled list, and a member who is grateful in a way that is entirely legal."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The money is disclosed after the vote and remembered at the next one."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "At the next filing deadline, or when the donor’s interest moves to a different committee."
+      }
+    ],
+    "voice": "The money is disclosed after the vote and remembered at the next one.",
+    "senses": [
+      "The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt.",
+      "It works because nothing about it is a secret. The amount is public, the timing is legal, and the favour is never written down - a transaction with a receipt and no contract."
+    ],
+    "notes": [],
+    "example": "“Our support reflects a shared commitment to the district” - the **PAC check** was itemised in the filing, one month before the markup.",
+    "cite": null,
+    "summary": "The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt.",
+    "confusedWith": [
+      {
+        "term": "Coattails",
+        "slug": "coattails",
+        "tell": "Coattails carry a candidate on somebody else’s popularity; a PAC check carries a vote on somebody else’s money.",
+        "path": "/buffs/coattails/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/"
+      },
+      {
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
+      }
+    ],
+    "edges": [],
+    "backlinks": []
+  },
+  {
+    "term": "Oil diplomacy",
+    "slug": "oil-diplomacy",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/oil-diplomacy.json",
+    "path": "/abilities/oil-diplomacy/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ɔɪl dɪˈpləʊ.mə.si/",
+    "position": 27,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English: foreign policy conducted through the price of a barrel, where the communiqué is written in the futures market.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "The capability of a state to convert a commodity into leverage: the pipeline is the argument, the price is the concession, and the alliance is renewed at the pump."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any government that sits on the thing everyone else has to burn."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Decouple the price from the policy: storage, substitutes, and a treaty that does not expire with the spot price."
+      }
+    ],
+    "voice": "The capability of a state to convert a commodity into leverage: the pipeline is the argument, the price is the concession, and the alliance is renewed at the pump.",
+    "senses": [
+      "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really a market position.",
+      "It works because the commodity is real and the leverage is measurable. A state that can move the price can move the government that buys it, and no memorandum of understanding is as binding as a winter."
+    ],
+    "notes": [],
+    "example": "“We discussed energy security” - **oil diplomacy**: the two governments discussed the price, and the price was the discussion.",
+    "cite": null,
+    "summary": "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really a...",
+    "confusedWith": [
+      {
+        "term": "Appeal to force",
+        "slug": "appeal-to-force",
+        "tell": "The appeal to force threatens the harm; oil diplomacy prices it, and a price is easier to agree with.",
+        "path": "/fallacies/appeal-to-force/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
+      },
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      }
+    ],
+    "edges": [],
+    "backlinks": []
+  },
+  {
+    "term": "Climate hoax",
+    "slug": "climate-hoax",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/climate-hoax.json",
+    "path": "/abilities/climate-hoax/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈklaɪ.mət həʊks/",
+    "position": 28,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English: the finding relabelled as a fraud, so that the measurement becomes a motive.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "The capability of a funded interest to convert a measurement into an opinion: the thermometer is real, the reading is a debate, and the debate is the product."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any interest that needs the finding to stay a controversy for one more budget cycle."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what would falsify it, then point at the number that has not moved. A hoax is a claim with no test; this one has forty years of them."
+      }
+    ],
+    "voice": "The capability of a funded interest to convert a measurement into an opinion: the thermometer is real, the reading is a debate, and the debate is the product.",
+    "senses": [
+      "The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else, the study that is always about to be published.",
+      "It works because doubt is cheaper than denial. You do not have to win the argument, only keep it open - and an open argument is a reason to wait, which is the only policy the funder needed."
+    ],
+    "notes": [],
+    "example": "“The science isn’t settled” - the **climate hoax** in six words, forty years after the first consensus, by a body that had settled its own position in a memo.",
+    "cite": null,
+    "summary": "The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else...",
+    "confusedWith": [
+      {
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "tell": "Bothsidesing gives a finding equal time with its denial; the climate hoax is the campaign that made the denial worth airing.",
+        "path": "/moves/bothsidesing/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "uses",
+        "label": "Used by",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      }
+    ]
+  },
+  {
+    "term": "Forever war",
+    "slug": "forever-war",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/forever-war.json",
+    "path": "/abilities/forever-war/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/fəˈrev.ə wɔː/",
+    "position": 29,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "English: the war that outlives the debate that authorised it, renewed by the authorisation rather than by a vote.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "The capability of a conflict to keep going without being decided: the authorisation renews itself, the enemy becomes a noun, and the budget becomes a baseline."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any legislature that would rather not vote on it again."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A sunset clause with a date on it, and a renewal that has to be taken in daylight."
+      }
+    ],
+    "voice": "The capability of a conflict to keep going without being decided: the authorisation renews itself, the enemy becomes a noun, and the budget becomes a baseline.",
+    "senses": [
+      "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor rather than a decision, the enemy renamed so the paperwork still applies.",
+      "It works because ending a war requires a majority and continuing one requires only inertia. Each year’s appropriation is last year’s plus a little, and nobody has to defend the sum - only the increment."
+    ],
+    "notes": [],
+    "example": "“We remain engaged in the region” - a **forever war**, authorised before most of the current Congress was elected and renewed by nobody in particular.",
+    "cite": null,
+    "summary": "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor...",
+    "confusedWith": [
+      {
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "tell": "Omnibust bundles what cannot pass alone; a forever war is bundled with the last authorisation and never unbundled.",
+        "path": "/abilities/omnibust/"
+      }
+    ],
+    "related": [
+      {
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "uses",
+        "label": "Used by",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      }
+    ]
+  },
+  {
     "term": "Appeal to emotion",
     "slug": "appeal-to-emotion",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-emotion.json",
     "path": "/fallacies/appeal-to-emotion/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12480,6 +13608,7 @@ export const entries = [
     "slug": "appeal-to-fear",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-fear.json",
     "path": "/fallacies/appeal-to-fear/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12604,6 +13733,7 @@ export const entries = [
     "slug": "moving-the-goalposts",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/moving-the-goalposts.json",
     "path": "/fallacies/moving-the-goalposts/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12693,6 +13823,7 @@ export const entries = [
     "slug": "survivorship-bias",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/survivorship-bias.json",
     "path": "/fallacies/survivorship-bias/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12782,6 +13913,7 @@ export const entries = [
     "slug": "association-fallacy",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/association-fallacy.json",
     "path": "/fallacies/association-fallacy/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12871,6 +14003,7 @@ export const entries = [
     "slug": "appeal-to-motive",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-motive.json",
     "path": "/fallacies/appeal-to-motive/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -12960,6 +14093,7 @@ export const entries = [
     "slug": "appeal-to-pity",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-pity.json",
     "path": "/fallacies/appeal-to-pity/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -13056,6 +14190,7 @@ export const entries = [
     "slug": "ad-nauseam",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/ad-nauseam.json",
     "path": "/fallacies/ad-nauseam/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -13159,6 +14294,7 @@ export const entries = [
     "slug": "appeal-to-novelty",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-novelty.json",
     "path": "/fallacies/appeal-to-novelty/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -13248,6 +14384,7 @@ export const entries = [
     "slug": "appeal-to-consequences",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-consequences.json",
     "path": "/fallacies/appeal-to-consequences/",
     "chapter": "fearmongering-grift",
     "chapterRoman": "IV",
@@ -13337,6 +14474,7 @@ export const entries = [
     "slug": "passoffist",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/passoffist.json",
     "path": "/species/passoffist/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -13453,6 +14591,13 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
       }
     ]
   },
@@ -13461,6 +14606,7 @@ export const entries = [
     "slug": "provocrop",
     "kind": "species",
     "kindLabel": "Species",
+    "source": "data/entries/species/provocrop.json",
     "path": "/species/provocrop/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -13570,6 +14716,13 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
       }
     ]
   },
@@ -13578,6 +14731,7 @@ export const entries = [
     "slug": "hasty-generalization",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/hasty-generalization.json",
     "path": "/fallacies/hasty-generalization/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -13681,6 +14835,7 @@ export const entries = [
     "slug": "cherry-picking",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/cherry-picking.json",
     "path": "/fallacies/cherry-picking/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -13791,6 +14946,7 @@ export const entries = [
     "slug": "false-equivalence",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/false-equivalence.json",
     "path": "/fallacies/false-equivalence/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -13887,6 +15043,7 @@ export const entries = [
     "slug": "anecdotal-evidence",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/anecdotal-evidence.json",
     "path": "/fallacies/anecdotal-evidence/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -13976,6 +15133,7 @@ export const entries = [
     "slug": "equivocation",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/equivocation.json",
     "path": "/fallacies/equivocation/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14086,6 +15244,7 @@ export const entries = [
     "slug": "tu-quoque",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/tu-quoque.json",
     "path": "/fallacies/tu-quoque/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14196,6 +15355,7 @@ export const entries = [
     "slug": "whataboutism",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/whataboutism.json",
     "path": "/fallacies/whataboutism/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14299,6 +15459,7 @@ export const entries = [
     "slug": "appeal-to-ridicule",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-ridicule.json",
     "path": "/fallacies/appeal-to-ridicule/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14402,6 +15563,7 @@ export const entries = [
     "slug": "argumentum-ad-populum",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/argumentum-ad-populum.json",
     "path": "/fallacies/argumentum-ad-populum/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14540,6 +15702,7 @@ export const entries = [
     "slug": "thought-terminating-cliche",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/thought-terminating-cliche.json",
     "path": "/fallacies/thought-terminating-cliche/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14650,6 +15813,7 @@ export const entries = [
     "slug": "false-attribution",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/false-attribution.json",
     "path": "/fallacies/false-attribution/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14746,6 +15910,7 @@ export const entries = [
     "slug": "shifting-the-burden-of-proof",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/shifting-the-burden-of-proof.json",
     "path": "/fallacies/shifting-the-burden-of-proof/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14856,6 +16021,7 @@ export const entries = [
     "slug": "gish-gallop",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/gish-gallop.json",
     "path": "/fallacies/gish-gallop/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -14973,6 +16139,7 @@ export const entries = [
     "slug": "appeal-to-the-stone",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/appeal-to-the-stone.json",
     "path": "/fallacies/appeal-to-the-stone/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -15069,6 +16236,7 @@ export const entries = [
     "slug": "shifting-baseline",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/shifting-baseline.json",
     "path": "/fallacies/shifting-baseline/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -15165,6 +16333,7 @@ export const entries = [
     "slug": "creeping-normality",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/creeping-normality.json",
     "path": "/fallacies/creeping-normality/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -15266,6 +16435,7 @@ export const entries = [
     "slug": "normalcy-bias",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/normalcy-bias.json",
     "path": "/fallacies/normalcy-bias/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -15360,6 +16530,7 @@ export const entries = [
     "slug": "just-world-hypothesis",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
+    "source": "data/entries/fallacies/just-world-hypothesis.json",
     "path": "/fallacies/just-world-hypothesis/",
     "chapter": "normalization",
     "chapterRoman": "V",
@@ -15454,6 +16625,7 @@ export const entries = [
     "slug": "the-clerk",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-clerk.json",
     "path": "/keystones/the-clerk/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -15570,6 +16742,7 @@ export const entries = [
     "slug": "the-poll-worker",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-poll-worker.json",
     "path": "/keystones/the-poll-worker/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -15672,6 +16845,7 @@ export const entries = [
     "slug": "the-archivist",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-archivist.json",
     "path": "/keystones/the-archivist/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -15788,6 +16962,7 @@ export const entries = [
     "slug": "the-librarian",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-librarian.json",
     "path": "/keystones/the-librarian/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -15883,6 +17058,7 @@ export const entries = [
     "slug": "the-caseworker",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-caseworker.json",
     "path": "/keystones/the-caseworker/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -15985,6 +17161,7 @@ export const entries = [
     "slug": "the-editor",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-editor.json",
     "path": "/keystones/the-editor/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16087,6 +17264,7 @@ export const entries = [
     "slug": "the-moderator",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-moderator.json",
     "path": "/keystones/the-moderator/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16203,6 +17381,7 @@ export const entries = [
     "slug": "the-auditor",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-auditor.json",
     "path": "/keystones/the-auditor/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16303,6 +17482,7 @@ export const entries = [
     "slug": "records-request",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/records-request.json",
     "path": "/remedies/records-request/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16427,6 +17607,7 @@ export const entries = [
     "slug": "the-transcript",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-transcript.json",
     "path": "/remedies/the-transcript/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16565,6 +17746,7 @@ export const entries = [
     "slug": "lateral-reading",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/lateral-reading.json",
     "path": "/remedies/lateral-reading/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16675,6 +17857,7 @@ export const entries = [
     "slug": "the-second-source",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-second-source.json",
     "path": "/remedies/the-second-source/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16785,6 +17968,7 @@ export const entries = [
     "slug": "the-steelman",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-steelman.json",
     "path": "/remedies/the-steelman/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16900,6 +18084,7 @@ export const entries = [
     "slug": "the-public-count",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-public-count.json",
     "path": "/remedies/the-public-count/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -16967,9 +18152,9 @@ export const entries = [
         "path": "/keystones/the-poll-worker/"
       },
       {
-        "term": "Records request",
-        "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
       }
     ],
     "edges": [
@@ -17003,6 +18188,7 @@ export const entries = [
     "slug": "the-written-reason",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-written-reason.json",
     "path": "/remedies/the-written-reason/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17127,6 +18313,7 @@ export const entries = [
     "slug": "the-audit",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-audit.json",
     "path": "/remedies/the-audit/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17249,6 +18436,7 @@ export const entries = [
     "slug": "random-draw",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/random-draw.json",
     "path": "/remedies/random-draw/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17342,6 +18530,7 @@ export const entries = [
     "slug": "fee-shift",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/fee-shift.json",
     "path": "/remedies/fee-shift/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17435,6 +18624,7 @@ export const entries = [
     "slug": "sunset-clause",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/sunset-clause.json",
     "path": "/remedies/sunset-clause/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17528,6 +18718,7 @@ export const entries = [
     "slug": "the-ombudsman",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-ombudsman.json",
     "path": "/keystones/the-ombudsman/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17623,6 +18814,7 @@ export const entries = [
     "slug": "the-public-defender",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-public-defender.json",
     "path": "/keystones/the-public-defender/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17725,6 +18917,7 @@ export const entries = [
     "slug": "the-translator",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-translator.json",
     "path": "/keystones/the-translator/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17827,6 +19020,7 @@ export const entries = [
     "slug": "the-juror",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-juror.json",
     "path": "/keystones/the-juror/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -17934,6 +19128,7 @@ export const entries = [
     "slug": "the-statistician",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-statistician.json",
     "path": "/keystones/the-statistician/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -18032,120 +19227,11 @@ export const entries = [
     "backlinks": []
   },
   {
-    "term": "Notice and comment",
-    "slug": "notice-and-comment",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "path": "/remedies/notice-and-comment/",
-    "chapter": "keystones",
-    "chapterRoman": "VI",
-    "chapterTitle": "The Keystones",
-    "partOfSpeech": "noun",
-    "ipa": "/ˈnəʊ.tɪs ənd ˈkɒm.ent/",
-    "position": 25,
-    "sort": {
-      "impact": 4,
-      "abuse": 2,
-      "blowback": 3
-    },
-    "etymology": "American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.",
-    "identification": [
-      {
-        "key": "effect",
-        "label": "Effect",
-        "type": "text",
-        "value": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect."
-      },
-      {
-        "key": "costs",
-        "label": "Costs",
-        "type": "text",
-        "value": "Sixty days, a docket to read, and a comment that engages with the text rather than the mood."
-      },
-      {
-        "key": "failure",
-        "label": "Failure mode",
-        "type": "text",
-        "value": "The comment period that is technically open, and the final rule identical to the draft with the comments answered in a paragraph."
-      },
-      {
-        "key": "tell",
-        "label": "Tell",
-        "type": "list",
-        "value": [
-          "A docket number",
-          "A response to comments",
-          "A difference between the proposed and the final text"
-        ]
-      }
-    ],
-    "voice": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.",
-    "senses": [
-      "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state’s version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
-      "It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles."
-    ],
-    "notes": [],
-    "example": "“The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned.”",
-    "cite": null,
-    "summary": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative...",
-    "confusedWith": [
-      {
-        "term": "School board meeting",
-        "slug": "school-board-meeting",
-        "tell": "The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.",
-        "path": "/habitats/school-board-meeting/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Signaway",
-        "slug": "signaway",
-        "path": "/abilities/signaway/"
-      },
-      {
-        "term": "The written reason",
-        "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
-      }
-    ],
-    "edges": [
-      {
-        "rel": "counters",
-        "label": "Counters",
-        "term": "Signaway",
-        "slug": "signaway",
-        "path": "/abilities/signaway/"
-      },
-      {
-        "rel": "counters",
-        "label": "Counters",
-        "term": "School board meeting",
-        "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
-      },
-      {
-        "rel": "counters",
-        "label": "Counters",
-        "term": "Ragesturbationist",
-        "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
-      }
-    ],
-    "backlinks": [
-      {
-        "rel": "practises",
-        "label": "Practised by",
-        "term": "The redistricting commission",
-        "slug": "the-redistricting-commission",
-        "path": "/keystones/the-redistricting-commission/"
-      }
-    ]
-  },
-  {
     "term": "Recusal",
     "slug": "recusal",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/recusal.json",
     "path": "/remedies/recusal/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -18234,6 +19320,7 @@ export const entries = [
     "slug": "cross-examination",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/cross-examination.json",
     "path": "/remedies/cross-examination/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -18337,6 +19424,7 @@ export const entries = [
     "slug": "the-stay",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-stay.json",
     "path": "/remedies/the-stay/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -18425,6 +19513,7 @@ export const entries = [
     "slug": "the-redistricting-commission",
     "kind": "keystone",
     "kindLabel": "Keystone",
+    "source": "data/entries/keystones/the-redistricting-commission.json",
     "path": "/keystones/the-redistricting-commission/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -18520,6 +19609,7 @@ export const entries = [
     "slug": "the-carve-out",
     "kind": "remedy",
     "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-carve-out.json",
     "path": "/remedies/the-carve-out/",
     "chapter": "keystones",
     "chapterRoman": "VI",
@@ -18602,5 +19692,130 @@ export const entries = [
       }
     ],
     "backlinks": []
+  },
+  {
+    "term": "Notice and comment",
+    "slug": "notice-and-comment",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "source": "data/entries/remedies/notice-and-comment.json",
+    "path": "/remedies/notice-and-comment/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈnəʊ.tɪs ənd ˈkɒm.ent/",
+    "position": 31,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Sixty days, a docket to read, and a comment that engages with the text rather than the mood."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The comment period that is technically open, and the final rule identical to the draft with the comments answered in a paragraph."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A docket number",
+          "A response to comments",
+          "A difference between the proposed and the final text"
+        ]
+      }
+    ],
+    "voice": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.",
+    "senses": [
+      "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state’s version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
+      "It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles."
+    ],
+    "notes": [],
+    "example": "“The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned.”",
+    "cite": null,
+    "summary": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative...",
+    "confusedWith": [
+      {
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "tell": "The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.",
+        "path": "/habitats/school-board-meeting/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The redistricting commission",
+        "slug": "the-redistricting-commission",
+        "path": "/keystones/the-redistricting-commission/"
+      }
+    ]
   }
 ]

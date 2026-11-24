@@ -104,4 +104,4 @@ body:
       placeholder: "Occasion: ... Call: ... Tell: ... Counter: ..."
   - type: markdown
     attributes:
-      value: "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
+      value: "A proposal lands as a record under `data/entries/<kind>/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."

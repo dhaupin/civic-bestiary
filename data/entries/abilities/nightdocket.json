@@ -23,8 +23,8 @@
   "example": "*\"The **nightdocket** granted the stay at 11:40 p.m., one paragraph, no signature, and by morning the policy was suspended and the reasoning was a footnote in somebody else's brief.\"*",
   "related": [
     "Blueslip",
-    "Pocketveto",
-    "The stay"
+    "The stay",
+    "Secret meeting"
   ],
   "edges": [
     {

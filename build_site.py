@@ -104,6 +104,9 @@ def build(doc):
                 "slug": slug,
                 "kind": entry["kind"],
                 "kindLabel": spec["label"],
+                # The record's own file, so every page can offer "view data"
+                # without anyone hand-maintaining a second path.
+                "source": f"data/entries/{entry['_folder']}/{entry['_file']}",
                 "path": f"{spec['path']}{slug}/",
                 "chapter": chapter["id"],
                 "chapterRoman": chapter["roman"],

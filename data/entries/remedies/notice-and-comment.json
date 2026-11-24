@@ -2,7 +2,7 @@
   "term": "Notice and comment",
   "kind": "remedy",
   "chapter": "keystones",
-  "position": 25,
+  "position": 31,
   "part_of_speech": "noun",
   "ipa": "/ˈnəʊ.tɪs ənd ˈkɒm.ent/",
   "etymology": "American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.",
@@ -43,6 +43,14 @@
     {
       "rel": "counters",
       "to": "Ragesturbationist"
+    },
+    {
+      "rel": "counters",
+      "to": "Passoffist"
+    },
+    {
+      "rel": "counters",
+      "to": "Provocrop"
     }
   ],
   "sort": {

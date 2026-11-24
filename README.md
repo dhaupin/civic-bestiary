@@ -38,165 +38,178 @@ The fallacies work the other way round. They are not coinages and are not ours: 
   - [15. Convention bounce](#15-convention-bounce)
   - [16. Cloture](#16-cloture)
   - [17. Discharge petition](#17-discharge-petition)
-  - [18. Slippery slope](#18-slippery-slope)
-  - [19. No true Scotsman](#19-no-true-scotsman)
-  - [20. Appeal to tradition](#20-appeal-to-tradition)
-  - [21. Appeal to nature](#21-appeal-to-nature)
-  - [22. Proof by assertion](#22-proof-by-assertion)
-  - [23. Sunk cost fallacy](#23-sunk-cost-fallacy)
-  - [24. I'm entitled to my opinion](#24-im-entitled-to-my-opinion)
+  - [18. Vague promises](#18-vague-promises)
+  - [19. Citizens United](#19-citizens-united)
+  - [20. Slippery slope](#20-slippery-slope)
+  - [21. No true Scotsman](#21-no-true-scotsman)
+  - [22. Appeal to tradition](#22-appeal-to-tradition)
+  - [23. Appeal to nature](#23-appeal-to-nature)
+  - [24. Proof by assertion](#24-proof-by-assertion)
+  - [25. Sunk cost fallacy](#25-sunk-cost-fallacy)
+  - [26. I'm entitled to my opinion](#26-im-entitled-to-my-opinion)
 - [II. Bad-Faith Debate & Epistemic Breakdown](#ii-bad-faith-debate--epistemic-breakdown)
-  - [25. Sophistroll](#25-sophistroll)
-  - [26. Illogician](#26-illogician)
-  - [27. JAQing Off](#27-jaqing-off)
-  - [28. Trust-Me-Brofessor](#28-trust-me-brofessor)
-  - [29. Biasographer](#29-biasographer)
-  - [30. Bleatkeeper](#30-bleatkeeper)
-  - [31. Equivangelist](#31-equivangelist)
-  - [32. Gallopologist](#32-gallopologist)
-  - [33. Decorumancer](#33-decorumancer)
-  - [34. Comment section](#34-comment-section)
-  - [35. Bothsidesing](#35-bothsidesing)
-  - [36. Vaguebooking](#36-vaguebooking)
-  - [37. Receiptbomb](#37-receiptbomb)
-  - [38. Dead cat](#38-dead-cat)
-  - [39. Trial balloon](#39-trial-balloon)
-  - [40. Friday news dump](#40-friday-news-dump)
-  - [41. Astroturfing](#41-astroturfing)
-  - [42. Motte hop](#42-motte-hop)
-  - [43. Heckler's veto](#43-hecklers-veto)
-  - [44. Flood the zone](#44-flood-the-zone)
-  - [45. Ad hominem](#45-ad-hominem)
-  - [46. Straw man](#46-straw-man)
-  - [47. Appeal to authority](#47-appeal-to-authority)
-  - [48. False dilemma](#48-false-dilemma)
-  - [49. Loaded question](#49-loaded-question)
-  - [50. Circular reasoning](#50-circular-reasoning)
-  - [51. Argument from ignorance](#51-argument-from-ignorance)
-  - [52. Tone policing](#52-tone-policing)
-  - [53. Motte-and-bailey fallacy](#53-motte-and-bailey-fallacy)
-  - [54. Texas sharpshooter fallacy](#54-texas-sharpshooter-fallacy)
-  - [55. Poisoning the well](#55-poisoning-the-well)
-  - [56. Nut-picking](#56-nut-picking)
-  - [57. Sealioning](#57-sealioning)
-  - [58. Kafka trap](#58-kafka-trap)
-  - [59. Bulverism](#59-bulverism)
-  - [60. Nirvana fallacy](#60-nirvana-fallacy)
-  - [61. Base rate fallacy](#61-base-rate-fallacy)
-  - [62. Appeal to force](#62-appeal-to-force)
-  - [63. The fallacy fallacy](#63-the-fallacy-fallacy)
-  - [64. McNamara fallacy](#64-mcnamara-fallacy)
+  - [27. Sophistroll](#27-sophistroll)
+  - [28. Illogician](#28-illogician)
+  - [29. JAQing Off](#29-jaqing-off)
+  - [30. Trust-Me-Brofessor](#30-trust-me-brofessor)
+  - [31. Biasographer](#31-biasographer)
+  - [32. Bleatkeeper](#32-bleatkeeper)
+  - [33. Equivangelist](#33-equivangelist)
+  - [34. Gallopologist](#34-gallopologist)
+  - [35. Decorumancer](#35-decorumancer)
+  - [36. Comment section](#36-comment-section)
+  - [37. Bothsidesing](#37-bothsidesing)
+  - [38. Vaguebooking](#38-vaguebooking)
+  - [39. Receiptbomb](#39-receiptbomb)
+  - [40. Dead cat](#40-dead-cat)
+  - [41. Trial balloon](#41-trial-balloon)
+  - [42. Friday news dump](#42-friday-news-dump)
+  - [43. Astroturfing](#43-astroturfing)
+  - [44. Motte hop](#44-motte-hop)
+  - [45. Heckler's veto](#45-hecklers-veto)
+  - [46. Flood the zone](#46-flood-the-zone)
+  - [47. Good cop, bad cop](#47-good-cop-bad-cop)
+  - [48. Ad hominem](#48-ad-hominem)
+  - [49. Straw man](#49-straw-man)
+  - [50. Appeal to authority](#50-appeal-to-authority)
+  - [51. False dilemma](#51-false-dilemma)
+  - [52. Loaded question](#52-loaded-question)
+  - [53. Circular reasoning](#53-circular-reasoning)
+  - [54. Argument from ignorance](#54-argument-from-ignorance)
+  - [55. Tone policing](#55-tone-policing)
+  - [56. Motte-and-bailey fallacy](#56-motte-and-bailey-fallacy)
+  - [57. Texas sharpshooter fallacy](#57-texas-sharpshooter-fallacy)
+  - [58. Poisoning the well](#58-poisoning-the-well)
+  - [59. Nut-picking](#59-nut-picking)
+  - [60. Sealioning](#60-sealioning)
+  - [61. Kafka trap](#61-kafka-trap)
+  - [62. Bulverism](#62-bulverism)
+  - [63. Nirvana fallacy](#63-nirvana-fallacy)
+  - [64. Base rate fallacy](#64-base-rate-fallacy)
+  - [65. Appeal to force](#65-appeal-to-force)
+  - [66. The fallacy fallacy](#66-the-fallacy-fallacy)
+  - [67. McNamara fallacy](#67-mcnamara-fallacy)
 - [III. Hypocrisy, Revisionism & Authoritarian Submission](#iii-hypocrisy-revisionism--authoritarian-submission)
-  - [65. Hypocontortionist](#65-hypocontortionist)
-  - [66. Mythstorian](#66-mythstorian)
-  - [67. Bootcurious](#67-bootcurious)
-  - [68. Crookmaxxing](#68-crookmaxxing)
-  - [69. Capitulectual](#69-capitulectual)
-  - [70. Subpoenado](#70-subpoenado)
-  - [71. Cronycle](#71-cronycle)
-  - [72. Nonpology](#72-nonpology)
-  - [73. School board meeting](#73-school-board-meeting)
-  - [74. Blueslip](#74-blueslip)
-  - [75. Recessure](#75-recessure)
-  - [76. Signaway](#76-signaway)
-  - [77. Lame duck](#77-lame-duck)
-  - [78. Judge shopping](#78-judge-shopping)
-  - [79. SLAPP](#79-slapp)
-  - [80. NDA](#80-nda)
-  - [81. Qualified immunity](#81-qualified-immunity)
-  - [82. Consent decree](#82-consent-decree)
-  - [83. Two wrongs make a right](#83-two-wrongs-make-a-right)
-  - [84. Post hoc ergo propter hoc](#84-post-hoc-ergo-propter-hoc)
-  - [85. Special pleading](#85-special-pleading)
-  - [86. Argument to moderation](#86-argument-to-moderation)
-  - [87. False balance](#87-false-balance)
-  - [88. Argument from silence](#88-argument-from-silence)
+  - [68. Hypocontortionist](#68-hypocontortionist)
+  - [69. Mythstorian](#69-mythstorian)
+  - [70. Bootcurious](#70-bootcurious)
+  - [71. Crookmaxxing](#71-crookmaxxing)
+  - [72. Capitulectual](#72-capitulectual)
+  - [73. Subpoenado](#73-subpoenado)
+  - [74. Cronycle](#74-cronycle)
+  - [75. Nonpology](#75-nonpology)
+  - [76. School board meeting](#76-school-board-meeting)
+  - [77. Blueslip](#77-blueslip)
+  - [78. Recessure](#78-recessure)
+  - [79. Signaway](#79-signaway)
+  - [80. Lame duck](#80-lame-duck)
+  - [81. Judge shopping](#81-judge-shopping)
+  - [82. SLAPP](#82-slapp)
+  - [83. NDA](#83-nda)
+  - [84. Qualified immunity](#84-qualified-immunity)
+  - [85. Consent decree](#85-consent-decree)
+  - [86. Breaking treaties](#86-breaking-treaties)
+  - [87. Secret meeting](#87-secret-meeting)
+  - [88. Good ol' boys club](#88-good-ol-boys-club)
+  - [89. Unelected official](#89-unelected-official)
+  - [90. Two wrongs make a right](#90-two-wrongs-make-a-right)
+  - [91. Post hoc ergo propter hoc](#91-post-hoc-ergo-propter-hoc)
+  - [92. Special pleading](#92-special-pleading)
+  - [93. Argument to moderation](#93-argument-to-moderation)
+  - [94. False balance](#94-false-balance)
+  - [95. Argument from silence](#95-argument-from-silence)
 - [IV. Fearmongering, Grift & Algorithmic Radicalization](#iv-fearmongering-grift--algorithmic-radicalization)
-  - [89. Xenophobricator](#89-xenophobricator)
-  - [90. Dramagogue](#90-dramagogue)
-  - [91. Ragesturbationist](#91-ragesturbationist)
-  - [92. Martyrholic](#92-martyrholic)
-  - [93. Algodemic](#93-algodemic)
-  - [94. Plutomartyr](#94-plutomartyr)
-  - [95. Slopagandist](#95-slopagandist)
-  - [96. Cable panel](#96-cable-panel)
-  - [97. Group chat](#97-group-chat)
-  - [98. Bluecheck](#98-bluecheck)
-  - [99. Crisisglow](#99-crisisglow)
-  - [100. Indictbump](#100-indictbump)
-  - [101. The Feed](#101-the-feed)
-  - [102. Rubber chicken circuit](#102-rubber-chicken-circuit)
-  - [103. Push poll](#103-push-poll)
-  - [104. Briefing room](#104-briefing-room)
-  - [105. Spin room](#105-spin-room)
-  - [106. Rally](#106-rally)
-  - [107. Frankincense](#107-frankincense)
-  - [108. Pseudo-event](#108-pseudo-event)
-  - [109. Perp walk](#109-perp-walk)
-  - [110. Access](#110-access)
-  - [111. Hot mic](#111-hot-mic)
-  - [112. Appeal to emotion](#112-appeal-to-emotion)
-  - [113. Appeal to fear](#113-appeal-to-fear)
-  - [114. Moving the goalposts](#114-moving-the-goalposts)
-  - [115. Survivorship bias](#115-survivorship-bias)
-  - [116. Association fallacy](#116-association-fallacy)
-  - [117. Appeal to motive](#117-appeal-to-motive)
-  - [118. Appeal to pity](#118-appeal-to-pity)
-  - [119. Ad nauseam](#119-ad-nauseam)
-  - [120. Appeal to novelty](#120-appeal-to-novelty)
-  - [121. Appeal to consequences](#121-appeal-to-consequences)
+  - [96. Xenophobricator](#96-xenophobricator)
+  - [97. Dramagogue](#97-dramagogue)
+  - [98. Ragesturbationist](#98-ragesturbationist)
+  - [99. Martyrholic](#99-martyrholic)
+  - [100. Algodemic](#100-algodemic)
+  - [101. Plutomartyr](#101-plutomartyr)
+  - [102. Slopagandist](#102-slopagandist)
+  - [103. Cable panel](#103-cable-panel)
+  - [104. Group chat](#104-group-chat)
+  - [105. Bluecheck](#105-bluecheck)
+  - [106. Crisisglow](#106-crisisglow)
+  - [107. Indictbump](#107-indictbump)
+  - [108. The Feed](#108-the-feed)
+  - [109. Rubber chicken circuit](#109-rubber-chicken-circuit)
+  - [110. Push poll](#110-push-poll)
+  - [111. Briefing room](#111-briefing-room)
+  - [112. Spin room](#112-spin-room)
+  - [113. Rally](#113-rally)
+  - [114. Frankincense](#114-frankincense)
+  - [115. Pseudo-event](#115-pseudo-event)
+  - [116. Perp walk](#116-perp-walk)
+  - [117. Access](#117-access)
+  - [118. Hot mic](#118-hot-mic)
+  - [119. WMD mongering](#119-wmd-mongering)
+  - [120. Lobbyism](#120-lobbyism)
+  - [121. PAC check](#121-pac-check)
+  - [122. Oil diplomacy](#122-oil-diplomacy)
+  - [123. Climate hoax](#123-climate-hoax)
+  - [124. Forever war](#124-forever-war)
+  - [125. Appeal to emotion](#125-appeal-to-emotion)
+  - [126. Appeal to fear](#126-appeal-to-fear)
+  - [127. Moving the goalposts](#127-moving-the-goalposts)
+  - [128. Survivorship bias](#128-survivorship-bias)
+  - [129. Association fallacy](#129-association-fallacy)
+  - [130. Appeal to motive](#130-appeal-to-motive)
+  - [131. Appeal to pity](#131-appeal-to-pity)
+  - [132. Ad nauseam](#132-ad-nauseam)
+  - [133. Appeal to novelty](#133-appeal-to-novelty)
+  - [134. Appeal to consequences](#134-appeal-to-consequences)
 - [V. Normalization, Numbness & the Noise Floor](#v-normalization-numbness--the-noise-floor)
-  - [122. Passoffist](#122-passoffist)
-  - [123. Provocrop](#123-provocrop)
-  - [124. Hasty generalization](#124-hasty-generalization)
-  - [125. Cherry picking](#125-cherry-picking)
-  - [126. False equivalence](#126-false-equivalence)
-  - [127. Anecdotal evidence](#127-anecdotal-evidence)
-  - [128. Equivocation](#128-equivocation)
-  - [129. Tu quoque](#129-tu-quoque)
-  - [130. Whataboutism](#130-whataboutism)
-  - [131. Appeal to ridicule](#131-appeal-to-ridicule)
-  - [132. Argumentum ad populum](#132-argumentum-ad-populum)
-  - [133. Thought-terminating cliché](#133-thought-terminating-cliche)
-  - [134. False attribution](#134-false-attribution)
-  - [135. Shifting the burden of proof](#135-shifting-the-burden-of-proof)
-  - [136. Gish gallop](#136-gish-gallop)
-  - [137. Appeal to the stone](#137-appeal-to-the-stone)
-  - [138. Shifting baseline](#138-shifting-baseline)
-  - [139. Creeping normality](#139-creeping-normality)
-  - [140. Normalcy bias](#140-normalcy-bias)
-  - [141. Just-world hypothesis](#141-just-world-hypothesis)
+  - [135. Passoffist](#135-passoffist)
+  - [136. Provocrop](#136-provocrop)
+  - [137. Hasty generalization](#137-hasty-generalization)
+  - [138. Cherry picking](#138-cherry-picking)
+  - [139. False equivalence](#139-false-equivalence)
+  - [140. Anecdotal evidence](#140-anecdotal-evidence)
+  - [141. Equivocation](#141-equivocation)
+  - [142. Tu quoque](#142-tu-quoque)
+  - [143. Whataboutism](#143-whataboutism)
+  - [144. Appeal to ridicule](#144-appeal-to-ridicule)
+  - [145. Argumentum ad populum](#145-argumentum-ad-populum)
+  - [146. Thought-terminating cliché](#146-thought-terminating-cliche)
+  - [147. False attribution](#147-false-attribution)
+  - [148. Shifting the burden of proof](#148-shifting-the-burden-of-proof)
+  - [149. Gish gallop](#149-gish-gallop)
+  - [150. Appeal to the stone](#150-appeal-to-the-stone)
+  - [151. Shifting baseline](#151-shifting-baseline)
+  - [152. Creeping normality](#152-creeping-normality)
+  - [153. Normalcy bias](#153-normalcy-bias)
+  - [154. Just-world hypothesis](#154-just-world-hypothesis)
 - [VI. The Keystones](#vi-the-keystones)
-  - [142. The clerk](#142-the-clerk)
-  - [143. The poll worker](#143-the-poll-worker)
-  - [144. The archivist](#144-the-archivist)
-  - [145. The librarian](#145-the-librarian)
-  - [146. The caseworker](#146-the-caseworker)
-  - [147. The editor](#147-the-editor)
-  - [148. The moderator](#148-the-moderator)
-  - [149. The auditor](#149-the-auditor)
-  - [150. Records request](#150-records-request)
-  - [151. The transcript](#151-the-transcript)
-  - [152. Lateral reading](#152-lateral-reading)
-  - [153. The second source](#153-the-second-source)
-  - [154. The steelman](#154-the-steelman)
-  - [155. The public count](#155-the-public-count)
-  - [156. The written reason](#156-the-written-reason)
-  - [157. The audit](#157-the-audit)
-  - [158. Random draw](#158-random-draw)
-  - [159. Fee shift](#159-fee-shift)
-  - [160. Sunset clause](#160-sunset-clause)
-  - [161. The ombudsman](#161-the-ombudsman)
-  - [162. The public defender](#162-the-public-defender)
-  - [163. The translator](#163-the-translator)
-  - [164. The juror](#164-the-juror)
-  - [165. The statistician](#165-the-statistician)
-  - [166. Notice and comment](#166-notice-and-comment)
-  - [167. Recusal](#167-recusal)
-  - [168. Cross-examination](#168-cross-examination)
-  - [169. The stay](#169-the-stay)
-  - [170. The redistricting commission](#170-the-redistricting-commission)
-  - [171. The carve-out](#171-the-carve-out)
+  - [155. The clerk](#155-the-clerk)
+  - [156. The poll worker](#156-the-poll-worker)
+  - [157. The archivist](#157-the-archivist)
+  - [158. The librarian](#158-the-librarian)
+  - [159. The caseworker](#159-the-caseworker)
+  - [160. The editor](#160-the-editor)
+  - [161. The moderator](#161-the-moderator)
+  - [162. The auditor](#162-the-auditor)
+  - [163. Records request](#163-records-request)
+  - [164. The transcript](#164-the-transcript)
+  - [165. Lateral reading](#165-lateral-reading)
+  - [166. The second source](#166-the-second-source)
+  - [167. The steelman](#167-the-steelman)
+  - [168. The public count](#168-the-public-count)
+  - [169. The written reason](#169-the-written-reason)
+  - [170. The audit](#170-the-audit)
+  - [171. Random draw](#171-random-draw)
+  - [172. Fee shift](#172-fee-shift)
+  - [173. Sunset clause](#173-sunset-clause)
+  - [174. The ombudsman](#174-the-ombudsman)
+  - [175. The public defender](#175-the-public-defender)
+  - [176. The translator](#176-the-translator)
+  - [177. The juror](#177-the-juror)
+  - [178. The statistician](#178-the-statistician)
+  - [179. Recusal](#179-recusal)
+  - [180. Cross-examination](#180-cross-examination)
+  - [181. The stay](#181-the-stay)
+  - [182. The redistricting commission](#182-the-redistricting-commission)
+  - [183. The carve-out](#183-the-carve-out)
+  - [184. Notice and comment](#184-notice-and-comment)
 
 ---
 
@@ -216,8 +229,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot."*
 * **Easily confused with:** *LARPtarian* - Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle.
-* **Commits:** [*Appeal to emotion*](#112-appeal-to-emotion), [*Appeal to tradition*](#20-appeal-to-tradition), [*Sunk cost fallacy*](#23-sunk-cost-fallacy), [*Argumentum ad populum*](#132-argumentum-ad-populum)
-* **Related Terms:** [*Sabotriot*](#5-sabotriot), [*Frankincense*](#107-frankincense)
+* **Commits:** [*Appeal to emotion*](#125-appeal-to-emotion), [*Appeal to tradition*](#22-appeal-to-tradition), [*Sunk cost fallacy*](#25-sunk-cost-fallacy), [*Argumentum ad populum*](#145-argumentum-ad-populum)
+* **Related Terms:** [*Sabotriot*](#5-sabotriot), [*Frankincense*](#114-frankincense)
 
 ---
 
@@ -236,7 +249,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Etymology & Usage Note:** Derived from the traditional verb *retard* (as in *fire-retardant*), signifying an understanding of freedom actively slowed or stunted by external agendas. Because the suffix *-tard* is commonly used online as an ableist slur, readers unfamiliar with this specific root framing may still interpret the word as derogatory without context.
 * **Example:** *"Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right."*
 * **Easily confused with:** *Critizen* - The freetard wants no rules; the critizen insists there already are none that apply to him.
-* **Commits:** [*Appeal to nature*](#21-appeal-to-nature), [*Two wrongs make a right*](#83-two-wrongs-make-a-right)
+* **Commits:** [*Appeal to nature*](#23-appeal-to-nature), [*Two wrongs make a right*](#90-two-wrongs-make-a-right)
 * **Related Terms:** [*LARPtarian*](#3-larptarian), [*Playtriot*](#1-playtriot)
 
 ---
@@ -255,8 +268,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior."*
 * **Easily confused with:** *Playtriot* - The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer.
-* **Commits:** [*No true Scotsman*](#19-no-true-scotsman), [*Appeal to tradition*](#20-appeal-to-tradition), [*Appeal to the stone*](#137-appeal-to-the-stone), [*Survivorship bias*](#115-survivorship-bias)
-* **Related Terms:** [*Critizen*](#4-critizen), [*Bootcurious*](#67-bootcurious), [*Freetard*](#2-freetard)
+* **Commits:** [*No true Scotsman*](#21-no-true-scotsman), [*Appeal to tradition*](#22-appeal-to-tradition), [*Appeal to the stone*](#150-appeal-to-the-stone), [*Survivorship bias*](#128-survivorship-bias)
+* **Related Terms:** [*Critizen*](#4-critizen), [*Bootcurious*](#70-bootcurious), [*Freetard*](#2-freetard)
 
 ---
 
@@ -275,8 +288,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Former name:** Formerly **Sovereign Shillizen**, a name that aimed at the shill and missed the wider species: the shillizen is one costume the critizen wears, and not the most common one.
 * **Example:** *"Pulled over on plates he had printed himself, the **critizen** explained that he was travelling rather than driving, and that the officer was a corporation."*
 * **Easily confused with:** *Freetard* - The critizen has a theory about why the rule is void; the freetard has a feeling that it should be.
-* **Commits:** [*Equivocation*](#128-equivocation), [*Argument from ignorance*](#51-argument-from-ignorance), [*I'm entitled to my opinion*](#24-im-entitled-to-my-opinion), [*Just-world hypothesis*](#141-just-world-hypothesis)
-* **Related Terms:** [*LARPtarian*](#3-larptarian), [*Crookmaxxing*](#68-crookmaxxing), [*Playtriot*](#1-playtriot)
+* **Commits:** [*Equivocation*](#141-equivocation), [*Argument from ignorance*](#54-argument-from-ignorance), [*I'm entitled to my opinion*](#26-im-entitled-to-my-opinion), [*Just-world hypothesis*](#154-just-world-hypothesis)
+* **Related Terms:** [*LARPtarian*](#3-larptarian), [*Crookmaxxing*](#71-crookmaxxing), [*Playtriot*](#1-playtriot)
 
 ---
 
@@ -294,8 +307,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Cheerfully voting to defund his own town's hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**."*
 * **Easily confused with:** *Playtriot* - A playtriot performs the loyalty; a sabotriot votes it into your hospital's closure.
-* **Commits:** [*Slippery slope*](#18-slippery-slope), [*Sunk cost fallacy*](#23-sunk-cost-fallacy), [*Appeal to force*](#62-appeal-to-force)
-* **Related Terms:** [*Martyrholic*](#92-martyrholic), [*Bootcurious*](#67-bootcurious)
+* **Commits:** [*Slippery slope*](#20-slippery-slope), [*Sunk cost fallacy*](#25-sunk-cost-fallacy), [*Appeal to force*](#65-appeal-to-force)
+* **Related Terms:** [*Martyrholic*](#99-martyrholic), [*Bootcurious*](#70-bootcurious)
 
 ---
 
@@ -313,8 +326,9 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale."*
 * **Easily confused with:** *Ragesturbationist* - The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it.
+* **Uses:** [*Citizens United*](#19-citizens-united)
 * **Houses:** [*Patriotainer*](#7-patriotainer), [*Playtriot*](#1-playtriot)
-* **Commits:** [*Proof by assertion*](#22-proof-by-assertion), [*Thought-terminating cliché*](#133-thought-terminating-cliche), [*Gish gallop*](#136-gish-gallop)
+* **Commits:** [*Proof by assertion*](#24-proof-by-assertion), [*Thought-terminating cliché*](#146-thought-terminating-cliche), [*Gish gallop*](#149-gish-gallop)
 * **Related Terms:** [*Playtriot*](#1-playtriot), [*Sabotriot*](#5-sabotriot), [*Patriotainer*](#7-patriotainer)
 
 ---
@@ -334,9 +348,9 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break."*
 * **Easily confused with:** *Playtriot* - The playtriot performs for free and believes it; the patriotainer performs on contract and invoices for it.
 * **Easily confused with:** *Patriotainment* - The format is the show; the patriotainer is the person the show is built around - and the one who gets replaced when the timeslot moves.
-* **Performs:** [*JAQing Off*](#27-jaqing-off)
-* **Commits:** [*Proof by assertion*](#22-proof-by-assertion), [*Appeal to emotion*](#112-appeal-to-emotion), [*Appeal to ridicule*](#131-appeal-to-ridicule), [*Straw man*](#46-straw-man)
-* **Related Terms:** [*Rubber chicken circuit*](#102-rubber-chicken-circuit)
+* **Performs:** [*JAQing Off*](#29-jaqing-off), [*Vague promises*](#18-vague-promises)
+* **Commits:** [*Proof by assertion*](#24-proof-by-assertion), [*Appeal to emotion*](#125-appeal-to-emotion), [*Appeal to ridicule*](#144-appeal-to-ridicule), [*Straw man*](#49-straw-man)
+* **Related Terms:** [*Rubber chicken circuit*](#109-rubber-chicken-circuit)
 
 ---
 
@@ -353,8 +367,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He read the bill's table of contents, then the Bible, then his own memoir; by hour nine the compromise was dead and the cameras had gone home - a textbook **filibluster**."*
 * **Easily confused with:** *Omnibust* - The filibluster is performed aloud, for the clock; the omnibust is performed at 3 a.m., for the printer.
-* **Commits:** [*Ad nauseam*](#119-ad-nauseam), [*Gish gallop*](#136-gish-gallop)
-* **Related Terms:** [*Dramagogue*](#90-dramagogue), [*Patriotainer*](#7-patriotainer)
+* **Commits:** [*Ad nauseam*](#132-ad-nauseam), [*Gish gallop*](#149-gish-gallop)
+* **Related Terms:** [*Dramagogue*](#97-dramagogue), [*Patriotainer*](#7-patriotainer)
 
 ---
 
@@ -371,8 +385,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The county split cleanly down a cul-de-sac, and the incumbent's house landed in a district with none of his old voters - the **gerrythm** had run overnight and nobody had seen the code."*
 * **Easily confused with:** *Filibluster* - The filibluster wins the hour; the gerrythm wins the decade.
-* **Commits:** [*Texas sharpshooter fallacy*](#54-texas-sharpshooter-fallacy), [*Cherry picking*](#125-cherry-picking)
-* **Related Terms:** [*The redistricting commission*](#170-the-redistricting-commission), [*Algodemic*](#93-algodemic), [*Omnibust*](#10-omnibust)
+* **Commits:** [*Texas sharpshooter fallacy*](#57-texas-sharpshooter-fallacy), [*Cherry picking*](#138-cherry-picking)
+* **Related Terms:** [*The redistricting commission*](#182-the-redistricting-commission), [*Algodemic*](#100-algodemic), [*Omnibust*](#10-omnibust)
 
 ---
 
@@ -389,8 +403,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **omnibust** carried a bridge, a ban, three tax credits and a paragraph nobody has explained, and it passed at 3:41 a.m. because the alternative was a shutdown."*
 * **Easily confused with:** *Filibluster* - The filibluster stops a bill by talking; the omnibust passes one by making sure nobody can.
-* **Commits:** [*False dilemma*](#48-false-dilemma), [*Appeal to fear*](#113-appeal-to-fear)
-* **Related Terms:** [*Gerrythm*](#9-gerrythm), [*Crookmaxxing*](#68-crookmaxxing)
+* **Commits:** [*False dilemma*](#51-false-dilemma), [*Appeal to fear*](#126-appeal-to-fear)
+* **Related Terms:** [*Gerrythm*](#9-gerrythm), [*Oil diplomacy*](#122-oil-diplomacy)
 
 ---
 
@@ -407,7 +421,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned."*
 * **Easily confused with:** *Crisisglow* - The honeymoan is grace after a win; the crisisglow is authority during a panic. One is granted by the calendar, the other by the alarm.
-* **Commits:** [*Appeal to novelty*](#120-appeal-to-novelty), [*Special pleading*](#85-special-pleading)
+* **Commits:** [*Appeal to novelty*](#133-appeal-to-novelty), [*Special pleading*](#92-special-pleading)
 * **Related Terms:** [*Playtriot*](#1-playtriot), [*Patriotainer*](#7-patriotainer)
 
 ---
@@ -425,8 +439,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The bill passed in December, the president went to Camp David, and the **pocketveto** did what a veto message could not - it ended the argument without leaving a record to run against."*
 * **Easily confused with:** *Filibluster* - The filibluster stops a bill by refusing to sit down; the pocketveto stops one by standing up and leaving.
-* **Commits:** [*Argument from silence*](#88-argument-from-silence)
-* **Related Terms:** [*Signaway*](#76-signaway), [*Omnibust*](#10-omnibust), [*Recessure*](#75-recessure)
+* **Commits:** [*Argument from silence*](#95-argument-from-silence)
+* **Related Terms:** [*Signaway*](#79-signaway), [*Omnibust*](#10-omnibust), [*Recessure*](#78-recessure)
 
 ---
 
@@ -443,8 +457,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **nightdocket** granted the stay at 11:40 p.m., one paragraph, no signature, and by morning the policy was suspended and the reasoning was a footnote in somebody else's brief."*
 * **Easily confused with:** *Subpoenado* - The subpoenado is a hearing staged for cameras; the nightdocket is a ruling staged for nobody.
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority), [*Special pleading*](#85-special-pleading)
-* **Related Terms:** [*Blueslip*](#74-blueslip), [*Pocketveto*](#12-pocketveto), [*The stay*](#169-the-stay)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority), [*Special pleading*](#92-special-pleading)
+* **Related Terms:** [*Blueslip*](#77-blueslip), [*The stay*](#181-the-stay), [*Secret meeting*](#87-secret-meeting)
 
 ---
 
@@ -461,8 +475,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"She won by nine, and the **coattails** carried a county clerk who had run on a road-repair budget and never mentioned the president once."*
 * **Easily confused with:** *Honeymoan* - The honeymoan is grace granted to the winner; the coattails are the margin the winner lends to everyone standing behind them.
-* **Commits:** [*Argumentum ad populum*](#132-argumentum-ad-populum)
-* **Related Terms:** [*Convention bounce*](#15-convention-bounce), [*Lame duck*](#77-lame-duck), [*Playtriot*](#1-playtriot)
+* **Commits:** [*Argumentum ad populum*](#145-argumentum-ad-populum)
+* **Related Terms:** [*Convention bounce*](#15-convention-bounce), [*Lame duck*](#80-lame-duck), [*Playtriot*](#1-playtriot)
 
 ---
 
@@ -479,8 +493,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **convention bounce** put him up six, the coverage called it a reset, and three weeks later the same pollster found the race exactly where it started."*
 * **Easily confused with:** *Honeymoan* - The bounce is measured in polls and the honeymoan is spent in arguments; both expire on a calendar nobody printed.
-* **Commits:** [*Hasty generalization*](#124-hasty-generalization)
-* **Related Terms:** [*Coattails*](#14-coattails), [*Patriotainment*](#6-patriotainment), [*Rally*](#106-rally)
+* **Commits:** [*Hasty generalization*](#137-hasty-generalization)
+* **Related Terms:** [*Coattails*](#14-coattails), [*Patriotainment*](#6-patriotainment), [*Rally*](#113-rally)
 
 ---
 
@@ -497,7 +511,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"They had the votes for the bill and not the votes for **cloture**, so the week went to the calendar and the bill went to the next session."*
 * **Easily confused with:** *Filibluster* - The filibluster spends the clock to stop a vote; cloture spends the clock to force one. Same clock, opposite buyer.
-* **Counters:** [*Gallopologist*](#32-gallopologist), [*Filibluster*](#8-filibluster)
+* **Counters:** [*Gallopologist*](#34-gallopologist), [*Filibluster*](#8-filibluster)
 * **Related Terms:** [*Discharge petition*](#17-discharge-petition), [*Omnibust*](#10-omnibust), [*Pocketveto*](#12-pocketveto)
 
 ---
@@ -515,12 +529,47 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The bill sat in committee for a year, the **discharge petition** reached 218 on a Tuesday, and the chair scheduled a hearing by Thursday."*
 * **Easily confused with:** *Cloture* - Cloture ends a debate in the chamber that is having it; a discharge petition takes the bill away from the chamber that is not.
-* **Counters:** [*Decorumancer*](#33-decorumancer), [*Filibluster*](#8-filibluster)
-* **Related Terms:** [*Filibluster*](#8-filibluster), [*Subpoenado*](#70-subpoenado)
+* **Counters:** [*Decorumancer*](#35-decorumancer), [*Filibluster*](#8-filibluster)
+* **Related Terms:** [*Filibluster*](#8-filibluster), [*Subpoenado*](#73-subpoenado)
 
 ---
 
-### 18. Slippery slope
+### 18. Vague promises
+*(noun)* `/veɪɡ ˈprɒm.ɪs.ɪz/` - *move*  
+*English: the promise with its content removed - a commitment kept only in tone.*
+
+**Trigger:** A question that needs a number, a date, or a name.  
+**Tell:** The promise has an adjective where the figure should be: historic, unprecedented, soon.  
+**Counter:** Ask for the number and the date in the same sentence. A commitment that cannot survive being written down was a mood.  
+
+1. The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.
+2. It works because the shape of a promise is enough to be reported as one. The listener hears the certainty, the journalist quotes the adjective, and the only person who needed the figure was the one who will be blamed for asking.
+
+* **Example:** *"We will have a **bold, historic plan** within the first hundred days" - the plan had a title, a press conference, and no sentence that could be checked.*
+* **Easily confused with:** *Vaguebooking* - Vaguebooking withholds the subject; vague promises withhold the terms.
+* **Related Terms:** [*Honeymoan*](#11-honeymoan), [*Convention bounce*](#15-convention-bounce)
+
+---
+
+### 19. Citizens United
+*(noun)* `/ˌsɪt.ɪ.zənz juːˈnaɪ.tɪd/` - *ability*  
+*Named for the 2010 decision that made independent political spending a form of speech, and the spender a kind of speaker.*
+
+**Effect:** The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen's voice without taking on the citizen's obligations.  
+**Available to:** Any incorporated body with a treasury - a company, a union, a nonprofit, or a shell with a mailbox and a lawyer.  
+**Counter:** Disclosure before the vote rather than after it. An advertisement that has to name its funders loses the anonymity the doctrine depends on.  
+
+1. The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker.
+2. It works because the first amendment was written for people and the corporation learned to stand where the person stood. What the citizen has is a voice and a vote; what the doctrine grants is the voice, at any volume, without the vote's obligation to answer for it.
+
+* **Example:** *"**Citizens United** means we are just exercising our speech" - said by a body that has never been to a town meeting and cannot be summoned to one.*
+* **Easily confused with:** *Access* - Access buys the meeting; Citizens United buys the megaphone, and the megaphone reaches the people the meeting was about.
+* **Related Terms:** [*Lobbyism*](#120-lobbyism), [*PAC check*](#121-pac-check)
+* **Source:** [Wikipedia · Citizens United v. FEC](https://en.wikipedia.org/wiki/Citizens_United_v._FEC)
+
+---
+
+### 20. Slippery slope
 *(noun)* - *fallacy*  
 *The image is physical: one step onto the incline, and gravity is left to finish the argument.*
 
@@ -534,12 +583,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“First they ban the plastic bag, then they ban the car.”* Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.
 * **Easily confused with:** *False dilemma* - The slope hides a chain of steps; the dilemma hides the options that are not steps.
-* **Related Terms:** [*Post hoc ergo propter hoc*](#84-post-hoc-ergo-propter-hoc)
+* **Related Terms:** [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc)
 * **Source:** [Wikipedia · Slippery slope](https://en.wikipedia.org/wiki/Slippery_slope)
 
 ---
 
-### 19. No true Scotsman
+### 21. No true Scotsman
 *(noun)* - *fallacy*  
 *From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.*
 
@@ -553,12 +602,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“No real conservative would vote for that.”* The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.
 * **Easily confused with:** *Straw man* - The straw man weakens the opponent's claim; the Scotsman strengthens the speaker's, by shrinking the group until the counterexample is expelled.
-* **Related Terms:** [*Moving the goalposts*](#114-moving-the-goalposts)
+* **Related Terms:** [*Moving the goalposts*](#127-moving-the-goalposts)
 * **Source:** [Wikipedia · No true Scotsman](https://en.wikipedia.org/wiki/No_true_Scotsman)
 
 ---
 
-### 20. Appeal to tradition
+### 22. Appeal to tradition
 *(noun)* - *fallacy*  
 *Latin: argumentum ad antiquitatem - the old is treated as the proven.*
 
@@ -572,12 +621,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“We have always opened with a prayer.”* The question was whether the chamber should, and always is not an answer to should.
 * **Easily confused with:** *Appeal to nature* - Tradition says it is old, nature says it is natural; both replace a reason with a pedigree.
-* **Related Terms:** [*Appeal to authority*](#47-appeal-to-authority)
+* **Related Terms:** [*Appeal to authority*](#50-appeal-to-authority)
 * **Source:** [Wikipedia · Appeal to tradition](https://en.wikipedia.org/wiki/Appeal_to_tradition)
 
 ---
 
-### 21. Appeal to nature
+### 23. Appeal to nature
 *(noun)* - *fallacy*  
 *Latin: argumentum ad naturam - the natural is treated as the good, as though the word carried a verdict.*
 
@@ -591,12 +640,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“It is natural for people to sort themselves by tribe.”* It is also natural to die of an infected cut, and we stopped doing that on purpose.
 * **Easily confused with:** *Appeal to tradition* - Tradition cites age, nature cites origin; both answer a question about value with a question about ancestry.
-* **Related Terms:** [*Hasty generalization*](#124-hasty-generalization)
+* **Related Terms:** [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Appeal to nature](https://en.wikipedia.org/wiki/Appeal_to_nature)
 
 ---
 
-### 22. Proof by assertion
+### 24. Proof by assertion
 *(noun)* - *fallacy*  
 *From mathematics, where a proof is a demonstration - and this is the counterfeit: the conclusion, repeated.*
 
@@ -610,12 +659,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.”* Four sentences, one assertion, zero evidence.
 * **Easily confused with:** *Circular reasoning* - The assertion adds no support and repeats itself; the circle adds a step and returns to the start.
-* **Related Terms:** [*Appeal to authority*](#47-appeal-to-authority)
+* **Related Terms:** [*Appeal to authority*](#50-appeal-to-authority)
 * **Source:** [Wikipedia · Proof by assertion](https://en.wikipedia.org/wiki/Proof_by_assertion)
 
 ---
 
-### 23. Sunk cost fallacy
+### 25. Sunk cost fallacy
 *(noun)* - *fallacy*  
 *From accounting: money already spent is gone, and no decision can bring it back.*
 
@@ -629,12 +678,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“We cannot withdraw now, after everything we have spent.”* The spending is the reason the account is empty, not the reason to keep filling it.
 * **Easily confused with:** *Appeal to tradition* - Tradition binds the future to the distant past; sunk cost binds it to expenses still inside the fiscal year.
-* **Related Terms:** [*Post hoc ergo propter hoc*](#84-post-hoc-ergo-propter-hoc)
+* **Related Terms:** [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc)
 * **Source:** [Wikipedia · Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost)
 
 ---
 
-### 24. I'm entitled to my opinion
+### 26. I'm entitled to my opinion
 *(noun)* - *fallacy*  
 *A legal phrase spent as an epistemic one: the right to hold a view is offered as a reason it cannot be challenged.*
 
@@ -648,14 +697,14 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“I am entitled to my opinion.”* You are. The water is still poisoned, and the entitlement has not tested it.
 * **Easily confused with:** *Proof by assertion* - The assertion defends the claim; the entitlement defends the person holding it.
-* **Related Terms:** [*Equivocation*](#128-equivocation)
+* **Related Terms:** [*Equivocation*](#141-equivocation)
 * **Source:** [Wikipedia · I'm entitled to my opinion](https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion)
 
 ---
 
 ## II. Bad-Faith Debate & Epistemic Breakdown
 
-### 25. Sophistroll
+### 27. Sophistroll
 *(noun)* `/ˈsɒf.ɪ.stroʊl/` - *species*  
 *Blend of "sophist" + "troll"*
 
@@ -669,12 +718,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"You can't have a productive discussion with a **sophistroll**; the second you disprove his point, he'll pivot to three different straw men and an ad hominem attack."*
 * **Easily confused with:** *Illogician* - The sophistroll knows the fallacy is a fallacy; the illogician believes it.
-* **Commits:** [*Straw man*](#46-straw-man), [*Motte-and-bailey fallacy*](#53-motte-and-bailey-fallacy), [*Ad hominem*](#45-ad-hominem), [*Tu quoque*](#129-tu-quoque), [*Whataboutism*](#130-whataboutism), [*Poisoning the well*](#55-poisoning-the-well), [*Sealioning*](#57-sealioning), [*The fallacy fallacy*](#63-the-fallacy-fallacy), [*Creeping normality*](#139-creeping-normality)
-* **Related Terms:** [*JAQing Off*](#27-jaqing-off), [*Equivangelist*](#31-equivangelist)
+* **Performs:** [*Good cop, bad cop*](#47-good-cop-bad-cop)
+* **Commits:** [*Straw man*](#49-straw-man), [*Motte-and-bailey fallacy*](#56-motte-and-bailey-fallacy), [*Ad hominem*](#48-ad-hominem), [*Tu quoque*](#142-tu-quoque), [*Whataboutism*](#143-whataboutism), [*Poisoning the well*](#58-poisoning-the-well), [*Sealioning*](#60-sealioning), [*The fallacy fallacy*](#66-the-fallacy-fallacy), [*Creeping normality*](#152-creeping-normality)
+* **Related Terms:** [*JAQing Off*](#29-jaqing-off), [*Equivangelist*](#33-equivangelist)
 
 ---
 
-### 26. Illogician
+### 28. Illogician
 *(noun)* `/ˌɪl.əˈdʒɪʃ.ən/` - *species*  
 *Blend of "illogical" + "logician"*
 
@@ -688,12 +738,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He spent twenty minutes smugly lecturing the thread about 'facts and logic' while committing four textbook fallacies per paragraph - a true **illogician** at work."*
 * **Easily confused with:** *Trust-Me-Brofessor* - Both skip the evidence; the illogician has a method, the brofessor has a mood.
-* **Commits:** [*Circular reasoning*](#50-circular-reasoning), [*False dilemma*](#48-false-dilemma), [*Appeal to ridicule*](#131-appeal-to-ridicule), [*Appeal to the stone*](#137-appeal-to-the-stone), [*The fallacy fallacy*](#63-the-fallacy-fallacy)
-* **Related Terms:** [*Sophistroll*](#25-sophistroll), [*Bleatkeeper*](#30-bleatkeeper)
+* **Commits:** [*Circular reasoning*](#53-circular-reasoning), [*False dilemma*](#51-false-dilemma), [*Appeal to ridicule*](#144-appeal-to-ridicule), [*Appeal to the stone*](#150-appeal-to-the-stone), [*The fallacy fallacy*](#66-the-fallacy-fallacy)
+* **Related Terms:** [*Sophistroll*](#27-sophistroll), [*Bleatkeeper*](#32-bleatkeeper)
 
 ---
 
-### 27. JAQing Off
+### 29. JAQing Off
 *(verb phrase / gerund)* `/ˈdʒæk.ɪŋ ɒf/` - *move*  
 *Blend of "JAQ" ["Just Asking Questions"] + vulgar slang "jacking off"*
 
@@ -706,12 +756,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Instead of presenting a shred of evidence, the podcast host spent two hours **JAQing off** about rigged weather machines before hiding behind 'I'm not saying it's true, I'm just asking questions!'"*
 * **Easily confused with:** *Sophistroll* - The sophistroll argues badly; the JAQer never argues at all, only asks.
-* **Commits:** [*Loaded question*](#49-loaded-question), [*Argument from ignorance*](#51-argument-from-ignorance), [*Sealioning*](#57-sealioning)
-* **Related Terms:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*Dramagogue*](#90-dramagogue)
+* **Commits:** [*Loaded question*](#52-loaded-question), [*Argument from ignorance*](#54-argument-from-ignorance), [*Sealioning*](#60-sealioning)
+* **Related Terms:** [*Trust-Me-Brofessor*](#30-trust-me-brofessor), [*Dramagogue*](#97-dramagogue)
 
 ---
 
-### 28. Trust-Me-Brofessor
+### 30. Trust-Me-Brofessor
 *(noun)* `/ˌtrʌst.miː.broʊˈfɛs.ər/` - *species*  
 *Blend of "trust me, bro" + "professor"*
 
@@ -725,12 +775,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to 'look it up themselves.'"*
 * **Easily confused with:** *Biasographer* - The brofessor names no authority; the biasographer names every authority and discredits each.
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority), [*Argument from ignorance*](#51-argument-from-ignorance), [*Shifting the burden of proof*](#135-shifting-the-burden-of-proof)
-* **Related Terms:** [*Bleatkeeper*](#30-bleatkeeper), [*The translator*](#163-the-translator)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority), [*Argument from ignorance*](#54-argument-from-ignorance), [*Shifting the burden of proof*](#148-shifting-the-burden-of-proof)
+* **Related Terms:** [*Bleatkeeper*](#32-bleatkeeper), [*The translator*](#176-the-translator)
 
 ---
 
-### 29. Biasographer
+### 31. Biasographer
 *(noun)* `/ˌbaɪ.əˈsɒɡ.rə.fər/` - *species*  
 *Blend of "bias" + "biographer" / "bibliographer"*
 
@@ -744,12 +794,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Don't bother asking him for actual peer-reviewed studies; he's a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy."*
 * **Easily confused with:** *Trust-Me-Brofessor* - The brofessor has no sources; the biasographer has a bibliography he has not read.
-* **Commits:** [*Cherry picking*](#125-cherry-picking), [*Texas sharpshooter fallacy*](#54-texas-sharpshooter-fallacy), [*Nut-picking*](#56-nut-picking), [*False attribution*](#134-false-attribution), [*Association fallacy*](#116-association-fallacy), [*Bulverism*](#59-bulverism)
-* **Related Terms:** [*Bleatkeeper*](#30-bleatkeeper), [*Mythstorian*](#66-mythstorian)
+* **Commits:** [*Cherry picking*](#138-cherry-picking), [*Texas sharpshooter fallacy*](#57-texas-sharpshooter-fallacy), [*Nut-picking*](#59-nut-picking), [*False attribution*](#147-false-attribution), [*Association fallacy*](#129-association-fallacy), [*Bulverism*](#62-bulverism)
+* **Related Terms:** [*Bleatkeeper*](#32-bleatkeeper), [*Mythstorian*](#69-mythstorian)
 
 ---
 
-### 30. Bleatkeeper
+### 32. Bleatkeeper
 *(noun)* `/ˈbliːtˌkiː.pər/` - *species*  
 *Blend of "bleat" + "gatekeeper"*
 
@@ -763,12 +813,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as 'fake news' and patronizingly told the researcher to 'wake up and learn how the world actually works.'"*
 * **Easily confused with:** *Algodemic* - The bleatkeeper rejects the report; the algodemic rejects the method behind it, at greater length.
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority), [*Argumentum ad populum*](#132-argumentum-ad-populum), [*Circular reasoning*](#50-circular-reasoning), [*Moving the goalposts*](#114-moving-the-goalposts)
-* **Related Terms:** [*Biasographer*](#29-biasographer), [*Trust-Me-Brofessor*](#28-trust-me-brofessor)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority), [*Argumentum ad populum*](#145-argumentum-ad-populum), [*Circular reasoning*](#53-circular-reasoning), [*Moving the goalposts*](#127-moving-the-goalposts)
+* **Related Terms:** [*Biasographer*](#31-biasographer), [*Trust-Me-Brofessor*](#30-trust-me-brofessor)
 
 ---
 
-### 31. Equivangelist
+### 33. Equivangelist
 *(noun)* `/ɪˈkwɪv.æn.dʒə.lɪst/` - *species*  
 *Blend of "equivocate" + "evangelist"*
 
@@ -782,12 +832,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims 'raise real questions' before cutting to commercial."*
 * **Easily confused with:** *Capitulectual* - The equivangelist weighs both sides; the capitulectual gives one away before weighing.
-* **Commits:** [*Equivocation*](#128-equivocation), [*Straw man*](#46-straw-man)
-* **Related Terms:** [*Sophistroll*](#25-sophistroll), [*Bleatkeeper*](#30-bleatkeeper), [*Decorumancer*](#33-decorumancer)
+* **Commits:** [*Equivocation*](#141-equivocation), [*Straw man*](#49-straw-man)
+* **Related Terms:** [*Sophistroll*](#27-sophistroll), [*Bleatkeeper*](#32-bleatkeeper), [*Decorumancer*](#35-decorumancer)
 
 ---
 
-### 32. Gallopologist
+### 34. Gallopologist
 *(noun)* `/ɡəˈlɒp.ɒl.ə.dʒɪst/` - *species*  
 *Blend of "gish gallop" + "-ologist"*
 
@@ -801,12 +851,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator's time limit 'proof' that he'd won."*
 * **Easily confused with:** *Sophistroll* - The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast.
-* **Commits:** [*Hasty generalization*](#124-hasty-generalization), [*Anecdotal evidence*](#127-anecdotal-evidence), [*Nut-picking*](#56-nut-picking)
-* **Related Terms:** [*The juror*](#164-the-juror), [*Trust-Me-Brofessor*](#28-trust-me-brofessor)
+* **Commits:** [*Hasty generalization*](#137-hasty-generalization), [*Anecdotal evidence*](#140-anecdotal-evidence), [*Nut-picking*](#59-nut-picking)
+* **Related Terms:** [*The juror*](#177-the-juror), [*Trust-Me-Brofessor*](#30-trust-me-brofessor)
 
 ---
 
-### 33. Decorumancer
+### 35. Decorumancer
 *(noun)* `/ˈdɛk.ər.əm.ˌæn.sər/` - *species*  
 *Blend of "decorum" + "necromancer"*
 
@@ -820,12 +870,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The panel spent four minutes on the policy and twenty on whether the audience's booing was 'divisive' - a textbook **decorumancer** performance."*
 * **Easily confused with:** *Equivangelist* - The equivangelist calls it balance; the decorumancer calls it procedure.
-* **Commits:** [*Tone policing*](#52-tone-policing), [*Ad hominem*](#45-ad-hominem), [*I'm entitled to my opinion*](#24-im-entitled-to-my-opinion)
-* **Related Terms:** [*Sophistroll*](#25-sophistroll), [*Capitulectual*](#69-capitulectual)
+* **Commits:** [*Tone policing*](#55-tone-policing), [*Ad hominem*](#48-ad-hominem), [*I'm entitled to my opinion*](#26-im-entitled-to-my-opinion)
+* **Related Terms:** [*Sophistroll*](#27-sophistroll), [*Capitulectual*](#72-capitulectual)
 
 ---
 
-### 34. Comment section
+### 36. Comment section
 *(noun)* `/ˈkɒm.ɛnt ˌsɛk.ʃən/` - *habitat*  
 *English: the box under the article - named for the conversation it was meant to continue.*
 
@@ -839,12 +889,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Four hundred comments under a budget story, and not one of them about the budget - three about the mayor's brother, two hundred about each other, and a bot selling a supplement."*
 * **Easily confused with:** *Cable panel* - The panel is paced and produced; the comment section is feral and asynchronous. Both are venues for the verdict.
-* **Houses:** [*Ad hominem*](#45-ad-hominem), [*Tu quoque*](#129-tu-quoque), [*Whataboutism*](#130-whataboutism), [*Sealioning*](#57-sealioning), [*Nut-picking*](#56-nut-picking), [*Appeal to the stone*](#137-appeal-to-the-stone), [*Vaguebooking*](#36-vaguebooking), [*Receiptbomb*](#37-receiptbomb), [*Motte hop*](#42-motte-hop), [*Kafka trap*](#58-kafka-trap)
-* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*Group chat*](#97-group-chat), [*The ombudsman*](#161-the-ombudsman)
+* **Houses:** [*Ad hominem*](#48-ad-hominem), [*Tu quoque*](#142-tu-quoque), [*Whataboutism*](#143-whataboutism), [*Sealioning*](#60-sealioning), [*Nut-picking*](#59-nut-picking), [*Appeal to the stone*](#150-appeal-to-the-stone), [*Vaguebooking*](#38-vaguebooking), [*Receiptbomb*](#39-receiptbomb), [*Motte hop*](#44-motte-hop), [*Kafka trap*](#61-kafka-trap)
+* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*Group chat*](#104-group-chat), [*The ombudsman*](#174-the-ombudsman)
 
 ---
 
-### 35. Bothsidesing
+### 37. Bothsidesing
 *(noun / verb)* `/ˈbəʊθ.saɪ.dɪŋ/` - *move*  
 *Blend of "both sides" + the "-ing" of an argument still running*
 
@@ -857,12 +907,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Asked about the audit, the host **bothsidesed** it: two minutes for the accountant, two for the man who says audits are a myth, and a promise to keep following the story."*
 * **Easily confused with:** *Equivangelist* - The equivangelist preaches the symmetry as a virtue; the bothsideser performs it as a booking decision.
-* **Commits:** [*False balance*](#87-false-balance), [*Argument to moderation*](#86-argument-to-moderation)
-* **Related Terms:** [*Decorumancer*](#33-decorumancer), [*Cable panel*](#96-cable-panel)
+* **Commits:** [*False balance*](#94-false-balance), [*Argument to moderation*](#93-argument-to-moderation)
+* **Related Terms:** [*Decorumancer*](#35-decorumancer), [*Cable panel*](#103-cable-panel)
 
 ---
 
-### 36. Vaguebooking
+### 38. Vaguebooking
 *(noun / verb)* `/ˈveɪɡ.bʊk.ɪŋ/` - *move*  
 *Blend of "vague" + "Facebook" + the "-ing" of a status update*
 
@@ -875,12 +925,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"No names, no context, just 'some people showed their true colours today' - and by evening three of us were **vaguebooking** about each other."*
 * **Easily confused with:** *JAQing Off* - The JAQer hides a claim inside a question; the vaguebooker hides one inside a mood.
-* **Commits:** [*Poisoning the well*](#55-poisoning-the-well), [*Hasty generalization*](#124-hasty-generalization)
-* **Related Terms:** [*Decorumancer*](#33-decorumancer), [*Comment section*](#34-comment-section)
+* **Commits:** [*Poisoning the well*](#58-poisoning-the-well), [*Hasty generalization*](#137-hasty-generalization)
+* **Related Terms:** [*Decorumancer*](#35-decorumancer), [*Comment section*](#36-comment-section)
 
 ---
 
-### 37. Receiptbomb
+### 39. Receiptbomb
 *(noun / verb)* `/rɪˈsiːt.bɒm/` - *move*  
 *Blend of "receipts", the slang for evidence, + "bomb"*
 
@@ -893,12 +943,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He replied with forty-one screenshots, three of them duplicates and a link to a folder - a **receiptbomb** that took an hour to find the one paragraph that mattered in."*
 * **Easily confused with:** *Gallopologist* - The gallopologist invents the claims; the receiptbomber buries real ones. Both win on volume.
-* **Commits:** [*Gish gallop*](#136-gish-gallop), [*Shifting the burden of proof*](#135-shifting-the-burden-of-proof)
-* **Related Terms:** [*Biasographer*](#29-biasographer), [*Comment section*](#34-comment-section)
+* **Commits:** [*Gish gallop*](#149-gish-gallop), [*Shifting the burden of proof*](#148-shifting-the-burden-of-proof)
+* **Related Terms:** [*Biasographer*](#31-biasographer), [*Comment section*](#36-comment-section)
 
 ---
 
-### 38. Dead cat
+### 40. Dead cat
 *(noun / verb)* `/dɛd kæt/` - *move*  
 *From the strategy credited to the campaign strategist Lynton Crosby: to end an argument you are losing, put a dead cat on the table.*
 
@@ -911,12 +961,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The contract story was finally landing, and then a **dead cat** hit the table at eight in the morning - by noon nobody could remember what the contract said."*
 * **Easily confused with:** *Slopagandist* - The slopagandist drowns the zone in volume; the dead cat changes the subject with one loud object.
-* **Commits:** [*Appeal to emotion*](#112-appeal-to-emotion)
-* **Related Terms:** [*Trial balloon*](#39-trial-balloon), [*The Feed*](#101-the-feed), [*Ragesturbationist*](#91-ragesturbationist)
+* **Commits:** [*Appeal to emotion*](#125-appeal-to-emotion)
+* **Related Terms:** [*Trial balloon*](#41-trial-balloon), [*The Feed*](#108-the-feed), [*Ragesturbationist*](#98-ragesturbationist)
 
 ---
 
-### 39. Trial balloon
+### 41. Trial balloon
 *(noun / verb)* `/ˈtraɪ.əl bəˈluːn/` - *move*  
 *English: from ballooning, where a ballon d'essai is released to see which way the wind blows.*
 
@@ -929,12 +979,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"A **trial balloon** went up on a Sunday: a mileage tax, unnamed officials, no bill - and by Wednesday it was 'not under consideration'."*
 * **Easily confused with:** *Dead cat* - The dead cat replaces the story in front of you; the trial balloon tests the story you are about to be given.
-* **Commits:** [*Equivocation*](#128-equivocation)
-* **Related Terms:** [*Friday news dump*](#40-friday-news-dump), [*Biasographer*](#29-biasographer), [*Briefing room*](#104-briefing-room)
+* **Commits:** [*Equivocation*](#141-equivocation)
+* **Related Terms:** [*Friday news dump*](#42-friday-news-dump), [*Biasographer*](#31-biasographer), [*Briefing room*](#111-briefing-room)
 
 ---
 
-### 40. Friday news dump
+### 42. Friday news dump
 *(noun / verb)* `/ˈfraɪ.deɪ njuːz dʌmp/` - *move*  
 *English: the hour after the last deadline, when the week's worst news gets filed.*
 
@@ -948,12 +998,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Bent by the feed:** The feed has bent this rather than broken it: the release is now permanent and searchable, so the dump no longer hides the story, it only starves it of the attention it would have had.
 * **Example:** *"The settlement went out at 5:47 on a Friday, in a **Friday news dump** with a cover note that said 'for immediate release'."*
 * **Easily confused with:** *Nonpology* - The nonpology buries the harm in the wording; the dump buries it in the timing.
-* **Commits:** [*Argument from silence*](#88-argument-from-silence)
-* **Related Terms:** [*Trial balloon*](#39-trial-balloon), [*Comment section*](#34-comment-section), [*Cable panel*](#96-cable-panel)
+* **Commits:** [*Argument from silence*](#95-argument-from-silence)
+* **Related Terms:** [*Trial balloon*](#41-trial-balloon), [*Comment section*](#36-comment-section), [*Cable panel*](#103-cable-panel)
 
 ---
 
-### 41. Astroturfing
+### 43. Astroturfing
 *(noun / verb)* `/ˈæs.trəʊˌtɜː.fɪŋ/` - *move*  
 *From Astroturf, the artificial grass - a grassroots movement with the lawn manufactured.*
 
@@ -966,12 +1016,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Two hundred identical letters, three local groups sharing a PO box, and an **astroturfing** campaign that one staffer had drafted on a Tuesday."*
 * **Easily confused with:** *Rally* - The rally is a crowd that showed up; astroturfing is a crowd that was ordered.
-* **Commits:** [*Argumentum ad populum*](#132-argumentum-ad-populum)
-* **Related Terms:** [*Slopagandist*](#95-slopagandist), [*Comment section*](#34-comment-section), [*The Feed*](#101-the-feed)
+* **Commits:** [*Argumentum ad populum*](#145-argumentum-ad-populum)
+* **Related Terms:** [*Slopagandist*](#102-slopagandist), [*Comment section*](#36-comment-section), [*The Feed*](#108-the-feed)
 
 ---
 
-### 42. Motte hop
+### 44. Motte hop
 *(noun / verb)* `/ˈmɒt hɒp/` - *move*  
 *From the motte-and-bailey castle: the defensible tower and the indefensible yard, and the walk between them.*
 
@@ -984,12 +1034,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He said the policy was a plot, then said he only meant it was a mistake, then said the plot again on Friday - a **motte hop** in three acts."*
 * **Easily confused with:** *Motte-and-bailey fallacy* - The fallacy is the structure; the hop is the performance. One is named in the literature, the other is what you watch happen in a thread.
-* **Commits:** [*Motte-and-bailey fallacy*](#53-motte-and-bailey-fallacy), [*Equivocation*](#128-equivocation)
-* **Related Terms:** [*Equivangelist*](#31-equivangelist), [*Sophistroll*](#25-sophistroll), [*Moving the goalposts*](#114-moving-the-goalposts)
+* **Commits:** [*Motte-and-bailey fallacy*](#56-motte-and-bailey-fallacy), [*Equivocation*](#141-equivocation)
+* **Related Terms:** [*Equivangelist*](#33-equivangelist), [*Sophistroll*](#27-sophistroll), [*Moving the goalposts*](#127-moving-the-goalposts)
 
 ---
 
-### 43. Heckler's veto
+### 45. Heckler's veto
 *(noun)* `/ˈhɛk.ləz ˈviː.təʊ/` - *move*  
 *English: the heckler who does not win the argument, and ends the event instead.*
 
@@ -1002,12 +1052,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The talk was cancelled ninety minutes before it started, not because anyone won the argument but because the **heckler's veto** made the room uninsurable."*
 * **Easily confused with:** *Decorumancer* - The decorumancer silences with the rule; the heckler's veto silences with the noise the rule cannot stop.
-* **Commits:** [*Appeal to fear*](#113-appeal-to-fear), [*Appeal to force*](#62-appeal-to-force)
-* **Related Terms:** [*Rally*](#106-rally), [*School board meeting*](#73-school-board-meeting), [*Comment section*](#34-comment-section)
+* **Commits:** [*Appeal to fear*](#126-appeal-to-fear), [*Appeal to force*](#65-appeal-to-force)
+* **Related Terms:** [*Rally*](#113-rally), [*School board meeting*](#76-school-board-meeting), [*Comment section*](#36-comment-section)
 
 ---
 
-### 44. Flood the zone
+### 46. Flood the zone
 *(verb phrase / gerund)* `/flʌd ðə zəʊn/` - *move*  
 *From the advice attributed to Steve Bannon: drown the press in so much material that nothing can be checked.*
 
@@ -1020,12 +1070,29 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Nine press releases before noon, two of them true, and **flood the zone** worked exactly as designed: by Friday the story was a list nobody had finished."*
 * **Easily confused with:** *Slopagandist* - The slopagandist fills the feed with volume for money; flooding the zone fills it with volume for cover.
-* **Commits:** [*Gish gallop*](#136-gish-gallop), [*Shifting the burden of proof*](#135-shifting-the-burden-of-proof)
-* **Related Terms:** [*Dead cat*](#38-dead-cat), [*The Feed*](#101-the-feed), [*Briefing room*](#104-briefing-room)
+* **Commits:** [*Gish gallop*](#149-gish-gallop), [*Shifting the burden of proof*](#148-shifting-the-burden-of-proof)
+* **Related Terms:** [*Dead cat*](#40-dead-cat), [*The Feed*](#108-the-feed), [*Briefing room*](#111-briefing-room)
 
 ---
 
-### 45. Ad hominem
+### 47. Good cop, bad cop
+*(noun)* `/ɡʊd kɒp bæd kɒp/` - *move*  
+*From the interview room, exported to diplomacy: two speakers, one demand, and the appearance of a range.*
+
+**Trigger:** A subject who will not move, and two people who can take turns.  
+**Tell:** One asks for everything, and the other asks for the same thing and calls it a compromise.  
+**Counter:** Answer the pair as one actor: ask which of the two is authorised to settle. The offer collapses the moment the roles have to be named.  
+
+1. The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions, then the envoy with the same terms and a softer voice.
+2. It works because a range of options is easier to accept than an ultimatum, and two speakers are cheaper than one concession. The subject negotiates with the kind one, which is the point - the kind one is not authorised to move either.
+
+* **Example:** *"My colleague is being unreasonable, but I think we can work something out" - the **good cop, bad cop** routine, with the something being the same something and a hand on the shoulder.*
+* **Easily confused with:** *Bothsidesing* - Bothsidesing presents two positions as equally valid; good cop, bad cop presents two positions as a range, and both of them are the same position.
+* **Related Terms:** [*Capitulectual*](#72-capitulectual)
+
+---
+
+### 48. Ad hominem
 *(noun)* - *fallacy*  
 *Latin: argumentum ad hominem, “argument to the person” - the target moves from the claim to the one who made it.*
 
@@ -1039,12 +1106,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“You want to talk about the audit? You were late on your taxes in 2011.”* The audit is still late, and now nobody is looking at it.
 * **Easily confused with:** *Tone policing* - Ad hominem attacks the person's record or character; tone policing attacks the manner of the delivery.
-* **Related Terms:** [*Straw man*](#46-straw-man)
+* **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Ad hominem](https://en.wikipedia.org/wiki/Ad_hominem)
 
 ---
 
-### 46. Straw man
+### 49. Straw man
 *(noun)* - *fallacy*  
 *From the training dummy: a figure stuffed with straw is easier to knock down than the man holding the argument.*
 
@@ -1058,12 +1125,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“They want to fund the libraries because they think books are free and nobody should work.”* Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.
 * **Easily confused with:** *Motte-and-bailey fallacy* - The straw man misstates a position you reject; the motte retreats to a modest claim you never disputed.
-* **Related Terms:** [*Loaded question*](#49-loaded-question), [*False dilemma*](#48-false-dilemma)
+* **Related Terms:** [*Loaded question*](#52-loaded-question), [*False dilemma*](#51-false-dilemma)
 * **Source:** [Wikipedia · Straw man](https://en.wikipedia.org/wiki/Straw_man)
 
 ---
 
-### 47. Appeal to authority
+### 50. Appeal to authority
 *(noun)* - *fallacy*  
 *Latin: argumentum ad verecundiam, an appeal to deference - the argument from the shame of disagreeing with a great name.*
 
@@ -1077,12 +1144,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“A Nobel laureate says the water is safe.”* He holds the prize in economics. The water has never met him.
 * **Easily confused with:** *Circular reasoning* - Authority outsources the premises to a person; the circle outsources them to the conclusion itself.
-* **Related Terms:** [*Argument from ignorance*](#51-argument-from-ignorance)
+* **Related Terms:** [*Argument from ignorance*](#54-argument-from-ignorance)
 * **Source:** [Wikipedia · Appeal to authority](https://en.wikipedia.org/wiki/Appeal_to_authority)
 
 ---
 
-### 48. False dilemma
+### 51. False dilemma
 *(noun)* - *fallacy*  
 *Also the either-or fallacy: the Greek dilemma names two horns, and the trick is to admit only two.*
 
@@ -1096,12 +1163,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“You are either with us or with the terrorists.”* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.
 * **Easily confused with:** *False equivalence* - The dilemma collapses the field to two; equivalence claims those two weigh the same.
-* **Related Terms:** [*Argument to moderation*](#86-argument-to-moderation)
+* **Related Terms:** [*Argument to moderation*](#93-argument-to-moderation)
 * **Source:** [Wikipedia · False dilemma](https://en.wikipedia.org/wiki/False_dilemma)
 
 ---
 
-### 49. Loaded question
+### 52. Loaded question
 *(noun)* - *fallacy*  
 *Also the fallacy of many questions: a question that carries its conclusion in the presupposition.*
 
@@ -1115,12 +1182,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Why does your plan keep raising costs?”* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.
 * **Easily confused with:** *Circular reasoning* - Both smuggle the conclusion in; the loaded question does it through what it asks.
-* **Related Terms:** [*Straw man*](#46-straw-man)
+* **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Loaded question](https://en.wikipedia.org/wiki/Loaded_question)
 
 ---
 
-### 50. Circular reasoning
+### 53. Circular reasoning
 *(noun)* - *fallacy*  
 *Latin: circulus in probando, “a circle in the proving” - the premise and the conclusion take turns holding each other up.*
 
@@ -1134,12 +1201,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“The policy is sound because it is what serious people support, and serious people support it because it is sound.”* Two sentences, one step each, no ground.
 * **Easily confused with:** *Appeal to authority* - The circle restates itself; the appeal to authority borrows a person to stand where the premise should be.
-* **Related Terms:** [*Loaded question*](#49-loaded-question)
+* **Related Terms:** [*Loaded question*](#52-loaded-question)
 * **Source:** [Wikipedia · Circular reasoning](https://en.wikipedia.org/wiki/Circular_reasoning)
 
 ---
 
-### 51. Argument from ignorance
+### 54. Argument from ignorance
 *(noun)* - *fallacy*  
 *Latin: argumentum ad ignorantiam - the absence of proof is offered as proof.*
 
@@ -1153,12 +1220,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Nobody has proven the machines are safe.”* Nobody has proven them unsafe either; the sentence treats the missing study as a finding.
 * **Easily confused with:** *Appeal to authority* - Both outsource the support; ignorance to a gap, authority to a person.
-* **Related Terms:** [*Loaded question*](#49-loaded-question)
+* **Related Terms:** [*Loaded question*](#52-loaded-question)
 * **Source:** [Wikipedia · Argument from ignorance](https://en.wikipedia.org/wiki/Argument_from_ignorance)
 
 ---
 
-### 52. Tone policing
+### 55. Tone policing
 *(noun)* - *fallacy*  
 *From policing: the offence is not what was said but the manner of saying it.*
 
@@ -1172,12 +1239,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“I agree with the concern, but the way you said it lost the room.”* The room was lost by the sentence, not the volume, and the sentence is still standing.
 * **Easily confused with:** *Ad hominem* - Tone policing attacks how the speaker spoke; ad hominem attacks who the speaker is.
-* **Related Terms:** [*Straw man*](#46-straw-man)
+* **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Tone policing](https://en.wikipedia.org/wiki/Tone_policing)
 
 ---
 
-### 53. Motte-and-bailey fallacy
+### 56. Motte-and-bailey fallacy
 *(noun)* - *fallacy*  
 *From the medieval castle: a modest motte that is easy to defend, and a rich bailey that is not.*
 
@@ -1191,12 +1258,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Defund the police”* argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.
 * **Easily confused with:** *Equivocation* - The motte switches between two claims; equivocation switches between two meanings of one word.
-* **Related Terms:** [*Straw man*](#46-straw-man)
+* **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Motte-and-bailey fallacy](https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy)
 
 ---
 
-### 54. Texas sharpshooter fallacy
+### 57. Texas sharpshooter fallacy
 *(noun)* - *fallacy*  
 *From the marksman who fires into a barn and then paints the target around the tightest cluster.*
 
@@ -1210,12 +1277,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Crimes cluster around these three blocks.”* So does every address in the city, when you draw the box around three blocks.
 * **Easily confused with:** *Cherry picking* - The sharpshooter keeps all the data and moves the target; the cherry picker keeps the target and drops the data.
-* **Related Terms:** [*Post hoc ergo propter hoc*](#84-post-hoc-ergo-propter-hoc)
+* **Related Terms:** [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc)
 * **Source:** [Wikipedia · Texas sharpshooter fallacy](https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy)
 
 ---
 
-### 55. Poisoning the well
+### 58. Poisoning the well
 *(noun)* - *fallacy*  
 *From the siege tactic: foul the water before the argument arrives, and it never has to be fought.*
 
@@ -1229,12 +1296,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Before you read that report, remember who wrote it.”* The report is unread and already dismissed; nobody has said what is wrong in it.
 * **Easily confused with:** *Ad hominem* - Poisoning the well attacks in advance and by implication; ad hominem answers something that was actually said.
-* **Related Terms:** [*Appeal to motive*](#117-appeal-to-motive)
+* **Related Terms:** [*Appeal to motive*](#130-appeal-to-motive)
 * **Source:** [Wikipedia · Poisoning the well](https://en.wikipedia.org/wiki/Poisoning_the_well)
 
 ---
 
-### 56. Nut-picking
+### 59. Nut-picking
 *(noun)* - *fallacy*  
 *From “nut” in the American sense: cherry picking the most extreme case and calling it the group.*
 
@@ -1248,12 +1315,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Look at this comment, this is what they all think.”* One comment, four hundred thousand readers, no survey.
 * **Easily confused with:** *Cherry picking* - Nut-picking is cherry picking where the cherries are people, chosen for being the worst available.
-* **Related Terms:** [*Hasty generalization*](#124-hasty-generalization)
+* **Related Terms:** [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Nutpicking](https://en.wikipedia.org/wiki/Nutpicking)
 
 ---
 
-### 57. Sealioning
+### 60. Sealioning
 *(noun)* - *fallacy*  
 *From the webcomic: a sea lion follows you home, politely demanding that you justify yourself, forever.*
 
@@ -1267,12 +1334,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.”* Four polite requests, one derailed argument.
 * **Easily confused with:** *Shifting the burden of proof* - The shift hands over the burden once; sealioning hands it over indefinitely, one request at a time.
-* **Related Terms:** [*Loaded question*](#49-loaded-question)
+* **Related Terms:** [*Loaded question*](#52-loaded-question)
 * **Source:** [Wikipedia · Sealioning](https://en.wikipedia.org/wiki/Sealioning)
 
 ---
 
-### 58. Kafka trap
+### 61. Kafka trap
 *(noun)* - *fallacy*  
 *Named for Kafka's The Trial: the accusation is the process, and the defence is the evidence.*
 
@@ -1286,12 +1353,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“He denied it, which is exactly what someone with something to hide would do.”*
 * **Easily confused with:** *Argument from ignorance* - The argument from ignorance says the claim has not been proved; the Kafka trap says the denial proves it.
-* **Related Terms:** [*Poisoning the well*](#55-poisoning-the-well), [*Thought-terminating cliché*](#133-thought-terminating-cliche)
+* **Related Terms:** [*Poisoning the well*](#58-poisoning-the-well), [*Thought-terminating cliché*](#146-thought-terminating-cliche)
 * **Source:** [Wikipedia · Kafka trap](https://en.wikipedia.org/wiki/Kafka_trap)
 
 ---
 
-### 59. Bulverism
+### 62. Bulverism
 *(noun)* - *fallacy*  
 *Coined by C. S. Lewis in 1941: the habit of assuming a person is wrong and then explaining, at leisure, why they came to be so wrong.*
 
@@ -1305,12 +1372,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Of course he thinks the zoning reform is fine - he bought his house in 1998.”* The reform is still on the table.
 * **Easily confused with:** *Ad hominem* - Ad hominem attacks the arguer; Bulverism explains the arguer and treats the explanation as the refutation.
-* **Related Terms:** [*Appeal to motive*](#117-appeal-to-motive), [*Poisoning the well*](#55-poisoning-the-well)
+* **Related Terms:** [*Appeal to motive*](#130-appeal-to-motive), [*Poisoning the well*](#58-poisoning-the-well)
 * **Source:** [Wikipedia · Bulverism](https://en.wikipedia.org/wiki/Bulverism)
 
 ---
 
-### 60. Nirvana fallacy
+### 63. Nirvana fallacy
 *(noun)* - *fallacy*  
 *English, from the Buddhist state of perfect peace: the comparison of a real proposal with an unreal alternative.*
 
@@ -1324,12 +1391,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“The bill only covers half the uninsured, so it doesn't really solve the problem.”* Half the uninsured is the comparison, not the bill.
 * **Easily confused with:** *False dilemma* - The false dilemma offers two options and hides a third; the Nirvana fallacy offers two and makes one of them perfect.
-* **Related Terms:** [*Appeal to the stone*](#137-appeal-to-the-stone), [*Argument to moderation*](#86-argument-to-moderation)
+* **Related Terms:** [*Appeal to the stone*](#150-appeal-to-the-stone), [*Argument to moderation*](#93-argument-to-moderation)
 * **Source:** [Wikipedia · Nirvana fallacy](https://en.wikipedia.org/wiki/Nirvana_fallacy)
 
 ---
 
-### 61. Base rate fallacy
+### 64. Base rate fallacy
 *(noun)* - *fallacy*  
 *From the statistical base rate: how common a thing is before you know anything else about the particular case.*
 
@@ -1343,12 +1410,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Three of them in one month.”* Three out of how many, in a city of how many, against a five-year average of what?
 * **Easily confused with:** *Anecdotal evidence* - Anecdotal evidence argues from one case; the base rate fallacy argues from one case while a rate sits unread beside it.
-* **Related Terms:** [*Survivorship bias*](#115-survivorship-bias), [*Hasty generalization*](#124-hasty-generalization)
+* **Related Terms:** [*Survivorship bias*](#128-survivorship-bias), [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Base rate fallacy](https://en.wikipedia.org/wiki/Base_rate_fallacy)
 
 ---
 
-### 62. Appeal to force
+### 65. Appeal to force
 *(noun)* - *fallacy*  
 *Latin: argumentum ad baculum, the argument to the stick - the reason offered with the implication of what happens if it is refused.*
 
@@ -1362,12 +1429,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“I'd think carefully about how this looks for the department.”* The policy was not discussed again.
 * **Easily confused with:** *Appeal to fear* - Appeal to fear sells a threat to the audience; the appeal to force applies a threat to the person in the room.
-* **Related Terms:** [*Heckler's veto*](#43-hecklers-veto), [*Appeal to consequences*](#121-appeal-to-consequences)
+* **Related Terms:** [*Heckler's veto*](#45-hecklers-veto), [*Appeal to consequences*](#134-appeal-to-consequences)
 * **Source:** [Wikipedia · Appeal to force](https://en.wikipedia.org/wiki/Appeal_to_force)
 
 ---
 
-### 63. The fallacy fallacy
+### 66. The fallacy fallacy
 *(noun)* - *fallacy*  
 *English, from the informal-logic literature: the mistake of thinking that a bad argument makes a false conclusion.*
 
@@ -1381,12 +1448,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“That's an appeal to authority, so the study doesn't count.”* The study is still a study.
 * **Easily confused with:** *Straw man* - The straw man misrepresents the argument; the fallacy fallacy accepts the argument as given and then discards the conclusion with it.
-* **Related Terms:** [*Ad hominem*](#45-ad-hominem), [*Thought-terminating cliché*](#133-thought-terminating-cliche)
+* **Related Terms:** [*Ad hominem*](#48-ad-hominem), [*Thought-terminating cliché*](#146-thought-terminating-cliche)
 * **Source:** [Wikipedia · Fallacy fallacy](https://en.wikipedia.org/wiki/Fallacy_fallacy)
 
 ---
 
-### 64. McNamara fallacy
+### 67. McNamara fallacy
 *(noun)* - *fallacy*  
 *Named for Robert McNamara's defence metrics: body counts offered as the measure of a war the counts could not describe.*
 
@@ -1400,14 +1467,14 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Response times are down 12%.”* The response is faster and the ambulance no longer comes.
 * **Easily confused with:** *Texas sharpshooter fallacy* - The sharpshooter picks the target after the shot; the McNamara fallacy picks the target because it is the one that can be scored.
-* **Related Terms:** [*Survivorship bias*](#115-survivorship-bias), [*Appeal to authority*](#47-appeal-to-authority)
+* **Related Terms:** [*Survivorship bias*](#128-survivorship-bias), [*Appeal to authority*](#50-appeal-to-authority)
 * **Source:** [Wikipedia · McNamara fallacy](https://en.wikipedia.org/wiki/McNamara_fallacy)
 
 ---
 
 ## III. Hypocrisy, Revisionism & Authoritarian Submission
 
-### 65. Hypocontortionist
+### 68. Hypocontortionist
 *(noun)* `/ˌhɪp.oʊ.kənˈtɔːr.ʃən.ɪst/` - *species*  
 *Blend of "hypocrite" + "contortionist"*
 
@@ -1421,12 +1488,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"After spending years screaming about 'law and order' and 'treason,' the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump's latest authoritarian threat was 'obviously just a joke.'"*
 * **Easily confused with:** *Martyrholic* - The hypocontortionist bends the principle; the martyrholic weeps about being judged for it.
-* **Commits:** [*Special pleading*](#85-special-pleading), [*Two wrongs make a right*](#83-two-wrongs-make-a-right), [*Tu quoque*](#129-tu-quoque), [*No true Scotsman*](#19-no-true-scotsman), [*Creeping normality*](#139-creeping-normality)
-* **Related Terms:** [*Bootcurious*](#67-bootcurious), [*Crookmaxxing*](#68-crookmaxxing), [*Capitulectual*](#69-capitulectual)
+* **Commits:** [*Special pleading*](#92-special-pleading), [*Two wrongs make a right*](#90-two-wrongs-make-a-right), [*Tu quoque*](#142-tu-quoque), [*No true Scotsman*](#21-no-true-scotsman), [*Creeping normality*](#152-creeping-normality)
+* **Related Terms:** [*Bootcurious*](#70-bootcurious), [*Crookmaxxing*](#71-crookmaxxing), [*Capitulectual*](#72-capitulectual)
 
 ---
 
-### 66. Mythstorian
+### 69. Mythstorian
 *(noun)* `/ˈmɪθˌstɔːr.i.ən/` - *species*  
 *Blend of "myth" + "historian"*
 
@@ -1440,12 +1507,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism."*
 * **Easily confused with:** *Algodemic* - The mythstorian invents the past; the algodemic invents the study of it.
-* **Commits:** [*Cherry picking*](#125-cherry-picking), [*Post hoc ergo propter hoc*](#84-post-hoc-ergo-propter-hoc), [*False attribution*](#134-false-attribution), [*Appeal to nature*](#21-appeal-to-nature)
-* **Related Terms:** [*Playtriot*](#1-playtriot), [*Biasographer*](#29-biasographer), [*Bleatkeeper*](#30-bleatkeeper)
+* **Commits:** [*Cherry picking*](#138-cherry-picking), [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc), [*False attribution*](#147-false-attribution), [*Appeal to nature*](#23-appeal-to-nature)
+* **Related Terms:** [*Playtriot*](#1-playtriot), [*Biasographer*](#31-biasographer), [*Bleatkeeper*](#32-bleatkeeper)
 
 ---
 
-### 67. Bootcurious
+### 70. Bootcurious
 *(noun / adjective)* `/ˈbuːtˌkjʊər.i.əs/` - *buff*  
 *Blend of "bootlicker" + "curious"*
 
@@ -1458,12 +1525,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests."*
 * **Easily confused with:** *Capitulectual* - The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence.
-* **Commits:** [*Special pleading*](#85-special-pleading), [*Appeal to authority*](#47-appeal-to-authority), [*Shifting the burden of proof*](#135-shifting-the-burden-of-proof), [*Argument from silence*](#88-argument-from-silence)
-* **Related Terms:** [*LARPtarian*](#3-larptarian), [*Hypocontortionist*](#65-hypocontortionist), [*Sabotriot*](#5-sabotriot)
+* **Commits:** [*Special pleading*](#92-special-pleading), [*Appeal to authority*](#50-appeal-to-authority), [*Shifting the burden of proof*](#148-shifting-the-burden-of-proof), [*Argument from silence*](#95-argument-from-silence)
+* **Related Terms:** [*LARPtarian*](#3-larptarian), [*Hypocontortionist*](#68-hypocontortionist), [*Sabotriot*](#5-sabotriot)
 
 ---
 
-### 68. Crookmaxxing
+### 71. Crookmaxxing
 *(noun / verb)* `/ˈkrʊkˌmæk.sɪŋ/` - *move*  
 *Blend of "crook" + "-maxxing"*
 
@@ -1476,12 +1543,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**."*
 * **Easily confused with:** *Critizen* - The critizen believes the law does not apply; the crookmaxxer knows it does and prices it in.
-* **Commits:** [*Two wrongs make a right*](#83-two-wrongs-make-a-right), [*Whataboutism*](#130-whataboutism)
-* **Related Terms:** [*Hypocontortionist*](#65-hypocontortionist), [*Ragesturbationist*](#91-ragesturbationist)
+* **Commits:** [*Two wrongs make a right*](#90-two-wrongs-make-a-right), [*Whataboutism*](#143-whataboutism)
+* **Related Terms:** [*Hypocontortionist*](#68-hypocontortionist), [*Ragesturbationist*](#98-ragesturbationist)
 
 ---
 
-### 69. Capitulectual
+### 72. Capitulectual
 *(noun)* `/kəˌpɪtʃ.uˈlɛk.tʃu.əl/` - *species*  
 *Blend of "capitulate" + "intellectual"*
 
@@ -1495,12 +1562,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The order hadn't been signed yet and the **capitulectual** already had a column explaining why resistance would be 'counterproductive' and 'unserious.'"*
 * **Easily confused with:** *Equivangelist* - The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity.
-* **Commits:** [*Argument to moderation*](#86-argument-to-moderation), [*False equivalence*](#126-false-equivalence), [*False balance*](#87-false-balance), [*Bulverism*](#59-bulverism), [*Nirvana fallacy*](#60-nirvana-fallacy), [*Shifting baseline*](#138-shifting-baseline)
-* **Related Terms:** [*Bootcurious*](#67-bootcurious), [*Hypocontortionist*](#65-hypocontortionist), [*Decorumancer*](#33-decorumancer)
+* **Commits:** [*Argument to moderation*](#93-argument-to-moderation), [*False equivalence*](#139-false-equivalence), [*False balance*](#94-false-balance), [*Bulverism*](#62-bulverism), [*Nirvana fallacy*](#63-nirvana-fallacy), [*Shifting baseline*](#151-shifting-baseline)
+* **Related Terms:** [*Bootcurious*](#70-bootcurious), [*Hypocontortionist*](#68-hypocontortionist), [*Decorumancer*](#35-decorumancer)
 
 ---
 
-### 70. Subpoenado
+### 73. Subpoenado
 *(noun)* `/səbˈpiː.nɑː.dəʊ/` - *ability*  
 *Blend of "subpoena" + "tornado"*
 
@@ -1513,12 +1580,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Three **subpoenados** in one month, each announced with a graphic, none of them producing a report - and the base counted it as three wins."*
 * **Easily confused with:** *Cronycle* - The subpoenado investigates the enemy; the cronycle installs the friend. Same gavel, opposite direction.
-* **Commits:** [*Argument from ignorance*](#51-argument-from-ignorance), [*Shifting the burden of proof*](#135-shifting-the-burden-of-proof)
+* **Commits:** [*Argument from ignorance*](#54-argument-from-ignorance), [*Shifting the burden of proof*](#148-shifting-the-burden-of-proof)
 * **Related Terms:** [*Omnibust*](#10-omnibust), [*Filibluster*](#8-filibluster)
 
 ---
 
-### 71. Cronycle
+### 74. Cronycle
 *(noun)* `/ˈkrəʊ.nɪ.kəl/` - *ability*  
 *Blend of "crony" + "cycle" - and a chronicle is what it writes over the machinery*
 
@@ -1531,12 +1598,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The agency's new senior advisers were the donor list with titles, and the **cronycle** had finished before the ethics waiver was filed."*
 * **Easily confused with:** *Subpoenado* - The subpoenado investigates the enemy; the cronycle installs the friend. Both are the same gavel.
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority), [*Special pleading*](#85-special-pleading)
-* **Related Terms:** [*Hypocontortionist*](#65-hypocontortionist), [*Plutomartyr*](#94-plutomartyr)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority), [*Special pleading*](#92-special-pleading)
+* **Related Terms:** [*Plutomartyr*](#101-plutomartyr), [*Good ol' boys club*](#88-good-ol-boys-club)
 
 ---
 
-### 72. Nonpology
+### 75. Nonpology
 *(noun / verb)* `/nɒnˈpɒl.ə.dʒi/` - *move*  
 *Blend of "non-" + "apology"*
 
@@ -1549,12 +1616,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He **nonpologised** for ninety seconds - sorry if people misread it, sorry the media was unfair - and by the end the only person still at fault was the one who complained."*
 * **Easily confused with:** *Bothsidesing* - The bothsideser spreads the blame across the aisle; the nonpologiser spreads it across the audience.
-* **Commits:** [*Tu quoque*](#129-tu-quoque), [*Tone policing*](#52-tone-policing)
-* **Related Terms:** [*Hypocontortionist*](#65-hypocontortionist), [*Hot mic*](#111-hot-mic)
+* **Commits:** [*Tu quoque*](#142-tu-quoque), [*Tone policing*](#55-tone-policing)
+* **Related Terms:** [*Hypocontortionist*](#68-hypocontortionist), [*Hot mic*](#118-hot-mic)
 
 ---
 
-### 73. School board meeting
+### 76. School board meeting
 *(noun)* `/ˈskuːl bɔːd ˌmiː.tɪŋ/` - *habitat*  
 *English: the smallest chamber in the republic, named for the building it meets in.*
 
@@ -1568,13 +1635,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **school board meeting** ran four hours, three of them about a book, and the budget passed at eleven with nobody left in the room."*
 * **Easily confused with:** *Cable panel* - The panel is booked and the board is elected. Both are lit for cameras, but only one of them can change a policy by Friday.
-* **Houses:** [*Bothsidesing*](#35-bothsidesing), [*Appeal to fear*](#113-appeal-to-fear), [*Straw man*](#46-straw-man), [*Heckler's veto*](#43-hecklers-veto)
-* **Commits:** [*Argumentum ad populum*](#132-argumentum-ad-populum)
-* **Related Terms:** [*Comment section*](#34-comment-section), [*Group chat*](#97-group-chat), [*Patriotainment*](#6-patriotainment)
+* **Houses:** [*Bothsidesing*](#37-bothsidesing), [*Appeal to fear*](#126-appeal-to-fear), [*Straw man*](#49-straw-man), [*Heckler's veto*](#45-hecklers-veto)
+* **Commits:** [*Argumentum ad populum*](#145-argumentum-ad-populum)
+* **Related Terms:** [*Comment section*](#36-comment-section), [*Group chat*](#104-group-chat), [*Patriotainment*](#6-patriotainment)
 
 ---
 
-### 74. Blueslip
+### 77. Blueslip
 *(noun)* `/ˈbluː.slɪp/` - *ability*  
 *English: the slip of blue paper a home-state senator returns, or does not, on a judicial nominee.*
 
@@ -1587,12 +1654,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The judge had been confirmed twice before, and never got a hearing - the **blueslip** went out in March and came back in a drawer."*
 * **Easily confused with:** *Cronycle* - The cronycle fills the seat with a friend; the blueslip makes sure the seat stays empty long enough to matter.
-* **Commits:** [*Appeal to tradition*](#20-appeal-to-tradition), [*Argument from silence*](#88-argument-from-silence)
-* **Related Terms:** [*Nightdocket*](#13-nightdocket), [*Recessure*](#75-recessure), [*Subpoenado*](#70-subpoenado)
+* **Commits:** [*Appeal to tradition*](#22-appeal-to-tradition), [*Argument from silence*](#95-argument-from-silence)
+* **Related Terms:** [*Nightdocket*](#13-nightdocket), [*Recessure*](#78-recessure), [*Subpoenado*](#73-subpoenado)
 
 ---
 
-### 75. Recessure
+### 78. Recessure
 *(noun)* `/rɪˈsɛʃ.ə/` - *ability*  
 *Blend of "recess" + "seizure"*
 
@@ -1605,12 +1672,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The nominee had been stalled for eight months, so the **recessure** happened on a Tuesday when the Senate was technically out of town, and the oath was administered by Thursday."*
 * **Easily confused with:** *Cronycle* - The cronycle installs friends with the chamber's consent; the recessure installs them without it.
-* **Commits:** [*Special pleading*](#85-special-pleading)
-* **Related Terms:** [*Blueslip*](#74-blueslip), [*Pocketveto*](#12-pocketveto), [*Nightdocket*](#13-nightdocket)
+* **Commits:** [*Special pleading*](#92-special-pleading)
+* **Related Terms:** [*Pocketveto*](#12-pocketveto), [*Nightdocket*](#13-nightdocket), [*Unelected official*](#89-unelected-official)
 
 ---
 
-### 76. Signaway
+### 79. Signaway
 *(noun / verb)* `/ˈsaɪn.əˌweɪ/` - *ability*  
 *Blend of "signing statement" + "sign away"*
 
@@ -1623,12 +1690,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He signed the oversight bill with a **signaway** attached, and the agency read the note instead of the statute."*
 * **Easily confused with:** *Pocketveto* - The pocketveto kills the bill; the signaway keeps the bill and kills the part of it he dislikes.
-* **Commits:** [*Special pleading*](#85-special-pleading), [*Equivocation*](#128-equivocation)
-* **Related Terms:** [*Subpoenado*](#70-subpoenado), [*Omnibust*](#10-omnibust), [*Notice and comment*](#166-notice-and-comment)
+* **Commits:** [*Special pleading*](#92-special-pleading), [*Equivocation*](#141-equivocation)
+* **Related Terms:** [*Omnibust*](#10-omnibust), [*Notice and comment*](#184-notice-and-comment), [*Breaking treaties*](#86-breaking-treaties)
 
 ---
 
-### 77. Lame duck
+### 80. Lame duck
 *(noun)* `/leɪm dʌk/` - *buff*  
 *English: from the exchange, where a lame duck was a broker who could not pay - a duck that cannot fly.*
 
@@ -1641,12 +1708,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"In six weeks of **lame duck** he issued forty-one pardons, three of them for people who had donated to the transition."*
 * **Easily confused with:** *Honeymoan* - The honeymoan is the grace before the first mistake; the lame duck is the grace after the last election.
-* **Commits:** [*Special pleading*](#85-special-pleading)
-* **Related Terms:** [*Plutomartyr*](#94-plutomartyr), [*Pocketveto*](#12-pocketveto), [*Martyrholic*](#92-martyrholic)
+* **Commits:** [*Special pleading*](#92-special-pleading)
+* **Related Terms:** [*Plutomartyr*](#101-plutomartyr), [*Pocketveto*](#12-pocketveto), [*Martyrholic*](#99-martyrholic)
 
 ---
 
-### 78. Judge shopping
+### 81. Judge shopping
 *(noun / verb)* `/dʒʌdʒ ˈʃɒp.ɪŋ/` - *ability*  
 *English: from forum shopping, the older practice of choosing the courtroom most likely to agree with you.*
 
@@ -1659,12 +1726,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The challenge was filed in a division with one judge, nine hundred miles from the agency it challenged, and the **judge shopping** was over before the docket sheet printed."*
 * **Easily confused with:** *Gerrythm* - The gerrythm chooses the voters; judge shopping chooses the judge. Both are map-making done before the argument starts.
-* **Commits:** [*Texas sharpshooter fallacy*](#54-texas-sharpshooter-fallacy), [*Cherry picking*](#125-cherry-picking)
-* **Related Terms:** [*Nightdocket*](#13-nightdocket), [*SLAPP*](#79-slapp), [*Random draw*](#158-random-draw)
+* **Commits:** [*Texas sharpshooter fallacy*](#57-texas-sharpshooter-fallacy), [*Cherry picking*](#138-cherry-picking)
+* **Related Terms:** [*Nightdocket*](#13-nightdocket), [*SLAPP*](#82-slapp), [*Random draw*](#171-random-draw)
 
 ---
 
-### 79. SLAPP
+### 82. SLAPP
 *(noun / verb)* `/slæp/` - *ability*  
 *Acronym: Strategic Lawsuit Against Public Participation - a suit whose purpose is the chilling, not the winning.*
 
@@ -1677,12 +1744,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The review was accurate and the **SLAPP** was dismissed in fourteen months, by which time the writer had spent her savings and the magazine had stopped assigning the beat."*
 * **Easily confused with:** *NDA* - The NDA buys silence before publication; the SLAPP bills for it afterwards.
-* **Commits:** [*Appeal to fear*](#113-appeal-to-fear), [*Argument from silence*](#88-argument-from-silence)
-* **Related Terms:** [*Qualified immunity*](#81-qualified-immunity), [*Judge shopping*](#78-judge-shopping), [*Fee shift*](#159-fee-shift)
+* **Commits:** [*Appeal to fear*](#126-appeal-to-fear), [*Argument from silence*](#95-argument-from-silence)
+* **Related Terms:** [*Qualified immunity*](#84-qualified-immunity), [*Judge shopping*](#81-judge-shopping), [*Fee shift*](#172-fee-shift)
 
 ---
 
-### 80. NDA
+### 83. NDA
 *(noun)* `/ˌen.diːˈeɪ/` - *ability*  
 *Initialism: non-disclosure agreement - a contract to be quiet, signed before anyone knows what the quiet is for.*
 
@@ -1695,12 +1762,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"She settled, signed the **NDA**, and spent four years unable to say the word harassment in an interview without a lawyer on the line."*
 * **Easily confused with:** *SLAPP* - The NDA buys the silence before publication; the SLAPP bills for it after.
-* **Commits:** [*Argument from silence*](#88-argument-from-silence)
-* **Related Terms:** [*The carve-out*](#171-the-carve-out), [*Consent decree*](#82-consent-decree), [*Qualified immunity*](#81-qualified-immunity)
+* **Commits:** [*Argument from silence*](#95-argument-from-silence)
+* **Related Terms:** [*The carve-out*](#183-the-carve-out), [*Consent decree*](#85-consent-decree), [*Qualified immunity*](#84-qualified-immunity)
 
 ---
 
-### 81. Qualified immunity
+### 84. Qualified immunity
 *(noun)* `/ˈkwɒl.ɪ.faɪd ɪˈmjuː.nɪ.ti/` - *ability*  
 *English: immunity qualified by a condition - the right must have been clearly established before the suit.*
 
@@ -1713,12 +1780,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The video was clear, the policy was clear, and **qualified immunity** turned on whether a 2011 case from another circuit had described the same handcuffs."*
 * **Easily confused with:** *Consent decree* - Qualified immunity ends the case before the facts; a consent decree ends it after, with an inspector attached.
-* **Commits:** [*Special pleading*](#85-special-pleading)
-* **Related Terms:** [*SLAPP*](#79-slapp), [*Judge shopping*](#78-judge-shopping), [*NDA*](#80-nda)
+* **Commits:** [*Special pleading*](#92-special-pleading)
+* **Related Terms:** [*SLAPP*](#82-slapp), [*Judge shopping*](#81-judge-shopping), [*NDA*](#83-nda)
 
 ---
 
-### 82. Consent decree
+### 85. Consent decree
 *(noun)* `/kənˈsɛnt dɪˈkriː/` - *ability*  
 *English: a decree issued by consent - a court order both sides agreed to and neither can walk away from.*
 
@@ -1731,11 +1798,81 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **consent decree** gave the department eighteen months, an independent monitor and a reporting requirement, and the monitor's third report was the first thing anyone had read about the department in a decade."*
 * **Easily confused with:** *Qualified immunity* - Qualified immunity ends the case before the facts; a consent decree ends it after, with a monitor attached.
-* **Related Terms:** [*Subpoenado*](#70-subpoenado), [*Nightdocket*](#13-nightdocket)
+* **Related Terms:** [*Subpoenado*](#73-subpoenado), [*Nightdocket*](#13-nightdocket)
 
 ---
 
-### 83. Two wrongs make a right
+### 86. Breaking treaties
+*(noun)* `/ˈbreɪ.kɪŋ ˈtriː.tiz/` - *ability*  
+*English: the signature withdrawn by the hand that wrote it - exit announced as sovereignty.*
+
+**Effect:** The capability of a signatory to leave an agreement it wrote: the obligations are kept as options, and withdrawal is presented as a return to first principles.  
+**Available to:** Any state whose word is worth more abroad than its exit is worth at home.  
+**Counter:** Make the exit cost something durable: a successor agreement that names the withdrawal penalty, and allies who price the exit into everything that follows.  
+
+1. The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal is announced in the language of liberation.
+2. It works because the benefit of a treaty is paid over decades and the cost of leaving is paid once, in a news cycle. A signatory that keeps the benefits and drops the obligations has arbitraged its own credibility, and the bill arrives as a premium on every later promise.
+
+* **Example:** *"We are withdrawing from the agreement to protect our sovereignty" - the treaty had been drafted by the same government, and **breaking treaties** was the sovereignty in question.*
+* **Easily confused with:** *Signaway* - Signaway gives away a right in the fine print; breaking treaties takes back a promise in the headline.
+* **Related Terms:** [*Forever war*](#124-forever-war)
+
+---
+
+### 87. Secret meeting
+*(noun)* `/ˈsiː.krɪt ˈmiː.tɪŋ/` - *habitat*  
+*English: the meeting that is not on the calendar and has no minutes, so the only record is the decision.*
+
+**Carriers:** Cabinets, boards, caucuses, and the dinner that appears on nobody's schedule.  
+**Economics:** The meeting is cheap and the minutes are expensive, so the minutes are what gets cut.  
+**Signature:** A decision that arrives fully formed, attributed to a process nobody watched.  
+**Counter:** A calendar rule: no decision without a record, and no record without a date. What cannot be minuted cannot be appealed.  
+
+1. The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum's authority and none of a quorum's exposure.
+2. It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else.
+
+* **Example:** *"The decision was made in the ordinary course" - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.*
+* **Easily confused with:** *Nightdocket* - The night docket is a court deciding without explanation; a secret meeting is a room deciding without a witness.
+* **Related Terms:** [*Good ol' boys club*](#88-good-ol-boys-club)
+
+---
+
+### 88. Good ol' boys club
+*(noun)* `/ɡʊd ɒl bɔɪz klʌb/` - *habitat*  
+*Southern American English: the informal network whose membership is assumed rather than applied for.*
+
+**Carriers:** The alumni network, the county party, the trade association, and the fraternity that became a hiring pipeline.  
+**Economics:** Membership is free and admission is not: the dues are paid in favours, and the ledger is never written down.  
+**Signature:** Every post is filled before it is advertised, and every candidate is somebody's nephew.  
+**Counter:** Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting.  
+
+1. The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.
+2. It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document.
+
+* **Example:** *"He's one of us" - the whole interview, in four words, before the résumé was opened: the **good ol' boys club** doing its hiring in the open.*
+* **Easily confused with:** *Cronycle* - The cronycle is the cycle that fills the posts; the club is the room the cycle recruits from.
+* **Related Terms:** [*Secret meeting*](#87-secret-meeting)
+
+---
+
+### 89. Unelected official
+*(noun)* `/ˌʌn.ɪˈlek.tɪd əˈfɪʃ.əl/` - *buff*  
+*English: the office with a budget and no constituency - accountable to the appointment, not the public.*
+
+**Effect:** A temporary condition in which an office holds power without a mandate: the title is real, the authority is borrowed, and the public has no lever short of a scandal.  
+**Tell:** The press release says the administration rather than a name, and the brief is answered by whoever appointed them.  
+**Expires:** At the next appointment, at the next election that is not about them, or at the next scandal that makes them expendable.  
+
+1. The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate and answers to nobody who votes.
+2. It works because expertise is a real defence and a convenient one. Some offices should be insulated from the electorate - and the insulation is exactly what makes the office useful to the people who appointed it.
+
+* **Example:** *"Per the guidance issued by the office" - an **unelected official** whose name nobody in the room could give, exercising a power nobody in the room could vote on.*
+* **Easily confused with:** *Recessure* - Recessure is the appointment made while the chamber is empty; the unelected official is what the appointment leaves behind.
+* **Related Terms:** [*Nightdocket*](#13-nightdocket)
+
+---
+
+### 90. Two wrongs make a right
 *(noun)* - *fallacy*  
 *From the proverb, inverted: the move takes a well-known warning and uses it as a defence.*
 
@@ -1749,12 +1886,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“They gerrymandered too.”* Both maps are still rigged; the sentence has only arranged for nobody to fix either.
 * **Easily confused with:** *Ad hominem* - The tu quoque changes the subject to the accuser's conduct; ad hominem changes it to the accuser's character.
-* **Related Terms:** [*Special pleading*](#85-special-pleading)
+* **Related Terms:** [*Special pleading*](#92-special-pleading)
 * **Source:** [Wikipedia · Two wrongs make a right](https://en.wikipedia.org/wiki/Two_wrongs_make_a_right)
 
 ---
 
-### 84. Post hoc ergo propter hoc
+### 91. Post hoc ergo propter hoc
 *(noun)* - *fallacy*  
 *Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.*
 
@@ -1768,12 +1905,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“I took the supplement and the cough cleared in a week.”* A week is also how long a cough lasts.
 * **Easily confused with:** *Cherry picking* - Post hoc invents a cause from sequence; cherry picking hides the cases where the sequence did not hold.
-* **Related Terms:** [*Slippery slope*](#18-slippery-slope)
+* **Related Terms:** [*Slippery slope*](#20-slippery-slope)
 * **Source:** [Wikipedia · Post hoc ergo propter hoc](https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc)
 
 ---
 
-### 85. Special pleading
+### 92. Special pleading
 *(noun)* - *fallacy*  
 *From law: a plea that asks the court to apply a different rule to this case, with no reason given for the exception.*
 
@@ -1787,12 +1924,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Attacking a public official's family is out of bounds.”* Said by the account that spent last spring on a mayor's brother.
 * **Easily confused with:** *Two wrongs make a right* - Special pleading asks for an exemption from the standard; two wrongs argues the standard is void because someone else broke it.
-* **Related Terms:** [*Moving the goalposts*](#114-moving-the-goalposts)
+* **Related Terms:** [*Moving the goalposts*](#127-moving-the-goalposts)
 * **Source:** [Wikipedia · Special pleading](https://en.wikipedia.org/wiki/Special_pleading)
 
 ---
 
-### 86. Argument to moderation
+### 93. Argument to moderation
 *(noun)* - *fallacy*  
 *Also the middle ground fallacy: the midpoint between two positions is treated as the truth by construction.*
 
@@ -1806,12 +1943,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“One side says the water is safe, the other says it is poison - surely the truth is in the middle.”* The test results are not in the middle; they are in the lab.
 * **Easily confused with:** *False equivalence* - Equivalence says the two sides are equally wrong; moderation says the truth is arithmetically between them.
-* **Related Terms:** [*False dilemma*](#48-false-dilemma)
+* **Related Terms:** [*False dilemma*](#51-false-dilemma)
 * **Source:** [Wikipedia · Argument to moderation](https://en.wikipedia.org/wiki/Argument_to_moderation)
 
 ---
 
-### 87. False balance
+### 94. False balance
 *(noun)* - *fallacy*  
 *Also bothsidesism: the studio graph with two guests, as though the shape of the panel were the shape of the evidence.*
 
@@ -1825,12 +1962,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Some say the bridge is safe, others say it will fall.”* One of those groups has the inspection report.
 * **Easily confused with:** *False equivalence* - Equivalence says the two claims are alike; false balance gives them alike treatment and lets the audience draw the first conclusion.
-* **Related Terms:** [*Argument to moderation*](#86-argument-to-moderation)
+* **Related Terms:** [*Argument to moderation*](#93-argument-to-moderation)
 * **Source:** [Wikipedia · False balance](https://en.wikipedia.org/wiki/False_balance)
 
 ---
 
-### 88. Argument from silence
+### 95. Argument from silence
 *(noun)* - *fallacy*  
 *Latin: argumentum ex silentio - nothing was said, so the nothing is read as a statement.*
 
@@ -1844,14 +1981,14 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“No complaints were filed, so everyone was satisfied.”* Nobody knew there was a form.
 * **Easily confused with:** *Argument from ignorance* - Ignorance is about missing evidence in general; silence is about a specific record that was never kept.
-* **Related Terms:** [*Survivorship bias*](#115-survivorship-bias)
+* **Related Terms:** [*Survivorship bias*](#128-survivorship-bias)
 * **Source:** [Wikipedia · Argument from silence](https://en.wikipedia.org/wiki/Argument_from_silence)
 
 ---
 
 ## IV. Fearmongering, Grift & Algorithmic Radicalization
 
-### 89. Xenophobricator
+### 96. Xenophobricator
 *(noun)* `/ˌzɛn.əˈfoʊ.brɪ.keɪ.tər/` - *species*  
 *Blend of "xenophobe" + "fabricator"*
 
@@ -1865,12 +2002,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program."*
 * **Easily confused with:** *Dramagogue* - The xenophobricator needs a specific outsider; the dramagogue only needs a crowd.
-* **Commits:** [*Hasty generalization*](#124-hasty-generalization), [*Association fallacy*](#116-association-fallacy), [*Appeal to motive*](#117-appeal-to-motive), [*Post hoc ergo propter hoc*](#84-post-hoc-ergo-propter-hoc), [*Base rate fallacy*](#61-base-rate-fallacy)
-* **Related Terms:** [*Ragesturbationist*](#91-ragesturbationist), [*The statistician*](#165-the-statistician)
+* **Commits:** [*Hasty generalization*](#137-hasty-generalization), [*Association fallacy*](#129-association-fallacy), [*Appeal to motive*](#130-appeal-to-motive), [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc), [*Base rate fallacy*](#64-base-rate-fallacy)
+* **Related Terms:** [*Ragesturbationist*](#98-ragesturbationist), [*The statistician*](#178-the-statistician)
 
 ---
 
-### 90. Dramagogue
+### 97. Dramagogue
 *(noun)* `/ˈdræm.ə.ɡɒɡ/` - *species*  
 *Blend of "drama" + "demagogue"*
 
@@ -1884,12 +2021,14 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior."*
 * **Easily confused with:** *Ragesturbationist* - The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it.
-* **Commits:** [*Appeal to fear*](#113-appeal-to-fear), [*Appeal to consequences*](#121-appeal-to-consequences), [*Appeal to motive*](#117-appeal-to-motive), [*Slippery slope*](#18-slippery-slope)
-* **Related Terms:** [*Xenophobricator*](#89-xenophobricator), [*Martyrholic*](#92-martyrholic), [*The public defender*](#162-the-public-defender)
+* **Performs:** [*WMD mongering*](#119-wmd-mongering)
+* **Uses:** [*Forever war*](#124-forever-war)
+* **Commits:** [*Appeal to fear*](#126-appeal-to-fear), [*Appeal to consequences*](#134-appeal-to-consequences), [*Appeal to motive*](#130-appeal-to-motive), [*Slippery slope*](#20-slippery-slope)
+* **Related Terms:** [*Xenophobricator*](#96-xenophobricator), [*Martyrholic*](#99-martyrholic), [*The public defender*](#175-the-public-defender)
 
 ---
 
-### 91. Ragesturbationist
+### 98. Ragesturbationist
 *(noun)* `/ˌreɪdʒ.stərˈbeɪ.ʃən.ɪst/` - *species*  
 *Blend of "rage" + "masturbation" + "-ist"*
 
@@ -1903,12 +2042,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He has zero intention of fixing the issue he screams about every night; he's a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities."*
 * **Easily confused with:** *Dramagogue* - The dramagogue wants your fear; the ragesturbationist wants your feed.
-* **Commits:** [*Appeal to fear*](#113-appeal-to-fear), [*Appeal to emotion*](#112-appeal-to-emotion)
-* **Related Terms:** [*Crookmaxxing*](#68-crookmaxxing), [*Slopagandist*](#95-slopagandist)
+* **Commits:** [*Appeal to fear*](#126-appeal-to-fear), [*Appeal to emotion*](#125-appeal-to-emotion)
+* **Related Terms:** [*Crookmaxxing*](#71-crookmaxxing), [*Slopagandist*](#102-slopagandist)
 
 ---
 
-### 92. Martyrholic
+### 99. Martyrholic
 *(noun)* `/ˌmɑːr.tərˈhɒl.ɪk/` - *species*  
 *Blend of "martyr" + "-holic"*
 
@@ -1922,12 +2061,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior."*
 * **Easily confused with:** *Plutomartyr* - Both suffer in public; the martyrholic has no jet.
-* **Commits:** [*Anecdotal evidence*](#127-anecdotal-evidence), [*Appeal to emotion*](#112-appeal-to-emotion), [*Appeal to pity*](#118-appeal-to-pity), [*Kafka trap*](#58-kafka-trap)
-* **Related Terms:** [*Dramagogue*](#90-dramagogue), [*Cross-examination*](#168-cross-examination)
+* **Commits:** [*Anecdotal evidence*](#140-anecdotal-evidence), [*Appeal to emotion*](#125-appeal-to-emotion), [*Appeal to pity*](#131-appeal-to-pity), [*Kafka trap*](#61-kafka-trap)
+* **Related Terms:** [*Dramagogue*](#97-dramagogue), [*Cross-examination*](#180-cross-examination)
 
 ---
 
-### 93. Algodemic
+### 100. Algodemic
 *(noun)* `/ˌæl.ɡoʊˈdɛm.ɪk/` - *species*  
 *Blend of "algorithm" + "academic" / "pandemic"*
 
@@ -1941,12 +2080,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Bragging that he 'escaped the matrix' while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**."*
 * **Easily confused with:** *Bleatkeeper* - The bleatkeeper trusts nothing; the algodemic trusts one chart he cannot read.
-* **Commits:** [*Cherry picking*](#125-cherry-picking), [*Survivorship bias*](#115-survivorship-bias), [*Ad nauseam*](#119-ad-nauseam), [*Appeal to novelty*](#120-appeal-to-novelty), [*Base rate fallacy*](#61-base-rate-fallacy), [*McNamara fallacy*](#64-mcnamara-fallacy), [*Normalcy bias*](#140-normalcy-bias)
-* **Related Terms:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*Ragesturbationist*](#91-ragesturbationist)
+* **Commits:** [*Cherry picking*](#138-cherry-picking), [*Survivorship bias*](#128-survivorship-bias), [*Ad nauseam*](#132-ad-nauseam), [*Appeal to novelty*](#133-appeal-to-novelty), [*Base rate fallacy*](#64-base-rate-fallacy), [*McNamara fallacy*](#67-mcnamara-fallacy), [*Normalcy bias*](#153-normalcy-bias)
+* **Related Terms:** [*Trust-Me-Brofessor*](#30-trust-me-brofessor), [*Ragesturbationist*](#98-ragesturbationist)
 
 ---
 
-### 94. Plutomartyr
+### 101. Plutomartyr
 *(noun)* `/ˈpluː.toʊ.ˌmɑːr.tər/` - *species*  
 *Blend of "plutocrat" + "martyr"*
 
@@ -1960,12 +2099,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**."*
 * **Easily confused with:** *Martyrholic* - The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate.
-* **Commits:** [*False equivalence*](#126-false-equivalence), [*Appeal to emotion*](#112-appeal-to-emotion), [*Appeal to pity*](#118-appeal-to-pity), [*Appeal to consequences*](#121-appeal-to-consequences), [*Kafka trap*](#58-kafka-trap), [*Nirvana fallacy*](#60-nirvana-fallacy), [*Just-world hypothesis*](#141-just-world-hypothesis)
-* **Related Terms:** [*Bootcurious*](#67-bootcurious), [*Indictbump*](#100-indictbump)
+* **Commits:** [*False equivalence*](#139-false-equivalence), [*Appeal to emotion*](#125-appeal-to-emotion), [*Appeal to pity*](#131-appeal-to-pity), [*Appeal to consequences*](#134-appeal-to-consequences), [*Kafka trap*](#61-kafka-trap), [*Nirvana fallacy*](#63-nirvana-fallacy), [*Just-world hypothesis*](#154-just-world-hypothesis)
+* **Related Terms:** [*Bootcurious*](#70-bootcurious), [*Indictbump*](#107-indictbump)
 
 ---
 
-### 95. Slopagandist
+### 102. Slopagandist
 *(noun)* `/ˈslɒp.ə.ˌɡæn.dɪst/` - *species*  
 *Blend of "slop" + "propagandist"*
 
@@ -1979,12 +2118,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn't believe the story, he just ships it."*
 * **Easily confused with:** *Algodemic* - The algodemic believes the nonsense; the slopagandist bills for it.
-* **Commits:** [*Proof by assertion*](#22-proof-by-assertion), [*Moving the goalposts*](#114-moving-the-goalposts), [*Ad nauseam*](#119-ad-nauseam), [*Thought-terminating cliché*](#133-thought-terminating-cliche), [*Gish gallop*](#136-gish-gallop), [*McNamara fallacy*](#64-mcnamara-fallacy), [*Shifting baseline*](#138-shifting-baseline)
-* **Related Terms:** [*Ragesturbationist*](#91-ragesturbationist), [*Perp walk*](#109-perp-walk)
+* **Uses:** [*Lobbyism*](#120-lobbyism), [*Climate hoax*](#123-climate-hoax)
+* **Commits:** [*Proof by assertion*](#24-proof-by-assertion), [*Moving the goalposts*](#127-moving-the-goalposts), [*Ad nauseam*](#132-ad-nauseam), [*Thought-terminating cliché*](#146-thought-terminating-cliche), [*Gish gallop*](#149-gish-gallop), [*McNamara fallacy*](#67-mcnamara-fallacy), [*Shifting baseline*](#151-shifting-baseline)
+* **Related Terms:** [*Ragesturbationist*](#98-ragesturbationist), [*Perp walk*](#116-perp-walk)
 
 ---
 
-### 96. Cable panel
+### 103. Cable panel
 *(noun)* `/ˈkeɪ.bəl ˈpæn.əl/` - *habitat*  
 *English: a panel is a flat board, and then a group of people arranged in front of one.*
 
@@ -1998,12 +2138,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant."*
 * **Easily confused with:** *Comment section* - The panel is produced and timed; the comment section is neither. Both punish the answer and reward the claim.
-* **Houses:** [*Gish gallop*](#136-gish-gallop), [*False balance*](#87-false-balance), [*Ad nauseam*](#119-ad-nauseam), [*Appeal to ridicule*](#131-appeal-to-ridicule), [*Loaded question*](#49-loaded-question), [*Proof by assertion*](#22-proof-by-assertion), [*Nonpology*](#72-nonpology), [*The fallacy fallacy*](#63-the-fallacy-fallacy)
-* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*School board meeting*](#73-school-board-meeting)
+* **Houses:** [*Gish gallop*](#149-gish-gallop), [*False balance*](#94-false-balance), [*Ad nauseam*](#132-ad-nauseam), [*Appeal to ridicule*](#144-appeal-to-ridicule), [*Loaded question*](#52-loaded-question), [*Proof by assertion*](#24-proof-by-assertion), [*Nonpology*](#75-nonpology), [*The fallacy fallacy*](#66-the-fallacy-fallacy)
+* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*School board meeting*](#76-school-board-meeting)
 
 ---
 
-### 97. Group chat
+### 104. Group chat
 *(noun)* `/ˈɡruːp tʃæt/` - *habitat*  
 *English: a chat that is also a group, which is the whole problem.*
 
@@ -2017,12 +2157,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Three forwards before breakfast: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link."*
 * **Easily confused with:** *Comment section* - The comment section is public and adversarial; the group chat is private and trusting. Same fallacies, opposite selection pressure.
-* **Houses:** [*False attribution*](#134-false-attribution), [*Appeal to pity*](#118-appeal-to-pity), [*Argument from silence*](#88-argument-from-silence), [*Thought-terminating cliché*](#133-thought-terminating-cliche), [*Whataboutism*](#130-whataboutism), [*Appeal to tradition*](#20-appeal-to-tradition), [*Passoffist*](#122-passoffist)
-* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*Cable panel*](#96-cable-panel)
+* **Houses:** [*False attribution*](#147-false-attribution), [*Appeal to pity*](#131-appeal-to-pity), [*Argument from silence*](#95-argument-from-silence), [*Thought-terminating cliché*](#146-thought-terminating-cliche), [*Whataboutism*](#143-whataboutism), [*Appeal to tradition*](#22-appeal-to-tradition), [*Passoffist*](#135-passoffist)
+* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*Cable panel*](#103-cable-panel)
 
 ---
 
-### 98. Bluecheck
+### 105. Bluecheck
 *(noun)* `/ˈbluː.tʃɛk/` - *buff*  
 *Blend of "blue check" + the verb "to check" - the mark and the act of vouching*
 
@@ -2035,12 +2175,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He lost the thread, then posted a screenshot of his own tick, and the **bluecheck** did the rest of the arguing for him."*
 * **Easily confused with:** *Bootcurious* - The bootcurious one defers to power; the bluecheck has been handed a little of it and spends it immediately.
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority), [*Proof by assertion*](#22-proof-by-assertion)
-* **Related Terms:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*The Feed*](#101-the-feed)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority), [*Proof by assertion*](#24-proof-by-assertion)
+* **Related Terms:** [*Trust-Me-Brofessor*](#30-trust-me-brofessor), [*The Feed*](#108-the-feed)
 
 ---
 
-### 99. Crisisglow
+### 106. Crisisglow
 *(noun)* `/ˈkraɪ.sɪsˌɡləʊ/` - *buff*  
 *Blend of "crisis" + "afterglow"*
 
@@ -2053,12 +2193,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"For six weeks of **crisisglow** the mayor could not be criticised without someone asking whether you supported the recovery."*
 * **Easily confused with:** *Indictbump* - The indictbump is sympathy for a defendant; the crisisglow is authority for an incumbent. One is a wound, the other a uniform.
-* **Commits:** [*Appeal to fear*](#113-appeal-to-fear), [*False dilemma*](#48-false-dilemma)
-* **Related Terms:** [*Honeymoan*](#11-honeymoan), [*Dramagogue*](#90-dramagogue), [*Sunset clause*](#160-sunset-clause)
+* **Commits:** [*Appeal to fear*](#126-appeal-to-fear), [*False dilemma*](#51-false-dilemma)
+* **Related Terms:** [*Honeymoan*](#11-honeymoan), [*Dramagogue*](#97-dramagogue), [*Sunset clause*](#173-sunset-clause)
 
 ---
 
-### 100. Indictbump
+### 107. Indictbump
 *(noun)* `/ɪnˈdaɪt.bʌmp/` - *buff*  
 *Blend of "indictment" + "bump", the poll movement*
 
@@ -2071,12 +2211,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday."*
 * **Easily confused with:** *Martyrholic* - The martyrholic seeks the wound; the indictbump is what the wound pays. One is a temperament, the other a yield.
-* **Commits:** [*Tu quoque*](#129-tu-quoque), [*Poisoning the well*](#55-poisoning-the-well)
-* **Related Terms:** [*Plutomartyr*](#94-plutomartyr), [*Bluecheck*](#98-bluecheck)
+* **Commits:** [*Tu quoque*](#142-tu-quoque), [*Poisoning the well*](#58-poisoning-the-well)
+* **Related Terms:** [*Plutomartyr*](#101-plutomartyr), [*Bluecheck*](#105-bluecheck)
 
 ---
 
-### 101. The Feed
+### 108. The Feed
 *(noun)* `/ðə fiːd/` - *habitat*  
 *English: the stream - named for something that is consumed rather than entered.*
 
@@ -2090,12 +2230,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He opened the app to check the weather, and the **feed** gave him a war, a grievance, and a supplement in ninety seconds."*
 * **Easily confused with:** *Comment section* - The comment section is under a thing somebody made; the feed is the thing, and nobody made it.
-* **Houses:** [*Algodemic*](#93-algodemic), [*Ragesturbationist*](#91-ragesturbationist), [*Slopagandist*](#95-slopagandist), [*Appeal to emotion*](#112-appeal-to-emotion), [*Dead cat*](#38-dead-cat), [*Push poll*](#103-push-poll), [*Astroturfing*](#41-astroturfing), [*Base rate fallacy*](#61-base-rate-fallacy)
-* **Related Terms:** [*Group chat*](#97-group-chat), [*Algodemic*](#93-algodemic)
+* **Houses:** [*Algodemic*](#100-algodemic), [*Ragesturbationist*](#98-ragesturbationist), [*Slopagandist*](#102-slopagandist), [*Appeal to emotion*](#125-appeal-to-emotion), [*Dead cat*](#40-dead-cat), [*Push poll*](#110-push-poll), [*Astroturfing*](#43-astroturfing), [*Base rate fallacy*](#64-base-rate-fallacy)
+* **Related Terms:** [*Group chat*](#104-group-chat), [*Algodemic*](#100-algodemic)
 
 ---
 
-### 102. Rubber chicken circuit
+### 109. Rubber chicken circuit
 *(noun)* `/ˈrʌb.ə ˈtʃɪk.ɪn ˈsɜː.kɪt/` - *habitat*  
 *American English: the banquet circuit, named for the only reliably edible course.*
 
@@ -2109,12 +2249,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Nine counties in four days, four **rubber chicken circuit** dinners, and the same joke about the local football team told nine times to nine rooms that all laughed."*
 * **Easily confused with:** *Patriotainment* - Patriotainment is broadcast and paid by the ad; the circuit is in the room and paid by the plate. Same speech, different invoice.
-* **Houses:** [*Plutomartyr*](#94-plutomartyr), [*Crookmaxxing*](#68-crookmaxxing), [*Patriotainer*](#7-patriotainer)
-* **Related Terms:** [*Cable panel*](#96-cable-panel), [*Plutomartyr*](#94-plutomartyr)
+* **Houses:** [*Plutomartyr*](#101-plutomartyr), [*Crookmaxxing*](#71-crookmaxxing), [*Patriotainer*](#7-patriotainer)
+* **Related Terms:** [*Cable panel*](#103-cable-panel), [*Plutomartyr*](#101-plutomartyr)
 
 ---
 
-### 103. Push poll
+### 110. Push poll
 *(noun / verb)* `/pʊʃ pəʊl/` - *move*  
 *English: a survey pushed at you rather than taken from you.*
 
@@ -2127,12 +2267,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **push poll** called nine thousand households to ask whether they would still vote for her if they knew about the investigation - there was no investigation, and the poll was the only place it existed."*
 * **Easily confused with:** *Biasographer* - The biasographer reads the data and finds what it wants; the push poll writes the data it wants read.
-* **Commits:** [*Loaded question*](#49-loaded-question), [*Poisoning the well*](#55-poisoning-the-well)
-* **Related Terms:** [*Slopagandist*](#95-slopagandist), [*Rally*](#106-rally), [*The Feed*](#101-the-feed)
+* **Commits:** [*Loaded question*](#52-loaded-question), [*Poisoning the well*](#58-poisoning-the-well)
+* **Related Terms:** [*Slopagandist*](#102-slopagandist), [*Rally*](#113-rally), [*The Feed*](#108-the-feed)
 
 ---
 
-### 104. Briefing room
+### 111. Briefing room
 *(noun)* `/ˈbriː.fɪŋ ruːm/` - *habitat*  
 *English: the room where a government answers the questions it has already chosen.*
 
@@ -2146,13 +2286,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Eleven questions in the **briefing room**, four answered, and the transcript read like a conversation because both sides needed it to."*
 * **Easily confused with:** *Cable panel* - The panel is booked for an argument; the room is booked for an answer, and reliably produces neither.
-* **Houses:** [*Bothsidesing*](#35-bothsidesing), [*Nonpology*](#72-nonpology), [*Flood the zone*](#44-flood-the-zone)
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority)
-* **Related Terms:** [*Spin room*](#105-spin-room), [*Comment section*](#34-comment-section), [*Access*](#110-access)
+* **Houses:** [*Bothsidesing*](#37-bothsidesing), [*Nonpology*](#75-nonpology), [*Flood the zone*](#46-flood-the-zone)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority)
+* **Related Terms:** [*Spin room*](#112-spin-room), [*Comment section*](#36-comment-section), [*Access*](#117-access)
 
 ---
 
-### 105. Spin room
+### 112. Spin room
 *(noun)* `/spɪn ruːm/` - *habitat*  
 *English: 'spin alley', the room behind a debate where each side declares what the audience just saw.*
 
@@ -2166,13 +2306,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **spin room** had three tables and four winners, and by midnight the debate was being remembered the way the loudest table had described it."*
 * **Easily confused with:** *Cable panel* - The panel is the argument; the spin room is the verdict about the argument, delivered while it is still happening.
-* **Houses:** [*Bothsidesing*](#35-bothsidesing)
-* **Commits:** [*Argumentum ad populum*](#132-argumentum-ad-populum)
-* **Related Terms:** [*Briefing room*](#104-briefing-room), [*Patriotainment*](#6-patriotainment), [*Patriotainer*](#7-patriotainer)
+* **Houses:** [*Bothsidesing*](#37-bothsidesing)
+* **Commits:** [*Argumentum ad populum*](#145-argumentum-ad-populum)
+* **Related Terms:** [*Briefing room*](#111-briefing-room), [*Patriotainment*](#6-patriotainment), [*Patriotainer*](#7-patriotainer)
 
 ---
 
-### 106. Rally
+### 113. Rally
 *(noun)* `/ˈræl.i/` - *habitat*  
 *English: from 'rally' - to gather again, and to recover.*
 
@@ -2186,13 +2326,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Twelve thousand in the **rally**, a chant that had been running since the primaries, and a news cycle about the crowd size rather than the speech."*
 * **Easily confused with:** *Patriotainment* - Patriotainment sells the seat; the rally gives it away and sells the shirt.
-* **Houses:** [*Playtriot*](#1-playtriot), [*Ragesturbationist*](#91-ragesturbationist), [*Appeal to force*](#62-appeal-to-force), [*Provocrop*](#123-provocrop)
-* **Commits:** [*Argumentum ad populum*](#132-argumentum-ad-populum)
-* **Related Terms:** [*Playtriot*](#1-playtriot), [*Pseudo-event*](#108-pseudo-event), [*Ragesturbationist*](#91-ragesturbationist)
+* **Houses:** [*Playtriot*](#1-playtriot), [*Ragesturbationist*](#98-ragesturbationist), [*Appeal to force*](#65-appeal-to-force), [*Provocrop*](#136-provocrop)
+* **Commits:** [*Argumentum ad populum*](#145-argumentum-ad-populum)
+* **Related Terms:** [*Playtriot*](#1-playtriot), [*Pseudo-event*](#115-pseudo-event), [*Ragesturbationist*](#98-ragesturbationist)
 
 ---
 
-### 107. Frankincense
+### 114. Frankincense
 *(noun)* `/ˈfræŋ.kɪnˌsɛns/` - *buff*  
 *Blend of "franking", the privilege of free official mail, + "incense", to inflame*
 
@@ -2205,12 +2345,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Four **frankincense** mailers in one month, all marked official, all carrying the same photograph, and the challenger's first ad was a picture of them in a pile."*
 * **Easily confused with:** *Rubber chicken circuit* - The circuit asks for the cheque in person; the frank asks for the vote by post, at public expense.
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority)
-* **Related Terms:** [*Playtriot*](#1-playtriot), [*Patriotainer*](#7-patriotainer), [*Plutomartyr*](#94-plutomartyr)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority)
+* **Related Terms:** [*Playtriot*](#1-playtriot), [*Patriotainer*](#7-patriotainer), [*Plutomartyr*](#101-plutomartyr)
 
 ---
 
-### 108. Pseudo-event
+### 115. Pseudo-event
 *(noun)* `/ˈsjuː.dəʊ ɪˌvɛnt/` - *habitat*  
 *Coined by Daniel Boorstin in 1961 for an occurrence staged in order to be reported rather than in order to happen.*
 
@@ -2225,12 +2365,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The **pseudo-event** had a ribbon, a hard hat and a site that had not been funded, and it led the local news for two nights."*
 * **Easily confused with:** *Rally* - A rally is a crowd that came to see something; a pseudo-event is something that came to be seen.
 * **Houses:** [*Patriotainer*](#7-patriotainer)
-* **Commits:** [*Proof by assertion*](#22-proof-by-assertion)
-* **Related Terms:** [*Briefing room*](#104-briefing-room), [*Spin room*](#105-spin-room), [*Patriotainment*](#6-patriotainment)
+* **Commits:** [*Proof by assertion*](#24-proof-by-assertion)
+* **Related Terms:** [*Briefing room*](#111-briefing-room), [*Spin room*](#112-spin-room), [*Patriotainment*](#6-patriotainment)
 
 ---
 
-### 109. Perp walk
+### 116. Perp walk
 *(noun)* `/ˈpɜːp wɔːk/` - *habitat*  
 *American English: the walk from the precinct to the car, at the pace of the photographers.*
 
@@ -2244,13 +2384,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **perp walk** ran on three networks, the charges were dropped in March, and the photograph was still the thumbnail on the story in June."*
 * **Easily confused with:** *Spin room* - The spin room argues about a verdict; the perp walk delivers one before the trial.
-* **Houses:** [*Slopagandist*](#95-slopagandist)
-* **Commits:** [*Poisoning the well*](#55-poisoning-the-well)
-* **Related Terms:** [*Comment section*](#34-comment-section), [*Cable panel*](#96-cable-panel), [*Group chat*](#97-group-chat)
+* **Houses:** [*Slopagandist*](#102-slopagandist)
+* **Commits:** [*Poisoning the well*](#58-poisoning-the-well)
+* **Related Terms:** [*Comment section*](#36-comment-section), [*Cable panel*](#103-cable-panel), [*Group chat*](#104-group-chat)
 
 ---
 
-### 110. Access
+### 117. Access
 *(noun)* `/ˈæk.sɛs/` - *buff*  
 *English: access journalism, the arrangement in which the interview is the reward and the question is the price.*
 
@@ -2263,12 +2403,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour."*
 * **Easily confused with:** *Briefing room* - The briefing room is where access is performed; access is what you still have when the room is empty.
-* **Commits:** [*Appeal to authority*](#47-appeal-to-authority)
-* **Related Terms:** [*Recusal*](#167-recusal), [*Comment section*](#34-comment-section), [*Spin room*](#105-spin-room)
+* **Commits:** [*Appeal to authority*](#50-appeal-to-authority)
+* **Related Terms:** [*Recusal*](#179-recusal), [*Comment section*](#36-comment-section), [*Spin room*](#112-spin-room)
 
 ---
 
-### 111. Hot mic
+### 118. Hot mic
 *(noun)* `/hɒt mɪk/` - *buff*  
 *Broadcast English: a microphone that is still live after the performance has stopped.*
 
@@ -2281,12 +2421,114 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **hot mic** caught him calling the voters the base and the donor the customer, and the distinction explained the next three years of policy."*
 * **Easily confused with:** *Nonpology* - The nonpology is the apology for what the hot mic caught.
-* **Commits:** [*Appeal to emotion*](#112-appeal-to-emotion)
-* **Related Terms:** [*Briefing room*](#104-briefing-room), [*Cable panel*](#96-cable-panel), [*Comment section*](#34-comment-section)
+* **Commits:** [*Appeal to emotion*](#125-appeal-to-emotion)
+* **Related Terms:** [*Briefing room*](#111-briefing-room), [*Cable panel*](#103-cable-panel), [*Comment section*](#36-comment-section)
 
 ---
 
-### 112. Appeal to emotion
+### 119. WMD mongering
+*(noun)* `/ˌdʌb.əl.juː.iːˈdiː ˈmʌŋ.ɡər.ɪŋ/` - *move*  
+*English: the trade in weapons that may not exist, sold by the people who would know.*
+
+**Trigger:** A war that needs a reason the public will accept before the evidence is in.  
+**Tell:** The case is a dossier, the dossier is a summary, and the summary is a mood.  
+**Counter:** Demand the inspectors' report and the date, in public, before the vote. A threat that cannot survive inspection was a sales document.  
+
+1. The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory that is always forty-five minutes away.
+2. It works because the public cannot audit a capability and the claim is unfalsifiable in the time available. By the time the inspectors publish, the vote is taken, the war is running, and the correction is a footnote in somebody else's memoir.
+
+* **Example:** *"We cannot wait for the smoking gun to become a mushroom cloud" - **WMD mongering**, in the sentence that made waiting sound like complicity.*
+* **Easily confused with:** *Proof by assertion* - Proof by assertion repeats the claim; WMD mongering manufactures the exhibit.
+* **Related Terms:** [*Forever war*](#124-forever-war), [*Dramagogue*](#97-dramagogue)
+
+---
+
+### 120. Lobbyism
+*(noun)* `/ˈlɒb.i.ɪ.zəm/` - *ability*  
+*From the lobby outside the chamber floor, with the -ism that turns a place into a system.*
+
+**Effect:** The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party's letterhead already on it.  
+**Available to:** Any body with a trade association, a district to spend in, and a former staffer to hire.  
+**Counter:** Read the bill's authorship and the revolving door's dates: who wrote it, and where they worked the year before.  
+
+1. The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee's friends.
+2. It works because the legislator needs the expertise and the industry is the only body that funds it at scale. The information is real, the interest is real, and the two arrive in the same envelope.
+
+* **Example:** *"The bill was drafted with input from stakeholders" - **lobbyism** in one line: the stakeholders wrote it, and the input was the comma they removed.*
+* **Easily confused with:** *Access* - Access buys the meeting; lobbyism writes the text the meeting was about.
+* **Related Terms:** [*Citizens United*](#19-citizens-united)
+
+---
+
+### 121. PAC check
+*(noun)* `/pæk tʃek/` - *buff*  
+*American political finance: the committee's cheque, delivered before the vote and disclosed after it.*
+
+**Effect:** A temporary condition in which a vote arrives already paid for: the maximum contribution, the bundled list, and a member who is grateful in a way that is entirely legal.  
+**Tell:** The money is disclosed after the vote and remembered at the next one.  
+**Expires:** At the next filing deadline, or when the donor's interest moves to a different committee.  
+
+1. The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt.
+2. It works because nothing about it is a secret. The amount is public, the timing is legal, and the favour is never written down - a transaction with a receipt and no contract.
+
+* **Example:** *"Our support reflects a shared commitment to the district" - the **PAC check** was itemised in the filing, one month before the markup.*
+* **Easily confused with:** *Coattails* - Coattails carry a candidate on somebody else's popularity; a PAC check carries a vote on somebody else's money.
+* **Related Terms:** [*Citizens United*](#19-citizens-united), [*Lobbyism*](#120-lobbyism)
+
+---
+
+### 122. Oil diplomacy
+*(noun)* `/ɔɪl dɪˈpləʊ.mə.si/` - *ability*  
+*English: foreign policy conducted through the price of a barrel, where the communiqué is written in the futures market.*
+
+**Effect:** The capability of a state to convert a commodity into leverage: the pipeline is the argument, the price is the concession, and the alliance is renewed at the pump.  
+**Available to:** Any government that sits on the thing everyone else has to burn.  
+**Counter:** Decouple the price from the policy: storage, substitutes, and a treaty that does not expire with the spot price.  
+
+1. The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really a market position.
+2. It works because the commodity is real and the leverage is measurable. A state that can move the price can move the government that buys it, and no memorandum of understanding is as binding as a winter.
+
+* **Example:** *"We discussed energy security" - **oil diplomacy**: the two governments discussed the price, and the price was the discussion.*
+* **Easily confused with:** *Appeal to force* - The appeal to force threatens the harm; oil diplomacy prices it, and a price is easier to agree with.
+* **Related Terms:** [*Forever war*](#124-forever-war), [*Signaway*](#79-signaway)
+
+---
+
+### 123. Climate hoax
+*(noun)* `/ˈklaɪ.mət həʊks/` - *ability*  
+*English: the finding relabelled as a fraud, so that the measurement becomes a motive.*
+
+**Effect:** The capability of a funded interest to convert a measurement into an opinion: the thermometer is real, the reading is a debate, and the debate is the product.  
+**Available to:** Any interest that needs the finding to stay a controversy for one more budget cycle.  
+**Counter:** Ask what would falsify it, then point at the number that has not moved. A hoax is a claim with no test; this one has forty years of them.  
+
+1. The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else, the study that is always about to be published.
+2. It works because doubt is cheaper than denial. You do not have to win the argument, only keep it open - and an open argument is a reason to wait, which is the only policy the funder needed.
+
+* **Example:** *"The science isn't settled" - the **climate hoax** in six words, forty years after the first consensus, by a body that had settled its own position in a memo.*
+* **Easily confused with:** *Bothsidesing* - Bothsidesing gives a finding equal time with its denial; the climate hoax is the campaign that made the denial worth airing.
+* **Related Terms:** [*Dramagogue*](#97-dramagogue)
+
+---
+
+### 124. Forever war
+*(noun)* `/fəˈrev.ə wɔː/` - *ability*  
+*English: the war that outlives the debate that authorised it, renewed by the authorisation rather than by a vote.*
+
+**Effect:** The capability of a conflict to keep going without being decided: the authorisation renews itself, the enemy becomes a noun, and the budget becomes a baseline.  
+**Available to:** Any legislature that would rather not vote on it again.  
+**Counter:** A sunset clause with a date on it, and a renewal that has to be taken in daylight.  
+
+1. The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor rather than a decision, the enemy renamed so the paperwork still applies.
+2. It works because ending a war requires a majority and continuing one requires only inertia. Each year's appropriation is last year's plus a little, and nobody has to defend the sum - only the increment.
+
+* **Example:** *"We remain engaged in the region" - a **forever war**, authorised before most of the current Congress was elected and renewed by nobody in particular.*
+* **Easily confused with:** *Omnibust* - Omnibust bundles what cannot pass alone; a forever war is bundled with the last authorisation and never unbundled.
+* **Related Terms:** [*WMD mongering*](#119-wmd-mongering)
+
+---
+
+### 125. Appeal to emotion
 *(noun)* - *fallacy*  
 *Latin: argumentum ad passiones, an argument addressed to feeling rather than to the claim.*
 
@@ -2300,12 +2542,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Think of the children”* attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.
 * **Easily confused with:** *Appeal to fear* - Emotion is the general case; fear is its most reliable channel, and its most common disguise.
-* **Related Terms:** [*Motte-and-bailey fallacy*](#53-motte-and-bailey-fallacy)
+* **Related Terms:** [*Motte-and-bailey fallacy*](#56-motte-and-bailey-fallacy)
 * **Source:** [Wikipedia · Appeal to emotion](https://en.wikipedia.org/wiki/Appeal_to_emotion)
 
 ---
 
-### 113. Appeal to fear
+### 126. Appeal to fear
 *(noun)* - *fallacy*  
 *Latin: argumentum ad metum. The oldest political argument, and the one with the shortest feedback loop.*
 
@@ -2319,12 +2561,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“If we do nothing, they win.”* Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.
 * **Easily confused with:** *Appeal to emotion* - Fear is a channel of the wider emotional appeal, and the one that most reliably skips the argument.
-* **Related Terms:** [*Slippery slope*](#18-slippery-slope)
+* **Related Terms:** [*Slippery slope*](#20-slippery-slope)
 * **Source:** [Wikipedia · Appeal to fear](https://en.wikipedia.org/wiki/Appeal_to_fear)
 
 ---
 
-### 114. Moving the goalposts
+### 127. Moving the goalposts
 *(noun)* - *fallacy*  
 *From the pitch: the shot went in, so the posts are moved back and the point does not count.*
 
@@ -2338,12 +2580,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Show me the emails.”* The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.
 * **Easily confused with:** *No true Scotsman* - The Scotsman moves the group boundary; the goalposts move the evidentiary one.
-* **Related Terms:** [*Special pleading*](#85-special-pleading)
+* **Related Terms:** [*Special pleading*](#92-special-pleading)
 * **Source:** [Wikipedia · Moving the goalposts](https://en.wikipedia.org/wiki/Moving_the_goalposts)
 
 ---
 
-### 115. Survivorship bias
+### 128. Survivorship bias
 *(noun)* - *fallacy*  
 *From the aircraft that returned: the armour study nearly went to the wings, until someone asked about the planes that did not come back.*
 
@@ -2357,12 +2599,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Every founder I know says the degree was useless.”* The founders who dropped out and failed are not at the conferences where this sentence gets said.
 * **Easily confused with:** *Cherry picking* - Cherry picking keeps the data and drops the rest; survivorship bias never had the rest - it was never recorded.
-* **Related Terms:** [*Anecdotal evidence*](#127-anecdotal-evidence)
+* **Related Terms:** [*Anecdotal evidence*](#140-anecdotal-evidence)
 * **Source:** [Wikipedia · Survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias)
 
 ---
 
-### 116. Association fallacy
+### 129. Association fallacy
 *(noun)* - *fallacy*  
 *Also guilt by association: the company a claim keeps is treated as the claim itself.*
 
@@ -2376,12 +2618,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“That is the same thing the crank down the street says.”* The crank is also right about the weather, and nobody checks the sky by checking him.
 * **Easily confused with:** *Ad hominem* - The association attacks the company the claim keeps; ad hominem attacks the person who made it.
-* **Related Terms:** [*Hasty generalization*](#124-hasty-generalization)
+* **Related Terms:** [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Association fallacy](https://en.wikipedia.org/wiki/Association_fallacy)
 
 ---
 
-### 117. Appeal to motive
+### 130. Appeal to motive
 *(noun)* - *fallacy*  
 *Also the circumstantial ad hominem: the argument is answered with an account of why the arguer wants it to be true.*
 
@@ -2395,12 +2637,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Of course the landlord says rents are fine - he owns the building.”* He does; the rent roll is still a document.
 * **Easily confused with:** *Ad hominem* - Appeal to motive attacks the reason behind the claim; ad hominem attacks the person's character or record.
-* **Related Terms:** [*Poisoning the well*](#55-poisoning-the-well)
+* **Related Terms:** [*Poisoning the well*](#58-poisoning-the-well)
 * **Source:** [Wikipedia · Appeal to motive](https://en.wikipedia.org/wiki/Appeal_to_motive)
 
 ---
 
-### 118. Appeal to pity
+### 131. Appeal to pity
 *(noun)* - *fallacy*  
 *Latin: argumentum ad misericordiam - the claim is supported by how much its speaker has suffered.*
 
@@ -2414,12 +2656,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“I lost my job over this, so you know I am telling the truth.”* Losing a job is terrible and says nothing about the facts.
 * **Easily confused with:** *Appeal to emotion* - Pity is the specific channel; the emotional appeal is the whole family.
-* **Related Terms:** [*Tu quoque*](#129-tu-quoque)
+* **Related Terms:** [*Tu quoque*](#142-tu-quoque)
 * **Source:** [Wikipedia · Appeal to pity](https://en.wikipedia.org/wiki/Appeal_to_pity)
 
 ---
 
-### 119. Ad nauseam
+### 132. Ad nauseam
 *(noun)* - *fallacy*  
 *Latin: “to the point of sickness” - the argument that wins by making the audience tired.*
 
@@ -2433,12 +2675,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.”* Three sentences, one claim, no count.
 * **Easily confused with:** *Proof by assertion* - Proof by assertion repeats to sound certain; ad nauseam repeats to make the audience stop asking.
-* **Related Terms:** [*Gish gallop*](#136-gish-gallop)
+* **Related Terms:** [*Gish gallop*](#149-gish-gallop)
 * **Source:** [Wikipedia · Ad nauseam](https://en.wikipedia.org/wiki/Ad_nauseam)
 
 ---
 
-### 120. Appeal to novelty
+### 133. Appeal to novelty
 *(noun)* - *fallacy*  
 *Latin: argumentum ad novitatem - the newest thing is treated as the best thing, and the year as an argument.*
 
@@ -2452,12 +2694,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Nobody uses cash anymore.”* Most people still do; the sentence is about the future the speaker would like.
 * **Easily confused with:** *Appeal to tradition* - Tradition cites age as proof; novelty cites youth as proof. Both substitute a timestamp for a reason.
-* **Related Terms:** [*Appeal to nature*](#21-appeal-to-nature)
+* **Related Terms:** [*Appeal to nature*](#23-appeal-to-nature)
 * **Source:** [Wikipedia · Appeal to novelty](https://en.wikipedia.org/wiki/Appeal_to_novelty)
 
 ---
 
-### 121. Appeal to consequences
+### 134. Appeal to consequences
 *(noun)* - *fallacy*  
 *Latin: argumentum ad consequentiam - the belief is judged by how it would feel for it to be true.*
 
@@ -2471,14 +2713,14 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“If that were true, the whole policy would be indefensible.”* It may well be indefensible; the audit found what it found.
 * **Easily confused with:** *Appeal to fear* - Fear forecasts the bad outcome to end the argument; consequences use the bad outcome as a disproof.
-* **Related Terms:** [*Slippery slope*](#18-slippery-slope)
+* **Related Terms:** [*Slippery slope*](#20-slippery-slope)
 * **Source:** [Wikipedia · Appeal to consequences](https://en.wikipedia.org/wiki/Appeal_to_consequences)
 
 ---
 
 ## V. Normalization, Numbness & the Noise Floor
 
-### 122. Passoffist
+### 135. Passoffist
 *(noun)* `/ˈpæs.ɒf.ɪst/` - *species*  
 *Blend of "pass off" + "pacifist" - the peacemaker whose peace is the subject never coming up*
 
@@ -2492,12 +2734,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Asked what she thought of the removals, the **passoffist** observed that everyone was getting very heated, and suggested they talk about something else."*
 * **Easily confused with:** *Decorumancer* - Both end the argument without answering it: the decorumancer objects to the volume, the passoffist to the subject.
-* **Commits:** [*Thought-terminating cliché*](#133-thought-terminating-cliche), [*False equivalence*](#126-false-equivalence), [*Argumentum ad populum*](#132-argumentum-ad-populum), [*Shifting baseline*](#138-shifting-baseline), [*Normalcy bias*](#140-normalcy-bias)
-* **Related Terms:** [*Provocrop*](#123-provocrop), [*Capitulectual*](#69-capitulectual)
+* **Commits:** [*Thought-terminating cliché*](#146-thought-terminating-cliche), [*False equivalence*](#139-false-equivalence), [*Argumentum ad populum*](#145-argumentum-ad-populum), [*Shifting baseline*](#151-shifting-baseline), [*Normalcy bias*](#153-normalcy-bias)
+* **Related Terms:** [*Provocrop*](#136-provocrop), [*Capitulectual*](#72-capitulectual)
 
 ---
 
-### 123. Provocrop
+### 136. Provocrop
 *(noun)* `/ˈprɒv.ə.krɒp/` - *species*  
 *Blend of "provocation" + "sharecropper" - works a field of someone else's outrage and keeps a share of the crop*
 
@@ -2511,12 +2753,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Tucked into dad jeans at the hardware store, the **provocrop** was wearing this morning's headline and had not read past it."*
 * **Easily confused with:** *Slopagandist* - The slopagandist makes the take; the provocrop buys it by the shirt.
-* **Commits:** [*Appeal to ridicule*](#131-appeal-to-ridicule), [*Thought-terminating cliché*](#133-thought-terminating-cliche), [*Argumentum ad populum*](#132-argumentum-ad-populum), [*Creeping normality*](#139-creeping-normality)
-* **Related Terms:** [*Passoffist*](#122-passoffist), [*Playtriot*](#1-playtriot)
+* **Commits:** [*Appeal to ridicule*](#144-appeal-to-ridicule), [*Thought-terminating cliché*](#146-thought-terminating-cliche), [*Argumentum ad populum*](#145-argumentum-ad-populum), [*Creeping normality*](#152-creeping-normality)
+* **Related Terms:** [*Passoffist*](#135-passoffist), [*Playtriot*](#1-playtriot)
 
 ---
 
-### 124. Hasty generalization
+### 137. Hasty generalization
 *(noun)* - *fallacy*  
 *Latin: secundum quid, “according to a particular” - a rule drawn from too narrow a sample.*
 
@@ -2530,12 +2772,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“I met two rude tourists from there, so that is what they are like.”* Two people, one airport, an entire country.
 * **Easily confused with:** *Anecdotal evidence* - The generalization is the conclusion; the anecdote is the single story it was built on.
-* **Related Terms:** [*Cherry picking*](#125-cherry-picking)
+* **Related Terms:** [*Cherry picking*](#138-cherry-picking)
 * **Source:** [Wikipedia · Hasty generalization](https://en.wikipedia.org/wiki/Hasty_generalization)
 
 ---
 
-### 125. Cherry picking
+### 138. Cherry picking
 *(noun)* - *fallacy*  
 *From the orchard: you pick the fruit that looks best and leave the rest on the tree for someone else to find.*
 
@@ -2549,12 +2791,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Crime fell in the years we cut the programme.”* It also fell in the four years before, in the neighbouring county, and by more.
 * **Easily confused with:** *Texas sharpshooter fallacy* - Cherry picking removes the inconvenient data; the sharpshooter keeps all of it and moves the target instead.
-* **Related Terms:** [*Survivorship bias*](#115-survivorship-bias)
+* **Related Terms:** [*Survivorship bias*](#128-survivorship-bias)
 * **Source:** [Wikipedia · Cherry picking](https://en.wikipedia.org/wiki/Cherry_picking)
 
 ---
 
-### 126. False equivalence
+### 139. False equivalence
 *(noun)* - *fallacy*  
 *Latin: false equivalence, or the apples-and-oranges move. The failure is in the comparison, not in either thing compared.*
 
@@ -2568,12 +2810,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Both sides traffic in misinformation.”* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.
 * **Easily confused with:** *False dilemma* - The dilemma collapses the field to two options; equivalence collapses the distance between them.
-* **Related Terms:** [*Argument to moderation*](#86-argument-to-moderation)
+* **Related Terms:** [*Argument to moderation*](#93-argument-to-moderation)
 * **Source:** [Wikipedia · False equivalence](https://en.wikipedia.org/wiki/False_equivalence)
 
 ---
 
-### 127. Anecdotal evidence
+### 140. Anecdotal evidence
 *(noun)* - *fallacy*  
 *From the Greek anekdota, “unpublished things” - the story that never made it into the record.*
 
@@ -2587,12 +2829,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“My uncle smoked for sixty years.”* The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.
 * **Easily confused with:** *Hasty generalization* - The anecdote is the evidence; the generalization is the rule drawn from it.
-* **Related Terms:** [*Survivorship bias*](#115-survivorship-bias)
+* **Related Terms:** [*Survivorship bias*](#128-survivorship-bias)
 * **Source:** [Wikipedia · Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence)
 
 ---
 
-### 128. Equivocation
+### 141. Equivocation
 *(noun)* - *fallacy*  
 *Latin: aequus vox, “equal voice” - one word doing two jobs in the same argument.*
 
@@ -2606,12 +2848,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Speech is free, so my platform must host it.”* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.
 * **Easily confused with:** *Motte-and-bailey fallacy* - The motte switches between two claims; equivocation switches between two senses of a word inside one claim.
-* **Related Terms:** [*Loaded question*](#49-loaded-question)
+* **Related Terms:** [*Loaded question*](#52-loaded-question)
 * **Source:** [Wikipedia · Equivocation](https://en.wikipedia.org/wiki/Equivocation)
 
 ---
 
-### 129. Tu quoque
+### 142. Tu quoque
 *(noun)* - *fallacy*  
 *Latin: “you too” - the second-person form of the two-wrongs move, and the most common sentence on the internet.*
 
@@ -2625,12 +2867,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“You are funded by a billionaire.”* “So are you.” Both disclosures are true; only one of them was on the table.
 * **Easily confused with:** *Two wrongs make a right* - Tu quoque attacks the accuser's consistency; two wrongs uses the comparison as a defence of the act itself.
-* **Related Terms:** [*Whataboutism*](#130-whataboutism)
+* **Related Terms:** [*Whataboutism*](#143-whataboutism)
 * **Source:** [Wikipedia · Tu quoque](https://en.wikipedia.org/wiki/Tu_quoque)
 
 ---
 
-### 130. Whataboutism
+### 143. Whataboutism
 *(noun)* - *fallacy*  
 *Named for the Soviet reply to every complaint: “and what about…?”*
 
@@ -2644,12 +2886,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“What about the crime in your city?”* The question was about a contract. Both can be answered; only one was asked.
 * **Easily confused with:** *Tu quoque* - Tu quoque answers a charge with a charge against the accuser; whataboutism raises any third subject at all.
-* **Related Terms:** [*Ad hominem*](#45-ad-hominem)
+* **Related Terms:** [*Ad hominem*](#48-ad-hominem)
 * **Source:** [Wikipedia · Whataboutism](https://en.wikipedia.org/wiki/Whataboutism)
 
 ---
 
-### 131. Appeal to ridicule
+### 144. Appeal to ridicule
 *(noun)* - *fallacy*  
 *Also argumentum ad ridiculum: the claim is answered with a joke about it, and the joke counts as the answer.*
 
@@ -2663,12 +2905,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“So we should just let everyone do whatever they want, then?”* Nobody proposed that; the sentence made the proposal funny and then defeated the joke.
 * **Easily confused with:** *Appeal to the stone* - Ridicule gets a laugh; the stone gets a shrug. Both substitute a reaction for a reason.
-* **Related Terms:** [*Straw man*](#46-straw-man)
+* **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Appeal to ridicule](https://en.wikipedia.org/wiki/Appeal_to_ridicule)
 
 ---
 
-### 132. Argumentum ad populum
+### 145. Argumentum ad populum
 *(noun)* - *fallacy*  
 *Latin: “to the people” - the crowd is treated as the evidence, and the bandwagon as the proof.*
 
@@ -2682,12 +2924,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Everyone knows the water is fine.”* Everyone knew a lot of things that turned out to be false; the water has a test result.
 * **Easily confused with:** *Appeal to authority* - Authority borrows one credential; ad populum borrows a crowd, which is cheaper and worse.
-* **Related Terms:** [*Appeal to tradition*](#20-appeal-to-tradition)
+* **Related Terms:** [*Appeal to tradition*](#22-appeal-to-tradition)
 * **Source:** [Wikipedia · Argumentum ad populum](https://en.wikipedia.org/wiki/Argumentum_ad_populum)
 
 ---
 
-### 133. Thought-terminating cliché
+### 146. Thought-terminating cliché
 *(noun)* - *fallacy*  
 *Named by Robert Jay Lifton in his study of thought reform: a phrase that ends the thinking rather than the question.*
 
@@ -2701,12 +2943,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“It is what it is.”* Said about a policy that could be changed, by the people who could change it.
 * **Easily confused with:** *Proof by assertion* - The cliché stops the conversation with familiarity; the assertion stops it with confidence.
-* **Related Terms:** [*Appeal to tradition*](#20-appeal-to-tradition)
+* **Related Terms:** [*Appeal to tradition*](#22-appeal-to-tradition)
 * **Source:** [Wikipedia · Thought-terminating cliché](https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9)
 
 ---
 
-### 134. False attribution
+### 147. False attribution
 *(noun)* - *fallacy*  
 *Also quoting out of context: the words are real, the sentence they were in is gone.*
 
@@ -2720,12 +2962,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“They said the plan was dead on arrival.”* The transcript says it was dead on arrival in the Senate, which then passed it.
 * **Easily confused with:** *Straw man* - False attribution puts new words in someone's mouth; the straw man puts a weaker argument there.
-* **Related Terms:** [*Cherry picking*](#125-cherry-picking)
+* **Related Terms:** [*Cherry picking*](#138-cherry-picking)
 * **Source:** [Wikipedia · False attribution](https://en.wikipedia.org/wiki/False_attribution)
 
 ---
 
-### 135. Shifting the burden of proof
+### 148. Shifting the burden of proof
 *(noun)* - *fallacy*  
 *Latin: onus probandi. The burden sits with whoever makes the claim - and the shift is the act of handing it over.*
 
@@ -2739,12 +2981,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Show me the study that says it is harmful.”* The claim was that it is safe; the absent study is not a finding.
 * **Easily confused with:** *Argument from ignorance* - Ignorance treats a gap as proof; the shift assigns the work of closing the gap to the sceptic.
-* **Related Terms:** [*Sealioning*](#57-sealioning)
+* **Related Terms:** [*Sealioning*](#60-sealioning)
 * **Source:** [Wikipedia · Burden of proof (philosophy)](https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy))
 
 ---
 
-### 136. Gish gallop
+### 149. Gish gallop
 *(noun)* - *fallacy*  
 *Named after Duane Gish, who debated by assertion density: more claims per minute than anyone could answer.*
 
@@ -2758,12 +3000,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…”* Fourteen claims, ninety seconds, one of them true.
 * **Easily confused with:** *Ad nauseam* - Ad nauseam repeats one claim; the gallop produces a new one every sentence.
-* **Related Terms:** [*Proof by assertion*](#22-proof-by-assertion)
+* **Related Terms:** [*Proof by assertion*](#24-proof-by-assertion)
 * **Source:** [Wikipedia · Gish gallop](https://en.wikipedia.org/wiki/Gish_gallop)
 
 ---
 
-### 137. Appeal to the stone
+### 150. Appeal to the stone
 *(noun)* - *fallacy*  
 *Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying “I refute it thus”.*
 
@@ -2777,12 +3019,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *“That is the dumbest thing I have heard all week.”* Possible. The sentence has not said which part is wrong.
 * **Easily confused with:** *Appeal to ridicule* - Ridicule makes the claim funny; the stone simply declares it absurd. The stone is lazier and more common.
-* **Related Terms:** [*Proof by assertion*](#22-proof-by-assertion)
+* **Related Terms:** [*Proof by assertion*](#24-proof-by-assertion)
 * **Source:** [Wikipedia · Appeal to the stone](https://en.wikipedia.org/wiki/Appeal_to_the_stone)
 
 ---
 
-### 138. Shifting baseline
+### 151. Shifting baseline
 *(noun)* - *fallacy*  
 *Named in fisheries science: each generation measures the catch against what it remembers, not against what the water held before anyone was counting.*
 
@@ -2796,12 +3038,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The lake still has fish in it"* - it has a third of the fish it had when the speaker's father fished it, and the father's father said the same thing about the same lake.
 * **Easily confused with:** *Creeping normality* - Creeping normality is the drift itself, one increment at a time; shifting baseline is why the drift goes unmeasured - each generation resets the ruler.
-* **Related Terms:** [*Normalcy bias*](#140-normalcy-bias)
+* **Related Terms:** [*Normalcy bias*](#153-normalcy-bias)
 * **Source:** [Wikipedia · Shifting baseline](https://en.wikipedia.org/wiki/Shifting_baseline)
 
 ---
 
-### 139. Creeping normality
+### 152. Creeping normality
 *(noun)* - *fallacy*  
 *Jared Diamond's term for change that arrives in increments too small to object to, each one accepted because the last one was.*
 
@@ -2815,12 +3057,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Nobody voted to end public comment."* The period went from thirty days to ten, then to "as practicable", then to a form that closed on Fridays.
 * **Easily confused with:** *Slippery slope* - The slippery slope is a prediction made by someone arguing against the first step; creeping normality is the same walk recorded afterwards by someone who did not notice it.
-* **Related Terms:** [*Shifting baseline*](#138-shifting-baseline), [*Normalcy bias*](#140-normalcy-bias)
+* **Related Terms:** [*Shifting baseline*](#151-shifting-baseline), [*Normalcy bias*](#153-normalcy-bias)
 * **Source:** [Wikipedia · Creeping normality](https://en.wikipedia.org/wiki/Creeping_normality)
 
 ---
 
-### 140. Normalcy bias
+### 153. Normalcy bias
 *(noun)* - *fallacy*  
 *Named for the normality it assumes: the disaster has not arrived, so the room reads the quiet as a guarantee.*
 
@@ -2834,12 +3076,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"We have never had a fire in this building"* - said on the fourth floor of a building with one stairwell, above the floor where the alarm panel had been disabled to stop the nuisance trips.
 * **Easily confused with:** *Argument from silence* - The argument from silence reads a missing record as a settled question; normalcy bias reads a quiet record as a safe one.
-* **Related Terms:** [*Shifting baseline*](#138-shifting-baseline), [*Dramagogue*](#90-dramagogue)
+* **Related Terms:** [*Shifting baseline*](#151-shifting-baseline), [*Dramagogue*](#97-dramagogue)
 * **Source:** [Wikipedia · Normalcy bias](https://en.wikipedia.org/wiki/Normalcy_bias)
 
 ---
 
-### 141. Just-world hypothesis
+### 154. Just-world hypothesis
 *(noun)* - *fallacy*  
 *Melvin Lerner's term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.*
 
@@ -2853,14 +3095,14 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"She should have left."* The sentence turns a crime into a decision, and the room into a place where it could not have happened to them.
 * **Easily confused with:** *Appeal to consequences* - The appeal to consequences rejects a claim because believing it would be bad; the just-world hypothesis accepts an outcome because an undeserved one would be unbearable.
-* **Related Terms:** [*Normalcy bias*](#140-normalcy-bias), [*Plutomartyr*](#94-plutomartyr)
+* **Related Terms:** [*Normalcy bias*](#153-normalcy-bias), [*Plutomartyr*](#101-plutomartyr)
 * **Source:** [Wikipedia · Just-world hypothesis](https://en.wikipedia.org/wiki/Just-world_hypothesis)
 
 ---
 
 ## VI. The Keystones
 
-### 142. The clerk
+### 155. The clerk
 *(noun)* `/klɑːk/` - *keystone*  
 *Old English clerc, a cleric - the literate man who kept the book because he was the one who could read.*
 
@@ -2874,13 +3116,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Two years later the only proof of what the council had voted for was the **clerk**'s minutes, and the member who had denied it was reading them aloud."*
 * **Easily confused with:** *The archivist* - The clerk keeps what the body did this year; the archivist keeps what it did in 1974.
-* **Counters:** [*Sabotriot*](#5-sabotriot), [*Omnibust*](#10-omnibust), [*Pocketveto*](#12-pocketveto), [*Recessure*](#75-recessure)
-* **Practises:** [*Records request*](#150-records-request)
-* **Related Terms:** [*The poll worker*](#143-the-poll-worker), [*Records request*](#150-records-request)
+* **Counters:** [*Sabotriot*](#5-sabotriot), [*Omnibust*](#10-omnibust), [*Pocketveto*](#12-pocketveto), [*Recessure*](#78-recessure)
+* **Practises:** [*Records request*](#163-records-request)
+* **Related Terms:** [*The poll worker*](#156-the-poll-worker), [*Records request*](#163-records-request)
 
 ---
 
-### 143. The poll worker
+### 156. The poll worker
 *(noun)* `/pəʊl ˈwɜː.kə/` - *keystone*  
 *English: the precinct official who works the poll - a temporary, trained, paid job anyone can take.*
 
@@ -2895,12 +3137,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The scanner jammed at nine, and the **poll worker** did what the training had covered: sealed the bin, called the county, and read the numbers into the log with an observer watching."*
 * **Easily confused with:** *The clerk* - The clerk records what the body did; the poll worker records what the voter did, one name at a time.
 * **Counters:** [*Critizen*](#4-critizen), [*Playtriot*](#1-playtriot)
-* **Practises:** [*The public count*](#155-the-public-count)
-* **Related Terms:** [*The public count*](#155-the-public-count), [*The auditor*](#149-the-auditor)
+* **Practises:** [*The public count*](#168-the-public-count)
+* **Related Terms:** [*The public count*](#168-the-public-count), [*The auditor*](#162-the-auditor)
 
 ---
 
-### 144. The archivist
+### 157. The archivist
 *(noun)* `/ˈɑː.kɪ.vɪst/` - *keystone*  
 *From the Greek arkheion, the house of the magistrate - the building where the record was kept because it was the record.*
 
@@ -2914,13 +3156,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it."*
 * **Easily confused with:** *The librarian* - The archivist keeps the thing; the librarian finds it.
-* **Counters:** [*Mythstorian*](#66-mythstorian), [*Friday news dump*](#40-friday-news-dump), [*Pseudo-event*](#108-pseudo-event), [*Hypocontortionist*](#65-hypocontortionist)
-* **Practises:** [*The transcript*](#151-the-transcript)
-* **Related Terms:** [*The clerk*](#142-the-clerk), [*The transcript*](#151-the-transcript)
+* **Counters:** [*Mythstorian*](#69-mythstorian), [*Friday news dump*](#42-friday-news-dump), [*Pseudo-event*](#115-pseudo-event), [*Hypocontortionist*](#68-hypocontortionist)
+* **Practises:** [*The transcript*](#164-the-transcript)
+* **Related Terms:** [*The clerk*](#155-the-clerk), [*The transcript*](#164-the-transcript)
 
 ---
 
-### 145. The librarian
+### 158. The librarian
 *(noun)* `/laɪˈbreə.ri.ən/` - *keystone*  
 *From the Latin librarius, a copyist - the trade that became a profession the day the public was allowed in.*
 
@@ -2934,13 +3176,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He had done his own research for a year, and the **librarian** found the study he had been citing, the correction to it, and the retraction, in about eleven minutes."*
 * **Easily confused with:** *The editor* - The librarian finds the source; the editor refuses to publish without it.
-* **Counters:** [*Illogician*](#26-illogician)
-* **Practises:** [*Lateral reading*](#152-lateral-reading)
-* **Related Terms:** [*The archivist*](#144-the-archivist), [*Lateral reading*](#152-lateral-reading)
+* **Counters:** [*Illogician*](#28-illogician)
+* **Practises:** [*Lateral reading*](#165-lateral-reading)
+* **Related Terms:** [*The archivist*](#157-the-archivist), [*Lateral reading*](#165-lateral-reading)
 
 ---
 
-### 146. The caseworker
+### 159. The caseworker
 *(noun)* `/ˈkeɪsˌwɜː.kə/` - *keystone*  
 *English: the official who carries a caseload - the point where a statute becomes a decision about one household.*
 
@@ -2954,13 +3196,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The letter said no, the **caseworker** read the appeal, found the clause the automated screen had missed, and the cheque arrived nine days later."*
 * **Easily confused with:** *The clerk* - The clerk records the decision; the caseworker delivers it to somebody who needs it by Friday.
-* **Counters:** [*Plutomartyr*](#94-plutomartyr), [*LARPtarian*](#3-larptarian)
-* **Practises:** [*The written reason*](#156-the-written-reason)
-* **Related Terms:** [*The written reason*](#156-the-written-reason), [*The auditor*](#149-the-auditor)
+* **Counters:** [*Plutomartyr*](#101-plutomartyr), [*LARPtarian*](#3-larptarian)
+* **Practises:** [*The written reason*](#169-the-written-reason)
+* **Related Terms:** [*The written reason*](#169-the-written-reason), [*The auditor*](#162-the-auditor)
 
 ---
 
-### 147. The editor
+### 160. The editor
 *(noun)* `/ˈed.ɪ.tə/` - *keystone*  
 *From the Latin edere, to give out - the one who decides what leaves the building.*
 
@@ -2974,13 +3216,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **editor** held the story a day, the second call changed the second paragraph, and the version that ran was the one that survived being read to the person it was about."*
 * **Easily confused with:** *The moderator* - The editor decides what is published; the moderator decides what gets answered.
-* **Counters:** [*Slopagandist*](#95-slopagandist), [*Bluecheck*](#98-bluecheck)
-* **Practises:** [*The second source*](#153-the-second-source)
-* **Related Terms:** [*The librarian*](#145-the-librarian), [*The second source*](#153-the-second-source)
+* **Counters:** [*Slopagandist*](#102-slopagandist), [*Bluecheck*](#105-bluecheck)
+* **Practises:** [*The second source*](#166-the-second-source)
+* **Related Terms:** [*The librarian*](#158-the-librarian), [*The second source*](#166-the-second-source)
 
 ---
 
-### 148. The moderator
+### 161. The moderator
 *(noun)* `/ˈmɒd.ə.reɪ.tə/` - *keystone*  
 *From the Latin moderari, to keep within bounds - the same root as moderate, and the same job.*
 
@@ -2994,13 +3236,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **moderator** asked the same question three times, got three answers about something else, and said so on air - which was the whole of the remedy."*
 * **Easily confused with:** *The steelman* - The moderator runs the format; the steelman is what the format is for.
-* **Counters:** [*Sophistroll*](#25-sophistroll), [*Bothsidesing*](#35-bothsidesing), [*Heckler's veto*](#43-hecklers-veto), [*Rubber chicken circuit*](#102-rubber-chicken-circuit)
-* **Practises:** [*The steelman*](#154-the-steelman)
-* **Related Terms:** [*The editor*](#147-the-editor), [*The caseworker*](#146-the-caseworker)
+* **Counters:** [*Sophistroll*](#27-sophistroll), [*Bothsidesing*](#37-bothsidesing), [*Heckler's veto*](#45-hecklers-veto), [*Rubber chicken circuit*](#109-rubber-chicken-circuit)
+* **Practises:** [*The steelman*](#167-the-steelman)
+* **Related Terms:** [*The editor*](#160-the-editor), [*The caseworker*](#159-the-caseworker)
 
 ---
 
-### 149. The auditor
+### 162. The auditor
 *(noun)* `/ˈɔː.dɪ.tə/` - *keystone*  
 *From the Latin audire, to hear - the officer who heard the accounts read aloud, because the books were once spoken.*
 
@@ -3014,13 +3256,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **auditor** pulled forty contracts, found the same vendor in eleven of them, and published the sampling method so that the finding could be argued with."*
 * **Easily confused with:** *The archivist* - The archivist keeps the record; the auditor reads it and says what it shows.
-* **Counters:** [*Cronycle*](#71-cronycle)
-* **Practises:** [*The audit*](#157-the-audit)
-* **Related Terms:** [*The clerk*](#142-the-clerk), [*The audit*](#157-the-audit), [*The caseworker*](#146-the-caseworker)
+* **Counters:** [*Cronycle*](#74-cronycle)
+* **Practises:** [*The audit*](#170-the-audit)
+* **Related Terms:** [*The clerk*](#155-the-clerk), [*The audit*](#170-the-audit), [*The caseworker*](#159-the-caseworker)
 
 ---
 
-### 150. Records request
+### 163. Records request
 *(noun)* `/ˈrek.ɔːdz rɪˌkwest/` - *remedy*  
 *English: the statutory demand for a document, known in the United States as FOIA and elsewhere as freedom of information or right to know.*
 
@@ -3034,12 +3276,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website."*
 * **Easily confused with:** *The transcript* - The request gets the document the body already wrote; the transcript makes a document out of what it said.
-* **Counters:** [*Bleatkeeper*](#30-bleatkeeper), [*Briefing room*](#104-briefing-room), [*Crookmaxxing*](#68-crookmaxxing), [*Trial balloon*](#39-trial-balloon), [*Blueslip*](#74-blueslip)
-* **Related Terms:** [*The clerk*](#142-the-clerk), [*The audit*](#157-the-audit)
+* **Counters:** [*Bleatkeeper*](#32-bleatkeeper), [*Briefing room*](#111-briefing-room), [*Crookmaxxing*](#71-crookmaxxing), [*Trial balloon*](#41-trial-balloon), [*Blueslip*](#77-blueslip)
+* **Related Terms:** [*The clerk*](#155-the-clerk), [*The audit*](#170-the-audit)
 
 ---
 
-### 151. The transcript
+### 164. The transcript
 *(noun)* `/ˈtræn.skrɪpt/` - *remedy*  
 *From the Latin transcribere, to copy across - the written version of a thing that was said out loud.*
 
@@ -3053,12 +3295,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional."*
 * **Easily confused with:** *Records request* - The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.
-* **Counters:** [*Vaguebooking*](#36-vaguebooking), [*Cable panel*](#96-cable-panel), [*Motte hop*](#42-motte-hop), [*Subpoenado*](#70-subpoenado), [*Group chat*](#97-group-chat), [*Bootcurious*](#67-bootcurious), [*Dead cat*](#38-dead-cat)
-* **Related Terms:** [*The archivist*](#144-the-archivist), [*The second source*](#153-the-second-source)
+* **Counters:** [*Vaguebooking*](#38-vaguebooking), [*Cable panel*](#103-cable-panel), [*Motte hop*](#44-motte-hop), [*Subpoenado*](#73-subpoenado), [*Group chat*](#104-group-chat), [*Bootcurious*](#70-bootcurious), [*Dead cat*](#40-dead-cat)
+* **Related Terms:** [*The archivist*](#157-the-archivist), [*The second source*](#166-the-second-source)
 
 ---
 
-### 152. Lateral reading
+### 165. Lateral reading
 *(verb phrase / gerund)* `/ˈlæt.ər.əl ˈriː.dɪŋ/` - *remedy*  
 *English: reading sideways - leaving the page to find out who is behind it, rather than reading down it for clues.*
 
@@ -3072,12 +3314,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead."*
 * **Easily confused with:** *The second source* - Lateral reading checks a claim against the world; the second source is the world agreeing to go on the record.
-* **Counters:** [*Algodemic*](#93-algodemic), [*The Feed*](#101-the-feed), [*Astroturfing*](#41-astroturfing)
-* **Related Terms:** [*The librarian*](#145-the-librarian), [*The steelman*](#154-the-steelman)
+* **Counters:** [*Algodemic*](#100-algodemic), [*The Feed*](#108-the-feed), [*Astroturfing*](#43-astroturfing)
+* **Related Terms:** [*The librarian*](#158-the-librarian), [*The steelman*](#167-the-steelman)
 
 ---
 
-### 153. The second source
+### 166. The second source
 *(noun)* `/ðə ˈsek.ənd sɔːs/` - *remedy*  
 *Newsroom English: the confirmation that does not depend on the first one.*
 
@@ -3091,12 +3333,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **second source** was the clerk's copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph."*
 * **Easily confused with:** *Lateral reading* - Lateral reading is what a reader does in ninety seconds; the second source is what a newsroom does in ninety minutes.
-* **Counters:** [*Slopagandist*](#95-slopagandist), [*Receiptbomb*](#37-receiptbomb), [*Patriotainer*](#7-patriotainer)
-* **Related Terms:** [*The editor*](#147-the-editor), [*The transcript*](#151-the-transcript)
+* **Counters:** [*Slopagandist*](#102-slopagandist), [*Receiptbomb*](#39-receiptbomb), [*Patriotainer*](#7-patriotainer)
+* **Related Terms:** [*The editor*](#160-the-editor), [*The transcript*](#164-the-transcript)
 
 ---
 
-### 154. The steelman
+### 167. The steelman
 *(noun)* `/ˈstiːl.mæn/` - *remedy*  
 *English: the deliberate opposite of the straw man - the argument rebuilt in steel so that refuting it means something.*
 
@@ -3110,12 +3352,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"She wrote the **steelman** first, sent it to the person she disagreed with, got a 'yes, that's it', and only then wrote the reply."*
 * **Easily confused with:** *Bothsidesing* - Bothsidesing splits the difference; the steelman takes one side at its strongest and then argues with it.
-* **Counters:** [*Equivangelist*](#31-equivangelist), [*Biasographer*](#29-biasographer)
-* **Related Terms:** [*The moderator*](#148-the-moderator), [*Lateral reading*](#152-lateral-reading), [*The written reason*](#156-the-written-reason)
+* **Counters:** [*Equivangelist*](#33-equivangelist), [*Biasographer*](#31-biasographer)
+* **Related Terms:** [*The moderator*](#161-the-moderator), [*Lateral reading*](#165-lateral-reading), [*The written reason*](#169-the-written-reason)
 
 ---
 
-### 155. The public count
+### 168. The public count
 *(noun)* `/ðə ˈpʌb.lɪk kaʊnt/` - *remedy*  
 *English: the count of ballots in a room with watchers - the oldest audit there is.*
 
@@ -3129,12 +3371,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted."*
 * **Easily confused with:** *The audit* - The count is watched while it happens; the audit checks it afterwards, on a sample.
-* **Counters:** [*Critizen*](#4-critizen), [*Rally*](#106-rally)
-* **Related Terms:** [*The poll worker*](#143-the-poll-worker), [*Records request*](#150-records-request)
+* **Counters:** [*Critizen*](#4-critizen), [*Rally*](#113-rally)
+* **Related Terms:** [*The poll worker*](#156-the-poll-worker), [*Notice and comment*](#184-notice-and-comment)
 
 ---
 
-### 156. The written reason
+### 169. The written reason
 *(noun)* `/ðə ˈrɪt.ən ˈriː.zən/` - *remedy*  
 *English: the duty to give reasons - the administrative-law rule that a decision must say why it was made.*
 
@@ -3148,12 +3390,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it."*
 * **Easily confused with:** *The transcript* - The transcript records what was said; the written reason records why it was decided.
-* **Counters:** [*Nonpology*](#72-nonpology), [*Spin room*](#105-spin-room), [*Capitulectual*](#69-capitulectual)
-* **Related Terms:** [*The caseworker*](#146-the-caseworker), [*The audit*](#157-the-audit)
+* **Counters:** [*Nonpology*](#75-nonpology), [*Spin room*](#112-spin-room), [*Capitulectual*](#72-capitulectual)
+* **Related Terms:** [*The caseworker*](#159-the-caseworker), [*The audit*](#170-the-audit)
 
 ---
 
-### 157. The audit
+### 170. The audit
 *(noun)* `/ˈɔː.dɪt/` - *remedy*  
 *From the Latin auditus, a hearing - the books were once read aloud to an officer whose job was to listen.*
 
@@ -3167,12 +3409,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **audit** sampled forty contracts, published the sampling method, and the finding survived three attempts to discredit it because the method was in the appendix."*
 * **Easily confused with:** *The public count* - The count is watched while it happens; the audit checks it afterwards, on a sample.
-* **Counters:** [*Frankincense*](#107-frankincense), [*Patriotainment*](#6-patriotainment), [*Flood the zone*](#44-flood-the-zone)
-* **Related Terms:** [*The auditor*](#149-the-auditor), [*Records request*](#150-records-request), [*The written reason*](#156-the-written-reason)
+* **Counters:** [*Frankincense*](#114-frankincense), [*Patriotainment*](#6-patriotainment), [*Flood the zone*](#46-flood-the-zone)
+* **Related Terms:** [*The auditor*](#162-the-auditor), [*Records request*](#163-records-request), [*The written reason*](#169-the-written-reason)
 
 ---
 
-### 158. Random draw
+### 171. Random draw
 *(noun)* `/ˈræn.dəm drɔː/` - *remedy*  
 *English: assignment by lot - the oldest anti-corruption technology in the book, older than the book.*
 
@@ -3186,12 +3428,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The division was redrawn to assign cases by **random draw**, and the filing that had gone to one courthouse for six years started going to nine."*
 * **Easily confused with:** *Judge shopping* - Judge shopping chooses the courtroom; the random draw removes the choice that made the courtroom worth choosing.
-* **Counters:** [*Judge shopping*](#78-judge-shopping)
-* **Related Terms:** [*The clerk*](#142-the-clerk), [*Fee shift*](#159-fee-shift), [*The audit*](#157-the-audit)
+* **Counters:** [*Judge shopping*](#81-judge-shopping)
+* **Related Terms:** [*The clerk*](#155-the-clerk), [*Fee shift*](#172-fee-shift), [*The audit*](#170-the-audit)
 
 ---
 
-### 159. Fee shift
+### 172. Fee shift
 *(noun)* `/fiː ʃɪft/` - *remedy*  
 *English: cost-shifting - moving the bill for a lawsuit onto the party who brought it.*
 
@@ -3205,12 +3447,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **fee shift** turned a two-year defence into a nine-week motion, and the second letter from the same lawyer never arrived."*
 * **Easily confused with:** *SLAPP* - The SLAPP prices speech in billable hours; the fee shift sends the invoice back to the sender.
-* **Counters:** [*SLAPP*](#79-slapp)
-* **Related Terms:** [*The audit*](#157-the-audit), [*Random draw*](#158-random-draw), [*The public count*](#155-the-public-count)
+* **Counters:** [*SLAPP*](#82-slapp)
+* **Related Terms:** [*The audit*](#170-the-audit), [*Random draw*](#171-random-draw), [*The public count*](#168-the-public-count)
 
 ---
 
-### 160. Sunset clause
+### 173. Sunset clause
 *(noun)* `/ˈsʌn.set klɔːz/` - *remedy*  
 *English: the provision that lets a power expire unless somebody votes to keep it, named for the hour it ends.*
 
@@ -3224,12 +3466,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The authority had been renewed eleven times, but the **sunset clause** meant every renewal had a hearing, and the eleventh was the one where somebody read the reports aloud."*
 * **Easily confused with:** *Crisisglow* - The crisisglow makes the emergency look permanent; the sunset clause makes permanence look like a decision.
-* **Counters:** [*Crisisglow*](#99-crisisglow)
-* **Related Terms:** [*The audit*](#157-the-audit), [*The written reason*](#156-the-written-reason), [*The public count*](#155-the-public-count)
+* **Counters:** [*Crisisglow*](#106-crisisglow)
+* **Related Terms:** [*The audit*](#170-the-audit), [*The written reason*](#169-the-written-reason), [*The public count*](#168-the-public-count)
 
 ---
 
-### 161. The ombudsman
+### 174. The ombudsman
 *(noun)* `/ˈɒm.bʊdz.mən/` - *keystone*  
 *Swedish, 1809: the office the Riksdag invented so a citizen could complain about the state to somebody with the power to read the file.*
 
@@ -3243,13 +3485,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **ombudsman** read the refusal letter, found the assessment it had relied on, and published the four sentences the department had left out of its own summary."*
 * **Easily confused with:** *The caseworker* - The caseworker decides the case; the ombudsman investigates the decision.
-* **Counters:** [*Comment section*](#34-comment-section)
-* **Practises:** [*The written reason*](#156-the-written-reason)
-* **Related Terms:** [*The written reason*](#156-the-written-reason), [*Comment section*](#34-comment-section)
+* **Counters:** [*Comment section*](#36-comment-section)
+* **Practises:** [*The written reason*](#169-the-written-reason)
+* **Related Terms:** [*The written reason*](#169-the-written-reason), [*Comment section*](#36-comment-section)
 
 ---
 
-### 162. The public defender
+### 175. The public defender
 *(noun)* `/ˌpʌb.lɪk dɪˈfen.də/` - *keystone*  
 *English: counsel paid by the state to defend people who cannot pay for counsel - a right that exists because a trial without a defence is a formality.*
 
@@ -3263,13 +3505,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **public defender** had the file for eleven minutes, asked for the body-camera footage, and the charge was withdrawn before the second hearing."*
 * **Easily confused with:** *The juror* - The defender argues the case; the juror decides it, and neither can do the other's job.
-* **Counters:** [*Dramagogue*](#90-dramagogue), [*Qualified immunity*](#81-qualified-immunity)
-* **Practises:** [*Cross-examination*](#168-cross-examination)
-* **Related Terms:** [*Dramagogue*](#90-dramagogue), [*Cross-examination*](#168-cross-examination)
+* **Counters:** [*Dramagogue*](#97-dramagogue), [*Qualified immunity*](#84-qualified-immunity)
+* **Practises:** [*Cross-examination*](#180-cross-examination)
+* **Related Terms:** [*Dramagogue*](#97-dramagogue), [*Cross-examination*](#180-cross-examination)
 
 ---
 
-### 163. The translator
+### 176. The translator
 *(noun)* `/trænzˈleɪ.tə/` - *keystone*  
 *From the Latin transferre, to carry across - in public administration, the trade of carrying a rule across the gap between the office and the person it governs.*
 
@@ -3283,13 +3525,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The form had been rewritten by the **translator**, and the number of people who missed the deadline because they could not tell it was a deadline fell by half."*
 * **Easily confused with:** *The librarian* - The librarian finds the source; the translator makes it usable by somebody who did not write it.
-* **Counters:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*Freetard*](#2-freetard)
-* **Practises:** [*The written reason*](#156-the-written-reason)
-* **Related Terms:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*The written reason*](#156-the-written-reason)
+* **Counters:** [*Trust-Me-Brofessor*](#30-trust-me-brofessor), [*Freetard*](#2-freetard)
+* **Practises:** [*The written reason*](#169-the-written-reason)
+* **Related Terms:** [*Trust-Me-Brofessor*](#30-trust-me-brofessor), [*The written reason*](#169-the-written-reason)
 
 ---
 
-### 164. The juror
+### 177. The juror
 *(noun)* `/ˈdʒʊə.rə/` - *keystone*  
 *From the Latin iurare, to swear - twelve people who did not ask for the job, sworn to decide on the evidence and nothing else.*
 
@@ -3303,13 +3545,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **juror** asked for the transcript of the first interview, and the answer that had been quoted all week turned out to be a sentence about somebody else."*
 * **Easily confused with:** *The auditor* - The juror decides one case on the evidence; the auditor examines many on a sample.
-* **Counters:** [*Gallopologist*](#32-gallopologist), [*Perp walk*](#109-perp-walk)
-* **Practises:** [*The steelman*](#154-the-steelman)
-* **Related Terms:** [*Gallopologist*](#32-gallopologist), [*The steelman*](#154-the-steelman), [*The public defender*](#162-the-public-defender)
+* **Counters:** [*Gallopologist*](#34-gallopologist), [*Perp walk*](#116-perp-walk)
+* **Practises:** [*The steelman*](#167-the-steelman)
+* **Related Terms:** [*Gallopologist*](#34-gallopologist), [*The steelman*](#167-the-steelman), [*The public defender*](#175-the-public-defender)
 
 ---
 
-### 165. The statistician
+### 178. The statistician
 *(noun)* `/ˌstæt.ɪˈstɪʃ.ən/` - *keystone*  
 *From the German Statistik, the science of the state - the discipline invented to describe a population that could not be counted by hand.*
 
@@ -3323,32 +3565,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade."*
 * **Easily confused with:** *The auditor* - The auditor checks the books; the statistician checks the number everybody is quoting from them.
-* **Counters:** [*Xenophobricator*](#89-xenophobricator), [*Push poll*](#103-push-poll)
-* **Practises:** [*The audit*](#157-the-audit)
-* **Related Terms:** [*Xenophobricator*](#89-xenophobricator), [*The audit*](#157-the-audit)
+* **Counters:** [*Xenophobricator*](#96-xenophobricator), [*Push poll*](#110-push-poll)
+* **Practises:** [*The audit*](#170-the-audit)
+* **Related Terms:** [*Xenophobricator*](#96-xenophobricator), [*The audit*](#170-the-audit)
 
 ---
 
-### 166. Notice and comment
-*(noun)* `/ˈnəʊ.tɪs ənd ˈkɒm.ent/` - *remedy*  
-*American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.*
-
-**Effect:** Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.  
-**Costs:** Sixty days, a docket to read, and a comment that engages with the text rather than the mood.  
-**Failure mode:** The comment period that is technically open, and the final rule identical to the draft with the comments answered in a paragraph.  
-**Tell:** A docket number · A response to comments · A difference between the proposed and the final text  
-
-1. The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state's version of a hearing, and it governs thousands of decisions a year that no camera ever covers.
-2. It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles.
-
-* **Example:** *"The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned."*
-* **Easily confused with:** *School board meeting* - The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.
-* **Counters:** [*Signaway*](#76-signaway), [*School board meeting*](#73-school-board-meeting), [*Ragesturbationist*](#91-ragesturbationist)
-* **Related Terms:** [*Signaway*](#76-signaway), [*The written reason*](#156-the-written-reason)
-
----
-
-### 167. Recusal
+### 179. Recusal
 *(noun)* `/rɪˈkjuː.zəl/` - *remedy*  
 *From the Latin recusare, to refuse - the judge who declines the case because the case is, in some way, theirs.*
 
@@ -3362,12 +3585,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **recusal** was filed on a Friday, the substitute read the record cold, and the contract drafted for one signature went out to tender."*
 * **Easily confused with:** *Access* - Access buys the meeting; recusal takes the decider out of it.
-* **Counters:** [*Access*](#110-access)
-* **Related Terms:** [*The written reason*](#156-the-written-reason), [*Random draw*](#158-random-draw)
+* **Counters:** [*Access*](#117-access)
+* **Related Terms:** [*The written reason*](#169-the-written-reason), [*Random draw*](#171-random-draw)
 
 ---
 
-### 168. Cross-examination
+### 180. Cross-examination
 *(noun)* `/ˌkrɒs ɪɡˌzæm.ɪˈneɪ.ʃən/` - *remedy*  
 *English legal usage: the questioning of a witness by the side that did not call them - the only part of a hearing designed to find out whether the story survives contact.*
 
@@ -3381,12 +3604,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version."*
 * **Easily confused with:** *The steelman* - The steelman strengthens the other side's argument; cross-examination finds out whether it holds.
-* **Counters:** [*Martyrholic*](#92-martyrholic), [*JAQing Off*](#27-jaqing-off)
-* **Related Terms:** [*Martyrholic*](#92-martyrholic), [*The transcript*](#151-the-transcript)
+* **Counters:** [*Martyrholic*](#99-martyrholic), [*JAQing Off*](#29-jaqing-off)
+* **Related Terms:** [*Martyrholic*](#99-martyrholic), [*The transcript*](#164-the-transcript)
 
 ---
 
-### 169. The stay
+### 181. The stay
 *(noun)* `/ðə steɪ/` - *remedy*  
 *From the Old French ester, to stand - the order that makes a thing stand still while it is argued about.*
 
@@ -3401,11 +3624,11 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The **stay** came through at four in the afternoon, the demolition crew stood down, and the hearing that followed was about the building instead of about the rubble."*
 * **Easily confused with:** *Nightdocket* - The night docket moves while nobody is watching; the stay is the thing that makes it wait until somebody is.
 * **Counters:** [*Nightdocket*](#13-nightdocket)
-* **Related Terms:** [*The written reason*](#156-the-written-reason), [*The audit*](#157-the-audit)
+* **Related Terms:** [*The written reason*](#169-the-written-reason), [*The audit*](#170-the-audit)
 
 ---
 
-### 170. The redistricting commission
+### 182. The redistricting commission
 *(noun)* `/ˌriːˈdɪs.trɪk.tɪŋ kəˈmɪʃ.ən/` - *keystone*  
 *American state practice since the 1980s: the pencil moved to a body that is not standing for election under the map it draws.*
 
@@ -3420,12 +3643,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The **redistricting commission** published three drafts, took comment in the one town the first draft split in half, and the final map moved four precincts - which was enough."*
 * **Easily confused with:** *The statistician* - The statistician counts the population; the commission draws the districts that count it.
 * **Counters:** [*Gerrythm*](#9-gerrythm)
-* **Practises:** [*Notice and comment*](#166-notice-and-comment)
-* **Related Terms:** [*Gerrythm*](#9-gerrythm), [*Notice and comment*](#166-notice-and-comment)
+* **Practises:** [*Notice and comment*](#184-notice-and-comment)
+* **Related Terms:** [*Gerrythm*](#9-gerrythm), [*Notice and comment*](#184-notice-and-comment)
 
 ---
 
-### 171. The carve-out
+### 183. The carve-out
 *(noun)* `/ðə ˈkɑːv.aʊt/` - *remedy*  
 *Legislative drafting: the exception cut into a general rule so that one category of case falls outside it.*
 
@@ -3439,185 +3662,217 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **carve-out** passed with a definition of harassment that excluded contractors, and the clause held for everyone the statute had not named."*
 * **Easily confused with:** *NDA* - The NDA buys silence with a contract; the carve-out voids the contract for one category of claim.
-* **Counters:** [*NDA*](#80-nda)
-* **Related Terms:** [*Cross-examination*](#168-cross-examination), [*Sunset clause*](#160-sunset-clause)
+* **Counters:** [*NDA*](#83-nda)
+* **Related Terms:** [*Cross-examination*](#180-cross-examination), [*Sunset clause*](#173-sunset-clause)
+
+---
+
+### 184. Notice and comment
+*(noun)* `/ˈnəʊ.tɪs ənd ˈkɒm.ent/` - *remedy*  
+*American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.*
+
+**Effect:** Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.  
+**Costs:** Sixty days, a docket to read, and a comment that engages with the text rather than the mood.  
+**Failure mode:** The comment period that is technically open, and the final rule identical to the draft with the comments answered in a paragraph.  
+**Tell:** A docket number · A response to comments · A difference between the proposed and the final text  
+
+1. The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state's version of a hearing, and it governs thousands of decisions a year that no camera ever covers.
+2. It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles.
+
+* **Example:** *"The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned."*
+* **Easily confused with:** *School board meeting* - The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.
+* **Counters:** [*Signaway*](#79-signaway), [*School board meeting*](#76-school-board-meeting), [*Ragesturbationist*](#98-ragesturbationist), [*Passoffist*](#135-passoffist), [*Provocrop*](#136-provocrop)
+* **Related Terms:** [*Signaway*](#79-signaway), [*The written reason*](#169-the-written-reason)
 
 ---
 
 ## Index
 
-- [Access](#110-access)
-- [Ad hominem](#45-ad-hominem)
-- [Ad nauseam](#119-ad-nauseam)
-- [Algodemic](#93-algodemic)
-- [Anecdotal evidence](#127-anecdotal-evidence)
-- [Appeal to authority](#47-appeal-to-authority)
-- [Appeal to consequences](#121-appeal-to-consequences)
-- [Appeal to emotion](#112-appeal-to-emotion)
-- [Appeal to fear](#113-appeal-to-fear)
-- [Appeal to force](#62-appeal-to-force)
-- [Appeal to motive](#117-appeal-to-motive)
-- [Appeal to nature](#21-appeal-to-nature)
-- [Appeal to novelty](#120-appeal-to-novelty)
-- [Appeal to pity](#118-appeal-to-pity)
-- [Appeal to ridicule](#131-appeal-to-ridicule)
-- [Appeal to the stone](#137-appeal-to-the-stone)
-- [Appeal to tradition](#20-appeal-to-tradition)
-- [Argument from ignorance](#51-argument-from-ignorance)
-- [Argument from silence](#88-argument-from-silence)
-- [Argument to moderation](#86-argument-to-moderation)
-- [Argumentum ad populum](#132-argumentum-ad-populum)
-- [Association fallacy](#116-association-fallacy)
-- [Astroturfing](#41-astroturfing)
-- [Base rate fallacy](#61-base-rate-fallacy)
-- [Biasographer](#29-biasographer)
-- [Bleatkeeper](#30-bleatkeeper)
-- [Bluecheck](#98-bluecheck)
-- [Blueslip](#74-blueslip)
-- [Bootcurious](#67-bootcurious)
-- [Bothsidesing](#35-bothsidesing)
-- [Briefing room](#104-briefing-room)
-- [Bulverism](#59-bulverism)
-- [Cable panel](#96-cable-panel)
-- [Capitulectual](#69-capitulectual)
-- [Cherry picking](#125-cherry-picking)
-- [Circular reasoning](#50-circular-reasoning)
+- [Access](#117-access)
+- [Ad hominem](#48-ad-hominem)
+- [Ad nauseam](#132-ad-nauseam)
+- [Algodemic](#100-algodemic)
+- [Anecdotal evidence](#140-anecdotal-evidence)
+- [Appeal to authority](#50-appeal-to-authority)
+- [Appeal to consequences](#134-appeal-to-consequences)
+- [Appeal to emotion](#125-appeal-to-emotion)
+- [Appeal to fear](#126-appeal-to-fear)
+- [Appeal to force](#65-appeal-to-force)
+- [Appeal to motive](#130-appeal-to-motive)
+- [Appeal to nature](#23-appeal-to-nature)
+- [Appeal to novelty](#133-appeal-to-novelty)
+- [Appeal to pity](#131-appeal-to-pity)
+- [Appeal to ridicule](#144-appeal-to-ridicule)
+- [Appeal to the stone](#150-appeal-to-the-stone)
+- [Appeal to tradition](#22-appeal-to-tradition)
+- [Argument from ignorance](#54-argument-from-ignorance)
+- [Argument from silence](#95-argument-from-silence)
+- [Argument to moderation](#93-argument-to-moderation)
+- [Argumentum ad populum](#145-argumentum-ad-populum)
+- [Association fallacy](#129-association-fallacy)
+- [Astroturfing](#43-astroturfing)
+- [Base rate fallacy](#64-base-rate-fallacy)
+- [Biasographer](#31-biasographer)
+- [Bleatkeeper](#32-bleatkeeper)
+- [Bluecheck](#105-bluecheck)
+- [Blueslip](#77-blueslip)
+- [Bootcurious](#70-bootcurious)
+- [Bothsidesing](#37-bothsidesing)
+- [Breaking treaties](#86-breaking-treaties)
+- [Briefing room](#111-briefing-room)
+- [Bulverism](#62-bulverism)
+- [Cable panel](#103-cable-panel)
+- [Capitulectual](#72-capitulectual)
+- [Cherry picking](#138-cherry-picking)
+- [Circular reasoning](#53-circular-reasoning)
+- [Citizens United](#19-citizens-united)
+- [Climate hoax](#123-climate-hoax)
 - [Cloture](#16-cloture)
 - [Coattails](#14-coattails)
-- [Comment section](#34-comment-section)
-- [Consent decree](#82-consent-decree)
+- [Comment section](#36-comment-section)
+- [Consent decree](#85-consent-decree)
 - [Convention bounce](#15-convention-bounce)
-- [Creeping normality](#139-creeping-normality)
-- [Crisisglow](#99-crisisglow)
+- [Creeping normality](#152-creeping-normality)
+- [Crisisglow](#106-crisisglow)
 - [Critizen](#4-critizen)
-- [Cronycle](#71-cronycle)
-- [Crookmaxxing](#68-crookmaxxing)
-- [Cross-examination](#168-cross-examination)
-- [Dead cat](#38-dead-cat)
-- [Decorumancer](#33-decorumancer)
+- [Cronycle](#74-cronycle)
+- [Crookmaxxing](#71-crookmaxxing)
+- [Cross-examination](#180-cross-examination)
+- [Dead cat](#40-dead-cat)
+- [Decorumancer](#35-decorumancer)
 - [Discharge petition](#17-discharge-petition)
-- [Dramagogue](#90-dramagogue)
-- [Equivangelist](#31-equivangelist)
-- [Equivocation](#128-equivocation)
-- [False attribution](#134-false-attribution)
-- [False balance](#87-false-balance)
-- [False dilemma](#48-false-dilemma)
-- [False equivalence](#126-false-equivalence)
-- [Fee shift](#159-fee-shift)
+- [Dramagogue](#97-dramagogue)
+- [Equivangelist](#33-equivangelist)
+- [Equivocation](#141-equivocation)
+- [False attribution](#147-false-attribution)
+- [False balance](#94-false-balance)
+- [False dilemma](#51-false-dilemma)
+- [False equivalence](#139-false-equivalence)
+- [Fee shift](#172-fee-shift)
 - [Filibluster](#8-filibluster)
-- [Flood the zone](#44-flood-the-zone)
-- [Frankincense](#107-frankincense)
+- [Flood the zone](#46-flood-the-zone)
+- [Forever war](#124-forever-war)
+- [Frankincense](#114-frankincense)
 - [Freetard](#2-freetard)
-- [Friday news dump](#40-friday-news-dump)
-- [Gallopologist](#32-gallopologist)
+- [Friday news dump](#42-friday-news-dump)
+- [Gallopologist](#34-gallopologist)
 - [Gerrythm](#9-gerrythm)
-- [Gish gallop](#136-gish-gallop)
-- [Group chat](#97-group-chat)
-- [Hasty generalization](#124-hasty-generalization)
-- [Heckler's veto](#43-hecklers-veto)
+- [Gish gallop](#149-gish-gallop)
+- [Good cop, bad cop](#47-good-cop-bad-cop)
+- [Good ol' boys club](#88-good-ol-boys-club)
+- [Group chat](#104-group-chat)
+- [Hasty generalization](#137-hasty-generalization)
+- [Heckler's veto](#45-hecklers-veto)
 - [Honeymoan](#11-honeymoan)
-- [Hot mic](#111-hot-mic)
-- [Hypocontortionist](#65-hypocontortionist)
-- [I'm entitled to my opinion](#24-im-entitled-to-my-opinion)
-- [Illogician](#26-illogician)
-- [Indictbump](#100-indictbump)
-- [JAQing Off](#27-jaqing-off)
-- [Judge shopping](#78-judge-shopping)
-- [Just-world hypothesis](#141-just-world-hypothesis)
-- [Kafka trap](#58-kafka-trap)
-- [Lame duck](#77-lame-duck)
+- [Hot mic](#118-hot-mic)
+- [Hypocontortionist](#68-hypocontortionist)
+- [I'm entitled to my opinion](#26-im-entitled-to-my-opinion)
+- [Illogician](#28-illogician)
+- [Indictbump](#107-indictbump)
+- [JAQing Off](#29-jaqing-off)
+- [Judge shopping](#81-judge-shopping)
+- [Just-world hypothesis](#154-just-world-hypothesis)
+- [Kafka trap](#61-kafka-trap)
+- [Lame duck](#80-lame-duck)
 - [LARPtarian](#3-larptarian)
-- [Lateral reading](#152-lateral-reading)
-- [Loaded question](#49-loaded-question)
-- [Martyrholic](#92-martyrholic)
-- [McNamara fallacy](#64-mcnamara-fallacy)
-- [Motte hop](#42-motte-hop)
-- [Motte-and-bailey fallacy](#53-motte-and-bailey-fallacy)
-- [Moving the goalposts](#114-moving-the-goalposts)
-- [Mythstorian](#66-mythstorian)
-- [NDA](#80-nda)
+- [Lateral reading](#165-lateral-reading)
+- [Loaded question](#52-loaded-question)
+- [Lobbyism](#120-lobbyism)
+- [Martyrholic](#99-martyrholic)
+- [McNamara fallacy](#67-mcnamara-fallacy)
+- [Motte hop](#44-motte-hop)
+- [Motte-and-bailey fallacy](#56-motte-and-bailey-fallacy)
+- [Moving the goalposts](#127-moving-the-goalposts)
+- [Mythstorian](#69-mythstorian)
+- [NDA](#83-nda)
 - [Nightdocket](#13-nightdocket)
-- [Nirvana fallacy](#60-nirvana-fallacy)
-- [No true Scotsman](#19-no-true-scotsman)
-- [Nonpology](#72-nonpology)
-- [Normalcy bias](#140-normalcy-bias)
-- [Notice and comment](#166-notice-and-comment)
-- [Nut-picking](#56-nut-picking)
+- [Nirvana fallacy](#63-nirvana-fallacy)
+- [No true Scotsman](#21-no-true-scotsman)
+- [Nonpology](#75-nonpology)
+- [Normalcy bias](#153-normalcy-bias)
+- [Notice and comment](#184-notice-and-comment)
+- [Nut-picking](#59-nut-picking)
+- [Oil diplomacy](#122-oil-diplomacy)
 - [Omnibust](#10-omnibust)
-- [Passoffist](#122-passoffist)
+- [PAC check](#121-pac-check)
+- [Passoffist](#135-passoffist)
 - [Patriotainer](#7-patriotainer)
 - [Patriotainment](#6-patriotainment)
-- [Perp walk](#109-perp-walk)
+- [Perp walk](#116-perp-walk)
 - [Playtriot](#1-playtriot)
-- [Plutomartyr](#94-plutomartyr)
+- [Plutomartyr](#101-plutomartyr)
 - [Pocketveto](#12-pocketveto)
-- [Poisoning the well](#55-poisoning-the-well)
-- [Post hoc ergo propter hoc](#84-post-hoc-ergo-propter-hoc)
-- [Proof by assertion](#22-proof-by-assertion)
-- [Provocrop](#123-provocrop)
-- [Pseudo-event](#108-pseudo-event)
-- [Push poll](#103-push-poll)
-- [Qualified immunity](#81-qualified-immunity)
-- [Ragesturbationist](#91-ragesturbationist)
-- [Rally](#106-rally)
-- [Random draw](#158-random-draw)
-- [Receiptbomb](#37-receiptbomb)
-- [Recessure](#75-recessure)
-- [Records request](#150-records-request)
-- [Recusal](#167-recusal)
-- [Rubber chicken circuit](#102-rubber-chicken-circuit)
+- [Poisoning the well](#58-poisoning-the-well)
+- [Post hoc ergo propter hoc](#91-post-hoc-ergo-propter-hoc)
+- [Proof by assertion](#24-proof-by-assertion)
+- [Provocrop](#136-provocrop)
+- [Pseudo-event](#115-pseudo-event)
+- [Push poll](#110-push-poll)
+- [Qualified immunity](#84-qualified-immunity)
+- [Ragesturbationist](#98-ragesturbationist)
+- [Rally](#113-rally)
+- [Random draw](#171-random-draw)
+- [Receiptbomb](#39-receiptbomb)
+- [Recessure](#78-recessure)
+- [Records request](#163-records-request)
+- [Recusal](#179-recusal)
+- [Rubber chicken circuit](#109-rubber-chicken-circuit)
 - [Sabotriot](#5-sabotriot)
-- [School board meeting](#73-school-board-meeting)
-- [Sealioning](#57-sealioning)
-- [Shifting baseline](#138-shifting-baseline)
-- [Shifting the burden of proof](#135-shifting-the-burden-of-proof)
-- [Signaway](#76-signaway)
-- [SLAPP](#79-slapp)
-- [Slippery slope](#18-slippery-slope)
-- [Slopagandist](#95-slopagandist)
-- [Sophistroll](#25-sophistroll)
-- [Special pleading](#85-special-pleading)
-- [Spin room](#105-spin-room)
-- [Straw man](#46-straw-man)
-- [Subpoenado](#70-subpoenado)
-- [Sunk cost fallacy](#23-sunk-cost-fallacy)
-- [Sunset clause](#160-sunset-clause)
-- [Survivorship bias](#115-survivorship-bias)
-- [Texas sharpshooter fallacy](#54-texas-sharpshooter-fallacy)
-- [The archivist](#144-the-archivist)
-- [The audit](#157-the-audit)
-- [The auditor](#149-the-auditor)
-- [The carve-out](#171-the-carve-out)
-- [The caseworker](#146-the-caseworker)
-- [The clerk](#142-the-clerk)
-- [The editor](#147-the-editor)
-- [The fallacy fallacy](#63-the-fallacy-fallacy)
-- [The Feed](#101-the-feed)
-- [The juror](#164-the-juror)
-- [The librarian](#145-the-librarian)
-- [The moderator](#148-the-moderator)
-- [The ombudsman](#161-the-ombudsman)
-- [The poll worker](#143-the-poll-worker)
-- [The public count](#155-the-public-count)
-- [The public defender](#162-the-public-defender)
-- [The redistricting commission](#170-the-redistricting-commission)
-- [The second source](#153-the-second-source)
-- [The statistician](#165-the-statistician)
-- [The stay](#169-the-stay)
-- [The steelman](#154-the-steelman)
-- [The transcript](#151-the-transcript)
-- [The translator](#163-the-translator)
-- [The written reason](#156-the-written-reason)
-- [Thought-terminating cliché](#133-thought-terminating-cliche)
-- [Tone policing](#52-tone-policing)
-- [Trial balloon](#39-trial-balloon)
-- [Trust-Me-Brofessor](#28-trust-me-brofessor)
-- [Tu quoque](#129-tu-quoque)
-- [Two wrongs make a right](#83-two-wrongs-make-a-right)
-- [Vaguebooking](#36-vaguebooking)
-- [Whataboutism](#130-whataboutism)
-- [Xenophobricator](#89-xenophobricator)
+- [School board meeting](#76-school-board-meeting)
+- [Sealioning](#60-sealioning)
+- [Secret meeting](#87-secret-meeting)
+- [Shifting baseline](#151-shifting-baseline)
+- [Shifting the burden of proof](#148-shifting-the-burden-of-proof)
+- [Signaway](#79-signaway)
+- [SLAPP](#82-slapp)
+- [Slippery slope](#20-slippery-slope)
+- [Slopagandist](#102-slopagandist)
+- [Sophistroll](#27-sophistroll)
+- [Special pleading](#92-special-pleading)
+- [Spin room](#112-spin-room)
+- [Straw man](#49-straw-man)
+- [Subpoenado](#73-subpoenado)
+- [Sunk cost fallacy](#25-sunk-cost-fallacy)
+- [Sunset clause](#173-sunset-clause)
+- [Survivorship bias](#128-survivorship-bias)
+- [Texas sharpshooter fallacy](#57-texas-sharpshooter-fallacy)
+- [The archivist](#157-the-archivist)
+- [The audit](#170-the-audit)
+- [The auditor](#162-the-auditor)
+- [The carve-out](#183-the-carve-out)
+- [The caseworker](#159-the-caseworker)
+- [The clerk](#155-the-clerk)
+- [The editor](#160-the-editor)
+- [The fallacy fallacy](#66-the-fallacy-fallacy)
+- [The Feed](#108-the-feed)
+- [The juror](#177-the-juror)
+- [The librarian](#158-the-librarian)
+- [The moderator](#161-the-moderator)
+- [The ombudsman](#174-the-ombudsman)
+- [The poll worker](#156-the-poll-worker)
+- [The public count](#168-the-public-count)
+- [The public defender](#175-the-public-defender)
+- [The redistricting commission](#182-the-redistricting-commission)
+- [The second source](#166-the-second-source)
+- [The statistician](#178-the-statistician)
+- [The stay](#181-the-stay)
+- [The steelman](#167-the-steelman)
+- [The transcript](#164-the-transcript)
+- [The translator](#176-the-translator)
+- [The written reason](#169-the-written-reason)
+- [Thought-terminating cliché](#146-thought-terminating-cliche)
+- [Tone policing](#55-tone-policing)
+- [Trial balloon](#41-trial-balloon)
+- [Trust-Me-Brofessor](#30-trust-me-brofessor)
+- [Tu quoque](#142-tu-quoque)
+- [Two wrongs make a right](#90-two-wrongs-make-a-right)
+- [Unelected official](#89-unelected-official)
+- [Vague promises](#18-vague-promises)
+- [Vaguebooking](#38-vaguebooking)
+- [Whataboutism](#143-whataboutism)
+- [WMD mongering](#119-wmd-mongering)
+- [Xenophobricator](#96-xenophobricator)
 
 ---
 
-*171 entries in 8 kinds and 6 chapters: 80 coinages (26 species, 14 moves, 17 abilities, 12 habitats, 11 buffs), 61 fallacies, 16 remedies, 14 keystones. 71 of the 80 coinages carry a counter.* Counted from `data/` by `build.py` - nothing on this line is typed.
+*184 entries in 8 kinds and 6 chapters: 93 coinages (26 species, 17 moves, 23 abilities, 14 habitats, 13 buffs), 61 fallacies, 16 remedies, 14 keystones. 73 of the 93 coinages carry a counter.* Counted from `data/` by `build.py` - nothing on this line is typed.

@@ -1,0 +1,34 @@
+{
+  "term": "Oil diplomacy",
+  "kind": "ability",
+  "chapter": "fearmongering-grift",
+  "position": 27,
+  "part_of_speech": "noun",
+  "ipa": "/ɔɪl dɪˈpləʊ.mə.si/",
+  "etymology": "English: foreign policy conducted through the price of a barrel, where the communiqué is written in the futures market.",
+  "effect": "The capability of a state to convert a commodity into leverage: the pipeline is the argument, the price is the concession, and the alliance is renewed at the pump.",
+  "available_to": "Any government that sits on the thing everyone else has to burn.",
+  "counter": "Decouple the price from the policy: storage, substitutes, and a treaty that does not expire with the spot price.",
+  "senses": [
+    "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really a market position.",
+    "It works because the commodity is real and the leverage is measurable. A state that can move the price can move the government that buys it, and no memorandum of understanding is as binding as a winter."
+  ],
+  "notes": [],
+  "example": "*\"We discussed energy security\" - **oil diplomacy**: the two governments discussed the price, and the price was the discussion.*",
+  "confused_with": [
+    {
+      "term": "Appeal to force",
+      "tell": "The appeal to force threatens the harm; oil diplomacy prices it, and a price is easier to agree with."
+    }
+  ],
+  "related": [
+    "Forever war",
+    "Signaway"
+  ],
+  "edges": [],
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

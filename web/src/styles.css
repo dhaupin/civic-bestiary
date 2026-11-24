@@ -339,6 +339,35 @@ button.chip { appearance: none; }
   font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-soft); margin: 0 0 34px;
 }
+
+/* The count and the share button sit on one line: the number, and the thing
+   you do with it once you have narrowed the view down to what you meant. */
+.result-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px 20px; flex-wrap: wrap; margin: 0 0 34px;
+}
+.result-bar .count { margin: 0; }
+.share-wrap { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.share { gap: 8px; }
+/* The refusal path: the link, selected, so a reader who cannot copy from an
+   address bar can copy from a field that is already highlighted. */
+.share-field {
+  font-family: var(--font-mono); font-size: 11px; color: var(--ink);
+  background: var(--paper, transparent); border: 1px solid var(--rule);
+  border-radius: 2px; padding: 8px 10px; width: min(46ch, 60vw);
+}
+.share-icon { width: 14px; height: 14px; flex: none; }
+.share[data-result] { border-color: var(--accent); color: var(--accent); }
+.share[data-result="failed"] { border-color: var(--rule); color: var(--ink-soft); }
+
+/* A kind read inside a chapter names the chapter under its own title, and
+   links back to it - the chip said "V", which is not a sentence. */
+.head-scope {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; margin: 0 0 12px;
+}
+.head-scope a { color: var(--ink-soft); text-decoration-color: var(--accent); }
+.head-scope a:hover { color: var(--accent); }
 .empty { border: 1px dashed var(--rule); padding: 30px; text-align: center; margin-bottom: 34px; }
 .empty p { margin: 0 0 16px; color: var(--ink-soft); }
 
@@ -548,9 +577,17 @@ button.chip { appearance: none; }
 .species-edge a:hover { color: var(--accent); }
 .species-edge .sep { color: var(--line); margin: 0 6px; }
 
-.species-cite { margin: 0 0 26px; font-size: 18px; }
-.species-cite a { color: var(--ink); text-decoration-color: var(--accent); }
-.species-cite a:hover { color: var(--accent); }
+/* The bottom rail of an entry: where it came from, where the record lives,
+   and the one button a reader needs to send it to somebody. */
+.species-actions {
+  display: flex; align-items: center; gap: 10px 26px; flex-wrap: wrap;
+  border-top: 1px solid var(--line); padding-top: 20px; margin-bottom: 30px;
+}
+.species-action { margin: 0; font-size: 17px; }
+.species-action a {
+  color: var(--ink); text-decoration-color: var(--accent); overflow-wrap: anywhere;
+}
+.species-action a:hover { color: var(--accent); }
 
 .species-compare { border-top: 1px solid var(--line); padding-top: 22px; margin-bottom: 40px; }
 .species-compare h2 {

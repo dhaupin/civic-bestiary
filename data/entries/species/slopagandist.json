@@ -59,6 +59,14 @@
     {
       "rel": "commits",
       "to": "Shifting baseline"
+    },
+    {
+      "rel": "uses",
+      "to": "Lobbyism"
+    },
+    {
+      "rel": "uses",
+      "to": "Climate hoax"
     }
   ],
   "sort": {

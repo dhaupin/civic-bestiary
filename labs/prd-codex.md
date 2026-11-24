@@ -94,7 +94,7 @@ surfaces cannot drift. Contributing and provenance are foot-of-page links.
 
 ```
 data/lexicon.json         meta, preface, chapters (identity of the guide)
-data/entries/<slug>.json  one record per entry; filename is the slug
+data/entries/<kind>/<slug>.json  one record per entry, filed by kind; filename is the slug
 schema/record.json        the contract: kinds, relations, fields, sorts
 ```
 
@@ -109,7 +109,7 @@ Common fields, in the order the schema declares them:
 |---|---|
 | `term` | The coinage, title case, no quotes. The filename is its slug. |
 | `kind` | One of the eight. |
-| `chapter` | Chapter id from `lexicon.json`. |
+| `chapter` | Chapter id from `lexicon.json`. Defaults to the majority of the entry's `commits` edges; `build.py --chapters` reports where the two disagree. |
 | `position` | Sort position inside the chapter. |
 | `part_of_speech` | Grammatically what the term is. Most species are nouns; moves are gerunds. |
 | `ipa` | Approximate IPA between slashes. |
@@ -197,7 +197,7 @@ serves but is not canonical.
    the label exists before debugging anything else.
 3. **Maintainers own the graph.** Placement, cross-references, sort scores, and
    the final edit stay with the maintainers, so a proposal cannot orphan a node.
-4. **A proposal lands as one file**, `data/entries/<slug>.json`, once the writing
+4. **A proposal lands as one file**, `data/entries/<kind>/<slug>.json`, once the writing
    holds up. The bar is not novelty, it is use.
 
 ---

@@ -1,0 +1,34 @@
+{
+  "term": "Climate hoax",
+  "kind": "ability",
+  "chapter": "fearmongering-grift",
+  "position": 28,
+  "part_of_speech": "noun",
+  "ipa": "/ˈklaɪ.mət həʊks/",
+  "etymology": "English: the finding relabelled as a fraud, so that the measurement becomes a motive.",
+  "effect": "The capability of a funded interest to convert a measurement into an opinion: the thermometer is real, the reading is a debate, and the debate is the product.",
+  "available_to": "Any interest that needs the finding to stay a controversy for one more budget cycle.",
+  "counter": "Ask what would falsify it, then point at the number that has not moved. A hoax is a claim with no test; this one has forty years of them.",
+  "senses": [
+    "The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else, the study that is always about to be published.",
+    "It works because doubt is cheaper than denial. You do not have to win the argument, only keep it open - and an open argument is a reason to wait, which is the only policy the funder needed."
+  ],
+  "notes": [],
+  "example": "*\"The science isn't settled\" - the **climate hoax** in six words, forty years after the first consensus, by a body that had settled its own position in a memo.*",
+  "confused_with": [
+    {
+      "term": "Bothsidesing",
+      "tell": "Bothsidesing gives a finding equal time with its denial; the climate hoax is the campaign that made the denial worth airing."
+    }
+  ],
+  "related": [
+    "Bothsidesing",
+    "Dramagogue"
+  ],
+  "edges": [],
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

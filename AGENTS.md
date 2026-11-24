@@ -26,7 +26,7 @@ data change and needs no edit to `AppLayout.jsx`.
 | Path | Role |
 | --- | --- |
 | `data/lexicon.json` | **Source of truth, meta half.** Title, description, preface, chapters. |
-| `data/entries/*.json` | **Source of truth, record half.** One file per term; the file name is the slug, and `kind` decides its URL. |
+| `data/entries/<kind>/*.json` | **Source of truth, record half.** One file per term, filed under its kind's folder; the file name is the slug, and `kind` decides its URL. The folder must match `kind` - the loader fails loudly when it does not. |
 | `schema/record.json` | **The record contract.** Fields, kinds, identification blocks, and the relation vocabulary. `build.py`, `build_schema.py`, and the site all derive from it. A kind may `omit` a field: fallacies have no pronunciation. |
 | `packs/public/bestiary-shapes/` | The site's own verifier pack (packstruct SPEC v1): asserts the identification block, the field-guide links, and the read-more rows survive to baked HTML. |
 | `poststruct.config.mjs` | Arms the artifact audit: points it at `web/dist`, arms the pack, names `data/` as the prose of record. |
@@ -42,6 +42,7 @@ data change and needs no edit to `AppLayout.jsx`.
 
 ```bash
 python3 build.py            # regenerate README.md
+python3 build.py --chapters # audit: fallacies filed against the commit graph
 python3 build_site.py       # regenerate web/src/data/lexicon.js
 python3 build_schema.py     # regenerate the issue form + web/src/data/contract.js
 npm run check               # CI gate: all three --check runs, plus pack lint
@@ -106,7 +107,7 @@ It does not fail the build; do not "fix" it by deleting the fallback.
 
 ## Adding an entry
 
-1. Add `data/entries/<slug>.json`. `slug` is the term lowercased with spaces as hyphens, so
+1. Add `data/entries/<kind>/<slug>.json`, in the folder for the kind you are writing. `slug` is the term lowercased with spaces as hyphens, so
    `Trust-Me-Brofessor` is `trust-me-brofessor.json` - the validator refuses a mismatch. Set
    `kind`, `chapter`, and `position`. Coinages number from 1 and the fallacies in the same chapter
    start at 101, so the coinages always sort ahead of the documented errors; append within your own
@@ -161,11 +162,18 @@ coinages: the review bar is that the account is real and traceable, so every fal
 checking). Definitions are written in the guide's voice; nothing about the mechanism may be invented. Those
 pages have no `ipa`.
 
-**They are filed by the graph, not by hand.** A fallacy belongs to the chapter whose characters commit it -
-count the `commits` edges into it and take the majority. If the committers split across chapters, no chapter
-owns it and it goes to chapter `normalization` ("Normalization, Numbness & the Noise Floor"), which is where tu
-quoque, whataboutism and cherry picking live, because every chapter uses them. Re-file a fallacy by changing
-which character commits it, not by editing `chapter`; the two disagreeing is the bug.
+**The graph is the default, not the law.** A fallacy belongs to the chapter whose characters commit it - count
+the `commits` edges into it and take the majority. If the committers split across chapters, no chapter owns it
+and it goes to chapter `normalization` ("Normalization, Numbness & the Noise Floor"), which is where tu quoque,
+whataboutism and cherry picking live, because every chapter uses them.
+
+While the book is being built the author may file against that default: a fallacy can sit where it reads best,
+or where a chapter needs it, and the count can be argued with later. What must not happen is the disagreement
+going unnoticed, so `python3 build.py --chapters` prints every fallacy whose `chapter` the graph does not point
+at, with the tally behind it. A clean report means the filing and the edges agree; a dirty one is a decision
+someone made on purpose and should be able to defend. The better fix is still to move the `commits` edges -
+re-file a fallacy by changing which character commits it - because a chapter that is right about a fallacy and
+has no character to commit it is a chapter that has not been written yet.
 
 That chapter is not a leftovers bucket, and the name says why: a fallacy every chapter commits is one the room
 has stopped noticing, so "no character owns it" *is* the thesis. Its own species are the ones who keep the room

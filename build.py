@@ -2,14 +2,17 @@
 """Render README.md from the data/ records.
 
 `data/lexicon.json` holds the meta (title, description, preface, chapters);
-`data/entries/*.json` holds one record per term, each carrying its `kind`, its
-`chapter`, and its `position` within that chapter. The split is what lets the
-relation graph be linted record by record, and it keeps two people adding
-entries from colliding in one file.
+`data/entries/<kind>/*.json` holds one record per term, in the folder named for
+its kind, each carrying its `kind`, its `chapter`, and its `position` within
+that chapter. The split is what lets the relation graph be linted record by
+record, it keeps two people adding entries from colliding in one file, and the
+folder is a second witness to the kind: a record filed under the wrong folder
+is a validation error, not a silent inconsistency.
 
 Usage:
-    python3 build.py           # regenerate README.md
-    python3 build.py --check   # exit 1 if README.md is out of date
+    python3 build.py             # regenerate README.md
+    python3 build.py --check     # exit 1 if README.md is out of date
+    python3 build.py --chapters  # print fallacies filed against the commit graph
 """
 
 import json
@@ -64,9 +67,10 @@ def load():
     meta = json.loads(META.read_text(encoding="utf-8"))
     order_of = {chapter["id"]: index for index, chapter in enumerate(meta["chapters"])}
     records = []
-    for path in sorted(ENTRIES.glob("*.json")):
+    for path in sorted(ENTRIES.rglob("*.json")):
         record = json.loads(path.read_text(encoding="utf-8"))
         record["_file"] = path.name
+        record["_folder"] = path.parent.name
         records.append(record)
     # chapter order first, then the record's own position inside it: the README
     # numbering and the site's prev/next both run off this one sort
@@ -90,6 +94,10 @@ def validate(doc):
         expected = slugify(entry.get("term", ""))
         if entry.get("_file") != f"{expected}.json":
             errors.append(f"{name}: file name should be {expected}.json (from the term)")
+        folder = entry.get("_folder")
+        wanted = (KINDS.get(entry.get("kind"), {}).get("path") or "/").strip("/")
+        if folder != wanted:
+            errors.append(f"{name}: filed under data/entries/{folder}/ but a {entry.get('kind')} lives in data/entries/{wanted}/")
     for chapter in chapters:
         positions = [e.get("position") for e in doc["entries"] if e.get("chapter") == chapter]
         dupes = sorted({p for p in positions if positions.count(p) > 1})
@@ -343,8 +351,56 @@ def render(doc):
     return "\n".join(out) + "\n"
 
 
+def chapter_audit(doc):
+    """Fallacies filed somewhere other than where the commit graph points.
+
+    The graph is the default, not the law. A fallacy belongs to the chapter its
+    committers mostly live in, and a tie goes to chapter V because no chapter
+    owns it - but the `chapter` field is still authored, and the author may
+    overrule the count while the book is being built. This report is how that
+    stays visible: the disagreement is printed, not silently denied.
+    """
+    by_chapter = Counter()
+    for entry in doc["entries"]:
+        for edge in entry.get("edges", []):
+            if edge["rel"] == "commits":
+                by_chapter[(edge["to"].lower(), entry["chapter"])] += 1
+    rows = []
+    for entry in doc["entries"]:
+        if entry["kind"] != "fallacy":
+            continue
+        counts = {chapter: n for (term, chapter), n in by_chapter.items()
+                  if term == entry["term"].lower()}
+        if not counts:
+            rows.append((entry["term"], entry["chapter"], "no committers", {}))
+            continue
+        top = max(counts.values())
+        winners = [chapter for chapter, n in counts.items() if n == top]
+        graph = "normalization" if len(winners) > 1 else winners[0]
+        if graph != entry["chapter"]:
+            rows.append((entry["term"], entry["chapter"], graph, counts))
+    return rows
+
+
+def report_chapters(doc):
+    """`--chapters`: print the audit, worst disagreement first."""
+    rows = chapter_audit(doc)
+    fallacies = sum(1 for entry in doc["entries"] if entry["kind"] == "fallacy")
+    if not rows:
+        print(f"all {fallacies} fallacies are filed where the graph points")
+        return
+    print(f"{len(rows)} of {fallacies} fallacies are filed against the graph:")
+    for term, filed, graph, counts in sorted(rows, key=lambda row: -sum(row[3].values())):
+        tally = ", ".join(f"{chapter} {n}" for chapter, n in
+                          sorted(counts.items(), key=lambda item: -item[1]))
+        print(f"  {term:34} filed {filed:24} graph {graph:24} {tally}")
+
+
 def main():
     doc = load()
+    if "--chapters" in sys.argv:
+        report_chapters(doc)
+        return
     text = render(doc)
     if "--check" in sys.argv:
         current = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else ""

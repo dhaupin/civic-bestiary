@@ -67,6 +67,10 @@
     {
       "rel": "commits",
       "to": "Creeping normality"
+    },
+    {
+      "rel": "performs",
+      "to": "Good cop, bad cop"
     }
   ],
   "sort": {

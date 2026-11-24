@@ -1,0 +1,38 @@
+{
+  "term": "Citizens United",
+  "kind": "ability",
+  "chapter": "performative-identity",
+  "position": 19,
+  "part_of_speech": "noun",
+  "ipa": "/ˌsɪt.ɪ.zənz juːˈnaɪ.tɪd/",
+  "etymology": "Named for the 2010 decision that made independent political spending a form of speech, and the spender a kind of speaker.",
+  "effect": "The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen's voice without taking on the citizen's obligations.",
+  "available_to": "Any incorporated body with a treasury - a company, a union, a nonprofit, or a shell with a mailbox and a lawyer.",
+  "counter": "Disclosure before the vote rather than after it. An advertisement that has to name its funders loses the anonymity the doctrine depends on.",
+  "senses": [
+    "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker.",
+    "It works because the first amendment was written for people and the corporation learned to stand where the person stood. What the citizen has is a voice and a vote; what the doctrine grants is the voice, at any volume, without the vote's obligation to answer for it."
+  ],
+  "notes": [],
+  "example": "*\"**Citizens United** means we are just exercising our speech\" - said by a body that has never been to a town meeting and cannot be summoned to one.*",
+  "confused_with": [
+    {
+      "term": "Access",
+      "tell": "Access buys the meeting; Citizens United buys the megaphone, and the megaphone reaches the people the meeting was about."
+    }
+  ],
+  "related": [
+    "Lobbyism",
+    "PAC check"
+  ],
+  "edges": [],
+  "cite": {
+    "label": "Wikipedia · Citizens United v. FEC",
+    "url": "https://en.wikipedia.org/wiki/Citizens_United_v._FEC"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 1
+  }
+}

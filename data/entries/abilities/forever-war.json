@@ -1,0 +1,34 @@
+{
+  "term": "Forever war",
+  "kind": "ability",
+  "chapter": "fearmongering-grift",
+  "position": 29,
+  "part_of_speech": "noun",
+  "ipa": "/fəˈrev.ə wɔː/",
+  "etymology": "English: the war that outlives the debate that authorised it, renewed by the authorisation rather than by a vote.",
+  "effect": "The capability of a conflict to keep going without being decided: the authorisation renews itself, the enemy becomes a noun, and the budget becomes a baseline.",
+  "available_to": "Any legislature that would rather not vote on it again.",
+  "counter": "A sunset clause with a date on it, and a renewal that has to be taken in daylight.",
+  "senses": [
+    "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor rather than a decision, the enemy renamed so the paperwork still applies.",
+    "It works because ending a war requires a majority and continuing one requires only inertia. Each year's appropriation is last year's plus a little, and nobody has to defend the sum - only the increment."
+  ],
+  "notes": [],
+  "example": "*\"We remain engaged in the region\" - a **forever war**, authorised before most of the current Congress was elected and renewed by nobody in particular.*",
+  "confused_with": [
+    {
+      "term": "Omnibust",
+      "tell": "Omnibust bundles what cannot pass alone; a forever war is bundled with the last authorisation and never unbundled."
+    }
+  ],
+  "related": [
+    "Omnibust",
+    "WMD mongering"
+  ],
+  "edges": [],
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

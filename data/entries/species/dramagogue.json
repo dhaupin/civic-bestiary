@@ -47,6 +47,14 @@
     {
       "rel": "commits",
       "to": "Slippery slope"
+    },
+    {
+      "rel": "performs",
+      "to": "WMD mongering"
+    },
+    {
+      "rel": "uses",
+      "to": "Forever war"
     }
   ],
   "sort": {

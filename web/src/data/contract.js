@@ -1,6 +1,6 @@
 // Generated from schema/record.json by build_schema.py - edit the schema, not this file.
 export default {
-  "recordPath": "data/entries/<slug>.json",
+  "recordPath": "data/entries/<kind>/<slug>.json",
   "recordDescription": "One file per term, named for the term's slug. Every audience reads this file: the README, the site, and the issue form a contributor fills in.",
   "issue": {
     "name": "New entry",

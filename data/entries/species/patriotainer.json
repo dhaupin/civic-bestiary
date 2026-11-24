@@ -56,6 +56,10 @@
     {
       "rel": "commits",
       "to": "Straw man"
+    },
+    {
+      "rel": "performs",
+      "to": "Vague promises"
     }
   ],
   "sort": {
