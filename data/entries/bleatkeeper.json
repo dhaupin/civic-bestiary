@@ -39,6 +39,14 @@
     {
       "rel": "commits",
       "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "commits",
+      "to": "Circular reasoning"
+    },
+    {
+      "rel": "commits",
+      "to": "Moving the goalposts"
     }
   ],
   "sort": {

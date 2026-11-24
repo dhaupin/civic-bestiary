@@ -1,0 +1,37 @@
+{
+  "term": "McNamara fallacy",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 120,
+  "part_of_speech": "noun",
+  "etymology": "Named for Robert McNamara's defence metrics: body counts offered as the measure of a war the counts could not describe.",
+  "family": "Informal · Statistical",
+  "committed_when": "A thing has to be judged, and only part of it can be counted.",
+  "tell": "The measurable part is reported to two decimal places and the unmeasured part is called anecdote. The dashboard is complete and the picture is missing.",
+  "counter": "Ask what the metric leaves out, and who decided it was the metric. A number is a decision about what counts, made before the counting starts.",
+  "senses": [
+    "Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the charge is not.",
+    "It works because numbers are auditable and judgements are not. A figure can be defended line by line, so the institution reports the figure - and the thing that could not be counted slowly stops being the thing that is managed."
+  ],
+  "example": "“Response times are down 12%.” The response is faster and the ambulance no longer comes.",
+  "confused_with": [
+    {
+      "term": "Texas sharpshooter fallacy",
+      "tell": "The sharpshooter picks the target after the shot; the McNamara fallacy picks the target because it is the one that can be scored."
+    }
+  ],
+  "related": [
+    "Texas sharpshooter fallacy",
+    "Survivorship bias",
+    "Appeal to authority"
+  ],
+  "cite": {
+    "label": "Wikipedia · McNamara fallacy",
+    "url": "https://en.wikipedia.org/wiki/McNamara_fallacy"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

@@ -47,6 +47,10 @@
     {
       "rel": "commits",
       "to": "Appeal to the stone"
+    },
+    {
+      "rel": "commits",
+      "to": "The fallacy fallacy"
     }
   ],
   "sort": {

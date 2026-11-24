@@ -43,6 +43,10 @@
     {
       "rel": "commits",
       "to": "Appeal to pity"
+    },
+    {
+      "rel": "commits",
+      "to": "Kafka trap"
     }
   ],
   "sort": {

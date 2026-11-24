@@ -1,0 +1,37 @@
+{
+  "term": "Appeal to force",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 118,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad baculum, the argument to the stick - the reason offered with the implication of what happens if it is refused.",
+  "family": "Informal · Red herring",
+  "committed_when": "An argument is being lost, and the person losing it has something the other person needs.",
+  "tell": "The conclusion arrives with a consequence attached: the funding, the permit, the job, the invitation, the quiet life.",
+  "counter": "Name the consequence out loud and separate it from the reason. A conclusion does not become true because disagreeing with it is expensive.",
+  "senses": [
+    "Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear.",
+    "It works because it does not need to be stated. A reminder of who signs the contract is cheaper than an argument and much harder to complain about - and the person who complains has just demonstrated that they understood it."
+  ],
+  "example": "“I'd think carefully about how this looks for the department.” The policy was not discussed again.",
+  "confused_with": [
+    {
+      "term": "Appeal to fear",
+      "tell": "Appeal to fear sells a threat to the audience; the appeal to force applies a threat to the person in the room."
+    }
+  ],
+  "related": [
+    "Appeal to fear",
+    "Heckler's veto",
+    "Appeal to consequences"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to force",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_force"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 4
+  }
+}

@@ -43,6 +43,10 @@
     {
       "rel": "commits",
       "to": "Tu quoque"
+    },
+    {
+      "rel": "commits",
+      "to": "No true Scotsman"
     }
   ],
   "sort": {

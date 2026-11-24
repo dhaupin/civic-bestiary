@@ -13,9 +13,9 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 156,
+  "entries": 163,
   "coinages": 78,
-  "fallacies": 50,
+  "fallacies": 57,
   "chapters": 6,
   "kinds": {
     "species": 24,
@@ -23,7 +23,7 @@ export const stats = {
     "ability": 17,
     "habitat": 12,
     "buff": 11,
-    "fallacy": 50,
+    "fallacy": 57,
     "remedy": 15,
     "keystone": 13
   }
@@ -381,7 +381,14 @@ export const chapters = [
       "texas-sharpshooter-fallacy",
       "poisoning-the-well",
       "nut-picking",
-      "sealioning"
+      "sealioning",
+      "kafka-trap",
+      "bulverism",
+      "nirvana-fallacy",
+      "base-rate-fallacy",
+      "appeal-to-force",
+      "the-fallacy-fallacy",
+      "mcnamara-fallacy"
     ]
   },
   {
@@ -860,6 +867,13 @@ export const entries = [
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
         "path": "/fallacies/appeal-to-the-stone/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Survivorship bias",
+        "slug": "survivorship-bias",
+        "path": "/fallacies/survivorship-bias/"
       }
     ],
     "backlinks": [
@@ -1078,6 +1092,20 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Sunk cost fallacy",
+        "slug": "sunk-cost-fallacy",
+        "path": "/fallacies/sunk-cost-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to force",
+        "slug": "appeal-to-force",
+        "path": "/fallacies/appeal-to-force/"
       }
     ],
     "backlinks": [
@@ -1322,6 +1350,13 @@ export const entries = [
         "term": "Appeal to ridicule",
         "slug": "appeal-to-ridicule",
         "path": "/fallacies/appeal-to-ridicule/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Straw man",
+        "slug": "straw-man",
+        "path": "/fallacies/straw-man/"
       }
     ],
     "backlinks": [
@@ -2327,6 +2362,13 @@ export const entries = [
         "term": "Sabotriot",
         "slug": "sabotriot",
         "path": "/species/sabotriot/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
       }
     ]
   },
@@ -2409,6 +2451,13 @@ export const entries = [
         "term": "LARPtarian",
         "slug": "larptarian",
         "path": "/species/larptarian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
       }
     ]
   },
@@ -2594,6 +2643,13 @@ export const entries = [
         "term": "Freetard",
         "slug": "freetard",
         "path": "/species/freetard/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Mythstorian",
+        "slug": "mythstorian",
+        "path": "/species/mythstorian/"
       }
     ]
   },
@@ -2793,6 +2849,13 @@ export const entries = [
         "term": "Playtriot",
         "slug": "playtriot",
         "path": "/species/playtriot/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sabotriot",
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
       }
     ]
   },
@@ -2875,6 +2938,13 @@ export const entries = [
         "term": "Sovereign Shillizen",
         "slug": "sovereign-shillizen",
         "path": "/species/sovereign-shillizen/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
       }
     ]
   },
@@ -2997,6 +3067,20 @@ export const entries = [
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
         "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Sealioning",
+        "slug": "sealioning",
+        "path": "/fallacies/sealioning/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "The fallacy fallacy",
+        "slug": "the-fallacy-fallacy",
+        "path": "/fallacies/the-fallacy-fallacy/"
       }
     ],
     "backlinks": [
@@ -3114,6 +3198,13 @@ export const entries = [
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
         "path": "/fallacies/appeal-to-the-stone/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "The fallacy fallacy",
+        "slug": "the-fallacy-fallacy",
+        "path": "/fallacies/the-fallacy-fallacy/"
       }
     ],
     "backlinks": [
@@ -3448,6 +3539,20 @@ export const entries = [
         "term": "False attribution",
         "slug": "false-attribution",
         "path": "/fallacies/false-attribution/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
       }
     ],
     "backlinks": [
@@ -3551,6 +3656,20 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Circular reasoning",
+        "slug": "circular-reasoning",
+        "path": "/fallacies/circular-reasoning/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
       }
     ],
     "backlinks": [
@@ -3652,6 +3771,13 @@ export const entries = [
         "term": "Equivocation",
         "slug": "equivocation",
         "path": "/fallacies/equivocation/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Straw man",
+        "slug": "straw-man",
+        "path": "/fallacies/straw-man/"
       }
     ],
     "backlinks": [
@@ -3872,6 +3998,13 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "path": "/fallacies/ad-hominem/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "I'm entitled to my opinion",
+        "slug": "im-entitled-to-my-opinion",
+        "path": "/fallacies/im-entitled-to-my-opinion/"
       }
     ],
     "backlinks": [
@@ -4025,6 +4158,13 @@ export const entries = [
         "term": "Motte hop",
         "slug": "motte-hop",
         "path": "/moves/motte-hop/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/"
       }
     ],
     "backlinks": [
@@ -4914,6 +5054,13 @@ export const entries = [
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
         "path": "/fallacies/appeal-to-fear/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to force",
+        "slug": "appeal-to-force",
+        "path": "/fallacies/appeal-to-force/"
       }
     ],
     "backlinks": [
@@ -5215,9 +5362,23 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Equivangelist",
+        "slug": "equivangelist",
+        "path": "/species/equivangelist/"
       },
       {
         "rel": "houses",
@@ -5637,6 +5798,13 @@ export const entries = [
         "term": "Illogician",
         "slug": "illogician",
         "path": "/species/illogician/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bleatkeeper",
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
       }
     ]
   },
@@ -6299,6 +6467,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "JAQing Off",
         "slug": "jaqing-off",
         "path": "/moves/jaqing-off/"
@@ -6309,6 +6484,692 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ]
+  },
+  {
+    "term": "Kafka trap",
+    "slug": "kafka-trap",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/kafka-trap/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 114,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "Named for Kafka's The Trial: the accusation is the process, and the defence is the evidence.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "An accusation has been made that nobody could disprove, and the accused denies it."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The denial is entered as proof. A second denial is entered as proof of the first."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what evidence would count as innocence, and refuse to move until somebody names one. A charge with no acquittal condition is not a charge; it is a status."
+      }
+    ],
+    "voice": "The denial is entered as proof. A second denial is entered as proof of the first.",
+    "senses": [
+      "The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say.",
+      "It works because the test is unfalsifiable by design. Any response - silence, anger, calm, evidence - can be read as consistent with guilt, so the accusation can never be closed and never has to be proved."
+    ],
+    "notes": [],
+    "example": "“He denied it, which is exactly what someone with something to hide would do.”",
+    "cite": {
+      "label": "Wikipedia · Kafka trap",
+      "url": "https://en.wikipedia.org/wiki/Kafka_trap"
+    },
+    "summary": "Informal · Presumption fallacy: The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would...",
+    "confusedWith": [
+      {
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "tell": "The argument from ignorance says the claim has not been proved; the Kafka trap says the denial proves it.",
+        "path": "/fallacies/argument-from-ignorance/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      }
+    ]
+  },
+  {
+    "term": "Bulverism",
+    "slug": "bulverism",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/bulverism/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 115,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "Coined by C. S. Lewis in 1941: the habit of assuming a person is wrong and then explaining, at leisure, why they came to be so wrong.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "An argument has been made, and its psychology is easier to discuss than its evidence."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The reply explains why you believe it before establishing that it is false. The cause of the belief is offered in place of the truth of it."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the refutation first and the diagnosis second. A belief can have an unflattering cause and still be correct, so the cause is not the answer."
+      }
+    ],
+    "voice": "The reply explains why you believe it before establishing that it is false. The cause of the belief is offered in place of the truth of it.",
+    "senses": [
+      "Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list.",
+      "It works because causes are always available and usually unflattering. Any position can be given a psychology, and a psychology is much easier to produce than a counter-argument."
+    ],
+    "notes": [],
+    "example": "“Of course he thinks the zoning reform is fine - he bought his house in 1998.” The reform is still on the table.",
+    "cite": {
+      "label": "Wikipedia · Bulverism",
+      "url": "https://en.wikipedia.org/wiki/Bulverism"
+    },
+    "summary": "Informal · Red herring fallacy: Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list.",
+    "confusedWith": [
+      {
+        "term": "Ad hominem",
+        "slug": "ad-hominem",
+        "tell": "Ad hominem attacks the arguer; Bulverism explains the arguer and treats the explanation as the refutation.",
+        "path": "/fallacies/ad-hominem/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Appeal to motive",
+        "slug": "appeal-to-motive",
+        "path": "/fallacies/appeal-to-motive/"
+      },
+      {
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      }
+    ]
+  },
+  {
+    "term": "Nirvana fallacy",
+    "slug": "nirvana-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/nirvana-fallacy/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 116,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English, from the Buddhist state of perfect peace: the comparison of a real proposal with an unreal alternative.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A policy has been proposed that would improve something, and somebody has found a flaw in it."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The objection is measured against perfection and the status quo is measured against nothing. “It won’t fix everything” is offered as a reason to do nothing."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what happens without it, and compare the two. A proposal is not competing with an ideal; it is competing with the world it would replace."
+      }
+    ],
+    "voice": "The objection is measured against perfection and the status quo is measured against nothing. “It won’t fix everything” is offered as a reason to do nothing.",
+    "senses": [
+      "Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost.",
+      "It works because the status quo is the invisible baseline. Nobody has to defend the current waiting list, the current price, or the current number of deaths - so any reform carries the burden of proof and the alternative carries none."
+    ],
+    "notes": [],
+    "example": "“The bill only covers half the uninsured, so it doesn’t really solve the problem.” Half the uninsured is the comparison, not the bill.",
+    "cite": {
+      "label": "Wikipedia · Nirvana fallacy",
+      "url": "https://en.wikipedia.org/wiki/Nirvana_fallacy"
+    },
+    "summary": "Informal · Presumption fallacy: Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost.",
+    "confusedWith": [
+      {
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "tell": "The false dilemma offers two options and hides a third; the Nirvana fallacy offers two and makes one of them perfect.",
+        "path": "/fallacies/false-dilemma/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Appeal to the stone",
+        "slug": "appeal-to-the-stone",
+        "path": "/fallacies/appeal-to-the-stone/"
+      },
+      {
+        "term": "Argument to moderation",
+        "slug": "argument-to-moderation",
+        "path": "/fallacies/argument-to-moderation/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      }
+    ]
+  },
+  {
+    "term": "Base rate fallacy",
+    "slug": "base-rate-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/base-rate-fallacy/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 117,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "From the statistical base rate: how common a thing is before you know anything else about the particular case.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Statistical"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A vivid case is on the table and the question of how common it is has not been asked."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The number of incidents is quoted and the population is not. The story is true, the inference from it is not, and nobody multiplies."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask out of how many, and what the rate was before. A rise from two to four is a doubling and it is also two people."
+      }
+    ],
+    "voice": "The number of incidents is quoted and the population is not. The story is true, the inference from it is not, and nobody multiplies.",
+    "senses": [
+      "Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with.",
+      "It works because the vivid case is the one that reaches you. Selection decides what you see, so the sample in your head is not the sample in the world - and the denominator is the part of the story that never travels."
+    ],
+    "notes": [],
+    "example": "“Three of them in one month.” Three out of how many, in a city of how many, against a five-year average of what?",
+    "cite": {
+      "label": "Wikipedia · Base rate fallacy",
+      "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy"
+    },
+    "summary": "Informal · Statistical fallacy: Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was...",
+    "confusedWith": [
+      {
+        "term": "Anecdotal evidence",
+        "slug": "anecdotal-evidence",
+        "tell": "Anecdotal evidence argues from one case; the base rate fallacy argues from one case while a rate sits unread beside it.",
+        "path": "/fallacies/anecdotal-evidence/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Survivorship bias",
+        "slug": "survivorship-bias",
+        "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to force",
+    "slug": "appeal-to-force",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-force/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 118,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 4
+    },
+    "etymology": "Latin: argumentum ad baculum, the argument to the stick - the reason offered with the implication of what happens if it is refused.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "An argument is being lost, and the person losing it has something the other person needs."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The conclusion arrives with a consequence attached: the funding, the permit, the job, the invitation, the quiet life."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Name the consequence out loud and separate it from the reason. A conclusion does not become true because disagreeing with it is expensive."
+      }
+    ],
+    "voice": "The conclusion arrives with a consequence attached: the funding, the permit, the job, the invitation, the quiet life.",
+    "senses": [
+      "Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear.",
+      "It works because it does not need to be stated. A reminder of who signs the contract is cheaper than an argument and much harder to complain about - and the person who complains has just demonstrated that they understood it."
+    ],
+    "notes": [],
+    "example": "“I’d think carefully about how this looks for the department.” The policy was not discussed again.",
+    "cite": {
+      "label": "Wikipedia · Appeal to force",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_force"
+    },
+    "summary": "Informal · Red herring fallacy: Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear.",
+    "confusedWith": [
+      {
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "tell": "Appeal to fear sells a threat to the audience; the appeal to force applies a threat to the person in the room.",
+        "path": "/fallacies/appeal-to-fear/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/"
+      },
+      {
+        "term": "Appeal to consequences",
+        "slug": "appeal-to-consequences",
+        "path": "/fallacies/appeal-to-consequences/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sabotriot",
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      }
+    ]
+  },
+  {
+    "term": "The fallacy fallacy",
+    "slug": "the-fallacy-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/the-fallacy-fallacy/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 119,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "English, from the informal-logic literature: the mistake of thinking that a bad argument makes a false conclusion.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "An argument has been shown to contain a named fallacy, and the conclusion is being discarded on that basis."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The fallacy is named with confidence and the conclusion is never examined. “That’s a slippery slope” ends the discussion about the slope."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Separate the argument from the claim, then test the claim on its own. A conclusion can be true and badly defended, and a named fallacy is not a refutation."
+      }
+    ],
+    "voice": "The fallacy is named with confidence and the conclusion is never examined. “That’s a slippery slope” ends the discussion about the slope.",
+    "senses": [
+      "Concluding that a claim is false because the argument offered for it is invalid.",
+      "It works because naming a fallacy is cheap and sounds decisive. The name does the work of an argument while leaving the actual question exactly where it was - which is why it is popular with people who want to win without reading."
+    ],
+    "notes": [],
+    "example": "“That’s an appeal to authority, so the study doesn’t count.” The study is still a study.",
+    "cite": {
+      "label": "Wikipedia · Fallacy fallacy",
+      "url": "https://en.wikipedia.org/wiki/Fallacy_fallacy"
+    },
+    "summary": "Informal · Presumption fallacy: Concluding that a claim is false because the argument offered for it is invalid.",
+    "confusedWith": [
+      {
+        "term": "Straw man",
+        "slug": "straw-man",
+        "tell": "The straw man misrepresents the argument; the fallacy fallacy accepts the argument as given and then discards the conclusion with it.",
+        "path": "/fallacies/straw-man/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Ad hominem",
+        "slug": "ad-hominem",
+        "path": "/fallacies/ad-hominem/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Illogician",
+        "slug": "illogician",
+        "path": "/species/illogician/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ]
+  },
+  {
+    "term": "McNamara fallacy",
+    "slug": "mcnamara-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/mcnamara-fallacy/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 120,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "Named for Robert McNamara's defence metrics: body counts offered as the measure of a war the counts could not describe.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Statistical"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A thing has to be judged, and only part of it can be counted."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The measurable part is reported to two decimal places and the unmeasured part is called anecdote. The dashboard is complete and the picture is missing."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the metric leaves out, and who decided it was the metric. A number is a decision about what counts, made before the counting starts."
+      }
+    ],
+    "voice": "The measurable part is reported to two decimal places and the unmeasured part is called anecdote. The dashboard is complete and the picture is missing.",
+    "senses": [
+      "Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the charge is not.",
+      "It works because numbers are auditable and judgements are not. A figure can be defended line by line, so the institution reports the figure - and the thing that could not be counted slowly stops being the thing that is managed."
+    ],
+    "notes": [],
+    "example": "“Response times are down 12%.” The response is faster and the ambulance no longer comes.",
+    "cite": {
+      "label": "Wikipedia · McNamara fallacy",
+      "url": "https://en.wikipedia.org/wiki/McNamara_fallacy"
+    },
+    "summary": "Informal · Statistical fallacy: Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the...",
+    "confusedWith": [
+      {
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "tell": "The sharpshooter picks the target after the shot; the McNamara fallacy picks the target because it is the one that can be scored.",
+        "path": "/fallacies/texas-sharpshooter-fallacy/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Survivorship bias",
+        "slug": "survivorship-bias",
+        "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
       }
     ]
   },
@@ -6415,6 +7276,13 @@ export const entries = [
         "term": "Tu quoque",
         "slug": "tu-quoque",
         "path": "/fallacies/tu-quoque/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "No true Scotsman",
+        "slug": "no-true-scotsman",
+        "path": "/fallacies/no-true-scotsman/"
       }
     ],
     "backlinks": [
@@ -6530,6 +7398,13 @@ export const entries = [
         "term": "False attribution",
         "slug": "false-attribution",
         "path": "/fallacies/false-attribution/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to nature",
+        "slug": "appeal-to-nature",
+        "path": "/fallacies/appeal-to-nature/"
       }
     ],
     "backlinks": [
@@ -6857,6 +7732,20 @@ export const entries = [
         "term": "False balance",
         "slug": "false-balance",
         "path": "/fallacies/false-balance/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "backlinks": [
@@ -8272,6 +9161,13 @@ export const entries = [
         "term": "Mythstorian",
         "slug": "mythstorian",
         "path": "/species/mythstorian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
       }
     ]
   },
@@ -8820,6 +9716,20 @@ export const entries = [
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
         "path": "/fallacies/appeal-to-motive/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Post hoc ergo propter hoc",
+        "slug": "post-hoc-ergo-propter-hoc",
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/"
       }
     ],
     "backlinks": [
@@ -8928,6 +9838,20 @@ export const entries = [
         "term": "Appeal to consequences",
         "slug": "appeal-to-consequences",
         "path": "/fallacies/appeal-to-consequences/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to motive",
+        "slug": "appeal-to-motive",
+        "path": "/fallacies/appeal-to-motive/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Slippery slope",
+        "slug": "slippery-slope",
+        "path": "/fallacies/slippery-slope/"
       }
     ],
     "backlinks": [
@@ -9155,6 +10079,13 @@ export const entries = [
         "term": "Appeal to pity",
         "slug": "appeal-to-pity",
         "path": "/fallacies/appeal-to-pity/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/"
       }
     ],
     "backlinks": [
@@ -9272,6 +10203,20 @@ export const entries = [
         "term": "Appeal to novelty",
         "slug": "appeal-to-novelty",
         "path": "/fallacies/appeal-to-novelty/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "McNamara fallacy",
+        "slug": "mcnamara-fallacy",
+        "path": "/fallacies/mcnamara-fallacy/"
       }
     ],
     "backlinks": [
@@ -9389,6 +10334,27 @@ export const entries = [
         "term": "Appeal to pity",
         "slug": "appeal-to-pity",
         "path": "/fallacies/appeal-to-pity/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to consequences",
+        "slug": "appeal-to-consequences",
+        "path": "/fallacies/appeal-to-consequences/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "backlinks": [
@@ -9520,6 +10486,13 @@ export const entries = [
         "term": "Gish gallop",
         "slug": "gish-gallop",
         "path": "/fallacies/gish-gallop/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "McNamara fallacy",
+        "slug": "mcnamara-fallacy",
+        "path": "/fallacies/mcnamara-fallacy/"
       }
     ],
     "backlinks": [
@@ -9675,6 +10648,13 @@ export const entries = [
         "term": "Nonpology",
         "slug": "nonpology",
         "path": "/moves/nonpology/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "The fallacy fallacy",
+        "slug": "the-fallacy-fallacy",
+        "path": "/fallacies/the-fallacy-fallacy/"
       }
     ],
     "backlinks": [
@@ -10212,6 +11192,13 @@ export const entries = [
         "term": "Astroturfing",
         "slug": "astroturfing",
         "path": "/moves/astroturfing/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/"
       }
     ],
     "backlinks": [
@@ -10756,6 +11743,13 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to force",
+        "slug": "appeal-to-force",
+        "path": "/fallacies/appeal-to-force/"
       }
     ],
     "backlinks": [
@@ -11572,6 +12566,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Bleatkeeper",
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
@@ -11654,6 +12655,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "LARPtarian",
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
@@ -11733,6 +12741,13 @@ export const entries = [
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -11821,6 +12836,13 @@ export const entries = [
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
       }
     ]
   },
@@ -12191,6 +13213,13 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
       }
     ]
   },
