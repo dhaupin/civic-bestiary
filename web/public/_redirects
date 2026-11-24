@@ -30,3 +30,8 @@
 # the entry widened past the shill. The old URL is live and indexed, so it 301s.
 /species/sovereign-shillizen  /species/critizen/ 301
 /species/sovereign-shillizen/ /species/critizen/ 301
+
+# Chapter V was "Stray Arguments" before it was given its thesis. The old
+# chapter URL is live and indexed, so it 301s to the name it now has.
+/chapters/strays  /chapters/normalization/ 301
+/chapters/strays/ /chapters/normalization/ 301

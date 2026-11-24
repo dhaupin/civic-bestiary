@@ -14,7 +14,7 @@ Two rules keep the guide from collapsing into a list of insults. The species is 
 
 The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. Some of these characters are trolls in the old sense, things that live under bridges and demand a toll; some are trolls in the newer one. Both are field-observed here. That is roughly the right posture for the subject.
 
-The fallacies work the other way round. They are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. Each chapter ends with the documented errors its own characters commit, so the joke arrives with its receipt attached. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. The few that turn up in every chapter and belong to none are collected at the end as strays. The coinages are the joke; the fallacies are the part you can cite.
+The fallacies work the other way round. They are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. Each chapter ends with the documented errors its own characters commit, so the joke arrives with its receipt attached. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. The errors that turn up in every chapter and belong to none get a chapter of their own, because a fallacy no character owns is one the whole room has stopped noticing - that is chapter V, and it is the one you will meet most often. The coinages are the joke; the fallacies are the part you can cite.
 
 ---
 
@@ -145,7 +145,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
   - [119. Ad nauseam](#119-ad-nauseam)
   - [120. Appeal to novelty](#120-appeal-to-novelty)
   - [121. Appeal to consequences](#121-appeal-to-consequences)
-- [V. Stray Arguments](#v-stray-arguments)
+- [V. Normalization, Numbness & the Noise Floor](#v-normalization-numbness--the-noise-floor)
   - [122. Hasty generalization](#122-hasty-generalization)
   - [123. Cherry picking](#123-cherry-picking)
   - [124. False equivalence](#124-false-equivalence)
@@ -2470,7 +2470,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ---
 
-## V. Stray Arguments
+## V. Normalization, Numbness & the Noise Floor
 
 ### 122. Hasty generalization
 *(noun)* - *fallacy*  
