@@ -149,10 +149,11 @@ export default function Guide() {
     [master, letter, query, axis],
   )
 
-  // Where the view is only fallacies - their kind page, or chapter V, which has
-  // no characters by design - the useful grouping is the accredited family, not
-  // the guide's chapters, because every entry there shares a chapter.
-  const appendix = view.kind?.id === 'fallacy' || view.chapter?.id === 'normalization'
+  // Where the view is only fallacies - their kind page - the useful grouping is
+  // the accredited family, not the guide's chapters, because every entry there
+  // shares a chapter and the heading says nothing. A chapter page keeps the
+  // normal layout: its coinages, then the documented errors behind the seam.
+  const appendix = view.kind?.id === 'fallacy'
   const groups = useMemo(() => {
     if (!appendix) {
       return chapters

@@ -108,9 +108,11 @@ It does not fail the build; do not "fix" it by deleting the fallback.
 
 1. Add `data/entries/<slug>.json`. `slug` is the term lowercased with spaces as hyphens, so
    `Trust-Me-Brofessor` is `trust-me-brofessor.json` - the validator refuses a mismatch. Set
-   `kind`, `chapter`, and `position` (one past that chapter's highest); `position` decides the
-   rendered README number and the "No. 7 of 28" line, so appending means a new high number.
-   Fill the identification block the kind requires, and no other kind's block.
+   `kind`, `chapter`, and `position`. Coinages number from 1 and the fallacies in the same chapter
+   start at 101, so the coinages always sort ahead of the documented errors; append within your own
+   block, one past its highest, because inserting mid-chapter shifts every README anchor below it.
+   `position` sets the "No. 7 of 28" line. Fill the identification block the kind requires, and no
+   other kind's block.
 2. Add the new term to one existing entry's `related` list, swapping out its weakest link -
    lists are kept at three items, and the validator tells you if you skipped this.
 3. `python3 build.py && python3 build_site.py`, then `npm --prefix web run build`.
@@ -166,9 +168,9 @@ quoque, whataboutism and cherry picking live, because every chapter uses them. R
 which character commits it, not by editing `chapter`; the two disagreeing is the bug.
 
 That chapter is not a leftovers bucket, and the name says why: a fallacy every chapter commits is one the room
-has stopped noticing, so "no character owns it" *is* the thesis. It is the one chapter with no species, moves,
-abilities, habitats or buffs in it, deliberately - the character there is the room - and its note carries that
-argument on the page.
+has stopped noticing, so "no character owns it" *is* the thesis. Its own species are the ones who keep the room
+as it is - the passoffist manages the temperature, the provocrop wears the slogan - and they commit the ambient
+fallacies rather than owning them, which is the point rather than a filing coincidence.
 
 Within a chapter the coinages come first and the fallacies follow behind a "Documented fallacies" sub-head, so
 each chapter reads as the joke and then its receipt.
@@ -179,7 +181,7 @@ index is `/fallacies/`, and the kind chip plus the chapter chip reach them from 
 Inside the appendix the listing groups by **family** (Red herring, Presumption, Ambiguity, Faulty
 generalization, Questionable cause, Statistical, Improper premise, Relevance) rather than by chapter, because
 every fallacy is in the same chapter and a chapter heading there says nothing. `pages/Guide.jsx` switches the
-grouping when the view is `/fallacies/` or chapter V — same component, different axis.
+grouping when the view is `/fallacies/` — same component, different axis.
 
 The list is ordered by how often each one is actually used: the standard canon first, then the ones that live
 in comment sections (tu quoque, whataboutism, sealioning, gish gallop, nut-picking, "I'm entitled to my
