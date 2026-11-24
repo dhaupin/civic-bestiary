@@ -1,0 +1,48 @@
+{
+  "term": "Nonpology",
+  "kind": "move",
+  "chapter": "hypocrisy-revisionism",
+  "position": 8,
+  "part_of_speech": "noun / verb",
+  "ipa": "/nɒnˈpɒl.ə.dʒi/",
+  "etymology": "Blend of \"non-\" + \"apology\"",
+  "trigger": "The offence is documented, the audience has noticed, and the sponsor has not yet pulled the slot.",
+  "tell": "\"I'm sorry if anyone was offended\" - the conditional does the work, and the second sentence explains why the offended person is the problem.",
+  "counter": "Ask for the sentence that names the act, the person, and the remedy. Anything less is the move continuing.",
+  "confused_with": [
+    {
+      "term": "Bothsidesing",
+      "tell": "The bothsideser spreads the blame across the aisle; the nonpologiser spreads it across the audience."
+    }
+  ],
+  "senses": [
+    "The move of answering a documented harm with regret about its reception, so that the apology becomes a second accusation.",
+    "It works because the form is satisfied without the substance. Listeners hear the cadence of contrition and stop listening for the object of it; the record now shows an apology, and the harm is still standing."
+  ],
+  "notes": [],
+  "example": "*\"He **nonpologised** for ninety seconds - sorry if people misread it, sorry the media was unfair - and by the end the only person still at fault was the one who complained.\"*",
+  "related": [
+    "Bothsidesing",
+    "Hypocontortionist",
+    "Hot mic"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Tu quoque"
+    },
+    {
+      "rel": "commits",
+      "to": "Tone policing"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Non-apology apology",
+    "url": "https://en.wikipedia.org/wiki/Non-apology_apology"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 3
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "term": "Sophistroll",
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 1,
+  "part_of_speech": "noun",
+  "ipa": "/ˈsɒf.ɪ.stroʊl/",
+  "etymology": "Blend of \"sophist\" + \"troll\"",
+  "occasion": "A thread where winning is cheaper than being right.",
+  "call": "\"I'm just asking questions.\"",
+  "tell": [
+    "Moves the goalpost, never the argument",
+    "One straw man, three fallacies",
+    "Treats volume as evidence"
+  ],
+  "counter": "Ask what would settle it, then settle it. The troll needs the argument to continue; the answer is to end it.",
+  "confused_with": [
+    {
+      "term": "Illogician",
+      "tell": "The sophistroll knows the fallacy is a fallacy; the illogician believes it."
+    }
+  ],
+  "senses": [
+    "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
+    "It works because a bad argument costs nothing to make and something to answer, so the exchange is won by whoever is willing to spend less."
+  ],
+  "notes": [],
+  "example": "*\"You can't have a productive discussion with a **sophistroll**; the second you disprove his point, he'll pivot to three different straw men and an ad hominem attack.\"*",
+  "related": [
+    "Illogician",
+    "JAQing Off",
+    "Equivangelist"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Straw man"
+    },
+    {
+      "rel": "commits",
+      "to": "Motte-and-bailey fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Ad hominem"
+    },
+    {
+      "rel": "commits",
+      "to": "Tu quoque"
+    },
+    {
+      "rel": "commits",
+      "to": "Whataboutism"
+    },
+    {
+      "rel": "commits",
+      "to": "Poisoning the well"
+    },
+    {
+      "rel": "commits",
+      "to": "Sealioning"
+    },
+    {
+      "rel": "commits",
+      "to": "The fallacy fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Creeping normality"
+    },
+    {
+      "rel": "performs",
+      "to": "Good cop, bad cop"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

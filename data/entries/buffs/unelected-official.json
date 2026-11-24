@@ -1,0 +1,34 @@
+{
+  "term": "Unelected official",
+  "kind": "buff",
+  "chapter": "hypocrisy-revisionism",
+  "position": 22,
+  "part_of_speech": "noun",
+  "ipa": "/ˌʌn.ɪˈlek.tɪd əˈfɪʃ.əl/",
+  "etymology": "English: the office with a budget and no constituency - accountable to the appointment, not the public.",
+  "effect": "A temporary condition in which an office holds power without a mandate: the title is real, the authority is borrowed, and the public has no lever short of a scandal.",
+  "tell": "The press release says the administration rather than a name, and the brief is answered by whoever appointed them.",
+  "expires": "At the next appointment, at the next election that is not about them, or at the next scandal that makes them expendable.",
+  "senses": [
+    "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate and answers to nobody who votes.",
+    "It works because expertise is a real defence and a convenient one. Some offices should be insulated from the electorate - and the insulation is exactly what makes the office useful to the people who appointed it."
+  ],
+  "notes": [],
+  "example": "*\"Per the guidance issued by the office\" - an **unelected official** whose name nobody in the room could give, exercising a power nobody in the room could vote on.*",
+  "confused_with": [
+    {
+      "term": "Recessure",
+      "tell": "Recessure is the appointment made while the chamber is empty; the unelected official is what the appointment leaves behind."
+    }
+  ],
+  "related": [
+    "Recessure",
+    "Nightdocket"
+  ],
+  "edges": [],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 1
+  }
+}

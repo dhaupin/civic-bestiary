@@ -1,0 +1,53 @@
+{
+  "term": "The ombudsman",
+  "kind": "keystone",
+  "chapter": "keystones",
+  "position": 20,
+  "part_of_speech": "noun",
+  "ipa": "/ˈɒm.bʊdz.mən/",
+  "etymology": "Swedish, 1809: the office the Riksdag invented so a citizen could complain about the state to somebody with the power to read the file.",
+  "office": "The complaint, the file, and the duty to answer in writing.",
+  "call": "\"Tell me what happened, in order.\"",
+  "tell": [
+    "Reads the file the department hoped nobody would read",
+    "Answers the complainant, not just the department",
+    "Publishes the case with the name removed"
+  ],
+  "keystone": "Without the office, a complaint has nowhere to go but the feed, where it becomes a story instead of a case. The comment section is what an institution gets when it refuses to build one of these.",
+  "confused_with": [
+    {
+      "term": "The caseworker",
+      "tell": "The caseworker decides the case; the ombudsman investigates the decision."
+    }
+  ],
+  "senses": [
+    "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what went wrong. The office is old, cheap and structurally boring, which is most of why it works.",
+    "It works because it gives a grievance a destination short of a lawsuit. Most people who have been treated badly do not want damages; they want somebody with authority to read the file and admit what it says - and an institution that offers nothing else will be discussed in public instead."
+  ],
+  "notes": [],
+  "example": "*\"The **ombudsman** read the refusal letter, found the assessment it had relied on, and published the four sentences the department had left out of its own summary.\"*",
+  "related": [
+    "The caseworker",
+    "The written reason",
+    "Comment section"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Comment section"
+    },
+    {
+      "rel": "practises",
+      "to": "The written reason"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Ombudsman",
+    "url": "https://en.wikipedia.org/wiki/Ombudsman"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "term": "Rally",
+  "kind": "habitat",
+  "chapter": "fearmongering-grift",
+  "position": 18,
+  "part_of_speech": "noun",
+  "ipa": "/ˈræl.i/",
+  "etymology": "English: from 'rally' - to gather again, and to recover.",
+  "carriers": "An arena, a rope line, a sound system rented by the hour, and a crowd that arrived in a convoy.",
+  "economics": "Tickets are free, the merchandise is not, and the footage is worth more than the venue.",
+  "signature": "A chant the crowd already knows, a pause to let them say it, and a crowd estimate disputed by two police departments.",
+  "confused_with": [
+    {
+      "term": "Patriotainment",
+      "tell": "Patriotainment sells the seat; the rally gives it away and sells the shirt."
+    }
+  ],
+  "senses": [
+    "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back.",
+    "It works because a crowd is evidence. Attendance gets reported as support, the chant gets reported as a position, and the room's enthusiasm becomes a data point in coverage that has no way to count the people who stayed home."
+  ],
+  "notes": [],
+  "example": "*\"Twelve thousand in the **rally**, a chant that had been running since the primaries, and a news cycle about the crowd size rather than the speech.\"*",
+  "related": [
+    "Playtriot",
+    "Pseudo-event",
+    "Ragesturbationist"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Playtriot"
+    },
+    {
+      "rel": "houses",
+      "to": "Ragesturbationist"
+    },
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to force"
+    },
+    {
+      "rel": "houses",
+      "to": "Provocrop"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Political rally",
+    "url": "https://en.wikipedia.org/wiki/Political_rally"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
+  },
+  "counter": "The transcript and the roll, read in the same week: what was said, and what was voted. The chant is the offer; the vote is the receipt."
+}

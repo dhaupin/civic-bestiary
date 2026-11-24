@@ -1,0 +1,39 @@
+{
+  "term": "Good ol' boys club",
+  "kind": "habitat",
+  "chapter": "hypocrisy-revisionism",
+  "position": 21,
+  "part_of_speech": "noun",
+  "ipa": "/ɡʊd ɒl bɔɪz klʌb/",
+  "etymology": "Southern American English: the informal network whose membership is assumed rather than applied for.",
+  "carriers": "The alumni network, the county party, the trade association, and the fraternity that became a hiring pipeline.",
+  "economics": "Membership is free and admission is not: the dues are paid in favours, and the ledger is never written down.",
+  "signature": "Every post is filled before it is advertised, and every candidate is somebody's nephew.",
+  "counter": "Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting.",
+  "senses": [
+    "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
+    "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document."
+  ],
+  "notes": [],
+  "example": "*\"He's one of us\" - the whole interview, in four words, before the résumé was opened: the **good ol' boys club** doing its hiring in the open.*",
+  "confused_with": [
+    {
+      "term": "Cronycle",
+      "tell": "The cronycle is the cycle that fills the posts; the club is the room the cycle recruits from."
+    }
+  ],
+  "related": [
+    "Cronycle",
+    "Secret meeting"
+  ],
+  "edges": [],
+  "cite": {
+    "label": "Wikipedia · Old boy network",
+    "url": "https://en.wikipedia.org/wiki/Old_boy_network"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

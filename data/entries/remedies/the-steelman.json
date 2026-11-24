@@ -1,0 +1,53 @@
+{
+  "term": "The steelman",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 13,
+  "part_of_speech": "noun",
+  "ipa": "/ˈstiːl.mæn/",
+  "etymology": "English: the deliberate opposite of the straw man - the argument rebuilt in steel so that refuting it means something.",
+  "effect": "States the other side's argument in its strongest form, then answers that version instead of the worst one.",
+  "costs": "The risk of being persuaded, and the work of finding the best version rather than the loudest.",
+  "failure": "The steelman built by the wrong side, and the version so strong that it stops being the argument anybody actually made.",
+  "tell": [
+    "The other side says 'yes, that's it'",
+    "The strongest source, not the loudest",
+    "A reply that addresses the claim"
+  ],
+  "confused_with": [
+    {
+      "term": "Bothsidesing",
+      "tell": "Bothsidesing splits the difference; the steelman takes one side at its strongest and then argues with it."
+    }
+  ],
+  "senses": [
+    "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather than a mood.",
+    "It works because a weak target is a way of not answering. If you can only refute the worst version of an argument you have not refuted the argument - and saying the strong version out loud is what makes the difference visible to everyone in the room."
+  ],
+  "notes": [],
+  "example": "*\"She wrote the **steelman** first, sent it to the person she disagreed with, got a 'yes, that's it', and only then wrote the reply.\"*",
+  "related": [
+    "The moderator",
+    "Lateral reading",
+    "The written reason"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Equivangelist"
+    },
+    {
+      "rel": "counters",
+      "to": "Biasographer"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Steelmanning",
+    "url": "https://en.wikipedia.org/wiki/Steelmanning"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "term": "Patriotainment",
+  "kind": "habitat",
+  "chapter": "performative-identity",
+  "position": 6,
+  "part_of_speech": "noun",
+  "ipa": "/ˈpeɪ.tri.ə.ˌteɪn.mənt/",
+  "etymology": "Blend of \"patriot\" + \"entertainment\"",
+  "carriers": "Cable primetime, streaming specials, rally tours, and the merch drop that follows each one.",
+  "economics": "Ad rates keyed to outrage, an eighty-dollar hoodie, and a subscription tier for the uncut version.",
+  "signature": "A countdown clock over a battlefield, and a sponsor read that starts before the anthem finishes.",
+  "confused_with": [
+    {
+      "term": "Ragesturbationist",
+      "tell": "The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it."
+    }
+  ],
+  "senses": [
+    "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the country is something you buy a ticket to watch rather than something you owe the people living in it.",
+    "A mode of civic life in which the spectacle of patriotism substitutes entirely for its obligations, so that cheering loudest counts as service and noticing anything else counts as betrayal."
+  ],
+  "notes": [],
+  "example": "*\"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale.\"*",
+  "related": [
+    "Playtriot",
+    "Sabotriot",
+    "Ragesturbationist",
+    "Patriotainer"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Patriotainer"
+    },
+    {
+      "rel": "houses",
+      "to": "Playtriot"
+    },
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
+    },
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    },
+    {
+      "rel": "commits",
+      "to": "Gish gallop"
+    },
+    {
+      "rel": "uses",
+      "to": "Citizens United"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  },
+  "counter": "Change the payment. A subscription, a public broadcaster, or one night without the channel - the format follows the revenue, and nothing else moves it."
+}

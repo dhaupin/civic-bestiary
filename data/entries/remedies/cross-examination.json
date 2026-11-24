@@ -1,0 +1,53 @@
+{
+  "term": "Cross-examination",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 27,
+  "part_of_speech": "noun",
+  "ipa": "/ˌkrɒs ɪɡˌzæm.ɪˈneɪ.ʃən/",
+  "etymology": "English legal usage: the questioning of a witness by the side that did not call them - the only part of a hearing designed to find out whether the story survives contact.",
+  "effect": "Makes the claim answerable, under oath, to somebody paid to test it - and puts the answers in a transcript.",
+  "costs": "A deposition, a transcript, and the risk that your own witness fares worse under the same treatment.",
+  "failure": "The objection sustained, and the time limit that arrives before the point does.",
+  "tell": [
+    "A question the witness cannot dodge",
+    "A transcript of the answer",
+    "A claim that changes under pressure"
+  ],
+  "confused_with": [
+    {
+      "term": "The steelman",
+      "tell": "The steelman strengthens the other side's argument; cross-examination finds out whether it holds."
+    }
+  ],
+  "senses": [
+    "The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given rather than a theme restated.",
+    "It works because it is the one procedure that makes a claim cost something at the moment it is made. A statement in a hearing can be a performance; the same statement under cross-examination has to survive being interrupted, dated, and read back."
+  ],
+  "notes": [],
+  "example": "*\"Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version.\"*",
+  "related": [
+    "Martyrholic",
+    "The steelman",
+    "The transcript"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Martyrholic"
+    },
+    {
+      "rel": "counters",
+      "to": "JAQing Off"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Cross-examination",
+    "url": "https://en.wikipedia.org/wiki/Cross-examination"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

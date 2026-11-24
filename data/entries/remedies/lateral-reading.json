@@ -1,0 +1,57 @@
+{
+  "term": "Lateral reading",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 11,
+  "part_of_speech": "verb phrase / gerund",
+  "ipa": "/ˈlæt.ər.əl ˈriː.dɪŋ/",
+  "etymology": "English: reading sideways - leaving the page to find out who is behind it, rather than reading down it for clues.",
+  "effect": "Checks a claim by leaving the page: who else is saying this, and what do they say about the source saying it.",
+  "costs": "Ninety seconds, and the discipline to leave a page you already believe.",
+  "failure": "The search that returns the claim's own ecosystem, and the fact-check that cites the thing it is checking.",
+  "tell": [
+    "Two sources that do not cite each other",
+    "A name, a date, a document",
+    "A correction you can find"
+  ],
+  "confused_with": [
+    {
+      "term": "The second source",
+      "tell": "Lateral reading checks a claim against the world; the second source is the world agreeing to go on the record."
+    }
+  ],
+  "senses": [
+    "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who the publisher is, what they have got wrong before, and who else is reporting the same thing.",
+    "It works because the web is cheap to search and expensive to fake at scale. A claim can be dressed up on one page; it is much harder to be independently confirmed by people with nothing to gain - so the check is not the page, it is the company the page keeps."
+  ],
+  "notes": [],
+  "example": "*\"The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead.\"*",
+  "related": [
+    "The librarian",
+    "The second source",
+    "The steelman"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Algodemic"
+    },
+    {
+      "rel": "counters",
+      "to": "The Feed"
+    },
+    {
+      "rel": "counters",
+      "to": "Astroturfing"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Media literacy",
+    "url": "https://en.wikipedia.org/wiki/Media_literacy"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 2,
+    "blowback": 2
+  }
+}

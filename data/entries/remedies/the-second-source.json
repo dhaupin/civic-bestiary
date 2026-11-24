@@ -1,0 +1,57 @@
+{
+  "term": "The second source",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 12,
+  "part_of_speech": "noun",
+  "ipa": "/ðə ˈsek.ənd sɔːs/",
+  "etymology": "Newsroom English: the confirmation that does not depend on the first one.",
+  "effect": "Requires a claim to exist somewhere else before it is published, and pays for the call that finds out.",
+  "costs": "A day of the story's life, and the possibility that the second call kills it.",
+  "failure": "The second source that is the first source's spokesperson, and the wire copy everyone treats as confirmation.",
+  "tell": [
+    "Two people who could not have talked to each other",
+    "A document that predates the claim",
+    "A story that survives being read to its subject"
+  ],
+  "confused_with": [
+    {
+      "term": "Lateral reading",
+      "tell": "Lateral reading is what a reader does in ninety seconds; the second source is what a newsroom does in ninety minutes."
+    }
+  ],
+  "senses": [
+    "The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It is a cost, deliberately, and the cost is the quality control.",
+    "It works because independence is checkable. Two sources who share a motive are one source with two mouths, so the discipline is not counting - it is asking how each of them knows, and whether their knowing depends on the same thing."
+  ],
+  "notes": [],
+  "example": "*\"The **second source** was the clerk's copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph.\"*",
+  "related": [
+    "The editor",
+    "Lateral reading",
+    "The transcript"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Slopagandist"
+    },
+    {
+      "rel": "counters",
+      "to": "Receiptbomb"
+    },
+    {
+      "rel": "counters",
+      "to": "Patriotainer"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Source criticism",
+    "url": "https://en.wikipedia.org/wiki/Source_criticism"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 2,
+    "blowback": 2
+  }
+}

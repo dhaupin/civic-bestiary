@@ -26,6 +26,7 @@ import {
   chapters, defaultAxis, entries, kindsList, matches, sortByAxis, sorts, stats, voiceLabel,
 } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
+import ShareButton from '../components/ShareButton.jsx'
 
 const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
 
@@ -67,6 +68,11 @@ function headingFor(view, total) {
     return {
       eyebrow: `${total} ${plural}${scope}`,
       title: view.kind.plural,
+      // A kind read inside a chapter still needs the chapter named: the chip
+      // said "V", and a reader landing on this URL cold has no idea what V is.
+      scope: view.chapter
+        ? { label: `Chapter ${view.chapter.roman} · ${view.chapter.title}`, path: `/chapters/${view.chapter.id}/` }
+        : null,
       sub: view.kind.blurb,
       rows: view.kind.identification.map((row) => row.label),
       path: view.kind.path,
@@ -222,6 +228,11 @@ export default function Guide() {
         <header className="page-head">
           <p className="eyebrow">{heading.eyebrow}</p>
           <h1>{heading.title}</h1>
+          {heading.scope && (
+            <p className="head-scope">
+              <Link to={heading.scope.path}>{heading.scope.label}</Link>
+            </p>
+          )}
           {heading.sub && <p className="sub">{heading.sub}</p>}
           {heading.rows.length > 0 && (
             <p className="sub taxa-rows">{heading.rows.join(' · ')}</p>
@@ -361,6 +372,7 @@ export default function Guide() {
           ))}
         </nav>
 
+        <div className="result-bar">
         <p className="count" aria-live="polite">
           {visible.length === master.length
             ? `${master.length} ${master.length === 1 ? 'entry' : 'entries'}`
@@ -368,6 +380,8 @@ export default function Guide() {
           {scoped && ` · ${stats.entries} in the guide`}
           {axis !== 'position' && ` · by ${axes.find((item) => item.id === axis).label.toLowerCase()}`}
         </p>
+        <ShareButton label="Share this view" title={`${heading.title} | ${site.name}`} className="btn btn-ghost share-view" />
+        </div>
 
         {master.length === 0 && (
           <div className="empty">

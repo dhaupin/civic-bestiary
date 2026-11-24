@@ -1,0 +1,38 @@
+{
+  "term": "Breaking treaties",
+  "kind": "ability",
+  "chapter": "hypocrisy-revisionism",
+  "position": 19,
+  "part_of_speech": "noun",
+  "ipa": "/ˈbreɪ.kɪŋ ˈtriː.tiz/",
+  "etymology": "English: the signature withdrawn by the hand that wrote it - exit announced as sovereignty.",
+  "effect": "The capability of a signatory to leave an agreement it wrote: the obligations are kept as options, and withdrawal is presented as a return to first principles.",
+  "available_to": "Any state whose word is worth more abroad than its exit is worth at home.",
+  "counter": "Make the exit cost something durable: a successor agreement that names the withdrawal penalty, and allies who price the exit into everything that follows.",
+  "senses": [
+    "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal is announced in the language of liberation.",
+    "It works because the benefit of a treaty is paid over decades and the cost of leaving is paid once, in a news cycle. A signatory that keeps the benefits and drops the obligations has arbitraged its own credibility, and the bill arrives as a premium on every later promise."
+  ],
+  "notes": [],
+  "example": "*\"We are withdrawing from the agreement to protect our sovereignty\" - the treaty had been drafted by the same government, and **breaking treaties** was the sovereignty in question.*",
+  "confused_with": [
+    {
+      "term": "Signaway",
+      "tell": "Signaway gives away a right in the fine print; breaking treaties takes back a promise in the headline."
+    }
+  ],
+  "related": [
+    "Signaway",
+    "Forever war"
+  ],
+  "edges": [],
+  "cite": {
+    "label": "Wikipedia · Vienna Convention on the Law of Treaties",
+    "url": "https://en.wikipedia.org/wiki/Vienna_Convention_on_the_Law_of_Treaties"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "term": "Random draw",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 17,
+  "part_of_speech": "noun",
+  "ipa": "/ˈræn.dəm drɔː/",
+  "etymology": "English: assignment by lot - the oldest anti-corruption technology in the book, older than the book.",
+  "effect": "Takes the choice of judge, panel, or jury out of the hands of the party who benefits from it.",
+  "costs": "A docket that is less convenient, and a schedule nobody can optimise.",
+  "failure": "The carve-out for complex cases, which is where the shopping goes to live.",
+  "tell": [
+    "A published assignment rule",
+    "No exceptions in the filing",
+    "A docket you cannot predict from outside"
+  ],
+  "confused_with": [
+    {
+      "term": "Judge shopping",
+      "tell": "Judge shopping chooses the courtroom; the random draw removes the choice that made the courtroom worth choosing."
+    }
+  ],
+  "senses": [
+    "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works by making the choice uninteresting.",
+    "It works because randomness removes the negotiation. Any assignment system that can be gamed will be gamed, so the fix is not a better rule about who chooses - it is the removal of the choice, which is also why the carve-outs matter more than the rule."
+  ],
+  "notes": [],
+  "example": "*\"The division was redrawn to assign cases by **random draw**, and the filing that had gone to one courthouse for six years started going to nine.\"*",
+  "related": [
+    "The clerk",
+    "Fee shift",
+    "The audit"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Judge shopping"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Sortition",
+    "url": "https://en.wikipedia.org/wiki/Sortition"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 1,
+    "blowback": 2
+  }
+}

@@ -29,6 +29,11 @@ const PAGE_MARKERS = [
 // so the row count is checked separately.
 const MIN_IDENTIFICATION_ROWS = 3
 
+// The citation is a label followed by the link, whatever classes wrap them: the
+// rule is that a source row exists and points off-site, not that it points at
+// one particular host.
+const SOURCE_ROW = />\s*Source\s*<\/span>\s*<a href="https?:\/\//
+
 function walk(ctx, relPrefix = '', out = []) {
   for (const name of ctx.readdir(relPrefix) || []) {
     const rel = relPrefix ? `${relPrefix}/${name}` : name
@@ -75,16 +80,15 @@ export default {
       // The appendix exists because these are documented rather than invented:
       // a fallacy page without a citation is just another coinage wearing a
       // lab coat, so the source link is a shape requirement, not a nicety.
+      // Wikipedia is the usual home for that account, not the only one - the
+      // Kafka trap's write-up lives elsewhere - so this asks for a Source row
+      // with an external link rather than for a particular host.
       id: 'reference-entries-cite-a-source',
       level: 'fail',
       run(ctx) {
         return walk(ctx, 'fallacies')
-          .filter((page) => !page.endsWith('index.html') || page !== 'fallacies/index.html')
-          .filter((page) => !page.endsWith('/index.html') || page.split('/').length > 2)
-          .filter((page) => {
-            const html = ctx.text(page) || ''
-            return !html.includes('https://en.wikipedia.org/')
-          })
+          .filter((page) => page !== 'fallacies/index.html')
+          .filter((page) => !SOURCE_ROW.test(ctx.text(page) || ''))
           .map((page) => ({ page, message: 'fallacy page cites no source' }))
       },
     },

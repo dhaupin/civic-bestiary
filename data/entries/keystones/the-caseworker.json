@@ -1,0 +1,57 @@
+{
+  "term": "The caseworker",
+  "kind": "keystone",
+  "chapter": "keystones",
+  "position": 5,
+  "part_of_speech": "noun",
+  "ipa": "/ˈkeɪsˌwɜː.kə/",
+  "etymology": "English: the official who carries a caseload - the point where a statute becomes a decision about one household.",
+  "office": "The form, the deadline, and the discretion to read a rule the way it was written.",
+  "call": "\"You qualify. Here's the page that says so.\"",
+  "tell": [
+    "Knows the appeal deadline better than the appellant",
+    "Writes the reason into the letter",
+    "Answers the phone on the second ring"
+  ],
+  "keystone": "Without the caseworker, policy is a press release. The Plutomartyr needs a benefit that arrives as a favour rather than as an entitlement; the caseworker is the person who hands it over as a right.",
+  "confused_with": [
+    {
+      "term": "The clerk",
+      "tell": "The clerk records the decision; the caseworker delivers it to somebody who needs it by Friday."
+    }
+  ],
+  "senses": [
+    "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political scientists call this street-level bureaucracy, and it is where most of the state is actually experienced.",
+    "It works because discretion is unavoidable and therefore visible. No rule covers every case, so the caseworker decides, and the decision is only legitimate if it comes with reasons - which makes the job both the most humane part of the state and the easiest part to cut."
+  ],
+  "notes": [],
+  "example": "*\"The letter said no, the **caseworker** read the appeal, found the clause the automated screen had missed, and the cheque arrived nine days later.\"*",
+  "related": [
+    "The clerk",
+    "The written reason",
+    "The auditor"
+  ],
+  "edges": [
+    {
+      "rel": "practises",
+      "to": "The written reason"
+    },
+    {
+      "rel": "counters",
+      "to": "Plutomartyr"
+    },
+    {
+      "rel": "counters",
+      "to": "LARPtarian"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Caseworker",
+    "url": "https://en.wikipedia.org/wiki/Social_work"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

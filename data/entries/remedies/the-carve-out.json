@@ -1,0 +1,49 @@
+{
+  "term": "The carve-out",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 30,
+  "part_of_speech": "noun",
+  "ipa": "/ðə ˈkɑːv.aʊt/",
+  "etymology": "Legislative drafting: the exception cut into a general rule so that one category of case falls outside it.",
+  "effect": "Voids the silence clause for a defined category of claim, and makes the agreement unenforceable in that respect.",
+  "costs": "A legislature willing to name the category out loud, and a plaintiff willing to be the first to test it.",
+  "failure": "The carve-out that covers the claim but not the arbitration clause that swallows it, and the category drawn so narrowly that almost nothing falls inside.",
+  "tell": [
+    "A statute that names the claim",
+    "A clause struck rather than read down",
+    "A plaintiff who can afford to be the test case"
+  ],
+  "confused_with": [
+    {
+      "term": "NDA",
+      "tell": "The NDA buys silence with a contract; the carve-out voids the contract for one category of claim."
+    }
+  ],
+  "senses": [
+    "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced in a harassment claim, the release that cannot waive a wage claim, the arbitration agreement that does not reach a civil-rights suit.",
+    "It works because it changes the default without banning the contract. Nobody has to prove the NDA was coerced; the clause simply has no effect where the statute says so - which is why the drafting fight moves to the definition of the category, where it is quiet and decisive."
+  ],
+  "notes": [],
+  "example": "*\"The **carve-out** passed with a definition of harassment that excluded contractors, and the clause held for everyone the statute had not named.\"*",
+  "related": [
+    "NDA",
+    "Cross-examination",
+    "Sunset clause"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "NDA"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Grandfather clause",
+    "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 1,
+    "blowback": 3
+  }
+}

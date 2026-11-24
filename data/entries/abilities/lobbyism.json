@@ -1,0 +1,38 @@
+{
+  "term": "Lobbyism",
+  "kind": "ability",
+  "chapter": "fearmongering-grift",
+  "position": 25,
+  "part_of_speech": "noun",
+  "ipa": "/ˈlɒb.i.ɪ.zəm/",
+  "etymology": "From the lobby outside the chamber floor, with the -ism that turns a place into a system.",
+  "effect": "The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party's letterhead already on it.",
+  "available_to": "Any body with a trade association, a district to spend in, and a former staffer to hire.",
+  "counter": "Read the bill's authorship and the revolving door's dates: who wrote it, and where they worked the year before.",
+  "senses": [
+    "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee's friends.",
+    "It works because the legislator needs the expertise and the industry is the only body that funds it at scale. The information is real, the interest is real, and the two arrive in the same envelope."
+  ],
+  "notes": [],
+  "example": "*\"The bill was drafted with input from stakeholders\" - **lobbyism** in one line: the stakeholders wrote it, and the input was the comma they removed.*",
+  "confused_with": [
+    {
+      "term": "Access",
+      "tell": "Access buys the meeting; lobbyism writes the text the meeting was about."
+    }
+  ],
+  "related": [
+    "Access",
+    "Citizens United"
+  ],
+  "edges": [],
+  "cite": {
+    "label": "Wikipedia · Lobbying",
+    "url": "https://en.wikipedia.org/wiki/Lobbying"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "term": "Flood the zone",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 20,
+  "part_of_speech": "verb phrase / gerund",
+  "ipa": "/flʌd ðə zəʊn/",
+  "etymology": "From the advice attributed to Steve Bannon: drown the press in so much material that nothing can be checked.",
+  "trigger": "A story that has to be survived rather than answered, and a press corps with finite hours.",
+  "tell": "Eleven announcements in one afternoon, three of them real, and a briefing that outruns the fact-checkers by design.",
+  "counter": "Pick one thread and pull it to the end. A flood is only a defence if the other side tries to drink all of it.",
+  "confused_with": [
+    {
+      "term": "Slopagandist",
+      "tell": "The slopagandist fills the feed with volume for money; flooding the zone fills it with volume for cover."
+    }
+  ],
+  "senses": [
+    "The move of releasing more than anyone can process: real stories, fake stories and irrelevant stories in the same hour, so the true ones cannot be separated in time to matter.",
+    "It works because verification is slower than publication. Each item costs the press minutes to check and the source seconds to produce, and that asymmetry is the whole tactic - the flood does not have to convince anybody, only to keep them busy."
+  ],
+  "notes": [],
+  "example": "*\"Nine press releases before noon, two of them true, and **flood the zone** worked exactly as designed: by Friday the story was a list nobody had finished.\"*",
+  "related": [
+    "Dead cat",
+    "The Feed",
+    "Briefing room"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Gish gallop"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting the burden of proof"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Firehose of falsehood",
+    "url": "https://en.wikipedia.org/wiki/Firehose_of_falsehood"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

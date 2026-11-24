@@ -34,7 +34,7 @@ def typographic(text):
 
 
 def unwrap_emphasis(text):
-    """Drop the README's outer *...* wrapper so only the inner **term** survives."""
+    """Drop the book's outer *...* wrapper so only the inner **term** survives."""
     stripped = text.strip()
     if len(stripped) > 2 and stripped[0] == "*" and stripped[-1] == "*" \
             and not stripped.startswith("**") and not stripped.endswith("**"):
@@ -58,10 +58,15 @@ def entry_summary(entry, spec):
     return plain
 
 
-def summarize(text):
-    """First sense as a meta description: POS prefix and markdown stripped."""
+def plain_sense(text):
+    """A sense with its POS prefix and markdown stripped, nothing removed."""
     plain = " ".join(text.replace("**", "").replace("*", "").split())
-    plain = re.sub(r"^\((noun|adjective|verb|adverb)\)\s*", "", plain)
+    return re.sub(r"^\((noun|adjective|verb|adverb)\)\s*", "", plain)
+
+
+def summarize(text):
+    """First sense as a meta description, clipped to fit a search result."""
+    plain = plain_sense(text)
     if len(plain) <= SUMMARY_LIMIT:
         return plain
     return plain[:SUMMARY_LIMIT].rsplit(" ", 1)[0].rstrip(" ,;:-") + "..."
@@ -104,6 +109,9 @@ def build(doc):
                 "slug": slug,
                 "kind": entry["kind"],
                 "kindLabel": spec["label"],
+                # The record's own file, so every page can offer "view data"
+                # without anyone hand-maintaining a second path.
+                "source": f"data/entries/{entry['_folder']}/{entry['_file']}",
                 "path": f"{spec['path']}{slug}/",
                 "chapter": chapter["id"],
                 "chapterRoman": chapter["roman"],
@@ -132,6 +140,7 @@ def build(doc):
                 "example": typographic(unwrap_emphasis(entry["example"])),
                 "cite": entry.get("cite"),
                 "summary": typographic(entry_summary(entry, spec)),
+                "definition": typographic(plain_sense(entry["senses"][0])),
                 "confusedWith": [
                     {"term": twin["term"], "slug": slugify(twin["term"]), "tell": typographic(twin["tell"])}
                     for twin in entry["confused_with"]

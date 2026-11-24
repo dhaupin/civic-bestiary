@@ -1,0 +1,77 @@
+{
+  "term": "Slopagandist",
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 7,
+  "part_of_speech": "noun",
+  "ipa": "/ˈslɒp.ə.ˌɡæn.dɪst/",
+  "etymology": "Blend of \"slop\" + \"propagandist\"",
+  "occasion": "A feed that needs volume, and a story that needs only to be published.",
+  "call": "\"Sources say.\"",
+  "tell": [
+    "Volume over verification",
+    "Written by no one, read by millions",
+    "Corrections never issued"
+  ],
+  "counter": "Ask who wrote it and who would correct it. A byline and a corrections policy are the two things slop cannot fake for long.",
+  "confused_with": [
+    {
+      "term": "Algodemic",
+      "tell": "The algodemic believes the nonsense; the slopagandist bills for it."
+    }
+  ],
+  "senses": [
+    "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was accountable for the piece.",
+    "It works because volume beats verification on a time budget - a fact-checker answers one item while the pipeline ships twenty - so the race is lost before it is run."
+  ],
+  "notes": [],
+  "example": "*\"Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn't believe the story, he just ships it.\"*",
+  "related": [
+    "Ragesturbationist",
+    "Algodemic",
+    "Perp walk"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
+    },
+    {
+      "rel": "commits",
+      "to": "Moving the goalposts"
+    },
+    {
+      "rel": "commits",
+      "to": "Ad nauseam"
+    },
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    },
+    {
+      "rel": "commits",
+      "to": "Gish gallop"
+    },
+    {
+      "rel": "commits",
+      "to": "McNamara fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting baseline"
+    },
+    {
+      "rel": "uses",
+      "to": "Lobbyism"
+    },
+    {
+      "rel": "uses",
+      "to": "Climate hoax"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

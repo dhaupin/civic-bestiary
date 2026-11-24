@@ -1,0 +1,48 @@
+{
+  "term": "Subpoenado",
+  "kind": "ability",
+  "chapter": "hypocrisy-revisionism",
+  "position": 6,
+  "part_of_speech": "noun",
+  "ipa": "/səbˈpiː.nɑː.dəʊ/",
+  "etymology": "Blend of \"subpoena\" + \"tornado\"",
+  "effect": "Summons the truth with enormous force, spins for a news cycle, and sets down in an empty field.",
+  "available_to": "Any committee with a gavel, a camera, and a calendar that ends before the hearing does.",
+  "counter": "A deadline that outlives the coverage, or a witness who answers in writing and publishes it.",
+  "confused_with": [
+    {
+      "term": "Cronycle",
+      "tell": "The subpoenado investigates the enemy; the cronycle installs the friend. Same gavel, opposite direction."
+    }
+  ],
+  "senses": [
+    "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is timed for the cameras rather than the calendar.",
+    "It works because a subpoena looks like accountability from a distance. The audience sees the summons and stops watching, the witness sees the clock and runs it out, and the file closes when the cycle does rather than when the question is answered."
+  ],
+  "notes": [],
+  "example": "*\"Three **subpoenados** in one month, each announced with a graphic, none of them producing a report - and the base counted it as three wins.\"*",
+  "related": [
+    "Cronycle",
+    "Omnibust",
+    "Filibluster"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argument from ignorance"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting the burden of proof"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Subpoena",
+    "url": "https://en.wikipedia.org/wiki/Subpoena"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

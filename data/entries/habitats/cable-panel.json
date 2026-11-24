@@ -1,0 +1,73 @@
+{
+  "term": "Cable panel",
+  "kind": "habitat",
+  "chapter": "fearmongering-grift",
+  "position": 8,
+  "part_of_speech": "noun",
+  "ipa": "/ˈkeɪ.bəl ˈpæn.əl/",
+  "etymology": "English: a panel is a flat board, and then a group of people arranged in front of one.",
+  "carriers": "The 8pm segment, the Sunday show, the podcast studio with four microphones and no clock.",
+  "economics": "Ad rates, and a book deal for whoever shouts the most quotable thing.",
+  "signature": "Four people, one topic, and a countdown to the break.",
+  "confused_with": [
+    {
+      "term": "Comment section",
+      "tell": "The panel is produced and timed; the comment section is neither. Both punish the answer and reward the claim."
+    }
+  ],
+  "senses": [
+    "A produced argument: a fixed panel, a fixed clock, and a topic chosen for heat rather than for answerability.",
+    "It rewards the claim that fits before the break. A false claim costs nothing inside ninety seconds and an answer costs most of them, so the format systematically favours the gallop over the reply."
+  ],
+  "notes": [],
+  "example": "*\"Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant.\"*",
+  "related": [
+    "Comment section",
+    "Patriotainment",
+    "School board meeting"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Gish gallop"
+    },
+    {
+      "rel": "houses",
+      "to": "False balance"
+    },
+    {
+      "rel": "houses",
+      "to": "Ad nauseam"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to ridicule"
+    },
+    {
+      "rel": "houses",
+      "to": "Loaded question"
+    },
+    {
+      "rel": "houses",
+      "to": "Proof by assertion"
+    },
+    {
+      "rel": "houses",
+      "to": "Nonpology"
+    },
+    {
+      "rel": "houses",
+      "to": "The fallacy fallacy"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Panel discussion",
+    "url": "https://en.wikipedia.org/wiki/Panel_discussion"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  },
+  "counter": "The transcript, read the next morning. The format is built for the moment it airs; the transcript is built for the day after."
+}

@@ -2,7 +2,7 @@
  * pages/About.jsx - the essay the landing used to carry, plus the extended
  * paths: what the guide is for, how an entry is built, how the graph works,
  * and where to go next. Copy is the lexicon's own preface, so the page cannot
- * drift from the README.
+ * drift from the book.
  */
 import { Link } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'

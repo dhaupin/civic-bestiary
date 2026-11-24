@@ -1,7 +1,7 @@
 // Generated from schema/record.json by build_schema.py - edit the schema, not this file.
 export default {
-  "recordPath": "data/entries/<slug>.json",
-  "recordDescription": "One file per term, named for the term's slug. Every audience reads this file: the README, the site, and the issue form a contributor fills in.",
+  "recordPath": "data/entries/<kind>/<slug>.json",
+  "recordDescription": "One file per term, named for the term's slug. Every audience reads this file: the book, the site, and the issue form a contributor fills in.",
   "issue": {
     "name": "New entry",
     "titlePrefix": "[New entry] ",
@@ -350,7 +350,7 @@ export default {
       "type": "textarea",
       "required": true,
       "requiredInIssue": true,
-      "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside.",
+      "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the book renders it as an aside.",
       "example": "*\"<a line you could overhear>\"* - the term in **bold**"
     },
     {
@@ -415,8 +415,8 @@ export default {
       "type": "cite",
       "required": false,
       "requiredInIssue": false,
-      "hint": "For reference entries: where the documented account lives (label + URL). Coinages have no source - they are invented, and say so by leaving this empty.",
-      "example": "Wikipedia · Ad hominem -> https://en.wikipedia.org/wiki/Ad_hominem"
+      "hint": "Where the referent lives (label + URL), verified to resolve. A fallacy cites the documented account. A coinage cites the real institution, doctrine or procedure it is built on - Citizens United, the shadow docket, the pocket veto - because that is the thing a sceptical reader will look up. A character built on nothing real leaves this empty.",
+      "example": "Wikipedia · Pocket veto -> https://en.wikipedia.org/wiki/Pocket_veto"
     }
   ]
 }

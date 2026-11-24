@@ -1,0 +1,48 @@
+{
+  "term": "Gerrythm",
+  "kind": "ability",
+  "chapter": "performative-identity",
+  "position": 9,
+  "part_of_speech": "noun",
+  "ipa": "/ˈdʒɛr.iˌðəm/",
+  "etymology": "Blend of \"gerrymander\" + \"algorithm\"",
+  "effect": "Draws the district you are going to win, at machine speed, before anyone has voted.",
+  "available_to": "State legislatures with a census, a map, and a data vendor on retainer.",
+  "counter": "An independent commission with a drawing mandate, or a court willing to read the code.",
+  "confused_with": [
+    {
+      "term": "Filibluster",
+      "tell": "The filibluster wins the hour; the gerrythm wins the decade."
+    }
+  ],
+  "senses": [
+    "The capability of a legislature to choose its voters instead of the reverse - now run by software that tests ten thousand maps overnight against turnout history and keeps the one most likely to survive a court.",
+    "It works because a district line is not an argument, so it never has to be defended as one. By the time anyone can prove the intent, the map has already elected three cycles of the people who drew it."
+  ],
+  "notes": [],
+  "example": "*\"The county split cleanly down a cul-de-sac, and the incumbent's house landed in a district with none of his old voters - the **gerrythm** had run overnight and nobody had seen the code.\"*",
+  "related": [
+    "The redistricting commission",
+    "Algodemic",
+    "Omnibust"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Texas sharpshooter fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Cherry picking"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Gerrymandering",
+    "url": "https://en.wikipedia.org/wiki/Gerrymandering"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

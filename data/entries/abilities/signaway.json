@@ -1,0 +1,48 @@
+{
+  "term": "Signaway",
+  "kind": "ability",
+  "chapter": "hypocrisy-revisionism",
+  "position": 12,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˈsaɪn.əˌweɪ/",
+  "etymology": "Blend of \"signing statement\" + \"sign away\"",
+  "effect": "Signs the law, then publishes a note explaining which parts of it the signature did not mean.",
+  "available_to": "A president, a bill he cannot afford to veto, and a legal office with a printer.",
+  "counter": "Read the statement into the record, fund only what the statute says, and let a court decide what the signature bought.",
+  "confused_with": [
+    {
+      "term": "Pocketveto",
+      "tell": "The pocketveto kills the bill; the signaway keeps the bill and kills the part of it he dislikes."
+    }
+  ],
+  "senses": [
+    "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto that arrives after the bill is already law.",
+    "It works because a signature is the only thing the Constitution actually requires. The statement carries no vote and binds no court, but it is a public instruction to the agencies that have to enforce the statute, and instructions are followed more often than they are litigated."
+  ],
+  "notes": [],
+  "example": "*\"He signed the oversight bill with a **signaway** attached, and the agency read the note instead of the statute.\"*",
+  "related": [
+    "Omnibust",
+    "Notice and comment",
+    "Breaking treaties"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Special pleading"
+    },
+    {
+      "rel": "commits",
+      "to": "Equivocation"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Signing statement",
+    "url": "https://en.wikipedia.org/wiki/Signing_statement"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

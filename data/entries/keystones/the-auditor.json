@@ -1,0 +1,53 @@
+{
+  "term": "The auditor",
+  "kind": "keystone",
+  "chapter": "keystones",
+  "position": 8,
+  "part_of_speech": "noun",
+  "ipa": "/ˈɔː.dɪ.tə/",
+  "etymology": "From the Latin audire, to hear - the officer who heard the accounts read aloud, because the books were once spoken.",
+  "office": "The sample, the standard, and the report nobody commissioned.",
+  "call": "\"Show me the transaction.\"",
+  "tell": [
+    "Publishes the methodology before the finding",
+    "Names the office, not the mood",
+    "Comes back the following year"
+  ],
+  "keystone": "Without the auditor the books are a story an office tells about itself, and the Cronycle is just a friend with a contract. Audit is the difference between a claim and a record.",
+  "confused_with": [
+    {
+      "term": "The archivist",
+      "tell": "The archivist keeps the record; the auditor reads it and says what it shows."
+    }
+  ],
+  "senses": [
+    "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate with the audited. The output is not an opinion; it is a finding with a name and a date attached.",
+    "It works because the sample is public and repeatable. An audit that says how it chose what to look at can be checked by anyone, which is what separates it from a review - and why the first move against an auditor is always to shrink the scope."
+  ],
+  "notes": [],
+  "example": "*\"The **auditor** pulled forty contracts, found the same vendor in eleven of them, and published the sampling method so that the finding could be argued with.\"*",
+  "related": [
+    "The clerk",
+    "The audit",
+    "The caseworker"
+  ],
+  "edges": [
+    {
+      "rel": "practises",
+      "to": "The audit"
+    },
+    {
+      "rel": "counters",
+      "to": "Cronycle"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Government Accountability Office",
+    "url": "https://en.wikipedia.org/wiki/Government_Accountability_Office"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

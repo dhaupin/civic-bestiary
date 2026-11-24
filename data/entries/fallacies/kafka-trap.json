@@ -1,0 +1,37 @@
+{
+  "term": "Kafka trap",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 114,
+  "part_of_speech": "noun",
+  "etymology": "Named for Kafka's The Trial: the accusation is the process, and the defence is the evidence.",
+  "family": "Informal · Presumption",
+  "committed_when": "An accusation has been made that nobody could disprove, and the accused denies it.",
+  "tell": "The denial is entered as proof. A second denial is entered as proof of the first.",
+  "counter": "Ask what evidence would count as innocence, and refuse to move until somebody names one. A charge with no acquittal condition is not a charge; it is a status.",
+  "senses": [
+    "The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say.",
+    "It works because the test is unfalsifiable by design. Any response - silence, anger, calm, evidence - can be read as consistent with guilt, so the accusation can never be closed and never has to be proved."
+  ],
+  "example": "*“He denied it, which is exactly what someone with something to hide would do.”*",
+  "confused_with": [
+    {
+      "term": "Argument from ignorance",
+      "tell": "The argument from ignorance says the claim has not been proved; the Kafka trap says the denial proves it."
+    }
+  ],
+  "related": [
+    "Poisoning the well",
+    "Argument from ignorance",
+    "Thought-terminating cliché"
+  ],
+  "cite": {
+    "label": "Unstrange Mind · Kafka trap",
+    "url": "https://unstrangemind.com/kafka-trap/"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 3
+  }
+}
