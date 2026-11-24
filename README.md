@@ -152,6 +152,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 
 * **Example:** *"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale."*
 * **Easily confused with:** *Ragesturbationist* - The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it.
+* **Stages:** [*Patriotainer*](#7-patriotainer), [*Playtriot*](#1-playtriot)
 * **Related Terms:** [*Playtriot*](#1-playtriot), [*Sabotriot*](#5-sabotriot), [*Patriotainer*](#7-patriotainer)
 
 ---
@@ -170,6 +171,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 * **Example:** *"He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break."*
 * **Easily confused with:** *Playtriot* - The playtriot performs for free and believes it; the patriotainer performs on contract and invoices for it.
 * **Easily confused with:** *Patriotainment* - The format is the show; the patriotainer is the person the show is built around - and the one who gets replaced when the timeslot moves.
+* **Performs:** [*JAQing Off*](#10-jaqing-off)
 * **Related Terms:** [*Slopagandist*](#28-slopagandist)
 
 ---

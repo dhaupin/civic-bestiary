@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
           <p className="lede">{lexicon.description}</p>
           <div className="cta-row">
-            <Link className="btn btn-primary" to="/species/">
+            <Link className="btn btn-primary" to="/guide/">
               Open the field guide
             </Link>
             <a className="btn btn-ghost" href={site.repo} target="_blank" rel="noreferrer">

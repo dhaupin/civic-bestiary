@@ -75,13 +75,13 @@ export default {
       level: 'fail',
       run(ctx) {
         const pages = walk(ctx).filter((rel) => ENTRY_PAGE.test(rel))
-        const guide = ctx.text('species/index.html')
-        if (guide == null) return [{ page: 'species/index.html', message: 'the field guide did not bake' }]
+        const guide = ctx.text('guide/index.html')
+        if (guide == null) return [{ page: 'guide/index.html', message: 'the field guide did not bake' }]
         const unreachable = pages
           .map((rel) => rel.replace(/\/index\.html$/, '/'))
           .filter((path) => !guide.includes(`href="/${path}"`))
         return unreachable.map((path) => ({
-          page: 'species/index.html',
+          page: 'guide/index.html',
           message: `field guide never links ${path}`,
         }))
       },
@@ -90,14 +90,51 @@ export default {
       id: 'listing-offers-a-way-in',
       level: 'warn',
       run(ctx) {
-        const guide = ctx.text('species/index.html')
+        const guide = ctx.text('guide/index.html')
         if (guide == null) return []
         const rows = count(guide, 'class="listing"')
         const links = count(guide, 'Read the full entry')
         if (rows && links < rows) {
-          return [{ page: 'species/index.html', message: `${rows - links} of ${rows} listing rows have no read-more link`, count: rows - links }]
+          return [{ page: 'guide/index.html', message: `${rows - links} of ${rows} listing rows have no read-more link`, count: rows - links }]
         }
         return []
+      },
+    },
+    {
+      // A kind's front door lives at the kind's own prefix, and it must show
+      // that kind and nothing else - otherwise the URL is a lie and the page
+      // duplicates the guide.
+      id: 'kind-front-door-is-scoped',
+      level: 'fail',
+      run(ctx) {
+        const findings = []
+        for (const prefix of KIND_PREFIXES) {
+          const html = ctx.text(`${prefix}/index.html`)
+          if (html == null) {
+            findings.push({ page: `${prefix}/index.html`, message: 'kind front door did not bake' })
+            continue
+          }
+          const kind = KIND_OF_PREFIX[prefix]
+          // A kind with no records yet is a legitimate state; it still has to
+          // say so rather than render as a blank guide.
+          const empty = count(html, 'class="listing"') === 0
+          if (empty && !html.includes('Nothing of this kind has been recorded yet')) {
+            findings.push({ page: `${prefix}/index.html`, message: `empty ${prefix} page does not say it is empty` })
+          }
+          if (!empty && !html.includes(`badge badge-${kind}`)) {
+            findings.push({ page: `${prefix}/index.html`, message: `front door shows no ${kind}` })
+          }
+          for (const other of KIND_PREFIXES) {
+            const otherKind = KIND_OF_PREFIX[other]
+            if (otherKind !== kind && html.includes(`badge badge-${otherKind}`)) {
+              findings.push({ page: `${prefix}/index.html`, message: `front door leaks a ${otherKind}` })
+            }
+          }
+          if (!html.includes('href="/guide/"')) {
+            findings.push({ page: `${prefix}/index.html`, message: 'front door never links back to the guide' })
+          }
+        }
+        return findings
       },
     },
   ],

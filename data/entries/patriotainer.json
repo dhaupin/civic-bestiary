@@ -34,5 +34,11 @@
     "Patriotainment",
     "Playtriot",
     "Slopagandist"
+  ],
+  "edges": [
+    {
+      "rel": "performs",
+      "to": "JAQing Off"
+    }
   ]
 }

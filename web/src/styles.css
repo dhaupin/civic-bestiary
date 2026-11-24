@@ -257,7 +257,8 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .chips { display: flex; gap: 6px; flex-wrap: wrap; }
 .chip {
   background: none; border: 1px solid var(--rule); border-radius: 2px;
-  color: var(--ink-soft); cursor: pointer;
+  color: var(--ink-soft); cursor: pointer; text-decoration: none;
+  display: inline-flex; align-items: center;
   font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em;
   text-transform: uppercase; padding: 7px 11px;
 }
@@ -501,6 +502,18 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 }
 .species-twin-name:hover { text-decoration: underline; }
 .species-twin-tell { color: var(--ink-soft); }
+
+/* Typed edges: the relation is the label, the terms are the links. Reads as
+   one line per relation so a page with several stays scannable. */
+.species-edges, .species-backlinks { margin-bottom: 26px; }
+.species-edge { margin: 0 0 8px; font-size: 18px; }
+.species-edge-label {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-soft); margin-right: 12px;
+}
+.species-edge a { color: var(--ink); text-decoration-color: var(--accent); }
+.species-edge a:hover { color: var(--accent); }
+.species-edge .sep { color: var(--line); margin: 0 6px; }
 
 .species-compare { border-top: 1px solid var(--line); padding-top: 22px; margin-bottom: 40px; }
 .species-compare h2 {

@@ -9,7 +9,9 @@
     "name": "New entry",
     "description": "Propose a term for the Civic Bestiary",
     "title_prefix": "[New entry] ",
-    "labels": ["new-term"],
+    "labels": [
+      "new-term"
+    ],
     "intro": "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a format is a medium that stages the others, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit.",
     "identification_hint": "Describe it the way its kind is described. Species: range, call, field marks. Move: trigger, tell, counter. Ability: effect, available to, counter. Format: carriers, economics, signature. Buff: effect, tell, expires.",
     "outro": "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
@@ -166,6 +168,58 @@
       ]
     }
   },
+  "relations": {
+    "performs": {
+      "label": "Performs",
+      "inverse": "Performed by",
+      "from": [
+        "species"
+      ],
+      "to": [
+        "move"
+      ],
+      "hint": "The creature runs this move."
+    },
+    "uses": {
+      "label": "Uses",
+      "inverse": "Used by",
+      "from": [
+        "species",
+        "format"
+      ],
+      "to": [
+        "ability"
+      ],
+      "hint": "The creature or format wields this capability."
+    },
+    "stages": {
+      "label": "Stages",
+      "inverse": "Staged in",
+      "from": [
+        "format"
+      ],
+      "to": [
+        "species",
+        "move"
+      ],
+      "hint": "The format is the place this happens; the creature or move is what fills it."
+    },
+    "counters": {
+      "label": "Counters",
+      "inverse": "Countered by",
+      "from": [
+        "species",
+        "move",
+        "ability",
+        "buff"
+      ],
+      "to": [
+        "species",
+        "move"
+      ],
+      "hint": "The play that ends it. Author one direction only - the inverse page renders the other."
+    }
+  },
   "fields": [
     {
       "key": "term",
@@ -213,7 +267,13 @@
       "key": "part_of_speech",
       "label": "Part of speech",
       "type": "select",
-      "options": ["noun", "adjective", "verb", "adverb", "verb phrase / gerund"],
+      "options": [
+        "noun",
+        "adjective",
+        "verb",
+        "adverb",
+        "verb phrase / gerund"
+      ],
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
@@ -228,7 +288,7 @@
       "required_in_issue": true,
       "addressed_to": "contributor",
       "hint": "IPA between slashes. Approximate is fine.",
-      "example": "/\u02c8ple\u026a.tri.\u0259t/"
+      "example": "/ˈpleɪ.tri.ət/"
     },
     {
       "key": "etymology",
@@ -279,6 +339,16 @@
       "addressed_to": "maintainer",
       "hint": "Two or three existing terms this one belongs beside. The graph must stay connected, so every term needs at least one inbound reference.",
       "example": "Sabotriot, LARPtarian"
+    },
+    {
+      "key": "edges",
+      "label": "Typed links",
+      "type": "edges",
+      "required": false,
+      "required_in_issue": false,
+      "addressed_to": "maintainer",
+      "hint": "Relationship edges to other entries, each with a relation from the schema's vocabulary. Author one direction; the other page shows the inverse automatically.",
+      "example": "stages -> Patriotainer"
     }
   ]
 }

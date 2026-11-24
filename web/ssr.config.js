@@ -9,7 +9,39 @@
  * Edit site.config.js or lexicon.json, never this file.
  */
 import site from '../site.config.js'
-import { entries, meta as lexicon } from './src/data/lexicon.js'
+import { chapters, entries, kinds, meta as lexicon, stats } from './src/data/lexicon.js'
+
+// A kind's front door, and a chapter's. Both are real pages with their own
+// title, so a reader can land on "the moves" from a search result instead of
+// needing the guide's javascript to filter it.
+// Every kind gets a front door, even a kind with no records yet: a reader who
+// types /abilities/ should get an explanation, not a 404.
+const kindRoutes = Object.entries(kinds)
+  .map(([id, spec]) => ({
+    path: spec.path,
+    priority: '0.8',
+    changefreq: 'monthly',
+    meta: {
+      title: `${spec.plural} | ${site.name}`,
+      description: `${stats.kinds[id]} ${spec.plural.toLowerCase()} in the bestiary: ${spec.blurb}`,
+    },
+  }))
+
+const chapterRoutes = chapters.map((chapter) => {
+  const count = entries.filter((entry) => entry.chapter === chapter.id).length
+  // Chapter titles are long sentences; carry the wordmark only when the
+  // combined title still fits a search result.
+  const label = `Chapter ${chapter.roman} · ${chapter.title}`
+  return {
+    path: `/chapters/${chapter.id}/`,
+    priority: '0.7',
+    changefreq: 'monthly',
+    meta: {
+      title: `${label} | ${site.name}`.length <= 65 ? `${label} | ${site.name}` : label,
+      description: `Chapter ${chapter.roman} of the bestiary: ${count} entries, ${chapter.title}.`,
+    },
+  }
+})
 
 const termRoutes = entries.map((entry) => ({
   path: entry.path,
@@ -35,7 +67,7 @@ export default {
   },
   keywords: site.keywords,
   robots: true,
-  routes: [...site.routes, ...termRoutes],
+  routes: [...site.routes, ...kindRoutes, ...chapterRoutes, ...termRoutes],
   notFound: site.notFound,
 
   // schema.org: the whole lexicon as a DefinedTermSet, each coined term a
@@ -54,7 +86,7 @@ export default {
         name: entry.term,
         description: entry.summary,
         url: `${site.url}${entry.path}`,
-        inDefinedTermSet: `${site.url}/species`,
+        inDefinedTermSet: `${site.url}/guide`,
       })),
     }
   },

@@ -15,7 +15,7 @@ export default {
   badge: 'vol. 1',
   tagline: 'A field guide to the creatures of the body politic.',
   description:
-    'A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
+    'A field guide to the creatures of the body politic: 28 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
   // The deploy origin. Cloudflare Pages serves the project at <project>.pages.dev
   // until a custom domain is attached - then change this one line, and rebuild:
   // prestruct bakes it into canonicals, OG tags, JSON-LD, sitemap, and llms.txt.
@@ -40,7 +40,7 @@ export default {
   // --- nav vocabulary -----------------------------------------------------
   // ONE list the header, the burger sidebar, and the footer render from.
   nav: [
-    { label: 'Field guide', to: '/species/', group: 'site' },
+    { label: 'Field guide', to: '/guide/', group: 'site' },
     { label: 'Contribute', to: '/contribute/', group: 'site' },
     { label: 'GitHub', href: REPO, group: 'out' },
   ],
@@ -61,7 +61,7 @@ export default {
       meta: {
         title: 'The Civic Bestiary - creatures of the body politic',
         description:
-          'A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
+          'A field guide to the creatures of the body politic: 28 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
       },
     },
     {
@@ -75,13 +75,13 @@ export default {
       },
     },
     {
-      path: '/species/',
+      path: '/guide/',
       priority: '0.9',
       changefreq: 'monthly',
       meta: {
-        title: 'All species | The Civic Bestiary',
+        title: 'The field guide | The Civic Bestiary',
         description:
-          'Every species in the bestiary, searchable and grouped by order - from playtriot to slopagandist.',
+          'Every entry in the bestiary, by kind and chapter - species, moves, abilities, formats, and buffs.',
       },
     },
   ],
@@ -89,6 +89,6 @@ export default {
   notFound: {
     heading: '404',
     body: 'That species is not in this bestiary.',
-    primaryCta: { label: 'Open the field guide', href: '/species' },
+    primaryCta: { label: 'Open the field guide', href: '/guide' },
   },
 }

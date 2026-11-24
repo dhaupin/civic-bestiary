@@ -6,7 +6,7 @@ import { islands } from './AppIslands.jsx'
 import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
-import FieldGuide from './pages/FieldGuide.jsx'
+import Guide from './pages/Guide.jsx'
 import Species from './pages/Species.jsx'
 import Contribute from './pages/Contribute.jsx'
 import NotFound from './pages/NotFound.jsx'
@@ -30,7 +30,14 @@ export default function AppLayout() {
       <main id="main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/species" element={<FieldGuide />} />
+          <Route path="/guide" element={<Guide />} />
+          <Route path="/chapters/:chapter" element={<Guide />} />
+          {/* a kind's front door: /species/ /moves/ /abilities/ /formats/ /buffs/ */}
+          <Route path="/species" element={<Guide />} />
+          <Route path="/moves" element={<Guide />} />
+          <Route path="/abilities" element={<Guide />} />
+          <Route path="/formats" element={<Guide />} />
+          <Route path="/buffs" element={<Guide />} />
           <Route path="/species/:slug" element={<Species />} />
           <Route path="/moves/:slug" element={<Species />} />
           <Route path="/abilities/:slug" element={<Species />} />

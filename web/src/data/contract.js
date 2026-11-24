@@ -263,6 +263,15 @@ export default {
       "requiredInIssue": false,
       "hint": "Two or three existing terms this one belongs beside. The graph must stay connected, so every term needs at least one inbound reference.",
       "example": "Sabotriot, LARPtarian"
+    },
+    {
+      "key": "edges",
+      "label": "Typed links",
+      "type": "edges",
+      "required": false,
+      "requiredInIssue": false,
+      "hint": "Relationship edges to other entries, each with a relation from the schema's vocabulary. Author one direction; the other page shows the inverse automatically.",
+      "example": "stages -> Patriotainer"
     }
   ]
 }

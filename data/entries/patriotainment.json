@@ -26,5 +26,15 @@
     "Sabotriot",
     "Ragesturbationist",
     "Patriotainer"
+  ],
+  "edges": [
+    {
+      "rel": "stages",
+      "to": "Patriotainer"
+    },
+    {
+      "rel": "stages",
+      "to": "Playtriot"
+    }
   ]
 }

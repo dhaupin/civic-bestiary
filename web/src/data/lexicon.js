@@ -269,6 +269,16 @@ export const entries = [
         "slug": "patriotainment",
         "path": "/formats/patriotainment/"
       }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "stages",
+        "label": "Staged in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/formats/patriotainment/"
+      }
     ]
   },
   {
@@ -339,7 +349,9 @@ export const entries = [
         "slug": "playtriot",
         "path": "/species/playtriot/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "LARPtarian",
@@ -409,7 +421,9 @@ export const entries = [
         "slug": "freetard",
         "path": "/species/freetard/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Sovereign Shillizen",
@@ -479,7 +493,9 @@ export const entries = [
         "slug": "playtriot",
         "path": "/species/playtriot/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Sabotriot",
@@ -544,7 +560,9 @@ export const entries = [
         "slug": "bootcurious",
         "path": "/buffs/bootcurious/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Patriotainment",
@@ -610,7 +628,24 @@ export const entries = [
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
       }
-    ]
+    ],
+    "edges": [
+      {
+        "rel": "stages",
+        "label": "Stages",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "stages",
+        "label": "Stages",
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      }
+    ],
+    "backlinks": []
   },
   {
     "term": "Patriotainer",
@@ -677,6 +712,24 @@ export const entries = [
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
       }
+    ],
+    "edges": [
+      {
+        "rel": "performs",
+        "label": "Performs",
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "stages",
+        "label": "Staged in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/formats/patriotainment/"
+      }
     ]
   },
   {
@@ -742,7 +795,9 @@ export const entries = [
         "slug": "equivangelist",
         "path": "/species/equivangelist/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Illogician",
@@ -807,7 +862,9 @@ export const entries = [
         "slug": "bleatkeeper",
         "path": "/species/bleatkeeper/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "JAQing Off",
@@ -867,6 +924,16 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "performs",
+        "label": "Performed by",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
       }
     ]
   },
@@ -933,7 +1000,9 @@ export const entries = [
         "slug": "gallopologist",
         "path": "/species/gallopologist/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Biasographer",
@@ -998,7 +1067,9 @@ export const entries = [
         "slug": "mythstorian",
         "path": "/species/mythstorian/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Bleatkeeper",
@@ -1063,7 +1134,9 @@ export const entries = [
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Equivangelist",
@@ -1133,7 +1206,9 @@ export const entries = [
         "slug": "decorumancer",
         "path": "/species/decorumancer/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Gallopologist",
@@ -1198,7 +1273,9 @@ export const entries = [
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Decorumancer",
@@ -1263,7 +1340,9 @@ export const entries = [
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Hypocontortionist",
@@ -1333,7 +1412,9 @@ export const entries = [
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Mythstorian",
@@ -1403,7 +1484,9 @@ export const entries = [
         "slug": "bleatkeeper",
         "path": "/species/bleatkeeper/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Bootcurious",
@@ -1469,7 +1552,9 @@ export const entries = [
         "slug": "sabotriot",
         "path": "/species/sabotriot/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Crookmaxxing",
@@ -1530,7 +1615,9 @@ export const entries = [
         "slug": "ragesturbationist",
         "path": "/species/ragesturbationist/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Capitulectual",
@@ -1600,7 +1687,9 @@ export const entries = [
         "slug": "decorumancer",
         "path": "/species/decorumancer/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Xenophobricator",
@@ -1665,7 +1754,9 @@ export const entries = [
         "slug": "illogician",
         "path": "/species/illogician/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Dramagogue",
@@ -1730,7 +1821,9 @@ export const entries = [
         "slug": "martyrholic",
         "path": "/species/martyrholic/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Ragesturbationist",
@@ -1795,7 +1888,9 @@ export const entries = [
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Martyrholic",
@@ -1860,7 +1955,9 @@ export const entries = [
         "slug": "sabotriot",
         "path": "/species/sabotriot/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Algodemic",
@@ -1925,7 +2022,9 @@ export const entries = [
         "slug": "ragesturbationist",
         "path": "/species/ragesturbationist/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Plutomartyr",
@@ -1990,7 +2089,9 @@ export const entries = [
         "slug": "crookmaxxing",
         "path": "/moves/crookmaxxing/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   },
   {
     "term": "Slopagandist",
@@ -2055,6 +2156,8 @@ export const entries = [
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
       }
-    ]
+    ],
+    "edges": [],
+    "backlinks": []
   }
 ]

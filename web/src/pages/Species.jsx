@@ -9,6 +9,14 @@ import { entryFor, neighbors, positionOf } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
 import NotFound from './NotFound.jsx'
 
+/** Edges arrive flat; the page groups them by the relation's own label. */
+function groupByLabel(edges) {
+  return edges.reduce((groups, edge) => {
+    (groups[edge.label] = groups[edge.label] || []).push(edge)
+    return groups
+  }, {})
+}
+
 export default function Species() {
   const { slug } = useParams()
   const entry = entryFor(slug)
@@ -29,9 +37,11 @@ export default function Species() {
     <article className="species">
       <div className="wrap species-wrap">
         <nav className="crumbs" aria-label="Breadcrumb">
-          <Link to="/species/">Field guide</Link>
+          <Link to="/guide/">Field guide</Link>
           <span className="sep">/</span>
-          <span>Chapter {entry.chapterRoman}. {entry.chapterTitle}</span>
+          <Link to={`/chapters/${entry.chapter}/`}>Chapter {entry.chapterRoman}</Link>
+          <span className="sep">/</span>
+          <span>{entry.chapterTitle}</span>
         </nav>
 
         <p className="species-kicker">
@@ -92,6 +102,38 @@ export default function Species() {
               <p key={twin.slug} className="species-twin">
                 <Link className="species-twin-name" to={twin.path}>{twin.term}</Link>
                 <span className="species-twin-tell"><Inline text={twin.tell} /></span>
+              </p>
+            ))}
+          </div>
+        )}
+
+        {entry.edges.length > 0 && (
+          <div className="species-edges">
+            {Object.entries(groupByLabel(entry.edges)).map(([label, links]) => (
+              <p key={label} className="species-edge">
+                <span className="species-edge-label">{label}</span>
+                {links.map((link, index) => (
+                  <span key={link.slug}>
+                    {index > 0 && <span className="sep">·</span>}
+                    <Link to={link.path}>{link.term}</Link>
+                  </span>
+                ))}
+              </p>
+            ))}
+          </div>
+        )}
+
+        {entry.backlinks.length > 0 && (
+          <div className="species-backlinks">
+            {Object.entries(groupByLabel(entry.backlinks)).map(([label, links]) => (
+              <p key={label} className="species-edge">
+                <span className="species-edge-label">{label}</span>
+                {links.map((link, index) => (
+                  <span key={link.slug}>
+                    {index > 0 && <span className="sep">·</span>}
+                    <Link to={link.path}>{link.term}</Link>
+                  </span>
+                ))}
               </p>
             ))}
           </div>

@@ -30,6 +30,10 @@ BANNER = "<!-- Generated from data/ by build.py - edit the records, not this fil
 # there would mean a contributor cannot supply what the validator demands.
 SCHEMA = json.loads((ROOT / "schema" / "record.json").read_text(encoding="utf-8"))
 KINDS = SCHEMA["kinds"]
+# Relation edges are a controlled vocabulary, not free prose: the vocabulary
+# decides which kinds may point at which, and each edge renders backwards on
+# its target page without anyone authoring the inverse.
+RELATIONS = SCHEMA["relations"]
 REQUIRED = tuple(field["key"] for field in SCHEMA["fields"] if field.get("required"))
 
 
@@ -55,7 +59,7 @@ def load():
     # chapter order first, then the record's own position inside it: the README
     # numbering and the site's prev/next both run off this one sort
     records.sort(key=lambda r: (order_of.get(r.get("chapter"), len(order_of)), r.get("position", 0), r["term"]))
-    doc = {**meta, "entries": records}
+    doc = {**meta, "entries": records, "by_term": {r["term"].lower(): r for r in records}}
     validate(doc)
     return doc
 
@@ -123,6 +127,33 @@ def validate(doc):
                 errors.append(f"{entry.get('term', '?')}: related term {ref!r} is not defined")
             if ref.lower() == entry.get("term", "").lower():
                 errors.append(f"{entry.get('term', '?')}: relates to itself")
+        seen_edges = set()
+        for edge in entry.get("edges", []):
+            rel = edge.get("rel")
+            target = edge.get("to", "")
+            spec = RELATIONS.get(rel)
+            if spec is None:
+                errors.append(f"{name}: unknown relation {rel!r}; known: {', '.join(RELATIONS)}")
+                continue
+            if spec["from"] != "*" and kind not in spec["from"]:
+                errors.append(f"{name}: a {kind} cannot {rel}; allowed from {', '.join(spec['from'])}")
+            other = doc["by_term"].get(target.lower())
+            if other is None:
+                errors.append(f"{name}: {rel} target {target!r} is not defined")
+                continue
+            if spec["to"] != "*" and other["kind"] not in spec["to"]:
+                errors.append(f"{name}: cannot {rel} a {other['kind']} ({target})")
+            if other["term"].lower() == entry["term"].lower():
+                errors.append(f"{name}: cannot {rel} itself")
+            if (rel, other["term"].lower()) in seen_edges:
+                errors.append(f"{name}: duplicate edge {rel} -> {target}")
+            seen_edges.add((rel, other["term"].lower()))
+            # Both directions authored is a mistake: the inverse renders for
+            # free, and authoring it twice would show the pair twice.
+            inverse = rel
+            if any(e.get("rel") == inverse and e.get("to", "").lower() == entry["term"].lower()
+                   for e in other.get("edges", [])):
+                errors.append(f"{name}: {rel} -> {target} is already authored as {inverse} on {target}")
 
     if errors:
         sys.exit("data/ is invalid:\n  " + "\n  ".join(errors))
@@ -143,6 +174,18 @@ def number_entries(doc):
             pairs.append((number, entry))
         numbered.append((chapter, pairs))
     return numbered, anchors
+
+
+def render_edges(entry, anchors):
+    """Authored edges, grouped by relation, in vocabulary order."""
+    lines = []
+    for rel, spec in RELATIONS.items():
+        targets = [edge["to"] for edge in entry.get("edges", []) if edge.get("rel") == rel]
+        if not targets:
+            continue
+        links = ", ".join(f"[*{term}*](#{anchors[term.lower()]})" for term in targets)
+        lines.append(f"* **{spec['label']}:** {links}")
+    return lines
 
 
 def render_entry(number, entry, anchors):
@@ -171,6 +214,7 @@ def render_entry(number, entry, anchors):
     related = ", ".join(
         f"[*{term}*](#{anchors[term.lower()]})" for term in entry["related"] if term.lower() not in twins
     )
+    lines.extend(render_edges(entry, anchors))
     lines.append(f"* **Related Terms:** {related}")
     return lines
 

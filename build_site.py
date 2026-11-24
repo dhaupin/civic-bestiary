@@ -63,6 +63,8 @@ def build(doc):
         ],
     } for key, spec in SCHEMA["kinds"].items()}
 
+    relations = SCHEMA["relations"]
+
     entries, chapters = [], []
     for chapter in doc["chapters"]:
         own = [e for e in doc["entries"] if e["chapter"] == chapter["id"]]
@@ -116,13 +118,40 @@ def build(doc):
                     for term in entry["related"]
                     if term.lower() not in {twin["term"].lower() for twin in entry["confused_with"]}
                 ],
+                # Authored edges only. The reverse direction is derived below,
+                # so a page shows what it does and what is done to it from one
+                # authoring site.
+                "edges": [
+                    {
+                        "rel": edge["rel"],
+                        "label": relations[edge["rel"]]["label"],
+                        "term": edge["to"],
+                        "slug": slugify(edge["to"]),
+                    }
+                    for edge in entry.get("edges", [])
+                ],
+                "backlinks": [],
             })
     # Cross-references carry their own URL: a target may be any kind, so a link
     # built as /species/<slug>/ would 404 the moment a move is referenced.
     path_of = {entry["slug"]: entry["path"] for entry in entries}
+    by_slug = {entry["slug"]: entry for entry in entries}
     for entry in entries:
-        for link in [*entry["related"], *entry["confusedWith"]]:
+        for link in [*entry["related"], *entry["confusedWith"], *entry["edges"]]:
             link["path"] = path_of.get(link["slug"], f"/species/{link['slug']}/")
+    # Derive the reverse of every authored edge, so the target page can say
+    # "staged in Patriotainment" without anyone writing that sentence.
+    for entry in entries:
+        for edge in entry["edges"]:
+            target = by_slug.get(edge["slug"])
+            if target is not None:
+                target["backlinks"].append({
+                    "rel": edge["rel"],
+                    "label": relations[edge["rel"]]["inverse"],
+                    "term": entry["term"],
+                    "slug": entry["slug"],
+                    "path": entry["path"],
+                })
 
     counts = {key: sum(1 for entry in entries if entry["kind"] == key) for key in kinds}
     return {
