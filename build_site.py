@@ -210,6 +210,17 @@ def render(data):
     return "\n".join(parts).rstrip() + "\n"
 
 
+def sync_labs():
+    """Serve labs/*.md from the site: the record contract the contribute page links to."""
+    src = ROOT / "labs"
+    dest = ROOT / "web" / "public" / "labs"
+    if not src.is_dir():
+        return
+    dest.mkdir(parents=True, exist_ok=True)
+    for path in src.glob("*.md"):
+        (dest / path.name).write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
+
+
 def main():
     data = build(load())
     text = render(data)
@@ -221,6 +232,7 @@ def main():
         return
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(text, encoding="utf-8")
+    sync_labs()
     print(f"wrote {OUTPUT.relative_to(ROOT)} ({data['stats']['entries']} entries)")
 
 

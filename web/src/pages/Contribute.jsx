@@ -105,7 +105,7 @@ export default function Contribute() {
           <a className="btn btn-primary" href={issueUrl} target="_blank" rel="noreferrer">
             Open the proposal form
           </a>
-          <a className="btn btn-ghost" href={`${site.repo}/blob/main/schema/record.json`} target="_blank" rel="noreferrer">
+          <a className="btn btn-ghost" href="/labs/prd-codex.md" target="_blank" rel="noreferrer">
             Read the record contract
           </a>
         </div>

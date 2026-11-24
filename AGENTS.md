@@ -251,6 +251,21 @@ appending.
 - `web/functions/api/health.js` is the Functions canary (`/api/health`). If it 404s, the
   root-directory setting is wrong, not the function.
 - `.prestruct/cache/` makes rebuilds incremental; `npx prestruct clean` clears it.
+- **The header carries reading surfaces; the footer carries the paperwork.** `nav` in
+  `site.config.js` holds Field guide / Fallacies / About (all `group: 'site'`), and
+  `footerExtras` holds Contribute / GitHub / License. The header, the burger sidebar, and the
+  footer all render from those two lists - do not hand-type a nav link in a component.
+- **`/about/` is the essay.** The landing (`pages/Home.jsx`) is browse-first: hero, a random
+  specimen, the chapter map, the answers. The preface prose lives on `/about/`, which reads it
+  from `lexicon.json` so it cannot drift from the README. Adding a landing section is cheap -
+  it should send a reader into an entry, not into an argument.
+- **`labs/*.md` is served from the site.** `build_site.py` copies it to `web/public/labs/`, so
+  `labs/prd-codex.md` (the product + record contract) resolves at `/labs/prd-codex.md`, which is
+  what the contribute page's "Read the record contract" button points at. Edit the file in
+  `labs/`; the copy is generated.
+- **The issue form needs its label to exist.** `.github/ISSUE_TEMPLATE/new-entry.yml` declares
+  `labels: ["new-term"]`; if that label is missing from the repo, GitHub silently renders a
+  blank issue instead of the form. Check the label before debugging the template or the URL.
 
 ## House style
 
