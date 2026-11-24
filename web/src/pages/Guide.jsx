@@ -6,15 +6,20 @@
  *   /chapters/<id>/        one chapter
  *
  * The taxonomy is in the path, so every drill-down is a real page: linkable,
- * shareable, crawlable, and prerendered with its own title. Refinements that
- * are not taxonomy (a letter, a search string) stay in component state - they
- * change what you are looking at, not what the page is.
+ * shareable, crawlable, and prerendered with its own title. Everything that
+ * narrows the view without being the page - the search string, a letter, a
+ * sort, and the other half of kind/chapter - lives in the query string, so a
+ * filtered view is still a URL you can send to someone.
+ *
+ * Kind and chapter combine rather than replace each other: whichever one the
+ * reader clicked last owns the path, the other rides along as a parameter, and
+ * a link that changes one keeps every other filter intact.
  *
  * The feed for all three is the same component, so a filter can never drift
  * from the page it lives on.
  */
-import { useMemo, useState } from 'react'
-import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
+import { useMemo } from 'react'
+import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site from '../site.js'
 import {
@@ -23,6 +28,9 @@ import {
 import Inline from '../components/Inline.jsx'
 
 const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
+
+// One place for the query-string vocabulary, so a link and its reader agree.
+const PARAM = { query: 'q', letter: 'letter', sort: 'sort', kind: 'kind', chapter: 'chapter' }
 
 /** The family an entry is filed under, minus the "Informal ·" prefix. */
 function familyOf(entry) {
@@ -33,37 +41,49 @@ function familyOf(entry) {
 
 const trim = (path) => path.replace(/\/+$/, '')
 
-/** Which view a URL is asking for: a kind, a chapter, or the whole guide. */
-function viewFor(pathname, chapterParam) {
+/**
+ * Which view a URL is asking for. The path is the page; the query string adds
+ * the dimension the path does not carry, so /chapters/iii/?kind=species reads
+ * as "the species in chapter III" rather than losing one of the two.
+ */
+function viewFor(pathname, routeChapter, search) {
   const path = trim(pathname)
-  if (path === '/guide') return { kind: null, chapter: null }
-  if (chapterParam) {
-    return { kind: null, chapter: chapters.find((item) => item.id === chapterParam) || null }
-  }
-  const spec = kindsList.find((candidate) => trim(candidate.path) === path)
-  return { kind: spec || null, chapter: null }
+  let kind = null
+  let chapter = null
+  if (routeChapter) chapter = chapters.find((item) => item.id === routeChapter) || null
+  else if (path !== '/guide') kind = kindsList.find((candidate) => trim(candidate.path) === path) || null
+  if (!kind) kind = kindsList.find((candidate) => candidate.id === search.get(PARAM.kind)) || null
+  if (!chapter) chapter = chapters.find((item) => item.id === search.get(PARAM.chapter)) || null
+  // Whichever dimension the path carries names the page; the heading follows it,
+  // so the title does not change under a reader who only added a filter.
+  const primary = chapter && (routeChapter || !kind) ? 'chapter' : kind ? 'kind' : chapter ? 'chapter' : 'guide'
+  return { kind, chapter, primary }
 }
 
-function headingFor(view) {
-  if (view.kind) {
+function headingFor(view, total) {
+  const plural = view.kind?.plural.toLowerCase()
+  if (view.kind && view.primary !== 'chapter') {
+    const scope = view.chapter ? ` · chapter ${view.chapter.roman}` : ''
     return {
-      eyebrow: `${stats.kinds[view.kind.id]} ${view.kind.plural.toLowerCase()}`,
+      eyebrow: `${total} ${plural}${scope}`,
       title: view.kind.plural,
       sub: view.kind.blurb,
       rows: view.kind.identification.map((row) => row.label),
       path: view.kind.path,
-      description: `${stats.kinds[view.kind.id]} ${view.kind.plural.toLowerCase()} in the bestiary: ${view.kind.blurb}`,
+      description: `${total} ${plural} in the bestiary${view.chapter ? `, chapter ${view.chapter.roman}` : ''}: ${view.kind.blurb}`,
     }
   }
   if (view.chapter) {
-    const own = entries.filter((entry) => entry.chapter === view.chapter.id)
+    const scope = view.kind
+      ? `${total} ${plural}`
+      : `${total} ${total === 1 ? 'entry' : 'entries'}`
     return {
-      eyebrow: `Chapter ${view.chapter.roman} · ${own.length} ${own.length === 1 ? 'entry' : 'entries'}`,
+      eyebrow: `Chapter ${view.chapter.roman} · ${scope}`,
       title: view.chapter.title,
       sub: view.chapter.note || null,
       rows: [],
       path: `/chapters/${view.chapter.id}/`,
-      description: `${own.length} entries in chapter ${view.chapter.roman} of the bestiary: ${view.chapter.title}.`,
+      description: `${total} ${view.kind ? plural : 'entries'} in chapter ${view.chapter.roman} of the bestiary: ${view.chapter.title}.`,
     }
   }
   return {
@@ -81,24 +101,17 @@ export default function Guide() {
   const { pathname } = useLocation()
   const navigate = useNavigate()
   const params = useParams()
-  const view = viewFor(pathname, params.chapter)
-  const heading = headingFor(view)
-  usePageMeta({
-    siteUrl: site.url,
-    path: heading.path,
-    title: `${heading.title} | ${site.name}`,
-    description: heading.description,
-  })
+  const [search, setSearch] = useSearchParams()
+  const view = viewFor(pathname, params.chapter, search)
 
-  const [query, setQuery] = useState('')
-  const [letter, setLetter] = useState(null)
   // The axes a record can be read by. 'position' is the curated field order;
   // everything else comes from the schema, so a new axis is a data change.
-  const [axis, setAxis] = useState(() => defaultAxis(view))
-  const axes = [{ id: 'position', label: 'Field order' }, ...sorts]
+  const axes = useMemo(() => [{ id: 'position', label: 'Field order' }, ...sorts], [])
+  const query = search.get(PARAM.query) || ''
+  const letter = (search.get(PARAM.letter) || '').toUpperCase() || null
+  const requestedAxis = search.get(PARAM.sort)
+  const axis = axes.some((item) => item.id === requestedAxis) ? requestedAxis : defaultAxis(view)
 
-  const present = useMemo(() => new Set(entries.map((entry) => entry.term[0].toUpperCase())), [])
-  const populatedKinds = kindsList.filter((spec) => stats.kinds[spec.id] > 0)
   const master = useMemo(
     () => entries.filter((entry) => (
       (!view.kind || entry.kind === view.kind.id)
@@ -106,6 +119,16 @@ export default function Guide() {
     )),
     [view.kind, view.chapter],
   )
+  const heading = headingFor(view, master.length)
+  usePageMeta({
+    siteUrl: site.url,
+    path: heading.path,
+    title: `${heading.title} | ${site.name}`,
+    description: heading.description,
+  })
+
+  const present = useMemo(() => new Set(entries.map((entry) => entry.term[0].toUpperCase())), [])
+  const populatedKinds = kindsList.filter((spec) => stats.kinds[spec.id] > 0)
   const visible = useMemo(
     () => sortByAxis(
       master.filter((entry) => (
@@ -146,13 +169,39 @@ export default function Guide() {
   }, [appendix, visible])
 
   const scoped = Boolean(view.kind || view.chapter)
-  const refined = Boolean(query || letter)
-  const clearAll = () => {
-    setQuery('')
-    setLetter(null)
-    setAxis(defaultAxis(view))
-    if (scoped) navigate('/guide/')
+  const refined = Boolean(query || letter || requestedAxis)
+
+  /** Set or drop one refinement, leaving the rest of the URL alone. */
+  const setFilter = (key, value) => {
+    const next = new URLSearchParams(search)
+    if (value === null || value === undefined || value === '') next.delete(key)
+    else next.set(key, value)
+    // Typing and picking a letter are refinements, not destinations: replace the
+    // history entry so Back returns to the page before the filtering started.
+    setSearch(next, { replace: true })
   }
+
+  /**
+   * A link to a view that keeps every filter except the one being changed.
+   * `chapterInPath` says which of the two taxonomy dimensions owns the path -
+   * the one the reader just clicked - and the other one follows in the query.
+   */
+  const linkFor = ({ kind = null, chapter = null, chapterInPath = false }) => {
+    const pathnameFor = chapterInPath && chapter
+      ? `/chapters/${chapter.id}/`
+      : kind ? kind.path : chapter ? `/chapters/${chapter.id}/` : '/guide/'
+    const next = new URLSearchParams(search)
+    next.delete(PARAM.kind)
+    next.delete(PARAM.chapter)
+    if (kind && chapter) {
+      if (chapterInPath) next.set(PARAM.kind, kind.id)
+      else next.set(PARAM.chapter, chapter.id)
+    }
+    const qs = next.toString()
+    return qs ? `${pathnameFor}?${qs}` : pathnameFor
+  }
+
+  const clearAll = () => navigate('/guide/')
 
   const chip = (on) => (on ? 'chip chip-on' : 'chip')
 
@@ -175,7 +224,7 @@ export default function Guide() {
               <input
                 type="search"
                 value={query}
-                onChange={(event) => setQuery(event.target.value)}
+                onChange={(event) => setFilter(PARAM.query, event.target.value)}
                 placeholder="filibuster, gerrymander, bothsidesing..."
                 autoComplete="off"
               />
@@ -183,7 +232,7 @@ export default function Guide() {
                 <button
                   type="button"
                   className="search-clear"
-                  onClick={() => setQuery('')}
+                  onClick={() => setFilter(PARAM.query, null)}
                   aria-label="Clear search"
                 >
                   ×
@@ -194,12 +243,17 @@ export default function Guide() {
 
           <div className="chips" role="group" aria-label="Filter by kind">
             <span className="chips-label">Kind</span>
-            <Link className={chip(!view.kind && !view.chapter)} to="/guide/">All</Link>
+            <Link
+              className={chip(!view.kind)}
+              to={linkFor({ chapter: view.chapter, chapterInPath: Boolean(view.chapter) })}
+            >
+              All
+            </Link>
             {populatedKinds.map((spec) => (
               <Link
                 key={spec.id}
                 className={chip(view.kind?.id === spec.id)}
-                to={spec.path}
+                to={linkFor({ kind: spec, chapter: view.chapter })}
                 title={spec.blurb}
                 aria-current={view.kind?.id === spec.id ? 'page' : undefined}
               >
@@ -211,12 +265,14 @@ export default function Guide() {
 
           <div className="chips" role="group" aria-label="Filter by chapter">
             <span className="chips-label">Chapter</span>
-            <Link className={chip(!view.chapter)} to="/guide/">All</Link>
+            <Link className={chip(!view.chapter)} to={linkFor({ kind: view.kind })}>
+              All
+            </Link>
             {chapters.map((item) => (
               <Link
                 key={item.id}
                 className={chip(view.chapter?.id === item.id)}
-                to={`/chapters/${item.id}/`}
+                to={linkFor({ kind: view.kind, chapter: item, chapterInPath: true })}
                 title={item.title}
                 aria-current={view.chapter?.id === item.id ? 'page' : undefined}
               >
@@ -230,25 +286,28 @@ export default function Guide() {
           <div className="filters-active">
             <span className="chips-label">Filtering</span>
             {view.kind && (
-              <button type="button" className="tag" onClick={() => navigate('/guide/')}>
+              <Link
+                className="tag"
+                to={linkFor({ chapter: view.chapter, chapterInPath: Boolean(view.chapter) })}
+              >
                 {view.kind.label}<span className="tag-x" aria-hidden="true">×</span>
                 <span className="sr-only">Clear kind filter</span>
-              </button>
+              </Link>
             )}
             {view.chapter && (
-              <button type="button" className="tag" onClick={() => navigate('/guide/')}>
+              <Link className="tag" to={linkFor({ kind: view.kind })}>
                 Chapter {view.chapter.roman}<span className="tag-x" aria-hidden="true">×</span>
                 <span className="sr-only">Clear chapter filter</span>
-              </button>
+              </Link>
             )}
             {query && (
-              <button type="button" className="tag" onClick={() => setQuery('')}>
+              <button type="button" className="tag" onClick={() => setFilter(PARAM.query, null)}>
                 “{query}”<span className="tag-x" aria-hidden="true">×</span>
                 <span className="sr-only">Clear search</span>
               </button>
             )}
             {letter && (
-              <button type="button" className="tag" onClick={() => setLetter(null)}>
+              <button type="button" className="tag" onClick={() => setFilter(PARAM.letter, null)}>
                 {letter}<span className="tag-x" aria-hidden="true">×</span>
                 <span className="sr-only">Clear letter filter</span>
               </button>
@@ -264,7 +323,7 @@ export default function Guide() {
               key={item.id}
               type="button"
               className={chip(axis === item.id)}
-              onClick={() => setAxis(item.id)}
+              onClick={() => setFilter(PARAM.sort, item.id)}
               aria-pressed={axis === item.id}
               title={item.hint}
             >
@@ -280,7 +339,7 @@ export default function Guide() {
                 key={item}
                 type="button"
                 className={letter === item ? 'on' : undefined}
-                onClick={() => setLetter(letter === item ? null : item)}
+                onClick={() => setFilter(PARAM.letter, letter === item ? null : item)}
                 aria-pressed={letter === item}
               >
                 {item}
@@ -326,7 +385,7 @@ export default function Guide() {
             : [{ key: 'all', label: null, items: own }]
           return (
             <div key={group.key} className="group">
-              {(!view.chapter || appendix) && (
+              {(groups.length > 1 || appendix) && (
                 <h2 className="group-head">
                   <span className="group-roman">{group.eyebrow}</span>
                   {group.label}
@@ -382,10 +441,13 @@ export default function Guide() {
           )
         })}
 
-        <p className="guide-note">
-          Missing something you keep running into?{' '}
-          <Link to="/contribute/">Propose a term</Link> - the form asks what the record needs.
-        </p>
+        <aside className="guide-cta">
+          <div className="guide-cta-copy">
+            <p className="guide-cta-title">Missing something you keep running into?</p>
+            <p className="guide-cta-body">Propose a term - the form asks what the record needs.</p>
+          </div>
+          <Link className="btn btn-primary" to="/contribute/">Propose a term</Link>
+        </aside>
       </div>
     </section>
   )

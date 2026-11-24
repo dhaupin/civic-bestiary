@@ -20,6 +20,7 @@
     "species": {
       "label": "Species",
       "plural": "Species",
+      "coined": true,
       "path": "/species/",
       "voice": "call",
       "blurb": "A recognisable pattern of behaviour, worn like a costume - point at the pattern, not at a person.",
@@ -62,6 +63,7 @@
     "move": {
       "label": "Move",
       "plural": "Moves",
+      "coined": true,
       "path": "/moves/",
       "voice": "tell",
       "blurb": "An action performed in the open, in front of witnesses.",
@@ -97,6 +99,7 @@
     "ability": {
       "label": "Ability",
       "plural": "Abilities",
+      "coined": true,
       "path": "/abilities/",
       "voice": "effect",
       "blurb": "A capability an office, body, or machine can wield - no single person owns it.",
@@ -132,6 +135,7 @@
     "habitat": {
       "label": "Habitat",
       "plural": "Habitats",
+      "coined": true,
       "path": "/habitats/",
       "voice": "signature",
       "blurb": "The place a character is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
@@ -174,6 +178,7 @@
     "buff": {
       "label": "Buff",
       "plural": "Buffs",
+      "coined": true,
       "path": "/buffs/",
       "voice": "tell",
       "blurb": "A temporary condition that changes what a character can get away with.",
@@ -209,6 +214,7 @@
     "fallacy": {
       "label": "Fallacy",
       "plural": "Fallacies",
+      "coined": false,
       "path": "/fallacies/",
       "voice": "tell",
       "omit": [
@@ -254,6 +260,7 @@
     "remedy": {
       "label": "Remedy",
       "plural": "Remedies",
+      "coined": false,
       "path": "/remedies/",
       "voice": "effect",
       "blurb": "A procedure that works: what it does, what it costs the person using it, and how it gets captured.",
@@ -296,6 +303,7 @@
     "keystone": {
       "label": "Keystone",
       "plural": "Keystones",
+      "coined": false,
       "path": "/keystones/",
       "voice": "call",
       "blurb": "An office whose presence holds the ecosystem together - and whose absence is the whole problem.",

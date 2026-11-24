@@ -41,7 +41,9 @@ export default function Nav() {
         <div className="wrap nav-inner">
           <Link to="/" className="brand" onClick={() => setOpen(false)}>
             <img src="/icon.svg" alt="" className="brand-logo" aria-hidden="true" />
-            <span className="brand-accent">{site.wordmark.accent}</span>{site.wordmark.rest}
+            <span className="brand-word">
+              <span className="brand-accent">{site.wordmark.accent}</span>{site.wordmark.rest}
+            </span>
             {site.badge && <span className="brand-badge">{site.badge}</span>}
           </Link>
           <div className="nav-right">

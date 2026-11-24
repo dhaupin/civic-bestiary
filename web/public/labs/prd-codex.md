@@ -262,9 +262,11 @@ Backlog and open questions live in [`TASKS.md`](TASKS.md).
 
 ## 11. Current numbers
 
-Generated, not hand-maintained - run `python3 build.py` and read the footer of
-`README.md`. As of this revision: 165 entries, 183 pages, 8 kinds, 6 chapters,
-57 fallacies, 14 keystones, 16 remedies, 71 of 78 characters carrying a counter.
+Not written here, on purpose. `build.py` counts them into the footer of
+`README.md` - entries, kinds, chapters, coinages, the answer side, and how many
+coinages carry a counter - and the site reads the same figures from the
+generated bundle, so `/` and `/about/` cannot disagree with the data. A number
+typed into a document is a number that goes stale; there are none in this one.
 
 ---
 

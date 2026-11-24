@@ -71,6 +71,7 @@ def build(doc):
     kinds = {key: {
         "label": spec["label"],
         "plural": spec["plural"],
+        "coined": bool(spec.get("coined")),
         "path": spec["path"],
         "voice": spec["voice"],
         "blurb": spec["blurb"],
@@ -179,8 +180,9 @@ def build(doc):
     fallacies = counts.get("fallacy", 0)
     # A coinage is an invented name for a character or its gear. The documented
     # fallacies and the keystones are borrowed from the literature and from the
-    # public service, so counting them as coinages would overstate the joke.
-    coined = sum(counts.get(key, 0) for key in ("species", "move", "ability", "habitat", "buff"))
+    # public service, so counting them as coinages would overstate the joke. The
+    # schema says which is which, so a new kind declares its own nature.
+    coined = sum(count for key, count in counts.items() if kinds[key]["coined"])
     return {
         "meta": {"title": doc["title"], "description": doc["description"]},
         "preface": doc.get("preface", []),
