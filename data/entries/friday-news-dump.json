@@ -17,10 +17,14 @@
   ],
   "senses": [
     "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired.",
-    "It works because attention has a shape. Friday evening is the bottom of the news week, and a story that lands there gets one cycle instead of five - so the document is public and unnoticed at the same time, which is the whole design.",
-    "The feed has bent this rather than broken it: the release is now permanent and searchable, so the dump no longer hides the story, it only starves it of the attention it would have had."
+    "It works because attention has a shape. Friday evening is the bottom of the news week, and a story that lands there gets one cycle instead of five - so the document is public and unnoticed at the same time, which is the whole design."
   ],
-  "notes": [],
+  "notes": [
+    {
+      "label": "Bent by the feed",
+      "text": "The feed has bent this rather than broken it: the release is now permanent and searchable, so the dump no longer hides the story, it only starves it of the attention it would have had."
+    }
+  ],
   "example": "*\"The settlement went out at 5:47 on a Friday, in a **Friday news dump** with a cover note that said 'for immediate release'.\"*",
   "related": [
     "Trial balloon",

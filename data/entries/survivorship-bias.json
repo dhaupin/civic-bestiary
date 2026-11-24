@@ -13,7 +13,7 @@
     "Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
     "It works because the missing cases are missing. The sample looks complete precisely because the ones that would have completed it are not there to be counted."
   ],
-  "example": "“Every founder I know says the degree was useless.” The founders who dropped out and failed are not at the conferences where this sentence gets said.",
+  "example": "*“Every founder I know says the degree was useless.”* The founders who dropped out and failed are not at the conferences where this sentence gets said.",
   "confused_with": [
     {
       "term": "Cherry picking",

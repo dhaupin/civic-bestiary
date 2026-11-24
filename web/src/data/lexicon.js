@@ -6,14 +6,14 @@ export const meta = {
 }
 
 export const preface = [
-  "This is a bestiary, not a dictionary. The creatures in it are real, common, and close by - the man in the flag hoodie, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.",
+  "This is a bestiary, not a dictionary. The creatures in it are real, common, and close by - the flag hoodie in the school-board queue, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.",
   "Two rules keep the guide from collapsing into a list of insults. The species is a pattern, not a person - a costume that wears people, not a kind of human, and one you can catch yourself in. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the name stays a tool for recognition rather than a way to end an argument.",
   "The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. Some of these creatures are trolls in the old sense, things that live under bridges and demand a toll; some are trolls in the newer one. Both are field-observed here. That is roughly the right posture for the subject.",
   "The fallacies work the other way round. They are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. Each chapter ends with the documented errors its own creatures commit, so the joke arrives with its receipt attached. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. The few that turn up in every chapter and belong to none are collected at the end as strays. The coinages are the joke; the fallacies are the part you can cite."
 ]
 
 export const stats = {
-  "entries": 163,
+  "entries": 165,
   "coinages": 78,
   "fallacies": 57,
   "chapters": 6,
@@ -24,8 +24,8 @@ export const stats = {
     "habitat": 12,
     "buff": 11,
     "fallacy": 57,
-    "remedy": 15,
-    "keystone": 13
+    "remedy": 16,
+    "keystone": 14
   }
 }
 
@@ -519,7 +519,9 @@ export const chapters = [
       "notice-and-comment",
       "recusal",
       "cross-examination",
-      "the-stay"
+      "the-stay",
+      "the-redistricting-commission",
+      "the-carve-out"
     ]
   }
 ]
@@ -831,7 +833,7 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Sovereign shillizen",
+        "term": "Sovereign Shillizen",
         "slug": "sovereign-shillizen",
         "path": "/species/sovereign-shillizen/"
       },
@@ -1547,6 +1549,11 @@ export const entries = [
     ],
     "related": [
       {
+        "term": "The redistricting commission",
+        "slug": "the-redistricting-commission",
+        "path": "/keystones/the-redistricting-commission/"
+      },
+      {
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
@@ -1573,7 +1580,15 @@ export const entries = [
         "path": "/fallacies/cherry-picking/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The redistricting commission",
+        "slug": "the-redistricting-commission",
+        "path": "/keystones/the-redistricting-commission/"
+      }
+    ]
   },
   {
     "term": "Omnibust",
@@ -2333,7 +2348,7 @@ export const entries = [
       "It works because nobody can audit a chain of consequences they have not seen. Each link sounds plausible alone; the whole chain is narrated rather than argued."
     ],
     "notes": [],
-    "example": "“First they ban the plastic bag, then they ban the car.” Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.",
+    "example": "*“First they ban the plastic bag, then they ban the car.”* Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.",
     "cite": {
       "label": "Wikipedia · Slippery slope",
       "url": "https://en.wikipedia.org/wiki/Slippery_slope"
@@ -2422,7 +2437,7 @@ export const entries = [
       "It works because definitions are genuinely negotiable. The sentence sounds like a clarification, and a clarification is much harder to argue with than a false claim."
     ],
     "notes": [],
-    "example": "“No real conservative would vote for that.” The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.",
+    "example": "*“No real conservative would vote for that.”* The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.",
     "cite": {
       "label": "Wikipedia · No true Scotsman",
       "url": "https://en.wikipedia.org/wiki/No_true_Scotsman"
@@ -2511,7 +2526,7 @@ export const entries = [
       "It works because inherited arrangements carry the weight of everyone who lived with them. Age is genuine information about endurance; it is not information about fairness or function."
     ],
     "notes": [],
-    "example": "“We have always opened with a prayer.” The question was whether the chamber should, and always is not an answer to should.",
+    "example": "*“We have always opened with a prayer.”* The question was whether the chamber should, and always is not an answer to should.",
     "cite": {
       "label": "Wikipedia · Appeal to tradition",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
@@ -2614,7 +2629,7 @@ export const entries = [
       "It works because “natural” smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement."
     ],
     "notes": [],
-    "example": "“It is natural for people to sort themselves by tribe.” It is also natural to die of an infected cut, and we stopped doing that on purpose.",
+    "example": "*“It is natural for people to sort themselves by tribe.”* It is also natural to die of an infected cut, and we stopped doing that on purpose.",
     "cite": {
       "label": "Wikipedia · Appeal to nature",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_nature"
@@ -2703,7 +2718,7 @@ export const entries = [
       "It works because certainty is contagious. An audience without the means to check infers from composure that there is something to check against."
     ],
     "notes": [],
-    "example": "“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.” Four sentences, one assertion, zero evidence.",
+    "example": "*“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.”* Four sentences, one assertion, zero evidence.",
     "cite": {
       "label": "Wikipedia · Proof by assertion",
       "url": "https://en.wikipedia.org/wiki/Proof_by_assertion"
@@ -2820,7 +2835,7 @@ export const entries = [
       "It works because abandoning a cost feels like admitting the cost was wasted. The loss is already real; the sentence only makes it feel avoidable."
     ],
     "notes": [],
-    "example": "“We cannot withdraw now, after everything we have spent.” The spending is the reason the account is empty, not the reason to keep filling it.",
+    "example": "*“We cannot withdraw now, after everything we have spent.”* The spending is the reason the account is empty, not the reason to keep filling it.",
     "cite": {
       "label": "Wikipedia · Sunk cost",
       "url": "https://en.wikipedia.org/wiki/Sunk_cost"
@@ -2909,7 +2924,7 @@ export const entries = [
       "It works because the entitlement is real. Everyone is entitled to their opinion, and nobody is entitled to their own facts - the sentence fuses the two so the second disappears into the first."
     ],
     "notes": [],
-    "example": "“I am entitled to my opinion.” You are. The water is still poisoned, and the entitlement has not tested it.",
+    "example": "*“I am entitled to my opinion.”* You are. The water is still poisoned, and the entitlement has not tested it.",
     "cite": {
       "label": "Wikipedia · I'm entitled to my opinion",
       "url": "https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion"
@@ -3015,7 +3030,7 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "JAQing off",
+        "term": "JAQing Off",
         "slug": "jaqing-off",
         "path": "/moves/jaqing-off/"
       },
@@ -3274,7 +3289,7 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Trust-me-brofessor",
+        "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
       },
@@ -3637,7 +3652,7 @@ export const entries = [
         "path": "/species/biasographer/"
       },
       {
-        "term": "Trust-me-brofessor",
+        "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
       }
@@ -3862,7 +3877,7 @@ export const entries = [
         "path": "/keystones/the-juror/"
       },
       {
-        "term": "Trust-me-brofessor",
+        "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
       }
@@ -4721,10 +4736,14 @@ export const entries = [
     "voice": "A 5:40 p.m. Friday email, a PDF with no summary, and a press office that has stopped answering the phone.",
     "senses": [
       "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired.",
-      "It works because attention has a shape. Friday evening is the bottom of the news week, and a story that lands there gets one cycle instead of five - so the document is public and unnoticed at the same time, which is the whole design.",
-      "The feed has bent this rather than broken it: the release is now permanent and searchable, so the dump no longer hides the story, it only starves it of the attention it would have had."
+      "It works because attention has a shape. Friday evening is the bottom of the news week, and a story that lands there gets one cycle instead of five - so the document is public and unnoticed at the same time, which is the whole design."
     ],
-    "notes": [],
+    "notes": [
+      {
+        "label": "Bent by the feed",
+        "text": "The feed has bent this rather than broken it: the release is now permanent and searchable, so the dump no longer hides the story, it only starves it of the attention it would have had."
+      }
+    ],
     "example": "“The settlement went out at 5:47 on a Friday, in a **Friday news dump** with a cover note that said ‘for immediate release’.”",
     "cite": null,
     "summary": "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired.",
@@ -5235,7 +5254,7 @@ export const entries = [
       "It works because people are credulous about character: once you dislike the speaker, their sentence loses weight even when it is true. The claim is never touched, so it is never answered."
     ],
     "notes": [],
-    "example": "“You want to talk about the audit? You were late on your taxes in 2011.” The audit is still late, and now nobody is looking at it.",
+    "example": "*“You want to talk about the audit? You were late on your taxes in 2011.”* The audit is still late, and now nobody is looking at it.",
     "cite": {
       "label": "Wikipedia · Ad hominem",
       "url": "https://en.wikipedia.org/wiki/Ad_hominem"
@@ -5331,7 +5350,7 @@ export const entries = [
       "It works because the audience rarely holds the original wording in mind. Whoever supplies the paraphrase controls what gets refuted, so an argument can be lost without ever being made."
     ],
     "notes": [],
-    "example": "“They want to fund the libraries because they think books are free and nobody should work.” Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.",
+    "example": "*“They want to fund the libraries because they think books are free and nobody should work.”* Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.",
     "cite": {
       "label": "Wikipedia · Straw man",
       "url": "https://en.wikipedia.org/wiki/Straw_man"
@@ -5439,7 +5458,7 @@ export const entries = [
       "It works because expertise is a genuine shortcut: nobody can verify everything, so we trust the people who did. The fallacy is trusting the title outside the field, or after the field has moved."
     ],
     "notes": [],
-    "example": "“A Nobel laureate says the water is safe.” He holds the prize in economics. The water has never met him.",
+    "example": "*“A Nobel laureate says the water is safe.”* He holds the prize in economics. The water has never met him.",
     "cite": {
       "label": "Wikipedia · Appeal to authority",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_authority"
@@ -5577,7 +5596,7 @@ export const entries = [
       "It works by shrinking the field. Most real disputes have a third, boring option - wait, fund it differently, do half of it - and the boring option is exactly what the dilemma is built to hide."
     ],
     "notes": [],
-    "example": "“You are either with us or with the terrorists.” There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
+    "example": "*“You are either with us or with the terrorists.”* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
     "cite": {
       "label": "Wikipedia · False dilemma",
       "url": "https://en.wikipedia.org/wiki/False_dilemma"
@@ -5673,7 +5692,7 @@ export const entries = [
       "It works because a question feels like an invitation, not an assertion. Answering accepts its frame; refusing looks evasive. The frame is the argument."
     ],
     "notes": [],
-    "example": "“Why does your plan keep raising costs?” There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
+    "example": "*“Why does your plan keep raising costs?”* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
     "cite": {
       "label": "Wikipedia · Loaded question",
       "url": "https://en.wikipedia.org/wiki/Loaded_question"
@@ -5769,7 +5788,7 @@ export const entries = [
       "It works because a short loop reads as an argument. Each sentence sounds like it is adding something, and the last one sounds like a conclusion because it is the last one."
     ],
     "notes": [],
-    "example": "“The policy is sound because it is what serious people support, and serious people support it because it is sound.” Two sentences, one step each, no ground.",
+    "example": "*“The policy is sound because it is what serious people support, and serious people support it because it is sound.”* Two sentences, one step each, no ground.",
     "cite": {
       "label": "Wikipedia · Circular reasoning",
       "url": "https://en.wikipedia.org/wiki/Circular_reasoning"
@@ -5858,7 +5877,7 @@ export const entries = [
       "It works because the burden of proof feels like a formality. Most audiences assume a claim is either established or refuted, and the sentence supplies the third option, absence, as if it settled the matter."
     ],
     "notes": [],
-    "example": "“Nobody has proven the machines are safe.” Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
+    "example": "*“Nobody has proven the machines are safe.”* Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
     "cite": {
       "label": "Wikipedia · Argument from ignorance",
       "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance"
@@ -5961,7 +5980,7 @@ export const entries = [
       "It works because tone is a real problem sometimes and a distraction every time. The complaint is unfalsifiable, so answering it costs a turn and concedes the frame."
     ],
     "notes": [],
-    "example": "“I agree with the concern, but the way you said it lost the room.” The room was lost by the sentence, not the volume, and the sentence is still standing.",
+    "example": "*“I agree with the concern, but the way you said it lost the room.”* The room was lost by the sentence, not the volume, and the sentence is still standing.",
     "cite": {
       "label": "Wikipedia · Tone policing",
       "url": "https://en.wikipedia.org/wiki/Tone_policing"
@@ -6050,7 +6069,7 @@ export const entries = [
       "It works because the two claims are related. The retreat is sincere-sounding because the modest claim is genuinely held; the strong claim is never withdrawn, only set down."
     ],
     "notes": [],
-    "example": "“Defund the police” argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.",
+    "example": "*“Defund the police”* argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.",
     "cite": {
       "label": "Wikipedia · Motte-and-bailey fallacy",
       "url": "https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy"
@@ -6139,7 +6158,7 @@ export const entries = [
       "It works because a cluster really is a cluster. With enough data, some grouping will be tight; the fallacy is the order of operations, which nobody can see in the finished result."
     ],
     "notes": [],
-    "example": "“Crimes cluster around these three blocks.” So does every address in the city, when you draw the box around three blocks.",
+    "example": "*“Crimes cluster around these three blocks.”* So does every address in the city, when you draw the box around three blocks.",
     "cite": {
       "label": "Wikipedia · Texas sharpshooter fallacy",
       "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy"
@@ -6235,7 +6254,7 @@ export const entries = [
       "It works because a prior doubt is hard to unhear. The audience now listens for confirmation of the warning rather than for the content, and the content is never engaged."
     ],
     "notes": [],
-    "example": "“Before you read that report, remember who wrote it.” The report is unread and already dismissed; nobody has said what is wrong in it.",
+    "example": "*“Before you read that report, remember who wrote it.”* The report is unread and already dismissed; nobody has said what is wrong in it.",
     "cite": {
       "label": "Wikipedia · Poisoning the well",
       "url": "https://en.wikipedia.org/wiki/Poisoning_the_well"
@@ -6345,7 +6364,7 @@ export const entries = [
       "It works because the extreme case is vivid and the movement is large. Any sizeable group contains someone who will embarrass it, so the example is always available and never representative."
     ],
     "notes": [],
-    "example": "“Look at this comment, this is what they all think.” One comment, four hundred thousand readers, no survey.",
+    "example": "*“Look at this comment, this is what they all think.”* One comment, four hundred thousand readers, no survey.",
     "cite": {
       "label": "Wikipedia · Nutpicking",
       "url": "https://en.wikipedia.org/wiki/Nutpicking"
@@ -6441,7 +6460,7 @@ export const entries = [
       "It works because every single request is reasonable. Only the sequence is the tactic, and a sequence is invisible in any one message - which is why it is so hard to call out without looking rude."
     ],
     "notes": [],
-    "example": "“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.” Four polite requests, one derailed argument.",
+    "example": "*“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.”* Four polite requests, one derailed argument.",
     "cite": {
       "label": "Wikipedia · Sealioning",
       "url": "https://en.wikipedia.org/wiki/Sealioning"
@@ -6638,7 +6657,7 @@ export const entries = [
       "It works because causes are always available and usually unflattering. Any position can be given a psychology, and a psychology is much easier to produce than a counter-argument."
     ],
     "notes": [],
-    "example": "“Of course he thinks the zoning reform is fine - he bought his house in 1998.” The reform is still on the table.",
+    "example": "*“Of course he thinks the zoning reform is fine - he bought his house in 1998.”* The reform is still on the table.",
     "cite": {
       "label": "Wikipedia · Bulverism",
       "url": "https://en.wikipedia.org/wiki/Bulverism"
@@ -6732,7 +6751,7 @@ export const entries = [
       "It works because the status quo is the invisible baseline. Nobody has to defend the current waiting list, the current price, or the current number of deaths - so any reform carries the burden of proof and the alternative carries none."
     ],
     "notes": [],
-    "example": "“The bill only covers half the uninsured, so it doesn’t really solve the problem.” Half the uninsured is the comparison, not the bill.",
+    "example": "*“The bill only covers half the uninsured, so it doesn’t really solve the problem.”* Half the uninsured is the comparison, not the bill.",
     "cite": {
       "label": "Wikipedia · Nirvana fallacy",
       "url": "https://en.wikipedia.org/wiki/Nirvana_fallacy"
@@ -6826,7 +6845,7 @@ export const entries = [
       "It works because the vivid case is the one that reaches you. Selection decides what you see, so the sample in your head is not the sample in the world - and the denominator is the part of the story that never travels."
     ],
     "notes": [],
-    "example": "“Three of them in one month.” Three out of how many, in a city of how many, against a five-year average of what?",
+    "example": "*“Three of them in one month.”* Three out of how many, in a city of how many, against a five-year average of what?",
     "cite": {
       "label": "Wikipedia · Base rate fallacy",
       "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy"
@@ -6927,7 +6946,7 @@ export const entries = [
       "It works because it does not need to be stated. A reminder of who signs the contract is cheaper than an argument and much harder to complain about - and the person who complains has just demonstrated that they understood it."
     ],
     "notes": [],
-    "example": "“I’d think carefully about how this looks for the department.” The policy was not discussed again.",
+    "example": "*“I’d think carefully about how this looks for the department.”* The policy was not discussed again.",
     "cite": {
       "label": "Wikipedia · Appeal to force",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_force"
@@ -7028,7 +7047,7 @@ export const entries = [
       "It works because naming a fallacy is cheap and sounds decisive. The name does the work of an argument while leaving the actual question exactly where it was - which is why it is popular with people who want to win without reading."
     ],
     "notes": [],
-    "example": "“That’s an appeal to authority, so the study doesn’t count.” The study is still a study.",
+    "example": "*“That’s an appeal to authority, so the study doesn’t count.”* The study is still a study.",
     "cite": {
       "label": "Wikipedia · Fallacy fallacy",
       "url": "https://en.wikipedia.org/wiki/Fallacy_fallacy"
@@ -7129,7 +7148,7 @@ export const entries = [
       "It works because numbers are auditable and judgements are not. A figure can be defended line by line, so the institution reports the figure - and the thing that could not be counted slowly stops being the thing that is managed."
     ],
     "notes": [],
-    "example": "“Response times are down 12%.” The response is faster and the ambulance no longer comes.",
+    "example": "*“Response times are down 12%.”* The response is faster and the ambulance no longer comes.",
     "cite": {
       "label": "Wikipedia · McNamara fallacy",
       "url": "https://en.wikipedia.org/wiki/McNamara_fallacy"
@@ -8799,6 +8818,11 @@ export const entries = [
     ],
     "related": [
       {
+        "term": "The carve-out",
+        "slug": "the-carve-out",
+        "path": "/remedies/the-carve-out/"
+      },
+      {
         "term": "Consent decree",
         "slug": "consent-decree",
         "path": "/abilities/consent-decree/"
@@ -8807,11 +8831,6 @@ export const entries = [
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
         "path": "/abilities/qualified-immunity/"
-      },
-      {
-        "term": "Blueslip",
-        "slug": "blueslip",
-        "path": "/abilities/blueslip/"
       }
     ],
     "edges": [
@@ -8823,7 +8842,15 @@ export const entries = [
         "path": "/fallacies/argument-from-silence/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The carve-out",
+        "slug": "the-carve-out",
+        "path": "/remedies/the-carve-out/"
+      }
+    ]
   },
   {
     "term": "Qualified immunity",
@@ -9036,7 +9063,7 @@ export const entries = [
       "It works because fairness is a stronger instinct than consistency. The hearer wants the ledger balanced, and the sentence offers balance without ever asking whether either entry was wrong."
     ],
     "notes": [],
-    "example": "“They gerrymandered too.” Both maps are still rigged; the sentence has only arranged for nobody to fix either.",
+    "example": "*“They gerrymandered too.”* Both maps are still rigged; the sentence has only arranged for nobody to fix either.",
     "cite": {
       "label": "Wikipedia · Two wrongs make a right",
       "url": "https://en.wikipedia.org/wiki/Two_wrongs_make_a_right"
@@ -9132,7 +9159,7 @@ export const entries = [
       "It works because sequence is the one causal cue an audience can observe directly. Order is visible; mechanism has to be argued, so order wins by default."
     ],
     "notes": [],
-    "example": "“I took the supplement and the cough cleared in a week.” A week is also how long a cough lasts.",
+    "example": "*“I took the supplement and the cough cleared in a week.”* A week is also how long a cough lasts.",
     "cite": {
       "label": "Wikipedia · Post hoc ergo propter hoc",
       "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc"
@@ -9221,7 +9248,7 @@ export const entries = [
       "It works because the exemption is usually framed as context. Every rule has context; the fallacy is invoking it only for one side."
     ],
     "notes": [],
-    "example": "“Attacking a public official’s family is out of bounds.” Said by the account that spent last spring on a mayor’s brother.",
+    "example": "*“Attacking a public official’s family is out of bounds.”* Said by the account that spent last spring on a mayor’s brother.",
     "cite": {
       "label": "Wikipedia · Special pleading",
       "url": "https://en.wikipedia.org/wiki/Special_pleading"
@@ -9359,7 +9386,7 @@ export const entries = [
       "It works because compromise is a genuine virtue in negotiation. The sentence borrows that virtue for questions of fact, where the midpoint of true and false is still false."
     ],
     "notes": [],
-    "example": "“One side says the water is safe, the other says it is poison - surely the truth is in the middle.” The test results are not in the middle; they are in the lab.",
+    "example": "*“One side says the water is safe, the other says it is poison - surely the truth is in the middle.”* The test results are not in the middle; they are in the lab.",
     "cite": {
       "label": "Wikipedia · Argument to moderation",
       "url": "https://en.wikipedia.org/wiki/Argument_to_moderation"
@@ -9448,7 +9475,7 @@ export const entries = [
       "It works because fairness is a real journalistic virtue and symmetry looks like it. But a coin that lands heads ninety times out of a hundred is not evenly disputed, and equal time misrepresents it as such."
     ],
     "notes": [],
-    "example": "“Some say the bridge is safe, others say it will fall.” One of those groups has the inspection report.",
+    "example": "*“Some say the bridge is safe, others say it will fall.”* One of those groups has the inspection report.",
     "cite": {
       "label": "Wikipedia · False balance",
       "url": "https://en.wikipedia.org/wiki/False_balance"
@@ -9544,7 +9571,7 @@ export const entries = [
       "It works because silence is genuinely informative sometimes. Whether it is depends entirely on whether the silence was supposed to be broken, and that question is the one the sentence skips."
     ],
     "notes": [],
-    "example": "“No complaints were filed, so everyone was satisfied.” Nobody knew there was a form.",
+    "example": "*“No complaints were filed, so everyone was satisfied.”* Nobody knew there was a form.",
     "cite": {
       "label": "Wikipedia · Argument from silence",
       "url": "https://en.wikipedia.org/wiki/Argument_from_silence"
@@ -10165,7 +10192,7 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Trust-me-brofessor",
+        "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
       },
@@ -12285,7 +12312,7 @@ export const entries = [
       "It works because a feeling is real. The hearer is not imagining the dread; they are imagining that the dread is proof. Emotion supplies the urgency a premises-and-conclusion argument cannot."
     ],
     "notes": [],
-    "example": "“Think of the children” attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.",
+    "example": "*“Think of the children”* attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.",
     "cite": {
       "label": "Wikipedia · Appeal to emotion",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_emotion"
@@ -12416,7 +12443,7 @@ export const entries = [
       "It works because fear narrows attention. A frightened audience stops asking whether the proposal is good and starts asking whether the alternative is survivable."
     ],
     "notes": [],
-    "example": "“If we do nothing, they win.” Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.",
+    "example": "*“If we do nothing, they win.”* Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.",
     "cite": {
       "label": "Wikipedia · Appeal to fear",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_fear"
@@ -12540,7 +12567,7 @@ export const entries = [
       "It works because each new request sounds reasonable on its own. Nobody agrees to an impossible standard all at once; they agree to a series of fair-sounding ones."
     ],
     "notes": [],
-    "example": "“Show me the emails.” The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
+    "example": "*“Show me the emails.”* The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
     "cite": {
       "label": "Wikipedia · Moving the goalposts",
       "url": "https://en.wikipedia.org/wiki/Moving_the_goalposts"
@@ -12629,7 +12656,7 @@ export const entries = [
       "It works because the missing cases are missing. The sample looks complete precisely because the ones that would have completed it are not there to be counted."
     ],
     "notes": [],
-    "example": "“Every founder I know says the degree was useless.” The founders who dropped out and failed are not at the conferences where this sentence gets said.",
+    "example": "*“Every founder I know says the degree was useless.”* The founders who dropped out and failed are not at the conferences where this sentence gets said.",
     "cite": {
       "label": "Wikipedia · Survivorship bias",
       "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
@@ -12718,7 +12745,7 @@ export const entries = [
       "It works because groups really do cluster. Sharing a conclusion with a bad actor is genuine information about the actor, and none at all about whether the conclusion is true."
     ],
     "notes": [],
-    "example": "“That is the same thing the crank down the street says.” The crank is also right about the weather, and nobody checks the sky by checking him.",
+    "example": "*“That is the same thing the crank down the street says.”* The crank is also right about the weather, and nobody checks the sky by checking him.",
     "cite": {
       "label": "Wikipedia · Association fallacy",
       "url": "https://en.wikipedia.org/wiki/Association_fallacy"
@@ -12807,7 +12834,7 @@ export const entries = [
       "It works because motives are real and often relevant. But a motive explains why someone is talking, not whether what they said is accurate - and the audience conflates the two."
     ],
     "notes": [],
-    "example": "“Of course the landlord says rents are fine - he owns the building.” He does; the rent roll is still a document.",
+    "example": "*“Of course the landlord says rents are fine - he owns the building.”* He does; the rent roll is still a document.",
     "cite": {
       "label": "Wikipedia · Appeal to motive",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_motive"
@@ -12896,7 +12923,7 @@ export const entries = [
       "It works because sympathy is a real moral response and the hardship is often genuine. Neither fact tells you whether the claim is accurate."
     ],
     "notes": [],
-    "example": "“I lost my job over this, so you know I am telling the truth.” Losing a job is terrible and says nothing about the facts.",
+    "example": "*“I lost my job over this, so you know I am telling the truth.”* Losing a job is terrible and says nothing about the facts.",
     "cite": {
       "label": "Wikipedia · Appeal to pity",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_pity"
@@ -12992,7 +13019,7 @@ export const entries = [
       "It works on volume rather than content. Nobody can answer the same sentence forty times, so the fortieth repetition lands unanswered and looks unanswerable."
     ],
     "notes": [],
-    "example": "“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.” Three sentences, one claim, no count.",
+    "example": "*“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.”* Three sentences, one claim, no count.",
     "cite": {
       "label": "Wikipedia · Ad nauseam",
       "url": "https://en.wikipedia.org/wiki/Ad_nauseam"
@@ -13095,7 +13122,7 @@ export const entries = [
       "It works because progress is real and the future usually arrives. Recency is genuine evidence of relevance; it is not evidence of correctness, and the two are easy to confuse in a feed."
     ],
     "notes": [],
-    "example": "“Nobody uses cash anymore.” Most people still do; the sentence is about the future the speaker would like.",
+    "example": "*“Nobody uses cash anymore.”* Most people still do; the sentence is about the future the speaker would like.",
     "cite": {
       "label": "Wikipedia · Appeal to novelty",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_novelty"
@@ -13184,7 +13211,7 @@ export const entries = [
       "It works because consequences are legitimately part of policy - just not of truth. The sentence moves from what follows to what is, and the move is one word wide."
     ],
     "notes": [],
-    "example": "“If that were true, the whole policy would be indefensible.” It may well be indefensible; the audit found what it found.",
+    "example": "*“If that were true, the whole policy would be indefensible.”* It may well be indefensible; the audit found what it found.",
     "cite": {
       "label": "Wikipedia · Appeal to consequences",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_consequences"
@@ -13273,7 +13300,7 @@ export const entries = [
       "It works because a single vivid case feels like a pattern. The mind generalises from what it can picture, and one picture is enough to feel like evidence."
     ],
     "notes": [],
-    "example": "“I met two rude tourists from there, so that is what they are like.” Two people, one airport, an entire country.",
+    "example": "*“I met two rude tourists from there, so that is what they are like.”* Two people, one airport, an entire country.",
     "cite": {
       "label": "Wikipedia · Hasty generalization",
       "url": "https://en.wikipedia.org/wiki/Hasty_generalization"
@@ -13376,7 +13403,7 @@ export const entries = [
       "It works because every selection is individually true. Nothing in the sentence is a lie, so the audit has to ask what was left out - and the audience rarely sees the tree."
     ],
     "notes": [],
-    "example": "“Crime fell in the years we cut the programme.” It also fell in the four years before, in the neighbouring county, and by more.",
+    "example": "*“Crime fell in the years we cut the programme.”* It also fell in the four years before, in the neighbouring county, and by more.",
     "cite": {
       "label": "Wikipedia · Cherry picking",
       "url": "https://en.wikipedia.org/wiki/Cherry_picking"
@@ -13486,7 +13513,7 @@ export const entries = [
       "It works because a shared label feels like a shared scale. Once both acts are called “unfair”, the sentence can weigh them evenly without ever measuring them."
     ],
     "notes": [],
-    "example": "“Both sides traffic in misinformation.” One retracted a chart; the other broadcast a fabricated one to nine million people for a week.",
+    "example": "*“Both sides traffic in misinformation.”* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.",
     "cite": {
       "label": "Wikipedia · False equivalence",
       "url": "https://en.wikipedia.org/wiki/False_equivalence"
@@ -13575,7 +13602,7 @@ export const entries = [
       "It works because stories are persuasive and statistics are not. One concrete case is easier to hold in mind than a distribution, so it feels heavier even when it is one data point."
     ],
     "notes": [],
-    "example": "“My uncle smoked for sixty years.” The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.",
+    "example": "*“My uncle smoked for sixty years.”* The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.",
     "cite": {
       "label": "Wikipedia · Anecdotal evidence",
       "url": "https://en.wikipedia.org/wiki/Anecdotal_evidence"
@@ -13664,7 +13691,7 @@ export const entries = [
       "It works because the word really is the same word. The shift happens in the meaning, which is invisible on the page and audible only if you ask what the word meant each time."
     ],
     "notes": [],
-    "example": "“Speech is free, so my platform must host it.” Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.",
+    "example": "*“Speech is free, so my platform must host it.”* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.",
     "cite": {
       "label": "Wikipedia · Equivocation",
       "url": "https://en.wikipedia.org/wiki/Equivocation"
@@ -13774,7 +13801,7 @@ export const entries = [
       "It works because hypocrisy is genuinely relevant to credibility, so the deflection has a real foothold. The foothold is about the speaker; the question was about the act."
     ],
     "notes": [],
-    "example": "“You are funded by a billionaire.” “So are you.” Both disclosures are true; only one of them was on the table.",
+    "example": "*“You are funded by a billionaire.”* “So are you.” Both disclosures are true; only one of them was on the table.",
     "cite": {
       "label": "Wikipedia · Tu quoque",
       "url": "https://en.wikipedia.org/wiki/Tu_quoque"
@@ -13884,7 +13911,7 @@ export const entries = [
       "It works because there is always another grievance. The move does not have to be false - it only has to be more interesting than the question being asked."
     ],
     "notes": [],
-    "example": "“What about the crime in your city?” The question was about a contract. Both can be answered; only one was asked.",
+    "example": "*“What about the crime in your city?”* The question was about a contract. Both can be answered; only one was asked.",
     "cite": {
       "label": "Wikipedia · Whataboutism",
       "url": "https://en.wikipedia.org/wiki/Whataboutism"
@@ -13987,7 +14014,7 @@ export const entries = [
       "It works because ridicule is cheap and memorable. A laugh is a conclusion the audience reaches themselves, which makes it feel like their own judgement rather than the speaker’s."
     ],
     "notes": [],
-    "example": "“So we should just let everyone do whatever they want, then?” Nobody proposed that; the sentence made the proposal funny and then defeated the joke.",
+    "example": "*“So we should just let everyone do whatever they want, then?”* Nobody proposed that; the sentence made the proposal funny and then defeated the joke.",
     "cite": {
       "label": "Wikipedia · Appeal to ridicule",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_ridicule"
@@ -14083,7 +14110,7 @@ export const entries = [
       "It works because consensus is usually a decent heuristic and occasionally the only evidence available. The fallacy is treating a majority as a measurement."
     ],
     "notes": [],
-    "example": "“Everyone knows the water is fine.” Everyone knew a lot of things that turned out to be false; the water has a test result.",
+    "example": "*“Everyone knows the water is fine.”* Everyone knew a lot of things that turned out to be false; the water has a test result.",
     "cite": {
       "label": "Wikipedia · Argumentum ad populum",
       "url": "https://en.wikipedia.org/wiki/Argumentum_ad_populum"
@@ -14207,7 +14234,7 @@ export const entries = [
       "It works because the phrase is familiar and warm. Familiarity reads as wisdom, and the sentence arrives pre-approved, so using it feels like agreeing with everyone rather than ending an argument."
     ],
     "notes": [],
-    "example": "“It is what it is.” Said about a policy that could be changed, by the people who could change it.",
+    "example": "*“It is what it is.”* Said about a policy that could be changed, by the people who could change it.",
     "cite": {
       "label": "Wikipedia · Thought-terminating cliché",
       "url": "https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9"
@@ -14303,7 +14330,7 @@ export const entries = [
       "It works because the citation is true as far as it goes. Verifying a quote means opening the transcript, and most readers will only verify the part that already agrees with them."
     ],
     "notes": [],
-    "example": "“They said the plan was dead on arrival.” The transcript says it was dead on arrival in the Senate, which then passed it.",
+    "example": "*“They said the plan was dead on arrival.”* The transcript says it was dead on arrival in the Senate, which then passed it.",
     "cite": {
       "label": "Wikipedia · False attribution",
       "url": "https://en.wikipedia.org/wiki/False_attribution"
@@ -14399,7 +14426,7 @@ export const entries = [
       "It works because a demand sounds like an invitation to debate. The audience rarely notices that the person making the claim has not made a case for it."
     ],
     "notes": [],
-    "example": "“Show me the study that says it is harmful.” The claim was that it is safe; the absent study is not a finding.",
+    "example": "*“Show me the study that says it is harmful.”* The claim was that it is safe; the absent study is not a finding.",
     "cite": {
       "label": "Wikipedia · Burden of proof (philosophy)",
       "url": "https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy)"
@@ -14509,7 +14536,7 @@ export const entries = [
       "It works on arithmetic, not argument. Each claim takes ten seconds to make and ten minutes to check, and the format does not care that they are not equally cheap."
     ],
     "notes": [],
-    "example": "“Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…” Fourteen claims, ninety seconds, one of them true.",
+    "example": "*“Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…”* Fourteen claims, ninety seconds, one of them true.",
     "cite": {
       "label": "Wikipedia · Gish gallop",
       "url": "https://en.wikipedia.org/wiki/Gish_gallop"
@@ -14626,7 +14653,7 @@ export const entries = [
       "It works because most absurd-sounding claims are absurd, so the reflex is usually right. The problem is that it cannot tell the two cases apart, and it never has to show its work."
     ],
     "notes": [],
-    "example": "“That is the dumbest thing I have heard all week.” Possible. The sentence has not said which part is wrong.",
+    "example": "*“That is the dumbest thing I have heard all week.”* Possible. The sentence has not said which part is wrong.",
     "cite": {
       "label": "Wikipedia · Appeal to the stone",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_the_stone"
@@ -17354,7 +17381,15 @@ export const entries = [
         "path": "/species/ragesturbationist/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The redistricting commission",
+        "slug": "the-redistricting-commission",
+        "path": "/keystones/the-redistricting-commission/"
+      }
+    ]
   },
   {
     "term": "Recusal",
@@ -17631,6 +17666,189 @@ export const entries = [
         "term": "Nightdocket",
         "slug": "nightdocket",
         "path": "/abilities/nightdocket/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The redistricting commission",
+    "slug": "the-redistricting-commission",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-redistricting-commission/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌriːˈdɪs.trɪk.tɪŋ kəˈmɪʃ.ən/",
+    "position": 29,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "American state practice since the 1980s: the pencil moved to a body that is not standing for election under the map it draws.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The map, the public hearing, and the requirement that the lines be drawn where the public can see them drawn."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Show us the map, and the criteria you drew it with.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Draws before it knows who benefits",
+          "Holds the hearing in the town the first draft splits",
+          "Publishes the criteria before the lines"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the commission the map is drawn by the people it measures, and Gerrythm is not a flaw in the drawing - it is the drawing. Independence here is not a better class of person; it is a different address for the pencil."
+      }
+    ],
+    "voice": "“Show us the map, and the criteria you drew it with.”",
+    "senses": [
+      "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a final map that has to be defended against the criteria rather than against the seat count.",
+      "It works because it separates the pencil from the beneficiary. A legislature drawing its own districts is answering a question about its own employment, and no amount of good faith changes what the question is - the commission’s advantage is distance, not virtue."
+    ],
+    "notes": [],
+    "example": "“The **redistricting commission** published three drafts, took comment in the one town the first draft split in half, and the final map moved four precincts - which was enough.”",
+    "cite": null,
+    "summary": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a final...",
+    "confusedWith": [
+      {
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "tell": "The statistician counts the population; the commission draws the districts that count it.",
+        "path": "/keystones/the-statistician/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Gerrythm",
+        "slug": "gerrythm",
+        "path": "/abilities/gerrythm/"
+      },
+      {
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Gerrythm",
+        "slug": "gerrythm",
+        "path": "/abilities/gerrythm/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The carve-out",
+    "slug": "the-carve-out",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-carve-out/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə ˈkɑːv.aʊt/",
+    "position": 30,
+    "sort": {
+      "impact": 4,
+      "abuse": 1,
+      "blowback": 3
+    },
+    "etymology": "Legislative drafting: the exception cut into a general rule so that one category of case falls outside it.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Voids the silence clause for a defined category of claim, and makes the agreement unenforceable in that respect."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A legislature willing to name the category out loud, and a plaintiff willing to be the first to test it."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The carve-out that covers the claim but not the arbitration clause that swallows it, and the category drawn so narrowly that almost nothing falls inside."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A statute that names the claim",
+          "A clause struck rather than read down",
+          "A plaintiff who can afford to be the test case"
+        ]
+      }
+    ],
+    "voice": "Voids the silence clause for a defined category of claim, and makes the agreement unenforceable in that respect.",
+    "senses": [
+      "A statutory exception that removes a contract term’s power over one kind of dispute: the silence clause that cannot be enforced in a harassment claim, the release that cannot waive a wage claim, the arbitration agreement that does not reach a civil-rights suit.",
+      "It works because it changes the default without banning the contract. Nobody has to prove the NDA was coerced; the clause simply has no effect where the statute says so - which is why the drafting fight moves to the definition of the category, where it is quiet and decisive."
+    ],
+    "notes": [],
+    "example": "“The **carve-out** passed with a definition of harassment that excluded contractors, and the clause held for everyone the statute had not named.”",
+    "cite": null,
+    "summary": "A statutory exception that removes a contract term’s power over one kind of dispute: the silence clause that cannot be enforced in a harassment...",
+    "confusedWith": [
+      {
+        "term": "NDA",
+        "slug": "nda",
+        "tell": "The NDA buys silence with a contract; the carve-out voids the contract for one category of claim.",
+        "path": "/abilities/nda/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
+      },
+      {
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "NDA",
+        "slug": "nda",
+        "path": "/abilities/nda/"
       }
     ],
     "backlinks": []

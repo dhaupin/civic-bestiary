@@ -13,7 +13,7 @@
     "Treating a belief as true because many people hold it, or as false because few do.",
     "It works because consensus is usually a decent heuristic and occasionally the only evidence available. The fallacy is treating a majority as a measurement."
   ],
-  "example": "“Everyone knows the water is fine.” Everyone knew a lot of things that turned out to be false; the water has a test result.",
+  "example": "*“Everyone knows the water is fine.”* Everyone knew a lot of things that turned out to be false; the water has a test result.",
   "confused_with": [
     {
       "term": "Appeal to authority",

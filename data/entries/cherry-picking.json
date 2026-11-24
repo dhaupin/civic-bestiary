@@ -13,7 +13,7 @@
     "Selecting the evidence that supports a conclusion while ignoring the evidence that does not.",
     "It works because every selection is individually true. Nothing in the sentence is a lie, so the audit has to ask what was left out - and the audience rarely sees the tree."
   ],
-  "example": "“Crime fell in the years we cut the programme.” It also fell in the four years before, in the neighbouring county, and by more.",
+  "example": "*“Crime fell in the years we cut the programme.”* It also fell in the four years before, in the neighbouring county, and by more.",
   "confused_with": [
     {
       "term": "Texas sharpshooter fallacy",
