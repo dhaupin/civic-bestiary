@@ -35,10 +35,17 @@ jobs:
       # The generated artifacts are committed; refuse to publish stale ones.
       - run: python3 build.py --check
       - run: python3 build_site.py --check
+      # The pack manifest is conformant (packstruct SPEC v1) before anything
+      # tries to arm it: lint the shape at author time, not at audit time.
+      - run: npx --yes packstruct@1.1.2 lint packs/ --deep
       - run: npm ci
         working-directory: web
       - run: npm run build
         working-directory: web
+      # Audit what shipped, not what we meant to ship: head/site/links/i18n/
+      # a11y/language, plus our own shape pack. Both are pinned - an audit is a
+      # gate, so it must not move under us on an unpinned release.
+      - run: npx --yes poststruct@1.2.0 audit
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

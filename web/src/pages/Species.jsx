@@ -50,7 +50,7 @@ export default function Species() {
         <dl className="species-spec">
           <div>
             <dt>Range</dt>
-            <dd>{entry.range}</dd>
+            <dd className="species-range">{entry.range}</dd>
           </div>
           <div>
             <dt>Call</dt>

@@ -1,4 +1,4 @@
-<!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->
+<!-- Generated from data/ by build.py - edit the records, not this file. -->
 
 # The Civic Bestiary
 

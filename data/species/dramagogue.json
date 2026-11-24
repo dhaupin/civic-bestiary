@@ -1,0 +1,32 @@
+{
+  "term": "Dramagogue",
+  "section": "fearmongering-grift",
+  "order": 2,
+  "part_of_speech": "noun",
+  "ipa": "/ˈdræm.ə.ɡɒɡ/",
+  "etymology": "Blend of \"drama\" + \"demagogue\"",
+  "range": "Rallies, megachurch broadcasts, and any stream that opens with a countdown.",
+  "call": "\"Everything you know is a lie.\"",
+  "field_marks": [
+    "Theatrical, never specific",
+    "Apocalypse on a schedule",
+    "Sells the cure"
+  ],
+  "confused_with": [
+    {
+      "term": "Ragesturbationist",
+      "tell": "The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it."
+    }
+  ],
+  "senses": [
+    "A theatrical fearmonger who whips up hysteria, outrage, and existential panic - often targeting minority faiths, immigrants, or out-groups as dangerous \"extremists\" - while aggressively pushing their own dogma or agenda without a shred of self-awareness.",
+    "Someone who relies on manufactured crisis, melodrama, and scapegoating to rally followers and demand special privileges, treating basic constitutional protections like freedom of religion as a one-way street meant exclusively for them."
+  ],
+  "notes": [],
+  "example": "*\"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior.\"*",
+  "related": [
+    "Xenophobricator",
+    "Martyrholic",
+    "Ragesturbationist"
+  ]
+}

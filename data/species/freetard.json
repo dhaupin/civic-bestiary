@@ -1,0 +1,37 @@
+{
+  "term": "Freetard",
+  "section": "performative-identity",
+  "order": 2,
+  "part_of_speech": "noun",
+  "ipa": "/ˈfriː.tɑːrd/",
+  "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",
+  "range": "Town-hall microphones, mask mandates, and the queue at the DMV.",
+  "call": "\"It's a free country.\"",
+  "field_marks": [
+    "Confuses a right with an exemption",
+    "Cites freedom, never a clause",
+    "Loudest where the line is longest"
+  ],
+  "confused_with": [
+    {
+      "term": "Sovereign Shillizen",
+      "tell": "The freetard wants no rules; the shillizen insists there already are none that apply to him."
+    }
+  ],
+  "senses": [
+    "An individual whose grasp of genuine liberty is hindered or stunted by ideological bias, partisan agendas, or self-interest - leading them to mistake reckless, anti-social, or harmful behavior for the exercise of freedom.",
+    "A person who invokes a distorted, one-sided view of personal rights to justify actions that undermine public safety, civic duty, or the well-being of society."
+  ],
+  "notes": [
+    {
+      "label": "Etymology & Usage Note",
+      "text": "Derived from the traditional verb *retard* (as in *fire-retardant*), signifying an understanding of freedom actively slowed or stunted by external agendas. Because the suffix *-tard* is commonly used online as an ableist slur, readers unfamiliar with this specific root framing may still interpret the word as derogatory without context."
+    }
+  ],
+  "example": "*\"Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right.\"*",
+  "related": [
+    "LARPtarian",
+    "Sovereign shillizen",
+    "Playtriot"
+  ]
+}

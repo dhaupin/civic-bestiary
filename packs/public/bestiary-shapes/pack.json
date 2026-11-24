@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "name": "bestiary-shapes",
+  "version": "0.1.0",
+  "description": "The Civic Bestiary's own shape pack: every species page ships its identification block, its sighting, and its cross-references; the field guide links every species; and every listing row offers a way in. Pure file reads over the baked tree - it proves the record grammar survived the round trip from data/ to HTML.",
+  "entry": "index.mjs"
+}

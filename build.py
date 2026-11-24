@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Render README.md from lexicon.json.
+"""Render README.md from the data/ records.
+
+`data/lexicon.json` holds the meta (title, description, preface, sections);
+`data/species/*.json` holds one record per species, each carrying its `section`
+and its `order` within that section. The split is what lets the relation graph
+be linted record by record, and it keeps two people adding species from
+colliding in one file.
 
 Usage:
     python3 build.py           # regenerate README.md
@@ -12,10 +18,12 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-DATA = ROOT / "lexicon.json"
+DATA = ROOT / "data"
+META = DATA / "lexicon.json"
+SPECIES = DATA / "species"
 OUTPUT = ROOT / "README.md"
 
-BANNER = "<!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->"
+BANNER = "<!-- Generated from data/ by build.py - edit the records, not this file. -->"
 REQUIRED = (
     "term", "section", "part_of_speech", "ipa", "etymology",
     "range", "call", "field_marks", "confused_with", "senses", "example", "related",
@@ -28,7 +36,17 @@ def slugify(text):
 
 
 def load():
-    doc = json.loads(DATA.read_text(encoding="utf-8"))
+    meta = json.loads(META.read_text(encoding="utf-8"))
+    order_of = {section["id"]: index for index, section in enumerate(meta["sections"])}
+    records = []
+    for path in sorted(SPECIES.glob("*.json")):
+        record = json.loads(path.read_text(encoding="utf-8"))
+        record["_file"] = path.name
+        records.append(record)
+    # section order first, then the record's own order inside it: the README
+    # numbering and the site's prev/next both run off this one sort
+    records.sort(key=lambda r: (order_of.get(r.get("section"), len(order_of)), r.get("order", 0), r["term"]))
+    doc = {**meta, "entries": records}
     validate(doc)
     return doc
 
@@ -41,6 +59,19 @@ def validate(doc):
 
     for term in sorted({t for t in terms if terms.count(t) > 1}):
         errors.append(f"duplicate term: {term}")
+
+    for entry in doc["entries"]:
+        name = entry.get("_file", "?")
+        expected = slugify(entry.get("term", ""))
+        if entry.get("_file") != f"{expected}.json":
+            errors.append(f"{name}: file name should be {expected}.json (from the term)")
+    for section in sections:
+        orders = [e.get("order") for e in doc["entries"] if e.get("section") == section]
+        dupes = sorted({o for o in orders if orders.count(o) > 1})
+        if dupes:
+            errors.append(f"{section}: duplicate order {dupes}")
+        if not orders:
+            errors.append(f"{section}: no species")
     referenced = {ref.lower() for e in doc["entries"] for ref in e.get("related", [])}
     for term in terms:
         if term.lower() not in referenced:
@@ -49,6 +80,8 @@ def validate(doc):
         missing = [k for k in REQUIRED if not entry.get(k)]
         if missing:
             errors.append(f"{entry.get('term', '?')}: missing {', '.join(missing)}")
+        if not isinstance(entry.get("order"), int):
+            errors.append(f"{entry.get('term', '?')}: order must be an integer")
         if entry.get("section") not in sections:
             errors.append(f"{entry.get('term', '?')}: unknown section {entry.get('section')!r}")
         marks = entry.get("field_marks") or []
@@ -68,7 +101,7 @@ def validate(doc):
                 errors.append(f"{entry.get('term', '?')}: relates to itself")
 
     if errors:
-        sys.exit("lexicon.json is invalid:\n  " + "\n  ".join(errors))
+        sys.exit("data/ is invalid:\n  " + "\n  ".join(errors))
 
 
 def number_entries(doc):

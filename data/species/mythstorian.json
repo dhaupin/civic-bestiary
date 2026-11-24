@@ -1,0 +1,32 @@
+{
+  "term": "Mythstorian",
+  "section": "hypocrisy-revisionism",
+  "order": 2,
+  "part_of_speech": "noun",
+  "ipa": "/ˈmɪθˌstɔːr.i.ən/",
+  "etymology": "Blend of \"myth\" + \"historian\"",
+  "range": "Heritage segments, school-board meetings, and the comments under any museum post.",
+  "call": "\"In my day -\"",
+  "field_marks": [
+    "Nostalgic for a decade it cannot date",
+    "Sanitized, never sourced",
+    "Confuses a monument with a record"
+  ],
+  "confused_with": [
+    {
+      "term": "Algodemic",
+      "tell": "The mythstorian invents the past; the algodemic invents the study of it."
+    }
+  ],
+  "senses": [
+    "A nostalgia-poisoned revisionist who worships an imaginary, sanitized \"golden age\" that never actually existed - aggressively rewriting, censoring, or whitewashing real history to pretend past atrocities, systemic injustices, or national failures were harmless or heroic.",
+    "Someone who treats historical fact as an enemy to be erased whenever it threatens their curated fairy tale, replacing documented reality with patriotic folklore to justify repeating the worst mistakes of the past."
+  ],
+  "notes": [],
+  "example": "*\"Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism.\"*",
+  "related": [
+    "Playtriot",
+    "Biasographer",
+    "Bleatkeeper"
+  ]
+}
