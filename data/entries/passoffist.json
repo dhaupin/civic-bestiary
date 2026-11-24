@@ -1,0 +1,53 @@
+{
+  "term": "Passoffist",
+  "kind": "species",
+  "chapter": "normalization",
+  "position": 1,
+  "part_of_speech": "noun",
+  "ipa": "/ˈpæs.ɒf.ɪst/",
+  "etymology": "Blend of \"pass off\" + \"pacifist\" - the peacemaker whose peace is the subject never coming up",
+  "occasion": "A table where the subject has just arrived, and one person has decided the evening will not be about it.",
+  "call": "\"Let's not make this political.\"",
+  "tell": [
+    "Has a view on everything except the thing just said",
+    "Asks both sides to calm down, and means one",
+    "Calls the argument the problem, never the claim"
+  ],
+  "counter": "Ask what they think, not what should be done. Neutrality is a position on someone else's fight, and it survives only while the question stays about them: put it in the first person and the passoffist has to pick a side, which is the thing the mediating was for.",
+  "confused_with": [
+    {
+      "term": "Decorumancer",
+      "tell": "Both end the argument without answering it: the decorumancer objects to the volume, the passoffist to the subject."
+    }
+  ],
+  "senses": [
+    "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the view never tested because it was never said.",
+    "It works because a mediator is handed authority over a dispute without having to enter it, so the passoffist gets the standing of a neutral and the safety of a partisan - a seat at the table that never requires a vote."
+  ],
+  "notes": [],
+  "example": "*\"Asked what she thought of the removals, the **passoffist** observed that everyone was getting very heated, and suggested they talk about something else.\"*",
+  "related": [
+    "Provocrop",
+    "Decorumancer",
+    "Capitulectual"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    },
+    {
+      "rel": "commits",
+      "to": "False equivalence"
+    },
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

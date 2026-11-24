@@ -1,0 +1,53 @@
+{
+  "term": "Provocrop",
+  "kind": "species",
+  "chapter": "normalization",
+  "position": 2,
+  "part_of_speech": "noun",
+  "ipa": "/ˈprɒv.ə.krɒp/",
+  "etymology": "Blend of \"provocation\" + \"sharecropper\" - works a field of someone else's outrage and keeps a share of the crop",
+  "occasion": "A merchandise table at the back of a rally, and a slogan that was a headline this morning.",
+  "call": "\"It's just a shirt.\"",
+  "tell": [
+    "Wears the argument instead of making it",
+    "Knows the slogan, not the policy behind it",
+    "Buys the take from the people who sell it"
+  ],
+  "counter": "Ask what they would vote for, not what they would wear. The provocrop holds the position on loan - the crop is someone else's, worn for the charge it carries - and a question about the policy calls in the rent.",
+  "confused_with": [
+    {
+      "term": "Slopagandist",
+      "tell": "The slopagandist makes the take; the provocrop buys it by the shirt."
+    }
+  ],
+  "senses": [
+    "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the charge it carries rather than for anything it commits the wearer to.",
+    "It works because a shirt is a claim with no obligation attached. The take arrives ready-made, the reaction is immediate, nothing is asked of the wearer, and the rent for all of it is paid in what the room now finds normal."
+  ],
+  "notes": [],
+  "example": "*\"Tucked into dad jeans at the hardware store, the **provocrop** was wearing this morning's headline and had not read past it.\"*",
+  "related": [
+    "Passoffist",
+    "Slopagandist",
+    "Playtriot"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to ridicule"
+    },
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    },
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 5,
+    "blowback": 3
+  }
+}
