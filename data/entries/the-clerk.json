@@ -39,6 +39,18 @@
     {
       "rel": "counters",
       "to": "Sabotriot"
+    },
+    {
+      "rel": "counters",
+      "to": "Omnibust"
+    },
+    {
+      "rel": "counters",
+      "to": "Pocketveto"
+    },
+    {
+      "rel": "counters",
+      "to": "Recessure"
     }
   ],
   "sort": {

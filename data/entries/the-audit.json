@@ -35,6 +35,14 @@
     {
       "rel": "counters",
       "to": "Frankincense"
+    },
+    {
+      "rel": "counters",
+      "to": "Patriotainment"
+    },
+    {
+      "rel": "counters",
+      "to": "Flood the zone"
     }
   ],
   "sort": {

@@ -39,6 +39,18 @@
     {
       "rel": "counters",
       "to": "Mythstorian"
+    },
+    {
+      "rel": "counters",
+      "to": "Friday news dump"
+    },
+    {
+      "rel": "counters",
+      "to": "Pseudo-event"
+    },
+    {
+      "rel": "counters",
+      "to": "Hypocontortionist"
     }
   ],
   "sort": {

@@ -39,6 +39,18 @@
     {
       "rel": "counters",
       "to": "Sophistroll"
+    },
+    {
+      "rel": "counters",
+      "to": "Bothsidesing"
+    },
+    {
+      "rel": "counters",
+      "to": "Heckler's veto"
+    },
+    {
+      "rel": "counters",
+      "to": "Rubber chicken circuit"
     }
   ],
   "sort": {

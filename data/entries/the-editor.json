@@ -39,6 +39,10 @@
     {
       "rel": "counters",
       "to": "Slopagandist"
+    },
+    {
+      "rel": "counters",
+      "to": "Bluecheck"
     }
   ],
   "sort": {

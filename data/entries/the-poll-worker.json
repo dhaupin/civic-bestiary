@@ -39,6 +39,10 @@
     {
       "rel": "counters",
       "to": "Sovereign Shillizen"
+    },
+    {
+      "rel": "counters",
+      "to": "Playtriot"
     }
   ],
   "sort": {

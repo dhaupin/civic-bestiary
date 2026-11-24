@@ -30,6 +30,10 @@
     {
       "rel": "counters",
       "to": "Decorumancer"
+    },
+    {
+      "rel": "counters",
+      "to": "Filibluster"
     }
   ],
   "sort": {

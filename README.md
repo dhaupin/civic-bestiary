@@ -481,7 +481,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"They had the votes for the bill and not the votes for **cloture**, so the week went to the calendar and the bill went to the next session."*
 * **Easily confused with:** *Filibluster* - The filibluster spends the clock to stop a vote; cloture spends the clock to force one. Same clock, opposite buyer.
-* **Counters:** [*Gallopologist*](#32-gallopologist)
+* **Counters:** [*Gallopologist*](#32-gallopologist), [*Filibluster*](#8-filibluster)
 * **Related Terms:** [*Discharge petition*](#17-discharge-petition), [*Omnibust*](#10-omnibust), [*Pocketveto*](#12-pocketveto)
 
 ---
@@ -499,7 +499,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The bill sat in committee for a year, the **discharge petition** reached 218 on a Tuesday, and the chair scheduled a hearing by Thursday."*
 * **Easily confused with:** *Cloture* - Cloture ends a debate in the chamber that is having it; a discharge petition takes the bill away from the chamber that is not.
-* **Counters:** [*Decorumancer*](#33-decorumancer)
+* **Counters:** [*Decorumancer*](#33-decorumancer), [*Filibluster*](#8-filibluster)
 * **Related Terms:** [*Filibluster*](#8-filibluster), [*Subpoenado*](#63-subpoenado)
 
 ---
@@ -2611,7 +2611,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Two years later the only proof of what the council had voted for was the **clerk**'s minutes, and the member who had denied it was reading them aloud."*
 * **Easily confused with:** *The archivist* - The clerk keeps what the body did this year; the archivist keeps what it did in 1974.
-* **Counters:** [*Sabotriot*](#5-sabotriot)
+* **Counters:** [*Sabotriot*](#5-sabotriot), [*Omnibust*](#10-omnibust), [*Pocketveto*](#12-pocketveto), [*Recessure*](#68-recessure)
 * **Practises:** [*Records request*](#137-records-request)
 * **Related Terms:** [*The poll worker*](#130-the-poll-worker), [*Records request*](#137-records-request)
 
@@ -2631,7 +2631,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The scanner jammed at nine, and the **poll worker** did what the training had covered: sealed the bin, called the county, and read the numbers into the log with an observer watching."*
 * **Easily confused with:** *The clerk* - The clerk records what the body did; the poll worker records what the voter did, one name at a time.
-* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen)
+* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen), [*Playtriot*](#1-playtriot)
 * **Practises:** [*The public count*](#142-the-public-count)
 * **Related Terms:** [*The public count*](#142-the-public-count), [*The auditor*](#136-the-auditor)
 
@@ -2651,7 +2651,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it."*
 * **Easily confused with:** *The librarian* - The archivist keeps the thing; the librarian finds it.
-* **Counters:** [*Mythstorian*](#59-mythstorian)
+* **Counters:** [*Mythstorian*](#59-mythstorian), [*Friday news dump*](#40-friday-news-dump), [*Pseudo-event*](#101-pseudo-event), [*Hypocontortionist*](#58-hypocontortionist)
 * **Practises:** [*The transcript*](#138-the-transcript)
 * **Related Terms:** [*The clerk*](#129-the-clerk), [*The transcript*](#138-the-transcript)
 
@@ -2691,7 +2691,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The letter said no, the **caseworker** read the appeal, found the clause the automated screen had missed, and the cheque arrived nine days later."*
 * **Easily confused with:** *The clerk* - The clerk records the decision; the caseworker delivers it to somebody who needs it by Friday.
-* **Counters:** [*Plutomartyr*](#87-plutomartyr)
+* **Counters:** [*Plutomartyr*](#87-plutomartyr), [*LARPtarian*](#3-larptarian)
 * **Practises:** [*The written reason*](#143-the-written-reason)
 * **Related Terms:** [*The written reason*](#143-the-written-reason), [*The auditor*](#136-the-auditor)
 
@@ -2711,7 +2711,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **editor** held the story a day, the second call changed the second paragraph, and the version that ran was the one that survived being read to the person it was about."*
 * **Easily confused with:** *The moderator* - The editor decides what is published; the moderator decides what gets answered.
-* **Counters:** [*Slopagandist*](#88-slopagandist)
+* **Counters:** [*Slopagandist*](#88-slopagandist), [*Bluecheck*](#91-bluecheck)
 * **Practises:** [*The second source*](#140-the-second-source)
 * **Related Terms:** [*The librarian*](#132-the-librarian), [*The second source*](#140-the-second-source)
 
@@ -2731,7 +2731,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **moderator** asked the same question three times, got three answers about something else, and said so on air - which was the whole of the remedy."*
 * **Easily confused with:** *The steelman* - The moderator runs the format; the steelman is what the format is for.
-* **Counters:** [*Sophistroll*](#25-sophistroll)
+* **Counters:** [*Sophistroll*](#25-sophistroll), [*Bothsidesing*](#35-bothsidesing), [*Heckler's veto*](#43-hecklers-veto), [*Rubber chicken circuit*](#95-rubber-chicken-circuit)
 * **Practises:** [*The steelman*](#141-the-steelman)
 * **Related Terms:** [*The editor*](#134-the-editor), [*The caseworker*](#133-the-caseworker)
 
@@ -2771,7 +2771,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website."*
 * **Easily confused with:** *The transcript* - The request gets the document the body already wrote; the transcript makes a document out of what it said.
-* **Counters:** [*Bleatkeeper*](#30-bleatkeeper), [*Briefing room*](#97-briefing-room)
+* **Counters:** [*Bleatkeeper*](#30-bleatkeeper), [*Briefing room*](#97-briefing-room), [*Crookmaxxing*](#61-crookmaxxing), [*Trial balloon*](#39-trial-balloon), [*Blueslip*](#67-blueslip)
 * **Related Terms:** [*The clerk*](#129-the-clerk), [*The audit*](#144-the-audit)
 
 ---
@@ -2790,7 +2790,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional."*
 * **Easily confused with:** *Records request* - The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.
-* **Counters:** [*Vaguebooking*](#36-vaguebooking), [*Cable panel*](#89-cable-panel)
+* **Counters:** [*Vaguebooking*](#36-vaguebooking), [*Cable panel*](#89-cable-panel), [*Motte hop*](#42-motte-hop), [*Subpoenado*](#63-subpoenado), [*Group chat*](#90-group-chat), [*Bootcurious*](#60-bootcurious), [*Dead cat*](#38-dead-cat)
 * **Related Terms:** [*The archivist*](#131-the-archivist), [*The second source*](#140-the-second-source)
 
 ---
@@ -2809,7 +2809,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead."*
 * **Easily confused with:** *The second source* - Lateral reading checks a claim against the world; the second source is the world agreeing to go on the record.
-* **Counters:** [*Algodemic*](#86-algodemic), [*The Feed*](#94-the-feed)
+* **Counters:** [*Algodemic*](#86-algodemic), [*The Feed*](#94-the-feed), [*Astroturfing*](#41-astroturfing)
 * **Related Terms:** [*The librarian*](#132-the-librarian), [*The steelman*](#141-the-steelman)
 
 ---
@@ -2828,7 +2828,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **second source** was the clerk's copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph."*
 * **Easily confused with:** *Lateral reading* - Lateral reading is what a reader does in ninety seconds; the second source is what a newsroom does in ninety minutes.
-* **Counters:** [*Slopagandist*](#88-slopagandist)
+* **Counters:** [*Slopagandist*](#88-slopagandist), [*Receiptbomb*](#37-receiptbomb), [*Patriotainer*](#7-patriotainer)
 * **Related Terms:** [*The editor*](#134-the-editor), [*The transcript*](#138-the-transcript)
 
 ---
@@ -2847,7 +2847,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"She wrote the **steelman** first, sent it to the person she disagreed with, got a 'yes, that's it', and only then wrote the reply."*
 * **Easily confused with:** *Bothsidesing* - Bothsidesing splits the difference; the steelman takes one side at its strongest and then argues with it.
-* **Counters:** [*Equivangelist*](#31-equivangelist)
+* **Counters:** [*Equivangelist*](#31-equivangelist), [*Biasographer*](#29-biasographer)
 * **Related Terms:** [*The moderator*](#135-the-moderator), [*Lateral reading*](#139-lateral-reading), [*The written reason*](#143-the-written-reason)
 
 ---
@@ -2885,7 +2885,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it."*
 * **Easily confused with:** *The transcript* - The transcript records what was said; the written reason records why it was decided.
-* **Counters:** [*Nonpology*](#65-nonpology), [*Spin room*](#98-spin-room)
+* **Counters:** [*Nonpology*](#65-nonpology), [*Spin room*](#98-spin-room), [*Capitulectual*](#62-capitulectual)
 * **Related Terms:** [*The caseworker*](#133-the-caseworker), [*The audit*](#144-the-audit)
 
 ---
@@ -2904,7 +2904,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **audit** sampled forty contracts, published the sampling method, and the finding survived three attempts to discredit it because the method was in the appendix."*
 * **Easily confused with:** *The public count* - The count is watched while it happens; the audit checks it afterwards, on a sample.
-* **Counters:** [*Frankincense*](#100-frankincense)
+* **Counters:** [*Frankincense*](#100-frankincense), [*Patriotainment*](#6-patriotainment), [*Flood the zone*](#44-flood-the-zone)
 * **Related Terms:** [*The auditor*](#136-the-auditor), [*Records request*](#137-records-request), [*The written reason*](#143-the-written-reason)
 
 ---
@@ -3000,7 +3000,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **public defender** had the file for eleven minutes, asked for the body-camera footage, and the charge was withdrawn before the second hearing."*
 * **Easily confused with:** *The juror* - The defender argues the case; the juror decides it, and neither can do the other's job.
-* **Counters:** [*Dramagogue*](#83-dramagogue)
+* **Counters:** [*Dramagogue*](#83-dramagogue), [*Qualified immunity*](#74-qualified-immunity)
 * **Practises:** [*Cross-examination*](#155-cross-examination)
 * **Related Terms:** [*Dramagogue*](#83-dramagogue), [*Cross-examination*](#155-cross-examination)
 
@@ -3020,7 +3020,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The form had been rewritten by the **translator**, and the number of people who missed the deadline because they could not tell it was a deadline fell by half."*
 * **Easily confused with:** *The librarian* - The librarian finds the source; the translator makes it usable by somebody who did not write it.
-* **Counters:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor)
+* **Counters:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*Freetard*](#2-freetard)
 * **Practises:** [*The written reason*](#143-the-written-reason)
 * **Related Terms:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*The written reason*](#143-the-written-reason)
 
@@ -3040,7 +3040,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **juror** asked for the transcript of the first interview, and the answer that had been quoted all week turned out to be a sentence about somebody else."*
 * **Easily confused with:** *The auditor* - The juror decides one case on the evidence; the auditor examines many on a sample.
-* **Counters:** [*Gallopologist*](#32-gallopologist)
+* **Counters:** [*Gallopologist*](#32-gallopologist), [*Perp walk*](#102-perp-walk)
 * **Practises:** [*The steelman*](#141-the-steelman)
 * **Related Terms:** [*Gallopologist*](#32-gallopologist), [*The steelman*](#141-the-steelman), [*The public defender*](#149-the-public-defender)
 
@@ -3060,7 +3060,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade."*
 * **Easily confused with:** *The auditor* - The auditor checks the books; the statistician checks the number everybody is quoting from them.
-* **Counters:** [*Xenophobricator*](#82-xenophobricator)
+* **Counters:** [*Xenophobricator*](#82-xenophobricator), [*Push poll*](#96-push-poll)
 * **Practises:** [*The audit*](#144-the-audit)
 * **Related Terms:** [*Xenophobricator*](#82-xenophobricator), [*The audit*](#144-the-audit)
 
@@ -3080,7 +3080,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned."*
 * **Easily confused with:** *School board meeting* - The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.
-* **Counters:** [*Signaway*](#69-signaway), [*School board meeting*](#66-school-board-meeting)
+* **Counters:** [*Signaway*](#69-signaway), [*School board meeting*](#66-school-board-meeting), [*Ragesturbationist*](#84-ragesturbationist)
 * **Related Terms:** [*Signaway*](#69-signaway), [*The written reason*](#143-the-written-reason)
 
 ---
@@ -3118,7 +3118,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version."*
 * **Easily confused with:** *The steelman* - The steelman strengthens the other side's argument; cross-examination finds out whether it holds.
-* **Counters:** [*Martyrholic*](#85-martyrholic)
+* **Counters:** [*Martyrholic*](#85-martyrholic), [*JAQing Off*](#27-jaqing-off)
 * **Related Terms:** [*Martyrholic*](#85-martyrholic), [*The transcript*](#138-the-transcript)
 
 ---

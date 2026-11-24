@@ -39,6 +39,18 @@
     {
       "rel": "counters",
       "to": "Briefing room"
+    },
+    {
+      "rel": "counters",
+      "to": "Crookmaxxing"
+    },
+    {
+      "rel": "counters",
+      "to": "Trial balloon"
+    },
+    {
+      "rel": "counters",
+      "to": "Blueslip"
     }
   ],
   "sort": {

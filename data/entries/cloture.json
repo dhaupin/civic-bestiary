@@ -30,6 +30,10 @@
     {
       "rel": "counters",
       "to": "Gallopologist"
+    },
+    {
+      "rel": "counters",
+      "to": "Filibluster"
     }
   ],
   "sort": {
