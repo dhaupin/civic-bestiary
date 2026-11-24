@@ -43,5 +43,10 @@
       "rel": "commits",
       "to": "Appeal to motive"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 5
+  }
 }

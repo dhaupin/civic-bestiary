@@ -35,5 +35,10 @@
       "rel": "commits",
       "to": "Whataboutism"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 5
+  }
 }

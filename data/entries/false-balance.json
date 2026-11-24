@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · False balance",
     "url": "https://en.wikipedia.org/wiki/False_balance"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 2
   }
 }

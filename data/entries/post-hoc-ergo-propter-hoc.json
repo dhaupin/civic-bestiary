@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Post hoc ergo propter hoc",
     "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 4
   }
 }

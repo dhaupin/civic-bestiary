@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Appeal to authority",
     "url": "https://en.wikipedia.org/wiki/Appeal_to_authority"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
   }
 }

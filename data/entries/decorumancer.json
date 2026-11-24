@@ -39,5 +39,10 @@
       "rel": "commits",
       "to": "Ad hominem"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 3
+  }
 }

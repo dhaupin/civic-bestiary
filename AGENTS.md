@@ -103,6 +103,25 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
 3. `python3 build.py && python3 build_site.py`, then `npm --prefix web run build`.
 4. Review the README diff and the new entry page.
 
+## Sort axes
+
+`schema/record.json` owns `sorts`: three axes every record scores 1-5, and a `sorts` list per kind naming
+which apply. Today all kinds carry all three.
+
+| axis | question it answers |
+|---|---|
+| `impact` | how much damage it does to the thing it touches |
+| `abuse` | how often you actually meet it |
+| `blowback` | what it costs the one who uses it |
+
+`sort` is a field on every record and `build.py` refuses an entry that skips an axis its kind supports or
+scores outside 1-5. The site reads them through `sortByAxis()` in `src/lexicon.js`; views default to `impact`,
+except `/fallacies/`, which opens on `abuse` - the most abused first, which is the order that page is for.
+
+Sorting is **within** a group, never across one: a chapter keeps its chapters, a family keeps its family, and
+the coinage/fallacy seam keeps its seam. Ties fall back to `position`, so the order is identical in the
+prerender and after hydration. `position` is the curated field order and stays available as "Field order".
+
 ## The fallacies
 
 Fifty documented fallacies live in `data/entries/` beside the coinages, as `kind: fallacy`. They are not

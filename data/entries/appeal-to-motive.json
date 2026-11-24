@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Appeal to motive",
     "url": "https://en.wikipedia.org/wiki/Appeal_to_motive"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
   }
 }

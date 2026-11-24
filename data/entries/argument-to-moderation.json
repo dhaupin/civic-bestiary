@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Argument to moderation",
     "url": "https://en.wikipedia.org/wiki/Argument_to_moderation"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
   }
 }

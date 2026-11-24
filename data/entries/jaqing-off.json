@@ -39,5 +39,10 @@
       "rel": "commits",
       "to": "Sealioning"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
 }

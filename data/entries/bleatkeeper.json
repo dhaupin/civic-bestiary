@@ -39,5 +39,10 @@
       "rel": "commits",
       "to": "Argumentum ad populum"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 4
+  }
 }

@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Argument from silence",
     "url": "https://en.wikipedia.org/wiki/Argument_from_silence"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 2,
+    "blowback": 4
   }
 }

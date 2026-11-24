@@ -51,5 +51,10 @@
       "rel": "houses",
       "to": "Appeal to tradition"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 1
+  }
 }

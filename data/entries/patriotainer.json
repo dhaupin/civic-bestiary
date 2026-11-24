@@ -52,5 +52,10 @@
       "rel": "commits",
       "to": "Appeal to ridicule"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
+  }
 }

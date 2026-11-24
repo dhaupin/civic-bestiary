@@ -18,7 +18,7 @@ import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site from '../site.js'
 import {
-  chapters, entries, kindsList, matches, stats, voiceLabel,
+  chapters, defaultAxis, entries, kindsList, matches, sortByAxis, sorts, stats, voiceLabel,
 } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
 
@@ -92,6 +92,10 @@ export default function Guide() {
 
   const [query, setQuery] = useState('')
   const [letter, setLetter] = useState(null)
+  // The axes a record can be read by. 'position' is the curated field order;
+  // everything else comes from the schema, so a new axis is a data change.
+  const [axis, setAxis] = useState(() => defaultAxis(view))
+  const axes = [{ id: 'position', label: 'Field order' }, ...sorts]
 
   const present = useMemo(() => new Set(entries.map((entry) => entry.term[0].toUpperCase())), [])
   const populatedKinds = kindsList.filter((spec) => stats.kinds[spec.id] > 0)
@@ -103,10 +107,13 @@ export default function Guide() {
     [view.kind, view.chapter],
   )
   const visible = useMemo(
-    () => master.filter((entry) => (
-      (!letter || entry.term[0].toUpperCase() === letter) && matches(entry, query)
-    )),
-    [master, letter, query],
+    () => sortByAxis(
+      master.filter((entry) => (
+        (!letter || entry.term[0].toUpperCase() === letter) && matches(entry, query)
+      )),
+      axis,
+    ),
+    [master, letter, query, axis],
   )
 
   // Where the view is only fallacies - their kind page, or the strays chapter -
@@ -143,6 +150,7 @@ export default function Guide() {
   const clearAll = () => {
     setQuery('')
     setLetter(null)
+    setAxis(defaultAxis(view))
     if (scoped) navigate('/guide/')
   }
 
@@ -249,6 +257,22 @@ export default function Guide() {
           </div>
         )}
 
+        <div className="chips chips-sort" role="group" aria-label="Sort this view">
+          <span className="chips-label">Sort</span>
+          {axes.map((item) => (
+            <button
+              key={item.id}
+              type="button"
+              className={chip(axis === item.id)}
+              onClick={() => setAxis(item.id)}
+              aria-pressed={axis === item.id}
+              title={item.hint}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+
         <nav className="atoz" aria-label="Filter by letter">
           {ALPHABET.map((item) => (
             present.has(item) ? (
@@ -272,6 +296,7 @@ export default function Guide() {
             ? `${master.length} ${master.length === 1 ? 'entry' : 'entries'}`
             : `${visible.length} of ${master.length} entries`}
           {scoped && ` · ${stats.entries} in the guide`}
+          {axis !== 'position' && ` · by ${axes.find((item) => item.id === axis).label.toLowerCase()}`}
         </p>
 
         {master.length === 0 && (
@@ -325,6 +350,11 @@ export default function Guide() {
                       <span className={`badge badge-${entry.kind}`}>{entry.kindLabel}</span>
                       <span>{entry.partOfSpeech}</span>
                       <span className="ipa">{entry.ipa}</span>
+                      {axis !== 'position' && entry.sort?.[axis] != null && (
+                        <span className="listing-score" title={`${axes.find((item) => item.id === axis).label} ${entry.sort[axis]} of 5`}>
+                          {entry.sort[axis]}
+                        </span>
+                      )}
                     </p>
                   </div>
                   <p className="listing-call">

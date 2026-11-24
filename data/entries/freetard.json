@@ -44,5 +44,10 @@
       "rel": "commits",
       "to": "Two wrongs make a right"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 4
+  }
 }

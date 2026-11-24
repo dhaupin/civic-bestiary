@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Argumentum ad populum",
     "url": "https://en.wikipedia.org/wiki/Argumentum_ad_populum"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
   }
 }

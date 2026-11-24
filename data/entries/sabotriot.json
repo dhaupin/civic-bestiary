@@ -35,5 +35,10 @@
       "rel": "commits",
       "to": "Slippery slope"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 5
+  }
 }

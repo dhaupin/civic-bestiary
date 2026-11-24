@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Thought-terminating cliché",
     "url": "https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
   }
 }

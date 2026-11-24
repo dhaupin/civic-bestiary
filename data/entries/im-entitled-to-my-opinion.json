@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · I'm entitled to my opinion",
     "url": "https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion"
+  },
+  "sort": {
+    "impact": 2,
+    "abuse": 4,
+    "blowback": 2
   }
 }

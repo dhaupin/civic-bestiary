@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Motte-and-bailey fallacy",
     "url": "https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 4
   }
 }

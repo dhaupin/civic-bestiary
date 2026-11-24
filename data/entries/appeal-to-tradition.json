@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Appeal to tradition",
     "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
   }
 }

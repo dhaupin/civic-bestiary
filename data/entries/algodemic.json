@@ -47,5 +47,10 @@
       "rel": "commits",
       "to": "Appeal to novelty"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 2
+  }
 }

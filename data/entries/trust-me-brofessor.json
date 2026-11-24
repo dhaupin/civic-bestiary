@@ -43,5 +43,10 @@
       "rel": "commits",
       "to": "Shifting the burden of proof"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 5,
+    "blowback": 4
+  }
 }

@@ -35,5 +35,10 @@
       "rel": "commits",
       "to": "Equivocation"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
+  }
 }

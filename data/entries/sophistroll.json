@@ -55,5 +55,10 @@
       "rel": "commits",
       "to": "Poisoning the well"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
 }

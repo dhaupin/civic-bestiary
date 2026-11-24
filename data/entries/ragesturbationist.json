@@ -39,5 +39,10 @@
       "rel": "commits",
       "to": "Appeal to emotion"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
+  }
 }

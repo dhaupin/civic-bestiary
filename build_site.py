@@ -16,7 +16,7 @@ import re
 import sys
 from pathlib import Path
 
-from build import SCHEMA, load, slugify
+from build import SCHEMA, SORTS, load, slugify
 
 ROOT = Path(__file__).parent
 OUTPUT = ROOT / "web" / "src" / "data" / "lexicon.js"
@@ -78,6 +78,7 @@ def build(doc):
             {"key": row["key"], "label": row["label"], "type": row["type"]}
             for row in spec["identification"]
         ],
+        "sorts": spec.get("sorts", []),
     } for key, spec in SCHEMA["kinds"].items()}
 
     relations = SCHEMA["relations"]
@@ -108,6 +109,8 @@ def build(doc):
                 "chapterTitle": chapter["title"],
                 "partOfSpeech": entry["part_of_speech"],
                 "ipa": entry.get("ipa"),
+                "position": entry["position"],
+                "sort": entry.get("sort", {}),
                 "etymology": entry["etymology"],
                 "identification": [
                     {
@@ -185,6 +188,11 @@ def build(doc):
             "kinds": counts,
         },
         "kinds": kinds,
+        "sorts": [
+            {"id": axis, "label": spec["label"], "hint": spec.get("hint", ""),
+             "scale": spec.get("scale", 5)}
+            for axis, spec in SORTS.items()
+        ],
         "chapters": chapters,
         "entries": entries,
     }
@@ -192,7 +200,7 @@ def build(doc):
 
 def render(data):
     parts = [BANNER, ""]
-    for key in ("meta", "preface", "stats", "kinds", "chapters", "entries"):
+    for key in ("meta", "preface", "stats", "sorts", "kinds", "chapters", "entries"):
         parts.append(f"export const {key} = {json.dumps(data[key], indent=2, ensure_ascii=False)}")
         parts.append("")
     return "\n".join(parts).rstrip() + "\n"

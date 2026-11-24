@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · No true Scotsman",
     "url": "https://en.wikipedia.org/wiki/No_true_Scotsman"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 3
   }
 }

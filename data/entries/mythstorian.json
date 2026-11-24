@@ -43,5 +43,10 @@
       "rel": "commits",
       "to": "False attribution"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 3
+  }
 }

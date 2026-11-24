@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Appeal to emotion",
     "url": "https://en.wikipedia.org/wiki/Appeal_to_emotion"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 2
   }
 }

@@ -35,6 +35,10 @@ KINDS = SCHEMA["kinds"]
 # decides which kinds may point at which, and each edge renders backwards on
 # its target page without anyone authoring the inverse.
 RELATIONS = SCHEMA["relations"]
+# Sort axes are schema, not presentation: a kind declares which ones it supports
+# and every record scores all of them, so a view can order by any axis without
+# knowing what a record is about.
+SORTS = SCHEMA["sorts"]
 REQUIRED = tuple(field["key"] for field in SCHEMA["fields"] if field.get("required"))
 
 
@@ -118,6 +122,20 @@ def validate(doc):
             errors.append(f"{name}: a {kind} should not carry {', '.join(stray)}")
         if not isinstance(entry.get("position"), int):
             errors.append(f"{name}: position must be an integer")
+        axes = KINDS[kind].get("sorts", [])
+        scores = entry.get("sort") or {}
+        unscored = [axis for axis in axes if axis not in scores]
+        if unscored:
+            errors.append(f"{name}: missing sort scores for {', '.join(unscored)}")
+        unknown_axis = [axis for axis in scores if axis not in axes]
+        if unknown_axis:
+            errors.append(f"{name}: {kind} does not sort by {', '.join(unknown_axis)}")
+        for axis, value in scores.items():
+            if axis not in SORTS:
+                continue
+            top = SORTS[axis].get("scale", 5)
+            if not isinstance(value, int) or not 1 <= value <= top:
+                errors.append(f"{name}: sort.{axis} must be an integer 1-{top}")
         if entry.get("chapter") not in chapters:
             errors.append(f"{name}: unknown chapter {entry.get('chapter')!r}")
         for row in KINDS[kind]["identification"]:

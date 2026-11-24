@@ -39,5 +39,10 @@
       "rel": "commits",
       "to": "Appeal to consequences"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 2
+  }
 }

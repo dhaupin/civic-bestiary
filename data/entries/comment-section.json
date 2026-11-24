@@ -51,5 +51,10 @@
       "rel": "houses",
       "to": "Appeal to the stone"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 5,
+    "blowback": 2
+  }
 }

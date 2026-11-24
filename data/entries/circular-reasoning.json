@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Circular reasoning",
     "url": "https://en.wikipedia.org/wiki/Circular_reasoning"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 2,
+    "blowback": 4
   }
 }

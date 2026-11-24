@@ -4,9 +4,9 @@
  * The data module is generated from lexicon.json by build_site.py. Nothing in
  * src/ imports the JSON directly, so that generated shape is the single seam.
  */
-import { chapters, entries, kinds, meta, preface, stats } from './data/lexicon.js'
+import { chapters, entries, kinds, meta, preface, sorts, stats } from './data/lexicon.js'
 
-export { chapters, entries, kinds, meta, preface, stats }
+export { chapters, entries, kinds, meta, preface, sorts, stats }
 
 /** The kinds as a list, in schema order, for chips and legends. */
 export const kindsList = Object.entries(kinds).map(([id, spec]) => ({ id, ...spec }))
@@ -54,4 +54,24 @@ export function matches(entry, query) {
     .join(' ')
     .toLowerCase()
   return haystack.includes(needle)
+}
+
+/**
+ * Order a view by one of the schema's sort axes.
+ *
+ * 'position' is the curated field order - the order the records were written
+ * in - so every other axis is a re-reading of the same list rather than a
+ * different list. Ties fall back to field order, which keeps the result stable
+ * between renders and between the prerender and the client.
+ */
+export function sortByAxis(items, axis) {
+  if (!axis || axis === 'position') return items
+  return [...items].sort((a, b) => (
+    (b.sort?.[axis] ?? 0) - (a.sort?.[axis] ?? 0) || a.position - b.position
+  ))
+}
+
+/** Which axis a view opens on: fallacies lead with how abused they are. */
+export function defaultAxis(view) {
+  return view?.kind?.id === 'fallacy' ? 'abuse' : 'impact'
 }

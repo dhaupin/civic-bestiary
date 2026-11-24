@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Appeal to nature",
     "url": "https://en.wikipedia.org/wiki/Appeal_to_nature"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 2
   }
 }

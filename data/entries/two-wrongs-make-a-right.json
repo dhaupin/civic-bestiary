@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Two wrongs make a right",
     "url": "https://en.wikipedia.org/wiki/Two_wrongs_make_a_right"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 3
   }
 }

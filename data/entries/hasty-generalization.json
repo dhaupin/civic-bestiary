@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Hasty generalization",
     "url": "https://en.wikipedia.org/wiki/Hasty_generalization"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 3
   }
 }

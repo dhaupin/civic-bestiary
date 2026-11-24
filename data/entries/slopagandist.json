@@ -51,5 +51,10 @@
       "rel": "commits",
       "to": "Gish gallop"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 2
+  }
 }

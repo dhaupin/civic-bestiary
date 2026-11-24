@@ -50,5 +50,10 @@
       "rel": "houses",
       "to": "Proof by assertion"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
 }

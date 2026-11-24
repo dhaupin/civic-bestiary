@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · False dilemma",
     "url": "https://en.wikipedia.org/wiki/False_dilemma"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 3
   }
 }

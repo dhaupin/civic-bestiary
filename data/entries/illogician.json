@@ -47,5 +47,10 @@
       "rel": "commits",
       "to": "Appeal to the stone"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 3
+  }
 }

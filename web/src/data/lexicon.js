@@ -27,6 +27,27 @@ export const stats = {
   }
 }
 
+export const sorts = [
+  {
+    "id": "impact",
+    "label": "Impact",
+    "hint": "How much damage it does to the thing it touches - public trust, a person's standing, the soundness of an argument.",
+    "scale": 5
+  },
+  {
+    "id": "abuse",
+    "label": "Abuse",
+    "hint": "How often you actually meet it. The axis that puts the popular ones first.",
+    "scale": 5
+  },
+  {
+    "id": "blowback",
+    "label": "Blowback",
+    "hint": "What it costs the one who uses it, once somebody notices.",
+    "scale": 5
+  }
+]
+
 export const kinds = {
   "species": {
     "label": "Species",
@@ -50,6 +71,11 @@ export const kinds = {
         "label": "Field marks",
         "type": "list"
       }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
     ]
   },
   "move": {
@@ -74,6 +100,11 @@ export const kinds = {
         "label": "Counter",
         "type": "text"
       }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
     ]
   },
   "ability": {
@@ -98,6 +129,11 @@ export const kinds = {
         "label": "Counter",
         "type": "text"
       }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
     ]
   },
   "habitat": {
@@ -122,6 +158,11 @@ export const kinds = {
         "label": "Signature",
         "type": "text"
       }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
     ]
   },
   "buff": {
@@ -146,6 +187,11 @@ export const kinds = {
         "label": "Expires",
         "type": "text"
       }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
     ]
   },
   "fallacy": {
@@ -175,6 +221,11 @@ export const kinds = {
         "label": "Counter",
         "type": "text"
       }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
     ]
   }
 }
@@ -315,6 +366,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈpleɪ.tri.ət/",
+    "position": 1,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 3
+    },
     "etymology": "Blend of \"play\" + \"patriot\"",
     "identification": [
       {
@@ -420,6 +477,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈfriː.tɑːrd/",
+    "position": 2,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 4
+    },
     "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",
     "identification": [
       {
@@ -508,6 +571,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈlɑːrpˌtɛər.i.ən/",
+    "position": 3,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
     "identification": [
       {
@@ -603,6 +672,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈsɒv.rɪn ˈʃɪl.ɪ.zən/",
+    "position": 4,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 5
+    },
     "etymology": "Blend of \"sovereign citizen\" + \"shill\"",
     "identification": [
       {
@@ -698,6 +773,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈsæb.ə.tri.ət/",
+    "position": 5,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 5
+    },
     "etymology": "Blend of \"saboteur\" + \"patriot\"",
     "identification": [
       {
@@ -774,6 +855,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈpeɪ.tri.ə.ˌteɪn.mənt/",
+    "position": 6,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
     "etymology": "Blend of \"patriot\" + \"entertainment\"",
     "identification": [
       {
@@ -879,6 +966,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈpeɪ.tri.ə.ˌteɪ.nər/",
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
     "identification": [
       {
@@ -986,6 +1079,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 101,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 4
+    },
     "etymology": "The image is physical: one step onto the incline, and gravity is left to finish the argument.",
     "identification": [
       {
@@ -1062,6 +1161,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 102,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
     "identification": [
       {
@@ -1138,6 +1243,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 103,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Latin: argumentum ad antiquitatem - the old is treated as the proven.",
     "identification": [
       {
@@ -1228,6 +1339,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 104,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 2
+    },
     "etymology": "Latin: argumentum ad naturam - the natural is treated as the good, as though the word carried a verdict.",
     "identification": [
       {
@@ -1304,6 +1421,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 105,
+    "sort": {
+      "impact": 3,
+      "abuse": 5,
+      "blowback": 3
+    },
     "etymology": "From mathematics, where a proof is a demonstration - and this is the counterfeit: the conclusion, repeated.",
     "identification": [
       {
@@ -1401,6 +1524,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 106,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
     "etymology": "From accounting: money already spent is gone, and no decision can bring it back.",
     "identification": [
       {
@@ -1477,6 +1606,12 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 107,
+    "sort": {
+      "impact": 2,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "A legal phrase spent as an epistemic one: the right to hold a view is offered as a reason it cannot be challenged.",
     "identification": [
       {
@@ -1553,6 +1688,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈsɒf.ɪ.stroʊl/",
+    "position": 1,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "Blend of \"sophist\" + \"troll\"",
     "identification": [
       {
@@ -1664,6 +1805,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˌɪl.əˈdʒɪʃ.ən/",
+    "position": 2,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Blend of \"illogical\" + \"logician\"",
     "identification": [
       {
@@ -1761,6 +1908,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "verb phrase / gerund",
     "ipa": "/ˈdʒæk.ɪŋ ɒf/",
+    "position": 3,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Blend of \"JAQ\" [\"Just Asking Questions\"] + vulgar slang \"jacking off\"",
     "identification": [
       {
@@ -1855,6 +2008,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˌtrʌst.miː.broʊˈfɛs.ər/",
+    "position": 4,
+    "sort": {
+      "impact": 3,
+      "abuse": 5,
+      "blowback": 4
+    },
     "etymology": "Blend of \"trust me, bro\" + \"professor\"",
     "identification": [
       {
@@ -1945,6 +2104,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˌbaɪ.əˈsɒɡ.rə.fər/",
+    "position": 5,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 4
+    },
     "etymology": "Blend of \"bias\" + \"biographer\" / \"bibliographer\"",
     "identification": [
       {
@@ -2042,6 +2207,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈbliːtˌkiː.pər/",
+    "position": 6,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 4
+    },
     "etymology": "Blend of \"bleat\" + \"gatekeeper\"",
     "identification": [
       {
@@ -2125,6 +2296,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ɪˈkwɪv.æn.dʒə.lɪst/",
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Blend of \"equivocate\" + \"evangelist\"",
     "identification": [
       {
@@ -2206,6 +2383,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ɡəˈlɒp.ɒl.ə.dʒɪst/",
+    "position": 8,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "Blend of \"gish gallop\" + \"-ologist\"",
     "identification": [
       {
@@ -2296,6 +2479,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈdɛk.ər.əm.ˌæn.sər/",
+    "position": 9,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Blend of \"decorum\" + \"necromancer\"",
     "identification": [
       {
@@ -2379,6 +2568,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈkɒm.ɛnt ˌsɛk.ʃən/",
+    "position": 10,
+    "sort": {
+      "impact": 3,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "English: the box under the article - named for the conversation it was meant to continue.",
     "identification": [
       {
@@ -2486,6 +2681,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 101,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 3
+    },
     "etymology": "Latin: argumentum ad hominem, “argument to the person” - the target moves from the claim to the one who made it.",
     "identification": [
       {
@@ -2576,6 +2777,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 102,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "From the training dummy: a figure stuffed with straw is easier to knock down than the man holding the argument.",
     "identification": [
       {
@@ -2657,6 +2864,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 103,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Latin: argumentum ad verecundiam, an appeal to deference - the argument from the shame of disagreeing with a great name.",
     "identification": [
       {
@@ -2747,6 +2960,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 104,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Also the either-or fallacy: the Greek dilemma names two horns, and the trick is to admit only two.",
     "identification": [
       {
@@ -2823,6 +3042,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 105,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Also the fallacy of many questions: a question that carries its conclusion in the presupposition.",
     "identification": [
       {
@@ -2906,6 +3131,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 106,
+    "sort": {
+      "impact": 3,
+      "abuse": 2,
+      "blowback": 4
+    },
     "etymology": "Latin: circulus in probando, “a circle in the proving” - the premise and the conclusion take turns holding each other up.",
     "identification": [
       {
@@ -2982,6 +3213,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 107,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 4
+    },
     "etymology": "Latin: argumentum ad ignorantiam - the absence of proof is offered as proof.",
     "identification": [
       {
@@ -3072,6 +3309,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 108,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "From policing: the offence is not what was said but the manner of saying it.",
     "identification": [
       {
@@ -3148,6 +3391,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 109,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
     "etymology": "From the medieval castle: a modest motte that is easy to defend, and a rich bailey that is not.",
     "identification": [
       {
@@ -3224,6 +3473,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 110,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 5
+    },
     "etymology": "From the marksman who fires into a barn and then paints the target around the tightest cluster.",
     "identification": [
       {
@@ -3300,6 +3555,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 111,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "From the siege tactic: foul the water before the argument arrives, and it never has to be fought.",
     "identification": [
       {
@@ -3376,6 +3637,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 112,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "From “nut” in the American sense: cherry picking the most extreme case and calling it the group.",
     "identification": [
       {
@@ -3466,6 +3733,12 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 113,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 1
+    },
     "etymology": "From the webcomic: a sea lion follows you home, politely demanding that you justify yourself, forever.",
     "identification": [
       {
@@ -3549,6 +3822,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": "/ˌhɪp.oʊ.kənˈtɔːr.ʃən.ɪst/",
+    "position": 1,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 4
+    },
     "etymology": "Blend of \"hypocrite\" + \"contortionist\"",
     "identification": [
       {
@@ -3644,6 +3923,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": "/ˈmɪθˌstɔːr.i.ən/",
+    "position": 2,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "Blend of \"myth\" + \"historian\"",
     "identification": [
       {
@@ -3739,6 +4024,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun / adjective",
     "ipa": "/ˈbuːtˌkjʊər.i.əs/",
+    "position": 3,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 4
+    },
     "etymology": "Blend of \"bootlicker\" + \"curious\"",
     "identification": [
       {
@@ -3837,6 +4128,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈkrʊkˌmæk.sɪŋ/",
+    "position": 4,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 5
+    },
     "etymology": "Blend of \"crook\" + \"-maxxing\"",
     "identification": [
       {
@@ -3916,6 +4213,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": "/kəˌpɪtʃ.uˈlɛk.tʃu.əl/",
+    "position": 5,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Blend of \"capitulate\" + \"intellectual\"",
     "identification": [
       {
@@ -4011,6 +4314,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 101,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "From the proverb, inverted: the move takes a well-known warning and uses it as a defence.",
     "identification": [
       {
@@ -4101,6 +4410,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 102,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 4
+    },
     "etymology": "Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.",
     "identification": [
       {
@@ -4177,6 +4492,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 103,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 4
+    },
     "etymology": "From law: a plea that asks the court to apply a different rule to this case, with no reason given for the exception.",
     "identification": [
       {
@@ -4260,6 +4581,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 104,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Also the middle ground fallacy: the midpoint between two positions is treated as the truth by construction.",
     "identification": [
       {
@@ -4336,6 +4663,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 105,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Also bothsidesism: the studio graph with two guests, as though the shape of the panel were the shape of the evidence.",
     "identification": [
       {
@@ -4419,6 +4752,12 @@ export const entries = [
     "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 106,
+    "sort": {
+      "impact": 3,
+      "abuse": 2,
+      "blowback": 4
+    },
     "etymology": "Latin: argumentum ex silentio - nothing was said, so the nothing is read as a statement.",
     "identification": [
       {
@@ -4502,6 +4841,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌzɛn.əˈfoʊ.brɪ.keɪ.tər/",
+    "position": 1,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 5
+    },
     "etymology": "Blend of \"xenophobe\" + \"fabricator\"",
     "identification": [
       {
@@ -4592,6 +4937,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈdræm.ə.ɡɒɡ/",
+    "position": 2,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Blend of \"drama\" + \"demagogue\"",
     "identification": [
       {
@@ -4675,6 +5026,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌreɪdʒ.stərˈbeɪ.ʃən.ɪst/",
+    "position": 3,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",
     "identification": [
       {
@@ -4758,6 +5115,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌmɑːr.tərˈhɒl.ɪk/",
+    "position": 4,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Blend of \"martyr\" + \"-holic\"",
     "identification": [
       {
@@ -4848,6 +5211,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌæl.ɡoʊˈdɛm.ɪk/",
+    "position": 5,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",
     "identification": [
       {
@@ -4945,6 +5314,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈpluː.toʊ.ˌmɑːr.tər/",
+    "position": 6,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "Blend of \"plutocrat\" + \"martyr\"",
     "identification": [
       {
@@ -5035,6 +5410,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈslɒp.ə.ˌɡæn.dɪst/",
+    "position": 7,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "Blend of \"slop\" + \"propagandist\"",
     "identification": [
       {
@@ -5139,6 +5520,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈkeɪ.bəl ˈpæn.əl/",
+    "position": 8,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
     "etymology": "English: a panel is a flat board, and then a group of people arranged in front of one.",
     "identification": [
       {
@@ -5241,6 +5628,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈɡruːp tʃæt/",
+    "position": 9,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 1
+    },
     "etymology": "English: a chat that is also a group, which is the whole problem.",
     "identification": [
       {
@@ -5348,6 +5741,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 101,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "Latin: argumentum ad passiones, an argument addressed to feeling rather than to the claim.",
     "identification": [
       {
@@ -5452,6 +5851,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 102,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Latin: argumentum ad metum. The oldest political argument, and the one with the shortest feedback loop.",
     "identification": [
       {
@@ -5535,6 +5940,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 103,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 4
+    },
     "etymology": "From the pitch: the shot went in, so the posts are moved back and the point does not count.",
     "identification": [
       {
@@ -5611,6 +6022,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 104,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 4
+    },
     "etymology": "From the aircraft that returned: the armour study nearly went to the wings, until someone asked about the planes that did not come back.",
     "identification": [
       {
@@ -5687,6 +6104,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 105,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
     "etymology": "Also guilt by association: the company a claim keeps is treated as the claim itself.",
     "identification": [
       {
@@ -5763,6 +6186,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 106,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Also the circumstantial ad hominem: the argument is answered with an account of why the arguer wants it to be true.",
     "identification": [
       {
@@ -5839,6 +6268,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 107,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Latin: argumentum ad misericordiam - the claim is supported by how much its speaker has suffered.",
     "identification": [
       {
@@ -5929,6 +6364,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 108,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Latin: “to the point of sickness” - the argument that wins by making the audience tired.",
     "identification": [
       {
@@ -6019,6 +6460,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 109,
+    "sort": {
+      "impact": 2,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "Latin: argumentum ad novitatem - the newest thing is treated as the best thing, and the year as an argument.",
     "identification": [
       {
@@ -6095,6 +6542,12 @@ export const entries = [
     "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 110,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "Latin: argumentum ad consequentiam - the belief is judged by how it would feel for it to be true.",
     "identification": [
       {
@@ -6171,6 +6624,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 1,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Latin: secundum quid, “according to a particular” - a rule drawn from too narrow a sample.",
     "identification": [
       {
@@ -6254,6 +6713,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 2,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 4
+    },
     "etymology": "From the orchard: you pick the fruit that looks best and leave the rest on the tree for someone else to find.",
     "identification": [
       {
@@ -6344,6 +6809,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 3,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Latin: false equivalence, or the apples-and-oranges move. The failure is in the comparison, not in either thing compared.",
     "identification": [
       {
@@ -6427,6 +6898,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 4,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "From the Greek anekdota, “unpublished things” - the story that never made it into the record.",
     "identification": [
       {
@@ -6510,6 +6987,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 5,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 4
+    },
     "etymology": "Latin: aequus vox, “equal voice” - one word doing two jobs in the same argument.",
     "identification": [
       {
@@ -6593,6 +7076,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 6,
+    "sort": {
+      "impact": 3,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "Latin: “you too” - the second-person form of the two-wrongs move, and the most common sentence on the internet.",
     "identification": [
       {
@@ -6683,6 +7172,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "Named for the Soviet reply to every complaint: “and what about…?”",
     "identification": [
       {
@@ -6780,6 +7275,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 8,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Also argumentum ad ridiculum: the claim is answered with a joke about it, and the joke counts as the answer.",
     "identification": [
       {
@@ -6870,6 +7371,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 9,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Latin: “to the people” - the crowd is treated as the evidence, and the bandwagon as the proof.",
     "identification": [
       {
@@ -6953,6 +7460,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 10,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
     "etymology": "Named by Robert Jay Lifton in his study of thought reform: a phrase that ends the thinking rather than the question.",
     "identification": [
       {
@@ -7043,6 +7556,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 11,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 5
+    },
     "etymology": "Also quoting out of context: the words are real, the sentence they were in is gone.",
     "identification": [
       {
@@ -7133,6 +7652,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 12,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
     "etymology": "Latin: onus probandi. The burden sits with whoever makes the claim - and the shift is the act of handing it over.",
     "identification": [
       {
@@ -7216,6 +7741,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 13,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 3
+    },
     "etymology": "Named after Duane Gish, who debated by assertion density: more claims per minute than anyone could answer.",
     "identification": [
       {
@@ -7306,6 +7837,12 @@ export const entries = [
     "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
+    "position": 14,
+    "sort": {
+      "impact": 2,
+      "abuse": 4,
+      "blowback": 2
+    },
     "etymology": "Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying “I refute it thus”.",
     "identification": [
       {

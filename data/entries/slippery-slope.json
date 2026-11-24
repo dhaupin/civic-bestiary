@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Slippery slope",
     "url": "https://en.wikipedia.org/wiki/Slippery_slope"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 4
   }
 }

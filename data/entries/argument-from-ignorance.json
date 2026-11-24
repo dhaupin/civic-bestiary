@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Argument from ignorance",
     "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 4
   }
 }

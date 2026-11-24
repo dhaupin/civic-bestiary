@@ -43,5 +43,10 @@
       "rel": "commits",
       "to": "I'm entitled to my opinion"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 5
+  }
 }

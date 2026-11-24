@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { NAV_ITEMS, FOOTER_EXTRAS } from './navItems.js'
+import { CHAPTER_LINKS, FOOTER_EXTRAS, KIND_LINKS, NAV_ITEMS } from './navItems.js'
 import site from '../site.js'
 import ThemeSwitch from './ThemeSwitch.jsx'
 
@@ -14,6 +14,9 @@ import ThemeSwitch from './ThemeSwitch.jsx'
 // The header carries the site's routes only. Outbound surfaces (GitHub) live in
 // the sidebar's "Elsewhere" list and the footer - one link each, not three.
 const HEADER_LINKS = NAV_ITEMS.filter(i => i.group === 'site')
+// A kind that already has its own entry under Kinds should not appear twice in
+// the sidebar: the header keeps the shortcut, the menu keeps the taxonomy.
+const SIDEBAR_ITEMS = NAV_ITEMS.filter(i => !KIND_LINKS.some(kind => kind.to === i.to))
 export default function Nav() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
@@ -68,11 +71,37 @@ export default function Nav() {
       <aside className={'nav-sidebar' + (open ? ' open' : '')} aria-hidden={!open}>
         <div className="nav-sidebar-title">Menu</div>
         <ul className="nav-sidebar-nav">
-          {NAV_ITEMS.map(item => (
+          {SIDEBAR_ITEMS.map(item => (
             <li key={item.label}>
               {item.to
                 ? <NavLink to={item.to} end={item.end} className={cls} onClick={() => setOpen(false)}>{item.label}</NavLink>
                 : <a href={item.href} target="_blank" rel="noreferrer">{item.label}</a>}
+            </li>
+          ))}
+        </ul>
+        <div className="nav-sidebar-title">Kinds</div>
+        <ul className="nav-sidebar-nav">
+          <li>
+            <NavLink to="/guide/" end className={cls} onClick={() => setOpen(false)}>
+              Everything
+            </NavLink>
+          </li>
+          {KIND_LINKS.map(item => (
+            <li key={item.label}>
+              <NavLink to={item.to} className={cls} onClick={() => setOpen(false)} title={item.blurb}>
+                {item.label}
+                {item.count != null && <span className="nav-sidebar-count">{item.count}</span>}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+        <div className="nav-sidebar-title">Chapters</div>
+        <ul className="nav-sidebar-nav">
+          {CHAPTER_LINKS.map(item => (
+            <li key={item.to}>
+              <NavLink to={item.to} className={cls} onClick={() => setOpen(false)} title={item.title}>
+                {item.label}
+              </NavLink>
             </li>
           ))}
         </ul>

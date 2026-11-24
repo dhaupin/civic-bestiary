@@ -21,14 +21,18 @@ function ScrollToTop() {
   return null
 }
 
-export default function AppLayout() {
+/**
+ * The prerendered HTML is the first paint, and only the first paint. Keying the
+ * router on the pathname throws the matched view away on every navigation, so
+ * state that belongs to one view - the search string, the letter filter, the
+ * sort - cannot follow the reader to the next one, and a view can never be
+ * stuck showing what the prerender baked. A hard load still gets the baked
+ * page; a click always gets a fresh mount.
+ */
+function RoutedViews() {
+  const { pathname } = useLocation()
   return (
-    <>
-      <ScrollToTop />
-      <a className="skip" href="#main">Skip to content</a>
-      <Nav />
-      <main id="main">
-        <Routes>
+    <Routes key={pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="/chapters/:chapter" element={<Guide />} />
@@ -48,7 +52,18 @@ export default function AppLayout() {
           <Route path="/contribute" element={<Contribute />} />
           {/* one Route per ssr.config.js entry; species routes share this one */}
           <Route path="*" element={<NotFound />} />
-        </Routes>
+    </Routes>
+  )
+}
+
+export default function AppLayout() {
+  return (
+    <>
+      <ScrollToTop />
+      <a className="skip" href="#main">Skip to content</a>
+      <Nav />
+      <main id="main">
+        <RoutedViews />
       </main>
       <Footer />
     </>

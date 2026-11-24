@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Survivorship bias",
     "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 4
   }
 }

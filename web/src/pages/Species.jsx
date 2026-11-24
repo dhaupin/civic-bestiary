@@ -5,7 +5,7 @@
 import { Link, useParams } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site from '../site.js'
-import { entryFor, neighbors, positionOf } from '../lexicon.js'
+import { entryFor, neighbors, positionOf, sorts } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
 import NotFound from './NotFound.jsx'
 
@@ -56,6 +56,19 @@ export default function Species() {
             {entry.ipa && <span className="ipa">{entry.ipa}</span>}
           </p>
           <p className="species-etym">{entry.etymology}</p>
+          <p className="species-scores">
+            {sorts.filter((axis) => entry.sort?.[axis.id] != null).map((axis) => (
+              <span key={axis.id} className="score" title={axis.hint}>
+                <span className="score-label">{axis.label}</span>
+                <span className="score-bar" aria-hidden="true">
+                  {Array.from({ length: axis.scale }, (_, step) => (
+                    <i key={step} className={step < entry.sort[axis.id] ? 'on' : undefined} />
+                  ))}
+                </span>
+                <span className="sr-only">{entry.sort[axis.id]} of {axis.scale}</span>
+              </span>
+            ))}
+          </p>
         </header>
 
         <dl className="species-spec">

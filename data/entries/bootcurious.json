@@ -43,5 +43,10 @@
       "rel": "commits",
       "to": "Argument from silence"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 4
+  }
 }

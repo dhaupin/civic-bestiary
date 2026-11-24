@@ -293,6 +293,15 @@ export default {
       "example": "7"
     },
     {
+      "key": "sort",
+      "label": "Sort scores",
+      "type": "scores",
+      "required": false,
+      "requiredInIssue": false,
+      "hint": "One score per axis the kind supports, 1-5. Impact is how much it does, abuse is how often it happens, blowback is what it costs the user.",
+      "example": "{\"impact\": 4, \"abuse\": 5, \"blowback\": 2}"
+    },
+    {
       "key": "related",
       "label": "Cross-references",
       "type": "list",

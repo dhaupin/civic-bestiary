@@ -43,5 +43,10 @@
       "rel": "commits",
       "to": "Tu quoque"
     }
-  ]
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 4
+  }
 }

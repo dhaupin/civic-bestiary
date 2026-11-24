@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Loaded question",
     "url": "https://en.wikipedia.org/wiki/Loaded_question"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
   }
 }

@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Appeal to consequences",
     "url": "https://en.wikipedia.org/wiki/Appeal_to_consequences"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 3
   }
 }

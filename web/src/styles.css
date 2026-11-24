@@ -152,7 +152,8 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .nav-sidebar-title:first-child { margin-top: 0; }
 .nav-sidebar-nav { list-style: none; margin: 0; padding: 0; }
 .nav-sidebar-nav a {
-  display: block; padding: 9px 20px; color: var(--ink); text-decoration: none;
+  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
+  padding: 9px 20px; color: var(--ink); text-decoration: none;
   font-size: 16px; border-left: 2px solid transparent;
 }
 .nav-sidebar-nav a:hover { background: var(--raised); }
@@ -263,14 +264,19 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
   text-transform: uppercase; padding: 7px 11px;
 }
 .chip:hover { color: var(--ink); border-color: var(--ink-soft); }
+button.chip { appearance: none; }
+.chips-sort { margin-top: 10px; }
 .chip-on { background: var(--accent); border-color: var(--accent); color: var(--accent-contrast); }
 .chips { align-items: center; }
 .chips-label {
   font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
   text-transform: uppercase; color: var(--ink-soft); margin-right: 4px;
 }
-.chip-count {
+.chip-count, .listing-score {
   margin-left: 6px; opacity: 0.62; font-size: 10px;
+}
+.listing-score {
+  font-family: var(--font-mono); color: var(--accent); opacity: 0.9;
 }
 .chip-on .chip-count { opacity: 0.8; }
 .search-box { position: relative; display: block; }
@@ -655,3 +661,23 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
   * { transition: none !important; animation: none !important; }
 }
 
+
+/* Scores: the numbers every view sorts by, shown where they do the sorting. */
+.species-scores {
+  display: flex; flex-wrap: wrap; gap: 18px; margin: 14px 0 0;
+}
+.score { display: inline-flex; align-items: center; gap: 8px; }
+.score-label {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-soft);
+}
+.score-bar { display: inline-flex; gap: 3px; }
+.score-bar i {
+  width: 14px; height: 4px; background: var(--line); border-radius: 1px;
+}
+.score-bar i.on { background: var(--accent); }
+
+.nav-sidebar-count {
+  font-family: var(--font-mono); font-size: 10px;
+  color: var(--ink-soft); opacity: 0.7;
+}

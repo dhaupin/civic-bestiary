@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Proof by assertion",
     "url": "https://en.wikipedia.org/wiki/Proof_by_assertion"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 5,
+    "blowback": 3
   }
 }

@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Moving the goalposts",
     "url": "https://en.wikipedia.org/wiki/Moving_the_goalposts"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 4
   }
 }

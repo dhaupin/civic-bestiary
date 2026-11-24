@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Appeal to the stone",
     "url": "https://en.wikipedia.org/wiki/Appeal_to_the_stone"
+  },
+  "sort": {
+    "impact": 2,
+    "abuse": 4,
+    "blowback": 2
   }
 }

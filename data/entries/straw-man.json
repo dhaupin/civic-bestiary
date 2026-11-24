@@ -27,5 +27,10 @@
   "cite": {
     "label": "Wikipedia · Straw man",
     "url": "https://en.wikipedia.org/wiki/Straw_man"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 2
   }
 }
