@@ -1,0 +1,36 @@
+{
+  "term": "Normalcy bias",
+  "kind": "fallacy",
+  "chapter": "normalization",
+  "position": 117,
+  "part_of_speech": "noun",
+  "etymology": "Named for the normality it assumes: the disaster has not arrived, so the room reads the quiet as a guarantee.",
+  "family": "Informal · Presumption",
+  "committed_when": "A warning arrives, and the first thing measured is whether anything like it has happened here before.",
+  "tell": "The plan is built for the emergency that already happened, and the new one is treated as a rumour.",
+  "counter": "Ask what the warning would have to look like to be believed. If no evidence could move it, the calm is the belief and not the evidence.",
+  "senses": [
+    "Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke, so the thing being described cannot be coming.",
+    "It works because the quiet is real and the record is short. A hazard that has not arrived looks exactly like a hazard that is not there, and the difference only shows up once - which is the once the belief was protecting against."
+  ],
+  "example": "*\"We have never had a fire in this building\"* - said on the fourth floor of a building with one stairwell, above the floor where the alarm panel had been disabled to stop the nuisance trips.",
+  "confused_with": [
+    {
+      "term": "Argument from silence",
+      "tell": "The argument from silence reads a missing record as a settled question; normalcy bias reads a quiet record as a safe one."
+    }
+  ],
+  "related": [
+    "Shifting baseline",
+    "Dramagogue"
+  ],
+  "cite": {
+    "label": "Wikipedia · Normalcy bias",
+    "url": "https://en.wikipedia.org/wiki/Normalcy_bias"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

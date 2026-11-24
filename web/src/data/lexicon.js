@@ -13,9 +13,9 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 167,
+  "entries": 171,
   "coinages": 80,
-  "fallacies": 57,
+  "fallacies": 61,
   "chapters": 6,
   "kinds": {
     "species": 26,
@@ -23,7 +23,7 @@ export const stats = {
     "ability": 17,
     "habitat": 12,
     "buff": 11,
-    "fallacy": 57,
+    "fallacy": 61,
     "remedy": 16,
     "keystone": 14
   }
@@ -493,7 +493,11 @@ export const chapters = [
       "false-attribution",
       "shifting-the-burden-of-proof",
       "gish-gallop",
-      "appeal-to-the-stone"
+      "appeal-to-the-stone",
+      "shifting-baseline",
+      "creeping-normality",
+      "normalcy-bias",
+      "just-world-hypothesis"
     ]
   },
   {
@@ -1006,6 +1010,13 @@ export const entries = [
         "term": "I'm entitled to my opinion",
         "slug": "im-entitled-to-my-opinion",
         "path": "/fallacies/im-entitled-to-my-opinion/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Just-world hypothesis",
+        "slug": "just-world-hypothesis",
+        "path": "/fallacies/just-world-hypothesis/"
       }
     ],
     "backlinks": [
@@ -3111,6 +3122,13 @@ export const entries = [
         "term": "The fallacy fallacy",
         "slug": "the-fallacy-fallacy",
         "path": "/fallacies/the-fallacy-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/"
       }
     ],
     "backlinks": [
@@ -7317,6 +7335,13 @@ export const entries = [
         "term": "No true Scotsman",
         "slug": "no-true-scotsman",
         "path": "/fallacies/no-true-scotsman/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/"
       }
     ],
     "backlinks": [
@@ -7780,6 +7805,13 @@ export const entries = [
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
         "path": "/fallacies/nirvana-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
       }
     ],
     "backlinks": [
@@ -10259,6 +10291,13 @@ export const entries = [
         "term": "McNamara fallacy",
         "slug": "mcnamara-fallacy",
         "path": "/fallacies/mcnamara-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
       }
     ],
     "backlinks": [
@@ -10397,6 +10436,13 @@ export const entries = [
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
         "path": "/fallacies/nirvana-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Just-world hypothesis",
+        "slug": "just-world-hypothesis",
+        "path": "/fallacies/just-world-hypothesis/"
       }
     ],
     "backlinks": [
@@ -10535,6 +10581,13 @@ export const entries = [
         "term": "McNamara fallacy",
         "slug": "mcnamara-fallacy",
         "path": "/fallacies/mcnamara-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
       }
     ],
     "backlinks": [
@@ -13377,6 +13430,20 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
       }
     ],
     "backlinks": [
@@ -13487,6 +13554,13 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/"
       }
     ],
     "backlinks": [
@@ -14987,6 +15061,391 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ]
+  },
+  {
+    "term": "Shifting baseline",
+    "slug": "shifting-baseline",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/shifting-baseline/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 115,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 1
+    },
+    "etymology": "Named in fisheries science: each generation measures the catch against what it remembers, not against what the water held before anyone was counting.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Statistical"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A comparison is being made, and the reference point has quietly moved to whatever the speaker grew up with."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The standard of normal is the speaker’s own first memory, offered as though it were the original condition."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the number was before anyone now living was measuring it. A baseline is a record, not a memory."
+      }
+    ],
+    "voice": "The standard of normal is the speaker’s own first memory, offered as though it were the original condition.",
+    "senses": [
+      "Judging the present against the last generation’s memory instead of the record: the lake still has fish, the river still runs clear enough, the airport still works, so nothing has changed.",
+      "It works because every generation is honest and every generation starts late. Nobody alive has seen the earlier state, so the degraded one is the only one anyone can compare against - and the comparison comes out clean every time."
+    ],
+    "notes": [],
+    "example": "*“The lake still has fish in it”* - it has a third of the fish it had when the speaker’s father fished it, and the father’s father said the same thing about the same lake.",
+    "cite": {
+      "label": "Wikipedia · Shifting baseline",
+      "url": "https://en.wikipedia.org/wiki/Shifting_baseline"
+    },
+    "summary": "Informal · Statistical fallacy: Judging the present against the last generation’s memory instead of the record: the lake still has fish, the river still runs...",
+    "confusedWith": [
+      {
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "tell": "Creeping normality is the drift itself, one increment at a time; shifting baseline is why the drift goes unmeasured - each generation resets the ruler.",
+        "path": "/fallacies/creeping-normality/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      }
+    ]
+  },
+  {
+    "term": "Creeping normality",
+    "slug": "creeping-normality",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/creeping-normality/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 116,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 1
+    },
+    "etymology": "Jared Diamond's term for change that arrives in increments too small to object to, each one accepted because the last one was.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "The next step is being justified by the size of the step rather than the direction of the walk."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "Every individual change is small, defensible and already done; only the sequence is indefensible."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the total is, not what the increment is. A series can be refused where a step cannot."
+      }
+    ],
+    "voice": "Every individual change is small, defensible and already done; only the sequence is indefensible.",
+    "senses": [
+      "Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend: the fee, then the surcharge, then the surcharge with the waiting period.",
+      "It works because objection has a fixed cost and every increment is smaller than that cost. The room is never wrong about any single step; it is only never asked about the direction."
+    ],
+    "notes": [],
+    "example": "*“Nobody voted to end public comment.”* The period went from thirty days to ten, then to “as practicable”, then to a form that closed on Fridays.",
+    "cite": {
+      "label": "Wikipedia · Creeping normality",
+      "url": "https://en.wikipedia.org/wiki/Creeping_normality"
+    },
+    "summary": "Informal · Presumption fallacy: Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend: the...",
+    "confusedWith": [
+      {
+        "term": "Slippery slope",
+        "slug": "slippery-slope",
+        "tell": "The slippery slope is a prediction made by someone arguing against the first step; creeping normality is the same walk recorded afterwards by someone who did not notice it.",
+        "path": "/fallacies/slippery-slope/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/"
+      }
+    ]
+  },
+  {
+    "term": "Normalcy bias",
+    "slug": "normalcy-bias",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/normalcy-bias/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 117,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Named for the normality it assumes: the disaster has not arrived, so the room reads the quiet as a guarantee.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A warning arrives, and the first thing measured is whether anything like it has happened here before."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The plan is built for the emergency that already happened, and the new one is treated as a rumour."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the warning would have to look like to be believed. If no evidence could move it, the calm is the belief and not the evidence."
+      }
+    ],
+    "voice": "The plan is built for the emergency that already happened, and the new one is treated as a rumour.",
+    "senses": [
+      "Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke, so the thing being described cannot be coming.",
+      "It works because the quiet is real and the record is short. A hazard that has not arrived looks exactly like a hazard that is not there, and the difference only shows up once - which is the once the belief was protecting against."
+    ],
+    "notes": [],
+    "example": "*“We have never had a fire in this building”* - said on the fourth floor of a building with one stairwell, above the floor where the alarm panel had been disabled to stop the nuisance trips.",
+    "cite": {
+      "label": "Wikipedia · Normalcy bias",
+      "url": "https://en.wikipedia.org/wiki/Normalcy_bias"
+    },
+    "summary": "Informal · Presumption fallacy: Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke, so...",
+    "confusedWith": [
+      {
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "tell": "The argument from silence reads a missing record as a settled question; normalcy bias reads a quiet record as a safe one.",
+        "path": "/fallacies/argument-from-silence/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      }
+    ]
+  },
+  {
+    "term": "Just-world hypothesis",
+    "slug": "just-world-hypothesis",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/just-world-hypothesis/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "position": 118,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Melvin Lerner's term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Improper premise"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "Something terrible has happened to someone, and the first question asked is what they did."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The victim’s conduct is examined for a cause, and the cause is found before the facts are in."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what this person did that the survivors did not. The question is not whether suffering is deserved but whether the explanation arrived before the evidence."
+      }
+    ],
+    "voice": "The victim’s conduct is examined for a cause, and the cause is found before the facts are in.",
+    "senses": [
+      "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner, the country that should have governed itself better.",
+      "It works because a deserved outcome is a bearable one. If the world pays out what people earn, then the room is safe and the sufferer is owed nothing - which is why the explanation is produced before the facts arrive, and defended after they do."
+    ],
+    "notes": [],
+    "example": "*“She should have left.”* The sentence turns a crime into a decision, and the room into a place where it could not have happened to them.",
+    "cite": {
+      "label": "Wikipedia · Just-world hypothesis",
+      "url": "https://en.wikipedia.org/wiki/Just-world_hypothesis"
+    },
+    "summary": "Informal · Improper premise fallacy: Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who...",
+    "confusedWith": [
+      {
+        "term": "Appeal to consequences",
+        "slug": "appeal-to-consequences",
+        "tell": "The appeal to consequences rejects a claim because believing it would be bad; the just-world hypothesis accepts an outcome because an undeserved one would be unbearable.",
+        "path": "/fallacies/appeal-to-consequences/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      },
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
       }
     ]
   },

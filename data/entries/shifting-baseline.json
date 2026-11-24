@@ -1,0 +1,36 @@
+{
+  "term": "Shifting baseline",
+  "kind": "fallacy",
+  "chapter": "normalization",
+  "position": 115,
+  "part_of_speech": "noun",
+  "etymology": "Named in fisheries science: each generation measures the catch against what it remembers, not against what the water held before anyone was counting.",
+  "family": "Informal · Statistical",
+  "committed_when": "A comparison is being made, and the reference point has quietly moved to whatever the speaker grew up with.",
+  "tell": "The standard of normal is the speaker's own first memory, offered as though it were the original condition.",
+  "counter": "Ask what the number was before anyone now living was measuring it. A baseline is a record, not a memory.",
+  "senses": [
+    "Judging the present against the last generation's memory instead of the record: the lake still has fish, the river still runs clear enough, the airport still works, so nothing has changed.",
+    "It works because every generation is honest and every generation starts late. Nobody alive has seen the earlier state, so the degraded one is the only one anyone can compare against - and the comparison comes out clean every time."
+  ],
+  "example": "*\"The lake still has fish in it\"* - it has a third of the fish it had when the speaker's father fished it, and the father's father said the same thing about the same lake.",
+  "confused_with": [
+    {
+      "term": "Creeping normality",
+      "tell": "Creeping normality is the drift itself, one increment at a time; shifting baseline is why the drift goes unmeasured - each generation resets the ruler."
+    }
+  ],
+  "related": [
+    "Creeping normality",
+    "Normalcy bias"
+  ],
+  "cite": {
+    "label": "Wikipedia · Shifting baseline",
+    "url": "https://en.wikipedia.org/wiki/Shifting_baseline"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 1
+  }
+}

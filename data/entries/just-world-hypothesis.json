@@ -1,0 +1,36 @@
+{
+  "term": "Just-world hypothesis",
+  "kind": "fallacy",
+  "chapter": "normalization",
+  "position": 118,
+  "part_of_speech": "noun",
+  "etymology": "Melvin Lerner's term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
+  "family": "Informal · Improper premise",
+  "committed_when": "Something terrible has happened to someone, and the first question asked is what they did.",
+  "tell": "The victim's conduct is examined for a cause, and the cause is found before the facts are in.",
+  "counter": "Ask what this person did that the survivors did not. The question is not whether suffering is deserved but whether the explanation arrived before the evidence.",
+  "senses": [
+    "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner, the country that should have governed itself better.",
+    "It works because a deserved outcome is a bearable one. If the world pays out what people earn, then the room is safe and the sufferer is owed nothing - which is why the explanation is produced before the facts arrive, and defended after they do."
+  ],
+  "example": "*\"She should have left.\"* The sentence turns a crime into a decision, and the room into a place where it could not have happened to them.",
+  "confused_with": [
+    {
+      "term": "Appeal to consequences",
+      "tell": "The appeal to consequences rejects a claim because believing it would be bad; the just-world hypothesis accepts an outcome because an undeserved one would be unbearable."
+    }
+  ],
+  "related": [
+    "Normalcy bias",
+    "Plutomartyr"
+  ],
+  "cite": {
+    "label": "Wikipedia · Just-world hypothesis",
+    "url": "https://en.wikipedia.org/wiki/Just-world_hypothesis"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}
