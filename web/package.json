@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "The Psy-Loop Lexicon site - coreforge shell, prestruct prerender, static hosting",
+  "description": "The Civic Bestiary - a field guide to the creatures of the body politic, generated from one dataset into a README and a prestruct-prerendered static site.",
   "scripts": {
     "dev": "vite",
     "build": "prestruct build",

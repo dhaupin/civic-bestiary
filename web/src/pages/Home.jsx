@@ -19,14 +19,14 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="wrap">
-          <p className="eyebrow">a working glossary</p>
+          <p className="eyebrow">a field guide</p>
           <h1>
             Names for the tricks that <span className="accent">pretend to be arguments.</span>
           </h1>
           <p className="lede">{lexicon.description}</p>
           <div className="cta-row">
-            <Link className="btn btn-primary" to="/lexicon">
-              Browse {stats.entries} entries
+            <Link className="btn btn-primary" to="/species">
+              Open the field guide
             </Link>
             <a className="btn btn-ghost" href={site.repo} target="_blank" rel="noreferrer">
               Read the source
@@ -35,15 +35,15 @@ export default function Home() {
           <dl className="stats">
             <div>
               <dd>{stats.entries}</dd>
-              <dt>coined terms</dt>
+              <dt>species described</dt>
             </div>
             <div>
               <dd>{stats.sections}</dd>
-              <dt>sections</dt>
+              <dt>orders</dt>
             </div>
             <div>
               <dd>2</dd>
-              <dt>senses per entry</dt>
+              <dt>senses each</dt>
             </div>
           </dl>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
 
       <section className="section">
         <div className="wrap prose">
-          <h2>Why this exists</h2>
+          <h2>About this guide</h2>
           {preface.map((paragraph) => (
             <p key={paragraph.slice(0, 32)}>{paragraph}</p>
           ))}
@@ -60,13 +60,13 @@ export default function Home() {
 
       <section className="section">
         <div className="wrap">
-          <h2>Where to start</h2>
-          <p className="sub">One entry from each section. The full list is searchable.</p>
+          <h2>First sightings</h2>
+          <p className="sub">One species from each order. The whole guide is searchable.</p>
           <div className="grid">
             {featured.map((entry) => (
-              <Link key={entry.slug} to={`/term/${entry.slug}`} className="card card-link">
+              <Link key={entry.slug} to={`/species/${entry.slug}`} className="card card-link">
                 <p className="card-kicker">
-                  {entry.sectionRoman} · {entry.partOfSpeech}
+                  Order {entry.sectionRoman} · {entry.partOfSpeech}
                 </p>
                 <h3>{entry.term}</h3>
                 <p>{entry.summary}</p>

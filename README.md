@@ -1,16 +1,16 @@
 <!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->
 
-# The Modern Civic & Rhetorical Psy-Loop Lexicon
+# The Civic Bestiary
 
-A glossary of portmanteaus capturing performative nationalism, weaponized liberty, bad-faith debate tactics, and algorithmic radicalization.
+A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.
 
 ## Preface
 
-The lexicon is satire with a thesis: the vocabulary of civic virtue has been repurposed as camouflage. Each entry names a pattern its practitioners would never name themselves, and does so with the contempt the pattern has earned.
+This is a bestiary, not a dictionary. The creatures in it are real, common, and close by - the man in the flag hoodie, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.
 
-Two rules keep it from collapsing into a list of insults. Entries target behavior, institutions, and power - never identity, and never the people on the receiving end. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the word stays a tool for recognition rather than a way to end an argument.
+Two rules keep the guide from collapsing into a list of insults. The species is a pattern, not a person - a costume that wears people, not a kind of human, and one you can catch yourself in. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the name stays a tool for recognition rather than a way to end an argument.
 
-The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. That is roughly the right posture for the subject.
+The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. Some of these creatures are trolls in the old sense, things that live under bridges and demand a toll; some are trolls in the newer one. Both are field-observed here. That is roughly the right posture for the subject.
 
 ---
 

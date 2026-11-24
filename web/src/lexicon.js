@@ -22,6 +22,12 @@ export function neighbors(slug) {
   }
 }
 
+/** Where a species sits in the guide, for the "No. 7 of 27" line. */
+export function positionOf(slug) {
+  const index = entries.findIndex((entry) => entry.slug === slug)
+  return index < 0 ? null : { number: index + 1, total: entries.length }
+}
+
 /** First entry per initial letter, for the A-Z jump strip. */
 export function alphabet() {
   const seen = new Map()

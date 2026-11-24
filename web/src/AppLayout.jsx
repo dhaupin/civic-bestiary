@@ -6,8 +6,8 @@ import { islands } from './AppIslands.jsx'
 import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
-import Lexicon from './pages/Lexicon.jsx'
-import Term from './pages/Term.jsx'
+import FieldGuide from './pages/FieldGuide.jsx'
+import Species from './pages/Species.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function ScrollToTop() {
@@ -28,9 +28,9 @@ export default function AppLayout() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/lexicon" element={<Lexicon />} />
-          <Route path="/term/:slug" element={<Term />} />
-          {/* one Route per ssr.config.js entry; term routes share this one */}
+          <Route path="/species" element={<FieldGuide />} />
+          <Route path="/species/:slug" element={<Species />} />
+          {/* one Route per ssr.config.js entry; species routes share this one */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

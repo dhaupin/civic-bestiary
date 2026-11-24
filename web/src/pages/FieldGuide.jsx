@@ -1,8 +1,8 @@
 /**
- * pages/Lexicon.jsx - the browse surface: search, section filter, A-Z jumps.
+ * pages/FieldGuide.jsx - the browse surface: search, order filter, A-Z jumps.
  *
  * Filtering is client-side over the generated data module, so the prerendered
- * HTML carries every entry (crawlers see the whole lexicon) and the state
+ * HTML carries every species (crawlers see the whole guide) and the state
  * starts at "everything visible", which is what keeps hydration byte-stable.
  */
 import { useMemo, useState } from 'react'
@@ -12,9 +12,9 @@ import site, { routeMeta } from '../site.js'
 import { alphabet, entries, matches, sections, stats } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
 
-export default function Lexicon() {
-  const meta = routeMeta('/lexicon')
-  usePageMeta({ siteUrl: site.url, path: '/lexicon', title: meta.title, description: meta.description })
+export default function FieldGuide() {
+  const meta = routeMeta('/species')
+  usePageMeta({ siteUrl: site.url, path: '/species', title: meta.title, description: meta.description })
 
   const [query, setQuery] = useState('')
   const [active, setActive] = useState('all')
@@ -27,20 +27,20 @@ export default function Lexicon() {
   const letters = useMemo(() => alphabet(), [])
 
   return (
-    <section className="section lexicon">
+    <section className="section field-guide">
       <div className="wrap">
         <header className="page-head">
-          <p className="eyebrow">{stats.entries} entries · {stats.sections} sections</p>
-          <h1>The lexicon</h1>
+          <p className="eyebrow">{stats.entries} species · {stats.sections} orders</p>
+          <h1>The field guide</h1>
           <p className="sub">
-            Every term is a portmanteau with two senses: who the person is, and what the pattern does.
-            Search by word, or read a section straight through.
+            Every species is a portmanteau with two senses: the creature, and the pattern it runs.
+            Search by name, or walk an order end to end.
           </p>
         </header>
 
         <div className="toolbar">
           <label className="search">
-            <span className="search-label">Search</span>
+            <span className="search-label">Search species</span>
             <input
               type="search"
               value={query}
@@ -49,7 +49,7 @@ export default function Lexicon() {
               autoComplete="off"
             />
           </label>
-          <div className="chips" role="group" aria-label="Filter by section">
+          <div className="chips" role="group" aria-label="Filter by order">
             <button
               type="button"
               className={active === 'all' ? 'chip chip-on' : 'chip'}
@@ -83,13 +83,13 @@ export default function Lexicon() {
 
         <p className="count" aria-live="polite">
           {visible.length === stats.entries
-            ? `${stats.entries} entries`
-            : `${visible.length} of ${stats.entries} entries`}
+            ? `${stats.entries} species`
+            : `${visible.length} of ${stats.entries} species`}
         </p>
 
         {visible.length === 0 && (
           <div className="empty">
-            <p>Nothing in the lexicon matches “{query}”.</p>
+            <p>Nothing in the guide matches “{query}”.</p>
             <button type="button" className="btn btn-ghost" onClick={() => { setQuery(''); setActive('all') }}>
               Clear the filter
             </button>
@@ -102,26 +102,27 @@ export default function Lexicon() {
           return (
             <div key={section.id} className="group">
               <h2 className="group-head">
-                <span className="group-roman">{section.roman}</span>
+                <span className="group-roman">Order {section.roman}</span>
                 {section.title}
               </h2>
               {own.map((entry) => (
-                <article key={entry.slug} id={entry.slug} className="entry">
-                  <div className="entry-head">
-                    <h3 className="entry-term">
-                      <Link to={`/term/${entry.slug}`}>{entry.term}</Link>
+                <article key={entry.slug} id={entry.slug} className="listing">
+                  <div className="listing-head">
+                    <h3 className="listing-name">
+                      <Link to={`/species/${entry.slug}`}>{entry.term}</Link>
                     </h3>
-                    <p className="entry-meta">
+                    <p className="listing-meta">
                       <span>{entry.partOfSpeech}</span>
                       <span className="ipa">{entry.ipa}</span>
                     </p>
                   </div>
-                  <p className="entry-sense"><Inline text={entry.senses[0]} /></p>
-                  <p className="entry-rel">
+                  <p className="listing-sense"><Inline text={entry.senses[0]} /></p>
+                  <p className="listing-rel">
+                    <span className="listing-rel-label">Compare</span>
                     {entry.related.map((related, index) => (
                       <span key={related.slug}>
                         {index > 0 && <span className="sep">·</span>}
-                        <Link to={`/term/${related.slug}`}>{related.term}</Link>
+                        <Link to={`/species/${related.slug}`}>{related.term}</Link>
                       </span>
                     ))}
                   </p>

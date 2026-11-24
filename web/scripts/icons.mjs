@@ -57,7 +57,7 @@ for (const [size, file] of [
 }
 
 // --- social card ---------------------------------------------------------
-const terms = config.routes.filter((route) => route.path.startsWith('/term/')).length
+const terms = config.routes.filter((route) => route.path.startsWith('/species/')).length
 const card = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="${PAPER}"/>
   <rect x="0" y="0" width="1200" height="10" fill="${ACCENT}"/>
@@ -71,9 +71,8 @@ const card = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" 
     <circle cx="32" cy="32" r="4.6" fill="${ACCENT}"/>
   </g>
   <text x="140" y="300" font-family="DejaVu Serif" font-weight="bold" font-size="82" fill="${INK}" letter-spacing="-2">${config.siteName}</text>
-  <text x="140" y="370" font-family="DejaVu Sans" font-size="30" fill="${SOFT}">A glossary of portmanteaus for performative patriotism,</text>
-  <text x="140" y="412" font-family="DejaVu Sans" font-size="30" fill="${SOFT}">bad-faith debate, and algorithmic radicalization.</text>
-  <line x1="140" y1="470" x2="1060" y2="470" stroke="${SOFT}" stroke-opacity="0.35"/>
-  <text x="140" y="516" font-family="DejaVu Sans Mono" font-size="22" fill="${SOFT}">${terms} COINED TERMS   ·   4 SECTIONS   ·   ${config.siteUrl.replace(/^https?:\/\//, '')}</text>
+  <text x="140" y="380" font-family="DejaVu Sans" font-size="32" fill="${SOFT}">${config.tagline}</text>
+  <line x1="140" y1="452" x2="1060" y2="452" stroke="${SOFT}" stroke-opacity="0.35"/>
+  <text x="140" y="500" font-family="DejaVu Sans Mono" font-size="22" fill="${SOFT}">${terms} SPECIES   ·   4 ORDERS   ·   ${config.siteUrl.replace(/^https?:\/\//, '')}</text>
 </svg>`
 render(card, 1200, 'og-image.png')
