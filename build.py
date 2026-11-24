@@ -16,6 +16,7 @@ import json
 import re
 import unicodedata
 import sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -275,6 +276,41 @@ def render_index(doc, anchors):
     return lines
 
 
+def render_footer(doc):
+    """The numbers, counted - so the footer cannot go stale.
+
+    Everything the prose elsewhere used to restate by hand (how many coinages,
+    how many carry a counter) is derived here from the records themselves.
+    """
+    counts = Counter(entry["kind"] for entry in doc["entries"])
+    coined_kinds = [key for key, spec in KINDS.items() if spec.get("coined")]
+    coinages = [entry for entry in doc["entries"] if entry["kind"] in coined_kinds]
+    # A counter is authored from one end only, and either end may be the coinage:
+    # the remedy that answers a character, or the character that answers another.
+    countered = set()
+    for entry in doc["entries"]:
+        for edge in entry.get("edges", []):
+            if edge["rel"] == "counters":
+                countered.add(entry["term"].lower())
+                countered.add(edge["to"].lower())
+    answered = sum(1 for entry in coinages if entry["term"].lower() in countered)
+
+    by_kind = ", ".join(
+        f"{counts[key]} {spec['plural'].lower()}" for key, spec in KINDS.items()
+        if spec.get("coined") and counts[key]
+    )
+    rest = ", ".join(
+        f"{counts[key]} {spec['plural'].lower()}" for key, spec in KINDS.items()
+        if not spec.get("coined") and counts[key]
+    )
+    return (
+        f"*{len(doc['entries'])} entries in {len(KINDS)} kinds and "
+        f"{len(doc['chapters'])} chapters: {len(coinages)} coinages ({by_kind}), "
+        f"{rest}. {answered} of the {len(coinages)} coinages carry a counter.* "
+        "Counted from `data/` by `build.py` - nothing on this line is typed."
+    )
+
+
 def render(doc):
     numbered, anchors = number_entries(doc)
     blocks = [("prose", render_contents(numbered))]
@@ -303,6 +339,7 @@ def render(doc):
         out.append("")
         out.extend(block)
         previous = kind
+    out.extend(["", "---", "", render_footer(doc)])
     return "\n".join(out) + "\n"
 
 

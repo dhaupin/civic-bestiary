@@ -42,7 +42,7 @@ ownership disclosure, a nonprofit newsroom) - a natural chapter V addition.
 
 - **Render the contract.** `/labs/prd-codex.md` is served raw. If it becomes a
   front door, add a rendered route.
-- **Fallacy families.** 57 fallacies across a handful of family labels; a family
+- **Fallacy families.** The fallacies cluster on a handful of family labels; a family
   page per group would make the taxonomy browsable rather than searchable.
 - **Entry-level "why this is not a person" note.** The rule is enforced in prose;
   a short standing note on species pages would make it visible to readers.
