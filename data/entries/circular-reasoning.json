@@ -1,0 +1,36 @@
+{
+  "term": "Circular reasoning",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 106,
+  "part_of_speech": "noun",
+  "etymology": "Latin: circulus in probando, “a circle in the proving” - the premise and the conclusion take turns holding each other up.",
+  "family": "Informal · Improper premise",
+  "committed_when": "A conclusion is wanted and the evidence is thin.",
+  "tell": "Follow the chain of because, and it arrives back where it started.",
+  "counter": "Write the argument as a numbered list of premises. The moment a premise repeats the conclusion, the circle is visible.",
+  "senses": [
+    "Using a claim as its own support, often with an extra step so the circle is harder to see.",
+    "It works because a short loop reads as an argument. Each sentence sounds like it is adding something, and the last one sounds like a conclusion because it is the last one."
+  ],
+  "example": "“The policy is sound because it is what serious people support, and serious people support it because it is sound.” Two sentences, one step each, no ground.",
+  "confused_with": [
+    {
+      "term": "Appeal to authority",
+      "tell": "The circle restates itself; the appeal to authority borrows a person to stand where the premise should be."
+    }
+  ],
+  "related": [
+    "Appeal to authority",
+    "Loaded question"
+  ],
+  "cite": {
+    "label": "Wikipedia · Circular reasoning",
+    "url": "https://en.wikipedia.org/wiki/Circular_reasoning"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 2,
+    "blowback": 4
+  }
+}

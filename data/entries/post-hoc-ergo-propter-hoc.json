@@ -1,0 +1,36 @@
+{
+  "term": "Post hoc ergo propter hoc",
+  "kind": "fallacy",
+  "chapter": "hypocrisy-revisionism",
+  "position": 102,
+  "part_of_speech": "noun",
+  "etymology": "Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.",
+  "family": "Informal · Questionable cause",
+  "committed_when": "Two events happened in sequence and a cause is being claimed.",
+  "tell": "The evidence is the calendar, not the mechanism.",
+  "counter": "Ask for the mechanism and the comparison: what happened where the first event did not occur?",
+  "senses": [
+    "Concluding that one event caused another because it happened first.",
+    "It works because sequence is the one causal cue an audience can observe directly. Order is visible; mechanism has to be argued, so order wins by default."
+  ],
+  "example": "“I took the supplement and the cough cleared in a week.” A week is also how long a cough lasts.",
+  "confused_with": [
+    {
+      "term": "Cherry picking",
+      "tell": "Post hoc invents a cause from sequence; cherry picking hides the cases where the sequence did not hold."
+    }
+  ],
+  "related": [
+    "Slippery slope",
+    "Cherry picking"
+  ],
+  "cite": {
+    "label": "Wikipedia · Post hoc ergo propter hoc",
+    "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

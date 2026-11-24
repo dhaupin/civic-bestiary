@@ -1,0 +1,36 @@
+{
+  "term": "Ad hominem",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 101,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad hominem, “argument to the person” - the target moves from the claim to the one who made it.",
+  "family": "Informal · Red herring",
+  "committed_when": "A claim has just been made that cannot be answered on the merits.",
+  "tell": "The reply contains no content about the claim, only about the claimant.",
+  "counter": "Restate the claim and ask what is wrong with it. Character is a separate question, and it can be answered later, by evidence.",
+  "senses": [
+    "Answering an argument by attacking the person who advanced it rather than the claim they advanced.",
+    "It works because people are credulous about character: once you dislike the speaker, their sentence loses weight even when it is true. The claim is never touched, so it is never answered."
+  ],
+  "example": "“You want to talk about the audit? You were late on your taxes in 2011.” The audit is still late, and now nobody is looking at it.",
+  "confused_with": [
+    {
+      "term": "Tone policing",
+      "tell": "Ad hominem attacks the person's record or character; tone policing attacks the manner of the delivery."
+    }
+  ],
+  "related": [
+    "Tone policing",
+    "Straw man"
+  ],
+  "cite": {
+    "label": "Wikipedia · Ad hominem",
+    "url": "https://en.wikipedia.org/wiki/Ad_hominem"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 3
+  }
+}

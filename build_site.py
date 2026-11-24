@@ -16,12 +16,13 @@ import re
 import sys
 from pathlib import Path
 
-from build import load, slugify
+from build import SCHEMA, SORTS, load, slugify
 
 ROOT = Path(__file__).parent
 OUTPUT = ROOT / "web" / "src" / "data" / "lexicon.js"
 BANNER = "// Generated from lexicon.json by build_site.py - edit the JSON, not this file."
 SUMMARY_LIMIT = 150
+META_LIMIT = 158
 
 
 def typographic(text):
@@ -41,6 +42,22 @@ def unwrap_emphasis(text):
     return stripped
 
 
+def clip(text, limit):
+    """Trim to a word boundary, so a meta description never ends mid-word."""
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-") + "..."
+
+
+def entry_summary(entry, spec):
+    """Meta description: the definition, framed by kind when it is a reference
+    entry, so a two-clause definition still reads as a complete sentence."""
+    plain = summarize(entry["senses"][0])
+    if entry["kind"] == "fallacy":
+        return clip(f"{entry['family']} fallacy: {plain}", META_LIMIT)
+    return plain
+
+
 def summarize(text):
     """First sense as a meta description: POS prefix and markdown stripped."""
     plain = " ".join(text.replace("**", "").replace("*", "").split())
@@ -51,37 +68,69 @@ def summarize(text):
 
 
 def build(doc):
-    entries, sections = [], []
-    for section in doc["sections"]:
-        own = [e for e in doc["entries"] if e["section"] == section["id"]]
+    kinds = {key: {
+        "label": spec["label"],
+        "plural": spec["plural"],
+        "path": spec["path"],
+        "voice": spec["voice"],
+        "blurb": spec["blurb"],
+        "identification": [
+            {"key": row["key"], "label": row["label"], "type": row["type"]}
+            for row in spec["identification"]
+        ],
+        "sorts": spec.get("sorts", []),
+    } for key, spec in SCHEMA["kinds"].items()}
+
+    relations = SCHEMA["relations"]
+
+    entries, chapters = [], []
+    for chapter in doc["chapters"]:
+        own = [e for e in doc["entries"] if e["chapter"] == chapter["id"]]
         if not own:
             continue
-        sections.append({
-            "id": section["id"],
-            "roman": section["roman"],
-            "title": section["title"],
+        chapters.append({
+            "id": chapter["id"],
+            "roman": chapter["roman"],
+            "title": chapter["title"],
+            "note": chapter.get("note"),
             "slugs": [slugify(e["term"]) for e in own],
         })
         for entry in own:
+            spec = kinds[entry["kind"]]
+            slug = slugify(entry["term"])
             entries.append({
                 "term": entry["term"],
-                "slug": slugify(entry["term"]),
-                "section": section["id"],
-                "sectionRoman": section["roman"],
-                "sectionTitle": section["title"],
+                "slug": slug,
+                "kind": entry["kind"],
+                "kindLabel": spec["label"],
+                "path": f"{spec['path']}{slug}/",
+                "chapter": chapter["id"],
+                "chapterRoman": chapter["roman"],
+                "chapterTitle": chapter["title"],
                 "partOfSpeech": entry["part_of_speech"],
-                "ipa": entry["ipa"],
+                "ipa": entry.get("ipa"),
+                "position": entry["position"],
+                "sort": entry.get("sort", {}),
                 "etymology": entry["etymology"],
-                "range": typographic(entry["range"]),
-                "call": typographic(entry["call"]),
-                "fieldMarks": [typographic(mark) for mark in entry["field_marks"]],
+                "identification": [
+                    {
+                        "key": row["key"],
+                        "label": row["label"],
+                        "type": row["type"],
+                        "value": ([typographic(item) for item in entry[row["key"]]]
+                                  if row["type"] == "list" else typographic(entry[row["key"]])),
+                    }
+                    for row in spec["identification"]
+                ],
+                "voice": typographic(entry[spec["voice"]]),
                 "senses": [typographic(sense) for sense in entry["senses"]],
                 "notes": [
                     {"label": note["label"], "text": typographic(note["text"])}
                     for note in entry.get("notes", [])
                 ],
                 "example": typographic(unwrap_emphasis(entry["example"])),
-                "summary": typographic(summarize(entry["senses"][0])),
+                "cite": entry.get("cite"),
+                "summary": typographic(entry_summary(entry, spec)),
                 "confusedWith": [
                     {"term": twin["term"], "slug": slugify(twin["term"]), "tell": typographic(twin["tell"])}
                     for twin in entry["confused_with"]
@@ -91,19 +140,67 @@ def build(doc):
                     for term in entry["related"]
                     if term.lower() not in {twin["term"].lower() for twin in entry["confused_with"]}
                 ],
+                # Authored edges only. The reverse direction is derived below,
+                # so a page shows what it does and what is done to it from one
+                # authoring site.
+                "edges": [
+                    {
+                        "rel": edge["rel"],
+                        "label": relations[edge["rel"]]["label"],
+                        "term": edge["to"],
+                        "slug": slugify(edge["to"]),
+                    }
+                    for edge in entry.get("edges", [])
+                ],
+                "backlinks": [],
             })
+    # Cross-references carry their own URL: a target may be any kind, so a link
+    # built as /species/<slug>/ would 404 the moment a move is referenced.
+    path_of = {entry["slug"]: entry["path"] for entry in entries}
+    by_slug = {entry["slug"]: entry for entry in entries}
+    for entry in entries:
+        for link in [*entry["related"], *entry["confusedWith"], *entry["edges"]]:
+            link["path"] = path_of.get(link["slug"], f"/species/{link['slug']}/")
+    # Derive the reverse of every authored edge, so the target page can say
+    # "staged in Patriotainment" without anyone writing that sentence.
+    for entry in entries:
+        for edge in entry["edges"]:
+            target = by_slug.get(edge["slug"])
+            if target is not None:
+                target["backlinks"].append({
+                    "rel": edge["rel"],
+                    "label": relations[edge["rel"]]["inverse"],
+                    "term": entry["term"],
+                    "slug": entry["slug"],
+                    "path": entry["path"],
+                })
+
+    counts = {key: sum(1 for entry in entries if entry["kind"] == key) for key in kinds}
+    fallacies = counts.get("fallacy", 0)
     return {
         "meta": {"title": doc["title"], "description": doc["description"]},
         "preface": doc.get("preface", []),
-        "stats": {"entries": len(entries), "sections": len(sections)},
-        "sections": sections,
+        "stats": {
+            "entries": len(entries),
+            "coinages": len(entries) - fallacies,
+            "fallacies": fallacies,
+            "chapters": len(chapters),
+            "kinds": counts,
+        },
+        "kinds": kinds,
+        "sorts": [
+            {"id": axis, "label": spec["label"], "hint": spec.get("hint", ""),
+             "scale": spec.get("scale", 5)}
+            for axis, spec in SORTS.items()
+        ],
+        "chapters": chapters,
         "entries": entries,
     }
 
 
 def render(data):
     parts = [BANNER, ""]
-    for key in ("meta", "preface", "stats", "sections", "entries"):
+    for key in ("meta", "preface", "stats", "sorts", "kinds", "chapters", "entries"):
         parts.append(f"export const {key} = {json.dumps(data[key], indent=2, ensure_ascii=False)}")
         parts.append("")
     return "\n".join(parts).rstrip() + "\n"

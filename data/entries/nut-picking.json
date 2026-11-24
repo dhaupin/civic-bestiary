@@ -1,0 +1,36 @@
+{
+  "term": "Nut-picking",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 112,
+  "part_of_speech": "noun",
+  "etymology": "From “nut” in the American sense: cherry picking the most extreme case and calling it the group.",
+  "family": "Informal · Faulty generalization",
+  "committed_when": "A group's worst member is easier to find than its actual position.",
+  "tell": "The reply is a screenshot of someone unrepresentative, presented as the movement's face.",
+  "counter": "Ask whether the case is typical, and who speaks for the group. If nobody does, the loudest member is a poor proxy.",
+  "senses": [
+    "Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
+    "It works because the extreme case is vivid and the movement is large. Any sizeable group contains someone who will embarrass it, so the example is always available and never representative."
+  ],
+  "example": "“Look at this comment, this is what they all think.” One comment, four hundred thousand readers, no survey.",
+  "confused_with": [
+    {
+      "term": "Cherry picking",
+      "tell": "Nut-picking is cherry picking where the cherries are people, chosen for being the worst available."
+    }
+  ],
+  "related": [
+    "Cherry picking",
+    "Hasty generalization"
+  ],
+  "cite": {
+    "label": "Wikipedia · Nutpicking",
+    "url": "https://en.wikipedia.org/wiki/Nutpicking"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

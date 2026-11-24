@@ -15,11 +15,14 @@ export default {
   badge: 'vol. 1',
   tagline: 'A field guide to the creatures of the body politic.',
   description:
-    'A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
-  // The deploy origin. Cloudflare Pages serves the project at <project>.pages.dev
-  // until a custom domain is attached - then change this one line, and rebuild:
-  // prestruct bakes it into canonicals, OG tags, JSON-LD, sitemap, and llms.txt.
-  url: 'https://civicbestiary.pages.dev',
+    'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
+  // The canonical origin. Cloudflare Pages serves the project at
+  // <project>.pages.dev and at any attached custom domain; this line decides
+  // which one is canonical. prestruct bakes it into canonicals, OG tags,
+  // JSON-LD, sitemap, and llms.txt, so changing it means a rebuild, not an edit
+  // to the baked files. The pages.dev host still serves - redirect it at the
+  // zone if you want one origin in the index.
+  url: 'https://codex.creadev.org',
   repo: REPO,
   author: 'dhaupin',
   license: 'MIT',
@@ -40,11 +43,14 @@ export default {
   // --- nav vocabulary -----------------------------------------------------
   // ONE list the header, the burger sidebar, and the footer render from.
   nav: [
-    { label: 'Field guide', to: '/species', group: 'site' },
+    { label: 'Field guide', to: '/guide/', group: 'site' },
+    { label: 'Fallacies', to: '/fallacies/', group: 'site' },
+    { label: 'Contribute', to: '/contribute/', group: 'site' },
     { label: 'GitHub', href: REPO, group: 'out' },
   ],
+  // GitHub already reaches the repo through the nav vocabulary, so the footer
+  // carries only what that link does not: the license.
   footerExtras: [
-    { label: 'Source', href: REPO },
     { label: 'License', href: `${REPO}/blob/main/LICENSE` },
   ],
 
@@ -59,17 +65,27 @@ export default {
       meta: {
         title: 'The Civic Bestiary - creatures of the body politic',
         description:
-          'A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
+          'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
       },
     },
     {
-      path: '/species/',
+      path: '/contribute/',
+      priority: '0.6',
+      changefreq: 'yearly',
+      meta: {
+        title: 'Propose a term | The Civic Bestiary',
+        description:
+          'How to add a creature to the bestiary: what the record contract asks for, and where to send the proposal.',
+      },
+    },
+    {
+      path: '/guide/',
       priority: '0.9',
       changefreq: 'monthly',
       meta: {
-        title: 'All species | The Civic Bestiary',
+        title: 'The field guide | The Civic Bestiary',
         description:
-          'Every species in the bestiary, searchable and grouped by order - from playtriot to slopagandist.',
+          'Every entry in the bestiary, by kind and chapter - species, moves, abilities, formats, and buffs.',
       },
     },
   ],
@@ -77,6 +93,6 @@ export default {
   notFound: {
     heading: '404',
     body: 'That species is not in this bestiary.',
-    primaryCta: { label: 'Open the field guide', href: '/species' },
+    primaryCta: { label: 'Open the field guide', href: '/guide' },
   },
 }

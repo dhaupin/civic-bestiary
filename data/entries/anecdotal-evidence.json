@@ -1,0 +1,36 @@
+{
+  "term": "Anecdotal evidence",
+  "kind": "fallacy",
+  "chapter": "strays",
+  "position": 4,
+  "part_of_speech": "noun",
+  "etymology": "From the Greek anekdota, “unpublished things” - the story that never made it into the record.",
+  "family": "Informal · Faulty generalization",
+  "committed_when": "A statistic has just been presented that the speaker dislikes.",
+  "tell": "The reply begins “well, in my experience” and ends the discussion.",
+  "counter": "Ask whether the story is typical. One case is a reason to check the data, not a substitute for it.",
+  "senses": [
+    "Using a single personal story as though it outweighed systematic evidence about the same question.",
+    "It works because stories are persuasive and statistics are not. One concrete case is easier to hold in mind than a distribution, so it feels heavier even when it is one data point."
+  ],
+  "example": "“My uncle smoked for sixty years.” The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.",
+  "confused_with": [
+    {
+      "term": "Hasty generalization",
+      "tell": "The anecdote is the evidence; the generalization is the rule drawn from it."
+    }
+  ],
+  "related": [
+    "Hasty generalization",
+    "Survivorship bias"
+  ],
+  "cite": {
+    "label": "Wikipedia · Anecdotal evidence",
+    "url": "https://en.wikipedia.org/wiki/Anecdotal_evidence"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "term": "Capitulectual",
+  "kind": "species",
+  "chapter": "hypocrisy-revisionism",
+  "position": 5,
+  "part_of_speech": "noun",
+  "ipa": "/kəˌpɪtʃ.uˈlɛk.tʃu.əl/",
+  "etymology": "Blend of \"capitulate\" + \"intellectual\"",
+  "range": "Opinion pages in the week after an atrocity.",
+  "call": "\"We have to understand both sides.\"",
+  "field_marks": [
+    "Surrenders before the argument",
+    "Prefaces every concession",
+    "Finds symmetry where there is none"
+  ],
+  "confused_with": [
+    {
+      "term": "Equivangelist",
+      "tell": "The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity."
+    }
+  ],
+  "senses": [
+    "A commentator who surrenders the argument before it is made - softening, hedging, and pre-apologizing for authoritarian moves in advance, then presenting the retreat as sober pragmatism.",
+    "Someone whose celebrated \"independence\" consists entirely of arriving early at the conclusion power wanted, and being thanked for their seriousness."
+  ],
+  "notes": [],
+  "example": "*\"The order hadn't been signed yet and the **capitulectual** already had a column explaining why resistance would be 'counterproductive' and 'unserious.'\"*",
+  "related": [
+    "Bootcurious",
+    "Hypocontortionist",
+    "Decorumancer"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argument to moderation"
+    },
+    {
+      "rel": "commits",
+      "to": "False equivalence"
+    },
+    {
+      "rel": "commits",
+      "to": "False balance"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

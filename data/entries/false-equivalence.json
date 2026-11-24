@@ -1,0 +1,36 @@
+{
+  "term": "False equivalence",
+  "kind": "fallacy",
+  "chapter": "strays",
+  "position": 3,
+  "part_of_speech": "noun",
+  "etymology": "Latin: false equivalence, or the apples-and-oranges move. The failure is in the comparison, not in either thing compared.",
+  "family": "Informal · Presumption",
+  "committed_when": "Two acts are being compared and the comparison flatters the speaker's side.",
+  "tell": "The two things share a category and nothing else: scale, intent, effect, and remedy are all different.",
+  "counter": "Compare like quantities: how many, how bad, how permanent, who can fix it. Equivalence collapses under one honest axis.",
+  "senses": [
+    "Treating two things as equally bad, or equally serious, because they share a name or a shape.",
+    "It works because a shared label feels like a shared scale. Once both acts are called “unfair”, the sentence can weigh them evenly without ever measuring them."
+  ],
+  "example": "“Both sides traffic in misinformation.” One retracted a chart; the other broadcast a fabricated one to nine million people for a week.",
+  "confused_with": [
+    {
+      "term": "False dilemma",
+      "tell": "The dilemma collapses the field to two options; equivalence collapses the distance between them."
+    }
+  ],
+  "related": [
+    "False dilemma",
+    "Argument to moderation"
+  ],
+  "cite": {
+    "label": "Wikipedia · False equivalence",
+    "url": "https://en.wikipedia.org/wiki/False_equivalence"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

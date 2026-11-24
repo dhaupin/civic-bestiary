@@ -1,0 +1,52 @@
+{
+  "term": "Bootcurious",
+  "kind": "buff",
+  "chapter": "hypocrisy-revisionism",
+  "position": 3,
+  "part_of_speech": "noun / adjective",
+  "ipa": "/ˈbuːtˌkjʊər.i.əs/",
+  "etymology": "Blend of \"bootlicker\" + \"curious\"",
+  "effect": "Excuses any contradiction for the length of one news cycle, and relabels deference as independence.",
+  "tell": "\"I'm socially liberal, but -\" arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable.",
+  "expires": "The next story that forces a choice between the strongman and the neighbour - usually within a month, rarely at a ballot.",
+  "confused_with": [
+    {
+      "term": "Capitulectual",
+      "tell": "The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence."
+    }
+  ],
+  "senses": [
+    "*(noun)* An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
+    "*(adjective)* Exhibiting a submissive fascination with unchecked authority - eagerly surrendering personal dignity, critical thinking, and civic principles to worship powerful figures who openly hold them in contempt."
+  ],
+  "notes": [],
+  "example": "*\"For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests.\"*",
+  "related": [
+    "LARPtarian",
+    "Hypocontortionist",
+    "Sabotriot"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Special pleading"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to authority"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting the burden of proof"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from silence"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

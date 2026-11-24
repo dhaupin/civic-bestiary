@@ -1,0 +1,36 @@
+{
+  "term": "False dilemma",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 104,
+  "part_of_speech": "noun",
+  "etymology": "Also the either-or fallacy: the Greek dilemma names two horns, and the trick is to admit only two.",
+  "family": "Informal · Presumption",
+  "committed_when": "A decision is framed as a choice between the speaker's option and a disaster.",
+  "tell": "The sentence has exactly two branches, and one of them is unthinkable.",
+  "counter": "Name the third option out loud. A dilemma dies the moment a listener can see a door in the wall.",
+  "senses": [
+    "Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
+    "It works by shrinking the field. Most real disputes have a third, boring option - wait, fund it differently, do half of it - and the boring option is exactly what the dilemma is built to hide."
+  ],
+  "example": "“You are either with us or with the terrorists.” There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
+  "confused_with": [
+    {
+      "term": "False equivalence",
+      "tell": "The dilemma collapses the field to two; equivalence claims those two weigh the same."
+    }
+  ],
+  "related": [
+    "False equivalence",
+    "Argument to moderation"
+  ],
+  "cite": {
+    "label": "Wikipedia · False dilemma",
+    "url": "https://en.wikipedia.org/wiki/False_dilemma"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

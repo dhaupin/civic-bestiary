@@ -1,0 +1,36 @@
+{
+  "term": "Argument from ignorance",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 107,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad ignorantiam - the absence of proof is offered as proof.",
+  "family": "Informal · Relevance",
+  "committed_when": "Nobody has produced evidence either way.",
+  "tell": "The conclusion rests on what has not been found.",
+  "counter": "Ask who holds the burden. A claim still needs support; an absence of evidence is evidence only when the evidence would be expected.",
+  "senses": [
+    "Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
+    "It works because the burden of proof feels like a formality. Most audiences assume a claim is either established or refuted, and the sentence supplies the third option, absence, as if it settled the matter."
+  ],
+  "example": "“Nobody has proven the machines are safe.” Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
+  "confused_with": [
+    {
+      "term": "Appeal to authority",
+      "tell": "Both outsource the support; ignorance to a gap, authority to a person."
+    }
+  ],
+  "related": [
+    "Appeal to authority",
+    "Loaded question"
+  ],
+  "cite": {
+    "label": "Wikipedia · Argument from ignorance",
+    "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 4
+  }
+}

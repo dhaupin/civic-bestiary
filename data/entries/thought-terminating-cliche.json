@@ -1,0 +1,36 @@
+{
+  "term": "Thought-terminating cliché",
+  "kind": "fallacy",
+  "chapter": "strays",
+  "position": 10,
+  "part_of_speech": "noun",
+  "etymology": "Named by Robert Jay Lifton in his study of thought reform: a phrase that ends the thinking rather than the question.",
+  "family": "Informal · Faulty generalization",
+  "committed_when": "A question has been raised that would take real work to answer.",
+  "tell": "The reply is a proverb: everything happens for a reason, it is what it is, both sides have a point.",
+  "counter": "Ask what the phrase actually asserts. Most of these sentences, unpacked, turn out to be either obvious or false.",
+  "senses": [
+    "Closing a line of thought with a stock phrase that sounds like a conclusion and forecloses the next question.",
+    "It works because the phrase is familiar and warm. Familiarity reads as wisdom, and the sentence arrives pre-approved, so using it feels like agreeing with everyone rather than ending an argument."
+  ],
+  "example": "“It is what it is.” Said about a policy that could be changed, by the people who could change it.",
+  "confused_with": [
+    {
+      "term": "Proof by assertion",
+      "tell": "The cliché stops the conversation with familiarity; the assertion stops it with confidence."
+    }
+  ],
+  "related": [
+    "Proof by assertion",
+    "Appeal to tradition"
+  ],
+  "cite": {
+    "label": "Wikipedia · Thought-terminating cliché",
+    "url": "https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

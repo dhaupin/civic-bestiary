@@ -40,6 +40,7 @@ jobs:
       # The generated artifacts are committed; refuse to ship stale ones.
       - run: python3 build.py --check
       - run: python3 build_site.py --check
+      - run: python3 build_schema.py --check
       # The pack manifest is conformant (packstruct SPEC v1) before anything
       # tries to arm it: lint the shape at author time, not at audit time.
       - run: npx --yes packstruct@1.1.2 lint packs/ --deep

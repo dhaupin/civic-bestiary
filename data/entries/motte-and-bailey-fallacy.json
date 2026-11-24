@@ -1,0 +1,36 @@
+{
+  "term": "Motte-and-bailey fallacy",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 109,
+  "part_of_speech": "noun",
+  "etymology": "From the medieval castle: a modest motte that is easy to defend, and a rich bailey that is not.",
+  "family": "Informal · Presumption",
+  "committed_when": "The strong version of a claim has just been contested.",
+  "tell": "The position shrinks under pressure and grows again in the next conversation.",
+  "counter": "Name both claims and ask which one is being defended. Accepting the motte does not concede the bailey.",
+  "senses": [
+    "Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing the strong claim once the pressure is off.",
+    "It works because the two claims are related. The retreat is sincere-sounding because the modest claim is genuinely held; the strong claim is never withdrawn, only set down."
+  ],
+  "example": "“Defund the police” argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.",
+  "confused_with": [
+    {
+      "term": "Equivocation",
+      "tell": "The motte switches between two claims; equivocation switches between two meanings of one word."
+    }
+  ],
+  "related": [
+    "Equivocation",
+    "Straw man"
+  ],
+  "cite": {
+    "label": "Wikipedia · Motte-and-bailey fallacy",
+    "url": "https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

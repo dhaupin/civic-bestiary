@@ -1,0 +1,52 @@
+{
+  "term": "Plutomartyr",
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 6,
+  "part_of_speech": "noun",
+  "ipa": "/ˈpluː.toʊ.ˌmɑːr.tər/",
+  "etymology": "Blend of \"plutocrat\" + \"martyr\"",
+  "range": "Keynote stages and any interview after a fine.",
+  "call": "\"They're coming for people like me.\"",
+  "field_marks": [
+    "Wealth worn as hardship",
+    "Persecution with a legal team",
+    "Suffers in a private jet"
+  ],
+  "confused_with": [
+    {
+      "term": "Martyrholic",
+      "tell": "The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate."
+    }
+  ],
+  "senses": [
+    "A billionaire, celebrity, or legacy institution that recasts ordinary accountability - a subpoena, a fact-check, a declined invitation - as persecution, converting enormous advantage into a victim narrative.",
+    "Someone insulated from every consequence except embarrassment, who treats that embarrassment as the gravest injustice in public life."
+  ],
+  "notes": [],
+  "example": "*\"A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**.\"*",
+  "related": [
+    "Martyrholic",
+    "Bootcurious",
+    "Indictbump"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "False equivalence"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to pity"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

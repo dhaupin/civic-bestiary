@@ -6,8 +6,9 @@ import { islands } from './AppIslands.jsx'
 import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
-import FieldGuide from './pages/FieldGuide.jsx'
+import Guide from './pages/Guide.jsx'
 import Species from './pages/Species.jsx'
+import Contribute from './pages/Contribute.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function ScrollToTop() {
@@ -20,6 +21,41 @@ function ScrollToTop() {
   return null
 }
 
+/**
+ * The prerendered HTML is the first paint, and only the first paint. Keying the
+ * router on the pathname throws the matched view away on every navigation, so
+ * state that belongs to one view - the search string, the letter filter, the
+ * sort - cannot follow the reader to the next one, and a view can never be
+ * stuck showing what the prerender baked. A hard load still gets the baked
+ * page; a click always gets a fresh mount.
+ */
+function RoutedViews() {
+  const { pathname } = useLocation()
+  return (
+    <Routes key={pathname}>
+          <Route path="/" element={<Home />} />
+          <Route path="/guide" element={<Guide />} />
+          <Route path="/chapters/:chapter" element={<Guide />} />
+          {/* a kind's front door: /species/ /moves/ /abilities/ /habitats/ /buffs/ /fallacies/ */}
+          <Route path="/species" element={<Guide />} />
+          <Route path="/moves" element={<Guide />} />
+          <Route path="/abilities" element={<Guide />} />
+          <Route path="/habitats" element={<Guide />} />
+          <Route path="/buffs" element={<Guide />} />
+          <Route path="/fallacies" element={<Guide />} />
+          <Route path="/species/:slug" element={<Species />} />
+          <Route path="/moves/:slug" element={<Species />} />
+          <Route path="/abilities/:slug" element={<Species />} />
+          <Route path="/habitats/:slug" element={<Species />} />
+          <Route path="/fallacies/:slug" element={<Species />} />
+          <Route path="/buffs/:slug" element={<Species />} />
+          <Route path="/contribute" element={<Contribute />} />
+          {/* one Route per ssr.config.js entry; species routes share this one */}
+          <Route path="*" element={<NotFound />} />
+    </Routes>
+  )
+}
+
 export default function AppLayout() {
   return (
     <>
@@ -27,13 +63,7 @@ export default function AppLayout() {
       <a className="skip" href="#main">Skip to content</a>
       <Nav />
       <main id="main">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/species" element={<FieldGuide />} />
-          <Route path="/species/:slug" element={<Species />} />
-          {/* one Route per ssr.config.js entry; species routes share this one */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <RoutedViews />
       </main>
       <Footer />
     </>

@@ -1,0 +1,36 @@
+{
+  "term": "Gish gallop",
+  "kind": "fallacy",
+  "chapter": "strays",
+  "position": 13,
+  "part_of_speech": "noun",
+  "etymology": "Named after Duane Gish, who debated by assertion density: more claims per minute than anyone could answer.",
+  "family": "Informal · Relevance",
+  "committed_when": "A format with fixed time and a live audience.",
+  "tell": "The reply is dozens of claims and no thread; the answer addresses four and looks evasive about the rest.",
+  "counter": "Answer one claim at length and say the rest are unanswered rather than answered. Quantity was the tactic; refusing it is the counter.",
+  "senses": [
+    "Overwhelming an opponent with a flood of dubious claims so that answering all of them is impossible in the time available.",
+    "It works on arithmetic, not argument. Each claim takes ten seconds to make and ten minutes to check, and the format does not care that they are not equally cheap."
+  ],
+  "example": "“Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…” Fourteen claims, ninety seconds, one of them true.",
+  "confused_with": [
+    {
+      "term": "Ad nauseam",
+      "tell": "Ad nauseam repeats one claim; the gallop produces a new one every sentence."
+    }
+  ],
+  "related": [
+    "Ad nauseam",
+    "Proof by assertion"
+  ],
+  "cite": {
+    "label": "Wikipedia · Gish gallop",
+    "url": "https://en.wikipedia.org/wiki/Gish_gallop"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

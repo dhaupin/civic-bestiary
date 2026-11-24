@@ -1,0 +1,36 @@
+{
+  "term": "Tu quoque",
+  "kind": "fallacy",
+  "chapter": "strays",
+  "position": 6,
+  "part_of_speech": "noun",
+  "etymology": "Latin: “you too” - the second-person form of the two-wrongs move, and the most common sentence on the internet.",
+  "family": "Informal · Red herring",
+  "committed_when": "A criticism has been made that one cannot answer on the merits.",
+  "tell": "The reply is a counter-accusation, and the original charge is never mentioned again.",
+  "counter": "Concede the point about consistency and keep the charge on the table - both can be true, and only one was asked about.",
+  "senses": [
+    "Answering a charge by charging the accuser with the same thing, as though a second offence cancelled the first.",
+    "It works because hypocrisy is genuinely relevant to credibility, so the deflection has a real foothold. The foothold is about the speaker; the question was about the act."
+  ],
+  "example": "“You are funded by a billionaire.” “So are you.” Both disclosures are true; only one of them was on the table.",
+  "confused_with": [
+    {
+      "term": "Two wrongs make a right",
+      "tell": "Tu quoque attacks the accuser's consistency; two wrongs uses the comparison as a defence of the act itself."
+    }
+  ],
+  "related": [
+    "Two wrongs make a right",
+    "Whataboutism"
+  ],
+  "cite": {
+    "label": "Wikipedia · Tu quoque",
+    "url": "https://en.wikipedia.org/wiki/Tu_quoque"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

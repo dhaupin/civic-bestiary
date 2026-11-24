@@ -1,0 +1,36 @@
+{
+  "term": "Appeal to tradition",
+  "kind": "fallacy",
+  "chapter": "performative-identity",
+  "position": 103,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad antiquitatem - the old is treated as the proven.",
+  "family": "Informal · Red herring",
+  "committed_when": "A practice is being questioned and its defenders have no account of why it works.",
+  "tell": "The argument's only support is that the practice has always been there.",
+  "counter": "Ask what the practice does now. Duration is a reason to be careful, not a reason to stop asking.",
+  "senses": [
+    "Treating a practice as correct because it is old, without showing that age is evidence of anything.",
+    "It works because inherited arrangements carry the weight of everyone who lived with them. Age is genuine information about endurance; it is not information about fairness or function."
+  ],
+  "example": "“We have always opened with a prayer.” The question was whether the chamber should, and always is not an answer to should.",
+  "confused_with": [
+    {
+      "term": "Appeal to nature",
+      "tell": "Tradition says it is old, nature says it is natural; both replace a reason with a pedigree."
+    }
+  ],
+  "related": [
+    "Appeal to nature",
+    "Appeal to authority"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to tradition",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

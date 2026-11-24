@@ -5,14 +5,14 @@
 import { Link } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site, { routeMeta } from '../site.js'
-import { entries, meta as lexicon, preface, sections, stats } from '../lexicon.js'
+import { chapters, entries, meta as lexicon, preface, stats } from '../lexicon.js'
 
 export default function Home() {
   const meta = routeMeta('/')
   usePageMeta({ siteUrl: site.url, path: '/', title: meta.title, description: meta.description })
 
-  const featured = sections
-    .map((section) => entries.find((entry) => entry.section === section.id))
+  const featured = chapters
+    .map((chapter) => entries.find((entry) => entry.chapter === chapter.id))
     .filter(Boolean)
 
   return (
@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
           <p className="lede">{lexicon.description}</p>
           <div className="cta-row">
-            <Link className="btn btn-primary" to="/species/">
+            <Link className="btn btn-primary" to="/guide/">
               Open the field guide
             </Link>
             <a className="btn btn-ghost" href={site.repo} target="_blank" rel="noreferrer">
@@ -34,16 +34,20 @@ export default function Home() {
           </div>
           <dl className="stats">
             <div>
-              <dd>{stats.entries}</dd>
-              <dt>species described</dt>
+              <dd>{stats.coinages}</dd>
+              <dt>coinages described</dt>
             </div>
             <div>
-              <dd>{stats.sections}</dd>
-              <dt>orders</dt>
+              <dd>{stats.fallacies}</dd>
+              <dt>fallacies indexed</dt>
             </div>
             <div>
-              <dd>2</dd>
-              <dt>senses each</dt>
+              <dd>{stats.chapters}</dd>
+              <dt>chapters</dt>
+            </div>
+            <div>
+              <dd>{Object.keys(stats.kinds).filter((kind) => stats.kinds[kind] > 0).length}</dd>
+              <dt>kinds of thing</dt>
             </div>
           </dl>
         </div>
@@ -61,12 +65,12 @@ export default function Home() {
       <section className="section">
         <div className="wrap">
           <h2>First sightings</h2>
-          <p className="sub">One species from each order. The whole guide is searchable.</p>
+          <p className="sub">One entry from each chapter. The whole guide is searchable and filterable.</p>
           <div className="grid">
             {featured.map((entry) => (
-              <Link key={entry.slug} to={`/species/${entry.slug}/`} className="card card-link">
+              <Link key={entry.slug} to={entry.path} className="card card-link">
                 <p className="card-kicker">
-                  Order {entry.sectionRoman} · {entry.partOfSpeech}
+                  Chapter {entry.chapterRoman} · {entry.kindLabel}
                 </p>
                 <h3>{entry.term}</h3>
                 <p>{entry.summary}</p>

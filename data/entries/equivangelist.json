@@ -1,0 +1,44 @@
+{
+  "term": "Equivangelist",
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 7,
+  "part_of_speech": "noun",
+  "ipa": "/ɪˈkwɪv.æn.dʒə.lɪst/",
+  "etymology": "Blend of \"equivocate\" + \"evangelist\"",
+  "range": "Op-ed pages and any panel that needs both sides.",
+  "call": "\"Both sides do it.\"",
+  "field_marks": [
+    "Weighs a fact against a feeling",
+    "Finds the middle of a mob",
+    "Treats balance as truth"
+  ],
+  "confused_with": [
+    {
+      "term": "Capitulectual",
+      "tell": "The equivangelist weighs both sides; the capitulectual gives one away before weighing."
+    }
+  ],
+  "senses": [
+    "A pundit who evangelizes false equivalence, treating a documented fact and a fabricated claim as two sides that both deserve equal airtime - converting \"both sides\" from a reporting standard into a religious commitment.",
+    "Someone who experiences moral asymmetry as bad manners, insisting that overwhelming evidence and baseless assertion be seated at the same table so that no conclusion can ever be reached and no one can ever be blamed."
+  ],
+  "notes": [],
+  "example": "*\"Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims 'raise real questions' before cutting to commercial.\"*",
+  "related": [
+    "Sophistroll",
+    "Bleatkeeper",
+    "Decorumancer"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Equivocation"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

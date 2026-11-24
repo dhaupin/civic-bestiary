@@ -1,0 +1,36 @@
+{
+  "term": "Appeal to authority",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 103,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad verecundiam, an appeal to deference - the argument from the shame of disagreeing with a great name.",
+  "family": "Informal · Red herring",
+  "committed_when": "A name with standing is available and the evidence is not.",
+  "tell": "The credentials arrive before the findings, and the findings never arrive.",
+  "counter": "Ask what the expert's evidence is, and whether their expertise covers this question. A title is a pointer to evidence, not a substitute for it.",
+  "senses": [
+    "Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
+    "It works because expertise is a genuine shortcut: nobody can verify everything, so we trust the people who did. The fallacy is trusting the title outside the field, or after the field has moved."
+  ],
+  "example": "“A Nobel laureate says the water is safe.” He holds the prize in economics. The water has never met him.",
+  "confused_with": [
+    {
+      "term": "Circular reasoning",
+      "tell": "Authority outsources the premises to a person; the circle outsources them to the conclusion itself."
+    }
+  ],
+  "related": [
+    "Circular reasoning",
+    "Argument from ignorance"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to authority",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_authority"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "term": "Sabotriot",
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 5,
+  "part_of_speech": "noun",
+  "ipa": "/ˈsæb.ə.tri.ət/",
+  "etymology": "Blend of \"saboteur\" + \"patriot\"",
+  "range": "Voting booths, clinic parking lots, and the rural hospital that just closed.",
+  "call": "\"I voted for the guy who'll cut it.\"",
+  "field_marks": [
+    "Votes against the subsidy, keeps the check",
+    "Waves the flag at the shuttered plant",
+    "Blames the other party for the closure"
+  ],
+  "confused_with": [
+    {
+      "term": "Playtriot",
+      "tell": "A playtriot performs the loyalty; a sabotriot votes it into your hospital's closure."
+    }
+  ],
+  "senses": [
+    "An empathy-devoid spite-voter who actively undermines their own healthcare, wages, public infrastructure, and community well-being - all while waving a flag - purely for the satisfaction of believing it will hurt the fellow citizens they hate.",
+    "Someone who treats self-destruction as a civic virtue, eagerly burning down the very institutions and safety nets their own family relies on just to \"own\" political rivals and watch their neighbors suffer."
+  ],
+  "notes": [],
+  "example": "*\"Cheerfully voting to defund his own town's hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**.\"*",
+  "related": [
+    "Playtriot",
+    "Martyrholic",
+    "Bootcurious"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Slippery slope"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 5
+  }
+}

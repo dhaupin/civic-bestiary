@@ -1,0 +1,36 @@
+{
+  "term": "Argument to moderation",
+  "kind": "fallacy",
+  "chapter": "hypocrisy-revisionism",
+  "position": 104,
+  "part_of_speech": "noun",
+  "etymology": "Also the middle ground fallacy: the midpoint between two positions is treated as the truth by construction.",
+  "family": "Informal · Presumption",
+  "committed_when": "Two positions are on the table and the speaker wants to look reasonable.",
+  "tell": "The recommendation is arithmetic - halfway - rather than an account of what is true.",
+  "counter": "Ask which position the evidence supports. A compromise between a measured claim and a fabricated one is a partial fabrication.",
+  "senses": [
+    "Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
+    "It works because compromise is a genuine virtue in negotiation. The sentence borrows that virtue for questions of fact, where the midpoint of true and false is still false."
+  ],
+  "example": "“One side says the water is safe, the other says it is poison - surely the truth is in the middle.” The test results are not in the middle; they are in the lab.",
+  "confused_with": [
+    {
+      "term": "False equivalence",
+      "tell": "Equivalence says the two sides are equally wrong; moderation says the truth is arithmetically between them."
+    }
+  ],
+  "related": [
+    "False equivalence",
+    "False dilemma"
+  ],
+  "cite": {
+    "label": "Wikipedia · Argument to moderation",
+    "url": "https://en.wikipedia.org/wiki/Argument_to_moderation"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

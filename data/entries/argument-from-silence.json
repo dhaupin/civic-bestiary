@@ -1,0 +1,36 @@
+{
+  "term": "Argument from silence",
+  "kind": "fallacy",
+  "chapter": "hypocrisy-revisionism",
+  "position": 106,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ex silentio - nothing was said, so the nothing is read as a statement.",
+  "family": "Informal · Relevance",
+  "committed_when": "A record is missing and a conclusion is convenient.",
+  "tell": "The argument rests on what nobody wrote down.",
+  "counter": "Ask whether anyone would have written it down. If the answer is no, the silence is not evidence of anything.",
+  "senses": [
+    "Concluding something from the absence of a record, when the record would not have mentioned it either way.",
+    "It works because silence is genuinely informative sometimes. Whether it is depends entirely on whether the silence was supposed to be broken, and that question is the one the sentence skips."
+  ],
+  "example": "“No complaints were filed, so everyone was satisfied.” Nobody knew there was a form.",
+  "confused_with": [
+    {
+      "term": "Argument from ignorance",
+      "tell": "Ignorance is about missing evidence in general; silence is about a specific record that was never kept."
+    }
+  ],
+  "related": [
+    "Argument from ignorance",
+    "Survivorship bias"
+  ],
+  "cite": {
+    "label": "Wikipedia · Argument from silence",
+    "url": "https://en.wikipedia.org/wiki/Argument_from_silence"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 2,
+    "blowback": 4
+  }
+}

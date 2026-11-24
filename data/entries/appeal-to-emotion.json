@@ -1,0 +1,36 @@
+{
+  "term": "Appeal to emotion",
+  "kind": "fallacy",
+  "chapter": "fearmongering-grift",
+  "position": 101,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad passiones, an argument addressed to feeling rather than to the claim.",
+  "family": "Informal · Red herring",
+  "committed_when": "The stakes are high enough that feeling something is unavoidable.",
+  "tell": "The appeal is to what the audience will feel if the claim is false, not to why it is true.",
+  "counter": "Separate the feeling from the fact and ask what evidence would settle it. The feeling does not disappear; it just stops voting.",
+  "senses": [
+    "Treating an emotional reaction as evidence for a factual claim - fear, anger, sympathy, or pride standing in for a reason.",
+    "It works because a feeling is real. The hearer is not imagining the dread; they are imagining that the dread is proof. Emotion supplies the urgency a premises-and-conclusion argument cannot."
+  ],
+  "example": "“Think of the children” attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.",
+  "confused_with": [
+    {
+      "term": "Appeal to fear",
+      "tell": "Emotion is the general case; fear is its most reliable channel, and its most common disguise."
+    }
+  ],
+  "related": [
+    "Appeal to fear",
+    "Motte-and-bailey fallacy"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to emotion",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_emotion"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

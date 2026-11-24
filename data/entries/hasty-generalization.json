@@ -1,0 +1,36 @@
+{
+  "term": "Hasty generalization",
+  "kind": "fallacy",
+  "chapter": "strays",
+  "position": 1,
+  "part_of_speech": "noun",
+  "etymology": "Latin: secundum quid, “according to a particular” - a rule drawn from too narrow a sample.",
+  "family": "Informal · Faulty generalization",
+  "committed_when": "A striking case is available and a general claim is wanted.",
+  "tell": "The conclusion is far wider than the number of examples behind it.",
+  "counter": "Ask how many cases, chosen how, over what period. The answer is usually one, chosen by being memorable.",
+  "senses": [
+    "Drawing a broad conclusion from a sample too small, or too selected, to support it.",
+    "It works because a single vivid case feels like a pattern. The mind generalises from what it can picture, and one picture is enough to feel like evidence."
+  ],
+  "example": "“I met two rude tourists from there, so that is what they are like.” Two people, one airport, an entire country.",
+  "confused_with": [
+    {
+      "term": "Anecdotal evidence",
+      "tell": "The generalization is the conclusion; the anecdote is the single story it was built on."
+    }
+  ],
+  "related": [
+    "Anecdotal evidence",
+    "Cherry picking"
+  ],
+  "cite": {
+    "label": "Wikipedia · Hasty generalization",
+    "url": "https://en.wikipedia.org/wiki/Hasty_generalization"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

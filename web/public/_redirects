@@ -14,3 +14,14 @@
 #
 # Add app-specific redirects below as needed:
 # /old-path    /new-path    301
+
+# Entries that changed kind moved out of /species/. The old URLs are live and
+# indexed, so each one 301s to the prefix its kind now dictates.
+/species/jaqing-off      /moves/jaqing-off/        301
+/species/jaqing-off/     /moves/jaqing-off/        301
+/species/crookmaxxing    /moves/crookmaxxing/      301
+/species/crookmaxxing/   /moves/crookmaxxing/      301
+/species/bootcurious     /buffs/bootcurious/       301
+/species/bootcurious/    /buffs/bootcurious/      301
+/species/patriotainment  /habitats/patriotainment/ 301
+/species/patriotainment/ /habitats/patriotainment/ 301

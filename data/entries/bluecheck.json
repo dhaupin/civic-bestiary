@@ -1,0 +1,44 @@
+{
+  "term": "Bluecheck",
+  "kind": "buff",
+  "chapter": "fearmongering-grift",
+  "position": 10,
+  "part_of_speech": "noun",
+  "ipa": "/ˈbluː.tʃɛk/",
+  "etymology": "Blend of \"blue check\" + the verb \"to check\" - the mark and the act of vouching",
+  "effect": "Raises the price of contradicting the bearer, because the platform has already vouched for them.",
+  "tell": "A small blue tick, a large claim, and a reply that begins \"as a verified-\"",
+  "expires": "When the platform sells the mark to anyone, which is the same week it stops meaning anything.",
+  "confused_with": [
+    {
+      "term": "Bootcurious",
+      "tell": "The bootcurious one defers to power; the bluecheck has been handed a little of it and spends it immediately."
+    }
+  ],
+  "senses": [
+    "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real, and gets heard as the account being right.",
+    "It works because verification is a claim about identity that audiences receive as a claim about authority. The bearer does not have to argue better; the interface has already agreed with them in advance."
+  ],
+  "notes": [],
+  "example": "*\"He lost the thread, then posted a screenshot of his own tick, and the **bluecheck** did the rest of the arguing for him.\"*",
+  "related": [
+    "Trust-Me-Brofessor",
+    "Bootcurious",
+    "The Feed"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to authority"
+    },
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "term": "Crookmaxxing",
+  "kind": "move",
+  "chapter": "hypocrisy-revisionism",
+  "position": 4,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˈkrʊkˌmæk.sɪŋ/",
+  "etymology": "Blend of \"crook\" + \"-maxxing\"",
+  "trigger": "An audit, a filing deadline, or a reporter holding the receipts - the moment the paperwork becomes the story.",
+  "tell": "Blatant, unbothered, on the record: \"It's not illegal,\" delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest.",
+  "counter": "Price it in public - name the number, the hour, the invoice. Crookmaxxing runs on the cost staying abstract.",
+  "confused_with": [
+    {
+      "term": "Sovereign Shillizen",
+      "tell": "The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in."
+    }
+  ],
+  "senses": [
+    "*(noun)* The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.",
+    "*(verb)* Aggressively projecting one's own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity."
+  ],
+  "notes": [],
+  "example": "*\"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**.\"*",
+  "related": [
+    "Hypocontortionist",
+    "Ragesturbationist",
+    "Sovereign shillizen"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Two wrongs make a right"
+    },
+    {
+      "rel": "commits",
+      "to": "Whataboutism"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 5
+  }
+}

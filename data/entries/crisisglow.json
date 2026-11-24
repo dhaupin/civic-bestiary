@@ -1,0 +1,44 @@
+{
+  "term": "Crisisglow",
+  "kind": "buff",
+  "chapter": "fearmongering-grift",
+  "position": 11,
+  "part_of_speech": "noun",
+  "ipa": "/ˈkraɪ.sɪsˌɡləʊ/",
+  "etymology": "Blend of \"crisis\" + \"afterglow\"",
+  "effect": "Makes the bearer the only adult in the room for as long as the emergency lasts, and suspends the questions that were due this week.",
+  "tell": "\"Now is not the time to politicise this\", from someone who has been politicising everything else since Tuesday.",
+  "expires": "When the emergency is declared over - a decision the bearer also gets to make.",
+  "confused_with": [
+    {
+      "term": "Indictbump",
+      "tell": "The indictbump is sympathy for a defendant; the crisisglow is authority for an incumbent. One is a wound, the other a uniform."
+    }
+  ],
+  "senses": [
+    "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
+    "It works because urgency is real and disagreement is slow. A crisis genuinely does compress the timetable, and the bearer decides how long the compression lasts - which is why so few emergencies end on schedule."
+  ],
+  "notes": [],
+  "example": "*\"For six weeks of **crisisglow** the mayor could not be criticised without someone asking whether you supported the recovery.\"*",
+  "related": [
+    "Honeymoan",
+    "Dramagogue",
+    "Martyrholic"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to fear"
+    },
+    {
+      "rel": "commits",
+      "to": "False dilemma"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

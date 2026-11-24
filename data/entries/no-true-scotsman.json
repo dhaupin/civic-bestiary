@@ -1,0 +1,36 @@
+{
+  "term": "No true Scotsman",
+  "kind": "fallacy",
+  "chapter": "performative-identity",
+  "position": 102,
+  "part_of_speech": "noun",
+  "etymology": "From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
+  "family": "Informal · Faulty generalization",
+  "committed_when": "A counterexample has just been produced against a generalisation about a group.",
+  "tell": "The group acquires a new membership test, applied only to the case at hand.",
+  "counter": "Fix the definition before the counterexamples arrive, and ask which rule excluded this one and why that rule was not mentioned earlier.",
+  "senses": [
+    "Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside it.",
+    "It works because definitions are genuinely negotiable. The sentence sounds like a clarification, and a clarification is much harder to argue with than a false claim."
+  ],
+  "example": "“No real conservative would vote for that.” The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.",
+  "confused_with": [
+    {
+      "term": "Straw man",
+      "tell": "The straw man weakens the opponent's claim; the Scotsman strengthens the speaker's, by shrinking the group until the counterexample is expelled."
+    }
+  ],
+  "related": [
+    "Straw man",
+    "Moving the goalposts"
+  ],
+  "cite": {
+    "label": "Wikipedia · No true Scotsman",
+    "url": "https://en.wikipedia.org/wiki/No_true_Scotsman"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

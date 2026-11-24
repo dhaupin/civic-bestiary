@@ -1,0 +1,36 @@
+{
+  "term": "Sealioning",
+  "kind": "fallacy",
+  "chapter": "bad-faith-debate",
+  "position": 113,
+  "part_of_speech": "noun",
+  "etymology": "From the webcomic: a sea lion follows you home, politely demanding that you justify yourself, forever.",
+  "family": "Informal · Relevance",
+  "committed_when": "Someone has made a point and stopped engaging.",
+  "tell": "A polite question arrives, then another, each one requiring homework, none of them answering anything.",
+  "counter": "Name the pattern, not the message: state that the questions are endless and invite one. Answering the tenth is what keeps it going.",
+  "senses": [
+    "Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.",
+    "It works because every single request is reasonable. Only the sequence is the tactic, and a sequence is invisible in any one message - which is why it is so hard to call out without looking rude."
+  ],
+  "example": "“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.” Four polite requests, one derailed argument.",
+  "confused_with": [
+    {
+      "term": "Shifting the burden of proof",
+      "tell": "The shift hands over the burden once; sealioning hands it over indefinitely, one request at a time."
+    }
+  ],
+  "related": [
+    "Shifting the burden of proof",
+    "Loaded question"
+  ],
+  "cite": {
+    "label": "Wikipedia · Sealioning",
+    "url": "https://en.wikipedia.org/wiki/Sealioning"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 1
+  }
+}

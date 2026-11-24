@@ -1,0 +1,36 @@
+{
+  "term": "Appeal to ridicule",
+  "kind": "fallacy",
+  "chapter": "strays",
+  "position": 8,
+  "part_of_speech": "noun",
+  "etymology": "Also argumentum ad ridiculum: the claim is answered with a joke about it, and the joke counts as the answer.",
+  "family": "Informal · Red herring",
+  "committed_when": "A claim is awkward to answer and easy to caricature.",
+  "tell": "The reply gets a laugh, and the claim is not restated anywhere in it.",
+  "counter": "Restate the claim in its strongest form and ask what is wrong with it. If it really is absurd, the absurdity will survive being stated fairly.",
+  "senses": [
+    "Dismissing a position by making it sound absurd rather than by showing that it is wrong.",
+    "It works because ridicule is cheap and memorable. A laugh is a conclusion the audience reaches themselves, which makes it feel like their own judgement rather than the speaker's."
+  ],
+  "example": "“So we should just let everyone do whatever they want, then?” Nobody proposed that; the sentence made the proposal funny and then defeated the joke.",
+  "confused_with": [
+    {
+      "term": "Appeal to the stone",
+      "tell": "Ridicule gets a laugh; the stone gets a shrug. Both substitute a reaction for a reason."
+    }
+  ],
+  "related": [
+    "Straw man",
+    "Appeal to the stone"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to ridicule",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_ridicule"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 3
+  }
+}
