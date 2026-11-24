@@ -18,7 +18,7 @@ OUTPUT = ROOT / "README.md"
 BANNER = "<!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->"
 REQUIRED = (
     "term", "section", "part_of_speech", "ipa", "etymology",
-    "range", "call", "field_marks", "senses", "example", "related",
+    "range", "call", "field_marks", "confused_with", "senses", "example", "related",
 )
 
 
@@ -54,6 +54,13 @@ def validate(doc):
         marks = entry.get("field_marks") or []
         if not isinstance(marks, list) or not all(isinstance(m, str) and m.strip() for m in marks):
             errors.append(f"{entry.get('term', '?')}: field_marks must be a non-empty list of strings")
+        for twin in entry.get("confused_with", []):
+            if not twin.get("tell"):
+                errors.append(f"{entry.get('term', '?')}: confused_with needs a tell")
+            if twin.get("term", "").lower() not in known:
+                errors.append(f"{entry.get('term', '?')}: confused_with term {twin.get('term')!r} is not defined")
+            if twin.get("term", "").lower() == entry.get("term", "").lower():
+                errors.append(f"{entry.get('term', '?')}: confused with itself")
         for ref in entry.get("related", []):
             if ref.lower() not in known:
                 errors.append(f"{entry.get('term', '?')}: related term {ref!r} is not defined")
@@ -98,7 +105,13 @@ def render_entry(number, entry, anchors):
     for note in entry.get("notes", []):
         lines.append(f"* **{note['label']}:** {note['text']}")
     lines.append(f"* **Example:** {entry['example']}")
-    related = ", ".join(f"[*{term}*](#{anchors[term.lower()]})" for term in entry["related"])
+    # A twin named above is not repeated in the plain cross-reference list.
+    twins = {twin["term"].lower() for twin in entry.get("confused_with", [])}
+    for twin in entry.get("confused_with", []):
+        lines.append(f"* **Easily confused with:** *{twin['term']}* - {twin['tell']}")
+    related = ", ".join(
+        f"[*{term}*](#{anchors[term.lower()]})" for term in entry["related"] if term.lower() not in twins
+    )
     lines.append(f"* **Related Terms:** {related}")
     return lines
 

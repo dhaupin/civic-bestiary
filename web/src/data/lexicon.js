@@ -98,14 +98,17 @@ export const entries = [
     "notes": [],
     "example": "“He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.”",
     "summary": "A U.S. citizen who performs shallow, theatrical displays of nationalism - such as wearing flag-themed apparel or using patriotic slogans - while...",
+    "confusedWith": [
+      {
+        "term": "LARPtarian",
+        "slug": "larptarian",
+        "tell": "Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+      }
+    ],
     "related": [
       {
         "term": "Sabotriot",
         "slug": "sabotriot"
-      },
-      {
-        "term": "LARPtarian",
-        "slug": "larptarian"
       },
       {
         "term": "Patriotainment",
@@ -141,14 +144,17 @@ export const entries = [
     ],
     "example": "“Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right.”",
     "summary": "An individual whose grasp of genuine liberty is hindered or stunted by ideological bias, partisan agendas, or self-interest - leading them to mistake...",
+    "confusedWith": [
+      {
+        "term": "Sovereign Shillizen",
+        "slug": "sovereign-shillizen",
+        "tell": "The freetard wants no rules; the shillizen insists there already are none that apply to him."
+      }
+    ],
     "related": [
       {
         "term": "LARPtarian",
         "slug": "larptarian"
-      },
-      {
-        "term": "Sovereign shillizen",
-        "slug": "sovereign-shillizen"
       },
       {
         "term": "Playtriot",
@@ -179,6 +185,13 @@ export const entries = [
     "notes": [],
     "example": "“Posting about ‘living off the grid’ from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior.”",
     "summary": "An individual who role-plays as a rugged, self-reliant rebel or oppressed freedom fighter while actively relying on - and taking for granted - the...",
+    "confusedWith": [
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "tell": "The LARPtarian can name the rifle’s caliber; the playtriot can only name the flag’s manufacturer."
+      }
+    ],
     "related": [
       {
         "term": "Sovereign shillizen",
@@ -217,6 +230,13 @@ export const entries = [
     "notes": [],
     "example": "“After getting pulled over with fake license plates, the **sovereign shillizen** tried to hand the officer a ‘fee schedule’ he bought from an online guru.”",
     "summary": "An individual who promotes, sells, or hides behind pseudo-legal “sovereign citizen” theories to evade taxes, licensing, or basic civic accountability...",
+    "confusedWith": [
+      {
+        "term": "Freetard",
+        "slug": "freetard",
+        "tell": "The shillizen files paperwork to escape the law; the freetard simply ignores it."
+      }
+    ],
     "related": [
       {
         "term": "LARPtarian",
@@ -255,11 +275,14 @@ export const entries = [
     "notes": [],
     "example": "“Cheerfully voting to defund his own town’s hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**.”",
     "summary": "An empathy-devoid spite-voter who actively undermines their own healthcare, wages, public infrastructure, and community well-being - all while waving...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Playtriot",
-        "slug": "playtriot"
-      },
+        "slug": "playtriot",
+        "tell": "A playtriot performs the loyalty; a sabotriot votes it into your hospital’s closure."
+      }
+    ],
+    "related": [
       {
         "term": "Martyrholic",
         "slug": "martyrholic"
@@ -293,6 +316,13 @@ export const entries = [
     "notes": [],
     "example": "“Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn’t a movement, that’s **patriotainment** at arena scale.”",
     "summary": "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the...",
+    "confusedWith": [
+      {
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "tell": "The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it."
+      }
+    ],
     "related": [
       {
         "term": "Playtriot",
@@ -301,10 +331,6 @@ export const entries = [
       {
         "term": "Sabotriot",
         "slug": "sabotriot"
-      },
-      {
-        "term": "Ragesturbationist",
-        "slug": "ragesturbationist"
       }
     ]
   },
@@ -331,11 +357,14 @@ export const entries = [
     "notes": [],
     "example": "“You can’t have a productive discussion with a **sophistroll**; the second you disprove his point, he’ll pivot to three different straw men and an ad hominem attack.”",
     "summary": "A bad-faith debater whose sole tactic is deploying logical fallacies - such as straw men, whataboutism, ad hominem attacks, and moving the goalposts...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Illogician",
-        "slug": "illogician"
-      },
+        "slug": "illogician",
+        "tell": "The sophistroll knows the fallacy is a fallacy; the illogician believes it."
+      }
+    ],
+    "related": [
       {
         "term": "JAQing off",
         "slug": "jaqing-off"
@@ -369,14 +398,17 @@ export const entries = [
     "notes": [],
     "example": "“He spent twenty minutes smugly lecturing the thread about ‘facts and logic’ while committing four textbook fallacies per paragraph - a true **illogician** at work.”",
     "summary": "A self-styled “rational thinker” or debater who treats broken reasoning as a fine art - deploying a relentless barrage of logical fallacies with the...",
+    "confusedWith": [
+      {
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "tell": "Both skip the evidence; the illogician has a method, the brofessor has a mood."
+      }
+    ],
     "related": [
       {
         "term": "Sophistroll",
         "slug": "sophistroll"
-      },
-      {
-        "term": "Trust-me-brofessor",
-        "slug": "trust-me-brofessor"
       },
       {
         "term": "Bleatkeeper",
@@ -407,11 +439,14 @@ export const entries = [
     "notes": [],
     "example": "“Instead of presenting a shred of evidence, the podcast host spent two hours **JAQing off** about rigged weather machines before hiding behind ‘I’m not saying it’s true, I’m just asking questions!’”",
     "summary": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as “innocent questions,” solely for...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Sophistroll",
-        "slug": "sophistroll"
-      },
+        "slug": "sophistroll",
+        "tell": "The sophistroll argues badly; the JAQer never argues at all, only asks."
+      }
+    ],
+    "related": [
       {
         "term": "Trust-me-brofessor",
         "slug": "trust-me-brofessor"
@@ -445,11 +480,14 @@ export const entries = [
     "notes": [],
     "example": "“He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to ‘look it up themselves.’”",
     "summary": "An armchair authority with zero credentials, expertise, or verifiable knowledge who lectures others with absolute certainty - yet immediately...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Biasographer",
-        "slug": "biasographer"
-      },
+        "slug": "biasographer",
+        "tell": "The brofessor names no authority; the biasographer names every authority and discredits each."
+      }
+    ],
+    "related": [
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper"
@@ -483,11 +521,14 @@ export const entries = [
     "notes": [],
     "example": "“Don’t bother asking him for actual peer-reviewed studies; he’s a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy.”",
     "summary": "An arguer who responds to requests for proof by producing a curated bibliography of hyper-partisan blogs, opinion pieces, and unverified fringe...",
-    "related": [
+    "confusedWith": [
       {
-        "term": "Trust-me-brofessor",
-        "slug": "trust-me-brofessor"
-      },
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "tell": "The brofessor has no sources; the biasographer has a bibliography he has not read."
+      }
+    ],
+    "related": [
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper"
@@ -521,6 +562,13 @@ export const entries = [
     "notes": [],
     "example": "“Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as ‘fake news’ and patronizingly told the researcher to ‘wake up and learn how the world actually works.’”",
     "summary": "A reality-denier who reflexively bleats “fake news” or “hoax” at overwhelming expert consensus, hard data, and primary evidence - guarding their echo...",
+    "confusedWith": [
+      {
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "tell": "The bleatkeeper rejects the report; the algodemic rejects the method behind it, at greater length."
+      }
+    ],
     "related": [
       {
         "term": "Biasographer",
@@ -529,10 +577,6 @@ export const entries = [
       {
         "term": "Trust-me-brofessor",
         "slug": "trust-me-brofessor"
-      },
-      {
-        "term": "Algodemic",
-        "slug": "algodemic"
       }
     ]
   },
@@ -559,6 +603,13 @@ export const entries = [
     "notes": [],
     "example": "“Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims ‘raise real questions’ before cutting to commercial.”",
     "summary": "A pundit who evangelizes false equivalence, treating a documented fact and a fabricated claim as two sides that both deserve equal airtime...",
+    "confusedWith": [
+      {
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "tell": "The equivangelist weighs both sides; the capitulectual gives one away before weighing."
+      }
+    ],
     "related": [
       {
         "term": "Sophistroll",
@@ -597,11 +648,14 @@ export const entries = [
     "notes": [],
     "example": "“In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator’s time limit ‘proof’ that he’d won.”",
     "summary": "A debater who buries an opponent under a firehose of loosely related claims, each one cheap to make and expensive to refute, then declares victory...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Sophistroll",
-        "slug": "sophistroll"
-      },
+        "slug": "sophistroll",
+        "tell": "The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast."
+      }
+    ],
+    "related": [
       {
         "term": "JAQing off",
         "slug": "jaqing-off"
@@ -635,11 +689,14 @@ export const entries = [
     "notes": [],
     "example": "“The panel spent four minutes on the policy and twenty on whether the audience’s booing was ‘divisive’ - a textbook **decorumancer** performance.”",
     "summary": "Someone who conjures civility and procedure to shut down anger that happens to be correct - insisting on tone, process, and “respectful disagreement”...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Equivangelist",
-        "slug": "equivangelist"
-      },
+        "slug": "equivangelist",
+        "tell": "The equivangelist calls it balance; the decorumancer calls it procedure."
+      }
+    ],
+    "related": [
       {
         "term": "Sophistroll",
         "slug": "sophistroll"
@@ -673,6 +730,13 @@ export const entries = [
     "notes": [],
     "example": "“After spending years screaming about ‘law and order’ and ‘treason,’ the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump’s latest authoritarian threat was ‘obviously just a joke.’”",
     "summary": "A performative moralist capable of twisting their “unshakeable” core principles into a complete 180-degree pretzel the exact second their own side is...",
+    "confusedWith": [
+      {
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "tell": "The hypocontortionist bends the principle; the martyrholic weeps about being judged for it."
+      }
+    ],
     "related": [
       {
         "term": "Bootcurious",
@@ -711,6 +775,13 @@ export const entries = [
     "notes": [],
     "example": "“Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism.”",
     "summary": "A nostalgia-poisoned revisionist who worships an imaginary, sanitized “golden age” that never actually existed - aggressively rewriting, censoring...",
+    "confusedWith": [
+      {
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "tell": "The mythstorian invents the past; the algodemic invents the study of it."
+      }
+    ],
     "related": [
       {
         "term": "Playtriot",
@@ -749,6 +820,13 @@ export const entries = [
     "notes": [],
     "example": "“For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests.”",
     "summary": "An individual who claims to be an “independent thinker,” “centrist,” or “anti-establishment rebel,” yet consistently finds themselves drawn to...",
+    "confusedWith": [
+      {
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "tell": "The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence."
+      }
+    ],
     "related": [
       {
         "term": "LARPtarian",
@@ -787,6 +865,13 @@ export const entries = [
     "notes": [],
     "example": "“Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**.”",
     "summary": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing...",
+    "confusedWith": [
+      {
+        "term": "Sovereign Shillizen",
+        "slug": "sovereign-shillizen",
+        "tell": "The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in."
+      }
+    ],
     "related": [
       {
         "term": "Hypocontortionist",
@@ -795,10 +880,6 @@ export const entries = [
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist"
-      },
-      {
-        "term": "Sovereign shillizen",
-        "slug": "sovereign-shillizen"
       }
     ]
   },
@@ -825,6 +906,13 @@ export const entries = [
     "notes": [],
     "example": "“The order hadn’t been signed yet and the **capitulectual** already had a column explaining why resistance would be ‘counterproductive’ and ‘unserious.’”",
     "summary": "A commentator who surrenders the argument before it is made - softening, hedging, and pre-apologizing for authoritarian moves in advance, then...",
+    "confusedWith": [
+      {
+        "term": "Equivangelist",
+        "slug": "equivangelist",
+        "tell": "The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity."
+      }
+    ],
     "related": [
       {
         "term": "Bootcurious",
@@ -863,11 +951,14 @@ export const entries = [
     "notes": [],
     "example": "“Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program.”",
     "summary": "An individual who manufactures, exaggerates, or recycles racialized conspiracy theories to blame immigrants or minority communities for complex...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Dramagogue",
-        "slug": "dramagogue"
-      },
+        "slug": "dramagogue",
+        "tell": "The xenophobricator needs a specific outsider; the dramagogue only needs a crowd."
+      }
+    ],
+    "related": [
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist"
@@ -901,6 +992,13 @@ export const entries = [
     "notes": [],
     "example": "“Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior.”",
     "summary": "A theatrical fearmonger who whips up hysteria, outrage, and existential panic - often targeting minority faiths, immigrants, or out-groups as...",
+    "confusedWith": [
+      {
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "tell": "The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it."
+      }
+    ],
     "related": [
       {
         "term": "Xenophobricator",
@@ -909,10 +1007,6 @@ export const entries = [
       {
         "term": "Martyrholic",
         "slug": "martyrholic"
-      },
-      {
-        "term": "Ragesturbationist",
-        "slug": "ragesturbationist"
       }
     ]
   },
@@ -939,14 +1033,17 @@ export const entries = [
     "notes": [],
     "example": "“He has zero intention of fixing the issue he screams about every night; he’s a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities.”",
     "summary": "An outrage grifter who endlessly strokes public fury, paranoia, and grievance - not to solve a single real-world problem, but purely for...",
+    "confusedWith": [
+      {
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "tell": "The dramagogue wants your fear; the ragesturbationist wants your feed."
+      }
+    ],
     "related": [
       {
         "term": "Crookmaxxing",
         "slug": "crookmaxxing"
-      },
-      {
-        "term": "Dramagogue",
-        "slug": "dramagogue"
       },
       {
         "term": "Slopagandist",
@@ -977,6 +1074,13 @@ export const entries = [
     "notes": [],
     "example": "“Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior.”",
     "summary": "An individual pathologically addicted to perpetual victimhood, who treats every marginalized group, cultural shift, or political buzzword - from...",
+    "confusedWith": [
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "tell": "Both suffer in public; the martyrholic has no jet."
+      }
+    ],
     "related": [
       {
         "term": "Dramagogue",
@@ -985,10 +1089,6 @@ export const entries = [
       {
         "term": "Sabotriot",
         "slug": "sabotriot"
-      },
-      {
-        "term": "Plutomartyr",
-        "slug": "plutomartyr"
       }
     ]
   },
@@ -1015,11 +1115,14 @@ export const entries = [
     "notes": [],
     "example": "“Bragging that he ‘escaped the matrix’ while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**.”",
     "summary": "A self-styled “independent researcher” and conspiracy theorist whose entire worldview is assembled from Facebook memes, fringe podcasts, and YouTube...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Bleatkeeper",
-        "slug": "bleatkeeper"
-      },
+        "slug": "bleatkeeper",
+        "tell": "The bleatkeeper trusts nothing; the algodemic trusts one chart he cannot read."
+      }
+    ],
+    "related": [
       {
         "term": "Trust-me-brofessor",
         "slug": "trust-me-brofessor"
@@ -1053,11 +1156,14 @@ export const entries = [
     "notes": [],
     "example": "“A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**.”",
     "summary": "A billionaire, celebrity, or legacy institution that recasts ordinary accountability - a subpoena, a fact-check, a declined invitation - as...",
-    "related": [
+    "confusedWith": [
       {
         "term": "Martyrholic",
-        "slug": "martyrholic"
-      },
+        "slug": "martyrholic",
+        "tell": "The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate."
+      }
+    ],
+    "related": [
       {
         "term": "Bootcurious",
         "slug": "bootcurious"
@@ -1091,14 +1197,17 @@ export const entries = [
     "notes": [],
     "example": "“Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn’t believe the story, he just ships it.”",
     "summary": "An operator who mass-produces synthetic outrage - AI-written screeds, generated mugshots, bot-farmed replies - flooding the zone faster than any...",
+    "confusedWith": [
+      {
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "tell": "The algodemic believes the nonsense; the slopagandist bills for it."
+      }
+    ],
     "related": [
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist"
-      },
-      {
-        "term": "Algodemic",
-        "slug": "algodemic"
       },
       {
         "term": "Dramagogue",

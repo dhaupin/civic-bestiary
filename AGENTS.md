@@ -88,6 +88,11 @@ inserted mid-section. That is the one thing a renumber breaks; prefer appending.
     check before reading the description, so they stay concrete and observable.
   They render as an identification block on `/species/<slug>` and as a `Range / Call / Field
   marks` block in the README, between the etymology and the senses.
+- `confused_with` is the pair edge: `[{ "term": "<existing term>", "tell": "<how to tell them
+  apart>" }]`. The `tell` is the whole point - it must be a diagnostic ("the sophistroll knows
+  the fallacy is a fallacy; the illogician believes it"), not a restatement of either entry.
+  A twin is filtered out of `related` by both generators, so the same species never appears
+  under both "Easily confused with" and "Compare with".
 - `part_of_speech` and `ipa` use the loose conventions already in the file; IPA is
   approximate and follows the coining, not a dictionary.
 - Prose uses ` - ` (spaced hyphen), never an em dash. The site converts quotes to curly at

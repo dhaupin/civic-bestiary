@@ -64,7 +64,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. An individual who adopts the aesthetics and rhetoric of love for their country as a shield or justification to engage in divisive, harmful, or anti-social behavior against fellow citizens.
 
 * **Example:** *"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot."*
-* **Related Terms:** [*Sabotriot*](#5-sabotriot), [*LARPtarian*](#3-larptarian), [*Patriotainment*](#6-patriotainment)
+* **Easily confused with:** *LARPtarian* - Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle.
+* **Related Terms:** [*Sabotriot*](#5-sabotriot), [*Patriotainment*](#6-patriotainment)
 
 ---
 
@@ -81,7 +82,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 
 * **Etymology & Usage Note:** Derived from the traditional verb *retard* (as in *fire-retardant*), signifying an understanding of freedom actively slowed or stunted by external agendas. Because the suffix *-tard* is commonly used online as an ableist slur, readers unfamiliar with this specific root framing may still interpret the word as derogatory without context.
 * **Example:** *"Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right."*
-* **Related Terms:** [*LARPtarian*](#3-larptarian), [*Sovereign shillizen*](#4-sovereign-shillizen), [*Playtriot*](#1-playtriot)
+* **Easily confused with:** *Sovereign Shillizen* - The freetard wants no rules; the shillizen insists there already are none that apply to him.
+* **Related Terms:** [*LARPtarian*](#3-larptarian), [*Playtriot*](#1-playtriot)
 
 ---
 
@@ -97,6 +99,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who adopts the rhetoric of radical individualism and anti-government defiance as a theatrical identity, without facing any real tyranny or sacrificing the comforts of modern civic life.
 
 * **Example:** *"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior."*
+* **Easily confused with:** *Playtriot* - The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer.
 * **Related Terms:** [*Sovereign shillizen*](#4-sovereign-shillizen), [*Bootcurious*](#18-bootcurious), [*Freetard*](#2-freetard)
 
 ---
@@ -113,6 +116,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who selectively rejects the authority of the law and the responsibilities of citizenship while actively benefiting from public infrastructure, legal protections, and societal stability.
 
 * **Example:** *"After getting pulled over with fake license plates, the **sovereign shillizen** tried to hand the officer a 'fee schedule' he bought from an online guru."*
+* **Easily confused with:** *Freetard* - The shillizen files paperwork to escape the law; the freetard simply ignores it.
 * **Related Terms:** [*LARPtarian*](#3-larptarian), [*Crookmaxxing*](#19-crookmaxxing), [*Playtriot*](#1-playtriot)
 
 ---
@@ -129,7 +133,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who treats self-destruction as a civic virtue, eagerly burning down the very institutions and safety nets their own family relies on just to "own" political rivals and watch their neighbors suffer.
 
 * **Example:** *"Cheerfully voting to defund his own town's hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**."*
-* **Related Terms:** [*Playtriot*](#1-playtriot), [*Martyrholic*](#24-martyrholic), [*Bootcurious*](#18-bootcurious)
+* **Easily confused with:** *Playtriot* - A playtriot performs the loyalty; a sabotriot votes it into your hospital's closure.
+* **Related Terms:** [*Martyrholic*](#24-martyrholic), [*Bootcurious*](#18-bootcurious)
 
 ---
 
@@ -145,7 +150,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. A mode of civic life in which the spectacle of patriotism substitutes entirely for its obligations, so that cheering loudest counts as service and noticing anything else counts as betrayal.
 
 * **Example:** *"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale."*
-* **Related Terms:** [*Playtriot*](#1-playtriot), [*Sabotriot*](#5-sabotriot), [*Ragesturbationist*](#23-ragesturbationist)
+* **Easily confused with:** *Ragesturbationist* - The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it.
+* **Related Terms:** [*Playtriot*](#1-playtriot), [*Sabotriot*](#5-sabotriot)
 
 ---
 
@@ -163,7 +169,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who treats debate as a game of rhetorical attrition, relying on volume, deflection, and deceptive reasoning to claim victory while avoiding the actual issue.
 
 * **Example:** *"You can't have a productive discussion with a **sophistroll**; the second you disprove his point, he'll pivot to three different straw men and an ad hominem attack."*
-* **Related Terms:** [*Illogician*](#8-illogician), [*JAQing off*](#9-jaqing-off), [*Equivangelist*](#13-equivangelist)
+* **Easily confused with:** *Illogician* - The sophistroll knows the fallacy is a fallacy; the illogician believes it.
+* **Related Terms:** [*JAQing off*](#9-jaqing-off), [*Equivangelist*](#13-equivangelist)
 
 ---
 
@@ -179,7 +186,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who mistakes loud, circular, or fallacious arguments for intellectual superiority, using pseudo-academic jargon to disguise the fact that their premise collapses under five seconds of scrutiny.
 
 * **Example:** *"He spent twenty minutes smugly lecturing the thread about 'facts and logic' while committing four textbook fallacies per paragraph - a true **illogician** at work."*
-* **Related Terms:** [*Sophistroll*](#7-sophistroll), [*Trust-me-brofessor*](#10-trust-me-brofessor), [*Bleatkeeper*](#12-bleatkeeper)
+* **Easily confused with:** *Trust-Me-Brofessor* - Both skip the evidence; the illogician has a method, the brofessor has a mood.
+* **Related Terms:** [*Sophistroll*](#7-sophistroll), [*Bleatkeeper*](#12-bleatkeeper)
 
 ---
 
@@ -195,7 +203,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Weaponizing feigned curiosity to plant poisonous insinuations in an audience's head without ever having to back them up with evidence, facts, or the courage to own the claim outright.
 
 * **Example:** *"Instead of presenting a shred of evidence, the podcast host spent two hours **JAQing off** about rigged weather machines before hiding behind 'I'm not saying it's true, I'm just asking questions!'"*
-* **Related Terms:** [*Sophistroll*](#7-sophistroll), [*Trust-me-brofessor*](#10-trust-me-brofessor), [*Dramagogue*](#22-dramagogue)
+* **Easily confused with:** *Sophistroll* - The sophistroll argues badly; the JAQer never argues at all, only asks.
+* **Related Terms:** [*Trust-me-brofessor*](#10-trust-me-brofessor), [*Dramagogue*](#22-dramagogue)
 
 ---
 
@@ -211,7 +220,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. A self-appointed expert whose entire bibliography consists of half-remembered memes, gut feelings, and the demand that you "do your own research" rather than hold them accountable for proving their own claims.
 
 * **Example:** *"He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to 'look it up themselves.'"*
-* **Related Terms:** [*Biasographer*](#11-biasographer), [*Bleatkeeper*](#12-bleatkeeper), [*Gallopologist*](#14-gallopologist)
+* **Easily confused with:** *Biasographer* - The brofessor names no authority; the biasographer names every authority and discredits each.
+* **Related Terms:** [*Bleatkeeper*](#12-bleatkeeper), [*Gallopologist*](#14-gallopologist)
 
 ---
 
@@ -227,7 +237,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who builds an entire "factual" narrative out of zoomed-in anomalies, cropped charts, and cherry-picked outliers while deliberately ignoring the broader, consensus data sets that dismantle their claim.
 
 * **Example:** *"Don't bother asking him for actual peer-reviewed studies; he's a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy."*
-* **Related Terms:** [*Trust-me-brofessor*](#10-trust-me-brofessor), [*Bleatkeeper*](#12-bleatkeeper), [*Mythstorian*](#17-mythstorian)
+* **Easily confused with:** *Trust-Me-Brofessor* - The brofessor has no sources; the biasographer has a bibliography he has not read.
+* **Related Terms:** [*Bleatkeeper*](#12-bleatkeeper), [*Mythstorian*](#17-mythstorian)
 
 ---
 
@@ -243,7 +254,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. An individual who parrots spoon-fed herd talking points while smugly lecturing the person holding the facts that *they* are too naive or brainwashed to understand the truth.
 
 * **Example:** *"Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as 'fake news' and patronizingly told the researcher to 'wake up and learn how the world actually works.'"*
-* **Related Terms:** [*Biasographer*](#11-biasographer), [*Trust-me-brofessor*](#10-trust-me-brofessor), [*Algodemic*](#25-algodemic)
+* **Easily confused with:** *Algodemic* - The bleatkeeper rejects the report; the algodemic rejects the method behind it, at greater length.
+* **Related Terms:** [*Biasographer*](#11-biasographer), [*Trust-me-brofessor*](#10-trust-me-brofessor)
 
 ---
 
@@ -259,6 +271,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who experiences moral asymmetry as bad manners, insisting that overwhelming evidence and baseless assertion be seated at the same table so that no conclusion can ever be reached and no one can ever be blamed.
 
 * **Example:** *"Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims 'raise real questions' before cutting to commercial."*
+* **Easily confused with:** *Capitulectual* - The equivangelist weighs both sides; the capitulectual gives one away before weighing.
 * **Related Terms:** [*Sophistroll*](#7-sophistroll), [*Bleatkeeper*](#12-bleatkeeper), [*Decorumancer*](#15-decorumancer)
 
 ---
@@ -275,7 +288,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who mistakes the sheer volume of assertions for the strength of an argument, reading an opponent's inability to keep up as an inability to answer.
 
 * **Example:** *"In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator's time limit 'proof' that he'd won."*
-* **Related Terms:** [*Sophistroll*](#7-sophistroll), [*JAQing off*](#9-jaqing-off), [*Trust-me-brofessor*](#10-trust-me-brofessor)
+* **Easily confused with:** *Sophistroll* - The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast.
+* **Related Terms:** [*JAQing off*](#9-jaqing-off), [*Trust-me-brofessor*](#10-trust-me-brofessor)
 
 ---
 
@@ -291,7 +305,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. A moderator by temperament who treats the volume of a protest as a graver offense than the thing being protested, turning decorum into a weapon against the people it excludes.
 
 * **Example:** *"The panel spent four minutes on the policy and twenty on whether the audience's booing was 'divisive' - a textbook **decorumancer** performance."*
-* **Related Terms:** [*Equivangelist*](#13-equivangelist), [*Sophistroll*](#7-sophistroll), [*Capitulectual*](#20-capitulectual)
+* **Easily confused with:** *Equivangelist* - The equivangelist calls it balance; the decorumancer calls it procedure.
+* **Related Terms:** [*Sophistroll*](#7-sophistroll), [*Capitulectual*](#20-capitulectual)
 
 ---
 
@@ -309,6 +324,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. An ideological shape-shifter who weaponizes self-righteous outrage against opponents for minor infractions, only to perform Olympic-level mental gymnastics to excuse, praise, or ignore identical behavior from their allies or benefactors.
 
 * **Example:** *"After spending years screaming about 'law and order' and 'treason,' the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump's latest authoritarian threat was 'obviously just a joke.'"*
+* **Easily confused with:** *Martyrholic* - The hypocontortionist bends the principle; the martyrholic weeps about being judged for it.
 * **Related Terms:** [*Bootcurious*](#18-bootcurious), [*Crookmaxxing*](#19-crookmaxxing), [*Capitulectual*](#20-capitulectual)
 
 ---
@@ -325,6 +341,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who treats historical fact as an enemy to be erased whenever it threatens their curated fairy tale, replacing documented reality with patriotic folklore to justify repeating the worst mistakes of the past.
 
 * **Example:** *"Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism."*
+* **Easily confused with:** *Algodemic* - The mythstorian invents the past; the algodemic invents the study of it.
 * **Related Terms:** [*Playtriot*](#1-playtriot), [*Biasographer*](#11-biasographer), [*Bleatkeeper*](#12-bleatkeeper)
 
 ---
@@ -341,6 +358,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. *(adjective)* Exhibiting a submissive fascination with unchecked authority - eagerly surrendering personal dignity, critical thinking, and civic principles to worship powerful figures who openly hold them in contempt.
 
 * **Example:** *"For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests."*
+* **Easily confused with:** *Capitulectual* - The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence.
 * **Related Terms:** [*LARPtarian*](#3-larptarian), [*Hypocontortionist*](#16-hypocontortionist), [*Sabotriot*](#5-sabotriot)
 
 ---
@@ -357,7 +375,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. *(verb)* Aggressively projecting one's own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity.
 
 * **Example:** *"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**."*
-* **Related Terms:** [*Hypocontortionist*](#16-hypocontortionist), [*Ragesturbationist*](#23-ragesturbationist), [*Sovereign shillizen*](#4-sovereign-shillizen)
+* **Easily confused with:** *Sovereign Shillizen* - The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in.
+* **Related Terms:** [*Hypocontortionist*](#16-hypocontortionist), [*Ragesturbationist*](#23-ragesturbationist)
 
 ---
 
@@ -373,6 +392,7 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone whose celebrated "independence" consists entirely of arriving early at the conclusion power wanted, and being thanked for their seriousness.
 
 * **Example:** *"The order hadn't been signed yet and the **capitulectual** already had a column explaining why resistance would be 'counterproductive' and 'unserious.'"*
+* **Easily confused with:** *Equivangelist* - The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity.
 * **Related Terms:** [*Bootcurious*](#18-bootcurious), [*Hypocontortionist*](#16-hypocontortionist), [*Decorumancer*](#15-decorumancer)
 
 ---
@@ -391,7 +411,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. A fearmonger who relies on scapegoating outsiders - such as claiming a small local immigrant population is single-handedly bankrupting massive state or federal programs - to distract from real policy failures and stoke public resentment.
 
 * **Example:** *"Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program."*
-* **Related Terms:** [*Dramagogue*](#22-dramagogue), [*Ragesturbationist*](#23-ragesturbationist), [*Illogician*](#8-illogician)
+* **Easily confused with:** *Dramagogue* - The xenophobricator needs a specific outsider; the dramagogue only needs a crowd.
+* **Related Terms:** [*Ragesturbationist*](#23-ragesturbationist), [*Illogician*](#8-illogician)
 
 ---
 
@@ -407,7 +428,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who relies on manufactured crisis, melodrama, and scapegoating to rally followers and demand special privileges, treating basic constitutional protections like freedom of religion as a one-way street meant exclusively for them.
 
 * **Example:** *"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior."*
-* **Related Terms:** [*Xenophobricator*](#21-xenophobricator), [*Martyrholic*](#24-martyrholic), [*Ragesturbationist*](#23-ragesturbationist)
+* **Easily confused with:** *Ragesturbationist* - The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it.
+* **Related Terms:** [*Xenophobricator*](#21-xenophobricator), [*Martyrholic*](#24-martyrholic)
 
 ---
 
@@ -423,7 +445,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. A cynical commentator or influencer addicted to the dopamine hit and financial payout of manufacturing hysteria, leaving their audience radicalized and society fractured while they cash the checks in private.
 
 * **Example:** *"He has zero intention of fixing the issue he screams about every night; he's a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities."*
-* **Related Terms:** [*Crookmaxxing*](#19-crookmaxxing), [*Dramagogue*](#22-dramagogue), [*Slopagandist*](#27-slopagandist)
+* **Easily confused with:** *Dramagogue* - The dramagogue wants your fear; the ragesturbationist wants your feed.
+* **Related Terms:** [*Crookmaxxing*](#19-crookmaxxing), [*Slopagandist*](#27-slopagandist)
 
 ---
 
@@ -439,7 +462,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who experiences genuine peace or security as withdrawal, constantly cycling through new imaginary boogeymen to nail themselves to a self-built cross and justify their hostility toward others.
 
 * **Example:** *"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior."*
-* **Related Terms:** [*Dramagogue*](#22-dramagogue), [*Sabotriot*](#5-sabotriot), [*Plutomartyr*](#26-plutomartyr)
+* **Easily confused with:** *Plutomartyr* - Both suffer in public; the martyrholic has no jet.
+* **Related Terms:** [*Dramagogue*](#22-dramagogue), [*Sabotriot*](#5-sabotriot)
 
 ---
 
@@ -455,7 +479,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. An individual who mistakes algorithmic radicalization for secret enlightenment, treating the total absence of real-world evidence as proof of how deep the cover-up goes.
 
 * **Example:** *"Bragging that he 'escaped the matrix' while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**."*
-* **Related Terms:** [*Bleatkeeper*](#12-bleatkeeper), [*Trust-me-brofessor*](#10-trust-me-brofessor), [*Ragesturbationist*](#23-ragesturbationist)
+* **Easily confused with:** *Bleatkeeper* - The bleatkeeper trusts nothing; the algodemic trusts one chart he cannot read.
+* **Related Terms:** [*Trust-me-brofessor*](#10-trust-me-brofessor), [*Ragesturbationist*](#23-ragesturbationist)
 
 ---
 
@@ -471,7 +496,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone insulated from every consequence except embarrassment, who treats that embarrassment as the gravest injustice in public life.
 
 * **Example:** *"A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**."*
-* **Related Terms:** [*Martyrholic*](#24-martyrholic), [*Bootcurious*](#18-bootcurious), [*Crookmaxxing*](#19-crookmaxxing)
+* **Easily confused with:** *Martyrholic* - The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate.
+* **Related Terms:** [*Bootcurious*](#18-bootcurious), [*Crookmaxxing*](#19-crookmaxxing)
 
 ---
 
@@ -487,7 +513,8 @@ The coinages are portmanteaus on purpose: legible on first contact, slightly rid
 2. Someone who no longer needs a coherent ideology, only a reliable pipeline: outrage in, engagement out, truth an irrelevant byproduct of the machinery.
 
 * **Example:** *"Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn't believe the story, he just ships it."*
-* **Related Terms:** [*Ragesturbationist*](#23-ragesturbationist), [*Algodemic*](#25-algodemic), [*Dramagogue*](#22-dramagogue)
+* **Easily confused with:** *Algodemic* - The algodemic believes the nonsense; the slopagandist bills for it.
+* **Related Terms:** [*Ragesturbationist*](#23-ragesturbationist), [*Dramagogue*](#22-dramagogue)
 
 ---
 

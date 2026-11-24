@@ -82,7 +82,15 @@ def build(doc):
                 ],
                 "example": typographic(unwrap_emphasis(entry["example"])),
                 "summary": typographic(summarize(entry["senses"][0])),
-                "related": [{"term": term, "slug": slugify(term)} for term in entry["related"]],
+                "confusedWith": [
+                    {"term": twin["term"], "slug": slugify(twin["term"]), "tell": typographic(twin["tell"])}
+                    for twin in entry["confused_with"]
+                ],
+                "related": [
+                    {"term": term, "slug": slugify(term)}
+                    for term in entry["related"]
+                    if term.lower() not in {twin["term"].lower() for twin in entry["confused_with"]}
+                ],
             })
     return {
         "meta": {"title": doc["title"], "description": doc["description"]},

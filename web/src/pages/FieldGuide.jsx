@@ -116,6 +116,10 @@ export default function FieldGuide() {
                       <span className="ipa">{entry.ipa}</span>
                     </p>
                   </div>
+                  <p className="listing-call">
+                    <span className="listing-call-label">Call</span>
+                    {entry.call}
+                  </p>
                   <p className="listing-sense"><Inline text={entry.senses[0]} /></p>
                   <p className="listing-rel">
                     <span className="listing-rel-label">Compare</span>

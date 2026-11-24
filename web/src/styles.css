@@ -319,6 +319,15 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
   color: var(--ink-soft); text-transform: uppercase;
 }
 .ipa { text-transform: none; letter-spacing: 0; }
+.listing-call {
+  margin: 1px 0 9px; font-family: var(--font-display); font-style: italic; font-size: 17px;
+  line-height: 1.4;
+}
+.listing-call-label {
+  font-family: var(--font-mono); font-style: normal; font-size: 10px;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft);
+  margin-right: 8px;
+}
 .listing-sense { margin: 0 0 8px; max-width: 74ch; }
 .listing-rel { margin: 0; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.03em; }
 .listing-rel-label {
@@ -336,7 +345,16 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .listing-rel a:hover { color: var(--accent); text-decoration: underline; }
 .sep { color: var(--rule); margin: 0 6px; }
 
-/* --- one term ----------------------------------------------------------- */
+/* Keyboard-first escape past the nav. Off-screen until focused. */
+.skip {
+  position: absolute; left: -9999px; top: 0; z-index: 60;
+  background: var(--ink); color: var(--paper); padding: 10px 18px;
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em;
+  text-transform: uppercase; text-decoration: none;
+}
+.skip:focus { left: 12px; top: 12px; }
+
+/* --- one species -------------------------------------------------------- */
 .species { padding: 40px 0 20px; }
 .species-wrap { max-width: 940px; }        /* the same track as every other page */
 .species-wrap > * { max-width: 760px; }    /* narrower measure for reading */
@@ -429,6 +447,19 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
   font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
   text-transform: uppercase; color: var(--ink-soft);
 }
+
+.species-twins { margin: 0 0 26px; }
+.species-twins h2 {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-soft); margin: 0 0 10px;
+}
+.species-twin { margin: 0 0 8px; font-size: 16px; }
+.species-twin-name {
+  font-family: var(--font-display); font-style: italic; font-size: 19px;
+  color: var(--accent); text-decoration: none; margin-right: 10px;
+}
+.species-twin-name:hover { text-decoration: underline; }
+.species-twin-tell { color: var(--ink-soft); }
 
 .species-compare { border-top: 1px solid var(--line); padding-top: 22px; margin-bottom: 40px; }
 .species-compare h2 {

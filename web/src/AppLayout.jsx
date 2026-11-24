@@ -24,8 +24,9 @@ export default function AppLayout() {
   return (
     <>
       <ScrollToTop />
+      <a className="skip" href="#main">Skip to content</a>
       <Nav />
-      <main>
+      <main id="main">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/species" element={<FieldGuide />} />

@@ -86,6 +86,18 @@ export default function Species() {
           <figcaption>Sighting in the wild</figcaption>
         </figure>
 
+        {entry.confusedWith.length > 0 && (
+          <div className="species-twins">
+            <h2>Easily confused with</h2>
+            {entry.confusedWith.map((twin) => (
+              <p key={twin.slug} className="species-twin">
+                <Link className="species-twin-name" to={`/species/${twin.slug}`}>{twin.term}</Link>
+                <span className="species-twin-tell"><Inline text={twin.tell} /></span>
+              </p>
+            ))}
+          </div>
+        )}
+
         <div className="species-compare">
           <h2>Compare with</h2>
           <p>
