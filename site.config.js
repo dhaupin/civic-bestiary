@@ -13,9 +13,9 @@ export default {
   name: 'The Civic Bestiary',
   wordmark: { accent: 'Civic', rest: ' Bestiary' },
   badge: 'vol. 1',
-  tagline: 'A field guide to the creatures of the body politic.',
+  tagline: 'A field guide to the characters of the body politic.',
   description:
-    'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
+    'A field guide to the characters of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
   // The canonical origin. Cloudflare Pages serves the project at
   // <project>.pages.dev and at any attached custom domain; this line decides
   // which one is canonical. prestruct bakes it into canonicals, OG tags,
@@ -65,9 +65,9 @@ export default {
       priority: '1.0',
       changefreq: 'monthly',
       meta: {
-        title: 'The Civic Bestiary - creatures of the body politic',
+        title: 'The Civic Bestiary - characters of the body politic',
         description:
-          'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
+          'A field guide to the characters of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
       },
     },
     {
@@ -77,7 +77,7 @@ export default {
       meta: {
         title: 'About the guide | The Civic Bestiary',
         description:
-          'What the Civic Bestiary is for, the two rules that keep it from becoming a list of insults, and how the entries are written and answered.',
+          'What the Civic Bestiary is for, the rules that keep it from becoming a list of insults, and how the entries are written and answered.',
       },
     },
     {
@@ -87,7 +87,7 @@ export default {
       meta: {
         title: 'Propose a term | The Civic Bestiary',
         description:
-          'How to add a creature to the bestiary: what the record contract asks for, and where to send the proposal.',
+          'How to add a character to the bestiary: what the record contract asks for, and where to send the proposal.',
       },
     },
     {
@@ -97,7 +97,7 @@ export default {
       meta: {
         title: 'The field guide | The Civic Bestiary',
         description:
-          'Every entry in the bestiary, by kind and chapter - species, moves, abilities, formats, and buffs.',
+          'Every entry in the bestiary, by kind and chapter - species, moves, abilities, habitats, buffs, fallacies, remedies, and keystones.',
       },
     },
   ],
@@ -105,6 +105,6 @@ export default {
   notFound: {
     heading: '404',
     body: 'That species is not in this bestiary.',
-    primaryCta: { label: 'Open the field guide', href: '/guide' },
+    primaryCta: { label: 'Open the field guide', href: '/guide/' },
   },
 }

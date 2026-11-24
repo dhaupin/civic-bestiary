@@ -3,7 +3,7 @@
  *
  * The thesis now lives on /about/, where a reader who wants the argument can go
  * and read it. The landing does the job a field guide's front matter does: put a
- * specimen in your hand, then show you the drawer it came from.
+ * character in your hand, then show you the drawer it came from.
  */
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -24,8 +24,8 @@ export default function Home() {
   usePageMeta({ siteUrl: site.url, path: '/', title: meta.title, description: meta.description })
 
   // Stable for the prerender, random once a reader is actually here.
-  const [specimen, setSpecimen] = useState(POOL[0])
-  useEffect(() => { setSpecimen(pickOther(null)) }, [])
+  const [featured, setFeatured] = useState(POOL[0])
+  useEffect(() => { setFeatured(pickOther(null)) }, [])
 
   const chapterRows = useMemo(
     () => chapters.map((chapter) => ({
@@ -35,7 +35,7 @@ export default function Home() {
     [],
   )
 
-  const tell = specimen.identification.slice(0, 3)
+  const tell = featured.identification.slice(0, 3)
 
   return (
     <>
@@ -43,10 +43,10 @@ export default function Home() {
         <div className="wrap">
           <p className="eyebrow">a field guide · vol. 1</p>
           <h1>
-            Meet the <span className="accent">creatures</span> of the body politic.
+            Meet the <span className="accent">characters</span> of the body politic.
           </h1>
           <p className="lede">
-            Every argument has a fauna. This is the field guide to the ones that turn up in your feed,
+            Every argument has a cast. This is the field guide to the ones who turn up in your feed,
             your group chat, and the holiday table - what they do, how to spot them, and what actually
             works on them. It is also, if you are honest, a guide to the ones you have worn.
           </p>
@@ -60,20 +60,20 @@ export default function Home() {
           </div>
           <dl className="stats">
             <div>
-              <dd>{stats.coinages}</dd>
               <dt>coinages described</dt>
+              <dd>{stats.coinages}</dd>
             </div>
             <div>
-              <dd>{stats.fallacies}</dd>
               <dt>fallacies indexed</dt>
+              <dd>{stats.fallacies}</dd>
             </div>
             <div>
-              <dd>{stats.chapters}</dd>
               <dt>chapters</dt>
+              <dd>{stats.chapters}</dd>
             </div>
             <div>
-              <dd>{Object.keys(stats.kinds).filter((kind) => stats.kinds[kind] > 0).length}</dd>
               <dt>kinds of thing</dt>
+              <dd>{Object.keys(stats.kinds).filter((kind) => stats.kinds[kind] > 0).length}</dd>
             </div>
           </dl>
         </div>
@@ -81,17 +81,17 @@ export default function Home() {
 
       <section className="section">
         <div className="wrap">
-          <h2>A specimen</h2>
+          <h2>One at random</h2>
           <p className="sub">
-            One creature from the guide, drawn at random. Every entry is written the same way: what it
+            An entry from the guide, drawn fresh each visit. Every one is written the same way: what it
             is, how to recognise it, and what answers it.
           </p>
-          <Link to={specimen.path} className="card card-link">
+          <Link to={featured.path} className="card card-link">
             <p className="card-kicker">
-              {specimen.kindLabel} · chapter {specimen.chapterRoman} · {specimen.chapterTitle}
+              {featured.kindLabel} · chapter {featured.chapterRoman} · {featured.chapterTitle}
             </p>
-            <h3>{specimen.term}</h3>
-            <p>{specimen.summary}</p>
+            <h3>{featured.term}</h3>
+            <p>{featured.summary}</p>
           </Link>
           <dl className="contract">
             {tell.map((row) => (
@@ -102,7 +102,7 @@ export default function Home() {
             ))}
           </dl>
           <div className="cta-row">
-            <button type="button" className="btn btn-ghost" onClick={() => setSpecimen(pickOther(specimen))}>
+            <button type="button" className="btn btn-ghost" onClick={() => setFeatured(pickOther(featured))}>
               Show me another
             </button>
             <Link className="btn btn-ghost" to="/guide/">
@@ -116,8 +116,8 @@ export default function Home() {
         <div className="wrap">
           <h2>Six chapters</h2>
           <p className="sub">
-            The guide runs from the creatures who wear their politics to the offices that answer them.
-            Start wherever you keep getting stuck.
+            The guide runs from the characters who wear their politics to the offices that answer
+            them. Start wherever you keep getting stuck.
           </p>
           <div className="grid">
             {chapterRows.map((chapter) => (
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="wrap">
           <h2>Where the answers live</h2>
           <p className="sub">
-            The guide is not a list of complaints. Every creature has a counter, and the ones that
+            The guide is not a list of complaints. Every character has a counter, and the ones that
             belong to an office get an entry of their own.
           </p>
           <div className="grid">
@@ -159,7 +159,7 @@ export default function Home() {
               <p className="card-kicker">{stats.fallacies} entries</p>
               <h3>The fallacies</h3>
               <p>
-                The documented arguments each creature commits, with the counter that names the exit.
+                The documented arguments each character commits, with the counter that names the exit.
               </p>
             </Link>
           </div>
@@ -170,9 +170,9 @@ export default function Home() {
         <div className="wrap prose">
           <h2>Name what you keep seeing</h2>
           <p>
-            The bestiary grows the way a field guide does: someone notices a creature, writes down what
-            it does, and checks whether the animal next to it is the same one. If you have a name for
-            something the guide is missing, the proposal form is the way in.
+            The bestiary grows the way a field guide does: someone notices a character, writes down what
+            it does, and checks whether the one beside it is the same. If you have a name for something
+            the guide is missing, the proposal form is the way in.
           </p>
           <div className="cta-row">
             <Link className="btn btn-primary" to="/contribute/">

@@ -176,7 +176,7 @@ export default function Guide() {
                 type="search"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="playtriot, filibuster, gerrymander..."
+                placeholder="filibuster, gerrymander, bothsidesing..."
                 autoComplete="off"
               />
               {query && (

@@ -97,7 +97,7 @@ def validate(doc):
         if not positions:
             errors.append(f"{chapter}: no entries")
     # The graph has to stay connected, but "related" is only one of the ways to
-    # connect now: a fallacy is reached through the creatures that commit it.
+    # connect now: a fallacy is reached through the characters that commit it.
     referenced = {ref.lower() for e in doc["entries"] for ref in e.get("related", [])}
     referenced |= {edge.get("to", "").lower() for e in doc["entries"] for edge in e.get("edges", [])}
     for term in terms:

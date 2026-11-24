@@ -177,7 +177,7 @@ def build(doc):
 
     counts = {key: sum(1 for entry in entries if entry["kind"] == key) for key in kinds}
     fallacies = counts.get("fallacy", 0)
-    # A coinage is an invented name for a creature or its gear. The documented
+    # A coinage is an invented name for a character or its gear. The documented
     # fallacies and the keystones are borrowed from the literature and from the
     # public service, so counting them as coinages would overstate the joke.
     coined = sum(counts.get(key, 0) for key in ("species", "move", "ability", "habitat", "buff"))

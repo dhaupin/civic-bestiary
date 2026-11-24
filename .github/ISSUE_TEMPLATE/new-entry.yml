@@ -12,14 +12,14 @@ body:
     attributes:
       label: "Term"
       description: "The coinage, spelled the way it should be listed. Title case, no quotes."
-      placeholder: "Playtriot"
+      placeholder: "<Term> - one word, title case, no quotes"
     validations:
       required: true
   - type: dropdown
     id: kind
     attributes:
       label: "Kind"
-      description: "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, and a fallacy is a documented error in reasoning."
+      description: "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, a fallacy is a documented error in reasoning, a remedy is a procedure that answers one, and a keystone is the office whose absence is the problem."
       options:
         - "Species"
         - "Move"
@@ -63,7 +63,7 @@ body:
     attributes:
       label: "Pronunciation"
       description: "IPA between slashes. Approximate is fine."
-      placeholder: "/ˈpleɪ.tri.ət/"
+      placeholder: "/<term>/ - approximate is fine"
     validations:
       required: true
   - type: input
@@ -71,7 +71,7 @@ body:
     attributes:
       label: "Etymology"
       description: "Where the word came from, in one line. Name both parents if it is a blend."
-      placeholder: "Blend of \"play\" + \"patriot\""
+      placeholder: "<parent> + <parent> - name both halves if it is a blend"
     validations:
       required: true
   - type: textarea
@@ -79,7 +79,7 @@ body:
     attributes:
       label: "Senses"
       description: "Two definitions: the thing itself, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone."
-      placeholder: "A citizen who performs patriotism as a shield while undermining the civic obligations it claims to honour."
+      placeholder: "1. <what it is, in one sentence> 2. <why it works, in one sentence>"
     validations:
       required: true
   - type: textarea
@@ -87,7 +87,7 @@ body:
     attributes:
       label: "Example"
       description: "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside."
-      placeholder: "*\"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.\"*"
+      placeholder: "*\"<a line you could overhear>\"* - the term in **bold**"
     validations:
       required: true
   - type: textarea
@@ -95,13 +95,13 @@ body:
     attributes:
       label: "Easily confused with"
       description: "Existing terms it could be mistaken for, and the one thing that tells them apart. Optional at proposal time - the maintainers add twins when the confusion is real."
-      placeholder: "LARPtarian - both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+      placeholder: "<Nearest neighbour> - the one thing that tells them apart"
   - type: textarea
     id: identification
     attributes:
       label: "The identification block"
       description: "Describe it the way its kind is described. Species: occasion, call, tell, counter. Move: trigger, tell, counter. Ability: effect, available to, counter. Habitat: carriers, economics, signature. Buff: effect, tell, expires. Fallacy: family, committed when, the tell, counter. Remedy: effect, costs, failure, tell. Keystone: office, call, tell, keystone."
-      placeholder: "Range: ... Call: ... Field marks: ..."
+      placeholder: "Occasion: ... Call: ... Tell: ... Counter: ..."
   - type: markdown
     attributes:
       value: "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."

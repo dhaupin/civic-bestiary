@@ -2,7 +2,7 @@
   "name": "civicbestiary",
   "private": true,
   "type": "module",
-  "description": "The Civic Bestiary - a field guide to the creatures of the body politic, generated from one dataset into a README and a prestruct-prerendered static site.",
+  "description": "The Civic Bestiary - a field guide to the characters of the body politic, generated from one dataset into a README and a prestruct-prerendered static site.",
   "scripts": {
     "build": "python3 build.py && python3 build_site.py && npm --prefix web run build",
     "check": "python3 build.py --check && python3 build_site.py --check && python3 build_schema.py --check && npm run lint:packs",

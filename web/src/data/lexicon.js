@@ -2,14 +2,14 @@
 
 export const meta = {
   "title": "The Civic Bestiary",
-  "description": "A field guide to the creatures of the body politic: portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization - plus the documented fallacies they commit."
+  "description": "A field guide to the characters of the body politic: portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization - plus the documented fallacies they commit."
 }
 
 export const preface = [
-  "This is a bestiary, not a dictionary. The creatures in it are real, common, and close by - the flag hoodie in the school-board queue, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.",
+  "This is a bestiary, not a dictionary. The characters in it are real, common, and close by - the flag hoodie in the school-board queue, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.",
   "Two rules keep the guide from collapsing into a list of insults. The species is a pattern, not a person - a costume that wears people, not a kind of human, and one you can catch yourself in. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the name stays a tool for recognition rather than a way to end an argument.",
-  "The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. Some of these creatures are trolls in the old sense, things that live under bridges and demand a toll; some are trolls in the newer one. Both are field-observed here. That is roughly the right posture for the subject.",
-  "The fallacies work the other way round. They are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. Each chapter ends with the documented errors its own creatures commit, so the joke arrives with its receipt attached. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. The few that turn up in every chapter and belong to none are collected at the end as strays. The coinages are the joke; the fallacies are the part you can cite."
+  "The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. Some of these characters are trolls in the old sense, things that live under bridges and demand a toll; some are trolls in the newer one. Both are field-observed here. That is roughly the right posture for the subject.",
+  "The fallacies work the other way round. They are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. Each chapter ends with the documented errors its own characters commit, so the joke arrives with its receipt attached. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. The few that turn up in every chapter and belong to none are collected at the end as strays. The coinages are the joke; the fallacies are the part you can cite."
 ]
 
 export const stats = {
@@ -148,7 +148,7 @@ export const kinds = {
     "plural": "Habitats",
     "path": "/habitats/",
     "voice": "signature",
-    "blurb": "The place a creature is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
+    "blurb": "The place a character is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
     "identification": [
       {
         "key": "carriers",
@@ -182,7 +182,7 @@ export const kinds = {
     "plural": "Buffs",
     "path": "/buffs/",
     "voice": "tell",
-    "blurb": "A temporary condition that changes what a creature can get away with.",
+    "blurb": "A temporary condition that changes what a character can get away with.",
     "identification": [
       {
         "key": "effect",
@@ -211,7 +211,7 @@ export const kinds = {
     "plural": "Fallacies",
     "path": "/fallacies/",
     "voice": "tell",
-    "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing the creatures commit.",
+    "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing characters commit.",
     "identification": [
       {
         "key": "family",
@@ -279,7 +279,7 @@ export const kinds = {
     "plural": "Keystones",
     "path": "/keystones/",
     "voice": "call",
-    "blurb": "A species whose presence holds the ecosystem together - and whose absence is the whole problem.",
+    "blurb": "An office whose presence holds the ecosystem together - and whose absence is the whole problem.",
     "identification": [
       {
         "key": "office",
@@ -490,7 +490,7 @@ export const chapters = [
     "id": "keystones",
     "roman": "VI",
     "title": "The Keystones",
-    "note": "Every creature in chapters I to IV has a counterpart with a job title: the clerk who keeps the record, the auditor who reads the books, the poll worker who counts in public. These are the species whose absence is the pathology - and the procedures they actually run.",
+    "note": "Every character in chapters I to IV has a counterpart with a job title: the clerk who keeps the record, the auditor who reads the books, the poll worker who counts in public. These are the species whose absence is the pathology - and the procedures they actually run.",
     "slugs": [
       "the-clerk",
       "the-poll-worker",

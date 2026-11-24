@@ -1,6 +1,6 @@
 # Repository notes
 
-**The Civic Bestiary** - a field guide to the creatures of the body politic: satirical
+**The Civic Bestiary** - a field guide to the characters of the body politic: satirical
 portmanteaus for performative nationalism, bad-faith debate, hypocrisy, and algorithmic
 radicalization. One dataset, two artifacts: a GitHub-flavored README and a prerendered
 static site.
@@ -94,6 +94,10 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
 ` - ` house rule is enforced rather than remembered). It also runs `packs/`. CI pins both
 (`poststruct@1.2.0`, `packstruct@1.1.2`): an audit that floats is not a gate.
 
+One build warning is expected and harmless: `[IMPORT_IS_UNDEFINED] Import 'default' will always
+be undefined` at `src/hooks/usePageMeta.js`, from the deliberate v6/v7 interop shim in that file.
+It does not fail the build; do not "fix" it by deleting the fallback.
+
 ## Adding an entry
 
 1. Add `data/entries/<slug>.json`. `slug` is the term lowercased with spaces as hyphens, so
@@ -106,16 +110,21 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
 3. `python3 build.py && python3 build_site.py`, then `npm --prefix web run build`.
 4. Review the README diff and the new entry page.
 
-## The six kinds, and what each one is for
+## The eight kinds, and what each one is for
 
 The taxonomy is the joke's grammar, so a record's kind is an argument about what the thing is:
-a **species** is a pattern of behaviour you can name, a **move** is something done in front of witnesses, an
-**ability** belongs to an office rather than a person, a **habitat** is where the performance is
-fed, a **buff** is a temporary condition, and a **fallacy** is a real error with a citation.
-Abilities are the thinnest kind and the newest: five institutional powers (filibuster,
-redistricting, the unreadable bill, oversight theatre, patronage), each one a capability nobody
-individually owns. When a proposed entry is hard to place, ask who holds it - a body, a room, a
-clock, or a person - and the kind usually falls out.
+a **species** is a pattern of behaviour you can name, a **move** is something done in front of
+witnesses, an **ability** belongs to an office rather than a person, a **habitat** is where the
+performance is fed, a **buff** is a temporary condition, a **fallacy** is a real error with a
+citation, a **remedy** is a procedure that answers one, and a **keystone** is the office whose
+absence is the pathology.
+
+The last two are the answer side of the guide, and the reason it is not a list of complaints: a
+remedy is something a person or a body can do (notice and comment, the carve-out, the stay), and
+a keystone is an institution that has to exist before the answer is available at all (the clerk,
+the auditor, the poll worker, the redistricting commission). When a proposed entry is hard to
+place, ask who holds it - a body, a room, a clock, or a person - and the kind usually falls out.
+If the honest answer is "nobody, and that is the problem", it is a keystone.
 
 ## Sort axes
 
@@ -144,10 +153,10 @@ coinages: the review bar is that the account is real and traceable, so every fal
 checking). Definitions are written in the guide's voice; nothing about the mechanism may be invented. Those
 pages have no `ipa`.
 
-**They are filed by the graph, not by hand.** A fallacy belongs to the chapter whose creatures commit it -
+**They are filed by the graph, not by hand.** A fallacy belongs to the chapter whose characters commit it -
 count the `commits` edges into it and take the majority. If the committers split across chapters, no chapter
 owns it and it goes to chapter `strays` ("Stray Arguments"), which is where tu quoque, whataboutism and cherry
-picking live, because every chapter uses them. Re-file a fallacy by changing which creature commits it, not by
+picking live, because every chapter uses them. Re-file a fallacy by changing which character commits it, not by
 editing `chapter`; the two disagreeing is the bug.
 
 Within a chapter the coinages come first and the fallacies follow behind a "Documented fallacies" sub-head, so
@@ -256,7 +265,7 @@ appending.
   `footerExtras` holds Contribute / GitHub / License. The header, the burger sidebar, and the
   footer all render from those two lists - do not hand-type a nav link in a component.
 - **`/about/` is the essay.** The landing (`pages/Home.jsx`) is browse-first: hero, a random
-  specimen, the chapter map, the answers. The preface prose lives on `/about/`, which reads it
+  entry, the chapter map, the answers. The preface prose lives on `/about/`, which reads it
   from `lexicon.json` so it cannot drift from the README. Adding a landing section is cheap -
   it should send a reader into an entry, not into an argument.
 - **`labs/*.md` is served from the site.** `build_site.py` copies it to `web/public/labs/`, so
@@ -271,13 +280,19 @@ appending.
 
 - Two numbered senses per entry: one concrete ("who this person is"), one structural ("what
   the pattern does"). `notes` is optional and only for etymology or usage caveats.
-- Every entry carries the three identification fields, and `build.py` fails without them:
-  - `range` - one line of habitat: where you actually meet this thing.
-  - `call` - the signature utterance in quotes, the line that identifies the species by ear.
-  - `field_marks` - three short diagnostic traits, terse enough to scan. These are what you
-    check before reading the description, so they stay concrete and observable.
-  They render as an identification block on `/species/<slug>` and as a `Range / Call / Field
-  marks` block in the README, between the etymology and the senses.
+- The cast is characters, not animals. A species is a **character**; anything in the book,
+  whatever its kind, is an **entry**; a move is what a character **does**. "Creature" and
+  "animal" are retired - the field-guide frame stays (bestiary, habitat, tell), the fauna does
+  not.
+- Every entry carries exactly the identification rows its kind declares in
+  `schema/record.json` (`kinds.<kind>.identification`), and `build.py` fails without them:
+  `species` takes occasion / call / tell / counter, `move` trigger / tell / counter, `ability`
+  effect / available to / counter, `habitat` carriers / economics / signature / counter, `buff`
+  effect / tell / expires, `fallacy` family / committed when / tell / counter, `remedy` effect /
+  costs / failure / tell, and `keystone` office / call / tell / keystone.
+  They render as the identification block on the entry page and in the README, between the
+  etymology and the senses. The `tell` values are what a reader scans before reading the prose,
+  so they stay concrete and observable.
 - `confused_with` is the pair edge: `[{ "term": "<existing term>", "tell": "<how to tell them
   apart>" }]`. The `tell` is the whole point - it must be a diagnostic ("the sophistroll knows
   the fallacy is a fallacy; the illogician believes it"), not a restatement of either entry.
@@ -289,7 +304,7 @@ appending.
   generation time; `lexicon.json` keeps straight quotes.
 - The example is one line of reported speech, with the coined term in `**bold**` and the
   whole quote in italics. It is the "sighting in the wild"; `call` is the different thing -
-  what the creature says, not what someone says about it.
+  what the character says, not what someone says about it.
 - Voice is satirical and pointed, aimed at behavior, institutions, and power - never at
   identity, and never at the people on the receiving end. The bestiary frame carries the
   rule: the species is the pattern, not the person.

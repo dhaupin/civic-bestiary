@@ -24,7 +24,7 @@ const ANATOMY = [
   },
   {
     title: 'The counter',
-    body: 'What actually works on it. Not what should work, and not a better insult: the move that costs the creature something.',
+    body: 'What actually works on it. Not what should work, and not a better insult: the move that costs the character something.',
   },
   {
     title: 'Sighting in the wild',
@@ -83,9 +83,9 @@ export default function About() {
         <div className="wrap prose">
           <h2>How the graph works</h2>
           <p>
-            The guide is a network, not a list. Each creature points at the fallacies it commits, the
+            The guide is a network, not a list. Each entry points at the fallacies it commits, the
             habitat that houses it, the counter that answers it, and the neighbours it is confused
-            with. Every edge is readable in both directions: the creature page shows what it commits,
+            with. Every edge is readable in both directions: the character page shows what it commits,
             and the fallacy page shows who commits it.
           </p>
           <p>
@@ -100,10 +100,10 @@ export default function About() {
 
       <section className="section">
         <div className="wrap">
-          <h2>The eight kinds</h2>
+          <h2>The kinds</h2>
           <p className="sub">
-            {stats.entries} entries across {chapters.length} chapters. The taxonomy is in the URL, so
-            every kind and every chapter is its own page.
+            {stats.entries} entries, {kindsList.length} kinds, {chapters.length} chapters. The
+            taxonomy is in the URL, so every kind and every chapter is its own page.
           </p>
           <dl className="taxa-list">
             {kindsList.filter((kind) => stats.kinds[kind.id] > 0).map((kind) => (
