@@ -25,3 +25,8 @@
 /species/bootcurious/    /buffs/bootcurious/      301
 /species/patriotainment  /habitats/patriotainment/ 301
 /species/patriotainment/ /habitats/patriotainment/ 301
+
+# One species was renamed, not re-kinded: Sovereign Shillizen became Critizen when
+# the entry widened past the shill. The old URL is live and indexed, so it 301s.
+/species/sovereign-shillizen  /species/critizen/ 301
+/species/sovereign-shillizen/ /species/critizen/ 301

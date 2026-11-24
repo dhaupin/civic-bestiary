@@ -11,8 +11,8 @@
   "counter": "Price it in public - name the number, the hour, the invoice. Crookmaxxing runs on the cost staying abstract.",
   "confused_with": [
     {
-      "term": "Sovereign Shillizen",
-      "tell": "The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in."
+      "term": "Critizen",
+      "tell": "The critizen believes the law does not apply; the crookmaxxer knows it does and prices it in."
     }
   ],
   "senses": [
@@ -24,7 +24,7 @@
   "related": [
     "Hypocontortionist",
     "Ragesturbationist",
-    "Sovereign Shillizen"
+    "Critizen"
   ],
   "edges": [
     {

@@ -1,0 +1,58 @@
+{
+  "term": "Critizen",
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 4,
+  "part_of_speech": "noun",
+  "ipa": "/ˈkrɪt.ɪ.zən/",
+  "etymology": "Blend of \"critic\" + \"citizen\" - the citizen whose critique of the rules exempts them from the rules",
+  "occasion": "An obligation with a form attached, a deadline behind it, and a queue that has already started moving.",
+  "call": "\"That doesn't apply to me.\"",
+  "tell": [
+    "Names the defect in the rule, never the rule",
+    "Hand-lettered plate, unsigned form, unworn lanyard",
+    "Owes back taxes on principle"
+  ],
+  "counter": "Ask for the citation, then read it aloud. Every defect this species alleges has an address, and the claim rarely survives being read in the room where it was made.",
+  "confused_with": [
+    {
+      "term": "Freetard",
+      "tell": "The critizen has a theory about why the rule is void; the freetard has a feeling that it should be."
+    }
+  ],
+  "senses": [
+    "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation, the permit argued instead of filed.",
+    "It works because a rule is cheaper to dispute than to obey - the objection costs a sentence and the deadline costs a day - and a defect, once named, sounds like diligence rather than exemption."
+  ],
+  "notes": [
+    {
+      "label": "Former name",
+      "text": "Formerly **Sovereign Shillizen**, a name that aimed at the shill and missed the wider species: the shillizen is one costume the critizen wears, and not the most common one."
+    }
+  ],
+  "example": "*\"Pulled over on plates he had printed himself, the **critizen** explained that he was travelling rather than driving, and that the officer was a corporation.\"*",
+  "related": [
+    "LARPtarian",
+    "Crookmaxxing",
+    "Playtriot"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Equivocation"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from ignorance"
+    },
+    {
+      "rel": "commits",
+      "to": "I'm entitled to my opinion"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 5
+  }
+}
