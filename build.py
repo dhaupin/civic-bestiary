@@ -16,7 +16,10 @@ DATA = ROOT / "lexicon.json"
 OUTPUT = ROOT / "README.md"
 
 BANNER = "<!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->"
-REQUIRED = ("term", "section", "part_of_speech", "ipa", "etymology", "senses", "example", "related")
+REQUIRED = (
+    "term", "section", "part_of_speech", "ipa", "etymology",
+    "range", "call", "field_marks", "senses", "example", "related",
+)
 
 
 def slugify(text):
@@ -48,6 +51,9 @@ def validate(doc):
             errors.append(f"{entry.get('term', '?')}: missing {', '.join(missing)}")
         if entry.get("section") not in sections:
             errors.append(f"{entry.get('term', '?')}: unknown section {entry.get('section')!r}")
+        marks = entry.get("field_marks") or []
+        if not isinstance(marks, list) or not all(isinstance(m, str) and m.strip() for m in marks):
+            errors.append(f"{entry.get('term', '?')}: field_marks must be a non-empty list of strings")
         for ref in entry.get("related", []):
             if ref.lower() not in known:
                 errors.append(f"{entry.get('term', '?')}: related term {ref!r} is not defined")
@@ -80,6 +86,10 @@ def render_entry(number, entry, anchors):
         f"### {number}. {entry['term']}",
         f"*({entry['part_of_speech']})* `{entry['ipa']}`  ",
         f"*{entry['etymology']}*",
+        "",
+        f"**Range:** {entry['range']}  ",
+        f"**Call:** {entry['call']}  ",
+        f"**Field marks:** {' \u00b7 '.join(entry['field_marks'])}",
         "",
     ]
     for i, sense in enumerate(entry["senses"], 1):

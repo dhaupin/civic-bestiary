@@ -81,12 +81,20 @@ inserted mid-section. That is the one thing a renumber breaks; prefer appending.
 
 - Two numbered senses per entry: one concrete ("who this person is"), one structural ("what
   the pattern does"). `notes` is optional and only for etymology or usage caveats.
+- Every entry carries the three identification fields, and `build.py` fails without them:
+  - `range` - one line of habitat: where you actually meet this thing.
+  - `call` - the signature utterance in quotes, the line that identifies the species by ear.
+  - `field_marks` - three short diagnostic traits, terse enough to scan. These are what you
+    check before reading the description, so they stay concrete and observable.
+  They render as an identification block on `/species/<slug>` and as a `Range / Call / Field
+  marks` block in the README, between the etymology and the senses.
 - `part_of_speech` and `ipa` use the loose conventions already in the file; IPA is
   approximate and follows the coining, not a dictionary.
 - Prose uses ` - ` (spaced hyphen), never an em dash. The site converts quotes to curly at
   generation time; `lexicon.json` keeps straight quotes.
 - The example is one line of reported speech, with the coined term in `**bold**` and the
-  whole quote in italics.
+  whole quote in italics. It is the "sighting in the wild"; `call` is the different thing -
+  what the creature says, not what someone says about it.
 - Voice is satirical and pointed, aimed at behavior, institutions, and power - never at
   identity, and never at the people on the receiving end. The bestiary frame carries the
   rule: the species is the pattern, not the person.

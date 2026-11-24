@@ -47,6 +47,27 @@ export default function Species() {
           <p className="species-etym">{entry.etymology}</p>
         </header>
 
+        <dl className="species-spec">
+          <div>
+            <dt>Range</dt>
+            <dd>{entry.range}</dd>
+          </div>
+          <div>
+            <dt>Call</dt>
+            <dd className="species-call">{entry.call}</dd>
+          </div>
+          <div>
+            <dt>Field marks</dt>
+            <dd>
+              <ul className="species-marks">
+                {entry.fieldMarks.map((mark) => (
+                  <li key={mark}>{mark}</li>
+                ))}
+              </ul>
+            </dd>
+          </div>
+        </dl>
+
         <ol className="species-senses">
           {entry.senses.map((sense, index) => (
             <li key={index}><Inline text={sense} /></li>

@@ -72,6 +72,9 @@ def build(doc):
                 "partOfSpeech": entry["part_of_speech"],
                 "ipa": entry["ipa"],
                 "etymology": entry["etymology"],
+                "range": typographic(entry["range"]),
+                "call": typographic(entry["call"]),
+                "fieldMarks": [typographic(mark) for mark in entry["field_marks"]],
                 "senses": [typographic(sense) for sense in entry["senses"]],
                 "notes": [
                     {"label": note["label"], "text": typographic(note["text"])}

@@ -126,6 +126,9 @@ export default function FieldGuide() {
                       </span>
                     ))}
                   </p>
+                  <Link className="listing-more" to={`/species/${entry.slug}`}>
+                    Read the full entry<span aria-hidden="true"> →</span>
+                  </Link>
                 </article>
               ))}
             </div>
