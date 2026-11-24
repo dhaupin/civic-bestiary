@@ -1,0 +1,49 @@
+{
+  "term": "The public defender",
+  "kind": "keystone",
+  "chapter": "keystones",
+  "position": 21,
+  "part_of_speech": "noun",
+  "ipa": "/ˌpʌb.lɪk dɪˈfen.də/",
+  "etymology": "English: counsel paid by the state to defend people who cannot pay for counsel - a right that exists because a trial without a defence is a formality.",
+  "office": "The case file, the bail hearing, and the hour before the arraignment.",
+  "call": "\"Don't talk to anyone until I get there.\"",
+  "tell": [
+    "Knows the docket better than the prosecutor does",
+    "Asks for the bail hearing nobody scheduled",
+    "Says 'we will take it to trial' and means it"
+  ],
+  "keystone": "Without counsel the right to a defence is a form, and every claim about the system being fair is unfalsifiable. The Dramagogue needs an undefended defendant to make a case sound like a verdict.",
+  "confused_with": [
+    {
+      "term": "The juror",
+      "tell": "The defender argues the case; the juror decides it, and neither can do the other's job."
+    }
+  ],
+  "senses": [
+    "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole story - a defender carrying two hundred files cannot investigate any of them.",
+    "It works because the state has to prove its case to somebody whose job is to make it try. A defence that is funded, resourced and allowed to investigate is the difference between a plea bargain and a verdict."
+  ],
+  "notes": [],
+  "example": "*\"The **public defender** had the file for eleven minutes, asked for the body-camera footage, and the charge was withdrawn before the second hearing.\"*",
+  "related": [
+    "Dramagogue",
+    "Cross-examination",
+    "The juror"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Dramagogue"
+    },
+    {
+      "rel": "practises",
+      "to": "Cross-examination"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 1,
+    "blowback": 3
+  }
+}

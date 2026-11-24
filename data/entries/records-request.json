@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Bleatkeeper"
+    },
+    {
+      "rel": "counters",
+      "to": "Briefing room"
     }
   ],
   "sort": {

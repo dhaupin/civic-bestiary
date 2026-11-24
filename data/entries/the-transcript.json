@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Vaguebooking"
+    },
+    {
+      "rel": "counters",
+      "to": "Cable panel"
     }
   ],
   "sort": {

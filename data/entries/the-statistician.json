@@ -1,0 +1,49 @@
+{
+  "term": "The statistician",
+  "kind": "keystone",
+  "chapter": "keystones",
+  "position": 24,
+  "part_of_speech": "noun",
+  "ipa": "/ˌstæt.ɪˈstɪʃ.ən/",
+  "etymology": "From the German Statistik, the science of the state - the discipline invented to describe a population that could not be counted by hand.",
+  "office": "The denominator, the sampling frame, and the caveat printed next to the number.",
+  "call": "\"Out of how many?\"",
+  "tell": [
+    "Publishes the method before the figure",
+    "States the margin without being asked",
+    "Corrects the series when the frame was wrong"
+  ],
+  "keystone": "Without the office there is no denominator, and a panic about a number nobody can size is unanswerable by argument. The Xenophobricator is not defeated by a feeling; it is defeated by a rate per hundred thousand.",
+  "confused_with": [
+    {
+      "term": "The auditor",
+      "tell": "The auditor checks the books; the statistician checks the number everybody is quoting from them."
+    }
+  ],
+  "senses": [
+    "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion about the number; it is to publish how the number was made so that anyone can argue with the method.",
+    "It works because a rate is checkable and an anecdote is not. The moment a claim acquires a denominator it can be tested, replicated or refuted - which is why the first move against an unwelcome figure is always to attack the sample rather than the arithmetic."
+  ],
+  "notes": [],
+  "example": "*\"The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade.\"*",
+  "related": [
+    "Xenophobricator",
+    "The audit",
+    "The auditor"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Xenophobricator"
+    },
+    {
+      "rel": "practises",
+      "to": "The audit"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 2
+  }
+}

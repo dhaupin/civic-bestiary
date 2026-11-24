@@ -129,7 +129,7 @@ export default {
       "label": "Habitat",
       "plural": "Habitats",
       "path": "/habitats/",
-      "blurb": "The place a creature is found and fed - the show, the rally, the forum. Broadcast or physical, it is where the performance has a home.",
+      "blurb": "The place a creature is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
       "identification": [
         {
           "key": "carriers",
@@ -148,6 +148,12 @@ export default {
           "label": "Signature",
           "hint": "The unmistakable formal tic - what makes it recognisably this habitat and not the news.",
           "example": "A countdown clock over a battlefield."
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "hint": "What changes the room. Not a scolding - the condition, rule, or payment that would make this habitat a different place to stand in.",
+          "example": "A moderator with a published policy and a slow queue."
         }
       ]
     },

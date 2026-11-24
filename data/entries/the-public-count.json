@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Sovereign Shillizen"
+    },
+    {
+      "rel": "counters",
+      "to": "Rally"
     }
   ],
   "sort": {
