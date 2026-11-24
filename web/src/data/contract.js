@@ -6,7 +6,7 @@ export default {
     "name": "New entry",
     "titlePrefix": "[New entry] ",
     "template": "new-entry.yml",
-    "identificationHint": "Describe it the way its kind is described. Species: occasion, call, tell, counter. Move: trigger, tell, counter. Ability: effect, available to, counter. Habitat: carriers, economics, signature. Buff: effect, tell, expires. Fallacy: family, committed when, the tell, counter."
+    "identificationHint": "Describe it the way its kind is described. Species: occasion, call, tell, counter. Move: trigger, tell, counter. Ability: effect, available to, counter. Habitat: carriers, economics, signature. Buff: effect, tell, expires. Fallacy: family, committed when, the tell, counter. Remedy: effect, costs, failure, tell. Keystone: office, call, tell, keystone."
   },
   "chapters": [
     {

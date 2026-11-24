@@ -42,15 +42,17 @@ export default {
 
   // --- nav vocabulary -----------------------------------------------------
   // ONE list the header, the burger sidebar, and the footer render from.
+  // The header carries reading surfaces only. Contributing and provenance are
+  // foot-of-page matters: a reader who wants to argue with the guide should find
+  // the argument first and the paperwork second.
   nav: [
     { label: 'Field guide', to: '/guide/', group: 'site' },
     { label: 'Fallacies', to: '/fallacies/', group: 'site' },
-    { label: 'Contribute', to: '/contribute/', group: 'site' },
-    { label: 'GitHub', href: REPO, group: 'out' },
+    { label: 'About', to: '/about/', group: 'site' },
   ],
-  // GitHub already reaches the repo through the nav vocabulary, so the footer
-  // carries only what that link does not: the license.
   footerExtras: [
+    { label: 'Contribute', href: '/contribute/' },
+    { label: 'GitHub', href: REPO },
     { label: 'License', href: `${REPO}/blob/main/LICENSE` },
   ],
 
@@ -66,6 +68,16 @@ export default {
         title: 'The Civic Bestiary - creatures of the body politic',
         description:
           'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
+      },
+    },
+    {
+      path: '/about/',
+      priority: '0.6',
+      changefreq: 'monthly',
+      meta: {
+        title: 'About the guide | The Civic Bestiary',
+        description:
+          'What the Civic Bestiary is for, the two rules that keep it from becoming a list of insults, and how the entries are written and answered.',
       },
     },
     {

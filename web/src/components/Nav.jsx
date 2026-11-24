@@ -11,12 +11,15 @@ import ThemeSwitch from './ThemeSwitch.jsx'
  * trigger).
  */
 
-// The header carries the site's routes only. Outbound surfaces (GitHub) live in
-// the sidebar's "Elsewhere" list and the footer - one link each, not three.
+// The header carries the site's routes only. Outbound surfaces (GitHub) and the
+// way in (Contribute) live in the footer, plus the sidebar's "Elsewhere" list
+// for the phone, where the footer is a long scroll away.
 const HEADER_LINKS = NAV_ITEMS.filter(i => i.group === 'site')
-// A kind that already has its own entry under Kinds should not appear twice in
-// the sidebar: the header keeps the shortcut, the menu keeps the taxonomy.
-const SIDEBAR_ITEMS = NAV_ITEMS.filter(i => !KIND_LINKS.some(kind => kind.to === i.to))
+// The sidebar's Kinds list opens with the field guide itself, so the header's
+// shortcut to the same page would be the second copy of one link.
+const SIDEBAR_ITEMS = NAV_ITEMS.filter(
+  i => i.to !== '/guide/' && !KIND_LINKS.some(kind => kind.to === i.to),
+)
 export default function Nav() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
@@ -83,7 +86,7 @@ export default function Nav() {
         <ul className="nav-sidebar-nav">
           <li>
             <NavLink to="/guide/" end className={cls} onClick={() => setOpen(false)}>
-              Everything
+              The field guide
             </NavLink>
           </li>
           {KIND_LINKS.map(item => (

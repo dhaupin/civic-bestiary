@@ -1,22 +1,17 @@
 import { Link } from 'react-router-dom'
-import { NAV_ITEMS, FOOTER_EXTRAS } from './navItems.js'
+import { FOOTER_EXTRAS } from './navItems.js'
 import site from '../site.js'
 
 /**
- * The ONE footer - renders NAV_ITEMS (text links, incl. GitHub) plus
- * FOOTER_EXTRAS. All labels come from the shared nav vocabulary (never
- * hand-typed), so header/footer/sidebar cannot drift.
+ * The ONE footer: the way in (Contribute), the provenance (GitHub, License),
+ * and the maker. All labels come from the shared nav vocabulary, so the footer
+ * cannot drift from the header or the sidebar.
  */
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="wrap footer-inner">
         <span>{site.name}</span>
-        {NAV_ITEMS
-          .filter(i => ['GitHub'].includes(i.label))
-          .map(i => (
-            <a key={i.label} href={i.href} target="_blank" rel="noreferrer">{i.label}</a>
-          ))}
         {FOOTER_EXTRAS.map(i => (
           i.href.startsWith('/')
             ? <Link key={i.label} to={i.href}>{i.label}</Link>

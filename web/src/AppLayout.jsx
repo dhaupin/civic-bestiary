@@ -10,6 +10,7 @@ import Guide from './pages/Guide.jsx'
 import Species from './pages/Species.jsx'
 import { kindsList } from './lexicon.js'
 import Contribute from './pages/Contribute.jsx'
+import About from './pages/About.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function ScrollToTop() {
@@ -50,6 +51,7 @@ function RoutedViews() {
             />
           ))}
           <Route path="/contribute" element={<Contribute />} />
+          <Route path="/about" element={<About />} />
           {/* one Route per ssr.config.js entry; species routes share this one */}
           <Route path="*" element={<NotFound />} />
     </Routes>
