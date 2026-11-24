@@ -54,6 +54,7 @@ export const kinds = {
   "species": {
     "label": "Species",
     "plural": "Species",
+    "coined": true,
     "path": "/species/",
     "voice": "call",
     "blurb": "A recognisable pattern of behaviour, worn like a costume - point at the pattern, not at a person.",
@@ -88,6 +89,7 @@ export const kinds = {
   "move": {
     "label": "Move",
     "plural": "Moves",
+    "coined": true,
     "path": "/moves/",
     "voice": "tell",
     "blurb": "An action performed in the open, in front of witnesses.",
@@ -117,6 +119,7 @@ export const kinds = {
   "ability": {
     "label": "Ability",
     "plural": "Abilities",
+    "coined": true,
     "path": "/abilities/",
     "voice": "effect",
     "blurb": "A capability an office, body, or machine can wield - no single person owns it.",
@@ -146,6 +149,7 @@ export const kinds = {
   "habitat": {
     "label": "Habitat",
     "plural": "Habitats",
+    "coined": true,
     "path": "/habitats/",
     "voice": "signature",
     "blurb": "The place a character is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
@@ -180,6 +184,7 @@ export const kinds = {
   "buff": {
     "label": "Buff",
     "plural": "Buffs",
+    "coined": true,
     "path": "/buffs/",
     "voice": "tell",
     "blurb": "A temporary condition that changes what a character can get away with.",
@@ -209,6 +214,7 @@ export const kinds = {
   "fallacy": {
     "label": "Fallacy",
     "plural": "Fallacies",
+    "coined": false,
     "path": "/fallacies/",
     "voice": "tell",
     "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing characters commit.",
@@ -243,6 +249,7 @@ export const kinds = {
   "remedy": {
     "label": "Remedy",
     "plural": "Remedies",
+    "coined": false,
     "path": "/remedies/",
     "voice": "effect",
     "blurb": "A procedure that works: what it does, what it costs the person using it, and how it gets captured.",
@@ -277,6 +284,7 @@ export const kinds = {
   "keystone": {
     "label": "Keystone",
     "plural": "Keystones",
+    "coined": false,
     "path": "/keystones/",
     "voice": "call",
     "blurb": "An office whose presence holds the ecosystem together - and whose absence is the whole problem.",

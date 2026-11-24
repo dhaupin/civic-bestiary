@@ -46,7 +46,7 @@ export default function Species() {
 
         <p className="species-kicker">
           <span className={`badge badge-${entry.kind}`}>{entry.kindLabel}</span>
-          No. {position.number} of {position.total}
+          <span>No. {position.number} of {position.total}</span>
         </p>
 
         <header className="species-head">

@@ -209,13 +209,23 @@ appending.
 
 ## Site notes
 
-- **The taxonomy is in the URL; the refinements are not.** `/guide/` is everything,
-  `/chapters/<id>/` is one chapter, and each kind's prefix (`/species/`, `/moves/`,
-  `/abilities/`, `/habitats/`, `/buffs/`, `/fallacies/`) is that kind's front door - all four are prerendered
-  pages with their own title, built from one component (`pages/Guide.jsx`) that reads the view
-  off the pathname. A letter or a search string stays in component state: it narrows what you
-  are looking at, it does not change what the page is. Combinations across the two axes
-  (moves *within* a chapter) are deliberately not URLs - that would need a page per pair.
+- **The taxonomy owns the path; the refinements own the query string.** `/guide/` is
+  everything, `/chapters/<id>/` is one chapter, and each kind's prefix (`/species/`,
+  `/moves/`, `/abilities/`, `/habitats/`, `/buffs/`, `/fallacies/`) is that kind's front door -
+  all prerendered pages with their own title, built from one component (`pages/Guide.jsx`).
+  What narrows the view without being the page - search (`?q=`), a letter (`?letter=`), a sort
+  (`?sort=`) - lives in the query string, so a filtered view is still a link someone can send,
+  and the vocabulary is one `PARAM` map in that file.
+- **Kind and chapter combine.** The one the reader clicked last owns the path and the other
+  rides along as `?kind=` or `?chapter=`, so `/chapters/ii/?kind=species` is the species in
+  chapter II rather than a lost filter. Every chip and tag link rebuilds the URL through one
+  `linkFor` helper, which is what keeps the other filters alive. Canonicals stay on the path,
+  so the parameter variants are not separate pages and never reach `sitemap.xml`.
+- **Numbers are counted, never typed.** The README footer, the home stats, and the
+  `/about/` and `/contribute/` counts all come from `data/` - `build.py` writes the README
+  line, `build_site.py` writes the bundle the site reads. Which kinds count as coinages is
+  `coined` on the kind in `schema/record.json`, not a list in the build script. If a document
+  needs a figure, point at the footer instead of copying it; `labs/prd-codex.md` does.
 - **`/fallacies/` is the appendix index**, and `/fallacies/<slug>/` its entries - the same
   component as every other kind, so the drill-downs, the A-Z filter, and the search all work
   there without a second implementation.

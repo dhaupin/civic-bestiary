@@ -117,6 +117,7 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
   font-size: 19px; font-weight: 600; letter-spacing: -0.01em;
 }
 .brand-logo { width: 20px; height: 20px; display: block; }
+.brand-word { white-space: nowrap; }
 .brand-accent { color: var(--accent); font-style: italic; }
 .brand-badge {
   font-family: var(--font-mono); font-size: 9.5px; font-weight: 400;
@@ -236,7 +237,7 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .card p { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.55; }
 
 /* --- browse ------------------------------------------------------------- */
-.page-head { padding: 56px 0 26px; border-bottom: 1px solid var(--rule); margin-bottom: 26px; }
+.page-head { padding: 40px 0 24px; border-bottom: 1px solid var(--rule); margin-bottom: 26px; }
 .page-head h1 { font-size: clamp(34px, 5vw, 50px); margin: 0 0 10px; }
 .page-head .sub { max-width: 58ch; margin: 0; }
 
@@ -404,6 +405,20 @@ button.chip { appearance: none; }
 .listing-rel a:hover { color: var(--accent); text-decoration: underline; }
 .sep { color: var(--rule); margin: 0 6px; }
 
+/* The closing call to action: the guide's last word is an invitation. */
+.guide-cta {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 20px 26px; flex-wrap: wrap;
+  margin: 40px 0 0; padding: 20px 22px;
+  background: var(--raised); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent); border-radius: 4px;
+}
+.guide-cta-title {
+  margin: 0 0 3px; font-family: var(--font-display);
+  font-size: 20px; font-weight: 600; letter-spacing: -0.01em;
+}
+.guide-cta-body { margin: 0; color: var(--ink-soft); font-size: 15px; }
+
 /* Keyboard-first escape past the nav. Off-screen until focused. */
 .skip {
   position: absolute; left: -9999px; top: 0; z-index: 60;
@@ -414,7 +429,7 @@ button.chip { appearance: none; }
 .skip:focus { left: 12px; top: 12px; }
 
 /* --- one species -------------------------------------------------------- */
-.species { padding: 40px 0 20px; }
+.species { padding: 32px 0 20px; }
 .species-wrap { max-width: 940px; }        /* the same track as every other page */
 .species-wrap > * { max-width: 760px; }    /* narrower measure for reading */
 .crumbs {
@@ -426,6 +441,7 @@ button.chip { appearance: none; }
 .crumbs a:hover { color: var(--accent); }
 
 .species-kicker {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
   font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.14em;
   text-transform: uppercase; color: var(--accent); margin: 0 0 10px;
 }
@@ -574,11 +590,6 @@ button.chip { appearance: none; }
 .nf p { color: var(--ink-soft); margin: 0 0 24px; }
 
 /* --- contribute ---------------------------------------------------------- */
-.guide-note {
-  margin: 34px 0 0; padding-top: 20px; border-top: 1px solid var(--line);
-  color: var(--ink-soft); font-size: 15.5px;
-}
-.guide-note a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
 .taxa { margin-top: 34px; padding-top: 26px; border-top: 1px solid var(--rule); }
 .taxa-list { margin: 0; display: grid; gap: 14px; }
 .taxa-list > div {
@@ -644,7 +655,12 @@ button.chip { appearance: none; }
 
 @media (max-width: 640px) {
   body { font-size: 16.5px; }
-  .hero { padding-top: 48px; }
+  .hero { padding-top: 40px; }
+  .page-head { padding: 24px 0 18px; margin-bottom: 20px; }
+  .species { padding-top: 18px; }
+  .crumbs { margin-bottom: 18px; }
+  .section { padding: 30px 0; }
+  .guide-cta { padding: 18px 18px; }
   .nav-burger { display: flex; }
   .nav-links { display: none; }
   .brand-badge { display: none; }

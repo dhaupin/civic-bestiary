@@ -3490,3 +3490,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Vaguebooking](#36-vaguebooking)
 - [Whataboutism](#128-whataboutism)
 - [Xenophobricator](#89-xenophobricator)
+
+---
+
+*165 entries in 8 kinds and 6 chapters: 78 coinages (24 species, 14 moves, 17 abilities, 12 habitats, 11 buffs), 57 fallacies, 16 remedies, 14 keystones. 71 of the 78 coinages carry a counter.* Counted from `data/` by `build.py` - nothing on this line is typed.
