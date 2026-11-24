@@ -30,9 +30,9 @@ export default {
       "title": "Fearmongering, Grift & Algorithmic Radicalization"
     },
     {
-      "id": "strays",
+      "id": "normalization",
       "roman": "V",
-      "title": "Stray Arguments"
+      "title": "Normalization, Numbness & the Noise Floor"
     },
     {
       "id": "keystones",
