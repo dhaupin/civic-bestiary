@@ -14,9 +14,12 @@ nothing but the README's own prose.
 The kind is not decoration: it decides which identification block a record must carry
 (species: occasion / call / tell / counter; move: trigger / tell / counter; ability: effect /
 available to / counter; habitat: carriers / economics / signature; buff: effect / tell /
-expires) and which URL prefix the entry lives under (`/species/`, `/moves/`, `/abilities/`,
-`/formats/`, `/buffs/`). Changing a record's kind changes its URL, so a `_redirects` 301 has
-to follow it.
+expires; fallacy: family / committed when / the tell / counter; remedy: effect / costs /
+failure mode / tell; keystone: office / call / tell / keystone) and which URL prefix the entry
+lives under (`/species/`, `/moves/`, `/abilities/`, `/habitats/`, `/buffs/`, `/fallacies/`,
+`/remedies/`, `/keystones/`). Changing a record's kind changes its URL, so a `_redirects` 301
+has to follow it. The client's kind routes are derived from the schema, so adding a kind is a
+data change and needs no edit to `AppLayout.jsx`.
 
 ## Layout
 

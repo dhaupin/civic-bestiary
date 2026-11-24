@@ -38,6 +38,12 @@
       "roman": "V",
       "title": "Stray Arguments",
       "note": "Fallacies that turn up in every chapter and belong to none: the ones the whole guide commits, filed here so the record is complete."
+    },
+    {
+      "id": "keystones",
+      "roman": "VI",
+      "title": "The Keystones",
+      "note": "Every creature in chapters I to IV has a counterpart with a job title: the clerk who keeps the record, the auditor who reads the books, the poll worker who counts in public. These are the species whose absence is the pathology - and the procedures they actually run."
     }
   ]
 }

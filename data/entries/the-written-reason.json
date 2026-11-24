@@ -1,0 +1,45 @@
+{
+  "term": "The written reason",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 15,
+  "part_of_speech": "noun",
+  "ipa": "/ðə ˈrɪt.ən ˈriː.zən/",
+  "etymology": "English: the duty to give reasons - the administrative-law rule that a decision must say why it was made.",
+  "effect": "Requires a decision to say why, in writing, and how to appeal it.",
+  "costs": "A sentence the decider would rather not write, and a deadline they would rather not have.",
+  "failure": "The boilerplate reason, copied from the last refusal, that satisfies the form and answers nothing.",
+  "tell": [
+    "A reason that names the rule",
+    "An appeal address that works",
+    "A decision you can quote back"
+  ],
+  "confused_with": [
+    {
+      "term": "The transcript",
+      "tell": "The transcript records what was said; the written reason records why it was decided."
+    }
+  ],
+  "senses": [
+    "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It is the cheapest accountability mechanism ever invented, and the one most often reduced to a template.",
+    "It works because a reason can be tested. A decision without reasons can only be disliked; a decision with reasons can be checked against the rule it claims to apply - which is why the template exists, and why reading the reasons is the first move of any appeal."
+  ],
+  "notes": [],
+  "example": "*\"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it.\"*",
+  "related": [
+    "The caseworker",
+    "The transcript",
+    "The audit"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Nonpology"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 2
+  }
+}

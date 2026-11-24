@@ -1,0 +1,49 @@
+{
+  "term": "The clerk",
+  "kind": "keystone",
+  "chapter": "keystones",
+  "position": 1,
+  "part_of_speech": "noun",
+  "ipa": "/klɑːk/",
+  "etymology": "Old English clerc, a cleric - the literate man who kept the book because he was the one who could read.",
+  "office": "The minutes, the roll, and the file that proves both.",
+  "call": "\"That's not in the record.\"",
+  "tell": [
+    "Reads the motion aloud, slowly",
+    "Knows the quorum rule without looking it up",
+    "Keeps the version that was actually adopted"
+  ],
+  "keystone": "Without the clerk there is no record, and without a record there is no way to prove what the body did - which is the first thing a Sabotriot needs and the last thing they check.",
+  "confused_with": [
+    {
+      "term": "The archivist",
+      "tell": "The clerk keeps what the body did this year; the archivist keeps what it did in 1974."
+    }
+  ],
+  "senses": [
+    "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.",
+    "It works because procedure is evidence. A vote nobody recorded is a vote somebody can deny, so the clerk's real power is not the gavel but the file - and the job stays invisible precisely until it is done badly."
+  ],
+  "notes": [],
+  "example": "*\"Two years later the only proof of what the council had voted for was the **clerk**'s minutes, and the member who had denied it was reading them aloud.\"*",
+  "related": [
+    "The archivist",
+    "The poll worker",
+    "Records request"
+  ],
+  "edges": [
+    {
+      "rel": "practises",
+      "to": "Records request"
+    },
+    {
+      "rel": "counters",
+      "to": "Sabotriot"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 1,
+    "blowback": 2
+  }
+}

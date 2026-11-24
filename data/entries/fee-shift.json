@@ -1,0 +1,45 @@
+{
+  "term": "Fee shift",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 18,
+  "part_of_speech": "noun",
+  "ipa": "/fiː ʃɪft/",
+  "etymology": "English: cost-shifting - moving the bill for a lawsuit onto the party who brought it.",
+  "effect": "Moves the bill for a bad suit onto the party who filed it.",
+  "costs": "A statute, a motion, and a judge willing to find that the suit was brought to chill.",
+  "failure": "The fee award that arrives two years late, by which time the article was never written.",
+  "tell": [
+    "A stay that stops discovery while the motion is heard",
+    "A fee award that is actually collected",
+    "A plaintiff who stops filing"
+  ],
+  "confused_with": [
+    {
+      "term": "SLAPP",
+      "tell": "The SLAPP prices speech in billable hours; the fee shift sends the invoice back to the sender."
+    }
+  ],
+  "senses": [
+    "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit was brought to silence them.",
+    "It works because it changes the arithmetic before the harm is done. The SLAPP's business model is that defending is expensive, so the remedy is not a bigger verdict at the end - it is a smaller bill at the start."
+  ],
+  "notes": [],
+  "example": "*\"The **fee shift** turned a two-year defence into a nine-week motion, and the second letter from the same lawyer never arrived.\"*",
+  "related": [
+    "The audit",
+    "Random draw",
+    "The public count"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "SLAPP"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 1,
+    "blowback": 2
+  }
+}

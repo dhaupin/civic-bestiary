@@ -33,6 +33,11 @@ export default {
       "id": "strays",
       "roman": "V",
       "title": "Stray Arguments"
+    },
+    {
+      "id": "keystones",
+      "roman": "VI",
+      "title": "The Keystones"
     }
   ],
   "kinds": {
@@ -201,6 +206,70 @@ export default {
           "label": "Counter",
           "hint": "The response that ends it.",
           "example": "Ask what the claim gets wrong, and answer that instead."
+        }
+      ]
+    },
+    "remedy": {
+      "label": "Remedy",
+      "plural": "Remedies",
+      "path": "/remedies/",
+      "blurb": "A procedure that works: what it does, what it costs the person using it, and how it gets captured.",
+      "identification": [
+        {
+          "key": "effect",
+          "label": "Effect",
+          "hint": "What it does to the creature, in the active voice. One sentence, no moral.",
+          "example": "Turns a question into a deadline: the agency has to answer in writing, or say in writing why it will not."
+        },
+        {
+          "key": "costs",
+          "label": "Costs",
+          "hint": "What it costs the person using it - time, money, exposure. A remedy with no price is a slogan.",
+          "example": "Fees, weeks, and the patience to appeal a redaction."
+        },
+        {
+          "key": "failure",
+          "label": "Failure mode",
+          "hint": "How the remedy gets captured, defunded, or run out the clock. Every remedy has one, and naming it is the difference between a tool and a wish.",
+          "example": "The fee estimate that costs more than the record, and the exemption that arrives after the news cycle."
+        },
+        {
+          "key": "tell",
+          "label": "Tell",
+          "hint": "How you know it is working. Three is the house number.",
+          "example": "An answer with a docket number"
+        }
+      ]
+    },
+    "keystone": {
+      "label": "Keystone",
+      "plural": "Keystones",
+      "path": "/keystones/",
+      "blurb": "A species whose presence holds the ecosystem together - and whose absence is the whole problem.",
+      "identification": [
+        {
+          "key": "office",
+          "label": "Office",
+          "hint": "What they hold, and what the rest of us borrow: the minutes, the roll, the record, the licence to ask.",
+          "example": "The minutes, the roll, and the file that proves both."
+        },
+        {
+          "key": "call",
+          "label": "Call",
+          "hint": "What they say, usually at the moment it is least convenient.",
+          "example": "\"That's not in the record.\""
+        },
+        {
+          "key": "tell",
+          "label": "Tell",
+          "hint": "How you know one when you meet one. Three is the house number.",
+          "example": "Reads the motion aloud, slowly"
+        },
+        {
+          "key": "keystone",
+          "label": "Keystone",
+          "hint": "What collapses without them. Name the mechanism, not the moral - and name the creature that needs the gap.",
+          "example": "Without the record there is no way to prove what the body did, which is the first thing a Sabotriot needs."
         }
       ]
     }
