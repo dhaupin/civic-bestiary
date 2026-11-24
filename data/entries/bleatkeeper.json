@@ -1,7 +1,8 @@
 {
   "term": "Bleatkeeper",
-  "section": "bad-faith-debate",
-  "order": 6,
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 6,
   "part_of_speech": "noun",
   "ipa": "/ˈbliːtˌkiː.pər/",
   "etymology": "Blend of \"bleat\" + \"gatekeeper\"",

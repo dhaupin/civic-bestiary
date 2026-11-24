@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Render README.md from the data/ records.
 
-`data/lexicon.json` holds the meta (title, description, preface, sections);
-`data/species/*.json` holds one record per species, each carrying its `section`
-and its `order` within that section. The split is what lets the relation graph
-be linted record by record, and it keeps two people adding species from
-colliding in one file.
+`data/lexicon.json` holds the meta (title, description, preface, chapters);
+`data/entries/*.json` holds one record per term, each carrying its `kind`, its
+`chapter`, and its `position` within that chapter. The split is what lets the
+relation graph be linted record by record, and it keeps two people adding
+entries from colliding in one file.
 
 Usage:
     python3 build.py           # regenerate README.md
@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 META = DATA / "lexicon.json"
-SPECIES = DATA / "species"
+ENTRIES = DATA / "entries"
 OUTPUT = ROOT / "README.md"
 
 BANNER = "<!-- Generated from data/ by build.py - edit the records, not this file. -->"
@@ -29,6 +29,7 @@ BANNER = "<!-- Generated from data/ by build.py - edit the records, not this fil
 # contribute page derive from it too. Requiring a field here without adding it
 # there would mean a contributor cannot supply what the validator demands.
 SCHEMA = json.loads((ROOT / "schema" / "record.json").read_text(encoding="utf-8"))
+KINDS = SCHEMA["kinds"]
 REQUIRED = tuple(field["key"] for field in SCHEMA["fields"] if field.get("required"))
 
 
@@ -37,24 +38,30 @@ def slugify(text):
     return re.sub(r"[^\w\- ]", "", text.lower()).replace(" ", "-")
 
 
+def identification_keys(kind):
+    """The block a kind must carry - a species has range/call/field marks, a
+    move has trigger/tell/counter, and so on."""
+    return tuple(row["key"] for row in KINDS[kind]["identification"])
+
+
 def load():
     meta = json.loads(META.read_text(encoding="utf-8"))
-    order_of = {section["id"]: index for index, section in enumerate(meta["sections"])}
+    order_of = {chapter["id"]: index for index, chapter in enumerate(meta["chapters"])}
     records = []
-    for path in sorted(SPECIES.glob("*.json")):
+    for path in sorted(ENTRIES.glob("*.json")):
         record = json.loads(path.read_text(encoding="utf-8"))
         record["_file"] = path.name
         records.append(record)
-    # section order first, then the record's own order inside it: the README
+    # chapter order first, then the record's own position inside it: the README
     # numbering and the site's prev/next both run off this one sort
-    records.sort(key=lambda r: (order_of.get(r.get("section"), len(order_of)), r.get("order", 0), r["term"]))
+    records.sort(key=lambda r: (order_of.get(r.get("chapter"), len(order_of)), r.get("position", 0), r["term"]))
     doc = {**meta, "entries": records}
     validate(doc)
     return doc
 
 
 def validate(doc):
-    sections = {s["id"] for s in doc["sections"]}
+    chapters = {c["id"] for c in doc["chapters"]}
     terms = [e["term"] for e in doc["entries"]]
     known = {t.lower() for t in terms}
     errors = []
@@ -67,28 +74,43 @@ def validate(doc):
         expected = slugify(entry.get("term", ""))
         if entry.get("_file") != f"{expected}.json":
             errors.append(f"{name}: file name should be {expected}.json (from the term)")
-    for section in sections:
-        orders = [e.get("order") for e in doc["entries"] if e.get("section") == section]
-        dupes = sorted({o for o in orders if orders.count(o) > 1})
+    for chapter in chapters:
+        positions = [e.get("position") for e in doc["entries"] if e.get("chapter") == chapter]
+        dupes = sorted({p for p in positions if positions.count(p) > 1})
         if dupes:
-            errors.append(f"{section}: duplicate order {dupes}")
-        if not orders:
-            errors.append(f"{section}: no species")
+            errors.append(f"{chapter}: duplicate position {dupes}")
+        if not positions:
+            errors.append(f"{chapter}: no entries")
     referenced = {ref.lower() for e in doc["entries"] for ref in e.get("related", [])}
     for term in terms:
         if term.lower() not in referenced:
             errors.append(f"{term}: never listed as a related term; the cross-reference graph must stay connected")
     for entry in doc["entries"]:
-        missing = [k for k in REQUIRED if not entry.get(k)]
+        name = entry.get("term", "?")
+        kind = entry.get("kind")
+        if kind not in KINDS:
+            errors.append(f"{name}: unknown kind {kind!r}; known: {', '.join(KINDS)}")
+            continue
+        missing = [k for k in (*REQUIRED, *identification_keys(kind)) if not entry.get(k)]
         if missing:
-            errors.append(f"{entry.get('term', '?')}: missing {', '.join(missing)}")
-        if not isinstance(entry.get("order"), int):
-            errors.append(f"{entry.get('term', '?')}: order must be an integer")
-        if entry.get("section") not in sections:
-            errors.append(f"{entry.get('term', '?')}: unknown section {entry.get('section')!r}")
-        marks = entry.get("field_marks") or []
-        if not isinstance(marks, list) or not all(isinstance(m, str) and m.strip() for m in marks):
-            errors.append(f"{entry.get('term', '?')}: field_marks must be a non-empty list of strings")
+            errors.append(f"{name}: missing {', '.join(missing)}")
+        # Kinds share row names (a move and a buff both have a `tell`), so the
+        # test is membership in this kind's block, not in some other kind's.
+        own = set(identification_keys(kind))
+        stray = sorted({row["key"] for spec in KINDS.values() for row in spec["identification"]
+                        if row["key"] not in own and entry.get(row["key"])})
+        if stray:
+            errors.append(f"{name}: a {kind} should not carry {', '.join(stray)}")
+        if not isinstance(entry.get("position"), int):
+            errors.append(f"{name}: position must be an integer")
+        if entry.get("chapter") not in chapters:
+            errors.append(f"{name}: unknown chapter {entry.get('chapter')!r}")
+        for row in KINDS[kind]["identification"]:
+            if row["type"] != "list":
+                continue
+            values = entry.get(row["key"]) or []
+            if not isinstance(values, list) or not all(isinstance(v, str) and v.strip() for v in values):
+                errors.append(f"{name}: {row['key']} must be a non-empty list of strings")
         for twin in entry.get("confused_with", []):
             if not twin.get("tell"):
                 errors.append(f"{entry.get('term', '?')}: confused_with needs a tell")
@@ -109,8 +131,8 @@ def validate(doc):
 def number_entries(doc):
     """Assign running numbers and heading anchors; anchors are needed before rendering."""
     numbered, anchors, number = [], {}, 0
-    for section in doc["sections"]:
-        entries = [e for e in doc["entries"] if e["section"] == section["id"]]
+    for chapter in doc["chapters"]:
+        entries = [e for e in doc["entries"] if e["chapter"] == chapter["id"]]
         if not entries:
             continue
         pairs = []
@@ -119,21 +141,23 @@ def number_entries(doc):
             heading = f"{number}. {entry['term']}"
             anchors[entry["term"].lower()] = slugify(heading)
             pairs.append((number, entry))
-        numbered.append((section, pairs))
+        numbered.append((chapter, pairs))
     return numbered, anchors
 
 
 def render_entry(number, entry, anchors):
     lines = [
         f"### {number}. {entry['term']}",
-        f"*({entry['part_of_speech']})* `{entry['ipa']}`  ",
+        f"*({entry['part_of_speech']})* `{entry['ipa']}` - *{KINDS[entry['kind']]['label'].lower()}*  ",
         f"*{entry['etymology']}*",
         "",
-        f"**Range:** {entry['range']}  ",
-        f"**Call:** {entry['call']}  ",
-        f"**Field marks:** {' \u00b7 '.join(entry['field_marks'])}",
-        "",
     ]
+    for row in KINDS[entry["kind"]]["identification"]:
+        value = entry[row["key"]]
+        if isinstance(value, list):
+            value = " \u00b7 ".join(value)
+        lines.append(f"**{row['label']}:** {value}  ")
+    lines.append("")
     for i, sense in enumerate(entry["senses"], 1):
         lines.append(f"{i}. {sense}")
     lines.append("")
@@ -153,9 +177,9 @@ def render_entry(number, entry, anchors):
 
 def render_contents(numbered):
     lines = ["## Contents", ""]
-    for section, pairs in numbered:
-        section_heading = f"{section['roman']}. {section['title']}"
-        lines.append(f"- [{section_heading}](#{slugify(section_heading)})")
+    for chapter, pairs in numbered:
+        chapter_heading = f"{chapter['roman']}. {chapter['title']}"
+        lines.append(f"- [{chapter_heading}](#{slugify(chapter_heading)})")
         for number, entry in pairs:
             heading = f"{number}. {entry['term']}"
             lines.append(f"  - [{heading}](#{slugify(heading)})")
@@ -172,8 +196,8 @@ def render_index(doc, anchors):
 def render(doc):
     numbered, anchors = number_entries(doc)
     blocks = [("prose", render_contents(numbered))]
-    for section, pairs in numbered:
-        blocks.append(("heading", [f"## {section['roman']}. {section['title']}"]))
+    for chapter, pairs in numbered:
+        blocks.append(("heading", [f"## {chapter['roman']}. {chapter['title']}"]))
         for number, entry in pairs:
             blocks.append(("entry", render_entry(number, entry, anchors)))
     blocks.append(("prose", render_index(doc, anchors)))

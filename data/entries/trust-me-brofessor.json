@@ -1,7 +1,8 @@
 {
   "term": "Trust-Me-Brofessor",
-  "section": "bad-faith-debate",
-  "order": 4,
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 4,
   "part_of_speech": "noun",
   "ipa": "/ˌtrʌst.miː.broʊˈfɛs.ər/",
   "etymology": "Blend of \"trust me, bro\" + \"professor\"",

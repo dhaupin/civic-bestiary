@@ -1,7 +1,8 @@
 {
   "term": "Mythstorian",
-  "section": "hypocrisy-revisionism",
-  "order": 2,
+  "kind": "species",
+  "chapter": "hypocrisy-revisionism",
+  "position": 2,
   "part_of_speech": "noun",
   "ipa": "/ˈmɪθˌstɔːr.i.ən/",
   "etymology": "Blend of \"myth\" + \"historian\"",

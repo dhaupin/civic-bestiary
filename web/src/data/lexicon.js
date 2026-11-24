@@ -12,11 +12,141 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 27,
-  "sections": 4
+  "entries": 28,
+  "chapters": 4,
+  "kinds": {
+    "species": 24,
+    "move": 2,
+    "ability": 0,
+    "format": 1,
+    "buff": 1
+  }
 }
 
-export const sections = [
+export const kinds = {
+  "species": {
+    "label": "Species",
+    "plural": "Species",
+    "path": "/species/",
+    "voice": "call",
+    "blurb": "An actor you can point at: the person running the bit.",
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text"
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list"
+      }
+    ]
+  },
+  "move": {
+    "label": "Move",
+    "plural": "Moves",
+    "path": "/moves/",
+    "voice": "tell",
+    "blurb": "An action performed in the open, in front of witnesses.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text"
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text"
+      }
+    ]
+  },
+  "ability": {
+    "label": "Ability",
+    "plural": "Abilities",
+    "path": "/abilities/",
+    "voice": "effect",
+    "blurb": "A capability an office, body, or machine can wield - no single person owns it.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text"
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text"
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text"
+      }
+    ]
+  },
+  "format": {
+    "label": "Format",
+    "plural": "Formats",
+    "path": "/formats/",
+    "voice": "signature",
+    "blurb": "A medium that stages the others - the show, not the performer.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text"
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text"
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text"
+      }
+    ]
+  },
+  "buff": {
+    "label": "Buff",
+    "plural": "Buffs",
+    "path": "/buffs/",
+    "voice": "tell",
+    "blurb": "A temporary condition that changes what a creature can get away with.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text"
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text"
+      }
+    ]
+  }
+}
+
+export const chapters = [
   {
     "id": "performative-identity",
     "roman": "I",
@@ -27,7 +157,8 @@ export const sections = [
       "larptarian",
       "sovereign-shillizen",
       "sabotriot",
-      "patriotainment"
+      "patriotainment",
+      "patriotainer"
     ]
   },
   {
@@ -78,19 +209,40 @@ export const entries = [
   {
     "term": "Playtriot",
     "slug": "playtriot",
-    "section": "performative-identity",
-    "sectionRoman": "I",
-    "sectionTitle": "Performative Identity & Weaponized Liberty",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/playtriot/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈpleɪ.tri.ət/",
     "etymology": "Blend of \"play\" + \"patriot\"",
-    "range": "Truck beds, county fairs, and the comment section under any local news post.",
-    "call": "“Do you support the troops?”",
-    "fieldMarks": [
-      "Flag decal on a leased vehicle",
-      "Quotes a founder, never a statute",
-      "Knows the anthem’s tune, not its third verse"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Truck beds, county fairs, and the comment section under any local news post."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Do you support the troops?”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Flag decal on a leased vehicle",
+          "Quotes a founder, never a statute",
+          "Knows the anthem’s tune, not its third verse"
+        ]
+      }
     ],
+    "voice": "“Do you support the troops?”",
     "senses": [
       "A U.S. citizen who performs shallow, theatrical displays of nationalism - such as wearing flag-themed apparel or using patriotic slogans - while actively undermining democratic norms, community well-being, or the rule of law.",
       "An individual who adopts the aesthetics and rhetoric of love for their country as a shield or justification to engage in divisive, harmful, or anti-social behavior against fellow citizens."
@@ -102,36 +254,60 @@ export const entries = [
       {
         "term": "LARPtarian",
         "slug": "larptarian",
-        "tell": "Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+        "tell": "Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle.",
+        "path": "/species/larptarian/"
       }
     ],
     "related": [
       {
         "term": "Sabotriot",
-        "slug": "sabotriot"
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
       },
       {
         "term": "Patriotainment",
-        "slug": "patriotainment"
+        "slug": "patriotainment",
+        "path": "/formats/patriotainment/"
       }
     ]
   },
   {
     "term": "Freetard",
     "slug": "freetard",
-    "section": "performative-identity",
-    "sectionRoman": "I",
-    "sectionTitle": "Performative Identity & Weaponized Liberty",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/freetard/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈfriː.tɑːrd/",
     "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",
-    "range": "Town-hall microphones, mask mandates, and the queue at the DMV.",
-    "call": "“It’s a free country.”",
-    "fieldMarks": [
-      "Confuses a right with an exemption",
-      "Cites freedom, never a clause",
-      "Loudest where the line is longest"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Town-hall microphones, mask mandates, and the queue at the DMV."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“It’s a free country.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Confuses a right with an exemption",
+          "Cites freedom, never a clause",
+          "Loudest where the line is longest"
+        ]
+      }
     ],
+    "voice": "“It’s a free country.”",
     "senses": [
       "An individual whose grasp of genuine liberty is hindered or stunted by ideological bias, partisan agendas, or self-interest - leading them to mistake reckless, anti-social, or harmful behavior for the exercise of freedom.",
       "A person who invokes a distorted, one-sided view of personal rights to justify actions that undermine public safety, civic duty, or the well-being of society."
@@ -148,36 +324,60 @@ export const entries = [
       {
         "term": "Sovereign Shillizen",
         "slug": "sovereign-shillizen",
-        "tell": "The freetard wants no rules; the shillizen insists there already are none that apply to him."
+        "tell": "The freetard wants no rules; the shillizen insists there already are none that apply to him.",
+        "path": "/species/sovereign-shillizen/"
       }
     ],
     "related": [
       {
         "term": "LARPtarian",
-        "slug": "larptarian"
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
       },
       {
         "term": "Playtriot",
-        "slug": "playtriot"
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
       }
     ]
   },
   {
     "term": "LARPtarian",
     "slug": "larptarian",
-    "section": "performative-identity",
-    "sectionRoman": "I",
-    "sectionTitle": "Performative Identity & Weaponized Liberty",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/larptarian/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈlɑːrpˌtɛər.i.ən/",
     "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
-    "range": "Homesteading channels, prepper forums, and the far end of a hardware store.",
-    "call": "“I could live off the grid tomorrow.”",
-    "fieldMarks": [
-      "Solar panels on a financed roof",
-      "Owns a crossbow, no arrows",
-      "Files an HOA complaint about a fence"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Homesteading channels, prepper forums, and the far end of a hardware store."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“I could live off the grid tomorrow.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Solar panels on a financed roof",
+          "Owns a crossbow, no arrows",
+          "Files an HOA complaint about a fence"
+        ]
+      }
     ],
+    "voice": "“I could live off the grid tomorrow.”",
     "senses": [
       "An individual who role-plays as a rugged, self-reliant rebel or oppressed freedom fighter while actively relying on - and taking for granted - the laws, infrastructure, and safety nets of a stable society.",
       "Someone who adopts the rhetoric of radical individualism and anti-government defiance as a theatrical identity, without facing any real tyranny or sacrificing the comforts of modern civic life."
@@ -189,40 +389,65 @@ export const entries = [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "tell": "The LARPtarian can name the rifle’s caliber; the playtriot can only name the flag’s manufacturer."
+        "tell": "The LARPtarian can name the rifle’s caliber; the playtriot can only name the flag’s manufacturer.",
+        "path": "/species/playtriot/"
       }
     ],
     "related": [
       {
         "term": "Sovereign shillizen",
-        "slug": "sovereign-shillizen"
+        "slug": "sovereign-shillizen",
+        "path": "/species/sovereign-shillizen/"
       },
       {
         "term": "Bootcurious",
-        "slug": "bootcurious"
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
       },
       {
         "term": "Freetard",
-        "slug": "freetard"
+        "slug": "freetard",
+        "path": "/species/freetard/"
       }
     ]
   },
   {
     "term": "Sovereign Shillizen",
     "slug": "sovereign-shillizen",
-    "section": "performative-identity",
-    "sectionRoman": "I",
-    "sectionTitle": "Performative Identity & Weaponized Liberty",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/sovereign-shillizen/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈsɒv.rɪn ˈʃɪl.ɪ.zən/",
     "etymology": "Blend of \"sovereign citizen\" + \"shill\"",
-    "range": "County recorder offices, traffic stops, and the comment section under any court ruling.",
-    "call": "“I do not consent.”",
-    "fieldMarks": [
-      "Hand-lettered plate, no registration",
-      "Argues in maritime law",
-      "Owes back taxes on principle"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "County recorder offices, traffic stops, and the comment section under any court ruling."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“I do not consent.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Hand-lettered plate, no registration",
+          "Argues in maritime law",
+          "Owes back taxes on principle"
+        ]
+      }
     ],
+    "voice": "“I do not consent.”",
     "senses": [
       "An individual who promotes, sells, or hides behind pseudo-legal “sovereign citizen” theories to evade taxes, licensing, or basic civic accountability - often profiting from or encouraging others to adopt the same self-serving legal fictions.",
       "Someone who selectively rejects the authority of the law and the responsibilities of citizenship while actively benefiting from public infrastructure, legal protections, and societal stability."
@@ -234,40 +459,65 @@ export const entries = [
       {
         "term": "Freetard",
         "slug": "freetard",
-        "tell": "The shillizen files paperwork to escape the law; the freetard simply ignores it."
+        "tell": "The shillizen files paperwork to escape the law; the freetard simply ignores it.",
+        "path": "/species/freetard/"
       }
     ],
     "related": [
       {
         "term": "LARPtarian",
-        "slug": "larptarian"
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
       },
       {
         "term": "Crookmaxxing",
-        "slug": "crookmaxxing"
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
       },
       {
         "term": "Playtriot",
-        "slug": "playtriot"
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
       }
     ]
   },
   {
     "term": "Sabotriot",
     "slug": "sabotriot",
-    "section": "performative-identity",
-    "sectionRoman": "I",
-    "sectionTitle": "Performative Identity & Weaponized Liberty",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/sabotriot/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈsæb.ə.tri.ət/",
     "etymology": "Blend of \"saboteur\" + \"patriot\"",
-    "range": "Voting booths, clinic parking lots, and the rural hospital that just closed.",
-    "call": "“I voted for the guy who’ll cut it.”",
-    "fieldMarks": [
-      "Votes against the subsidy, keeps the check",
-      "Waves the flag at the shuttered plant",
-      "Blames the other party for the closure"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Voting booths, clinic parking lots, and the rural hospital that just closed."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“I voted for the guy who’ll cut it.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Votes against the subsidy, keeps the check",
+          "Waves the flag at the shuttered plant",
+          "Blames the other party for the closure"
+        ]
+      }
     ],
+    "voice": "“I voted for the guy who’ll cut it.”",
     "senses": [
       "An empathy-devoid spite-voter who actively undermines their own healthcare, wages, public infrastructure, and community well-being - all while waving a flag - purely for the satisfaction of believing it will hurt the fellow citizens they hate.",
       "Someone who treats self-destruction as a civic virtue, eagerly burning down the very institutions and safety nets their own family relies on just to “own” political rivals and watch their neighbors suffer."
@@ -279,36 +529,56 @@ export const entries = [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "tell": "A playtriot performs the loyalty; a sabotriot votes it into your hospital’s closure."
+        "tell": "A playtriot performs the loyalty; a sabotriot votes it into your hospital’s closure.",
+        "path": "/species/playtriot/"
       }
     ],
     "related": [
       {
         "term": "Martyrholic",
-        "slug": "martyrholic"
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
       },
       {
         "term": "Bootcurious",
-        "slug": "bootcurious"
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
       }
     ]
   },
   {
     "term": "Patriotainment",
     "slug": "patriotainment",
-    "section": "performative-identity",
-    "sectionRoman": "I",
-    "sectionTitle": "Performative Identity & Weaponized Liberty",
+    "kind": "format",
+    "kindLabel": "Format",
+    "path": "/formats/patriotainment/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈpeɪ.tri.ə.ˌteɪn.mənt/",
     "etymology": "Blend of \"patriot\" + \"entertainment\"",
-    "range": "Cable lineups, merch drops, and any documentary with a countdown clock.",
-    "call": "“Right back after this.”",
-    "fieldMarks": [
-      "Sells the flag by the yard",
-      "Reads a sponsor over a battlefield",
-      "Ad rates keyed to outrage"
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "Cable primetime, streaming specials, rally tours, and the merch drop that follows each one."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Ad rates keyed to outrage, an eighty-dollar hoodie, and a subscription tier for the uncut version."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A countdown clock over a battlefield, and a sponsor read that starts before the anthem finishes."
+      }
     ],
+    "voice": "A countdown clock over a battlefield, and a sponsor read that starts before the anthem finishes.",
     "senses": [
       "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the country is something you buy a ticket to watch rather than something you owe the people living in it.",
       "A mode of civic life in which the spectacle of patriotism substitutes entirely for its obligations, so that cheering loudest counts as service and noticing anything else counts as betrayal."
@@ -320,36 +590,132 @@ export const entries = [
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "tell": "The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it."
+        "tell": "The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it.",
+        "path": "/species/ragesturbationist/"
       }
     ],
     "related": [
       {
         "term": "Playtriot",
-        "slug": "playtriot"
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
       },
       {
         "term": "Sabotriot",
-        "slug": "sabotriot"
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
+      },
+      {
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      }
+    ]
+  },
+  {
+    "term": "Patriotainer",
+    "slug": "patriotainer",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/patriotainer/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈpeɪ.tri.ə.ˌteɪ.nər/",
+    "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Cable primetime, the streaming docu-series, and the merch table after the rally."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Folks, they don’t want you to know this.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Every segment ends on a sponsor read",
+          "Owns the flag as a prop and licenses the footage",
+          "Says “the country” when meaning “my audience”",
+          "No position survives a ratings dip"
+        ]
+      }
+    ],
+    "voice": "“Folks, they don’t want you to know this.”",
+    "senses": [
+      "The on-air performer who converts national identity into a segment: hired to be certain, paid to be angry, and never once required to be right.",
+      "A broadcaster whose only consistent commitment is the next hour of programming. The flag is a prop, the outrage is inventory, and moral clarity is a liability no sponsor will underwrite."
+    ],
+    "notes": [],
+    "example": "“He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break.”",
+    "summary": "The on-air performer who converts national identity into a segment: hired to be certain, paid to be angry, and never once required to be right.",
+    "confusedWith": [
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "tell": "The playtriot performs for free and believes it; the patriotainer performs on contract and invoices for it.",
+        "path": "/species/playtriot/"
+      },
+      {
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "tell": "The format is the show; the patriotainer is the person the show is built around - and the one who gets replaced when the timeslot moves.",
+        "path": "/formats/patriotainment/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
       }
     ]
   },
   {
     "term": "Sophistroll",
     "slug": "sophistroll",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/sophistroll/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈsɒf.ɪ.stroʊl/",
     "etymology": "Blend of \"sophist\" + \"troll\"",
-    "range": "Reply chains, panel shows, and Thanksgiving after the second drink.",
-    "call": "“I’m just asking questions.”",
-    "fieldMarks": [
-      "Moves the goalpost, never the argument",
-      "One straw man, three fallacies",
-      "Treats volume as evidence"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Reply chains, panel shows, and Thanksgiving after the second drink."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“I’m just asking questions.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Moves the goalpost, never the argument",
+          "One straw man, three fallacies",
+          "Treats volume as evidence"
+        ]
+      }
     ],
+    "voice": "“I’m just asking questions.”",
     "senses": [
       "A bad-faith debater whose sole tactic is deploying logical fallacies - such as straw men, whataboutism, ad hominem attacks, and moving the goalposts - to derail discussions and frustrate opponents rather than engage with facts.",
       "Someone who treats debate as a game of rhetorical attrition, relying on volume, deflection, and deceptive reasoning to claim victory while avoiding the actual issue."
@@ -361,36 +727,60 @@ export const entries = [
       {
         "term": "Illogician",
         "slug": "illogician",
-        "tell": "The sophistroll knows the fallacy is a fallacy; the illogician believes it."
+        "tell": "The sophistroll knows the fallacy is a fallacy; the illogician believes it.",
+        "path": "/species/illogician/"
       }
     ],
     "related": [
       {
         "term": "JAQing off",
-        "slug": "jaqing-off"
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
       },
       {
         "term": "Equivangelist",
-        "slug": "equivangelist"
+        "slug": "equivangelist",
+        "path": "/species/equivangelist/"
       }
     ]
   },
   {
     "term": "Illogician",
     "slug": "illogician",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/illogician/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˌɪl.əˈdʒɪʃ.ən/",
     "etymology": "Blend of \"illogical\" + \"logician\"",
-    "range": "Podcast green rooms and any thread that opens with “Actually.”",
-    "call": "“Do your own research.”",
-    "fieldMarks": [
-      "Confuses confidence with proof",
-      "Anecdote over data, always",
-      "Debates the definition, not the claim"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Podcast green rooms and any thread that opens with “Actually.”"
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Do your own research.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Confuses confidence with proof",
+          "Anecdote over data, always",
+          "Debates the definition, not the claim"
+        ]
+      }
     ],
+    "voice": "“Do your own research.”",
     "senses": [
       "A self-styled “rational thinker” or debater who treats broken reasoning as a fine art - deploying a relentless barrage of logical fallacies with the smug confidence of a formal philosopher while completely missing the point.",
       "Someone who mistakes loud, circular, or fallacious arguments for intellectual superiority, using pseudo-academic jargon to disguise the fact that their premise collapses under five seconds of scrutiny."
@@ -402,36 +792,56 @@ export const entries = [
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "tell": "Both skip the evidence; the illogician has a method, the brofessor has a mood."
+        "tell": "Both skip the evidence; the illogician has a method, the brofessor has a mood.",
+        "path": "/species/trust-me-brofessor/"
       }
     ],
     "related": [
       {
         "term": "Sophistroll",
-        "slug": "sophistroll"
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
       },
       {
         "term": "Bleatkeeper",
-        "slug": "bleatkeeper"
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
       }
     ]
   },
   {
     "term": "JAQing Off",
     "slug": "jaqing-off",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/jaqing-off/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "verb phrase / gerund",
     "ipa": "/ˈdʒæk.ɪŋ ɒf/",
     "etymology": "Blend of \"JAQ\" [\"Just Asking Questions\"] + vulgar slang \"jacking off\"",
-    "range": "Comments under breaking news, inside the first ten minutes.",
-    "call": "“Just asking - why was he there?”",
-    "fieldMarks": [
-      "Questions shaped like accusations",
-      "Never states the claim outright",
-      "Demands you disprove it"
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A claim the speaker cannot defend has just been said plainly, and the room has noticed."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "Questions shaped like accusations - “just asking” - and never the claim itself. Ask for evidence and it retreats behind the question."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer once, in writing, then ask what evidence would change their mind. The move dies when the question stops being cheaper than the answer."
+      }
     ],
+    "voice": "Questions shaped like accusations - “just asking” - and never the claim itself. Ask for evidence and it retreats behind the question.",
     "senses": [
       "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as “innocent questions,” solely for self-gratification and plausible deniability - immediately retreating behind *“Hey, I’m just asking questions!”* the second anyone demands accountability.",
       "Weaponizing feigned curiosity to plant poisonous insinuations in an audience’s head without ever having to back them up with evidence, facts, or the courage to own the claim outright."
@@ -443,36 +853,60 @@ export const entries = [
       {
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "tell": "The sophistroll argues badly; the JAQer never argues at all, only asks."
+        "tell": "The sophistroll argues badly; the JAQer never argues at all, only asks.",
+        "path": "/species/sophistroll/"
       }
     ],
     "related": [
       {
         "term": "Trust-me-brofessor",
-        "slug": "trust-me-brofessor"
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
       },
       {
         "term": "Dramagogue",
-        "slug": "dramagogue"
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
       }
     ]
   },
   {
     "term": "Trust-Me-Brofessor",
     "slug": "trust-me-brofessor",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/trust-me-brofessor/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˌtrʌst.miː.broʊˈfɛs.ər/",
     "etymology": "Blend of \"trust me, bro\" + \"professor\"",
-    "range": "Video thumbnails, group chats, and the uncle who did his own research.",
-    "call": "“Trust me, bro.”",
-    "fieldMarks": [
-      "Credentials never named",
-      "One graph, no axis",
-      "Cites a guy who cites him"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Video thumbnails, group chats, and the uncle who did his own research."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Trust me, bro.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Credentials never named",
+          "One graph, no axis",
+          "Cites a guy who cites him"
+        ]
+      }
     ],
+    "voice": "“Trust me, bro.”",
     "senses": [
       "An armchair authority with zero credentials, expertise, or verifiable knowledge who lectures others with absolute certainty - yet immediately deflects, stalls, or throws a tantrum the second they are asked to provide a single source, citation, or piece of data.",
       "A self-appointed expert whose entire bibliography consists of half-remembered memes, gut feelings, and the demand that you “do your own research” rather than hold them accountable for proving their own claims."
@@ -484,36 +918,60 @@ export const entries = [
       {
         "term": "Biasographer",
         "slug": "biasographer",
-        "tell": "The brofessor names no authority; the biasographer names every authority and discredits each."
+        "tell": "The brofessor names no authority; the biasographer names every authority and discredits each.",
+        "path": "/species/biasographer/"
       }
     ],
     "related": [
       {
         "term": "Bleatkeeper",
-        "slug": "bleatkeeper"
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
       },
       {
         "term": "Gallopologist",
-        "slug": "gallopologist"
+        "slug": "gallopologist",
+        "path": "/species/gallopologist/"
       }
     ]
   },
   {
     "term": "Biasographer",
     "slug": "biasographer",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/biasographer/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˌbaɪ.əˈsɒɡ.rə.fər/",
     "etymology": "Blend of \"bias\" + \"biographer\" / \"bibliographer\"",
-    "range": "Debate stages and the replies under any fact-check.",
-    "call": "“Consider the source.”",
-    "fieldMarks": [
-      "Answers proof with a résumé",
-      "Curates a bibliography, reads none",
-      "Every source is compromised"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Debate stages and the replies under any fact-check."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Consider the source.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Answers proof with a résumé",
+          "Curates a bibliography, reads none",
+          "Every source is compromised"
+        ]
+      }
     ],
+    "voice": "“Consider the source.”",
     "senses": [
       "An arguer who responds to requests for proof by producing a curated bibliography of hyper-partisan blogs, opinion pieces, and unverified fringe outlets - passing off pure ideological spin as rigorous, peer-reviewed truth.",
       "Someone who builds an entire “factual” narrative out of zoomed-in anomalies, cropped charts, and cherry-picked outliers while deliberately ignoring the broader, consensus data sets that dismantle their claim."
@@ -525,36 +983,60 @@ export const entries = [
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "tell": "The brofessor has no sources; the biasographer has a bibliography he has not read."
+        "tell": "The brofessor has no sources; the biasographer has a bibliography he has not read.",
+        "path": "/species/trust-me-brofessor/"
       }
     ],
     "related": [
       {
         "term": "Bleatkeeper",
-        "slug": "bleatkeeper"
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
       },
       {
         "term": "Mythstorian",
-        "slug": "mythstorian"
+        "slug": "mythstorian",
+        "path": "/species/mythstorian/"
       }
     ]
   },
   {
     "term": "Bleatkeeper",
     "slug": "bleatkeeper",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/bleatkeeper/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈbliːtˌkiː.pər/",
     "etymology": "Blend of \"bleat\" + \"gatekeeper\"",
-    "range": "Family group chats and the comment section under any correction.",
-    "call": "“Fake news.”",
-    "fieldMarks": [
-      "Repeats the phrase, not the claim",
-      "Never opens the link",
-      "Corrects the correction"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Family group chats and the comment section under any correction."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Fake news.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Repeats the phrase, not the claim",
+          "Never opens the link",
+          "Corrects the correction"
+        ]
+      }
     ],
+    "voice": "“Fake news.”",
     "senses": [
       "A reality-denier who reflexively bleats “fake news” or “hoax” at overwhelming expert consensus, hard data, and primary evidence - guarding their echo chamber by claiming exclusive access to “what’s really going on.”",
       "An individual who parrots spoon-fed herd talking points while smugly lecturing the person holding the facts that *they* are too naive or brainwashed to understand the truth."
@@ -566,36 +1048,60 @@ export const entries = [
       {
         "term": "Algodemic",
         "slug": "algodemic",
-        "tell": "The bleatkeeper rejects the report; the algodemic rejects the method behind it, at greater length."
+        "tell": "The bleatkeeper rejects the report; the algodemic rejects the method behind it, at greater length.",
+        "path": "/species/algodemic/"
       }
     ],
     "related": [
       {
         "term": "Biasographer",
-        "slug": "biasographer"
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
       },
       {
         "term": "Trust-me-brofessor",
-        "slug": "trust-me-brofessor"
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
       }
     ]
   },
   {
     "term": "Equivangelist",
     "slug": "equivangelist",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/equivangelist/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ɪˈkwɪv.æn.dʒə.lɪst/",
     "etymology": "Blend of \"equivocate\" + \"evangelist\"",
-    "range": "Op-ed pages and any panel that needs both sides.",
-    "call": "“Both sides do it.”",
-    "fieldMarks": [
-      "Weighs a fact against a feeling",
-      "Finds the middle of a mob",
-      "Treats balance as truth"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Op-ed pages and any panel that needs both sides."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Both sides do it.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Weighs a fact against a feeling",
+          "Finds the middle of a mob",
+          "Treats balance as truth"
+        ]
+      }
     ],
+    "voice": "“Both sides do it.”",
     "senses": [
       "A pundit who evangelizes false equivalence, treating a documented fact and a fabricated claim as two sides that both deserve equal airtime - converting “both sides” from a reporting standard into a religious commitment.",
       "Someone who experiences moral asymmetry as bad manners, insisting that overwhelming evidence and baseless assertion be seated at the same table so that no conclusion can ever be reached and no one can ever be blamed."
@@ -607,40 +1113,65 @@ export const entries = [
       {
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "tell": "The equivangelist weighs both sides; the capitulectual gives one away before weighing."
+        "tell": "The equivangelist weighs both sides; the capitulectual gives one away before weighing.",
+        "path": "/species/capitulectual/"
       }
     ],
     "related": [
       {
         "term": "Sophistroll",
-        "slug": "sophistroll"
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
       },
       {
         "term": "Bleatkeeper",
-        "slug": "bleatkeeper"
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
       },
       {
         "term": "Decorumancer",
-        "slug": "decorumancer"
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
       }
     ]
   },
   {
     "term": "Gallopologist",
     "slug": "gallopologist",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/gallopologist/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ɡəˈlɒp.ɒl.ə.dʒɪst/",
     "etymology": "Blend of \"gish gallop\" + \"-ologist\"",
-    "range": "Long-form podcasts and the filibuster hour of any hearing.",
-    "call": "“And another thing -”",
-    "fieldMarks": [
-      "Twelve claims, no sources",
-      "Wins by exhausting the clock",
-      "Changes the subject before the answer"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Long-form podcasts and the filibuster hour of any hearing."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“And another thing -”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Twelve claims, no sources",
+          "Wins by exhausting the clock",
+          "Changes the subject before the answer"
+        ]
+      }
     ],
+    "voice": "“And another thing -”",
     "senses": [
       "A debater who buries an opponent under a firehose of loosely related claims, each one cheap to make and expensive to refute, then declares victory when the clock runs out.",
       "Someone who mistakes the sheer volume of assertions for the strength of an argument, reading an opponent’s inability to keep up as an inability to answer."
@@ -652,36 +1183,60 @@ export const entries = [
       {
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "tell": "The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast."
+        "tell": "The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast.",
+        "path": "/species/sophistroll/"
       }
     ],
     "related": [
       {
         "term": "JAQing off",
-        "slug": "jaqing-off"
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
       },
       {
         "term": "Trust-me-brofessor",
-        "slug": "trust-me-brofessor"
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
       }
     ]
   },
   {
     "term": "Decorumancer",
     "slug": "decorumancer",
-    "section": "bad-faith-debate",
-    "sectionRoman": "II",
-    "sectionTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/decorumancer/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈdɛk.ər.əm.ˌæn.sər/",
     "etymology": "Blend of \"decorum\" + \"necromancer\"",
-    "range": "City council meetings and the replies to anyone who raises their voice.",
-    "call": "“Let’s keep this civil.”",
-    "fieldMarks": [
-      "Polite tone, hostile substance",
-      "Cites procedure, never the record",
-      "Calls anger unprofessional"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "City council meetings and the replies to anyone who raises their voice."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Let’s keep this civil.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Polite tone, hostile substance",
+          "Cites procedure, never the record",
+          "Calls anger unprofessional"
+        ]
+      }
     ],
+    "voice": "“Let’s keep this civil.”",
     "senses": [
       "Someone who conjures civility and procedure to shut down anger that happens to be correct - insisting on tone, process, and “respectful disagreement” as the only legitimate response to open cruelty.",
       "A moderator by temperament who treats the volume of a protest as a graver offense than the thing being protested, turning decorum into a weapon against the people it excludes."
@@ -693,36 +1248,60 @@ export const entries = [
       {
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "tell": "The equivangelist calls it balance; the decorumancer calls it procedure."
+        "tell": "The equivangelist calls it balance; the decorumancer calls it procedure.",
+        "path": "/species/equivangelist/"
       }
     ],
     "related": [
       {
         "term": "Sophistroll",
-        "slug": "sophistroll"
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
       },
       {
         "term": "Capitulectual",
-        "slug": "capitulectual"
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
       }
     ]
   },
   {
     "term": "Hypocontortionist",
     "slug": "hypocontortionist",
-    "section": "hypocrisy-revisionism",
-    "sectionRoman": "III",
-    "sectionTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/hypocontortionist/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": "/ˌhɪp.oʊ.kənˈtɔːr.ʃən.ɪst/",
     "etymology": "Blend of \"hypocrite\" + \"contortionist\"",
-    "range": "Pulpits, podiums, and any resignation statement.",
-    "call": "“That was different.”",
-    "fieldMarks": [
-      "Principles that bend at the wallet",
-      "Public austerity, private indulgence",
-      "Repents only after the photo"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Pulpits, podiums, and any resignation statement."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“That was different.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Principles that bend at the wallet",
+          "Public austerity, private indulgence",
+          "Repents only after the photo"
+        ]
+      }
     ],
+    "voice": "“That was different.”",
     "senses": [
       "A performative moralist capable of twisting their “unshakeable” core principles into a complete 180-degree pretzel the exact second their own side is caught violating them - all without a trace of self-awareness or shame.",
       "An ideological shape-shifter who weaponizes self-righteous outrage against opponents for minor infractions, only to perform Olympic-level mental gymnastics to excuse, praise, or ignore identical behavior from their allies or benefactors."
@@ -734,40 +1313,65 @@ export const entries = [
       {
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "tell": "The hypocontortionist bends the principle; the martyrholic weeps about being judged for it."
+        "tell": "The hypocontortionist bends the principle; the martyrholic weeps about being judged for it.",
+        "path": "/species/martyrholic/"
       }
     ],
     "related": [
       {
         "term": "Bootcurious",
-        "slug": "bootcurious"
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
       },
       {
         "term": "Crookmaxxing",
-        "slug": "crookmaxxing"
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
       },
       {
         "term": "Capitulectual",
-        "slug": "capitulectual"
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
       }
     ]
   },
   {
     "term": "Mythstorian",
     "slug": "mythstorian",
-    "section": "hypocrisy-revisionism",
-    "sectionRoman": "III",
-    "sectionTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/mythstorian/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": "/ˈmɪθˌstɔːr.i.ən/",
     "etymology": "Blend of \"myth\" + \"historian\"",
-    "range": "Heritage segments, school-board meetings, and the comments under any museum post.",
-    "call": "“In my day -”",
-    "fieldMarks": [
-      "Nostalgic for a decade it cannot date",
-      "Sanitized, never sourced",
-      "Confuses a monument with a record"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Heritage segments, school-board meetings, and the comments under any museum post."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“In my day -”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Nostalgic for a decade it cannot date",
+          "Sanitized, never sourced",
+          "Confuses a monument with a record"
+        ]
+      }
     ],
+    "voice": "“In my day -”",
     "senses": [
       "A nostalgia-poisoned revisionist who worships an imaginary, sanitized “golden age” that never actually existed - aggressively rewriting, censoring, or whitewashing real history to pretend past atrocities, systemic injustices, or national failures were harmless or heroic.",
       "Someone who treats historical fact as an enemy to be erased whenever it threatens their curated fairy tale, replacing documented reality with patriotic folklore to justify repeating the worst mistakes of the past."
@@ -779,40 +1383,61 @@ export const entries = [
       {
         "term": "Algodemic",
         "slug": "algodemic",
-        "tell": "The mythstorian invents the past; the algodemic invents the study of it."
+        "tell": "The mythstorian invents the past; the algodemic invents the study of it.",
+        "path": "/species/algodemic/"
       }
     ],
     "related": [
       {
         "term": "Playtriot",
-        "slug": "playtriot"
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
       },
       {
         "term": "Biasographer",
-        "slug": "biasographer"
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
       },
       {
         "term": "Bleatkeeper",
-        "slug": "bleatkeeper"
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
       }
     ]
   },
   {
     "term": "Bootcurious",
     "slug": "bootcurious",
-    "section": "hypocrisy-revisionism",
-    "sectionRoman": "III",
-    "sectionTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/bootcurious/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun / adjective",
     "ipa": "/ˈbuːtˌkjʊər.i.əs/",
     "etymology": "Blend of \"bootlicker\" + \"curious\"",
-    "range": "Newsletter comment sections and any conversation about a strike.",
-    "call": "“I’m socially liberal, but -”",
-    "fieldMarks": [
-      "Independent, reliably aligned",
-      "Reads exactly one newsletter",
-      "Finds the boot reasonable"
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Excuses any contradiction for the length of one news cycle, and relabels deference as independence."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "“I’m socially liberal, but -” arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "The next story that forces a choice between the strongman and the neighbour - usually within a month, rarely at a ballot."
+      }
     ],
+    "voice": "“I’m socially liberal, but -” arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable.",
     "senses": [
       "*(noun)* An individual who claims to be an “independent thinker,” “centrist,” or “anti-establishment rebel,” yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
       "*(adjective)* Exhibiting a submissive fascination with unchecked authority - eagerly surrendering personal dignity, critical thinking, and civic principles to worship powerful figures who openly hold them in contempt."
@@ -824,40 +1449,61 @@ export const entries = [
       {
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "tell": "The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence."
+        "tell": "The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence.",
+        "path": "/species/capitulectual/"
       }
     ],
     "related": [
       {
         "term": "LARPtarian",
-        "slug": "larptarian"
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
       },
       {
         "term": "Hypocontortionist",
-        "slug": "hypocontortionist"
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
       },
       {
         "term": "Sabotriot",
-        "slug": "sabotriot"
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
       }
     ]
   },
   {
     "term": "Crookmaxxing",
     "slug": "crookmaxxing",
-    "section": "hypocrisy-revisionism",
-    "sectionRoman": "III",
-    "sectionTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/crookmaxxing/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈkrʊkˌmæk.sɪŋ/",
     "etymology": "Blend of \"crook\" + \"-maxxing\"",
-    "range": "Campaign filings, crypto conferences, and board meetings with a quorum problem.",
-    "call": "“It’s not illegal.”",
-    "fieldMarks": [
-      "Blatant, unbothered, on the record",
-      "Treats audits as a lifestyle",
-      "Charges by the hour"
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "An audit, a filing deadline, or a reporter holding the receipts - the moment the paperwork becomes the story."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "Blatant, unbothered, on the record: “It’s not illegal,” delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Price it in public - name the number, the hour, the invoice. Crookmaxxing runs on the cost staying abstract."
+      }
     ],
+    "voice": "Blatant, unbothered, on the record: “It’s not illegal,” delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest.",
     "senses": [
       "*(noun)* The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.",
       "*(verb)* Aggressively projecting one’s own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity."
@@ -869,36 +1515,60 @@ export const entries = [
       {
         "term": "Sovereign Shillizen",
         "slug": "sovereign-shillizen",
-        "tell": "The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in."
+        "tell": "The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in.",
+        "path": "/species/sovereign-shillizen/"
       }
     ],
     "related": [
       {
         "term": "Hypocontortionist",
-        "slug": "hypocontortionist"
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
       },
       {
         "term": "Ragesturbationist",
-        "slug": "ragesturbationist"
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
       }
     ]
   },
   {
     "term": "Capitulectual",
     "slug": "capitulectual",
-    "section": "hypocrisy-revisionism",
-    "sectionRoman": "III",
-    "sectionTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/capitulectual/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
     "partOfSpeech": "noun",
     "ipa": "/kəˌpɪtʃ.uˈlɛk.tʃu.əl/",
     "etymology": "Blend of \"capitulate\" + \"intellectual\"",
-    "range": "Opinion pages in the week after an atrocity.",
-    "call": "“We have to understand both sides.”",
-    "fieldMarks": [
-      "Surrenders before the argument",
-      "Prefaces every concession",
-      "Finds symmetry where there is none"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Opinion pages in the week after an atrocity."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“We have to understand both sides.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Surrenders before the argument",
+          "Prefaces every concession",
+          "Finds symmetry where there is none"
+        ]
+      }
     ],
+    "voice": "“We have to understand both sides.”",
     "senses": [
       "A commentator who surrenders the argument before it is made - softening, hedging, and pre-apologizing for authoritarian moves in advance, then presenting the retreat as sober pragmatism.",
       "Someone whose celebrated “independence” consists entirely of arriving early at the conclusion power wanted, and being thanked for their seriousness."
@@ -910,40 +1580,65 @@ export const entries = [
       {
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "tell": "The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity."
+        "tell": "The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity.",
+        "path": "/species/equivangelist/"
       }
     ],
     "related": [
       {
         "term": "Bootcurious",
-        "slug": "bootcurious"
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
       },
       {
         "term": "Hypocontortionist",
-        "slug": "hypocontortionist"
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
       },
       {
         "term": "Decorumancer",
-        "slug": "decorumancer"
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
       }
     ]
   },
   {
     "term": "Xenophobricator",
     "slug": "xenophobricator",
-    "section": "fearmongering-grift",
-    "sectionRoman": "IV",
-    "sectionTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/xenophobricator/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌzɛn.əˈfoʊ.brɪ.keɪ.tər/",
     "etymology": "Blend of \"xenophobe\" + \"fabricator\"",
-    "range": "Talk radio, tabloid front pages, and the comments under a census story.",
-    "call": "“They’re taking over.”",
-    "fieldMarks": [
-      "Manufactures the threat, then fears it",
-      "Recycles an older panic",
-      "Numbers never sourced"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Talk radio, tabloid front pages, and the comments under a census story."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“They’re taking over.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Manufactures the threat, then fears it",
+          "Recycles an older panic",
+          "Numbers never sourced"
+        ]
+      }
     ],
+    "voice": "“They’re taking over.”",
     "senses": [
       "An individual who manufactures, exaggerates, or recycles racialized conspiracy theories to blame immigrants or minority communities for complex systemic issues, economic strain, or public program failures.",
       "A fearmonger who relies on scapegoating outsiders - such as claiming a small local immigrant population is single-handedly bankrupting massive state or federal programs - to distract from real policy failures and stoke public resentment."
@@ -955,36 +1650,60 @@ export const entries = [
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "tell": "The xenophobricator needs a specific outsider; the dramagogue only needs a crowd."
+        "tell": "The xenophobricator needs a specific outsider; the dramagogue only needs a crowd.",
+        "path": "/species/dramagogue/"
       }
     ],
     "related": [
       {
         "term": "Ragesturbationist",
-        "slug": "ragesturbationist"
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
       },
       {
         "term": "Illogician",
-        "slug": "illogician"
+        "slug": "illogician",
+        "path": "/species/illogician/"
       }
     ]
   },
   {
     "term": "Dramagogue",
     "slug": "dramagogue",
-    "section": "fearmongering-grift",
-    "sectionRoman": "IV",
-    "sectionTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/dramagogue/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈdræm.ə.ɡɒɡ/",
     "etymology": "Blend of \"drama\" + \"demagogue\"",
-    "range": "Rallies, megachurch broadcasts, and any stream that opens with a countdown.",
-    "call": "“Everything you know is a lie.”",
-    "fieldMarks": [
-      "Theatrical, never specific",
-      "Apocalypse on a schedule",
-      "Sells the cure"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Rallies, megachurch broadcasts, and any stream that opens with a countdown."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Everything you know is a lie.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Theatrical, never specific",
+          "Apocalypse on a schedule",
+          "Sells the cure"
+        ]
+      }
     ],
+    "voice": "“Everything you know is a lie.”",
     "senses": [
       "A theatrical fearmonger who whips up hysteria, outrage, and existential panic - often targeting minority faiths, immigrants, or out-groups as dangerous “extremists” - while aggressively pushing their own dogma or agenda without a shred of self-awareness.",
       "Someone who relies on manufactured crisis, melodrama, and scapegoating to rally followers and demand special privileges, treating basic constitutional protections like freedom of religion as a one-way street meant exclusively for them."
@@ -996,36 +1715,60 @@ export const entries = [
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "tell": "The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it."
+        "tell": "The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it.",
+        "path": "/species/ragesturbationist/"
       }
     ],
     "related": [
       {
         "term": "Xenophobricator",
-        "slug": "xenophobricator"
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
       },
       {
         "term": "Martyrholic",
-        "slug": "martyrholic"
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
       }
     ]
   },
   {
     "term": "Ragesturbationist",
     "slug": "ragesturbationist",
-    "section": "fearmongering-grift",
-    "sectionRoman": "IV",
-    "sectionTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/ragesturbationist/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌreɪdʒ.stərˈbeɪ.ʃən.ɪst/",
     "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",
-    "range": "Prime-time panels and the algorithm’s favorite uncle.",
-    "call": "“Are you angry yet?”",
-    "fieldMarks": [
-      "Outrage as a business model",
-      "Never satisfied, always fed",
-      "Monetizes the wound"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Prime-time panels and the algorithm’s favorite uncle."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Are you angry yet?”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Outrage as a business model",
+          "Never satisfied, always fed",
+          "Monetizes the wound"
+        ]
+      }
     ],
+    "voice": "“Are you angry yet?”",
     "senses": [
       "An outrage grifter who endlessly strokes public fury, paranoia, and grievance - not to solve a single real-world problem, but purely for self-gratification, algorithmic clout, engagement metrics, and cash.",
       "A cynical commentator or influencer addicted to the dopamine hit and financial payout of manufacturing hysteria, leaving their audience radicalized and society fractured while they cash the checks in private."
@@ -1037,36 +1780,60 @@ export const entries = [
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "tell": "The dramagogue wants your fear; the ragesturbationist wants your feed."
+        "tell": "The dramagogue wants your fear; the ragesturbationist wants your feed.",
+        "path": "/species/dramagogue/"
       }
     ],
     "related": [
       {
         "term": "Crookmaxxing",
-        "slug": "crookmaxxing"
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
       },
       {
         "term": "Slopagandist",
-        "slug": "slopagandist"
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
       }
     ]
   },
   {
     "term": "Martyrholic",
     "slug": "martyrholic",
-    "section": "fearmongering-grift",
-    "sectionRoman": "IV",
-    "sectionTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/martyrholic/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌmɑːr.tərˈhɒl.ɪk/",
     "etymology": "Blend of \"martyr\" + \"-holic\"",
-    "range": "Any thread where they are, somehow, the victim.",
-    "call": "“So I’m the bad guy now?”",
-    "fieldMarks": [
-      "Persecuted by a policy they wrote",
-      "Suffers loudly, profits quietly",
-      "Never the aggressor in their own story"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Any thread where they are, somehow, the victim."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“So I’m the bad guy now?”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Persecuted by a policy they wrote",
+          "Suffers loudly, profits quietly",
+          "Never the aggressor in their own story"
+        ]
+      }
     ],
+    "voice": "“So I’m the bad guy now?”",
     "senses": [
       "An individual pathologically addicted to perpetual victimhood, who treats every marginalized group, cultural shift, or political buzzword - from immigrants and trans people to public education and “socialism” - as an active, personal attack against them.",
       "Someone who experiences genuine peace or security as withdrawal, constantly cycling through new imaginary boogeymen to nail themselves to a self-built cross and justify their hostility toward others."
@@ -1078,36 +1845,60 @@ export const entries = [
       {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "tell": "Both suffer in public; the martyrholic has no jet."
+        "tell": "Both suffer in public; the martyrholic has no jet.",
+        "path": "/species/plutomartyr/"
       }
     ],
     "related": [
       {
         "term": "Dramagogue",
-        "slug": "dramagogue"
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
       },
       {
         "term": "Sabotriot",
-        "slug": "sabotriot"
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
       }
     ]
   },
   {
     "term": "Algodemic",
     "slug": "algodemic",
-    "section": "fearmongering-grift",
-    "sectionRoman": "IV",
-    "sectionTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/algodemic/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˌæl.ɡoʊˈdɛm.ɪk/",
     "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",
-    "range": "Video platforms at two in the morning, and any comment section with a pinned link.",
-    "call": "“The data doesn’t lie.”",
-    "fieldMarks": [
-      "A chart with no axis",
-      "One study, no authors",
-      "Cites a preprint that does not exist"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Video platforms at two in the morning, and any comment section with a pinned link."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“The data doesn’t lie.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "A chart with no axis",
+          "One study, no authors",
+          "Cites a preprint that does not exist"
+        ]
+      }
     ],
+    "voice": "“The data doesn’t lie.”",
     "senses": [
       "A self-styled “independent researcher” and conspiracy theorist whose entire worldview is assembled from Facebook memes, fringe podcasts, and YouTube rabbit holes - connecting unrelated dots into a grand cabal while remaining completely oblivious to the fact that they are an easy mark being farmed by engagement algorithms and grifters.",
       "An individual who mistakes algorithmic radicalization for secret enlightenment, treating the total absence of real-world evidence as proof of how deep the cover-up goes."
@@ -1119,36 +1910,60 @@ export const entries = [
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "tell": "The bleatkeeper trusts nothing; the algodemic trusts one chart he cannot read."
+        "tell": "The bleatkeeper trusts nothing; the algodemic trusts one chart he cannot read.",
+        "path": "/species/bleatkeeper/"
       }
     ],
     "related": [
       {
         "term": "Trust-me-brofessor",
-        "slug": "trust-me-brofessor"
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
       },
       {
         "term": "Ragesturbationist",
-        "slug": "ragesturbationist"
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
       }
     ]
   },
   {
     "term": "Plutomartyr",
     "slug": "plutomartyr",
-    "section": "fearmongering-grift",
-    "sectionRoman": "IV",
-    "sectionTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/plutomartyr/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈpluː.toʊ.ˌmɑːr.tər/",
     "etymology": "Blend of \"plutocrat\" + \"martyr\"",
-    "range": "Keynote stages and any interview after a fine.",
-    "call": "“They’re coming for people like me.”",
-    "fieldMarks": [
-      "Wealth worn as hardship",
-      "Persecution with a legal team",
-      "Suffers in a private jet"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Keynote stages and any interview after a fine."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“They’re coming for people like me.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Wealth worn as hardship",
+          "Persecution with a legal team",
+          "Suffers in a private jet"
+        ]
+      }
     ],
+    "voice": "“They’re coming for people like me.”",
     "senses": [
       "A billionaire, celebrity, or legacy institution that recasts ordinary accountability - a subpoena, a fact-check, a declined invitation - as persecution, converting enormous advantage into a victim narrative.",
       "Someone insulated from every consequence except embarrassment, who treats that embarrassment as the gravest injustice in public life."
@@ -1160,36 +1975,60 @@ export const entries = [
       {
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "tell": "The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate."
+        "tell": "The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate.",
+        "path": "/species/martyrholic/"
       }
     ],
     "related": [
       {
         "term": "Bootcurious",
-        "slug": "bootcurious"
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
       },
       {
         "term": "Crookmaxxing",
-        "slug": "crookmaxxing"
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
       }
     ]
   },
   {
     "term": "Slopagandist",
     "slug": "slopagandist",
-    "section": "fearmongering-grift",
-    "sectionRoman": "IV",
-    "sectionTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/slopagandist/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": "/ˈslɒp.ə.ˌɡæn.dɪst/",
     "etymology": "Blend of \"slop\" + \"propagandist\"",
-    "range": "Recommendation feeds and any page that publishes twelve articles an hour.",
-    "call": "“Sources say.”",
-    "fieldMarks": [
-      "Volume over verification",
-      "Written by no one, read by millions",
-      "Corrections never issued"
+    "identification": [
+      {
+        "key": "range",
+        "label": "Range",
+        "type": "text",
+        "value": "Recommendation feeds and any page that publishes twelve articles an hour."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Sources say.”"
+      },
+      {
+        "key": "field_marks",
+        "label": "Field marks",
+        "type": "list",
+        "value": [
+          "Volume over verification",
+          "Written by no one, read by millions",
+          "Corrections never issued"
+        ]
+      }
     ],
+    "voice": "“Sources say.”",
     "senses": [
       "An operator who mass-produces synthetic outrage - AI-written screeds, generated mugshots, bot-farmed replies - flooding the zone faster than any fact-checker can respond.",
       "Someone who no longer needs a coherent ideology, only a reliable pipeline: outrage in, engagement out, truth an irrelevant byproduct of the machinery."
@@ -1201,17 +2040,20 @@ export const entries = [
       {
         "term": "Algodemic",
         "slug": "algodemic",
-        "tell": "The algodemic believes the nonsense; the slopagandist bills for it."
+        "tell": "The algodemic believes the nonsense; the slopagandist bills for it.",
+        "path": "/species/algodemic/"
       }
     ],
     "related": [
       {
         "term": "Ragesturbationist",
-        "slug": "ragesturbationist"
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
       },
       {
         "term": "Dramagogue",
-        "slug": "dramagogue"
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
       }
     ]
   }

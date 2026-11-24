@@ -1,7 +1,8 @@
 {
   "term": "Dramagogue",
-  "section": "fearmongering-grift",
-  "order": 2,
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 2,
   "part_of_speech": "noun",
   "ipa": "/ˈdræm.ə.ɡɒɡ/",
   "etymology": "Blend of \"drama\" + \"demagogue\"",

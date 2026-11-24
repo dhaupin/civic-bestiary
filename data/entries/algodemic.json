@@ -1,7 +1,8 @@
 {
   "term": "Algodemic",
-  "section": "fearmongering-grift",
-  "order": 5,
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 5,
   "part_of_speech": "noun",
   "ipa": "/ˌæl.ɡoʊˈdɛm.ɪk/",
   "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",

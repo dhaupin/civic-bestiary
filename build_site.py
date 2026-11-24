@@ -16,7 +16,7 @@ import re
 import sys
 from pathlib import Path
 
-from build import load, slugify
+from build import SCHEMA, load, slugify
 
 ROOT = Path(__file__).parent
 OUTPUT = ROOT / "web" / "src" / "data" / "lexicon.js"
@@ -51,30 +51,55 @@ def summarize(text):
 
 
 def build(doc):
-    entries, sections = [], []
-    for section in doc["sections"]:
-        own = [e for e in doc["entries"] if e["section"] == section["id"]]
+    kinds = {key: {
+        "label": spec["label"],
+        "plural": spec["plural"],
+        "path": spec["path"],
+        "voice": spec["voice"],
+        "blurb": spec["blurb"],
+        "identification": [
+            {"key": row["key"], "label": row["label"], "type": row["type"]}
+            for row in spec["identification"]
+        ],
+    } for key, spec in SCHEMA["kinds"].items()}
+
+    entries, chapters = [], []
+    for chapter in doc["chapters"]:
+        own = [e for e in doc["entries"] if e["chapter"] == chapter["id"]]
         if not own:
             continue
-        sections.append({
-            "id": section["id"],
-            "roman": section["roman"],
-            "title": section["title"],
+        chapters.append({
+            "id": chapter["id"],
+            "roman": chapter["roman"],
+            "title": chapter["title"],
             "slugs": [slugify(e["term"]) for e in own],
         })
         for entry in own:
+            spec = kinds[entry["kind"]]
+            slug = slugify(entry["term"])
             entries.append({
                 "term": entry["term"],
-                "slug": slugify(entry["term"]),
-                "section": section["id"],
-                "sectionRoman": section["roman"],
-                "sectionTitle": section["title"],
+                "slug": slug,
+                "kind": entry["kind"],
+                "kindLabel": spec["label"],
+                "path": f"{spec['path']}{slug}/",
+                "chapter": chapter["id"],
+                "chapterRoman": chapter["roman"],
+                "chapterTitle": chapter["title"],
                 "partOfSpeech": entry["part_of_speech"],
                 "ipa": entry["ipa"],
                 "etymology": entry["etymology"],
-                "range": typographic(entry["range"]),
-                "call": typographic(entry["call"]),
-                "fieldMarks": [typographic(mark) for mark in entry["field_marks"]],
+                "identification": [
+                    {
+                        "key": row["key"],
+                        "label": row["label"],
+                        "type": row["type"],
+                        "value": ([typographic(item) for item in entry[row["key"]]]
+                                  if row["type"] == "list" else typographic(entry[row["key"]])),
+                    }
+                    for row in spec["identification"]
+                ],
+                "voice": typographic(entry[spec["voice"]]),
                 "senses": [typographic(sense) for sense in entry["senses"]],
                 "notes": [
                     {"label": note["label"], "text": typographic(note["text"])}
@@ -92,18 +117,27 @@ def build(doc):
                     if term.lower() not in {twin["term"].lower() for twin in entry["confused_with"]}
                 ],
             })
+    # Cross-references carry their own URL: a target may be any kind, so a link
+    # built as /species/<slug>/ would 404 the moment a move is referenced.
+    path_of = {entry["slug"]: entry["path"] for entry in entries}
+    for entry in entries:
+        for link in [*entry["related"], *entry["confusedWith"]]:
+            link["path"] = path_of.get(link["slug"], f"/species/{link['slug']}/")
+
+    counts = {key: sum(1 for entry in entries if entry["kind"] == key) for key in kinds}
     return {
         "meta": {"title": doc["title"], "description": doc["description"]},
         "preface": doc.get("preface", []),
-        "stats": {"entries": len(entries), "sections": len(sections)},
-        "sections": sections,
+        "stats": {"entries": len(entries), "chapters": len(chapters), "kinds": counts},
+        "kinds": kinds,
+        "chapters": chapters,
         "entries": entries,
     }
 
 
 def render(data):
     parts = [BANNER, ""]
-    for key in ("meta", "preface", "stats", "sections", "entries"):
+    for key in ("meta", "preface", "stats", "kinds", "chapters", "entries"):
         parts.append(f"export const {key} = {json.dumps(data[key], indent=2, ensure_ascii=False)}")
         parts.append("")
     return "\n".join(parts).rstrip() + "\n"

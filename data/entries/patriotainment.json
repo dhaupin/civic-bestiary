@@ -1,17 +1,14 @@
 {
   "term": "Patriotainment",
-  "section": "performative-identity",
-  "order": 6,
+  "kind": "format",
+  "chapter": "performative-identity",
+  "position": 6,
   "part_of_speech": "noun",
   "ipa": "/ˈpeɪ.tri.ə.ˌteɪn.mənt/",
   "etymology": "Blend of \"patriot\" + \"entertainment\"",
-  "range": "Cable lineups, merch drops, and any documentary with a countdown clock.",
-  "call": "\"Right back after this.\"",
-  "field_marks": [
-    "Sells the flag by the yard",
-    "Reads a sponsor over a battlefield",
-    "Ad rates keyed to outrage"
-  ],
+  "carriers": "Cable primetime, streaming specials, rally tours, and the merch drop that follows each one.",
+  "economics": "Ad rates keyed to outrage, an eighty-dollar hoodie, and a subscription tier for the uncut version.",
+  "signature": "A countdown clock over a battlefield, and a sponsor read that starts before the anthem finishes.",
   "confused_with": [
     {
       "term": "Ragesturbationist",
@@ -27,6 +24,7 @@
   "related": [
     "Playtriot",
     "Sabotriot",
-    "Ragesturbationist"
+    "Ragesturbationist",
+    "Patriotainer"
   ]
 }

@@ -1,17 +1,170 @@
 {
   "record": {
-    "title": "Species record",
-    "path": "data/species/<slug>.json",
+    "title": "Entry record",
+    "path": "data/entries/<slug>.json",
     "description": "One file per term, named for the term's slug. Every audience reads this file: the README, the site, and the issue form a contributor fills in."
   },
   "issue": {
-    "file": "new-species.yml",
-    "name": "New species",
-    "description": "Propose a creature for the Civic Bestiary",
-    "title_prefix": "[New species] ",
+    "file": "new-entry.yml",
+    "name": "New entry",
+    "description": "Propose a term for the Civic Bestiary",
+    "title_prefix": "[New entry] ",
     "labels": ["new-term"],
-    "intro": "Thanks for proposing a term. Fill in what you can - the maintainers handle placement, cross-references, and the final edit. One proposal per issue, please.",
-    "outro": "A proposal lands as a record under `data/species/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
+    "intro": "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a format is a medium that stages the others, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit.",
+    "identification_hint": "Describe it the way its kind is described. Species: range, call, field marks. Move: trigger, tell, counter. Ability: effect, available to, counter. Format: carriers, economics, signature. Buff: effect, tell, expires.",
+    "outro": "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
+  },
+  "kinds": {
+    "species": {
+      "label": "Species",
+      "plural": "Species",
+      "path": "/species/",
+      "voice": "call",
+      "blurb": "An actor you can point at: the person running the bit.",
+      "identification": [
+        {
+          "key": "range",
+          "label": "Range",
+          "type": "text",
+          "hint": "Where you meet it. Concrete places, not abstractions - truck beds, county fairs, a specific comment section.",
+          "example": "Truck beds, county fairs, and the comment section under any local news post."
+        },
+        {
+          "key": "call",
+          "label": "Call",
+          "type": "text",
+          "hint": "The thing it says. A short quotation, ideally something you have actually heard.",
+          "example": "\"Do you support the troops?\""
+        },
+        {
+          "key": "field_marks",
+          "label": "Field marks",
+          "type": "list",
+          "hint": "How you recognise it at a distance. Three is the house number.",
+          "example": "Flag decal on a leased vehicle"
+        }
+      ]
+    },
+    "move": {
+      "label": "Move",
+      "plural": "Moves",
+      "path": "/moves/",
+      "voice": "tell",
+      "blurb": "An action performed in the open, in front of witnesses.",
+      "identification": [
+        {
+          "key": "trigger",
+          "label": "Trigger",
+          "type": "text",
+          "hint": "The moment it gets played - what has just happened that makes this the move to make.",
+          "example": "A question it cannot answer is on the floor."
+        },
+        {
+          "key": "tell",
+          "label": "Tell",
+          "type": "text",
+          "hint": "What the move looks like from the gallery. The visible behaviour, not the motive.",
+          "example": "A request for definitions, repeated until the clock runs out."
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "type": "text",
+          "hint": "The thing that ends it, or makes it cost more than it returns.",
+          "example": "Answer the question once, in writing, and move to close."
+        }
+      ]
+    },
+    "ability": {
+      "label": "Ability",
+      "plural": "Abilities",
+      "path": "/abilities/",
+      "voice": "effect",
+      "blurb": "A capability an office, body, or machine can wield - no single person owns it.",
+      "identification": [
+        {
+          "key": "effect",
+          "label": "Effect",
+          "type": "text",
+          "hint": "What it does to the board, in one sentence.",
+          "example": "Converts a map into a majority before a single vote is cast."
+        },
+        {
+          "key": "available_to",
+          "label": "Available to",
+          "type": "text",
+          "hint": "Who can play it: an office, a chamber, a platform, a committee.",
+          "example": "State legislatures, once a decade, in a room with no cameras."
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "type": "text",
+          "hint": "The rule, court, or practice that blunts it.",
+          "example": "An independent commission with a map-drawing mandate."
+        }
+      ]
+    },
+    "format": {
+      "label": "Format",
+      "plural": "Formats",
+      "path": "/formats/",
+      "voice": "signature",
+      "blurb": "A medium that stages the others - the show, not the performer.",
+      "identification": [
+        {
+          "key": "carriers",
+          "label": "Carriers",
+          "type": "text",
+          "hint": "Where the format lives: which channels, slots, or platforms.",
+          "example": "Cable primetime, streaming specials, and the merch drop that follows."
+        },
+        {
+          "key": "economics",
+          "label": "Economics",
+          "type": "text",
+          "hint": "How it pays for itself.",
+          "example": "Ad rates keyed to outrage, plus a subscription tier for the uncut version."
+        },
+        {
+          "key": "signature",
+          "label": "Signature",
+          "type": "text",
+          "hint": "The unmistakable formal tic - what makes it recognisably this format and not the news.",
+          "example": "A countdown clock over a battlefield."
+        }
+      ]
+    },
+    "buff": {
+      "label": "Buff",
+      "plural": "Buffs",
+      "path": "/buffs/",
+      "voice": "tell",
+      "blurb": "A temporary condition that changes what a creature can get away with.",
+      "identification": [
+        {
+          "key": "effect",
+          "label": "Effect",
+          "type": "text",
+          "hint": "What it changes about the bearer's behaviour or standing.",
+          "example": "Excuses any contradiction for the length of the news cycle."
+        },
+        {
+          "key": "tell",
+          "label": "Tell",
+          "type": "text",
+          "hint": "How you spot someone carrying it.",
+          "example": "Confident mispronunciation of a thing they claim to have served in."
+        },
+        {
+          "key": "expires",
+          "label": "Expires",
+          "type": "text",
+          "hint": "What ends it, and roughly when.",
+          "example": "The first primary debate, or the first subpoena - whichever lands first."
+        }
+      ]
+    }
   },
   "fields": [
     {
@@ -21,29 +174,50 @@
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
-      "hint": "The portmanteau, spelled the way it should be listed. Title case, no quotes.",
+      "hint": "The coinage, spelled the way it should be listed. Title case, no quotes.",
       "example": "Playtriot"
     },
     {
-      "key": "section",
-      "label": "Order",
+      "key": "kind",
+      "label": "Kind",
       "type": "select",
-      "options": "sections",
+      "options": "kinds",
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
-      "hint": "Which order the creature keeps. The maintainers will move it if it belongs elsewhere.",
+      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a format is a show, and a buff is a condition.",
+      "example": "Species"
+    },
+    {
+      "key": "chapter",
+      "label": "Chapter",
+      "type": "select",
+      "options": "chapters",
+      "required": true,
+      "required_in_issue": true,
+      "addressed_to": "contributor",
+      "hint": "Which chapter the entry belongs to. The maintainers will move it if it belongs elsewhere.",
       "example": "I. Performative Identity & Weaponized Liberty"
+    },
+    {
+      "key": "position",
+      "label": "Position in chapter",
+      "type": "number",
+      "required": true,
+      "required_in_issue": false,
+      "addressed_to": "maintainer",
+      "hint": "Where the entry sits inside its chapter. Appending means one past the current highest.",
+      "example": "7"
     },
     {
       "key": "part_of_speech",
       "label": "Part of speech",
       "type": "select",
-      "options": ["noun", "adjective", "verb", "adverb"],
+      "options": ["noun", "adjective", "verb", "adverb", "verb phrase / gerund"],
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
-      "hint": "What the term is grammatically. Most are nouns.",
+      "hint": "What the term is grammatically. Most species are nouns; moves are usually gerunds.",
       "example": "noun"
     },
     {
@@ -67,43 +241,13 @@
       "example": "Blend of \"play\" + \"patriot\""
     },
     {
-      "key": "range",
-      "label": "Range",
-      "type": "text",
-      "required": true,
-      "required_in_issue": true,
-      "addressed_to": "contributor",
-      "hint": "Where you meet it. Concrete places, not abstractions - truck beds, county fairs, a specific comment section.",
-      "example": "Truck beds, county fairs, and the comment section under any local news post."
-    },
-    {
-      "key": "call",
-      "label": "Call",
-      "type": "text",
-      "required": true,
-      "required_in_issue": true,
-      "addressed_to": "contributor",
-      "hint": "The thing it says. A short quotation, ideally something you have actually heard.",
-      "example": "\"Do you support the troops?\""
-    },
-    {
-      "key": "field_marks",
-      "label": "Field marks",
-      "type": "list",
-      "required": true,
-      "required_in_issue": true,
-      "addressed_to": "contributor",
-      "hint": "How you recognise it at a distance. Three is the house number; one per line.",
-      "example": "Flag decal on a leased vehicle"
-    },
-    {
       "key": "senses",
       "label": "Senses",
       "type": "list",
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
-      "hint": "Two definitions: the creature, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone.",
+      "hint": "Two definitions: the thing itself, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone.",
       "example": "A citizen who performs patriotism as a shield while undermining the civic obligations it claims to honour."
     },
     {
@@ -135,16 +279,6 @@
       "addressed_to": "maintainer",
       "hint": "Two or three existing terms this one belongs beside. The graph must stay connected, so every term needs at least one inbound reference.",
       "example": "Sabotriot, LARPtarian"
-    },
-    {
-      "key": "order",
-      "label": "Position in order",
-      "type": "number",
-      "required": true,
-      "required_in_issue": false,
-      "addressed_to": "maintainer",
-      "hint": "Where the entry sits inside its order. Appending means one past the current highest.",
-      "example": "7"
     }
   ]
 }

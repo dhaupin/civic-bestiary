@@ -8,7 +8,7 @@
 import usePageMeta from '../hooks/usePageMeta.js'
 import site, { routeMeta } from '../site.js'
 import contract from '../data/contract.js'
-import { sections, stats } from '../lexicon.js'
+import { chapters, stats } from '../lexicon.js'
 
 const issueUrl = `${site.repo}/issues/new?template=${contract.issue.template}`
 
@@ -23,7 +23,7 @@ const STEPS = [
   },
   {
     title: 'Review, then record',
-    body: 'A proposal lands as one file under data/species/ once it holds up. Placement, cross-references, and the final edit stay with the maintainers, so the graph cannot lose a node in the process.',
+    body: `A proposal lands as one file, ${contract.recordPath}, once it holds up. Placement, cross-references, and the final edit stay with the maintainers, so the graph cannot lose a node in the process.`,
   },
 ]
 
@@ -59,7 +59,7 @@ export default function Contribute() {
           <p className="sub">
             The bestiary grows the way a field guide does: someone notices a creature, writes down
             what it does, and checks whether the animal next to it is the same one. {stats.entries}{' '}
-            species so far, in {sections.length} orders.
+            entries so far, in {chapters.length} chapters.
           </p>
         </header>
 
@@ -70,6 +70,25 @@ export default function Contribute() {
             a whole posture in one syllable. If the word needs a paragraph of setup before it means
             anything, it is not a species; it is a slogan.
           </p>
+        </div>
+
+        <div className="taxa">
+          <h2 className="contribute-h">The five kinds</h2>
+          <dl className="taxa-list">
+            {Object.entries(contract.kinds).map(([id, spec]) => (
+              <div key={id}>
+                <dt>
+                  <span className={`badge badge-${id}`}>{spec.label}</span>
+                </dt>
+                <dd>
+                  {spec.blurb}
+                  <span className="taxa-rows">
+                    {spec.identification.map((row) => row.label).join(' · ')}
+                  </span>
+                </dd>
+              </div>
+            ))}
+          </dl>
         </div>
 
         <ol className="contribute-steps">

@@ -1,7 +1,8 @@
 {
   "term": "Ragesturbationist",
-  "section": "fearmongering-grift",
-  "order": 3,
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 3,
   "part_of_speech": "noun",
   "ipa": "/ˌreɪdʒ.stərˈbeɪ.ʃən.ɪst/",
   "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",

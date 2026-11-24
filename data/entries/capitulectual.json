@@ -1,7 +1,8 @@
 {
   "term": "Capitulectual",
-  "section": "hypocrisy-revisionism",
-  "order": 5,
+  "kind": "species",
+  "chapter": "hypocrisy-revisionism",
+  "position": 5,
   "part_of_speech": "noun",
   "ipa": "/kəˌpɪtʃ.uˈlɛk.tʃu.əl/",
   "etymology": "Blend of \"capitulate\" + \"intellectual\"",

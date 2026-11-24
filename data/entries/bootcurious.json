@@ -1,17 +1,14 @@
 {
   "term": "Bootcurious",
-  "section": "hypocrisy-revisionism",
-  "order": 3,
+  "kind": "buff",
+  "chapter": "hypocrisy-revisionism",
+  "position": 3,
   "part_of_speech": "noun / adjective",
   "ipa": "/ˈbuːtˌkjʊər.i.əs/",
   "etymology": "Blend of \"bootlicker\" + \"curious\"",
-  "range": "Newsletter comment sections and any conversation about a strike.",
-  "call": "\"I'm socially liberal, but -\"",
-  "field_marks": [
-    "Independent, reliably aligned",
-    "Reads exactly one newsletter",
-    "Finds the boot reasonable"
-  ],
+  "effect": "Excuses any contradiction for the length of one news cycle, and relabels deference as independence.",
+  "tell": "\"I'm socially liberal, but -\" arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable.",
+  "expires": "The next story that forces a choice between the strongman and the neighbour - usually within a month, rarely at a ballot.",
   "confused_with": [
     {
       "term": "Capitulectual",

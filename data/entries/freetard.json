@@ -1,7 +1,8 @@
 {
   "term": "Freetard",
-  "section": "performative-identity",
-  "order": 2,
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 2,
   "part_of_speech": "noun",
   "ipa": "/ˈfriː.tɑːrd/",
   "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",

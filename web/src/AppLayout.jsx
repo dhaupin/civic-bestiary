@@ -32,6 +32,10 @@ export default function AppLayout() {
           <Route path="/" element={<Home />} />
           <Route path="/species" element={<FieldGuide />} />
           <Route path="/species/:slug" element={<Species />} />
+          <Route path="/moves/:slug" element={<Species />} />
+          <Route path="/abilities/:slug" element={<Species />} />
+          <Route path="/formats/:slug" element={<Species />} />
+          <Route path="/buffs/:slug" element={<Species />} />
           <Route path="/contribute" element={<Contribute />} />
           {/* one Route per ssr.config.js entry; species routes share this one */}
           <Route path="*" element={<NotFound />} />

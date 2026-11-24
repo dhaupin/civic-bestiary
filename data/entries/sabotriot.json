@@ -1,7 +1,8 @@
 {
   "term": "Sabotriot",
-  "section": "performative-identity",
-  "order": 5,
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 5,
   "part_of_speech": "noun",
   "ipa": "/ˈsæb.ə.tri.ət/",
   "etymology": "Blend of \"saboteur\" + \"patriot\"",

@@ -4,14 +4,23 @@
  * The data module is generated from lexicon.json by build_site.py. Nothing in
  * src/ imports the JSON directly, so that generated shape is the single seam.
  */
-import { entries, meta, preface, sections, stats } from './data/lexicon.js'
+import { chapters, entries, kinds, meta, preface, stats } from './data/lexicon.js'
 
-export { entries, meta, preface, sections, stats }
+export { chapters, entries, kinds, meta, preface, stats }
+
+/** The kinds as a list, in schema order, for chips and legends. */
+export const kindsList = Object.entries(kinds).map(([id, spec]) => ({ id, ...spec }))
 
 const BY_SLUG = new Map(entries.map((entry) => [entry.slug, entry]))
 
 export function entryFor(slug) {
   return BY_SLUG.get(slug) || null
+}
+
+/** Every entry's URL derives from its kind, so links never assume /species/. */
+export function pathFor(slug) {
+  const entry = BY_SLUG.get(slug)
+  return entry ? entry.path : `/species/${slug}/`
 }
 
 export function neighbors(slug) {
@@ -22,26 +31,26 @@ export function neighbors(slug) {
   }
 }
 
-/** Where a species sits in the guide, for the "No. 7 of 27" line. */
+/** Where an entry sits in the guide, for the "No. 7 of 28" line. */
 export function positionOf(slug) {
   const index = entries.findIndex((entry) => entry.slug === slug)
   return index < 0 ? null : { number: index + 1, total: entries.length }
 }
 
-/** First entry per initial letter, for the A-Z jump strip. */
-export function alphabet() {
-  const seen = new Map()
-  for (const entry of entries) {
-    const letter = entry.term[0].toUpperCase()
-    if (!seen.has(letter)) seen.set(letter, entry.slug)
-  }
-  return seen
+/** The label of the row a kind speaks through in listings (Call, Tell, ...). */
+export function voiceLabel(entry) {
+  const spec = kinds[entry.kind]
+  const row = spec?.identification.find((candidate) => candidate.key === spec.voice)
+  return row ? row.label : null
 }
 
 export function matches(entry, query) {
   const needle = query.trim().toLowerCase()
   if (!needle) return true
-  const haystack = [entry.term, entry.etymology, entry.partOfSpeech, ...entry.senses]
+  const values = entry.identification.map((row) =>
+    Array.isArray(row.value) ? row.value.join(' ') : row.value,
+  )
+  const haystack = [entry.term, entry.etymology, entry.partOfSpeech, entry.kindLabel, ...entry.senses, ...values]
     .join(' ')
     .toLowerCase()
   return haystack.includes(needle)

@@ -1,7 +1,8 @@
 {
   "term": "Plutomartyr",
-  "section": "fearmongering-grift",
-  "order": 6,
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 6,
   "part_of_speech": "noun",
   "ipa": "/ˈpluː.toʊ.ˌmɑːr.tər/",
   "etymology": "Blend of \"plutocrat\" + \"martyr\"",

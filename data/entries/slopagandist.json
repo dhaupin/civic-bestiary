@@ -1,7 +1,8 @@
 {
   "term": "Slopagandist",
-  "section": "fearmongering-grift",
-  "order": 7,
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 7,
   "part_of_speech": "noun",
   "ipa": "/ˈslɒp.ə.ˌɡæn.dɪst/",
   "etymology": "Blend of \"slop\" + \"propagandist\"",

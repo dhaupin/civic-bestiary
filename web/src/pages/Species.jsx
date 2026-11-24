@@ -15,7 +15,7 @@ export default function Species() {
 
   usePageMeta({
     siteUrl: site.url,
-    path: `/species/${slug}/`,
+    path: entry ? entry.path : `/species/${slug}/`,
     title: entry ? `${entry.term} - ${entry.partOfSpeech} | ${site.name}` : undefined,
     description: entry ? entry.summary : undefined,
   })
@@ -31,10 +31,11 @@ export default function Species() {
         <nav className="crumbs" aria-label="Breadcrumb">
           <Link to="/species/">Field guide</Link>
           <span className="sep">/</span>
-          <span>Order {entry.sectionRoman}. {entry.sectionTitle}</span>
+          <span>Chapter {entry.chapterRoman}. {entry.chapterTitle}</span>
         </nav>
 
         <p className="species-kicker">
+          <span className={`badge badge-${entry.kind}`}>{entry.kindLabel}</span>
           No. {position.number} of {position.total}
         </p>
 
@@ -48,24 +49,22 @@ export default function Species() {
         </header>
 
         <dl className="species-spec">
-          <div>
-            <dt>Range</dt>
-            <dd className="species-range">{entry.range}</dd>
-          </div>
-          <div>
-            <dt>Call</dt>
-            <dd className="species-call">{entry.call}</dd>
-          </div>
-          <div>
-            <dt>Field marks</dt>
-            <dd>
-              <ul className="species-marks">
-                {entry.fieldMarks.map((mark) => (
-                  <li key={mark}>{mark}</li>
-                ))}
-              </ul>
-            </dd>
-          </div>
+          {entry.identification.map((row) => (
+            <div key={row.key}>
+              <dt>{row.label}</dt>
+              <dd className={row.type === 'list' ? undefined : `species-${row.key}`}>
+                {row.type === 'list' ? (
+                  <ul className="species-marks">
+                    {row.value.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  row.value
+                )}
+              </dd>
+            </div>
+          ))}
         </dl>
 
         <ol className="species-senses">
@@ -91,7 +90,7 @@ export default function Species() {
             <h2>Easily confused with</h2>
             {entry.confusedWith.map((twin) => (
               <p key={twin.slug} className="species-twin">
-                <Link className="species-twin-name" to={`/species/${twin.slug}/`}>{twin.term}</Link>
+                <Link className="species-twin-name" to={twin.path}>{twin.term}</Link>
                 <span className="species-twin-tell"><Inline text={twin.tell} /></span>
               </p>
             ))}
@@ -104,22 +103,22 @@ export default function Species() {
             {entry.related.map((related, index) => (
               <span key={related.slug}>
                 {index > 0 && <span className="sep">·</span>}
-                <Link to={`/species/${related.slug}/`}>{related.term}</Link>
+                <Link to={related.path}>{related.term}</Link>
               </span>
             ))}
           </p>
         </div>
 
-        <nav className="species-nav" aria-label="Adjacent species">
+        <nav className="species-nav" aria-label="Adjacent entries">
           {previous ? (
-            <Link to={`/species/${previous.slug}/`} className="species-nav-item">
-              <span className="species-nav-dir">Previous species</span>
+            <Link to={previous.path} className="species-nav-item">
+              <span className="species-nav-dir">Previous: {previous.kindLabel}</span>
               <span className="species-nav-term">{previous.term}</span>
             </Link>
           ) : <span />}
           {next ? (
-            <Link to={`/species/${next.slug}/`} className="species-nav-item species-nav-next">
-              <span className="species-nav-dir">Next species</span>
+            <Link to={next.path} className="species-nav-item species-nav-next">
+              <span className="species-nav-dir">Next: {next.kindLabel}</span>
               <span className="species-nav-term">{next.term}</span>
             </Link>
           ) : <span />}

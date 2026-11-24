@@ -1,25 +1,38 @@
 # Generated from schema/record.json by build_schema.py - edit the schema, not this file.
-name: "New species"
-description: "Propose a creature for the Civic Bestiary"
-title: "[New species] "
+name: "New entry"
+description: "Propose a term for the Civic Bestiary"
+title: "[New entry] "
 labels: ["new-term"]
 body:
   - type: markdown
     attributes:
-      value: "Thanks for proposing a term. Fill in what you can - the maintainers handle placement, cross-references, and the final edit. One proposal per issue, please."
+      value: "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a format is a medium that stages the others, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit."
   - type: input
     id: term
     attributes:
       label: "Term"
-      description: "The portmanteau, spelled the way it should be listed. Title case, no quotes."
+      description: "The coinage, spelled the way it should be listed. Title case, no quotes."
       placeholder: "Playtriot"
     validations:
       required: true
   - type: dropdown
-    id: section
+    id: kind
     attributes:
-      label: "Order"
-      description: "Which order the creature keeps. The maintainers will move it if it belongs elsewhere."
+      label: "Kind"
+      description: "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a format is a show, and a buff is a condition."
+      options:
+        - "Species"
+        - "Move"
+        - "Ability"
+        - "Format"
+        - "Buff"
+    validations:
+      required: true
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: "Chapter"
+      description: "Which chapter the entry belongs to. The maintainers will move it if it belongs elsewhere."
       options:
         - "I. Performative Identity & Weaponized Liberty"
         - "II. Bad-Faith Debate & Epistemic Breakdown"
@@ -31,12 +44,13 @@ body:
     id: part_of_speech
     attributes:
       label: "Part of speech"
-      description: "What the term is grammatically. Most are nouns."
+      description: "What the term is grammatically. Most species are nouns; moves are usually gerunds."
       options:
         - "noun"
         - "adjective"
         - "verb"
         - "adverb"
+        - "verb phrase / gerund"
     validations:
       required: true
   - type: input
@@ -55,35 +69,11 @@ body:
       placeholder: "Blend of \"play\" + \"patriot\""
     validations:
       required: true
-  - type: input
-    id: range
-    attributes:
-      label: "Range"
-      description: "Where you meet it. Concrete places, not abstractions - truck beds, county fairs, a specific comment section."
-      placeholder: "Truck beds, county fairs, and the comment section under any local news post."
-    validations:
-      required: true
-  - type: input
-    id: call
-    attributes:
-      label: "Call"
-      description: "The thing it says. A short quotation, ideally something you have actually heard."
-      placeholder: "\"Do you support the troops?\""
-    validations:
-      required: true
-  - type: textarea
-    id: field_marks
-    attributes:
-      label: "Field marks"
-      description: "How you recognise it at a distance. Three is the house number; one per line."
-      placeholder: "Flag decal on a leased vehicle"
-    validations:
-      required: true
   - type: textarea
     id: senses
     attributes:
       label: "Senses"
-      description: "Two definitions: the creature, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone."
+      description: "Two definitions: the thing itself, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone."
       placeholder: "A citizen who performs patriotism as a shield while undermining the civic obligations it claims to honour."
     validations:
       required: true
@@ -101,6 +91,12 @@ body:
       label: "Easily confused with"
       description: "Existing terms it could be mistaken for, and the one thing that tells them apart. Optional at proposal time - the maintainers add twins when the confusion is real."
       placeholder: "LARPtarian - both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+  - type: textarea
+    id: identification
+    attributes:
+      label: "The identification block"
+      description: "Describe it the way its kind is described. Species: range, call, field marks. Move: trigger, tell, counter. Ability: effect, available to, counter. Format: carriers, economics, signature. Buff: effect, tell, expires."
+      placeholder: "Range: ... Call: ... Field marks: ..."
   - type: markdown
     attributes:
-      value: "A proposal lands as a record under `data/species/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
+      value: "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."

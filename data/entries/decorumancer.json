@@ -1,7 +1,8 @@
 {
   "term": "Decorumancer",
-  "section": "bad-faith-debate",
-  "order": 9,
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 9,
   "part_of_speech": "noun",
   "ipa": "/ˈdɛk.ər.əm.ˌæn.sər/",
   "etymology": "Blend of \"decorum\" + \"necromancer\"",

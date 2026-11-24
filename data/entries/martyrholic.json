@@ -1,7 +1,8 @@
 {
   "term": "Martyrholic",
-  "section": "fearmongering-grift",
-  "order": 4,
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 4,
   "part_of_speech": "noun",
   "ipa": "/ˌmɑːr.tərˈhɒl.ɪk/",
   "etymology": "Blend of \"martyr\" + \"-holic\"",

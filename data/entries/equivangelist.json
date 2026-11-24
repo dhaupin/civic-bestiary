@@ -1,7 +1,8 @@
 {
   "term": "Equivangelist",
-  "section": "bad-faith-debate",
-  "order": 7,
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 7,
   "part_of_speech": "noun",
   "ipa": "/ɪˈkwɪv.æn.dʒə.lɪst/",
   "etymology": "Blend of \"equivocate\" + \"evangelist\"",

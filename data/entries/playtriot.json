@@ -1,7 +1,8 @@
 {
   "term": "Playtriot",
-  "section": "performative-identity",
-  "order": 1,
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 1,
   "part_of_speech": "noun",
   "ipa": "/ˈpleɪ.tri.ət/",
   "etymology": "Blend of \"play\" + \"patriot\"",

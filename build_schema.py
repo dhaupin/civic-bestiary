@@ -4,7 +4,7 @@
 The schema is the single source for what a record must contain. Two artifacts
 derive from it, so neither can drift:
 
-  .github/ISSUE_TEMPLATE/new-species.yml   the issue form a contributor fills in
+  .github/ISSUE_TEMPLATE/new-entry.yml     the issue form a contributor fills in
   web/src/data/contract.js                 the same fields, for the contribute page
 
 Usage:
@@ -19,7 +19,6 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 SCHEMA = ROOT / "schema" / "record.json"
 META = ROOT / "data" / "lexicon.json"
-ISSUE = ROOT / ".github" / "ISSUE_TEMPLATE" / "new-species.yml"
 CONTRACT = ROOT / "web" / "src" / "data" / "contract.js"
 
 YAML_BANNER = "# Generated from schema/record.json by build_schema.py - edit the schema, not this file.\n"
@@ -36,17 +35,16 @@ def scalar(value):
     return json.dumps(str(value), ensure_ascii=False)
 
 
-def options_for(field, sections):
+def options_for(field, chapters, kinds):
     options = field.get("options")
-    if options == "sections":
-        # Contributor-facing labels: the order's roman numeral and title. The
-        # record itself stores the id, which the maintainer maps back when the
-        # proposal lands.
-        return [f"{section['roman']}. {section['title']}" for section in sections]
+    if options == "chapters":
+        return [f"{chapter['roman']}. {chapter['title']}" for chapter in chapters]
+    if options == "kinds":
+        return [spec["label"] for spec in kinds.values()]
     return options or []
 
 
-def render_issue(schema, sections):
+def render_issue(schema, chapters, kinds):
     issue = schema["issue"]
     out = [YAML_BANNER, f"name: {scalar(issue['name'])}\n"]
     out.append(f"description: {scalar(issue['description'])}\n")
@@ -66,7 +64,7 @@ def render_issue(schema, sections):
             out.append(f"      label: {scalar(field['label'])}\n")
             out.append(f"      description: {scalar(field['hint'])}\n")
             out.append("      options:\n")
-            for option in options_for(field, sections):
+            for option in options_for(field, chapters, kinds):
                 out.append(f"        - {scalar(option)}\n")
         else:
             out.append(f"  - type: {ELEMENT[field['type']]}\n")
@@ -78,12 +76,21 @@ def render_issue(schema, sections):
         if field.get("required_in_issue"):
             out.append("    validations:\n      required: true\n")
 
+    # GitHub forms cannot branch on a dropdown, so the kind-specific block is one
+    # textarea whose description names every block. The maintainer reshapes it.
+    out.append("  - type: textarea\n")
+    out.append("    id: identification\n")
+    out.append("    attributes:\n")
+    out.append(f"      label: {scalar('The identification block')}\n")
+    out.append(f"      description: {scalar(issue['identification_hint'])}\n")
+    out.append(f"      placeholder: {scalar('Range: ... Call: ... Field marks: ...')}\n")
+
     out.append("  - type: markdown\n    attributes:\n")
     out.append(f"      value: {scalar(issue['outro'])}\n")
     return "".join(out)
 
 
-def render_contract(schema):
+def render_contract(schema, chapters):
     def project(field):
         return {
             "key": field["key"],
@@ -95,8 +102,19 @@ def render_contract(schema):
             "example": field["example"],
         }
 
-    contributor = [project(f) for f in schema["fields"] if f.get("addressed_to") != "maintainer"]
-    maintainer = [project(f) for f in schema["fields"] if f.get("addressed_to") == "maintainer"]
+    kinds = {
+        key: {
+            "label": spec["label"],
+            "plural": spec["plural"],
+            "path": spec["path"],
+            "blurb": spec["blurb"],
+            "identification": [
+                {"key": row["key"], "label": row["label"], "hint": row["hint"], "example": row["example"]}
+                for row in spec["identification"]
+            ],
+        }
+        for key, spec in schema["kinds"].items()
+    }
     doc = {
         "recordPath": schema["record"]["path"],
         "recordDescription": schema["record"]["description"],
@@ -104,9 +122,15 @@ def render_contract(schema):
             "name": schema["issue"]["name"],
             "titlePrefix": schema["issue"]["title_prefix"],
             "template": schema["issue"]["file"],
+            "identificationHint": schema["issue"]["identification_hint"],
         },
-        "contributor": contributor,
-        "maintainer": maintainer,
+        "chapters": [
+            {"id": chapter["id"], "roman": chapter["roman"], "title": chapter["title"]}
+            for chapter in chapters
+        ],
+        "kinds": kinds,
+        "contributor": [project(f) for f in schema["fields"] if f.get("addressed_to") != "maintainer"],
+        "maintainer": [project(f) for f in schema["fields"] if f.get("addressed_to") == "maintainer"],
     }
     return JS_BANNER + "export default " + json.dumps(doc, indent=2, ensure_ascii=False) + "\n"
 
@@ -114,11 +138,11 @@ def render_contract(schema):
 def main():
     schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
     meta = json.loads(META.read_text(encoding="utf-8"))
-    sections = meta["sections"]
+    chapters, kinds = meta["chapters"], schema["kinds"]
 
     generated = {
-        ISSUE: render_issue(schema, sections),
-        CONTRACT: render_contract(schema),
+        ROOT / ".github" / "ISSUE_TEMPLATE" / schema["issue"]["file"]: render_issue(schema, chapters, kinds),
+        CONTRACT: render_contract(schema, chapters),
     }
 
     if "--check" in sys.argv:

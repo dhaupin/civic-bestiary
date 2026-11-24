@@ -1,17 +1,14 @@
 {
   "term": "JAQing Off",
-  "section": "bad-faith-debate",
-  "order": 3,
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 3,
   "part_of_speech": "verb phrase / gerund",
   "ipa": "/ˈdʒæk.ɪŋ ɒf/",
   "etymology": "Blend of \"JAQ\" [\"Just Asking Questions\"] + vulgar slang \"jacking off\"",
-  "range": "Comments under breaking news, inside the first ten minutes.",
-  "call": "\"Just asking - why was he there?\"",
-  "field_marks": [
-    "Questions shaped like accusations",
-    "Never states the claim outright",
-    "Demands you disprove it"
-  ],
+  "trigger": "A claim the speaker cannot defend has just been said plainly, and the room has noticed.",
+  "tell": "Questions shaped like accusations - \"just asking\" - and never the claim itself. Ask for evidence and it retreats behind the question.",
+  "counter": "Answer once, in writing, then ask what evidence would change their mind. The move dies when the question stops being cheaper than the answer.",
   "confused_with": [
     {
       "term": "Sophistroll",

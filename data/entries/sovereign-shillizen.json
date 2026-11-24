@@ -1,7 +1,8 @@
 {
   "term": "Sovereign Shillizen",
-  "section": "performative-identity",
-  "order": 4,
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 4,
   "part_of_speech": "noun",
   "ipa": "/ˈsɒv.rɪn ˈʃɪl.ɪ.zən/",
   "etymology": "Blend of \"sovereign citizen\" + \"shill\"",

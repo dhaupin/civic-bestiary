@@ -1,7 +1,8 @@
 {
   "term": "LARPtarian",
-  "section": "performative-identity",
-  "order": 3,
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 3,
   "part_of_speech": "noun",
   "ipa": "/ˈlɑːrpˌtɛər.i.ən/",
   "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",

@@ -1,0 +1,38 @@
+{
+  "term": "Patriotainer",
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 7,
+  "part_of_speech": "noun",
+  "ipa": "/ˈpeɪ.tri.ə.ˌteɪ.nər/",
+  "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
+  "range": "Cable primetime, the streaming docu-series, and the merch table after the rally.",
+  "call": "\"Folks, they don't want you to know this.\"",
+  "field_marks": [
+    "Every segment ends on a sponsor read",
+    "Owns the flag as a prop and licenses the footage",
+    "Says \"the country\" when meaning \"my audience\"",
+    "No position survives a ratings dip"
+  ],
+  "confused_with": [
+    {
+      "term": "Playtriot",
+      "tell": "The playtriot performs for free and believes it; the patriotainer performs on contract and invoices for it."
+    },
+    {
+      "term": "Patriotainment",
+      "tell": "The format is the show; the patriotainer is the person the show is built around - and the one who gets replaced when the timeslot moves."
+    }
+  ],
+  "senses": [
+    "The on-air performer who converts national identity into a segment: hired to be certain, paid to be angry, and never once required to be right.",
+    "A broadcaster whose only consistent commitment is the next hour of programming. The flag is a prop, the outrage is inventory, and moral clarity is a liability no sponsor will underwrite."
+  ],
+  "notes": [],
+  "example": "*\"He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break.\"*",
+  "related": [
+    "Patriotainment",
+    "Playtriot",
+    "Slopagandist"
+  ]
+}

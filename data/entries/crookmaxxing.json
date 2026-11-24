@@ -1,17 +1,14 @@
 {
   "term": "Crookmaxxing",
-  "section": "hypocrisy-revisionism",
-  "order": 4,
+  "kind": "move",
+  "chapter": "hypocrisy-revisionism",
+  "position": 4,
   "part_of_speech": "noun / verb",
   "ipa": "/ˈkrʊkˌmæk.sɪŋ/",
   "etymology": "Blend of \"crook\" + \"-maxxing\"",
-  "range": "Campaign filings, crypto conferences, and board meetings with a quorum problem.",
-  "call": "\"It's not illegal.\"",
-  "field_marks": [
-    "Blatant, unbothered, on the record",
-    "Treats audits as a lifestyle",
-    "Charges by the hour"
-  ],
+  "trigger": "An audit, a filing deadline, or a reporter holding the receipts - the moment the paperwork becomes the story.",
+  "tell": "Blatant, unbothered, on the record: \"It's not illegal,\" delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest.",
+  "counter": "Price it in public - name the number, the hour, the invoice. Crookmaxxing runs on the cost staying abstract.",
   "confused_with": [
     {
       "term": "Sovereign Shillizen",

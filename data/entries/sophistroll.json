@@ -1,7 +1,8 @@
 {
   "term": "Sophistroll",
-  "section": "bad-faith-debate",
-  "order": 1,
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 1,
   "part_of_speech": "noun",
   "ipa": "/ˈsɒf.ɪ.stroʊl/",
   "etymology": "Blend of \"sophist\" + \"troll\"",

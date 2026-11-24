@@ -1,7 +1,8 @@
 {
   "term": "Xenophobricator",
-  "section": "fearmongering-grift",
-  "order": 1,
+  "kind": "species",
+  "chapter": "fearmongering-grift",
+  "position": 1,
   "part_of_speech": "noun",
   "ipa": "/ˌzɛn.əˈfoʊ.brɪ.keɪ.tər/",
   "etymology": "Blend of \"xenophobe\" + \"fabricator\"",

@@ -1,7 +1,8 @@
 {
   "term": "Illogician",
-  "section": "bad-faith-debate",
-  "order": 2,
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 2,
   "part_of_speech": "noun",
   "ipa": "/ˌɪl.əˈdʒɪʃ.ən/",
   "etymology": "Blend of \"illogical\" + \"logician\"",
