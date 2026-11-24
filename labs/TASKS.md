@@ -7,30 +7,13 @@ deleted rather than archived, because git is the archive.
 
 ## Now
 
-### 1. Replace "Sovereign Shillizen"
-
-The name reads as an insult aimed at a person, and it names the wrong mechanism:
-the pattern is not that the citizen is a shill, it is that citizenship is being
-performed as a purchase. Candidates under discussion:
-
-- **Sovereign Consumer** - names the swap directly; a little flat.
-- **Customer Citizen** - the same swap, with a receipt.
-- **Subscription Patriot** - the citizen as a recurring charge.
-- **Patron Patriot** - the citizen as a donor tier.
-- **Paytriot** - too close to Playtriot; rejected.
-- **Ratepayer** - accurate for local politics, too narrow for the species.
-
-Decision needed: pick one, then rename `term`, the slug/filename, and every
-reference (edges, `related`, prose mentions in other entries, README, the
-lexicon meta if it appears there).
-
-### 2. Even out habitat coverage
+### 1. Even out habitat coverage
 
 `houses` edges are lopsided: the comment section houses twelve, the rally two.
 Either the thin habitats need more characters, or the crowded one is being used as
 a default. Audit before adding.
 
-### 3. The local-news desert
+### 2. The local-news desert
 
 A habitat that underlies three moves (the feed, the Friday news dump, the hot
 mic) and has no entry. It is a real habitat with a real counter (public funding,
