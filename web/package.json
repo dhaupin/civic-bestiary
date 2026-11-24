@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "The Civic Bestiary - a field guide to the characters of the body politic, generated from one dataset into a README and a prestruct-prerendered static site.",
+  "description": "The Civic Bestiary - a field guide to the characters of the body politic, generated from one dataset into a book, a README and a prestruct-prerendered static site.",
   "scripts": {
     "dev": "vite",
     "build": "prestruct build",

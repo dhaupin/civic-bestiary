@@ -7038,8 +7038,8 @@ export const entries = [
     "notes": [],
     "example": "“He denied it, which is exactly what someone with something to hide would do.”",
     "cite": {
-      "label": "Wikipedia · Bulverism",
-      "url": "https://en.wikipedia.org/wiki/Bulverism"
+      "label": "Unstrange Mind · Kafka trap",
+      "url": "https://unstrangemind.com/kafka-trap/"
     },
     "summary": "Informal · Presumption fallacy: The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would...",
     "definition": "The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say.",

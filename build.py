@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render README.md from the data/ records.
+"""Render the book (LEXICON.md) and the README's counts block from data/.
 
 `data/lexicon.json` holds the meta (title, description, preface, chapters);
 `data/entries/<kind>/*.json` holds one record per term, in the folder named for
@@ -9,9 +9,15 @@ record, it keeps two people adding entries from colliding in one file, and the
 folder is a second witness to the kind: a record filed under the wrong folder
 is a validation error, not a silent inconsistency.
 
+The README is a project's front door, so its prose is hand-written: why the
+thing exists, how it is built, how to run it. The book is 4,000 lines nobody
+reads on GitHub, so it is generated. The numbers cannot be typed either - they
+drift the moment a record lands - so the README keeps one generated block,
+spliced in between markers, and the build fails if it is stale.
+
 Usage:
-    python3 build.py             # regenerate README.md
-    python3 build.py --check     # exit 1 if README.md is out of date
+    python3 build.py             # regenerate LEXICON.md + the README block
+    python3 build.py --check     # exit 1 if either is out of date
     python3 build.py --chapters  # print fallacies filed against the commit graph
 """
 
@@ -26,9 +32,13 @@ ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 META = DATA / "lexicon.json"
 ENTRIES = DATA / "entries"
-OUTPUT = ROOT / "README.md"
+BOOK = ROOT / "LEXICON.md"
+README = ROOT / "README.md"
 
 BANNER = "<!-- Generated from data/ by build.py - edit the records, not this file. -->"
+# The README is authored prose with one hole in it. These markers are the hole.
+GEN_BEGIN = "<!-- BEGIN:generated -->"
+GEN_END = "<!-- END:generated -->"
 
 # The record contract lives in schema/record.json, because the issue form and the
 # contribute page derive from it too. Requiring a field here without adding it
@@ -72,7 +82,7 @@ def load():
         record["_file"] = path.name
         record["_folder"] = path.parent.name
         records.append(record)
-    # chapter order first, then the record's own position inside it: the README
+    # chapter order first, then the record's own position inside it: the book
     # numbering and the site's prev/next both run off this one sort
     records.sort(key=lambda r: (order_of.get(r.get("chapter"), len(order_of)), r.get("position", 0), r["term"]))
     doc = {**meta, "entries": records, "by_term": {r["term"].lower(): r for r in records}}
@@ -284,37 +294,50 @@ def render_index(doc, anchors):
     return lines
 
 
-def render_footer(doc):
-    """The numbers, counted - so the footer cannot go stale.
-
-    Everything the prose elsewhere used to restate by hand (how many coinages,
-    how many carry a counter) is derived here from the records themselves.
-    """
+def kind_tally(doc):
+    """Kinds present, split into the coinages and the reference entries."""
     counts = Counter(entry["kind"] for entry in doc["entries"])
-    coined_kinds = [key for key, spec in KINDS.items() if spec.get("coined")]
-    coinages = [entry for entry in doc["entries"] if entry["kind"] in coined_kinds]
-    # A counter is authored from one end only, and either end may be the coinage:
-    # the remedy that answers a character, or the character that answers another.
+    coined = [key for key, spec in KINDS.items() if spec.get("coined") and counts[key]]
+    rest = [key for key, spec in KINDS.items() if not spec.get("coined") and counts[key]]
+    coinages = [entry for entry in doc["entries"] if entry["kind"] in coined]
+    return counts, coined, rest, coinages
+
+
+def counter_tally(doc):
+    """How many coinages have something aimed back at them.
+
+    A counter is authored from one end only, and either end may be the coinage:
+    the remedy that answers a character, or the character that answers another.
+    """
+    _, _, _, coinages = kind_tally(doc)
     countered = set()
     for entry in doc["entries"]:
         for edge in entry.get("edges", []):
             if edge["rel"] == "counters":
                 countered.add(entry["term"].lower())
                 countered.add(edge["to"].lower())
-    answered = sum(1 for entry in coinages if entry["term"].lower() in countered)
+    return sum(1 for entry in coinages if entry["term"].lower() in countered), len(coinages)
+
+
+def render_footer(doc):
+    """The numbers, counted - so the footer cannot go stale.
+
+    Everything the prose elsewhere used to restate by hand (how many coinages,
+    how many carry a counter) is derived here from the records themselves.
+    """
+    counts, coined, rest, coinages = kind_tally(doc)
+    answered, total = counter_tally(doc)
 
     by_kind = ", ".join(
-        f"{counts[key]} {spec['plural'].lower()}" for key, spec in KINDS.items()
-        if spec.get("coined") and counts[key]
+        f"{counts[key]} {KINDS[key]['plural'].lower()}" for key in coined
     )
     rest = ", ".join(
-        f"{counts[key]} {spec['plural'].lower()}" for key, spec in KINDS.items()
-        if not spec.get("coined") and counts[key]
+        f"{counts[key]} {KINDS[key]['plural'].lower()}" for key in rest
     )
     return (
         f"*{len(doc['entries'])} entries in {len(KINDS)} kinds and "
         f"{len(doc['chapters'])} chapters: {len(coinages)} coinages ({by_kind}), "
-        f"{rest}. {answered} of the {len(coinages)} coinages carry a counter.* "
+        f"{rest}. {answered} of the {total} coinages carry a counter.* "
         "Counted from `data/` by `build.py` - nothing on this line is typed."
     )
 
@@ -349,6 +372,48 @@ def render(doc):
         previous = kind
     out.extend(["", "---", "", render_footer(doc)])
     return "\n".join(out) + "\n"
+
+
+def render_cover(doc):
+    """The README's one generated block: the numbers, then the chapters.
+
+    A front door should say why the thing exists; it should not restate what the
+    records already say. But a count in prose goes stale the moment a record
+    lands, so this block is spliced in and checked rather than typed.
+    """
+    numbered, _ = number_entries(doc)
+    counts, coined, rest, coinages = kind_tally(doc)
+    answered, total = counter_tally(doc)
+
+    by_kind = ", ".join(f"{counts[key]} {KINDS[key]['plural'].lower()}" for key in coined)
+    also = ", ".join(f"{counts[key]} {KINDS[key]['plural'].lower()}" for key in rest)
+    lines = [
+        GEN_BEGIN,
+        f"**{len(doc['entries'])} entries.** {len(coinages)} coinages ({by_kind}), "
+        f"{also}. {answered} of the {total} coinages carry a counter, and every entry "
+        "is a record: one JSON file under `data/entries/`.",
+        "",
+        "| Chapter | Entries |",
+        "| --- | --: |",
+    ]
+    for chapter, pairs in numbered:
+        heading = f"{chapter['roman']}. {chapter['title']}"
+        lines.append(f"| [{heading}](LEXICON.md#{slugify(heading)}) | {len(pairs)} |")
+    lines.append(GEN_END)
+    return "\n".join(lines)
+
+
+def splice_cover(readme, block):
+    """Put the generated block back into the authored README.
+
+    Loud on a missing marker: silently appending a second block, or leaving the
+    old numbers in place, is how a README starts lying.
+    """
+    start = readme.find(GEN_BEGIN)
+    end = readme.find(GEN_END)
+    if start == -1 or end == -1 or end < start:
+        sys.exit(f"{README.name} is missing its {GEN_BEGIN} / {GEN_END} markers")
+    return readme[:start] + block + readme[end + len(GEN_END):]
 
 
 def chapter_audit(doc):
@@ -401,15 +466,24 @@ def main():
     if "--chapters" in sys.argv:
         report_chapters(doc)
         return
-    text = render(doc)
+    book = render(doc)
+    current_readme = README.read_text(encoding="utf-8") if README.exists() else ""
+    readme = splice_cover(current_readme, render_cover(doc))
+
     if "--check" in sys.argv:
-        current = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else ""
-        if current != text:
-            sys.exit("README.md is out of date; run `python3 build.py`")
-        print("README.md is up to date")
+        stale = []
+        if not BOOK.exists() or BOOK.read_text(encoding="utf-8") != book:
+            stale.append(BOOK.name)
+        if readme != current_readme:
+            stale.append(README.name)
+        if stale:
+            sys.exit(f"{' and '.join(stale)} out of date; run `python3 build.py`")
+        print(f"{BOOK.name} and {README.name} are up to date")
         return
-    OUTPUT.write_text(text, encoding="utf-8")
-    print(f"wrote {OUTPUT.name} ({len(doc['entries'])} entries)")
+
+    BOOK.write_text(book, encoding="utf-8")
+    README.write_text(readme, encoding="utf-8")
+    print(f"wrote {BOOK.name} and {README.name} ({len(doc['entries'])} entries)")
 
 
 if __name__ == "__main__":

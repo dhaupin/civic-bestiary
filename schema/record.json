@@ -2,7 +2,7 @@
   "record": {
     "title": "Entry record",
     "path": "data/entries/<kind>/<slug>.json",
-    "description": "One file per term, named for the term's slug. Every audience reads this file: the README, the site, and the issue form a contributor fills in."
+    "description": "One file per term, named for the term's slug. Every audience reads this file: the book, the site, and the issue form a contributor fills in."
   },
   "issue": {
     "file": "new-entry.yml",
@@ -533,7 +533,7 @@
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
-      "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside.",
+      "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the book renders it as an aside.",
       "example": "*\"<a line you could overhear>\"* - the term in **bold**"
     },
     {

@@ -86,7 +86,7 @@ body:
     id: example
     attributes:
       label: "Example"
-      description: "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside."
+      description: "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the book renders it as an aside."
       placeholder: "*\"<a line you could overhear>\"* - the term in **bold**"
     validations:
       required: true

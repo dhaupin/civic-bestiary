@@ -34,7 +34,7 @@ def typographic(text):
 
 
 def unwrap_emphasis(text):
-    """Drop the README's outer *...* wrapper so only the inner **term** survives."""
+    """Drop the book's outer *...* wrapper so only the inner **term** survives."""
     stripped = text.strip()
     if len(stripped) > 2 and stripped[0] == "*" and stripped[-1] == "*" \
             and not stripped.startswith("**") and not stripped.endswith("**"):

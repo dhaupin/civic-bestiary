@@ -1,7 +1,7 @@
 // Generated from schema/record.json by build_schema.py - edit the schema, not this file.
 export default {
   "recordPath": "data/entries/<kind>/<slug>.json",
-  "recordDescription": "One file per term, named for the term's slug. Every audience reads this file: the README, the site, and the issue form a contributor fills in.",
+  "recordDescription": "One file per term, named for the term's slug. Every audience reads this file: the book, the site, and the issue form a contributor fills in.",
   "issue": {
     "name": "New entry",
     "titlePrefix": "[New entry] ",
@@ -350,7 +350,7 @@ export default {
       "type": "textarea",
       "required": true,
       "requiredInIssue": true,
-      "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside.",
+      "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the book renders it as an aside.",
       "example": "*\"<a line you could overhear>\"* - the term in **bold**"
     },
     {
