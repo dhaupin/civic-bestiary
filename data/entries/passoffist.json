@@ -43,6 +43,14 @@
     {
       "rel": "commits",
       "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting baseline"
+    },
+    {
+      "rel": "commits",
+      "to": "Normalcy bias"
     }
   ],
   "sort": {
