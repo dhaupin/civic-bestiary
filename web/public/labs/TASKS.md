@@ -27,7 +27,7 @@ lexicon meta if it appears there).
 ### 2. Even out habitat coverage
 
 `houses` edges are lopsided: the comment section houses twelve, the rally two.
-Either the thin habitats need more creatures, or the crowded one is being used as
+Either the thin habitats need more characters, or the crowded one is being used as
 a default. Audit before adding.
 
 ### 3. The local-news desert
@@ -51,9 +51,9 @@ ownership disclosure, a nonprofit newsroom) - a natural chapter V addition.
 
 ## Later / maybe
 
-- Cross-link the nine uncountered creatures if any institution is genuinely
-  missing (currently: coattails, convention bounce, honeymoon, hot mic,
-  indictbump, lame duck, cloture, discharge petition, consent decree - the first
-  six are calendar buffs and the last three are themselves answers, so this is
-  probably closed).
+- Seven coinages still carry no counter: coattails, convention bounce, honeymoon,
+  hot mic, indictbump, lame duck, consent decree. Five are calendar buffs, one is
+  a press accident, and the consent decree is itself an answer - so this is
+  probably closed, and closing it by force would mean inventing a counter, which
+  the guide would rather not do.
 - A print stylesheet. A field guide wants to be a pamphlet.

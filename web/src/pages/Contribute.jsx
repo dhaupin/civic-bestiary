@@ -57,23 +57,28 @@ export default function Contribute() {
           <p className="eyebrow">contribute</p>
           <h1>Name what you keep seeing</h1>
           <p className="sub">
-            The bestiary grows the way a field guide does: someone notices a creature, writes down
-            what it does, and checks whether the animal next to it is the same one. {stats.entries}{' '}
-            entries so far, in {chapters.length} chapters.
+            The bestiary grows the way a field guide does: someone notices a character, writes down
+            what it does, and checks whether the one beside it is the same. {stats.entries} entries so
+            far, in {chapters.length} chapters.
           </p>
         </header>
 
         <div className="prose">
           <p>
             A good term is not clever, it is <em>useful</em>. It should name something a reader
-            recognises instantly and has no word for yet - the way <strong>playtriot</strong> covers
-            a whole posture in one syllable. If the word needs a paragraph of setup before it means
+            recognises instantly and has no word for yet, and it should survive being said out loud -
+            one word, no footnote attached. If the word needs a paragraph of setup before it means
             anything, it is not a species; it is a slogan.
+          </p>
+          <p>
+            The fields below are the whole test. Each one shows what it is for and what a good answer
+            looks like; copy the shape, not the content. Anything you leave blank, the maintainers
+            fill in.
           </p>
         </div>
 
         <div className="taxa">
-          <h2 className="contribute-h">The five kinds</h2>
+          <h2 className="contribute-h">The kinds</h2>
           <dl className="taxa-list">
             {Object.entries(contract.kinds).map(([id, spec]) => (
               <div key={id}>

@@ -29,3 +29,9 @@
 
 /site.webmanifest
   Cache-Control: public, max-age=86400
+
+# The lab documents are plain UTF-8 markdown; without a charset the browser
+# guesses latin-1 and the em dashes and arrows render as mojibake.
+/labs/*
+  Content-Type: text/markdown; charset=utf-8
+  Cache-Control: public, max-age=3600

@@ -14,7 +14,7 @@ the code, read the whole thing.
 
 ## 1. What this is
 
-A field guide to the creatures of the body politic: the patterns that show up in
+A field guide to the characters of the body politic: the patterns that show up in
 arguments, rallies, feeds, and comment threads, named the way a naturalist would
 name them - by the trait that makes them unmistakable, and by the loop they run.
 
@@ -28,34 +28,37 @@ way to end an argument.
 - A reader who keeps meeting the same behaviour and has no word for it.
 - A teacher, moderator, or journalist who needs a shared vocabulary for a
   pattern, not a diagnosis of a person.
-- A contributor who notices a creature the guide is missing.
+- A contributor who notices a character the guide is missing.
 
 ### Non-goals
 
 - **Not naming people.** No entry may be a real individual, living or dead.
 - **Not a political programme.** The guide documents mechanisms and their
   counters; it does not endorse candidates, parties, or policies.
-- **Not a debate-club taxonomy.** The fallacies are here because creatures
+- **Not a debate-club taxonomy.** The fallacies are here because characters
   commit them, not because the guide wants to referee arguments.
 - **Not a dumping ground.** A synonym for an existing entry is a regression, not
   coverage.
 
 ---
 
-## 2. The three rules
+## 2. The rules
 
 Every editorial and engineering decision resolves against these.
 
 1. **The species is a pattern, not a person.** Senses are written as "The pattern
    of ..." rather than "A person who ...". A costume that wears people, not a
    kind of human - and one you can catch yourself in.
-2. **Every creature has a counter, and the counter is real.** If the answer is an
+2. **Every character has a counter, and the counter is real.** If the answer is an
    institution, the institution gets its own entry (a keystone or a remedy). A
    fake counter is worse than a gap: it tells the reader the fight is already
    lost.
 3. **No invented links.** An edge must be defensible from the prose of the entry
    that carries it. The guide would rather leave a gap than assert a relationship
    it cannot show.
+
+The first two are the guide's own, and the preface states them; the third is how
+the second is enforced once the guide is a graph.
 
 ---
 
@@ -66,7 +69,7 @@ page with its own title and description.
 
 | Route | What it is | Rendered by |
 |---|---|---|
-| `/` | The landing: hero, a random specimen, the chapter map, where the answers live | `pages/Home.jsx` |
+| `/` | The landing: hero, a random entry, the chapter map, where the answers live | `pages/Home.jsx` |
 | `/about/` | The essay, the entry anatomy, how the graph works, provenance | `pages/About.jsx` |
 | `/guide/` | The whole guide: search, filters, sort | `pages/Guide.jsx` |
 | `/chapters/<id>/` | One chapter, same feed | `pages/Guide.jsx` |
@@ -77,7 +80,7 @@ page with its own title and description.
 | `*` | 404 | `pages/NotFound.jsx` |
 
 Kinds (8): `species`, `move`, `ability`, `habitat`, `buff`, `fallacy`, `remedy`,
-`keystone`. Chapters (6): five of creatures, then VI "The Keystones".
+`keystone`. Chapters (6): five of characters, then VI "The Keystones".
 
 Navigation vocabulary lives once, in `site.config.js` (`nav`, `footerExtras`).
 The header, the burger sidebar, and the footer all render from it, so the three
@@ -143,7 +146,7 @@ Kind-specific identification rows, which render as the entry's field-guide block
 | `practises` | Practised by | keystone, remedy | remedy |
 
 Author **one direction**, from the side that knows the answer. The inverse is
-computed, so a counter authored on the remedy page still renders on the creature
+computed, so a counter authored on the remedy page still renders on the character
 page. Duplicate edges, self-edges, and dangling targets fail the build.
 
 ### Sort axes
@@ -246,8 +249,8 @@ Standing audits, all runnable from the repo:
 
 - **Graph audit** - orphans, thin edges (an entry with one inbound link is a
   coinage, not a pattern), dangling targets, duplicate edges.
-- **Coverage audit** - which creatures have no counter, which fallacies have a
-  single committing creature.
+- **Coverage audit** - which characters have no counter, which fallacies have a
+  single committing character.
 - **Prose audit** - person-shaped senses, sense count, example formatting, stale
   counts in prose.
 - **Canon audit** - `related` strings must match a canonical term exactly, even
@@ -260,8 +263,8 @@ Backlog and open questions live in [`TASKS.md`](TASKS.md).
 ## 11. Current numbers
 
 Generated, not hand-maintained - run `python3 build.py` and read the footer of
-`README.md`. As of this revision: 165 entries, 182 pages, 8 kinds, 6 chapters,
-57 fallacies, 15 keystones, 16 remedies, 69 of 78 creatures carrying a counter.
+`README.md`. As of this revision: 165 entries, 183 pages, 8 kinds, 6 chapters,
+57 fallacies, 14 keystones, 16 remedies, 71 of 78 characters carrying a counter.
 
 ---
 

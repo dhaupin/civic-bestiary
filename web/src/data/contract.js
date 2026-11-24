@@ -129,7 +129,7 @@ export default {
       "label": "Habitat",
       "plural": "Habitats",
       "path": "/habitats/",
-      "blurb": "The place a creature is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
+      "blurb": "The place a character is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
       "identification": [
         {
           "key": "carriers",
@@ -161,7 +161,7 @@ export default {
       "label": "Buff",
       "plural": "Buffs",
       "path": "/buffs/",
-      "blurb": "A temporary condition that changes what a creature can get away with.",
+      "blurb": "A temporary condition that changes what a character can get away with.",
       "identification": [
         {
           "key": "effect",
@@ -187,7 +187,7 @@ export default {
       "label": "Fallacy",
       "plural": "Fallacies",
       "path": "/fallacies/",
-      "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing the creatures commit.",
+      "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing characters commit.",
       "identification": [
         {
           "key": "family",
@@ -224,7 +224,7 @@ export default {
         {
           "key": "effect",
           "label": "Effect",
-          "hint": "What it does to the creature, in the active voice. One sentence, no moral.",
+          "hint": "What it does to the character, in the active voice. One sentence, no moral.",
           "example": "Turns a question into a deadline: the agency has to answer in writing, or say in writing why it will not."
         },
         {
@@ -251,7 +251,7 @@ export default {
       "label": "Keystone",
       "plural": "Keystones",
       "path": "/keystones/",
-      "blurb": "A species whose presence holds the ecosystem together - and whose absence is the whole problem.",
+      "blurb": "An office whose presence holds the ecosystem together - and whose absence is the whole problem.",
       "identification": [
         {
           "key": "office",
@@ -274,7 +274,7 @@ export default {
         {
           "key": "keystone",
           "label": "Keystone",
-          "hint": "What collapses without them. Name the mechanism, not the moral - and name the creature that needs the gap.",
+          "hint": "What collapses without them. Name the mechanism, not the moral - and name the character that needs the gap.",
           "example": "Without the record there is no way to prove what the body did, which is the first thing a Sabotriot needs."
         }
       ]
@@ -288,7 +288,7 @@ export default {
       "required": true,
       "requiredInIssue": true,
       "hint": "The coinage, spelled the way it should be listed. Title case, no quotes.",
-      "example": "Playtriot"
+      "example": "<Term> - one word, title case, no quotes"
     },
     {
       "key": "kind",
@@ -296,7 +296,7 @@ export default {
       "type": "select",
       "required": true,
       "requiredInIssue": true,
-      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, and a fallacy is a documented error in reasoning.",
+      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, a fallacy is a documented error in reasoning, a remedy is a procedure that answers one, and a keystone is the office whose absence is the problem.",
       "example": "Species"
     },
     {
@@ -324,7 +324,7 @@ export default {
       "required": true,
       "requiredInIssue": true,
       "hint": "IPA between slashes. Approximate is fine.",
-      "example": "/ˈpleɪ.tri.ət/"
+      "example": "/<term>/ - approximate is fine"
     },
     {
       "key": "etymology",
@@ -333,7 +333,7 @@ export default {
       "required": true,
       "requiredInIssue": true,
       "hint": "Where the word came from, in one line. Name both parents if it is a blend.",
-      "example": "Blend of \"play\" + \"patriot\""
+      "example": "<parent> + <parent> - name both halves if it is a blend"
     },
     {
       "key": "senses",
@@ -342,7 +342,7 @@ export default {
       "required": true,
       "requiredInIssue": true,
       "hint": "Two definitions: the thing itself, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone.",
-      "example": "A citizen who performs patriotism as a shield while undermining the civic obligations it claims to honour."
+      "example": "1. <what it is, in one sentence> 2. <why it works, in one sentence>"
     },
     {
       "key": "example",
@@ -351,7 +351,7 @@ export default {
       "required": true,
       "requiredInIssue": true,
       "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside.",
-      "example": "*\"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.\"*"
+      "example": "*\"<a line you could overhear>\"* - the term in **bold**"
     },
     {
       "key": "confused_with",
@@ -360,7 +360,16 @@ export default {
       "required": true,
       "requiredInIssue": false,
       "hint": "Existing terms it could be mistaken for, and the one thing that tells them apart. Optional at proposal time - the maintainers add twins when the confusion is real.",
-      "example": "LARPtarian - both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+      "example": "<Nearest neighbour> - the one thing that tells them apart"
+    },
+    {
+      "key": "identification",
+      "label": "The identification block",
+      "type": "textarea",
+      "required": true,
+      "requiredInIssue": false,
+      "hint": "Describe it the way its kind is described. Species: occasion, call, tell, counter. Move: trigger, tell, counter. Ability: effect, available to, counter. Habitat: carriers, economics, signature. Buff: effect, tell, expires. Fallacy: family, committed when, the tell, counter. Remedy: effect, costs, failure, tell. Keystone: office, call, tell, keystone.",
+      "example": "Occasion: ... Call: ... Tell: ... Counter: ..."
     }
   ],
   "maintainer": [
@@ -389,7 +398,7 @@ export default {
       "required": true,
       "requiredInIssue": false,
       "hint": "Two or three existing terms this one belongs beside. The graph must stay connected, so every term needs at least one inbound reference.",
-      "example": "Sabotriot, LARPtarian"
+      "example": "<Term>, <Term> - two or three that belong beside it"
     },
     {
       "key": "edges",
@@ -398,7 +407,7 @@ export default {
       "required": false,
       "requiredInIssue": false,
       "hint": "Relationship edges to other entries, each with a relation from the schema's vocabulary. Author one direction; the other page shows the inverse automatically.",
-      "example": "stages -> Patriotainer"
+      "example": "commits -> <Fallacy>"
     },
     {
       "key": "cite",

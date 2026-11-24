@@ -1,7 +1,7 @@
 {
   "name": "The Civic Bestiary",
   "short_name": "Bestiary",
-  "description": "A field guide to the creatures of the body politic.",
+  "description": "A field guide to the characters of the body politic.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f4efe6",

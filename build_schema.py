@@ -29,6 +29,11 @@ JS_BANNER = "// Generated from schema/record.json by build_schema.py - edit the 
 ELEMENT = {"text": "input", "number": "input", "textarea": "textarea", "list": "textarea", "pairs": "textarea"}
 
 
+def identification_example(kinds):
+    """The species block, spelled out - the shape most proposals need."""
+    return " ".join(f"{row['label']}: ..." for row in kinds["species"]["identification"])
+
+
 def scalar(value):
     """JSON is valid YAML, and json.dumps gets quoting right where hand-rolled
     YAML does not - one stray colon in a hint would otherwise break the form."""
@@ -83,7 +88,7 @@ def render_issue(schema, chapters, kinds):
     out.append("    attributes:\n")
     out.append(f"      label: {scalar('The identification block')}\n")
     out.append(f"      description: {scalar(issue['identification_hint'])}\n")
-    out.append(f"      placeholder: {scalar('Range: ... Call: ... Field marks: ...')}\n")
+    out.append(f"      placeholder: {scalar(identification_example(kinds))}\n")
 
     out.append("  - type: markdown\n    attributes:\n")
     out.append(f"      value: {scalar(issue['outro'])}\n")
@@ -129,7 +134,16 @@ def render_contract(schema, chapters):
             for chapter in chapters
         ],
         "kinds": kinds,
-        "contributor": [project(f) for f in schema["fields"] if f.get("addressed_to") != "maintainer"],
+        "contributor": [project(f) for f in schema["fields"] if f.get("addressed_to") != "maintainer"]
+        + [{
+            "key": "identification",
+            "label": "The identification block",
+            "type": "textarea",
+            "required": True,
+            "requiredInIssue": False,
+            "hint": schema["issue"]["identification_hint"],
+            "example": identification_example(kinds),
+        }],
         "maintainer": [project(f) for f in schema["fields"] if f.get("addressed_to") == "maintainer"],
     }
     return JS_BANNER + "export default " + json.dumps(doc, indent=2, ensure_ascii=False) + "\n"

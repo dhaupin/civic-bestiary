@@ -134,7 +134,7 @@
       "plural": "Habitats",
       "path": "/habitats/",
       "voice": "signature",
-      "blurb": "The place a creature is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
+      "blurb": "The place a character is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
       "identification": [
         {
           "key": "carriers",
@@ -176,7 +176,7 @@
       "plural": "Buffs",
       "path": "/buffs/",
       "voice": "tell",
-      "blurb": "A temporary condition that changes what a creature can get away with.",
+      "blurb": "A temporary condition that changes what a character can get away with.",
       "identification": [
         {
           "key": "effect",
@@ -214,7 +214,7 @@
       "omit": [
         "ipa"
       ],
-      "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing the creatures commit.",
+      "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing characters commit.",
       "identification": [
         {
           "key": "family",
@@ -262,7 +262,7 @@
           "key": "effect",
           "label": "Effect",
           "type": "text",
-          "hint": "What it does to the creature, in the active voice. One sentence, no moral.",
+          "hint": "What it does to the character, in the active voice. One sentence, no moral.",
           "example": "Turns a question into a deadline: the agency has to answer in writing, or say in writing why it will not."
         },
         {
@@ -298,7 +298,7 @@
       "plural": "Keystones",
       "path": "/keystones/",
       "voice": "call",
-      "blurb": "A species whose presence holds the ecosystem together - and whose absence is the whole problem.",
+      "blurb": "An office whose presence holds the ecosystem together - and whose absence is the whole problem.",
       "identification": [
         {
           "key": "office",
@@ -325,7 +325,7 @@
           "key": "keystone",
           "label": "Keystone",
           "type": "text",
-          "hint": "What collapses without them. Name the mechanism, not the moral - and name the creature that needs the gap.",
+          "hint": "What collapses without them. Name the mechanism, not the moral - and name the character that needs the gap.",
           "example": "Without the record there is no way to prove what the body did, which is the first thing a Sabotriot needs."
         }
       ],
@@ -346,7 +346,7 @@
       "to": [
         "move"
       ],
-      "hint": "The creature runs this move."
+      "hint": "The character runs this move."
     },
     "uses": {
       "label": "Uses",
@@ -358,7 +358,7 @@
       "to": [
         "ability"
       ],
-      "hint": "The creature or habitat wields this capability."
+      "hint": "The character or habitat wields this capability."
     },
     "houses": {
       "label": "Houses",
@@ -371,7 +371,7 @@
         "move",
         "fallacy"
       ],
-      "hint": "The habitat is where this creature, move, or fallacy is found. Author one direction; the other page says 'Found in'."
+      "hint": "The habitat is where this character, move, or fallacy is found. Author one direction; the other page says 'Found in'."
     },
     "counters": {
       "label": "Counters",
@@ -391,7 +391,7 @@
         "buff",
         "habitat"
       ],
-      "hint": "The play that ends it, authored from the side that ends it. A remedy or a keystone may counter a creature, a move, a power, a buff, or a habitat; the inverse page renders the other direction."
+      "hint": "The play that ends it, authored from the side that ends it. A remedy or a keystone may counter a character, a move, a power, a buff, or a habitat; the inverse page renders the other direction."
     },
     "commits": {
       "label": "Commits",
@@ -406,7 +406,7 @@
       "to": [
         "fallacy"
       ],
-      "hint": "The named fallacy this creature's behaviour instantiates. This is the bridge between the guide's coinages and the documented taxonomy."
+      "hint": "The named fallacy this character's behaviour instantiates. This is the bridge between the guide's coinages and the documented taxonomy."
     },
     "practises": {
       "label": "Practises",
@@ -429,7 +429,7 @@
       "required_in_issue": true,
       "addressed_to": "contributor",
       "hint": "The coinage, spelled the way it should be listed. Title case, no quotes.",
-      "example": "Playtriot"
+      "example": "<Term> - one word, title case, no quotes"
     },
     {
       "key": "kind",
@@ -439,7 +439,7 @@
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
-      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, and a fallacy is a documented error in reasoning.",
+      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, a fallacy is a documented error in reasoning, a remedy is a procedure that answers one, and a keystone is the office whose absence is the problem.",
       "example": "Species"
     },
     {
@@ -496,7 +496,7 @@
       "required_in_issue": true,
       "addressed_to": "contributor",
       "hint": "IPA between slashes. Approximate is fine.",
-      "example": "/ˈpleɪ.tri.ət/"
+      "example": "/<term>/ - approximate is fine"
     },
     {
       "key": "etymology",
@@ -506,7 +506,7 @@
       "required_in_issue": true,
       "addressed_to": "contributor",
       "hint": "Where the word came from, in one line. Name both parents if it is a blend.",
-      "example": "Blend of \"play\" + \"patriot\""
+      "example": "<parent> + <parent> - name both halves if it is a blend"
     },
     {
       "key": "senses",
@@ -516,7 +516,7 @@
       "required_in_issue": true,
       "addressed_to": "contributor",
       "hint": "Two definitions: the thing itself, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone.",
-      "example": "A citizen who performs patriotism as a shield while undermining the civic obligations it claims to honour."
+      "example": "1. <what it is, in one sentence> 2. <why it works, in one sentence>"
     },
     {
       "key": "example",
@@ -526,7 +526,7 @@
       "required_in_issue": true,
       "addressed_to": "contributor",
       "hint": "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside.",
-      "example": "*\"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.\"*"
+      "example": "*\"<a line you could overhear>\"* - the term in **bold**"
     },
     {
       "key": "confused_with",
@@ -536,7 +536,7 @@
       "required_in_issue": false,
       "addressed_to": "contributor",
       "hint": "Existing terms it could be mistaken for, and the one thing that tells them apart. Optional at proposal time - the maintainers add twins when the confusion is real.",
-      "example": "LARPtarian - both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+      "example": "<Nearest neighbour> - the one thing that tells them apart"
     },
     {
       "key": "related",
@@ -546,7 +546,7 @@
       "required_in_issue": false,
       "addressed_to": "maintainer",
       "hint": "Two or three existing terms this one belongs beside. The graph must stay connected, so every term needs at least one inbound reference.",
-      "example": "Sabotriot, LARPtarian"
+      "example": "<Term>, <Term> - two or three that belong beside it"
     },
     {
       "key": "edges",
@@ -556,7 +556,7 @@
       "required_in_issue": false,
       "addressed_to": "maintainer",
       "hint": "Relationship edges to other entries, each with a relation from the schema's vocabulary. Author one direction; the other page shows the inverse automatically.",
-      "example": "stages -> Patriotainer"
+      "example": "commits -> <Fallacy>"
     },
     {
       "key": "cite",
