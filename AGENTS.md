@@ -215,9 +215,11 @@ appending.
   paint-scheme preset picker are not shipped: this site has one palette and no docs site.
   Everything else follows the family rules - tokens own the palette, theme is one
   `<html data-theme>` attribute, nav and footer render from `site.config.js`.
-- **`siteUrl` is the Pages origin** (`https://civicbestiary.pages.dev`). It is baked into
-  canonicals, OG tags, JSON-LD, `sitemap.xml`, and `llms.txt`. Attaching a custom domain means
-  changing that one line in `site.config.js` and rebuilding - not editing the baked files.
+- **`siteUrl` is the canonical origin** (`https://codex.creadev.org`), attached to the Pages
+  project as a custom domain. It is baked into canonicals, OG tags, JSON-LD, `sitemap.xml`, and
+  `llms.txt`. Changing it means changing that one line in `site.config.js` and rebuilding - not
+  editing the baked files. `civicbestiary.pages.dev` still serves the same build, so it needs a
+  zone-level redirect if the duplicate host should not be indexed.
 - The repo URL is authored once, in `site.config.js` (`REPO`); the nav link, the footer, and
   the JSON-LD license all derive from it. A few surfaces still carry hand-copied identity and
   will drift on a rename: `web/public/site.webmanifest`, the `aria-label` in

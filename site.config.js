@@ -16,10 +16,13 @@ export default {
   tagline: 'A field guide to the creatures of the body politic.',
   description:
     'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
-  // The deploy origin. Cloudflare Pages serves the project at <project>.pages.dev
-  // until a custom domain is attached - then change this one line, and rebuild:
-  // prestruct bakes it into canonicals, OG tags, JSON-LD, sitemap, and llms.txt.
-  url: 'https://civicbestiary.pages.dev',
+  // The canonical origin. Cloudflare Pages serves the project at
+  // <project>.pages.dev and at any attached custom domain; this line decides
+  // which one is canonical. prestruct bakes it into canonicals, OG tags,
+  // JSON-LD, sitemap, and llms.txt, so changing it means a rebuild, not an edit
+  // to the baked files. The pages.dev host still serves - redirect it at the
+  // zone if you want one origin in the index.
+  url: 'https://codex.creadev.org',
   repo: REPO,
   author: 'dhaupin',
   license: 'MIT',
