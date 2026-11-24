@@ -1,3 +1,5 @@
+<!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->
+
 # The Modern Civic & Rhetorical Psy-Loop Lexicon
 
 A glossary of portmanteaus capturing performative nationalism, weaponized liberty, bad-faith debate tactics, and algorithmic radicalization.
@@ -14,7 +16,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 2. An individual who adopts the aesthetics and rhetoric of love for their country as a shield or justification to engage in divisive, harmful, or anti-social behavior against fellow citizens.
 
 * **Example:** *"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot."*
-* **Related Terms:** *Sabotriot*, *LARPtarian*, *Bootcurious*
+* **Related Terms:** *Sabotriot*, *LARPtarian*, *Patriotainment*
 
 ---
 
@@ -67,9 +69,21 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
+### 6. Patriotainment
+*(noun)* `/ˈpeɪ.tri.ə.ˌteɪn.mənt/`  
+*Blend of "patriot" + "entertainment"*
+
+1. The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the country is something you buy a ticket to watch rather than something you owe the people living in it.
+2. A mode of civic life in which the spectacle of patriotism substitutes entirely for its obligations, so that cheering loudest counts as service and noticing anything else counts as betrayal.
+
+* **Example:** *"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale."*
+* **Related Terms:** *Playtriot*, *Sabotriot*, *Ragesturbationist*
+
+---
+
 ## II. Bad-Faith Debate & Epistemic Breakdown
 
-### 6. Sophistroll
+### 7. Sophistroll
 *(noun)* `/ˈsɒf.ɪ.stroʊl/`  
 *Blend of "sophist" + "troll"*
 
@@ -77,11 +91,11 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 2. Someone who treats debate as a game of rhetorical attrition, relying on volume, deflection, and deceptive reasoning to claim victory while avoiding the actual issue.
 
 * **Example:** *"You can't have a productive discussion with a **sophistroll**; the second you disprove his point, he'll pivot to three different straw men and an ad hominem attack."*
-* **Related Terms:** *Illogician*, *JAQing off*, *Trust-me-brofessor*
+* **Related Terms:** *Illogician*, *JAQing off*, *Equivangelist*
 
 ---
 
-### 7. Illogician
+### 8. Illogician
 *(noun)* `/ˌɪl.əˈdʒɪʃ.ən/`  
 *Blend of "illogical" + "logician"*
 
@@ -93,7 +107,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
-### 8. JAQing Off
+### 9. JAQing Off
 *(verb phrase / gerund)* `/ˈdʒæk.ɪŋ ɒf/`  
 *Blend of "JAQ" ["Just Asking Questions"] + vulgar slang "jacking off"*
 
@@ -105,7 +119,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
-### 9. Trust-Me-Brofessor
+### 10. Trust-Me-Brofessor
 *(noun)* `/ˌtrʌst.miː.broʊˈfɛs.ər/`  
 *Blend of "trust me, bro" + "professor"*
 
@@ -113,11 +127,11 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 2. A self-appointed expert whose entire bibliography consists of half-remembered memes, gut feelings, and the demand that you "do your own research" rather than hold them accountable for proving their own claims.
 
 * **Example:** *"He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to 'look it up themselves.'"*
-* **Related Terms:** *Biasographer*, *Bleatkeeper*, *Algodemic*
+* **Related Terms:** *Biasographer*, *Bleatkeeper*, *Gallopologist*
 
 ---
 
-### 10. Biasographer
+### 11. Biasographer
 *(noun)* `/ˌbaɪ.əˈsɒɡ.rə.fər/`  
 *Blend of "bias" + "biographer" / "bibliographer"*
 
@@ -129,7 +143,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
-### 11. Bleatkeeper
+### 12. Bleatkeeper
 *(noun)* `/ˈbliːtˌkiː.pər/`  
 *Blend of "bleat" + "gatekeeper"*
 
@@ -141,9 +155,45 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
+### 13. Equivangelist
+*(noun)* `/ɪˈkwɪv.æn.dʒə.lɪst/`  
+*Blend of "equivocate" + "evangelist"*
+
+1. A pundit who evangelizes false equivalence, treating a documented fact and a fabricated claim as two sides that both deserve equal airtime - converting "both sides" from a reporting standard into a religious commitment.
+2. Someone who experiences moral asymmetry as bad manners, insisting that overwhelming evidence and baseless assertion be seated at the same table so that no conclusion can ever be reached and no one can ever be blamed.
+
+* **Example:** *"Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims 'raise real questions' before cutting to commercial."*
+* **Related Terms:** *Sophistroll*, *Bleatkeeper*, *Decorumancer*
+
+---
+
+### 14. Gallopologist
+*(noun)* `/ɡəˈlɒp.ɒl.ə.dʒɪst/`  
+*Blend of "gish gallop" + "-ologist"*
+
+1. A debater who buries an opponent under a firehose of loosely related claims, each one cheap to make and expensive to refute, then declares victory when the clock runs out.
+2. Someone who mistakes the sheer volume of assertions for the strength of an argument, reading an opponent's inability to keep up as an inability to answer.
+
+* **Example:** *"In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator's time limit 'proof' that he'd won."*
+* **Related Terms:** *Sophistroll*, *JAQing off*, *Trust-me-brofessor*
+
+---
+
+### 15. Decorumancer
+*(noun)* `/ˈdɛk.ər.əm.ˌæn.sər/`  
+*Blend of "decorum" + "necromancer"*
+
+1. Someone who conjures civility and procedure to shut down anger that happens to be correct - insisting on tone, process, and "respectful disagreement" as the only legitimate response to open cruelty.
+2. A moderator by temperament who treats the volume of a protest as a graver offense than the thing being protested, turning decorum into a weapon against the people it excludes.
+
+* **Example:** *"The panel spent four minutes on the policy and twenty on whether the audience's booing was 'divisive' - a textbook **decorumancer** performance."*
+* **Related Terms:** *Equivangelist*, *Sophistroll*, *Capitulectual*
+
+---
+
 ## III. Hypocrisy, Revisionism & Authoritarian Submission
 
-### 12. Hypocontortionist
+### 16. Hypocontortionist
 *(noun)* `/ˌhɪp.oʊ.kənˈtɔːr.ʃən.ɪst/`  
 *Blend of "hypocrite" + "contortionist"*
 
@@ -151,11 +201,11 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 2. An ideological shape-shifter who weaponizes self-righteous outrage against opponents for minor infractions, only to perform Olympic-level mental gymnastics to excuse, praise, or ignore identical behavior from their allies or benefactors.
 
 * **Example:** *"After spending years screaming about 'law and order' and 'treason,' the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump's latest authoritarian threat was 'obviously just a joke.'"*
-* **Related Terms:** *Bootcurious*, *Crookmaxxing*, *Playtriot*
+* **Related Terms:** *Bootcurious*, *Crookmaxxing*, *Capitulectual*
 
 ---
 
-### 13. Mythstorian
+### 17. Mythstorian
 *(noun)* `/ˈmɪθˌstɔːr.i.ən/`  
 *Blend of "myth" + "historian"*
 
@@ -167,7 +217,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
-### 14. Bootcurious
+### 18. Bootcurious
 *(noun / adjective)* `/ˈbuːtˌkjʊər.i.əs/`  
 *Blend of "bootlicker" + "curious"*
 
@@ -179,7 +229,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
-### 15. Crookmaxxing
+### 19. Crookmaxxing
 *(noun / verb)* `/ˈkrʊkˌmæk.sɪŋ/`  
 *Blend of "crook" + "-maxxing"*
 
@@ -191,9 +241,21 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
+### 20. Capitulectual
+*(noun)* `/kəˌpɪtʃ.uˈlɛk.tʃu.əl/`  
+*Blend of "capitulate" + "intellectual"*
+
+1. A commentator who surrenders the argument before it is made - softening, hedging, and pre-apologizing for authoritarian moves in advance, then presenting the retreat as sober pragmatism.
+2. Someone whose celebrated "independence" consists entirely of arriving early at the conclusion power wanted, and being thanked for their seriousness.
+
+* **Example:** *"The order hadn't been signed yet and the **capitulectual** already had a column explaining why resistance would be 'counterproductive' and 'unserious.'"*
+* **Related Terms:** *Bootcurious*, *Hypocontortionist*, *Decorumancer*
+
+---
+
 ## IV. Fearmongering, Grift & Algorithmic Radicalization
 
-### 16. Xenophobricator
+### 21. Xenophobricator
 *(noun)* `/ˌzɛn.əˈfoʊ.brɪ.keɪ.tər/`  
 *Blend of "xenophobe" + "fabricator"*
 
@@ -205,7 +267,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
-### 17. Dramagogue
+### 22. Dramagogue
 *(noun)* `/ˈdræm.ə.ɡɒɡ/`  
 *Blend of "drama" + "demagogue"*
 
@@ -217,7 +279,7 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 ---
 
-### 18. Ragesturbationist
+### 23. Ragesturbationist
 *(noun)* `/ˌreɪdʒ.stərˈbeɪ.ʃən.ɪst/`  
 *Blend of "rage" + "masturbation" + "-ist"*
 
@@ -225,11 +287,11 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 2. A cynical commentator or influencer addicted to the dopamine hit and financial payout of manufacturing hysteria, leaving their audience radicalized and society fractured while they cash the checks in private.
 
 * **Example:** *"He has zero intention of fixing the issue he screams about every night; he's a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities."*
-* **Related Terms:** *Crookmaxxing*, *Dramagogue*, *Algodemic*
+* **Related Terms:** *Crookmaxxing*, *Dramagogue*, *Slopagandist*
 
 ---
 
-### 19. Martyrholic
+### 24. Martyrholic
 *(noun)* `/ˌmɑːr.tərˈhɒl.ɪk/`  
 *Blend of "martyr" + "-holic"*
 
@@ -237,11 +299,11 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 2. Someone who experiences genuine peace or security as withdrawal, constantly cycling through new imaginary boogeymen to nail themselves to a self-built cross and justify their hostility toward others.
 
 * **Example:** *"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior."*
-* **Related Terms:** *Dramagogue*, *Sabotriot*, *LARPtarian*
+* **Related Terms:** *Dramagogue*, *Sabotriot*, *Plutomartyr*
 
 ---
 
-### 20. Algodemic
+### 25. Algodemic
 *(noun)* `/ˌæl.ɡoʊˈdɛm.ɪk/`  
 *Blend of "algorithm" + "academic" / "pandemic"*
 
@@ -250,9 +312,27 @@ A glossary of portmanteaus capturing performative nationalism, weaponized libert
 
 * **Example:** *"Bragging that he 'escaped the matrix' while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**."*
 * **Related Terms:** *Bleatkeeper*, *Trust-me-brofessor*, *Ragesturbationist*
- allies or benefactors.
-
-* **Example:** *"After spending years screaming about 'law and order' and 'treason,' the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump's latest authoritarian threat was 'obviously just a joke.'"*
-* **Related Terms:** *Bootcurious*, *Crookmaxxing*, *Playtriot*
 
 ---
+
+### 26. Plutomartyr
+*(noun)* `/ˈpluː.toʊ.ˌmɑːr.tər/`  
+*Blend of "plutocrat" + "martyr"*
+
+1. A billionaire, celebrity, or legacy institution that recasts ordinary accountability - a subpoena, a fact-check, a declined invitation - as persecution, converting enormous advantage into a victim narrative.
+2. Someone insulated from every consequence except embarrassment, who treats that embarrassment as the gravest injustice in public life.
+
+* **Example:** *"A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**."*
+* **Related Terms:** *Martyrholic*, *Bootcurious*, *Crookmaxxing*
+
+---
+
+### 27. Slopagandist
+*(noun)* `/ˈslɒp.ə.ˌɡæn.dɪst/`  
+*Blend of "slop" + "propagandist"*
+
+1. An operator who mass-produces synthetic outrage - AI-written screeds, generated mugshots, bot-farmed replies - flooding the zone faster than any fact-checker can respond.
+2. Someone who no longer needs a coherent ideology, only a reliable pipeline: outrage in, engagement out, truth an irrelevant byproduct of the machinery.
+
+* **Example:** *"Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn't believe the story, he just ships it."*
+* **Related Terms:** *Ragesturbationist*, *Algodemic*, *Dramagogue*
