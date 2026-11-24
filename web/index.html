@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--
+    Shell template. Do not add brand meta here directly: prestruct's
+    inject-brand pass populates the title, description, canonical, Open Graph,
+    Twitter Card, and JSON-LD at build time from web/ssr.config.js. The
+    placeholders below give the inject regex something to match and are
+    replaced before deploy - never served as-is.
+  -->
+  <title>Your Site</title>
+  <meta name="description" content="" />
+  <meta name="keywords"    content="" />
+  <meta name="author"      content="" />
+  <meta name="robots"      content="index, follow" />
+  <link rel="canonical"    href="https://wordsmithing.example.com/" />
+  <meta name="theme-color" content="#f4efe6" />
+
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..600&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&display=swap"
+  />
+
+  <script>
+    // Theme bootstrap: apply a persisted dark theme before first paint so the
+    // page never flashes the wrong palette. Keys and paper values are shared
+    // with src/theme.js and ThemeSwitch.jsx - keep all three in sync.
+    try {
+      var dark = localStorage.getItem('site-theme') === 'dark'
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      var meta = document.querySelector('meta[name="theme-color"]')
+      if (meta) meta.setAttribute('content', dark ? '#12100e' : '#f4efe6')
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Psy-Loop Lexicon">
+  <rect width="64" height="64" rx="10" fill="#1b1512"/>
+  <g stroke="#f4efe6" stroke-width="4.2" stroke-linecap="round">
+    <path d="M32 15v34"/>
+    <path d="M17.3 23.5l29.4 17"/>
+    <path d="M46.7 23.5l-29.4 17"/>
+  </g>
+  <circle cx="32" cy="32" r="4.6" fill="#8f2d24"/>
+</svg>

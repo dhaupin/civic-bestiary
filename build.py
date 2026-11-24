@@ -7,6 +7,7 @@ Usage:
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -14,7 +15,13 @@ ROOT = Path(__file__).parent
 DATA = ROOT / "lexicon.json"
 OUTPUT = ROOT / "README.md"
 
+BANNER = "<!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->"
 REQUIRED = ("term", "section", "part_of_speech", "ipa", "etymology", "senses", "example", "related")
+
+
+def slugify(text):
+    """Approximate the anchor GitHub derives from a heading."""
+    return re.sub(r"[^\w\- ]", "", text.lower()).replace(" ", "-")
 
 
 def load():
@@ -51,7 +58,24 @@ def validate(doc):
         sys.exit("lexicon.json is invalid:\n  " + "\n  ".join(errors))
 
 
-def render_entry(number, entry):
+def number_entries(doc):
+    """Assign running numbers and heading anchors; anchors are needed before rendering."""
+    numbered, anchors, number = [], {}, 0
+    for section in doc["sections"]:
+        entries = [e for e in doc["entries"] if e["section"] == section["id"]]
+        if not entries:
+            continue
+        pairs = []
+        for entry in entries:
+            number += 1
+            heading = f"{number}. {entry['term']}"
+            anchors[entry["term"].lower()] = slugify(heading)
+            pairs.append((number, entry))
+        numbered.append((section, pairs))
+    return numbered, anchors
+
+
+def render_entry(number, entry, anchors):
     lines = [
         f"### {number}. {entry['term']}",
         f"*({entry['part_of_speech']})* `{entry['ipa']}`  ",
@@ -64,25 +88,44 @@ def render_entry(number, entry):
     for note in entry.get("notes", []):
         lines.append(f"* **{note['label']}:** {note['text']}")
     lines.append(f"* **Example:** {entry['example']}")
-    related = ", ".join(f"*{term}*" for term in entry["related"])
+    related = ", ".join(f"[*{term}*](#{anchors[term.lower()]})" for term in entry["related"])
     lines.append(f"* **Related Terms:** {related}")
     return lines
 
 
-def render(doc):
-    blocks = []
-    number = 0
-    for section in doc["sections"]:
-        entries = [e for e in doc["entries"] if e["section"] == section["id"]]
-        if not entries:
-            continue
-        blocks.append(("heading", [f"## {section['roman']}. {section['title']}"]))
-        for entry in entries:
-            number += 1
-            blocks.append(("entry", render_entry(number, entry)))
+def render_contents(numbered):
+    lines = ["## Contents", ""]
+    for section, pairs in numbered:
+        section_heading = f"{section['roman']}. {section['title']}"
+        lines.append(f"- [{section_heading}](#{slugify(section_heading)})")
+        for number, entry in pairs:
+            heading = f"{number}. {entry['term']}"
+            lines.append(f"  - [{heading}](#{slugify(heading)})")
+    return lines
 
-    out = ["<!-- Generated from lexicon.json by build.py - edit the JSON, not this file. -->", "",
-           f"# {doc['title']}", "", doc["description"]]
+
+def render_index(doc, anchors):
+    lines = ["## Index", ""]
+    for term in sorted((e["term"] for e in doc["entries"]), key=str.lower):
+        lines.append(f"- [{term}](#{anchors[term.lower()]})")
+    return lines
+
+
+def render(doc):
+    numbered, anchors = number_entries(doc)
+    blocks = [("prose", render_contents(numbered))]
+    for section, pairs in numbered:
+        blocks.append(("heading", [f"## {section['roman']}. {section['title']}"]))
+        for number, entry in pairs:
+            blocks.append(("entry", render_entry(number, entry, anchors)))
+    blocks.append(("prose", render_index(doc, anchors)))
+
+    out = [BANNER, "", f"# {doc['title']}", "", doc["description"]]
+    if doc.get("preface"):
+        out.extend(["", "## Preface"])
+        for paragraph in doc["preface"]:
+            out.extend(["", paragraph])
+
     previous = None
     for kind, block in blocks:
         if not (kind == "entry" and previous == "heading"):

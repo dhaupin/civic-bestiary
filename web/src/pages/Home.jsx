@@ -1,0 +1,80 @@
+/**
+ * pages/Home.jsx - the landing. Copy is the lexicon's own: the thesis comes
+ * from the preface in lexicon.json, so the page cannot drift from the README.
+ */
+import { Link } from 'react-router-dom'
+import usePageMeta from '../hooks/usePageMeta.js'
+import site, { routeMeta } from '../site.js'
+import { entries, meta as lexicon, preface, sections, stats } from '../lexicon.js'
+
+export default function Home() {
+  const meta = routeMeta('/')
+  usePageMeta({ siteUrl: site.url, path: '/', title: meta.title, description: meta.description })
+
+  const featured = sections
+    .map((section) => entries.find((entry) => entry.section === section.id))
+    .filter(Boolean)
+
+  return (
+    <>
+      <section className="hero">
+        <div className="wrap">
+          <p className="eyebrow">a working glossary</p>
+          <h1>
+            Names for the tricks that <span className="accent">pretend to be arguments.</span>
+          </h1>
+          <p className="lede">{lexicon.description}</p>
+          <div className="cta-row">
+            <Link className="btn btn-primary" to="/lexicon">
+              Browse {stats.entries} entries
+            </Link>
+            <a className="btn btn-ghost" href={site.repo} target="_blank" rel="noreferrer">
+              Read the source
+            </a>
+          </div>
+          <dl className="stats">
+            <div>
+              <dd>{stats.entries}</dd>
+              <dt>coined terms</dt>
+            </div>
+            <div>
+              <dd>{stats.sections}</dd>
+              <dt>sections</dt>
+            </div>
+            <div>
+              <dd>2</dd>
+              <dt>senses per entry</dt>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap prose">
+          <h2>Why this exists</h2>
+          {preface.map((paragraph) => (
+            <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+          ))}
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <h2>Where to start</h2>
+          <p className="sub">One entry from each section. The full list is searchable.</p>
+          <div className="grid">
+            {featured.map((entry) => (
+              <Link key={entry.slug} to={`/term/${entry.slug}`} className="card card-link">
+                <p className="card-kicker">
+                  {entry.sectionRoman} · {entry.partOfSpeech}
+                </p>
+                <h3>{entry.term}</h3>
+                <p>{entry.summary}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}

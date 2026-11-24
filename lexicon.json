@@ -1,6 +1,11 @@
 {
   "title": "The Modern Civic & Rhetorical Psy-Loop Lexicon",
   "description": "A glossary of portmanteaus capturing performative nationalism, weaponized liberty, bad-faith debate tactics, and algorithmic radicalization.",
+  "preface": [
+    "The lexicon is satire with a thesis: the vocabulary of civic virtue has been repurposed as camouflage. Each entry names a pattern its practitioners would never name themselves, and does so with the contempt the pattern has earned.",
+    "Two rules keep it from collapsing into a list of insults. Entries target behavior, institutions, and power - never identity, and never the people on the receiving end. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the word stays a tool for recognition rather than a way to end an argument.",
+    "The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. That is roughly the right posture for the subject."
+  ],
   "sections": [
     {
       "id": "performative-identity",
