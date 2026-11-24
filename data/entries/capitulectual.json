@@ -38,6 +38,10 @@
     {
       "rel": "commits",
       "to": "False equivalence"
+    },
+    {
+      "rel": "commits",
+      "to": "False balance"
     }
   ]
 }

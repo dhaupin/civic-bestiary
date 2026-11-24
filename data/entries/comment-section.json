@@ -1,0 +1,55 @@
+{
+  "term": "Comment section",
+  "kind": "habitat",
+  "chapter": "bad-faith-debate",
+  "position": 10,
+  "part_of_speech": "noun",
+  "ipa": "/ˈkɒm.ɛnt ˌsɛk.ʃən/",
+  "etymology": "English: the box under the article - named for the conversation it was meant to continue.",
+  "carriers": "Article comments, video replies, live chats, and the replies under the replies.",
+  "economics": "Engagement: replies, quote-posts, dwell time. Nobody in it is being paid, and everything in it is being monetised.",
+  "signature": "One sentence, no context, and a number next to a username.",
+  "confused_with": [
+    {
+      "term": "Cable panel",
+      "tell": "The panel is paced and produced; the comment section is feral and asynchronous. Both are venues for the verdict."
+    }
+  ],
+  "senses": [
+    "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.",
+    "It rewards the reply that travels over the reply that is right. Because the cheapest sentence to write is a verdict, the habitat selects for verdicts - which is why so many of the fallacies in the appendix are at home here."
+  ],
+  "notes": [],
+  "example": "*\"Four hundred comments under a budget story, and not one of them about the budget - three about the mayor's brother, two hundred about each other, and a bot selling a supplement.\"*",
+  "related": [
+    "Patriotainment",
+    "Group chat",
+    "Cable panel"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Ad hominem"
+    },
+    {
+      "rel": "houses",
+      "to": "Tu quoque"
+    },
+    {
+      "rel": "houses",
+      "to": "Whataboutism"
+    },
+    {
+      "rel": "houses",
+      "to": "Sealioning"
+    },
+    {
+      "rel": "houses",
+      "to": "Nut-picking"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to the stone"
+    }
+  ]
+}

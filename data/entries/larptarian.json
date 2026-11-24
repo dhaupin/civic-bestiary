@@ -38,6 +38,10 @@
     {
       "rel": "commits",
       "to": "Appeal to tradition"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to the stone"
     }
   ]
 }

@@ -38,6 +38,14 @@
     {
       "rel": "commits",
       "to": "False dilemma"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to ridicule"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to the stone"
     }
   ]
 }

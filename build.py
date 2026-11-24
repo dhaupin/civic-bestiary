@@ -14,6 +14,7 @@ Usage:
 
 import json
 import re
+import unicodedata
 import sys
 from pathlib import Path
 
@@ -38,8 +39,14 @@ REQUIRED = tuple(field["key"] for field in SCHEMA["fields"] if field.get("requir
 
 
 def slugify(text):
-    """Approximate the anchor GitHub derives from a heading."""
-    return re.sub(r"[^\w\- ]", "", text.lower()).replace(" ", "-")
+    """Approximate the anchor GitHub derives from a heading.
+
+    Accents are folded rather than kept: the anchor and the URL have to agree,
+    and a URL with a non-ASCII character in it is a different kind of promise
+    than one without.
+    """
+    ascii_text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^\w\- ]", "", ascii_text.lower()).replace(" ", "-")
 
 
 def identification_keys(kind):

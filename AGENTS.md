@@ -114,6 +114,23 @@ guide's voice; nothing about the mechanism may be invented. Those pages have no 
 They are in the same dataset on purpose: one search, one sitemap, one README, one browse surface. Their own
 index is `/fallacies/`, and the kind chip plus the chapter chip reach them from the guide.
 
+Inside the appendix the listing groups by **family** (Red herring, Presumption, Ambiguity, Faulty
+generalization, Questionable cause, Statistical, Improper premise, Relevance) rather than by chapter, because
+every fallacy is in the same chapter and a chapter heading there says nothing. `pages/Guide.jsx` switches the
+grouping when the view is `/fallacies/` or the appendix chapter — same component, different axis.
+
+Fifty entries, ordered by how often they are actually used: the first thirty are the standard canon, the next
+twenty are the ones that live in comment sections (tu quoque, whataboutism, sealioning, gish gallop,
+nut-picking, "I'm entitled to my opinion"). Adding the next tier is a record, a verification of its source
+URL, and at least one `commits` edge — the validator rejects an unreferenced term.
+
+## Habitats house fallacies too
+
+`houses` runs habitat → species, move, **and fallacy**, so a place can be the answer to "where is this
+abused". Comment section, Cable panel, and Group chat are habitats whose `Houses` lists are all fallacies,
+and each fallacy page derives "Found in" from the same authored edge. That is the whole reason the relation
+is a vocabulary: extending it to a new pair of kinds is a schema edit, not a new renderer.
+
 ## Linking two entries
 
 `edges` is a controlled vocabulary, not prose: `{ "rel": "houses", "to": "Patriotainer" }`.

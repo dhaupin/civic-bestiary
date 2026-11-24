@@ -38,6 +38,14 @@
     {
       "rel": "commits",
       "to": "Texas sharpshooter fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Nut-picking"
+    },
+    {
+      "rel": "commits",
+      "to": "False attribution"
     }
   ]
 }

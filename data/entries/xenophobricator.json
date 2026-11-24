@@ -38,6 +38,10 @@
     {
       "rel": "commits",
       "to": "Association fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to motive"
     }
   ]
 }

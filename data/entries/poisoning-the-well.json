@@ -1,0 +1,31 @@
+{
+  "term": "Poisoning the well",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 33,
+  "part_of_speech": "noun",
+  "etymology": "From the siege tactic: foul the water before the argument arrives, and it never has to be fought.",
+  "family": "Informal · Red herring",
+  "committed_when": "Someone is about to be heard whose account would be inconvenient.",
+  "tell": "The discrediting arrives before the claim, and usually about something the audience cannot check.",
+  "counter": "Name the move, then judge the claim on its evidence. Whatever the source did, the claim is still either true or false.",
+  "senses": [
+    "Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.",
+    "It works because a prior doubt is hard to unhear. The audience now listens for confirmation of the warning rather than for the content, and the content is never engaged."
+  ],
+  "example": "“Before you read that report, remember who wrote it.” The report is unread and already dismissed; nobody has said what is wrong in it.",
+  "confused_with": [
+    {
+      "term": "Ad hominem",
+      "tell": "Poisoning the well attacks in advance and by implication; ad hominem answers something that was actually said."
+    }
+  ],
+  "related": [
+    "Ad hominem",
+    "Appeal to motive"
+  ],
+  "cite": {
+    "label": "Wikipedia · Poisoning the well",
+    "url": "https://en.wikipedia.org/wiki/Poisoning_the_well"
+  }
+}

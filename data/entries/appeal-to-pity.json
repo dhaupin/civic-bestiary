@@ -1,0 +1,31 @@
+{
+  "term": "Appeal to pity",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 36,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad misericordiam - the claim is supported by how much its speaker has suffered.",
+  "family": "Informal · Red herring",
+  "committed_when": "A claim or a failing needs support and the speaker has a sympathetic history.",
+  "tell": "The case rests on what it cost the speaker, not on what the evidence shows.",
+  "counter": "Separate the hardship from the question: acknowledge the cost, then ask what the claim actually says.",
+  "senses": [
+    "Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.",
+    "It works because sympathy is a real moral response and the hardship is often genuine. Neither fact tells you whether the claim is accurate."
+  ],
+  "example": "“I lost my job over this, so you know I am telling the truth.” Losing a job is terrible and says nothing about the facts.",
+  "confused_with": [
+    {
+      "term": "Appeal to emotion",
+      "tell": "Pity is the specific channel; the emotional appeal is the whole family."
+    }
+  ],
+  "related": [
+    "Appeal to emotion",
+    "Tu quoque"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to pity",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_pity"
+  }
+}

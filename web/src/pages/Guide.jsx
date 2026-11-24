@@ -24,6 +24,13 @@ import Inline from '../components/Inline.jsx'
 
 const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
 
+/** The family an entry is filed under, minus the "Informal ·" prefix. */
+function familyOf(entry) {
+  const row = entry.identification.find((candidate) => candidate.key === 'family')
+  if (!row) return null
+  return row.value.split('·').pop().replace(/\s*\(.*?\)\s*$/, '').trim()
+}
+
 const trim = (path) => path.replace(/\/+$/, '')
 
 /** Which view a URL is asking for: a kind, a chapter, or the whole guide. */
@@ -101,6 +108,35 @@ export default function Guide() {
     )),
     [master, letter, query],
   )
+
+  // The appendix carries its own taxonomy: within it, the useful grouping is
+  // the accredited family, not the guide's chapters - every entry there is in
+  // the same chapter, so chapter headings would say nothing.
+  const appendix = view.kind?.id === 'fallacy' || view.chapter?.id === 'fallacies'
+  const groups = useMemo(() => {
+    if (!appendix) {
+      return chapters
+        .map((item) => ({
+          key: item.id,
+          eyebrow: `Chapter ${item.roman}`,
+          label: item.title,
+          items: visible.filter((entry) => entry.chapter === item.id),
+        }))
+        .filter((group) => group.items.length > 0)
+    }
+    const byFamily = new Map()
+    for (const entry of visible) {
+      const family = familyOf(entry) || 'Unfiled'
+      if (!byFamily.has(family)) byFamily.set(family, [])
+      byFamily.get(family).push(entry)
+    }
+    return [...byFamily].map(([family, items]) => ({
+      key: family,
+      eyebrow: `Family · ${items.length}`,
+      label: family,
+      items,
+    }))
+  }, [appendix, visible])
 
   const scoped = Boolean(view.kind || view.chapter)
   const refined = Boolean(query || letter)
@@ -254,15 +290,14 @@ export default function Guide() {
           </div>
         )}
 
-        {chapters.map((item) => {
-          const own = visible.filter((entry) => entry.chapter === item.id)
-          if (own.length === 0) return null
+        {groups.map((group) => {
+          const own = group.items
           return (
-            <div key={item.id} className="group">
-              {!view.chapter && (
+            <div key={group.key} className="group">
+              {(!view.chapter || appendix) && (
                 <h2 className="group-head">
-                  <span className="group-roman">Chapter {item.roman}</span>
-                  {item.title}
+                  <span className="group-roman">{group.eyebrow}</span>
+                  {group.label}
                 </h2>
               )}
               {own.map((entry) => (

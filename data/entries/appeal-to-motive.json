@@ -1,0 +1,31 @@
+{
+  "term": "Appeal to motive",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 34,
+  "part_of_speech": "noun",
+  "etymology": "Also the circumstantial ad hominem: the argument is answered with an account of why the arguer wants it to be true.",
+  "family": "Informal · Red herring",
+  "committed_when": "A claim has been made by someone with an obvious interest in it.",
+  "tell": "The reply is entirely about who benefits, and the claim's evidence is not mentioned.",
+  "counter": "Separate interest from evidence: ask what the numbers say, then ask who profits. Both questions have answers and only one is about truth.",
+  "senses": [
+    "Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
+    "It works because motives are real and often relevant. But a motive explains why someone is talking, not whether what they said is accurate - and the audience conflates the two."
+  ],
+  "example": "“Of course the landlord says rents are fine - he owns the building.” He does; the rent roll is still a document.",
+  "confused_with": [
+    {
+      "term": "Ad hominem",
+      "tell": "Appeal to motive attacks the reason behind the claim; ad hominem attacks the person's character or record."
+    }
+  ],
+  "related": [
+    "Ad hominem",
+    "Poisoning the well"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to motive",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_motive"
+  }
+}

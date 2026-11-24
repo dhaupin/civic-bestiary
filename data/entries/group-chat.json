@@ -1,0 +1,55 @@
+{
+  "term": "Group chat",
+  "kind": "habitat",
+  "chapter": "fearmongering-grift",
+  "position": 9,
+  "part_of_speech": "noun",
+  "ipa": "/ˈɡruːp tʃæt/",
+  "etymology": "English: a chat that is also a group, which is the whole problem.",
+  "carriers": "The family thread, the neighbours' thread, the school parents' thread, and the one with the uncle.",
+  "economics": "Free, which is why it is where the forward lives and the correction never arrives.",
+  "signature": "A screenshot, a forward, and no link.",
+  "confused_with": [
+    {
+      "term": "Comment section",
+      "tell": "The comment section is public and adversarial; the group chat is private and trusting. Same fallacies, opposite selection pressure."
+    }
+  ],
+  "senses": [
+    "A private, high-trust, low-correction forum - the room where a claim arrives from someone you love and is therefore not audited.",
+    "It exploits trust rather than speed. Nobody fact-checks their aunt, so the habitat runs almost entirely on Appeals to Authority and Pity, and the correction that would fix it never gets forwarded."
+  ],
+  "notes": [],
+  "example": "*\"Three forwards before breakfast: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link.\"*",
+  "related": [
+    "Comment section",
+    "Patriotainment",
+    "Cable panel"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "False attribution"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to pity"
+    },
+    {
+      "rel": "houses",
+      "to": "Argument from silence"
+    },
+    {
+      "rel": "houses",
+      "to": "Thought-terminating cliché"
+    },
+    {
+      "rel": "houses",
+      "to": "Whataboutism"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to tradition"
+    }
+  ]
+}

@@ -38,6 +38,10 @@
     {
       "rel": "commits",
       "to": "Post hoc ergo propter hoc"
+    },
+    {
+      "rel": "commits",
+      "to": "False attribution"
     }
   ]
 }

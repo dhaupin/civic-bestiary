@@ -42,6 +42,10 @@
     {
       "rel": "commits",
       "to": "Sunk cost fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
     }
   ]
 }

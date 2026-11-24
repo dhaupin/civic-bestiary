@@ -30,6 +30,10 @@
     {
       "rel": "commits",
       "to": "Two wrongs make a right"
+    },
+    {
+      "rel": "commits",
+      "to": "Whataboutism"
     }
   ]
 }

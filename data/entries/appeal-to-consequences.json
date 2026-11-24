@@ -1,0 +1,31 @@
+{
+  "term": "Appeal to consequences",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 47,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad consequentiam - the belief is judged by how it would feel for it to be true.",
+  "family": "Informal · Red herring",
+  "committed_when": "A claim has implications the speaker cannot accept.",
+  "tell": "The reply describes what would happen if the claim were true, and stops there.",
+  "counter": "Separate the two questions: what is true, and what to do about it. Disliking the second answer does not change the first.",
+  "senses": [
+    "Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.",
+    "It works because consequences are legitimately part of policy - just not of truth. The sentence moves from what follows to what is, and the move is one word wide."
+  ],
+  "example": "“If that were true, the whole policy would be indefensible.” It may well be indefensible; the audit found what it found.",
+  "confused_with": [
+    {
+      "term": "Appeal to fear",
+      "tell": "Fear forecasts the bad outcome to end the argument; consequences use the bad outcome as a disproof."
+    }
+  ],
+  "related": [
+    "Appeal to fear",
+    "Slippery slope"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to consequences",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_consequences"
+  }
+}

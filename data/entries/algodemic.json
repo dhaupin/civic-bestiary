@@ -38,6 +38,14 @@
     {
       "rel": "commits",
       "to": "Survivorship bias"
+    },
+    {
+      "rel": "commits",
+      "to": "Ad nauseam"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to novelty"
     }
   ]
 }

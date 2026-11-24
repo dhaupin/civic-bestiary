@@ -47,6 +47,10 @@
     {
       "rel": "commits",
       "to": "Appeal to emotion"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to ridicule"
     }
   ]
 }

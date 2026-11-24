@@ -34,6 +34,10 @@
     {
       "rel": "commits",
       "to": "Argument from ignorance"
+    },
+    {
+      "rel": "commits",
+      "to": "Sealioning"
     }
   ]
 }

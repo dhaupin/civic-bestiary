@@ -42,6 +42,18 @@
     {
       "rel": "commits",
       "to": "Ad hominem"
+    },
+    {
+      "rel": "commits",
+      "to": "Tu quoque"
+    },
+    {
+      "rel": "commits",
+      "to": "Whataboutism"
+    },
+    {
+      "rel": "commits",
+      "to": "Poisoning the well"
     }
   ]
 }

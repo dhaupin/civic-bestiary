@@ -240,9 +240,10 @@
       ],
       "to": [
         "species",
-        "move"
+        "move",
+        "fallacy"
       ],
-      "hint": "The habitat is where this creature or move is staged. Author one direction; the other page says 'Found in'."
+      "hint": "The habitat is where this creature, move, or fallacy is found. Author one direction; the other page says 'Found in'."
     },
     "counters": {
       "label": "Counters",

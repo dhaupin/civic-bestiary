@@ -34,6 +34,10 @@
     {
       "rel": "commits",
       "to": "Appeal to authority"
+    },
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
     }
   ]
 }

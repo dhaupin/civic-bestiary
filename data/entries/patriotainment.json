@@ -39,6 +39,14 @@
     {
       "rel": "commits",
       "to": "Proof by assertion"
+    },
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    },
+    {
+      "rel": "commits",
+      "to": "Gish gallop"
     }
   ]
 }

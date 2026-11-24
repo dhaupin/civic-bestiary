@@ -34,6 +34,14 @@
     {
       "rel": "commits",
       "to": "Appeal to authority"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting the burden of proof"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from silence"
     }
   ]
 }

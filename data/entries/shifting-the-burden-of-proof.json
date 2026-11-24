@@ -1,0 +1,31 @@
+{
+  "term": "Shifting the burden of proof",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 42,
+  "part_of_speech": "noun",
+  "etymology": "Latin: onus probandi. The burden sits with whoever makes the claim - and the shift is the act of handing it over.",
+  "family": "Informal · Presumption",
+  "committed_when": "A claim has been made with no evidence offered.",
+  "tell": "The reply is “prove me wrong” or “do your own research”, and the original claim is never defended.",
+  "counter": "State who holds the burden and what would count as evidence. A claim does not become true by surviving an audit it never had to pass.",
+  "senses": [
+    "Demanding that others disprove a claim instead of supporting it, so that the absence of disproof is treated as support.",
+    "It works because a demand sounds like an invitation to debate. The audience rarely notices that the person making the claim has not made a case for it."
+  ],
+  "example": "“Show me the study that says it is harmful.” The claim was that it is safe; the absent study is not a finding.",
+  "confused_with": [
+    {
+      "term": "Argument from ignorance",
+      "tell": "Ignorance treats a gap as proof; the shift assigns the work of closing the gap to the sceptic."
+    }
+  ],
+  "related": [
+    "Argument from ignorance",
+    "Sealioning"
+  ],
+  "cite": {
+    "label": "Wikipedia · Burden of proof (philosophy)",
+    "url": "https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy)"
+  }
+}
