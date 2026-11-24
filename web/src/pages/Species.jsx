@@ -15,7 +15,7 @@ export default function Species() {
 
   usePageMeta({
     siteUrl: site.url,
-    path: `/species/${slug}`,
+    path: `/species/${slug}/`,
     title: entry ? `${entry.term} - ${entry.partOfSpeech} | ${site.name}` : undefined,
     description: entry ? entry.summary : undefined,
   })
@@ -29,7 +29,7 @@ export default function Species() {
     <article className="species">
       <div className="wrap species-wrap">
         <nav className="crumbs" aria-label="Breadcrumb">
-          <Link to="/species">Field guide</Link>
+          <Link to="/species/">Field guide</Link>
           <span className="sep">/</span>
           <span>Order {entry.sectionRoman}. {entry.sectionTitle}</span>
         </nav>
@@ -91,7 +91,7 @@ export default function Species() {
             <h2>Easily confused with</h2>
             {entry.confusedWith.map((twin) => (
               <p key={twin.slug} className="species-twin">
-                <Link className="species-twin-name" to={`/species/${twin.slug}`}>{twin.term}</Link>
+                <Link className="species-twin-name" to={`/species/${twin.slug}/`}>{twin.term}</Link>
                 <span className="species-twin-tell"><Inline text={twin.tell} /></span>
               </p>
             ))}
@@ -104,7 +104,7 @@ export default function Species() {
             {entry.related.map((related, index) => (
               <span key={related.slug}>
                 {index > 0 && <span className="sep">·</span>}
-                <Link to={`/species/${related.slug}`}>{related.term}</Link>
+                <Link to={`/species/${related.slug}/`}>{related.term}</Link>
               </span>
             ))}
           </p>
@@ -112,13 +112,13 @@ export default function Species() {
 
         <nav className="species-nav" aria-label="Adjacent species">
           {previous ? (
-            <Link to={`/species/${previous.slug}`} className="species-nav-item">
+            <Link to={`/species/${previous.slug}/`} className="species-nav-item">
               <span className="species-nav-dir">Previous species</span>
               <span className="species-nav-term">{previous.term}</span>
             </Link>
           ) : <span />}
           {next ? (
-            <Link to={`/species/${next.slug}`} className="species-nav-item species-nav-next">
+            <Link to={`/species/${next.slug}/`} className="species-nav-item species-nav-next">
               <span className="species-nav-dir">Next species</span>
               <span className="species-nav-term">{next.term}</span>
             </Link>

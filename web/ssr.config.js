@@ -12,7 +12,7 @@ import site from '../site.config.js'
 import { entries, meta as lexicon } from './src/data/lexicon.js'
 
 const termRoutes = entries.map((entry) => ({
-  path: `/species/${entry.slug}`,
+  path: `/species/${entry.slug}/`,
   priority: '0.7',
   changefreq: 'yearly',
   meta: {

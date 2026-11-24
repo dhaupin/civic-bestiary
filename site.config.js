@@ -16,9 +16,10 @@ export default {
   tagline: 'A field guide to the creatures of the body politic.',
   description:
     'A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
-  // Placeholder: prestruct bakes this into canonicals, OG tags, and sitemap.xml.
-  // Replace it with the real deploy origin before the first publish.
-  url: 'https://civicbestiary.example.com',
+  // The deploy origin. Cloudflare Pages serves the project at <project>.pages.dev
+  // until a custom domain is attached - then change this one line, and rebuild:
+  // prestruct bakes it into canonicals, OG tags, JSON-LD, sitemap, and llms.txt.
+  url: 'https://civicbestiary.pages.dev',
   repo: REPO,
   author: 'dhaupin',
   license: 'MIT',
@@ -62,7 +63,7 @@ export default {
       },
     },
     {
-      path: '/species',
+      path: '/species/',
       priority: '0.9',
       changefreq: 'monthly',
       meta: {

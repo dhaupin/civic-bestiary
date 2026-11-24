@@ -98,16 +98,20 @@ inserted mid-section. That is the one thing a renumber breaks; prefer appending.
 
 ## Site notes
 
-- **Routes are `/` and `/species`.** The browse page was `/lexicon` and entries were
+- **Routes are `/` and `/species/`.** The browse page was `/lexicon` and entries were
   `/term/<slug>` before the bestiary frame landed; nothing was deployed, so no redirects.
+- **Route paths, links, and canonicals all carry a trailing slash.** Cloudflare Pages serves
+  a prerendered directory route at `/species/playtriot/` and 308-redirects the slashless form
+  (verified against the family's own Pages sites). Declaring routes as `/species/<slug>/` keeps
+  the canonical equal to the served URL and saves a redirect on every click. If you add a
+  `Link` or a route, match that form.
 - **Adopted from coreforge, deliberately trimmed.** The shell's Jekyll `docs/` rig and its
   paint-scheme preset picker are not shipped: this site has one palette and no docs site.
   Everything else follows the family rules - tokens own the palette, theme is one
   `<html data-theme>` attribute, nav and footer render from `site.config.js`.
-- **`siteUrl` is a placeholder** (`https://civicbestiary.example.com`). It is baked into
-  canonicals, OG tags, and `sitemap.xml`, so replace it in `site.config.js` before publishing.
-- The site expects a domain root. For a project page (`dhaupin.github.io/civicbestiary/`) set
-  Vite's `base` in `web/vite.config.js` to the repo path.
+- **`siteUrl` is the Pages origin** (`https://civicbestiary.pages.dev`). It is baked into
+  canonicals, OG tags, JSON-LD, `sitemap.xml`, and `llms.txt`. Attaching a custom domain means
+  changing that one line in `site.config.js` and rebuilding - not editing the baked files.
 - The repo URL is authored once, in `site.config.js` (`REPO`); the nav link, the footer, and
   the JSON-LD license all derive from it. A few surfaces still carry hand-copied identity and
   will drift on a rename: `web/public/site.webmanifest`, the `aria-label` in
@@ -115,7 +119,18 @@ inserted mid-section. That is the one thing a renumber breaks; prefer appending.
   `package.json` names, and the OG `alt` in `web/ssr.config.js`. Check them on any rename.
 - `web/public/icon.svg` is the authored mark; `node scripts/icons.mjs` (run from `web/` after
   `npm i --no-save @resvg/resvg-js`) re-rasterizes the favicons and `og-image.png`.
-- Deploy: `.github/workflows/pages.yml` builds and publishes `web/dist` to GitHub Pages.
+- **Deploy is Cloudflare Pages, built from Git.** Project settings: root directory `web`,
+  build command `npm run build`, build output `dist`, production branch `main` (every other
+  branch gets a preview deployment, which is what `staging` buys us). `web/.nvmrc` pins Node -
+  both Pages and CI read that one file.
+- There is no deploy job in CI: `.github/workflows/verify.yml` only gates (artifacts current,
+  pack lint, build, poststruct). A second build in CI could only disagree with the one that
+  ships.
+- `web/public/_headers` and `web/public/_redirects` are Cloudflare's control files; they are
+  copied into `dist/` as-is. The SPA fallback (`/* /index.html 200`) must stay out of
+  `_redirects` - with prerendering it loops against CF's Pretty URLs.
+- `web/functions/api/health.js` is the Functions canary (`/api/health`). If it 404s, the
+  root-directory setting is wrong, not the function.
 - `.prestruct/cache/` makes rebuilds incremental; `npx prestruct clean` clears it.
 
 ## House style

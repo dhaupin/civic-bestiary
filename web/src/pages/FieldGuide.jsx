@@ -14,7 +14,7 @@ import Inline from '../components/Inline.jsx'
 
 export default function FieldGuide() {
   const meta = routeMeta('/species')
-  usePageMeta({ siteUrl: site.url, path: '/species', title: meta.title, description: meta.description })
+  usePageMeta({ siteUrl: site.url, path: '/species/', title: meta.title, description: meta.description })
 
   const [query, setQuery] = useState('')
   const [active, setActive] = useState('all')
@@ -109,7 +109,7 @@ export default function FieldGuide() {
                 <article key={entry.slug} id={entry.slug} className="listing">
                   <div className="listing-head">
                     <h3 className="listing-name">
-                      <Link to={`/species/${entry.slug}`}>{entry.term}</Link>
+                      <Link to={`/species/${entry.slug}/`}>{entry.term}</Link>
                     </h3>
                     <p className="listing-meta">
                       <span>{entry.partOfSpeech}</span>
@@ -126,11 +126,11 @@ export default function FieldGuide() {
                     {entry.related.map((related, index) => (
                       <span key={related.slug}>
                         {index > 0 && <span className="sep">·</span>}
-                        <Link to={`/species/${related.slug}`}>{related.term}</Link>
+                        <Link to={`/species/${related.slug}/`}>{related.term}</Link>
                       </span>
                     ))}
                   </p>
-                  <Link className="listing-more" to={`/species/${entry.slug}`}>
+                  <Link className="listing-more" to={`/species/${entry.slug}/`}>
                     Read the full entry<span aria-hidden="true"> →</span>
                   </Link>
                 </article>

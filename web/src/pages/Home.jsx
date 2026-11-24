@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
           <p className="lede">{lexicon.description}</p>
           <div className="cta-row">
-            <Link className="btn btn-primary" to="/species">
+            <Link className="btn btn-primary" to="/species/">
               Open the field guide
             </Link>
             <a className="btn btn-ghost" href={site.repo} target="_blank" rel="noreferrer">
@@ -64,7 +64,7 @@ export default function Home() {
           <p className="sub">One species from each order. The whole guide is searchable.</p>
           <div className="grid">
             {featured.map((entry) => (
-              <Link key={entry.slug} to={`/species/${entry.slug}`} className="card card-link">
+              <Link key={entry.slug} to={`/species/${entry.slug}/`} className="card card-link">
                 <p className="card-kicker">
                   Order {entry.sectionRoman} · {entry.partOfSpeech}
                 </p>

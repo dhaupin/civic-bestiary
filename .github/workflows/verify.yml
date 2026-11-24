@@ -1,0 +1,53 @@
+name: verify
+
+# The gate for every branch: generated artifacts current, pack manifest lint,
+# build, then poststruct over the baked artifact.
+#
+# Deployment is deliberately not here. Cloudflare Pages builds this repo from
+# Git - root directory `web`, build `npm run build`, output `dist` - so a second
+# build in CI would only ever disagree with the one that ships. This lane exists
+# to fail fast and to keep `staging` honest before a promotion.
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Node version comes from web/.nvmrc - the same file Cloudflare Pages
+      # reads - so CI and the deploy build cannot drift apart.
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: web/.nvmrc
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      # The generated artifacts are committed; refuse to ship stale ones.
+      - run: python3 build.py --check
+      - run: python3 build_site.py --check
+      # The pack manifest is conformant (packstruct SPEC v1) before anything
+      # tries to arm it: lint the shape at author time, not at audit time.
+      - run: npx --yes packstruct@1.1.2 lint packs/ --deep
+      - run: npm ci
+        working-directory: web
+      - run: npm run build
+        working-directory: web
+      # Audit what shipped, not what we meant to ship: head/site/links/i18n/
+      # a11y/language, plus our own shape pack. Pinned - an audit is a gate, so
+      # it must not move under us on an unpinned release.
+      - run: npx --yes poststruct@1.2.0 audit
