@@ -103,13 +103,22 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
 3. `python3 build.py && python3 build_site.py`, then `npm --prefix web run build`.
 4. Review the README diff and the new entry page.
 
-## The appendix of fallacies
+## The fallacies
 
-Thirty documented fallacies live in `data/entries/` beside the coinages, as `kind: fallacy`, in chapter
-`fallacies` (rendered "Chapter V · The Fallacies (an appendix)"). They are not coinages: the review bar is
-that the account is real and traceable, so every fallacy record carries `cite: { label, url }` pointing at its
-Wikipedia article (verified to resolve - do not add one without checking). Definitions are written in the
-guide's voice; nothing about the mechanism may be invented. Those pages have no `ipa`.
+Fifty documented fallacies live in `data/entries/` beside the coinages, as `kind: fallacy`. They are not
+coinages: the review bar is that the account is real and traceable, so every fallacy record carries
+`cite: { label, url }` pointing at its Wikipedia article (verified to resolve - do not add one without
+checking). Definitions are written in the guide's voice; nothing about the mechanism may be invented. Those
+pages have no `ipa`.
+
+**They are filed by the graph, not by hand.** A fallacy belongs to the chapter whose creatures commit it -
+count the `commits` edges into it and take the majority. If the committers split across chapters, no chapter
+owns it and it goes to chapter `strays` ("Stray Arguments"), which is where tu quoque, whataboutism and cherry
+picking live, because every chapter uses them. Re-file a fallacy by changing which creature commits it, not by
+editing `chapter`; the two disagreeing is the bug.
+
+Within a chapter the coinages come first and the fallacies follow behind a "Documented fallacies" sub-head, so
+each chapter reads as the joke and then its receipt.
 
 They are in the same dataset on purpose: one search, one sitemap, one README, one browse surface. Their own
 index is `/fallacies/`, and the kind chip plus the chapter chip reach them from the guide.

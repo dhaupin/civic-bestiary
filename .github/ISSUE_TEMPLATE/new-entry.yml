@@ -39,7 +39,7 @@ body:
         - "II. Bad-Faith Debate & Epistemic Breakdown"
         - "III. Hypocrisy, Revisionism & Authoritarian Submission"
         - "IV. Fearmongering, Grift & Algorithmic Radicalization"
-        - "V. The Fallacies (an appendix)"
+        - "V. Stray Arguments"
     validations:
       required: true
   - type: dropdown

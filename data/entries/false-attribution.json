@@ -1,14 +1,14 @@
 {
   "term": "False attribution",
   "kind": "fallacy",
-  "chapter": "fallacies",
-  "position": 41,
+  "chapter": "strays",
+  "position": 11,
   "part_of_speech": "noun",
   "etymology": "Also quoting out of context: the words are real, the sentence they were in is gone.",
   "family": "Informal · Red herring",
   "committed_when": "A quote would settle the argument and the full text would not.",
   "tell": "The quotation marks are doing the work, and the surrounding sentence has been removed.",
-  "counter": "Open the source and read the paragraph. Attribution is checkable, which makes this the most falsifiable fallacy in the appendix.",
+  "counter": "Open the source and read the paragraph. Attribution is checkable, which makes this the most falsifiable fallacy in the guide.",
   "senses": [
     "Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never said it.",
     "It works because the citation is true as far as it goes. Verifying a quote means opening the transcript, and most readers will only verify the part that already agrees with them."

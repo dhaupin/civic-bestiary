@@ -1,8 +1,8 @@
 {
   "term": "Proof by assertion",
   "kind": "fallacy",
-  "chapter": "fallacies",
-  "position": 25,
+  "chapter": "performative-identity",
+  "position": 105,
   "part_of_speech": "noun",
   "etymology": "From mathematics, where a proof is a demonstration - and this is the counterfeit: the conclusion, repeated.",
   "family": "Informal · Presumption",

@@ -2,14 +2,14 @@
 
 export const meta = {
   "title": "The Civic Bestiary",
-  "description": "A field guide to the creatures of the body politic: 28 portmanteaus for performative patriotism and bad-faith debate, plus an appendix of 30 documented fallacies."
+  "description": "A field guide to the creatures of the body politic: portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization - plus the documented fallacies they commit."
 }
 
 export const preface = [
   "This is a bestiary, not a dictionary. The creatures in it are real, common, and close by - the man in the flag hoodie, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.",
   "Two rules keep the guide from collapsing into a list of insults. The species is a pattern, not a person - a costume that wears people, not a kind of human, and one you can catch yourself in. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the name stays a tool for recognition rather than a way to end an argument.",
   "The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. Some of these creatures are trolls in the old sense, things that live under bridges and demand a toll; some are trolls in the newer one. Both are field-observed here. That is roughly the right posture for the subject.",
-  "The appendix works the other way round. Its thirty entries are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. Each creature that commits one links to it, and each fallacy lists the creatures that commit it, so the guide can be read in both directions. The coinages are the joke; the appendix is the part you can cite."
+  "The fallacies work the other way round. They are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. Each chapter ends with the documented errors its own creatures commit, so the joke arrives with its receipt attached. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. The few that turn up in every chapter and belong to none are collected at the end as strays. The coinages are the joke; the fallacies are the part you can cite."
 ]
 
 export const stats = {
@@ -192,7 +192,14 @@ export const chapters = [
       "sovereign-shillizen",
       "sabotriot",
       "patriotainment",
-      "patriotainer"
+      "patriotainer",
+      "slippery-slope",
+      "no-true-scotsman",
+      "appeal-to-tradition",
+      "appeal-to-nature",
+      "proof-by-assertion",
+      "sunk-cost-fallacy",
+      "im-entitled-to-my-opinion"
     ]
   },
   {
@@ -210,7 +217,20 @@ export const chapters = [
       "equivangelist",
       "gallopologist",
       "decorumancer",
-      "comment-section"
+      "comment-section",
+      "ad-hominem",
+      "straw-man",
+      "appeal-to-authority",
+      "false-dilemma",
+      "loaded-question",
+      "circular-reasoning",
+      "argument-from-ignorance",
+      "tone-policing",
+      "motte-and-bailey-fallacy",
+      "texas-sharpshooter-fallacy",
+      "poisoning-the-well",
+      "nut-picking",
+      "sealioning"
     ]
   },
   {
@@ -223,7 +243,13 @@ export const chapters = [
       "mythstorian",
       "bootcurious",
       "crookmaxxing",
-      "capitulectual"
+      "capitulectual",
+      "two-wrongs-make-a-right",
+      "post-hoc-ergo-propter-hoc",
+      "special-pleading",
+      "argument-to-moderation",
+      "false-balance",
+      "argument-from-silence"
     ]
   },
   {
@@ -240,65 +266,39 @@ export const chapters = [
       "plutomartyr",
       "slopagandist",
       "cable-panel",
-      "group-chat"
+      "group-chat",
+      "appeal-to-emotion",
+      "appeal-to-fear",
+      "moving-the-goalposts",
+      "survivorship-bias",
+      "association-fallacy",
+      "appeal-to-motive",
+      "appeal-to-pity",
+      "ad-nauseam",
+      "appeal-to-novelty",
+      "appeal-to-consequences"
     ]
   },
   {
-    "id": "fallacies",
+    "id": "strays",
     "roman": "V",
-    "title": "The Fallacies (an appendix)",
-    "note": "Documented reasoning errors the creatures above commit - named by logicians, sourced elsewhere, kept here so the guide can point at them.",
+    "title": "Stray Arguments",
+    "note": "Fallacies that turn up in every chapter and belong to none: the ones the whole guide commits, filed here so the record is complete.",
     "slugs": [
-      "ad-hominem",
-      "straw-man",
-      "appeal-to-emotion",
-      "appeal-to-authority",
-      "false-dilemma",
-      "two-wrongs-make-a-right",
-      "slippery-slope",
       "hasty-generalization",
       "cherry-picking",
-      "loaded-question",
-      "circular-reasoning",
-      "appeal-to-fear",
       "false-equivalence",
-      "post-hoc-ergo-propter-hoc",
-      "argument-from-ignorance",
-      "no-true-scotsman",
-      "moving-the-goalposts",
-      "special-pleading",
-      "appeal-to-tradition",
-      "appeal-to-nature",
-      "tone-policing",
-      "motte-and-bailey-fallacy",
       "anecdotal-evidence",
-      "survivorship-bias",
-      "proof-by-assertion",
-      "sunk-cost-fallacy",
-      "texas-sharpshooter-fallacy",
-      "argument-to-moderation",
       "equivocation",
-      "association-fallacy",
       "tu-quoque",
       "whataboutism",
-      "poisoning-the-well",
-      "appeal-to-motive",
       "appeal-to-ridicule",
-      "appeal-to-pity",
       "argumentum-ad-populum",
-      "ad-nauseam",
       "thought-terminating-cliche",
-      "nut-picking",
       "false-attribution",
       "shifting-the-burden-of-proof",
-      "sealioning",
       "gish-gallop",
-      "im-entitled-to-my-opinion",
-      "appeal-to-novelty",
-      "appeal-to-consequences",
-      "appeal-to-the-stone",
-      "false-balance",
-      "argument-from-silence"
+      "appeal-to-the-stone"
     ]
   }
 ]
@@ -972,6 +972,573 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/"
+      }
+    ]
+  },
+  {
+    "term": "Slippery slope",
+    "slug": "slippery-slope",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/slippery-slope/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "The image is physical: one step onto the incline, and gravity is left to finish the argument.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A modest change is proposed that the speaker opposes."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The sentence jumps from a small rule to a catastrophe with no institution in between."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what stops the slide at each step. If the answer is nothing, ask why the previous steps never slid."
+      }
+    ],
+    "voice": "The sentence jumps from a small rule to a catastrophe with no institution in between.",
+    "senses": [
+      "Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it there.",
+      "It works because nobody can audit a chain of consequences they have not seen. Each link sounds plausible alone; the whole chain is narrated rather than argued."
+    ],
+    "notes": [],
+    "example": "“First they ban the plastic bag, then they ban the car.” Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.",
+    "cite": {
+      "label": "Wikipedia · Slippery slope",
+      "url": "https://en.wikipedia.org/wiki/Slippery_slope"
+    },
+    "summary": "Informal · Presumption fallacy: Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it...",
+    "confusedWith": [
+      {
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "tell": "The slope hides a chain of steps; the dilemma hides the options that are not steps.",
+        "path": "/fallacies/false-dilemma/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Post hoc ergo propter hoc",
+        "slug": "post-hoc-ergo-propter-hoc",
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sabotriot",
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
+      }
+    ]
+  },
+  {
+    "term": "No true Scotsman",
+    "slug": "no-true-scotsman",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/no-true-scotsman/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Faulty generalization"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A counterexample has just been produced against a generalisation about a group."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The group acquires a new membership test, applied only to the case at hand."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Fix the definition before the counterexamples arrive, and ask which rule excluded this one and why that rule was not mentioned earlier."
+      }
+    ],
+    "voice": "The group acquires a new membership test, applied only to the case at hand.",
+    "senses": [
+      "Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside it.",
+      "It works because definitions are genuinely negotiable. The sentence sounds like a clarification, and a clarification is much harder to argue with than a false claim."
+    ],
+    "notes": [],
+    "example": "“No real conservative would vote for that.” The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.",
+    "cite": {
+      "label": "Wikipedia · No true Scotsman",
+      "url": "https://en.wikipedia.org/wiki/No_true_Scotsman"
+    },
+    "summary": "Informal · Faulty generalization fallacy: Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside...",
+    "confusedWith": [
+      {
+        "term": "Straw man",
+        "slug": "straw-man",
+        "tell": "The straw man weakens the opponent’s claim; the Scotsman strengthens the speaker’s, by shrinking the group until the counterexample is expelled.",
+        "path": "/fallacies/straw-man/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "LARPtarian",
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to tradition",
+    "slug": "appeal-to-tradition",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-tradition/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad antiquitatem - the old is treated as the proven.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A practice is being questioned and its defenders have no account of why it works."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The argument’s only support is that the practice has always been there."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the practice does now. Duration is a reason to be careful, not a reason to stop asking."
+      }
+    ],
+    "voice": "The argument’s only support is that the practice has always been there.",
+    "senses": [
+      "Treating a practice as correct because it is old, without showing that age is evidence of anything.",
+      "It works because inherited arrangements carry the weight of everyone who lived with them. Age is genuine information about endurance; it is not information about fairness or function."
+    ],
+    "notes": [],
+    "example": "“We have always opened with a prayer.” The question was whether the chamber should, and always is not an answer to should.",
+    "cite": {
+      "label": "Wikipedia · Appeal to tradition",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
+    },
+    "summary": "Informal · Red herring fallacy: Treating a practice as correct because it is old, without showing that age is evidence of anything.",
+    "confusedWith": [
+      {
+        "term": "Appeal to nature",
+        "slug": "appeal-to-nature",
+        "tell": "Tradition says it is old, nature says it is natural; both replace a reason with a pedigree.",
+        "path": "/fallacies/appeal-to-nature/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "LARPtarian",
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to nature",
+    "slug": "appeal-to-nature",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-nature/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad naturam - the natural is treated as the good, as though the word carried a verdict.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A product, practice, or hierarchy needs a justification."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The justification is a claim about what is natural, with no account of why natural is good."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask which part of nature is the model. Nature also contains arsenic, parasites, and every hierarchy that ever existed."
+      }
+    ],
+    "voice": "The justification is a claim about what is natural, with no account of why natural is good.",
+    "senses": [
+      "Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
+      "It works because “natural” smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement."
+    ],
+    "notes": [],
+    "example": "“It is natural for people to sort themselves by tribe.” It is also natural to die of an infected cut, and we stopped doing that on purpose.",
+    "cite": {
+      "label": "Wikipedia · Appeal to nature",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_nature"
+    },
+    "summary": "Informal · Red herring fallacy: Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
+    "confusedWith": [
+      {
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "tell": "Tradition cites age, nature cites origin; both answer a question about value with a question about ancestry.",
+        "path": "/fallacies/appeal-to-tradition/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Freetard",
+        "slug": "freetard",
+        "path": "/species/freetard/"
+      }
+    ]
+  },
+  {
+    "term": "Proof by assertion",
+    "slug": "proof-by-assertion",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/proof-by-assertion/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From mathematics, where a proof is a demonstration - and this is the counterfeit: the conclusion, repeated.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "The claim cannot be supported and must not be conceded."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The same sentence returns, louder, with no new reason attached."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the reason once, then note that none has arrived. Repetition is not a premise, and saying so out loud is usually enough."
+      }
+    ],
+    "voice": "The same sentence returns, louder, with no new reason attached.",
+    "senses": [
+      "Repeating a claim with confidence as though repetition were support, and treating objection as noise.",
+      "It works because certainty is contagious. An audience without the means to check infers from composure that there is something to check against."
+    ],
+    "notes": [],
+    "example": "“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.” Four sentences, one assertion, zero evidence.",
+    "cite": {
+      "label": "Wikipedia · Proof by assertion",
+      "url": "https://en.wikipedia.org/wiki/Proof_by_assertion"
+    },
+    "summary": "Informal · Presumption fallacy: Repeating a claim with confidence as though repetition were support, and treating objection as noise.",
+    "confusedWith": [
+      {
+        "term": "Circular reasoning",
+        "slug": "circular-reasoning",
+        "tell": "The assertion adds no support and repeats itself; the circle adds a step and returns to the start.",
+        "path": "/fallacies/circular-reasoning/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ]
+  },
+  {
+    "term": "Sunk cost fallacy",
+    "slug": "sunk-cost-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/sunk-cost-fallacy/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From accounting: money already spent is gone, and no decision can bring it back.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Statistical"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A strategy has failed and its defenders are counting what it cost to start."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The case for continuing is entirely about the past, and the future is not mentioned."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what you would do if the sunk cost did not exist. That answer is the decision; the ledger is history."
+      }
+    ],
+    "voice": "The case for continuing is entirely about the past, and the future is not mentioned.",
+    "senses": [
+      "Continuing a failing course of action because of what has already been invested in it.",
+      "It works because abandoning a cost feels like admitting the cost was wasted. The loss is already real; the sentence only makes it feel avoidable."
+    ],
+    "notes": [],
+    "example": "“We cannot withdraw now, after everything we have spent.” The spending is the reason the account is empty, not the reason to keep filling it.",
+    "cite": {
+      "label": "Wikipedia · Sunk cost",
+      "url": "https://en.wikipedia.org/wiki/Sunk_cost"
+    },
+    "summary": "Informal · Statistical fallacy: Continuing a failing course of action because of what has already been invested in it.",
+    "confusedWith": [
+      {
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "tell": "Tradition binds the future to the distant past; sunk cost binds it to expenses still inside the fiscal year.",
+        "path": "/fallacies/appeal-to-tradition/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Post hoc ergo propter hoc",
+        "slug": "post-hoc-ergo-propter-hoc",
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      }
+    ]
+  },
+  {
+    "term": "I'm entitled to my opinion",
+    "slug": "im-entitled-to-my-opinion",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/im-entitled-to-my-opinion/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "A legal phrase spent as an epistemic one: the right to hold a view is offered as a reason it cannot be challenged.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A factual claim has been challenged with evidence."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The reply asserts a right rather than an argument, and the evidence is left standing."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Grant the right and return to the claim: opinions are free, and claims are still true or false."
+      }
+    ],
+    "voice": "The reply asserts a right rather than an argument, and the evidence is left standing.",
+    "senses": [
+      "Ending a dispute about facts by asserting the right to hold an opinion, as though the right settled the question.",
+      "It works because the entitlement is real. Everyone is entitled to their opinion, and nobody is entitled to their own facts - the sentence fuses the two so the second disappears into the first."
+    ],
+    "notes": [],
+    "example": "“I am entitled to my opinion.” You are. The water is still poisoned, and the entitlement has not tested it.",
+    "cite": {
+      "label": "Wikipedia · I'm entitled to my opinion",
+      "url": "https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion"
+    },
+    "summary": "Informal · Red herring fallacy: Ending a dispute about facts by asserting the right to hold an opinion, as though the right settled the question.",
+    "confusedWith": [
+      {
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "tell": "The assertion defends the claim; the entitlement defends the person holding it.",
+        "path": "/fallacies/proof-by-assertion/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Equivocation",
+        "slug": "equivocation",
+        "path": "/fallacies/equivocation/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sovereign Shillizen",
+        "slug": "sovereign-shillizen",
+        "path": "/species/sovereign-shillizen/"
       }
     ]
   },
@@ -1836,7 +2403,7 @@ export const entries = [
     "voice": "One sentence, no context, and a number next to a username.",
     "senses": [
       "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.",
-      "It rewards the reply that travels over the reply that is right. Because the cheapest sentence to write is a verdict, the habitat selects for verdicts - which is why so many of the fallacies in the appendix are at home here."
+      "It rewards the reply that travels over the reply that is right. Because the cheapest sentence to write is a verdict, the habitat selects for verdicts - which is why so many of the fallacies filed at the end of this chapter are at home here."
     ],
     "notes": [],
     "example": "“Four hundred comments under a budget story, and not one of them about the budget - three about the mayor’s brother, two hundred about each other, and a bot selling a supplement.”",
@@ -1907,6 +2474,1069 @@ export const entries = [
       }
     ],
     "backlinks": []
+  },
+  {
+    "term": "Ad hominem",
+    "slug": "ad-hominem",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/ad-hominem/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad hominem, “argument to the person” - the target moves from the claim to the one who made it.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A claim has just been made that cannot be answered on the merits."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The reply contains no content about the claim, only about the claimant."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Restate the claim and ask what is wrong with it. Character is a separate question, and it can be answered later, by evidence."
+      }
+    ],
+    "voice": "The reply contains no content about the claim, only about the claimant.",
+    "senses": [
+      "Answering an argument by attacking the person who advanced it rather than the claim they advanced.",
+      "It works because people are credulous about character: once you dislike the speaker, their sentence loses weight even when it is true. The claim is never touched, so it is never answered."
+    ],
+    "notes": [],
+    "example": "“You want to talk about the audit? You were late on your taxes in 2011.” The audit is still late, and now nobody is looking at it.",
+    "cite": {
+      "label": "Wikipedia · Ad hominem",
+      "url": "https://en.wikipedia.org/wiki/Ad_hominem"
+    },
+    "summary": "Informal · Red herring fallacy: Answering an argument by attacking the person who advanced it rather than the claim they advanced.",
+    "confusedWith": [
+      {
+        "term": "Tone policing",
+        "slug": "tone-policing",
+        "tell": "Ad hominem attacks the person’s record or character; tone policing attacks the manner of the delivery.",
+        "path": "/fallacies/tone-policing/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Straw man",
+        "slug": "straw-man",
+        "path": "/fallacies/straw-man/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ]
+  },
+  {
+    "term": "Straw man",
+    "slug": "straw-man",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/straw-man/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From the training dummy: a figure stuffed with straw is easier to knock down than the man holding the argument.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "An opponent’s position is paraphrased before it is answered."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The refutation lands cleanly, and the person refuted never said the thing."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Quote the position back in its own words and ask whether the reply still lands. If it does not, the reply was aimed elsewhere."
+      }
+    ],
+    "voice": "The refutation lands cleanly, and the person refuted never said the thing.",
+    "senses": [
+      "Replacing someone’s position with a weaker, sillier version of it and then defeating the version you built.",
+      "It works because the audience rarely holds the original wording in mind. Whoever supplies the paraphrase controls what gets refuted, so an argument can be lost without ever being made."
+    ],
+    "notes": [],
+    "example": "“They want to fund the libraries because they think books are free and nobody should work.” Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.",
+    "cite": {
+      "label": "Wikipedia · Straw man",
+      "url": "https://en.wikipedia.org/wiki/Straw_man"
+    },
+    "summary": "Informal · Red herring fallacy: Replacing someone’s position with a weaker, sillier version of it and then defeating the version you built.",
+    "confusedWith": [
+      {
+        "term": "Motte-and-bailey fallacy",
+        "slug": "motte-and-bailey-fallacy",
+        "tell": "The straw man misstates a position you reject; the motte retreats to a modest claim you never disputed.",
+        "path": "/fallacies/motte-and-bailey-fallacy/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Loaded question",
+        "slug": "loaded-question",
+        "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to authority",
+    "slug": "appeal-to-authority",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-authority/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad verecundiam, an appeal to deference - the argument from the shame of disagreeing with a great name.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A name with standing is available and the evidence is not."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The credentials arrive before the findings, and the findings never arrive."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the expert’s evidence is, and whether their expertise covers this question. A title is a pointer to evidence, not a substitute for it."
+      }
+    ],
+    "voice": "The credentials arrive before the findings, and the findings never arrive.",
+    "senses": [
+      "Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
+      "It works because expertise is a genuine shortcut: nobody can verify everything, so we trust the people who did. The fallacy is trusting the title outside the field, or after the field has moved."
+    ],
+    "notes": [],
+    "example": "“A Nobel laureate says the water is safe.” He holds the prize in economics. The water has never met him.",
+    "cite": {
+      "label": "Wikipedia · Appeal to authority",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_authority"
+    },
+    "summary": "Informal · Red herring fallacy: Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
+    "confusedWith": [
+      {
+        "term": "Circular reasoning",
+        "slug": "circular-reasoning",
+        "tell": "Authority outsources the premises to a person; the circle outsources them to the conclusion itself.",
+        "path": "/fallacies/circular-reasoning/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bleatkeeper",
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bootcurious",
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
+      }
+    ]
+  },
+  {
+    "term": "False dilemma",
+    "slug": "false-dilemma",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/false-dilemma/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Also the either-or fallacy: the Greek dilemma names two horns, and the trick is to admit only two.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A decision is framed as a choice between the speaker’s option and a disaster."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The sentence has exactly two branches, and one of them is unthinkable."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Name the third option out loud. A dilemma dies the moment a listener can see a door in the wall."
+      }
+    ],
+    "voice": "The sentence has exactly two branches, and one of them is unthinkable.",
+    "senses": [
+      "Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
+      "It works by shrinking the field. Most real disputes have a third, boring option - wait, fund it differently, do half of it - and the boring option is exactly what the dilemma is built to hide."
+    ],
+    "notes": [],
+    "example": "“You are either with us or with the terrorists.” There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
+    "cite": {
+      "label": "Wikipedia · False dilemma",
+      "url": "https://en.wikipedia.org/wiki/False_dilemma"
+    },
+    "summary": "Informal · Presumption fallacy: Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
+    "confusedWith": [
+      {
+        "term": "False equivalence",
+        "slug": "false-equivalence",
+        "tell": "The dilemma collapses the field to two; equivalence claims those two weigh the same.",
+        "path": "/fallacies/false-equivalence/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Argument to moderation",
+        "slug": "argument-to-moderation",
+        "path": "/fallacies/argument-to-moderation/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Illogician",
+        "slug": "illogician",
+        "path": "/species/illogician/"
+      }
+    ]
+  },
+  {
+    "term": "Loaded question",
+    "slug": "loaded-question",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/loaded-question/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Also the fallacy of many questions: a question that carries its conclusion in the presupposition.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Improper premise"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "The speaker wants a concession that cannot be asked for directly."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The question has an assumption in it, and every answer is an admission."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer the presupposition, not the question: “there is no plan yet, so the question does not apply.”"
+      }
+    ],
+    "voice": "The question has an assumption in it, and every answer is an admission.",
+    "senses": [
+      "Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
+      "It works because a question feels like an invitation, not an assertion. Answering accepts its frame; refusing looks evasive. The frame is the argument."
+    ],
+    "notes": [],
+    "example": "“Why does your plan keep raising costs?” There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
+    "cite": {
+      "label": "Wikipedia · Loaded question",
+      "url": "https://en.wikipedia.org/wiki/Loaded_question"
+    },
+    "summary": "Informal · Improper premise fallacy: Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
+    "confusedWith": [
+      {
+        "term": "Circular reasoning",
+        "slug": "circular-reasoning",
+        "tell": "Both smuggle the conclusion in; the loaded question does it through what it asks.",
+        "path": "/fallacies/circular-reasoning/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Straw man",
+        "slug": "straw-man",
+        "path": "/fallacies/straw-man/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ]
+  },
+  {
+    "term": "Circular reasoning",
+    "slug": "circular-reasoning",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/circular-reasoning/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: circulus in probando, “a circle in the proving” - the premise and the conclusion take turns holding each other up.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Improper premise"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A conclusion is wanted and the evidence is thin."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "Follow the chain of because, and it arrives back where it started."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Write the argument as a numbered list of premises. The moment a premise repeats the conclusion, the circle is visible."
+      }
+    ],
+    "voice": "Follow the chain of because, and it arrives back where it started.",
+    "senses": [
+      "Using a claim as its own support, often with an extra step so the circle is harder to see.",
+      "It works because a short loop reads as an argument. Each sentence sounds like it is adding something, and the last one sounds like a conclusion because it is the last one."
+    ],
+    "notes": [],
+    "example": "“The policy is sound because it is what serious people support, and serious people support it because it is sound.” Two sentences, one step each, no ground.",
+    "cite": {
+      "label": "Wikipedia · Circular reasoning",
+      "url": "https://en.wikipedia.org/wiki/Circular_reasoning"
+    },
+    "summary": "Informal · Improper premise fallacy: Using a claim as its own support, often with an extra step so the circle is harder to see.",
+    "confusedWith": [
+      {
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "tell": "The circle restates itself; the appeal to authority borrows a person to stand where the premise should be.",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Loaded question",
+        "slug": "loaded-question",
+        "path": "/fallacies/loaded-question/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Illogician",
+        "slug": "illogician",
+        "path": "/species/illogician/"
+      }
+    ]
+  },
+  {
+    "term": "Argument from ignorance",
+    "slug": "argument-from-ignorance",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/argument-from-ignorance/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad ignorantiam - the absence of proof is offered as proof.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Relevance"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "Nobody has produced evidence either way."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The conclusion rests on what has not been found."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask who holds the burden. A claim still needs support; an absence of evidence is evidence only when the evidence would be expected."
+      }
+    ],
+    "voice": "The conclusion rests on what has not been found.",
+    "senses": [
+      "Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
+      "It works because the burden of proof feels like a formality. Most audiences assume a claim is either established or refuted, and the sentence supplies the third option, absence, as if it settled the matter."
+    ],
+    "notes": [],
+    "example": "“Nobody has proven the machines are safe.” Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
+    "cite": {
+      "label": "Wikipedia · Argument from ignorance",
+      "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance"
+    },
+    "summary": "Informal · Relevance fallacy: Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
+    "confusedWith": [
+      {
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "tell": "Both outsource the support; ignorance to a gap, authority to a person.",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Loaded question",
+        "slug": "loaded-question",
+        "path": "/fallacies/loaded-question/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sovereign Shillizen",
+        "slug": "sovereign-shillizen",
+        "path": "/species/sovereign-shillizen/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
+      }
+    ]
+  },
+  {
+    "term": "Tone policing",
+    "slug": "tone-policing",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/tone-policing/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From policing: the offence is not what was said but the manner of saying it.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring (ad hominem family)"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A claim has landed and its content is inconvenient."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The reply is about volume, spelling, or mood rather than the sentence that was said."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Separate the manner from the claim and answer the claim. If the manner really was the problem, it can be raised after."
+      }
+    ],
+    "voice": "The reply is about volume, spelling, or mood rather than the sentence that was said.",
+    "senses": [
+      "Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
+      "It works because tone is a real problem sometimes and a distraction every time. The complaint is unfalsifiable, so answering it costs a turn and concedes the frame."
+    ],
+    "notes": [],
+    "example": "“I agree with the concern, but the way you said it lost the room.” The room was lost by the sentence, not the volume, and the sentence is still standing.",
+    "cite": {
+      "label": "Wikipedia · Tone policing",
+      "url": "https://en.wikipedia.org/wiki/Tone_policing"
+    },
+    "summary": "Informal · Red herring (ad hominem family) fallacy: Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
+    "confusedWith": [
+      {
+        "term": "Ad hominem",
+        "slug": "ad-hominem",
+        "tell": "Tone policing attacks how the speaker spoke; ad hominem attacks who the speaker is.",
+        "path": "/fallacies/ad-hominem/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Straw man",
+        "slug": "straw-man",
+        "path": "/fallacies/straw-man/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      }
+    ]
+  },
+  {
+    "term": "Motte-and-bailey fallacy",
+    "slug": "motte-and-bailey-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/motte-and-bailey-fallacy/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From the medieval castle: a modest motte that is easy to defend, and a rich bailey that is not.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "The strong version of a claim has just been contested."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The position shrinks under pressure and grows again in the next conversation."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Name both claims and ask which one is being defended. Accepting the motte does not concede the bailey."
+      }
+    ],
+    "voice": "The position shrinks under pressure and grows again in the next conversation.",
+    "senses": [
+      "Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing the strong claim once the pressure is off.",
+      "It works because the two claims are related. The retreat is sincere-sounding because the modest claim is genuinely held; the strong claim is never withdrawn, only set down."
+    ],
+    "notes": [],
+    "example": "“Defund the police” argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.",
+    "cite": {
+      "label": "Wikipedia · Motte-and-bailey fallacy",
+      "url": "https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy"
+    },
+    "summary": "Informal · Presumption fallacy: Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing...",
+    "confusedWith": [
+      {
+        "term": "Equivocation",
+        "slug": "equivocation",
+        "tell": "The motte switches between two claims; equivocation switches between two meanings of one word.",
+        "path": "/fallacies/equivocation/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Straw man",
+        "slug": "straw-man",
+        "path": "/fallacies/straw-man/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      }
+    ]
+  },
+  {
+    "term": "Texas sharpshooter fallacy",
+    "slug": "texas-sharpshooter-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/texas-sharpshooter-fallacy/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From the marksman who fires into a barn and then paints the target around the tightest cluster.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Faulty generalization"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A large dataset is available and a story is wanted."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The hypothesis was formed after the data was seen, and this is not mentioned."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the prediction was before the data arrived, and what the same measure shows in the cases not chosen."
+      }
+    ],
+    "voice": "The hypothesis was formed after the data was seen, and this is not mentioned.",
+    "senses": [
+      "Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
+      "It works because a cluster really is a cluster. With enough data, some grouping will be tight; the fallacy is the order of operations, which nobody can see in the finished result."
+    ],
+    "notes": [],
+    "example": "“Crimes cluster around these three blocks.” So does every address in the city, when you draw the box around three blocks.",
+    "cite": {
+      "label": "Wikipedia · Texas sharpshooter fallacy",
+      "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy"
+    },
+    "summary": "Informal · Faulty generalization fallacy: Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
+    "confusedWith": [
+      {
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "tell": "The sharpshooter keeps all the data and moves the target; the cherry picker keeps the target and drops the data.",
+        "path": "/fallacies/cherry-picking/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Post hoc ergo propter hoc",
+        "slug": "post-hoc-ergo-propter-hoc",
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      }
+    ]
+  },
+  {
+    "term": "Poisoning the well",
+    "slug": "poisoning-the-well",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/poisoning-the-well/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From the siege tactic: foul the water before the argument arrives, and it never has to be fought.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "Someone is about to be heard whose account would be inconvenient."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The discrediting arrives before the claim, and usually about something the audience cannot check."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Name the move, then judge the claim on its evidence. Whatever the source did, the claim is still either true or false."
+      }
+    ],
+    "voice": "The discrediting arrives before the claim, and usually about something the audience cannot check.",
+    "senses": [
+      "Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.",
+      "It works because a prior doubt is hard to unhear. The audience now listens for confirmation of the warning rather than for the content, and the content is never engaged."
+    ],
+    "notes": [],
+    "example": "“Before you read that report, remember who wrote it.” The report is unread and already dismissed; nobody has said what is wrong in it.",
+    "cite": {
+      "label": "Wikipedia · Poisoning the well",
+      "url": "https://en.wikipedia.org/wiki/Poisoning_the_well"
+    },
+    "summary": "Informal · Red herring fallacy: Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.",
+    "confusedWith": [
+      {
+        "term": "Ad hominem",
+        "slug": "ad-hominem",
+        "tell": "Poisoning the well attacks in advance and by implication; ad hominem answers something that was actually said.",
+        "path": "/fallacies/ad-hominem/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Appeal to motive",
+        "slug": "appeal-to-motive",
+        "path": "/fallacies/appeal-to-motive/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      }
+    ]
+  },
+  {
+    "term": "Nut-picking",
+    "slug": "nut-picking",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/nut-picking/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From “nut” in the American sense: cherry picking the most extreme case and calling it the group.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Faulty generalization"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A group’s worst member is easier to find than its actual position."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The reply is a screenshot of someone unrepresentative, presented as the movement’s face."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask whether the case is typical, and who speaks for the group. If nobody does, the loudest member is a poor proxy."
+      }
+    ],
+    "voice": "The reply is a screenshot of someone unrepresentative, presented as the movement’s face.",
+    "senses": [
+      "Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
+      "It works because the extreme case is vivid and the movement is large. Any sizeable group contains someone who will embarrass it, so the example is always available and never representative."
+    ],
+    "notes": [],
+    "example": "“Look at this comment, this is what they all think.” One comment, four hundred thousand readers, no survey.",
+    "cite": {
+      "label": "Wikipedia · Nutpicking",
+      "url": "https://en.wikipedia.org/wiki/Nutpicking"
+    },
+    "summary": "Informal · Faulty generalization fallacy: Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
+    "confusedWith": [
+      {
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "tell": "Nut-picking is cherry picking where the cherries are people, chosen for being the worst available.",
+        "path": "/fallacies/cherry-picking/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "path": "/species/gallopologist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ]
+  },
+  {
+    "term": "Sealioning",
+    "slug": "sealioning",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/sealioning/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From the webcomic: a sea lion follows you home, politely demanding that you justify yourself, forever.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Relevance"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "Someone has made a point and stopped engaging."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "A polite question arrives, then another, each one requiring homework, none of them answering anything."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Name the pattern, not the message: state that the questions are endless and invite one. Answering the tenth is what keeps it going."
+      }
+    ],
+    "voice": "A polite question arrives, then another, each one requiring homework, none of them answering anything.",
+    "senses": [
+      "Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.",
+      "It works because every single request is reasonable. Only the sequence is the tactic, and a sequence is invisible in any one message - which is why it is so hard to call out without looking rude."
+    ],
+    "notes": [],
+    "example": "“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.” Four polite requests, one derailed argument.",
+    "cite": {
+      "label": "Wikipedia · Sealioning",
+      "url": "https://en.wikipedia.org/wiki/Sealioning"
+    },
+    "summary": "Informal · Relevance fallacy: Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.",
+    "confusedWith": [
+      {
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "tell": "The shift hands over the burden once; sealioning hands it over indefinitely, one request at a time.",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Loaded question",
+        "slug": "loaded-question",
+        "path": "/fallacies/loaded-question/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ]
   },
   {
     "term": "Hypocontortionist",
@@ -2369,6 +3999,497 @@ export const entries = [
       }
     ],
     "backlinks": []
+  },
+  {
+    "term": "Two wrongs make a right",
+    "slug": "two-wrongs-make-a-right",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/two-wrongs-make-a-right/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From the proverb, inverted: the move takes a well-known warning and uses it as a defence.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "One’s own side has just been caught doing something."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The answer is a comparison, and the comparison is accurate."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Point out that both acts are still wrong, and that the ledger being even is not the same as it being clean."
+      }
+    ],
+    "voice": "The answer is a comparison, and the comparison is accurate.",
+    "senses": [
+      "Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.",
+      "It works because fairness is a stronger instinct than consistency. The hearer wants the ledger balanced, and the sentence offers balance without ever asking whether either entry was wrong."
+    ],
+    "notes": [],
+    "example": "“They gerrymandered too.” Both maps are still rigged; the sentence has only arranged for nobody to fix either.",
+    "cite": {
+      "label": "Wikipedia · Two wrongs make a right",
+      "url": "https://en.wikipedia.org/wiki/Two_wrongs_make_a_right"
+    },
+    "summary": "Informal · Red herring fallacy: Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.",
+    "confusedWith": [
+      {
+        "term": "Ad hominem",
+        "slug": "ad-hominem",
+        "tell": "The tu quoque changes the subject to the accuser’s conduct; ad hominem changes it to the accuser’s character.",
+        "path": "/fallacies/ad-hominem/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Freetard",
+        "slug": "freetard",
+        "path": "/species/freetard/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Crookmaxxing",
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
+      }
+    ]
+  },
+  {
+    "term": "Post hoc ergo propter hoc",
+    "slug": "post-hoc-ergo-propter-hoc",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/post-hoc-ergo-propter-hoc/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Questionable cause"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "Two events happened in sequence and a cause is being claimed."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The evidence is the calendar, not the mechanism."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the mechanism and the comparison: what happened where the first event did not occur?"
+      }
+    ],
+    "voice": "The evidence is the calendar, not the mechanism.",
+    "senses": [
+      "Concluding that one event caused another because it happened first.",
+      "It works because sequence is the one causal cue an audience can observe directly. Order is visible; mechanism has to be argued, so order wins by default."
+    ],
+    "notes": [],
+    "example": "“I took the supplement and the cough cleared in a week.” A week is also how long a cough lasts.",
+    "cite": {
+      "label": "Wikipedia · Post hoc ergo propter hoc",
+      "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc"
+    },
+    "summary": "Informal · Questionable cause fallacy: Concluding that one event caused another because it happened first.",
+    "confusedWith": [
+      {
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "tell": "Post hoc invents a cause from sequence; cherry picking hides the cases where the sequence did not hold.",
+        "path": "/fallacies/cherry-picking/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Slippery slope",
+        "slug": "slippery-slope",
+        "path": "/fallacies/slippery-slope/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Mythstorian",
+        "slug": "mythstorian",
+        "path": "/species/mythstorian/"
+      }
+    ]
+  },
+  {
+    "term": "Special pleading",
+    "slug": "special-pleading",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/special-pleading/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "From law: a plea that asks the court to apply a different rule to this case, with no reason given for the exception.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A rule the speaker has just applied to someone else would now apply to the speaker."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The rule holds, except here, for reasons that are never stated as a rule."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what makes this case different in a way that could be written down and applied to everyone."
+      }
+    ],
+    "voice": "The rule holds, except here, for reasons that are never stated as a rule.",
+    "senses": [
+      "Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.",
+      "It works because the exemption is usually framed as context. Every rule has context; the fallacy is invoking it only for one side."
+    ],
+    "notes": [],
+    "example": "“Attacking a public official’s family is out of bounds.” Said by the account that spent last spring on a mayor’s brother.",
+    "cite": {
+      "label": "Wikipedia · Special pleading",
+      "url": "https://en.wikipedia.org/wiki/Special_pleading"
+    },
+    "summary": "Informal · Presumption fallacy: Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.",
+    "confusedWith": [
+      {
+        "term": "Two wrongs make a right",
+        "slug": "two-wrongs-make-a-right",
+        "tell": "Special pleading asks for an exemption from the standard; two wrongs argues the standard is void because someone else broke it.",
+        "path": "/fallacies/two-wrongs-make-a-right/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bootcurious",
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
+      }
+    ]
+  },
+  {
+    "term": "Argument to moderation",
+    "slug": "argument-to-moderation",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/argument-to-moderation/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Also the middle ground fallacy: the midpoint between two positions is treated as the truth by construction.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Presumption"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "Two positions are on the table and the speaker wants to look reasonable."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The recommendation is arithmetic - halfway - rather than an account of what is true."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask which position the evidence supports. A compromise between a measured claim and a fabricated one is a partial fabrication."
+      }
+    ],
+    "voice": "The recommendation is arithmetic - halfway - rather than an account of what is true.",
+    "senses": [
+      "Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
+      "It works because compromise is a genuine virtue in negotiation. The sentence borrows that virtue for questions of fact, where the midpoint of true and false is still false."
+    ],
+    "notes": [],
+    "example": "“One side says the water is safe, the other says it is poison - surely the truth is in the middle.” The test results are not in the middle; they are in the lab.",
+    "cite": {
+      "label": "Wikipedia · Argument to moderation",
+      "url": "https://en.wikipedia.org/wiki/Argument_to_moderation"
+    },
+    "summary": "Informal · Presumption fallacy: Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
+    "confusedWith": [
+      {
+        "term": "False equivalence",
+        "slug": "false-equivalence",
+        "tell": "Equivalence says the two sides are equally wrong; moderation says the truth is arithmetically between them.",
+        "path": "/fallacies/false-equivalence/"
+      }
+    ],
+    "related": [
+      {
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      }
+    ]
+  },
+  {
+    "term": "False balance",
+    "slug": "false-balance",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/false-balance/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Also bothsidesism: the studio graph with two guests, as though the shape of the panel were the shape of the evidence.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Statistical"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "One position is supported by the evidence and the other by its existence."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The two sides get the same airtime, and the audience infers the same standing."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the evidence weighs, not what the panel looks like. Balance is about who gets heard; accuracy is about what is true."
+      }
+    ],
+    "voice": "The two sides get the same airtime, and the audience infers the same standing.",
+    "senses": [
+      "Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer than an accurate one.",
+      "It works because fairness is a real journalistic virtue and symmetry looks like it. But a coin that lands heads ninety times out of a hundred is not evenly disputed, and equal time misrepresents it as such."
+    ],
+    "notes": [],
+    "example": "“Some say the bridge is safe, others say it will fall.” One of those groups has the inspection report.",
+    "cite": {
+      "label": "Wikipedia · False balance",
+      "url": "https://en.wikipedia.org/wiki/False_balance"
+    },
+    "summary": "Informal · Statistical fallacy: Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer than an...",
+    "confusedWith": [
+      {
+        "term": "False equivalence",
+        "slug": "false-equivalence",
+        "tell": "Equivalence says the two claims are alike; false balance gives them alike treatment and lets the audience draw the first conclusion.",
+        "path": "/fallacies/false-equivalence/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Argument to moderation",
+        "slug": "argument-to-moderation",
+        "path": "/fallacies/argument-to-moderation/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ]
+  },
+  {
+    "term": "Argument from silence",
+    "slug": "argument-from-silence",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/argument-from-silence/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ex silentio - nothing was said, so the nothing is read as a statement.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Relevance"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A record is missing and a conclusion is convenient."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The argument rests on what nobody wrote down."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask whether anyone would have written it down. If the answer is no, the silence is not evidence of anything."
+      }
+    ],
+    "voice": "The argument rests on what nobody wrote down.",
+    "senses": [
+      "Concluding something from the absence of a record, when the record would not have mentioned it either way.",
+      "It works because silence is genuinely informative sometimes. Whether it is depends entirely on whether the silence was supposed to be broken, and that question is the one the sentence skips."
+    ],
+    "notes": [],
+    "example": "“No complaints were filed, so everyone was satisfied.” Nobody knew there was a form.",
+    "cite": {
+      "label": "Wikipedia · Argument from silence",
+      "url": "https://en.wikipedia.org/wiki/Argument_from_silence"
+    },
+    "summary": "Informal · Relevance fallacy: Concluding something from the absence of a record, when the record would not have mentioned it either way.",
+    "confusedWith": [
+      {
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "tell": "Ignorance is about missing evidence in general; silence is about a specific record that was never kept.",
+        "path": "/fallacies/argument-from-ignorance/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Survivorship bias",
+        "slug": "survivorship-bias",
+        "path": "/fallacies/survivorship-bias/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bootcurious",
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ]
   },
   {
     "term": "Xenophobricator",
@@ -3217,185 +5338,14 @@ export const entries = [
     "backlinks": []
   },
   {
-    "term": "Ad hominem",
-    "slug": "ad-hominem",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/ad-hominem/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad hominem, “argument to the person” - the target moves from the claim to the one who made it.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A claim has just been made that cannot be answered on the merits."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The reply contains no content about the claim, only about the claimant."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Restate the claim and ask what is wrong with it. Character is a separate question, and it can be answered later, by evidence."
-      }
-    ],
-    "voice": "The reply contains no content about the claim, only about the claimant.",
-    "senses": [
-      "Answering an argument by attacking the person who advanced it rather than the claim they advanced.",
-      "It works because people are credulous about character: once you dislike the speaker, their sentence loses weight even when it is true. The claim is never touched, so it is never answered."
-    ],
-    "notes": [],
-    "example": "“You want to talk about the audit? You were late on your taxes in 2011.” The audit is still late, and now nobody is looking at it.",
-    "cite": {
-      "label": "Wikipedia · Ad hominem",
-      "url": "https://en.wikipedia.org/wiki/Ad_hominem"
-    },
-    "summary": "Informal · Red herring fallacy: Answering an argument by attacking the person who advanced it rather than the claim they advanced.",
-    "confusedWith": [
-      {
-        "term": "Tone policing",
-        "slug": "tone-policing",
-        "tell": "Ad hominem attacks the person’s record or character; tone policing attacks the manner of the delivery.",
-        "path": "/fallacies/tone-policing/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Straw man",
-        "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Sophistroll",
-        "slug": "sophistroll",
-        "path": "/species/sophistroll/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Decorumancer",
-        "slug": "decorumancer",
-        "path": "/species/decorumancer/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Comment section",
-        "slug": "comment-section",
-        "path": "/habitats/comment-section/"
-      }
-    ]
-  },
-  {
-    "term": "Straw man",
-    "slug": "straw-man",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/straw-man/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the training dummy: a figure stuffed with straw is easier to knock down than the man holding the argument.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "An opponent’s position is paraphrased before it is answered."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The refutation lands cleanly, and the person refuted never said the thing."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Quote the position back in its own words and ask whether the reply still lands. If it does not, the reply was aimed elsewhere."
-      }
-    ],
-    "voice": "The refutation lands cleanly, and the person refuted never said the thing.",
-    "senses": [
-      "Replacing someone’s position with a weaker, sillier version of it and then defeating the version you built.",
-      "It works because the audience rarely holds the original wording in mind. Whoever supplies the paraphrase controls what gets refuted, so an argument can be lost without ever being made."
-    ],
-    "notes": [],
-    "example": "“They want to fund the libraries because they think books are free and nobody should work.” Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.",
-    "cite": {
-      "label": "Wikipedia · Straw man",
-      "url": "https://en.wikipedia.org/wiki/Straw_man"
-    },
-    "summary": "Informal · Red herring fallacy: Replacing someone’s position with a weaker, sillier version of it and then defeating the version you built.",
-    "confusedWith": [
-      {
-        "term": "Motte-and-bailey fallacy",
-        "slug": "motte-and-bailey-fallacy",
-        "tell": "The straw man misstates a position you reject; the motte retreats to a modest claim you never disputed.",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Loaded question",
-        "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
-      },
-      {
-        "term": "False dilemma",
-        "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Sophistroll",
-        "slug": "sophistroll",
-        "path": "/species/sophistroll/"
-      }
-    ]
-  },
-  {
     "term": "Appeal to emotion",
     "slug": "appeal-to-emotion",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/appeal-to-emotion/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: argumentum ad passiones, an argument addressed to feeling rather than to the claim.",
@@ -3492,17 +5442,17 @@ export const entries = [
     ]
   },
   {
-    "term": "Appeal to authority",
-    "slug": "appeal-to-authority",
+    "term": "Appeal to fear",
+    "slug": "appeal-to-fear",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-authority/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "path": "/fallacies/appeal-to-fear/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
-    "etymology": "Latin: argumentum ad verecundiam, an appeal to deference - the argument from the shame of disagreeing with a great name.",
+    "etymology": "Latin: argumentum ad metum. The oldest political argument, and the one with the shortest feedback loop.",
     "identification": [
       {
         "key": "family",
@@ -3514,46 +5464,46 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "A name with standing is available and the evidence is not."
+        "value": "Something frightening is adjacent to the decision, and the case for the proposal is weak."
       },
       {
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The credentials arrive before the findings, and the findings never arrive."
+        "value": "The argument ends in a threat, and the threat is doing all the work."
       },
       {
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask what the expert’s evidence is, and whether their expertise covers this question. A title is a pointer to evidence, not a substitute for it."
+        "value": "Ask for the proposed mechanism, then for the probability. Fear is a reason to look; it is not a reason to conclude."
       }
     ],
-    "voice": "The credentials arrive before the findings, and the findings never arrive.",
+    "voice": "The argument ends in a threat, and the threat is doing all the work.",
     "senses": [
-      "Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
-      "It works because expertise is a genuine shortcut: nobody can verify everything, so we trust the people who did. The fallacy is trusting the title outside the field, or after the field has moved."
+      "Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.",
+      "It works because fear narrows attention. A frightened audience stops asking whether the proposal is good and starts asking whether the alternative is survivable."
     ],
     "notes": [],
-    "example": "“A Nobel laureate says the water is safe.” He holds the prize in economics. The water has never met him.",
+    "example": "“If we do nothing, they win.” Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.",
     "cite": {
-      "label": "Wikipedia · Appeal to authority",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_authority"
+      "label": "Wikipedia · Appeal to fear",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_fear"
     },
-    "summary": "Informal · Red herring fallacy: Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
+    "summary": "Informal · Red herring fallacy: Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.",
     "confusedWith": [
       {
-        "term": "Circular reasoning",
-        "slug": "circular-reasoning",
-        "tell": "Authority outsources the premises to a person; the circle outsources them to the conclusion itself.",
-        "path": "/fallacies/circular-reasoning/"
+        "term": "Appeal to emotion",
+        "slug": "appeal-to-emotion",
+        "tell": "Fear is a channel of the wider emotional appeal, and the one that most reliably skips the argument.",
+        "path": "/fallacies/appeal-to-emotion/"
       }
     ],
     "related": [
       {
-        "term": "Argument from ignorance",
-        "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "term": "Slippery slope",
+        "slug": "slippery-slope",
+        "path": "/fallacies/slippery-slope/"
       }
     ],
     "edges": [],
@@ -3561,38 +5511,31 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
-        "term": "Trust-Me-Brofessor",
-        "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
       },
       {
         "rel": "commits",
         "label": "Committed by",
-        "term": "Bleatkeeper",
-        "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Bootcurious",
-        "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
       }
     ]
   },
   {
-    "term": "False dilemma",
-    "slug": "false-dilemma",
+    "term": "Moving the goalposts",
+    "slug": "moving-the-goalposts",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
-    "path": "/fallacies/false-dilemma/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "path": "/fallacies/moving-the-goalposts/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
-    "etymology": "Also the either-or fallacy: the Greek dilemma names two horns, and the trick is to admit only two.",
+    "etymology": "From the pitch: the shot went in, so the posts are moved back and the point does not count.",
     "identification": [
       {
         "key": "family",
@@ -3604,115 +5547,39 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "A decision is framed as a choice between the speaker’s option and a disaster."
+        "value": "The evidence asked for has just been supplied."
       },
       {
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The sentence has exactly two branches, and one of them is unthinkable."
+        "value": "The standard changes at the moment it is satisfied, and only then."
       },
       {
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Name the third option out loud. A dilemma dies the moment a listener can see a door in the wall."
+        "value": "Fix the standard in writing before the evidence is gathered. If the standard moves again, the argument is over, and say so."
       }
     ],
-    "voice": "The sentence has exactly two branches, and one of them is unthinkable.",
+    "voice": "The standard changes at the moment it is satisfied, and only then.",
     "senses": [
-      "Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
-      "It works by shrinking the field. Most real disputes have a third, boring option - wait, fund it differently, do half of it - and the boring option is exactly what the dilemma is built to hide."
+      "Demanding new evidence after the original demand has been met.",
+      "It works because each new request sounds reasonable on its own. Nobody agrees to an impossible standard all at once; they agree to a series of fair-sounding ones."
     ],
     "notes": [],
-    "example": "“You are either with us or with the terrorists.” There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
+    "example": "“Show me the emails.” The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
     "cite": {
-      "label": "Wikipedia · False dilemma",
-      "url": "https://en.wikipedia.org/wiki/False_dilemma"
+      "label": "Wikipedia · Moving the goalposts",
+      "url": "https://en.wikipedia.org/wiki/Moving_the_goalposts"
     },
-    "summary": "Informal · Presumption fallacy: Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
+    "summary": "Informal · Presumption fallacy: Demanding new evidence after the original demand has been met.",
     "confusedWith": [
       {
-        "term": "False equivalence",
-        "slug": "false-equivalence",
-        "tell": "The dilemma collapses the field to two; equivalence claims those two weigh the same.",
-        "path": "/fallacies/false-equivalence/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Argument to moderation",
-        "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Illogician",
-        "slug": "illogician",
-        "path": "/species/illogician/"
-      }
-    ]
-  },
-  {
-    "term": "Two wrongs make a right",
-    "slug": "two-wrongs-make-a-right",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/two-wrongs-make-a-right/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the proverb, inverted: the move takes a well-known warning and uses it as a defence.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "One’s own side has just been caught doing something."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The answer is a comparison, and the comparison is accurate."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Point out that both acts are still wrong, and that the ledger being even is not the same as it being clean."
-      }
-    ],
-    "voice": "The answer is a comparison, and the comparison is accurate.",
-    "senses": [
-      "Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.",
-      "It works because fairness is a stronger instinct than consistency. The hearer wants the ledger balanced, and the sentence offers balance without ever asking whether either entry was wrong."
-    ],
-    "notes": [],
-    "example": "“They gerrymandered too.” Both maps are still rigged; the sentence has only arranged for nobody to fix either.",
-    "cite": {
-      "label": "Wikipedia · Two wrongs make a right",
-      "url": "https://en.wikipedia.org/wiki/Two_wrongs_make_a_right"
-    },
-    "summary": "Informal · Red herring fallacy: Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.",
-    "confusedWith": [
-      {
-        "term": "Ad hominem",
-        "slug": "ad-hominem",
-        "tell": "The tu quoque changes the subject to the accuser’s conduct; ad hominem changes it to the accuser’s character.",
-        "path": "/fallacies/ad-hominem/"
+        "term": "No true Scotsman",
+        "slug": "no-true-scotsman",
+        "tell": "The Scotsman moves the group boundary; the goalposts move the evidentiary one.",
+        "path": "/fallacies/no-true-scotsman/"
       }
     ],
     "related": [
@@ -3727,89 +5594,75 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
-        "term": "Freetard",
-        "slug": "freetard",
-        "path": "/species/freetard/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Hypocontortionist",
-        "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Crookmaxxing",
-        "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
       }
     ]
   },
   {
-    "term": "Slippery slope",
-    "slug": "slippery-slope",
+    "term": "Survivorship bias",
+    "slug": "survivorship-bias",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
-    "path": "/fallacies/slippery-slope/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "path": "/fallacies/survivorship-bias/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
     "partOfSpeech": "noun",
     "ipa": null,
-    "etymology": "The image is physical: one step onto the incline, and gravity is left to finish the argument.",
+    "etymology": "From the aircraft that returned: the armour study nearly went to the wings, until someone asked about the planes that did not come back.",
     "identification": [
       {
         "key": "family",
         "label": "Family",
         "type": "text",
-        "value": "Informal · Presumption"
+        "value": "Informal · Statistical"
       },
       {
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "A modest change is proposed that the speaker opposes."
+        "value": "A set of successes is being used to explain why a method works."
       },
       {
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The sentence jumps from a small rule to a catastrophe with no institution in between."
+        "value": "Every case you can see succeeded, and nothing explains what happened to the others."
       },
       {
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask what stops the slide at each step. If the answer is nothing, ask why the previous steps never slid."
+        "value": "Ask where the failures went. If the answer is “they are not in the dataset”, the dataset is the argument."
       }
     ],
-    "voice": "The sentence jumps from a small rule to a catastrophe with no institution in between.",
+    "voice": "Every case you can see succeeded, and nothing explains what happened to the others.",
     "senses": [
-      "Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it there.",
-      "It works because nobody can audit a chain of consequences they have not seen. Each link sounds plausible alone; the whole chain is narrated rather than argued."
+      "Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
+      "It works because the missing cases are missing. The sample looks complete precisely because the ones that would have completed it are not there to be counted."
     ],
     "notes": [],
-    "example": "“First they ban the plastic bag, then they ban the car.” Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.",
+    "example": "“Every founder I know says the degree was useless.” The founders who dropped out and failed are not at the conferences where this sentence gets said.",
     "cite": {
-      "label": "Wikipedia · Slippery slope",
-      "url": "https://en.wikipedia.org/wiki/Slippery_slope"
+      "label": "Wikipedia · Survivorship bias",
+      "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
     },
-    "summary": "Informal · Presumption fallacy: Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it...",
+    "summary": "Informal · Statistical fallacy: Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
     "confusedWith": [
       {
-        "term": "False dilemma",
-        "slug": "false-dilemma",
-        "tell": "The slope hides a chain of steps; the dilemma hides the options that are not steps.",
-        "path": "/fallacies/false-dilemma/"
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "tell": "Cherry picking keeps the data and drops the rest; survivorship bias never had the rest - it was never recorded.",
+        "path": "/fallacies/cherry-picking/"
       }
     ],
     "related": [
       {
-        "term": "Post hoc ergo propter hoc",
-        "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+        "term": "Anecdotal evidence",
+        "slug": "anecdotal-evidence",
+        "path": "/fallacies/anecdotal-evidence/"
       }
     ],
     "edges": [],
@@ -3817,9 +5670,493 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
-        "term": "Sabotriot",
-        "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      }
+    ]
+  },
+  {
+    "term": "Association fallacy",
+    "slug": "association-fallacy",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/association-fallacy/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Also guilt by association: the company a claim keeps is treated as the claim itself.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "An idea’s supporters are easier to attack than the idea."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The response names the company and never the claim."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the claim says and whether it is true. Who else believes it is a separate question with a separate answer."
+      }
+    ],
+    "voice": "The response names the company and never the claim.",
+    "senses": [
+      "Rejecting or accepting an idea because of who else holds it, rather than because of what it says.",
+      "It works because groups really do cluster. Sharing a conclusion with a bad actor is genuine information about the actor, and none at all about whether the conclusion is true."
+    ],
+    "notes": [],
+    "example": "“That is the same thing the crank down the street says.” The crank is also right about the weather, and nobody checks the sky by checking him.",
+    "cite": {
+      "label": "Wikipedia · Association fallacy",
+      "url": "https://en.wikipedia.org/wiki/Association_fallacy"
+    },
+    "summary": "Informal · Red herring fallacy: Rejecting or accepting an idea because of who else holds it, rather than because of what it says.",
+    "confusedWith": [
+      {
+        "term": "Ad hominem",
+        "slug": "ad-hominem",
+        "tell": "The association attacks the company the claim keeps; ad hominem attacks the person who made it.",
+        "path": "/fallacies/ad-hominem/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to motive",
+    "slug": "appeal-to-motive",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-motive/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Also the circumstantial ad hominem: the argument is answered with an account of why the arguer wants it to be true.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A claim has been made by someone with an obvious interest in it."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The reply is entirely about who benefits, and the claim’s evidence is not mentioned."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Separate interest from evidence: ask what the numbers say, then ask who profits. Both questions have answers and only one is about truth."
+      }
+    ],
+    "voice": "The reply is entirely about who benefits, and the claim’s evidence is not mentioned.",
+    "senses": [
+      "Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
+      "It works because motives are real and often relevant. But a motive explains why someone is talking, not whether what they said is accurate - and the audience conflates the two."
+    ],
+    "notes": [],
+    "example": "“Of course the landlord says rents are fine - he owns the building.” He does; the rent roll is still a document.",
+    "cite": {
+      "label": "Wikipedia · Appeal to motive",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_motive"
+    },
+    "summary": "Informal · Red herring fallacy: Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
+    "confusedWith": [
+      {
+        "term": "Ad hominem",
+        "slug": "ad-hominem",
+        "tell": "Appeal to motive attacks the reason behind the claim; ad hominem attacks the person’s character or record.",
+        "path": "/fallacies/ad-hominem/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to pity",
+    "slug": "appeal-to-pity",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-pity/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad misericordiam - the claim is supported by how much its speaker has suffered.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A claim or a failing needs support and the speaker has a sympathetic history."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The case rests on what it cost the speaker, not on what the evidence shows."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Separate the hardship from the question: acknowledge the cost, then ask what the claim actually says."
+      }
+    ],
+    "voice": "The case rests on what it cost the speaker, not on what the evidence shows.",
+    "senses": [
+      "Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.",
+      "It works because sympathy is a real moral response and the hardship is often genuine. Neither fact tells you whether the claim is accurate."
+    ],
+    "notes": [],
+    "example": "“I lost my job over this, so you know I am telling the truth.” Losing a job is terrible and says nothing about the facts.",
+    "cite": {
+      "label": "Wikipedia · Appeal to pity",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_pity"
+    },
+    "summary": "Informal · Red herring fallacy: Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.",
+    "confusedWith": [
+      {
+        "term": "Appeal to emotion",
+        "slug": "appeal-to-emotion",
+        "tell": "Pity is the specific channel; the emotional appeal is the whole family.",
+        "path": "/fallacies/appeal-to-emotion/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Tu quoque",
+        "slug": "tu-quoque",
+        "path": "/fallacies/tu-quoque/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ]
+  },
+  {
+    "term": "Ad nauseam",
+    "slug": "ad-nauseam",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/ad-nauseam/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: “to the point of sickness” - the argument that wins by making the audience tired.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Relevance"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A claim has been answered once and the answer was not accepted."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The same sentence returns unchanged, and the replies get shorter."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer once, note that the answer stands, and stop. Repetition is a contest of stamina, and it can be declined."
+      }
+    ],
+    "voice": "The same sentence returns unchanged, and the replies get shorter.",
+    "senses": [
+      "Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.",
+      "It works on volume rather than content. Nobody can answer the same sentence forty times, so the fortieth repetition lands unanswered and looks unanswerable."
+    ],
+    "notes": [],
+    "example": "“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.” Three sentences, one claim, no count.",
+    "cite": {
+      "label": "Wikipedia · Ad nauseam",
+      "url": "https://en.wikipedia.org/wiki/Ad_nauseam"
+    },
+    "summary": "Informal · Relevance fallacy: Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.",
+    "confusedWith": [
+      {
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "tell": "Proof by assertion repeats to sound certain; ad nauseam repeats to make the audience stop asking.",
+        "path": "/fallacies/proof-by-assertion/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to novelty",
+    "slug": "appeal-to-novelty",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-novelty/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad novitatem - the newest thing is treated as the best thing, and the year as an argument.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A practice or claim is being defended and its only advantage is being recent."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The support is a date: it is 2026, nobody does that anymore."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what changed. If nothing changed in the evidence, the calendar is not an argument."
+      }
+    ],
+    "voice": "The support is a date: it is 2026, nobody does that anymore.",
+    "senses": [
+      "Treating a claim or a practice as correct because it is new, or an older one as wrong because it is old.",
+      "It works because progress is real and the future usually arrives. Recency is genuine evidence of relevance; it is not evidence of correctness, and the two are easy to confuse in a feed."
+    ],
+    "notes": [],
+    "example": "“Nobody uses cash anymore.” Most people still do; the sentence is about the future the speaker would like.",
+    "cite": {
+      "label": "Wikipedia · Appeal to novelty",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_novelty"
+    },
+    "summary": "Informal · Red herring fallacy: Treating a claim or a practice as correct because it is new, or an older one as wrong because it is old.",
+    "confusedWith": [
+      {
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "tell": "Tradition cites age as proof; novelty cites youth as proof. Both substitute a timestamp for a reason.",
+        "path": "/fallacies/appeal-to-tradition/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Appeal to nature",
+        "slug": "appeal-to-nature",
+        "path": "/fallacies/appeal-to-nature/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      }
+    ]
+  },
+  {
+    "term": "Appeal to consequences",
+    "slug": "appeal-to-consequences",
+    "kind": "fallacy",
+    "kindLabel": "Fallacy",
+    "path": "/fallacies/appeal-to-consequences/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": null,
+    "etymology": "Latin: argumentum ad consequentiam - the belief is judged by how it would feel for it to be true.",
+    "identification": [
+      {
+        "key": "family",
+        "label": "Family",
+        "type": "text",
+        "value": "Informal · Red herring"
+      },
+      {
+        "key": "committed_when",
+        "label": "Committed when",
+        "type": "text",
+        "value": "A claim has implications the speaker cannot accept."
+      },
+      {
+        "key": "tell",
+        "label": "The tell",
+        "type": "text",
+        "value": "The reply describes what would happen if the claim were true, and stops there."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Separate the two questions: what is true, and what to do about it. Disliking the second answer does not change the first."
+      }
+    ],
+    "voice": "The reply describes what would happen if the claim were true, and stops there.",
+    "senses": [
+      "Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.",
+      "It works because consequences are legitimately part of policy - just not of truth. The sentence moves from what follows to what is, and the move is one word wide."
+    ],
+    "notes": [],
+    "example": "“If that were true, the whole policy would be indefensible.” It may well be indefensible; the audit found what it found.",
+    "cite": {
+      "label": "Wikipedia · Appeal to consequences",
+      "url": "https://en.wikipedia.org/wiki/Appeal_to_consequences"
+    },
+    "summary": "Informal · Red herring fallacy: Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.",
+    "confusedWith": [
+      {
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "tell": "Fear forecasts the bad outcome to end the argument; consequences use the bad outcome as a disproof.",
+        "path": "/fallacies/appeal-to-fear/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Slippery slope",
+        "slug": "slippery-slope",
+        "path": "/fallacies/slippery-slope/"
+      }
+    ],
+    "edges": [],
+    "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
       }
     ]
   },
@@ -3829,9 +6166,9 @@ export const entries = [
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/hasty-generalization/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: secundum quid, “according to a particular” - a rule drawn from too narrow a sample.",
@@ -3912,9 +6249,9 @@ export const entries = [
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/cherry-picking/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "From the orchard: you pick the fruit that looks best and leave the rest on the tree for someone else to find.",
@@ -3997,256 +6334,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Loaded question",
-    "slug": "loaded-question",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/loaded-question/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Also the fallacy of many questions: a question that carries its conclusion in the presupposition.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Improper premise"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "The speaker wants a concession that cannot be asked for directly."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The question has an assumption in it, and every answer is an admission."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Answer the presupposition, not the question: “there is no plan yet, so the question does not apply.”"
-      }
-    ],
-    "voice": "The question has an assumption in it, and every answer is an admission.",
-    "senses": [
-      "Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
-      "It works because a question feels like an invitation, not an assertion. Answering accepts its frame; refusing looks evasive. The frame is the argument."
-    ],
-    "notes": [],
-    "example": "“Why does your plan keep raising costs?” There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
-    "cite": {
-      "label": "Wikipedia · Loaded question",
-      "url": "https://en.wikipedia.org/wiki/Loaded_question"
-    },
-    "summary": "Informal · Improper premise fallacy: Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
-    "confusedWith": [
-      {
-        "term": "Circular reasoning",
-        "slug": "circular-reasoning",
-        "tell": "Both smuggle the conclusion in; the loaded question does it through what it asks.",
-        "path": "/fallacies/circular-reasoning/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Straw man",
-        "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "JAQing Off",
-        "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Cable panel",
-        "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
-      }
-    ]
-  },
-  {
-    "term": "Circular reasoning",
-    "slug": "circular-reasoning",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/circular-reasoning/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: circulus in probando, “a circle in the proving” - the premise and the conclusion take turns holding each other up.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Improper premise"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A conclusion is wanted and the evidence is thin."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "Follow the chain of because, and it arrives back where it started."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Write the argument as a numbered list of premises. The moment a premise repeats the conclusion, the circle is visible."
-      }
-    ],
-    "voice": "Follow the chain of because, and it arrives back where it started.",
-    "senses": [
-      "Using a claim as its own support, often with an extra step so the circle is harder to see.",
-      "It works because a short loop reads as an argument. Each sentence sounds like it is adding something, and the last one sounds like a conclusion because it is the last one."
-    ],
-    "notes": [],
-    "example": "“The policy is sound because it is what serious people support, and serious people support it because it is sound.” Two sentences, one step each, no ground.",
-    "cite": {
-      "label": "Wikipedia · Circular reasoning",
-      "url": "https://en.wikipedia.org/wiki/Circular_reasoning"
-    },
-    "summary": "Informal · Improper premise fallacy: Using a claim as its own support, often with an extra step so the circle is harder to see.",
-    "confusedWith": [
-      {
-        "term": "Appeal to authority",
-        "slug": "appeal-to-authority",
-        "tell": "The circle restates itself; the appeal to authority borrows a person to stand where the premise should be.",
-        "path": "/fallacies/appeal-to-authority/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Loaded question",
-        "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Illogician",
-        "slug": "illogician",
-        "path": "/species/illogician/"
-      }
-    ]
-  },
-  {
-    "term": "Appeal to fear",
-    "slug": "appeal-to-fear",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-fear/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad metum. The oldest political argument, and the one with the shortest feedback loop.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "Something frightening is adjacent to the decision, and the case for the proposal is weak."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The argument ends in a threat, and the threat is doing all the work."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask for the proposed mechanism, then for the probability. Fear is a reason to look; it is not a reason to conclude."
-      }
-    ],
-    "voice": "The argument ends in a threat, and the threat is doing all the work.",
-    "senses": [
-      "Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.",
-      "It works because fear narrows attention. A frightened audience stops asking whether the proposal is good and starts asking whether the alternative is survivable."
-    ],
-    "notes": [],
-    "example": "“If we do nothing, they win.” Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.",
-    "cite": {
-      "label": "Wikipedia · Appeal to fear",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_fear"
-    },
-    "summary": "Informal · Red herring fallacy: Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.",
-    "confusedWith": [
-      {
-        "term": "Appeal to emotion",
-        "slug": "appeal-to-emotion",
-        "tell": "Fear is a channel of the wider emotional appeal, and the one that most reliably skips the argument.",
-        "path": "/fallacies/appeal-to-emotion/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Slippery slope",
-        "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Dramagogue",
-        "slug": "dramagogue",
-        "path": "/species/dramagogue/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Ragesturbationist",
-        "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
-      }
-    ]
-  },
-  {
     "term": "False equivalence",
     "slug": "false-equivalence",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/false-equivalence/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: false equivalence, or the apples-and-oranges move. The failure is in the comparison, not in either thing compared.",
@@ -4322,733 +6417,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Post hoc ergo propter hoc",
-    "slug": "post-hoc-ergo-propter-hoc",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/post-hoc-ergo-propter-hoc/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Questionable cause"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "Two events happened in sequence and a cause is being claimed."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The evidence is the calendar, not the mechanism."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask for the mechanism and the comparison: what happened where the first event did not occur?"
-      }
-    ],
-    "voice": "The evidence is the calendar, not the mechanism.",
-    "senses": [
-      "Concluding that one event caused another because it happened first.",
-      "It works because sequence is the one causal cue an audience can observe directly. Order is visible; mechanism has to be argued, so order wins by default."
-    ],
-    "notes": [],
-    "example": "“I took the supplement and the cough cleared in a week.” A week is also how long a cough lasts.",
-    "cite": {
-      "label": "Wikipedia · Post hoc ergo propter hoc",
-      "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc"
-    },
-    "summary": "Informal · Questionable cause fallacy: Concluding that one event caused another because it happened first.",
-    "confusedWith": [
-      {
-        "term": "Cherry picking",
-        "slug": "cherry-picking",
-        "tell": "Post hoc invents a cause from sequence; cherry picking hides the cases where the sequence did not hold.",
-        "path": "/fallacies/cherry-picking/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Slippery slope",
-        "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Mythstorian",
-        "slug": "mythstorian",
-        "path": "/species/mythstorian/"
-      }
-    ]
-  },
-  {
-    "term": "Argument from ignorance",
-    "slug": "argument-from-ignorance",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/argument-from-ignorance/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad ignorantiam - the absence of proof is offered as proof.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Relevance"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "Nobody has produced evidence either way."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The conclusion rests on what has not been found."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask who holds the burden. A claim still needs support; an absence of evidence is evidence only when the evidence would be expected."
-      }
-    ],
-    "voice": "The conclusion rests on what has not been found.",
-    "senses": [
-      "Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
-      "It works because the burden of proof feels like a formality. Most audiences assume a claim is either established or refuted, and the sentence supplies the third option, absence, as if it settled the matter."
-    ],
-    "notes": [],
-    "example": "“Nobody has proven the machines are safe.” Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
-    "cite": {
-      "label": "Wikipedia · Argument from ignorance",
-      "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance"
-    },
-    "summary": "Informal · Relevance fallacy: Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
-    "confusedWith": [
-      {
-        "term": "Appeal to authority",
-        "slug": "appeal-to-authority",
-        "tell": "Both outsource the support; ignorance to a gap, authority to a person.",
-        "path": "/fallacies/appeal-to-authority/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Loaded question",
-        "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "JAQing Off",
-        "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Trust-Me-Brofessor",
-        "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
-      }
-    ]
-  },
-  {
-    "term": "No true Scotsman",
-    "slug": "no-true-scotsman",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/no-true-scotsman/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Faulty generalization"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A counterexample has just been produced against a generalisation about a group."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The group acquires a new membership test, applied only to the case at hand."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Fix the definition before the counterexamples arrive, and ask which rule excluded this one and why that rule was not mentioned earlier."
-      }
-    ],
-    "voice": "The group acquires a new membership test, applied only to the case at hand.",
-    "senses": [
-      "Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside it.",
-      "It works because definitions are genuinely negotiable. The sentence sounds like a clarification, and a clarification is much harder to argue with than a false claim."
-    ],
-    "notes": [],
-    "example": "“No real conservative would vote for that.” The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.",
-    "cite": {
-      "label": "Wikipedia · No true Scotsman",
-      "url": "https://en.wikipedia.org/wiki/No_true_Scotsman"
-    },
-    "summary": "Informal · Faulty generalization fallacy: Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside...",
-    "confusedWith": [
-      {
-        "term": "Straw man",
-        "slug": "straw-man",
-        "tell": "The straw man weakens the opponent’s claim; the Scotsman strengthens the speaker’s, by shrinking the group until the counterexample is expelled.",
-        "path": "/fallacies/straw-man/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Moving the goalposts",
-        "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "LARPtarian",
-        "slug": "larptarian",
-        "path": "/species/larptarian/"
-      }
-    ]
-  },
-  {
-    "term": "Moving the goalposts",
-    "slug": "moving-the-goalposts",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/moving-the-goalposts/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the pitch: the shot went in, so the posts are moved back and the point does not count.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Presumption"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "The evidence asked for has just been supplied."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The standard changes at the moment it is satisfied, and only then."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Fix the standard in writing before the evidence is gathered. If the standard moves again, the argument is over, and say so."
-      }
-    ],
-    "voice": "The standard changes at the moment it is satisfied, and only then.",
-    "senses": [
-      "Demanding new evidence after the original demand has been met.",
-      "It works because each new request sounds reasonable on its own. Nobody agrees to an impossible standard all at once; they agree to a series of fair-sounding ones."
-    ],
-    "notes": [],
-    "example": "“Show me the emails.” The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
-    "cite": {
-      "label": "Wikipedia · Moving the goalposts",
-      "url": "https://en.wikipedia.org/wiki/Moving_the_goalposts"
-    },
-    "summary": "Informal · Presumption fallacy: Demanding new evidence after the original demand has been met.",
-    "confusedWith": [
-      {
-        "term": "No true Scotsman",
-        "slug": "no-true-scotsman",
-        "tell": "The Scotsman moves the group boundary; the goalposts move the evidentiary one.",
-        "path": "/fallacies/no-true-scotsman/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Special pleading",
-        "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Slopagandist",
-        "slug": "slopagandist",
-        "path": "/species/slopagandist/"
-      }
-    ]
-  },
-  {
-    "term": "Special pleading",
-    "slug": "special-pleading",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/special-pleading/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From law: a plea that asks the court to apply a different rule to this case, with no reason given for the exception.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Presumption"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A rule the speaker has just applied to someone else would now apply to the speaker."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The rule holds, except here, for reasons that are never stated as a rule."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask what makes this case different in a way that could be written down and applied to everyone."
-      }
-    ],
-    "voice": "The rule holds, except here, for reasons that are never stated as a rule.",
-    "senses": [
-      "Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.",
-      "It works because the exemption is usually framed as context. Every rule has context; the fallacy is invoking it only for one side."
-    ],
-    "notes": [],
-    "example": "“Attacking a public official’s family is out of bounds.” Said by the account that spent last spring on a mayor’s brother.",
-    "cite": {
-      "label": "Wikipedia · Special pleading",
-      "url": "https://en.wikipedia.org/wiki/Special_pleading"
-    },
-    "summary": "Informal · Presumption fallacy: Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.",
-    "confusedWith": [
-      {
-        "term": "Two wrongs make a right",
-        "slug": "two-wrongs-make-a-right",
-        "tell": "Special pleading asks for an exemption from the standard; two wrongs argues the standard is void because someone else broke it.",
-        "path": "/fallacies/two-wrongs-make-a-right/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Moving the goalposts",
-        "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Hypocontortionist",
-        "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Bootcurious",
-        "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
-      }
-    ]
-  },
-  {
-    "term": "Appeal to tradition",
-    "slug": "appeal-to-tradition",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-tradition/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad antiquitatem - the old is treated as the proven.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A practice is being questioned and its defenders have no account of why it works."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The argument’s only support is that the practice has always been there."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask what the practice does now. Duration is a reason to be careful, not a reason to stop asking."
-      }
-    ],
-    "voice": "The argument’s only support is that the practice has always been there.",
-    "senses": [
-      "Treating a practice as correct because it is old, without showing that age is evidence of anything.",
-      "It works because inherited arrangements carry the weight of everyone who lived with them. Age is genuine information about endurance; it is not information about fairness or function."
-    ],
-    "notes": [],
-    "example": "“We have always opened with a prayer.” The question was whether the chamber should, and always is not an answer to should.",
-    "cite": {
-      "label": "Wikipedia · Appeal to tradition",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
-    },
-    "summary": "Informal · Red herring fallacy: Treating a practice as correct because it is old, without showing that age is evidence of anything.",
-    "confusedWith": [
-      {
-        "term": "Appeal to nature",
-        "slug": "appeal-to-nature",
-        "tell": "Tradition says it is old, nature says it is natural; both replace a reason with a pedigree.",
-        "path": "/fallacies/appeal-to-nature/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Appeal to authority",
-        "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Playtriot",
-        "slug": "playtriot",
-        "path": "/species/playtriot/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "LARPtarian",
-        "slug": "larptarian",
-        "path": "/species/larptarian/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Group chat",
-        "slug": "group-chat",
-        "path": "/habitats/group-chat/"
-      }
-    ]
-  },
-  {
-    "term": "Appeal to nature",
-    "slug": "appeal-to-nature",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-nature/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad naturam - the natural is treated as the good, as though the word carried a verdict.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A product, practice, or hierarchy needs a justification."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The justification is a claim about what is natural, with no account of why natural is good."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask which part of nature is the model. Nature also contains arsenic, parasites, and every hierarchy that ever existed."
-      }
-    ],
-    "voice": "The justification is a claim about what is natural, with no account of why natural is good.",
-    "senses": [
-      "Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
-      "It works because “natural” smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement."
-    ],
-    "notes": [],
-    "example": "“It is natural for people to sort themselves by tribe.” It is also natural to die of an infected cut, and we stopped doing that on purpose.",
-    "cite": {
-      "label": "Wikipedia · Appeal to nature",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_nature"
-    },
-    "summary": "Informal · Red herring fallacy: Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
-    "confusedWith": [
-      {
-        "term": "Appeal to tradition",
-        "slug": "appeal-to-tradition",
-        "tell": "Tradition cites age, nature cites origin; both answer a question about value with a question about ancestry.",
-        "path": "/fallacies/appeal-to-tradition/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Hasty generalization",
-        "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Freetard",
-        "slug": "freetard",
-        "path": "/species/freetard/"
-      }
-    ]
-  },
-  {
-    "term": "Tone policing",
-    "slug": "tone-policing",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/tone-policing/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From policing: the offence is not what was said but the manner of saying it.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring (ad hominem family)"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A claim has landed and its content is inconvenient."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The reply is about volume, spelling, or mood rather than the sentence that was said."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Separate the manner from the claim and answer the claim. If the manner really was the problem, it can be raised after."
-      }
-    ],
-    "voice": "The reply is about volume, spelling, or mood rather than the sentence that was said.",
-    "senses": [
-      "Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
-      "It works because tone is a real problem sometimes and a distraction every time. The complaint is unfalsifiable, so answering it costs a turn and concedes the frame."
-    ],
-    "notes": [],
-    "example": "“I agree with the concern, but the way you said it lost the room.” The room was lost by the sentence, not the volume, and the sentence is still standing.",
-    "cite": {
-      "label": "Wikipedia · Tone policing",
-      "url": "https://en.wikipedia.org/wiki/Tone_policing"
-    },
-    "summary": "Informal · Red herring (ad hominem family) fallacy: Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
-    "confusedWith": [
-      {
-        "term": "Ad hominem",
-        "slug": "ad-hominem",
-        "tell": "Tone policing attacks how the speaker spoke; ad hominem attacks who the speaker is.",
-        "path": "/fallacies/ad-hominem/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Straw man",
-        "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Decorumancer",
-        "slug": "decorumancer",
-        "path": "/species/decorumancer/"
-      }
-    ]
-  },
-  {
-    "term": "Motte-and-bailey fallacy",
-    "slug": "motte-and-bailey-fallacy",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/motte-and-bailey-fallacy/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the medieval castle: a modest motte that is easy to defend, and a rich bailey that is not.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Presumption"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "The strong version of a claim has just been contested."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The position shrinks under pressure and grows again in the next conversation."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Name both claims and ask which one is being defended. Accepting the motte does not concede the bailey."
-      }
-    ],
-    "voice": "The position shrinks under pressure and grows again in the next conversation.",
-    "senses": [
-      "Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing the strong claim once the pressure is off.",
-      "It works because the two claims are related. The retreat is sincere-sounding because the modest claim is genuinely held; the strong claim is never withdrawn, only set down."
-    ],
-    "notes": [],
-    "example": "“Defund the police” argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.",
-    "cite": {
-      "label": "Wikipedia · Motte-and-bailey fallacy",
-      "url": "https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy"
-    },
-    "summary": "Informal · Presumption fallacy: Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing...",
-    "confusedWith": [
-      {
-        "term": "Equivocation",
-        "slug": "equivocation",
-        "tell": "The motte switches between two claims; equivocation switches between two meanings of one word.",
-        "path": "/fallacies/equivocation/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Straw man",
-        "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Sophistroll",
-        "slug": "sophistroll",
-        "path": "/species/sophistroll/"
-      }
-    ]
-  },
-  {
     "term": "Anecdotal evidence",
     "slug": "anecdotal-evidence",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/anecdotal-evidence/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "From the Greek anekdota, “unpublished things” - the story that never made it into the record.",
@@ -5124,415 +6500,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Survivorship bias",
-    "slug": "survivorship-bias",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/survivorship-bias/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the aircraft that returned: the armour study nearly went to the wings, until someone asked about the planes that did not come back.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Statistical"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A set of successes is being used to explain why a method works."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "Every case you can see succeeded, and nothing explains what happened to the others."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask where the failures went. If the answer is “they are not in the dataset”, the dataset is the argument."
-      }
-    ],
-    "voice": "Every case you can see succeeded, and nothing explains what happened to the others.",
-    "senses": [
-      "Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
-      "It works because the missing cases are missing. The sample looks complete precisely because the ones that would have completed it are not there to be counted."
-    ],
-    "notes": [],
-    "example": "“Every founder I know says the degree was useless.” The founders who dropped out and failed are not at the conferences where this sentence gets said.",
-    "cite": {
-      "label": "Wikipedia · Survivorship bias",
-      "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
-    },
-    "summary": "Informal · Statistical fallacy: Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
-    "confusedWith": [
-      {
-        "term": "Cherry picking",
-        "slug": "cherry-picking",
-        "tell": "Cherry picking keeps the data and drops the rest; survivorship bias never had the rest - it was never recorded.",
-        "path": "/fallacies/cherry-picking/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Anecdotal evidence",
-        "slug": "anecdotal-evidence",
-        "path": "/fallacies/anecdotal-evidence/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Algodemic",
-        "slug": "algodemic",
-        "path": "/species/algodemic/"
-      }
-    ]
-  },
-  {
-    "term": "Proof by assertion",
-    "slug": "proof-by-assertion",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/proof-by-assertion/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From mathematics, where a proof is a demonstration - and this is the counterfeit: the conclusion, repeated.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Presumption"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "The claim cannot be supported and must not be conceded."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The same sentence returns, louder, with no new reason attached."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask for the reason once, then note that none has arrived. Repetition is not a premise, and saying so out loud is usually enough."
-      }
-    ],
-    "voice": "The same sentence returns, louder, with no new reason attached.",
-    "senses": [
-      "Repeating a claim with confidence as though repetition were support, and treating objection as noise.",
-      "It works because certainty is contagious. An audience without the means to check infers from composure that there is something to check against."
-    ],
-    "notes": [],
-    "example": "“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.” Four sentences, one assertion, zero evidence.",
-    "cite": {
-      "label": "Wikipedia · Proof by assertion",
-      "url": "https://en.wikipedia.org/wiki/Proof_by_assertion"
-    },
-    "summary": "Informal · Presumption fallacy: Repeating a claim with confidence as though repetition were support, and treating objection as noise.",
-    "confusedWith": [
-      {
-        "term": "Circular reasoning",
-        "slug": "circular-reasoning",
-        "tell": "The assertion adds no support and repeats itself; the circle adds a step and returns to the start.",
-        "path": "/fallacies/circular-reasoning/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Appeal to authority",
-        "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Patriotainment",
-        "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Patriotainer",
-        "slug": "patriotainer",
-        "path": "/species/patriotainer/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Slopagandist",
-        "slug": "slopagandist",
-        "path": "/species/slopagandist/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Cable panel",
-        "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
-      }
-    ]
-  },
-  {
-    "term": "Sunk cost fallacy",
-    "slug": "sunk-cost-fallacy",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/sunk-cost-fallacy/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From accounting: money already spent is gone, and no decision can bring it back.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Statistical"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A strategy has failed and its defenders are counting what it cost to start."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The case for continuing is entirely about the past, and the future is not mentioned."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask what you would do if the sunk cost did not exist. That answer is the decision; the ledger is history."
-      }
-    ],
-    "voice": "The case for continuing is entirely about the past, and the future is not mentioned.",
-    "senses": [
-      "Continuing a failing course of action because of what has already been invested in it.",
-      "It works because abandoning a cost feels like admitting the cost was wasted. The loss is already real; the sentence only makes it feel avoidable."
-    ],
-    "notes": [],
-    "example": "“We cannot withdraw now, after everything we have spent.” The spending is the reason the account is empty, not the reason to keep filling it.",
-    "cite": {
-      "label": "Wikipedia · Sunk cost",
-      "url": "https://en.wikipedia.org/wiki/Sunk_cost"
-    },
-    "summary": "Informal · Statistical fallacy: Continuing a failing course of action because of what has already been invested in it.",
-    "confusedWith": [
-      {
-        "term": "Appeal to tradition",
-        "slug": "appeal-to-tradition",
-        "tell": "Tradition binds the future to the distant past; sunk cost binds it to expenses still inside the fiscal year.",
-        "path": "/fallacies/appeal-to-tradition/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Post hoc ergo propter hoc",
-        "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Playtriot",
-        "slug": "playtriot",
-        "path": "/species/playtriot/"
-      }
-    ]
-  },
-  {
-    "term": "Texas sharpshooter fallacy",
-    "slug": "texas-sharpshooter-fallacy",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/texas-sharpshooter-fallacy/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the marksman who fires into a barn and then paints the target around the tightest cluster.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Faulty generalization"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A large dataset is available and a story is wanted."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The hypothesis was formed after the data was seen, and this is not mentioned."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask what the prediction was before the data arrived, and what the same measure shows in the cases not chosen."
-      }
-    ],
-    "voice": "The hypothesis was formed after the data was seen, and this is not mentioned.",
-    "senses": [
-      "Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
-      "It works because a cluster really is a cluster. With enough data, some grouping will be tight; the fallacy is the order of operations, which nobody can see in the finished result."
-    ],
-    "notes": [],
-    "example": "“Crimes cluster around these three blocks.” So does every address in the city, when you draw the box around three blocks.",
-    "cite": {
-      "label": "Wikipedia · Texas sharpshooter fallacy",
-      "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy"
-    },
-    "summary": "Informal · Faulty generalization fallacy: Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
-    "confusedWith": [
-      {
-        "term": "Cherry picking",
-        "slug": "cherry-picking",
-        "tell": "The sharpshooter keeps all the data and moves the target; the cherry picker keeps the target and drops the data.",
-        "path": "/fallacies/cherry-picking/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Post hoc ergo propter hoc",
-        "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Biasographer",
-        "slug": "biasographer",
-        "path": "/species/biasographer/"
-      }
-    ]
-  },
-  {
-    "term": "Argument to moderation",
-    "slug": "argument-to-moderation",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/argument-to-moderation/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Also the middle ground fallacy: the midpoint between two positions is treated as the truth by construction.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Presumption"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "Two positions are on the table and the speaker wants to look reasonable."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The recommendation is arithmetic - halfway - rather than an account of what is true."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask which position the evidence supports. A compromise between a measured claim and a fabricated one is a partial fabrication."
-      }
-    ],
-    "voice": "The recommendation is arithmetic - halfway - rather than an account of what is true.",
-    "senses": [
-      "Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
-      "It works because compromise is a genuine virtue in negotiation. The sentence borrows that virtue for questions of fact, where the midpoint of true and false is still false."
-    ],
-    "notes": [],
-    "example": "“One side says the water is safe, the other says it is poison - surely the truth is in the middle.” The test results are not in the middle; they are in the lab.",
-    "cite": {
-      "label": "Wikipedia · Argument to moderation",
-      "url": "https://en.wikipedia.org/wiki/Argument_to_moderation"
-    },
-    "summary": "Informal · Presumption fallacy: Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
-    "confusedWith": [
-      {
-        "term": "False equivalence",
-        "slug": "false-equivalence",
-        "tell": "Equivalence says the two sides are equally wrong; moderation says the truth is arithmetically between them.",
-        "path": "/fallacies/false-equivalence/"
-      }
-    ],
-    "related": [
-      {
-        "term": "False dilemma",
-        "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Capitulectual",
-        "slug": "capitulectual",
-        "path": "/species/capitulectual/"
-      }
-    ]
-  },
-  {
     "term": "Equivocation",
     "slug": "equivocation",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/equivocation/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: aequus vox, “equal voice” - one word doing two jobs in the same argument.",
@@ -5608,90 +6583,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Association fallacy",
-    "slug": "association-fallacy",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/association-fallacy/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Also guilt by association: the company a claim keeps is treated as the claim itself.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "An idea’s supporters are easier to attack than the idea."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The response names the company and never the claim."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask what the claim says and whether it is true. Who else believes it is a separate question with a separate answer."
-      }
-    ],
-    "voice": "The response names the company and never the claim.",
-    "senses": [
-      "Rejecting or accepting an idea because of who else holds it, rather than because of what it says.",
-      "It works because groups really do cluster. Sharing a conclusion with a bad actor is genuine information about the actor, and none at all about whether the conclusion is true."
-    ],
-    "notes": [],
-    "example": "“That is the same thing the crank down the street says.” The crank is also right about the weather, and nobody checks the sky by checking him.",
-    "cite": {
-      "label": "Wikipedia · Association fallacy",
-      "url": "https://en.wikipedia.org/wiki/Association_fallacy"
-    },
-    "summary": "Informal · Red herring fallacy: Rejecting or accepting an idea because of who else holds it, rather than because of what it says.",
-    "confusedWith": [
-      {
-        "term": "Ad hominem",
-        "slug": "ad-hominem",
-        "tell": "The association attacks the company the claim keeps; ad hominem attacks the person who made it.",
-        "path": "/fallacies/ad-hominem/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Hasty generalization",
-        "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Xenophobricator",
-        "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
-      }
-    ]
-  },
-  {
     "term": "Tu quoque",
     "slug": "tu-quoque",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/tu-quoque/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: “you too” - the second-person form of the two-wrongs move, and the most common sentence on the internet.",
@@ -5779,9 +6678,9 @@ export const entries = [
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/whataboutism/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Named for the Soviet reply to every complaint: “and what about…?”",
@@ -5871,166 +6770,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Poisoning the well",
-    "slug": "poisoning-the-well",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/poisoning-the-well/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the siege tactic: foul the water before the argument arrives, and it never has to be fought.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "Someone is about to be heard whose account would be inconvenient."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The discrediting arrives before the claim, and usually about something the audience cannot check."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Name the move, then judge the claim on its evidence. Whatever the source did, the claim is still either true or false."
-      }
-    ],
-    "voice": "The discrediting arrives before the claim, and usually about something the audience cannot check.",
-    "senses": [
-      "Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.",
-      "It works because a prior doubt is hard to unhear. The audience now listens for confirmation of the warning rather than for the content, and the content is never engaged."
-    ],
-    "notes": [],
-    "example": "“Before you read that report, remember who wrote it.” The report is unread and already dismissed; nobody has said what is wrong in it.",
-    "cite": {
-      "label": "Wikipedia · Poisoning the well",
-      "url": "https://en.wikipedia.org/wiki/Poisoning_the_well"
-    },
-    "summary": "Informal · Red herring fallacy: Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.",
-    "confusedWith": [
-      {
-        "term": "Ad hominem",
-        "slug": "ad-hominem",
-        "tell": "Poisoning the well attacks in advance and by implication; ad hominem answers something that was actually said.",
-        "path": "/fallacies/ad-hominem/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Appeal to motive",
-        "slug": "appeal-to-motive",
-        "path": "/fallacies/appeal-to-motive/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Sophistroll",
-        "slug": "sophistroll",
-        "path": "/species/sophistroll/"
-      }
-    ]
-  },
-  {
-    "term": "Appeal to motive",
-    "slug": "appeal-to-motive",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-motive/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Also the circumstantial ad hominem: the argument is answered with an account of why the arguer wants it to be true.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A claim has been made by someone with an obvious interest in it."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The reply is entirely about who benefits, and the claim’s evidence is not mentioned."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Separate interest from evidence: ask what the numbers say, then ask who profits. Both questions have answers and only one is about truth."
-      }
-    ],
-    "voice": "The reply is entirely about who benefits, and the claim’s evidence is not mentioned.",
-    "senses": [
-      "Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
-      "It works because motives are real and often relevant. But a motive explains why someone is talking, not whether what they said is accurate - and the audience conflates the two."
-    ],
-    "notes": [],
-    "example": "“Of course the landlord says rents are fine - he owns the building.” He does; the rent roll is still a document.",
-    "cite": {
-      "label": "Wikipedia · Appeal to motive",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_motive"
-    },
-    "summary": "Informal · Red herring fallacy: Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
-    "confusedWith": [
-      {
-        "term": "Ad hominem",
-        "slug": "ad-hominem",
-        "tell": "Appeal to motive attacks the reason behind the claim; ad hominem attacks the person’s character or record.",
-        "path": "/fallacies/ad-hominem/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Poisoning the well",
-        "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Xenophobricator",
-        "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
-      }
-    ]
-  },
-  {
     "term": "Appeal to ridicule",
     "slug": "appeal-to-ridicule",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/appeal-to-ridicule/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Also argumentum ad ridiculum: the claim is answered with a joke about it, and the joke counts as the answer.",
@@ -6113,104 +6860,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Appeal to pity",
-    "slug": "appeal-to-pity",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-pity/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad misericordiam - the claim is supported by how much its speaker has suffered.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A claim or a failing needs support and the speaker has a sympathetic history."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The case rests on what it cost the speaker, not on what the evidence shows."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Separate the hardship from the question: acknowledge the cost, then ask what the claim actually says."
-      }
-    ],
-    "voice": "The case rests on what it cost the speaker, not on what the evidence shows.",
-    "senses": [
-      "Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.",
-      "It works because sympathy is a real moral response and the hardship is often genuine. Neither fact tells you whether the claim is accurate."
-    ],
-    "notes": [],
-    "example": "“I lost my job over this, so you know I am telling the truth.” Losing a job is terrible and says nothing about the facts.",
-    "cite": {
-      "label": "Wikipedia · Appeal to pity",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_pity"
-    },
-    "summary": "Informal · Red herring fallacy: Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.",
-    "confusedWith": [
-      {
-        "term": "Appeal to emotion",
-        "slug": "appeal-to-emotion",
-        "tell": "Pity is the specific channel; the emotional appeal is the whole family.",
-        "path": "/fallacies/appeal-to-emotion/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Tu quoque",
-        "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Martyrholic",
-        "slug": "martyrholic",
-        "path": "/species/martyrholic/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Plutomartyr",
-        "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Group chat",
-        "slug": "group-chat",
-        "path": "/habitats/group-chat/"
-      }
-    ]
-  },
-  {
     "term": "Argumentum ad populum",
     "slug": "argumentum-ad-populum",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/argumentum-ad-populum/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: “to the people” - the crowd is treated as the evidence, and the bandwagon as the proof.",
@@ -6286,104 +6943,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Ad nauseam",
-    "slug": "ad-nauseam",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/ad-nauseam/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: “to the point of sickness” - the argument that wins by making the audience tired.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Relevance"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A claim has been answered once and the answer was not accepted."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The same sentence returns unchanged, and the replies get shorter."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Answer once, note that the answer stands, and stop. Repetition is a contest of stamina, and it can be declined."
-      }
-    ],
-    "voice": "The same sentence returns unchanged, and the replies get shorter.",
-    "senses": [
-      "Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.",
-      "It works on volume rather than content. Nobody can answer the same sentence forty times, so the fortieth repetition lands unanswered and looks unanswerable."
-    ],
-    "notes": [],
-    "example": "“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.” Three sentences, one claim, no count.",
-    "cite": {
-      "label": "Wikipedia · Ad nauseam",
-      "url": "https://en.wikipedia.org/wiki/Ad_nauseam"
-    },
-    "summary": "Informal · Relevance fallacy: Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.",
-    "confusedWith": [
-      {
-        "term": "Proof by assertion",
-        "slug": "proof-by-assertion",
-        "tell": "Proof by assertion repeats to sound certain; ad nauseam repeats to make the audience stop asking.",
-        "path": "/fallacies/proof-by-assertion/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Gish gallop",
-        "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Algodemic",
-        "slug": "algodemic",
-        "path": "/species/algodemic/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Slopagandist",
-        "slug": "slopagandist",
-        "path": "/species/slopagandist/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Cable panel",
-        "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
-      }
-    ]
-  },
-  {
     "term": "Thought-terminating cliché",
     "slug": "thought-terminating-cliche",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/thought-terminating-cliche/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Named by Robert Jay Lifton in his study of thought reform: a phrase that ends the thinking rather than the question.",
@@ -6466,104 +7033,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Nut-picking",
-    "slug": "nut-picking",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/nut-picking/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From “nut” in the American sense: cherry picking the most extreme case and calling it the group.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Faulty generalization"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A group’s worst member is easier to find than its actual position."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The reply is a screenshot of someone unrepresentative, presented as the movement’s face."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask whether the case is typical, and who speaks for the group. If nobody does, the loudest member is a poor proxy."
-      }
-    ],
-    "voice": "The reply is a screenshot of someone unrepresentative, presented as the movement’s face.",
-    "senses": [
-      "Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
-      "It works because the extreme case is vivid and the movement is large. Any sizeable group contains someone who will embarrass it, so the example is always available and never representative."
-    ],
-    "notes": [],
-    "example": "“Look at this comment, this is what they all think.” One comment, four hundred thousand readers, no survey.",
-    "cite": {
-      "label": "Wikipedia · Nutpicking",
-      "url": "https://en.wikipedia.org/wiki/Nutpicking"
-    },
-    "summary": "Informal · Faulty generalization fallacy: Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
-    "confusedWith": [
-      {
-        "term": "Cherry picking",
-        "slug": "cherry-picking",
-        "tell": "Nut-picking is cherry picking where the cherries are people, chosen for being the worst available.",
-        "path": "/fallacies/cherry-picking/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Hasty generalization",
-        "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Biasographer",
-        "slug": "biasographer",
-        "path": "/species/biasographer/"
-      },
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Gallopologist",
-        "slug": "gallopologist",
-        "path": "/species/gallopologist/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Comment section",
-        "slug": "comment-section",
-        "path": "/habitats/comment-section/"
-      }
-    ]
-  },
-  {
     "term": "False attribution",
     "slug": "false-attribution",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/false-attribution/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Also quoting out of context: the words are real, the sentence they were in is gone.",
@@ -6590,7 +7067,7 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Open the source and read the paragraph. Attribution is checkable, which makes this the most falsifiable fallacy in the appendix."
+        "value": "Open the source and read the paragraph. Attribution is checkable, which makes this the most falsifiable fallacy in the guide."
       }
     ],
     "voice": "The quotation marks are doing the work, and the surrounding sentence has been removed.",
@@ -6651,9 +7128,9 @@ export const entries = [
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/shifting-the-burden-of-proof/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: onus probandi. The burden sits with whoever makes the claim - and the shift is the act of handing it over.",
@@ -6729,97 +7206,14 @@ export const entries = [
     ]
   },
   {
-    "term": "Sealioning",
-    "slug": "sealioning",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/sealioning/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "From the webcomic: a sea lion follows you home, politely demanding that you justify yourself, forever.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Relevance"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "Someone has made a point and stopped engaging."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "A polite question arrives, then another, each one requiring homework, none of them answering anything."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Name the pattern, not the message: state that the questions are endless and invite one. Answering the tenth is what keeps it going."
-      }
-    ],
-    "voice": "A polite question arrives, then another, each one requiring homework, none of them answering anything.",
-    "senses": [
-      "Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.",
-      "It works because every single request is reasonable. Only the sequence is the tactic, and a sequence is invisible in any one message - which is why it is so hard to call out without looking rude."
-    ],
-    "notes": [],
-    "example": "“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.” Four polite requests, one derailed argument.",
-    "cite": {
-      "label": "Wikipedia · Sealioning",
-      "url": "https://en.wikipedia.org/wiki/Sealioning"
-    },
-    "summary": "Informal · Relevance fallacy: Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.",
-    "confusedWith": [
-      {
-        "term": "Shifting the burden of proof",
-        "slug": "shifting-the-burden-of-proof",
-        "tell": "The shift hands over the burden once; sealioning hands it over indefinitely, one request at a time.",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Loaded question",
-        "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "JAQing Off",
-        "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Comment section",
-        "slug": "comment-section",
-        "path": "/habitats/comment-section/"
-      }
-    ]
-  },
-  {
     "term": "Gish gallop",
     "slug": "gish-gallop",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/gish-gallop/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Named after Duane Gish, who debated by assertion density: more claims per minute than anyone could answer.",
@@ -6902,242 +7296,14 @@ export const entries = [
     ]
   },
   {
-    "term": "I'm entitled to my opinion",
-    "slug": "im-entitled-to-my-opinion",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/im-entitled-to-my-opinion/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "A legal phrase spent as an epistemic one: the right to hold a view is offered as a reason it cannot be challenged.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A factual claim has been challenged with evidence."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The reply asserts a right rather than an argument, and the evidence is left standing."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Grant the right and return to the claim: opinions are free, and claims are still true or false."
-      }
-    ],
-    "voice": "The reply asserts a right rather than an argument, and the evidence is left standing.",
-    "senses": [
-      "Ending a dispute about facts by asserting the right to hold an opinion, as though the right settled the question.",
-      "It works because the entitlement is real. Everyone is entitled to their opinion, and nobody is entitled to their own facts - the sentence fuses the two so the second disappears into the first."
-    ],
-    "notes": [],
-    "example": "“I am entitled to my opinion.” You are. The water is still poisoned, and the entitlement has not tested it.",
-    "cite": {
-      "label": "Wikipedia · I'm entitled to my opinion",
-      "url": "https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion"
-    },
-    "summary": "Informal · Red herring fallacy: Ending a dispute about facts by asserting the right to hold an opinion, as though the right settled the question.",
-    "confusedWith": [
-      {
-        "term": "Proof by assertion",
-        "slug": "proof-by-assertion",
-        "tell": "The assertion defends the claim; the entitlement defends the person holding it.",
-        "path": "/fallacies/proof-by-assertion/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Equivocation",
-        "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
-      }
-    ]
-  },
-  {
-    "term": "Appeal to novelty",
-    "slug": "appeal-to-novelty",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-novelty/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad novitatem - the newest thing is treated as the best thing, and the year as an argument.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A practice or claim is being defended and its only advantage is being recent."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The support is a date: it is 2026, nobody does that anymore."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask what changed. If nothing changed in the evidence, the calendar is not an argument."
-      }
-    ],
-    "voice": "The support is a date: it is 2026, nobody does that anymore.",
-    "senses": [
-      "Treating a claim or a practice as correct because it is new, or an older one as wrong because it is old.",
-      "It works because progress is real and the future usually arrives. Recency is genuine evidence of relevance; it is not evidence of correctness, and the two are easy to confuse in a feed."
-    ],
-    "notes": [],
-    "example": "“Nobody uses cash anymore.” Most people still do; the sentence is about the future the speaker would like.",
-    "cite": {
-      "label": "Wikipedia · Appeal to novelty",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_novelty"
-    },
-    "summary": "Informal · Red herring fallacy: Treating a claim or a practice as correct because it is new, or an older one as wrong because it is old.",
-    "confusedWith": [
-      {
-        "term": "Appeal to tradition",
-        "slug": "appeal-to-tradition",
-        "tell": "Tradition cites age as proof; novelty cites youth as proof. Both substitute a timestamp for a reason.",
-        "path": "/fallacies/appeal-to-tradition/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Appeal to nature",
-        "slug": "appeal-to-nature",
-        "path": "/fallacies/appeal-to-nature/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Algodemic",
-        "slug": "algodemic",
-        "path": "/species/algodemic/"
-      }
-    ]
-  },
-  {
-    "term": "Appeal to consequences",
-    "slug": "appeal-to-consequences",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/appeal-to-consequences/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ad consequentiam - the belief is judged by how it would feel for it to be true.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Red herring"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A claim has implications the speaker cannot accept."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The reply describes what would happen if the claim were true, and stops there."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Separate the two questions: what is true, and what to do about it. Disliking the second answer does not change the first."
-      }
-    ],
-    "voice": "The reply describes what would happen if the claim were true, and stops there.",
-    "senses": [
-      "Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.",
-      "It works because consequences are legitimately part of policy - just not of truth. The sentence moves from what follows to what is, and the move is one word wide."
-    ],
-    "notes": [],
-    "example": "“If that were true, the whole policy would be indefensible.” It may well be indefensible; the audit found what it found.",
-    "cite": {
-      "label": "Wikipedia · Appeal to consequences",
-      "url": "https://en.wikipedia.org/wiki/Appeal_to_consequences"
-    },
-    "summary": "Informal · Red herring fallacy: Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.",
-    "confusedWith": [
-      {
-        "term": "Appeal to fear",
-        "slug": "appeal-to-fear",
-        "tell": "Fear forecasts the bad outcome to end the argument; consequences use the bad outcome as a disproof.",
-        "path": "/fallacies/appeal-to-fear/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Slippery slope",
-        "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Dramagogue",
-        "slug": "dramagogue",
-        "path": "/species/dramagogue/"
-      }
-    ]
-  },
-  {
     "term": "Appeal to the stone",
     "slug": "appeal-to-the-stone",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "path": "/fallacies/appeal-to-the-stone/",
-    "chapter": "fallacies",
+    "chapter": "strays",
     "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
+    "chapterTitle": "Stray Arguments",
     "partOfSpeech": "noun",
     "ipa": null,
     "etymology": "Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying “I refute it thus”.",
@@ -7216,172 +7382,6 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
-      }
-    ]
-  },
-  {
-    "term": "False balance",
-    "slug": "false-balance",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/false-balance/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Also bothsidesism: the studio graph with two guests, as though the shape of the panel were the shape of the evidence.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Statistical"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "One position is supported by the evidence and the other by its existence."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The two sides get the same airtime, and the audience infers the same standing."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask what the evidence weighs, not what the panel looks like. Balance is about who gets heard; accuracy is about what is true."
-      }
-    ],
-    "voice": "The two sides get the same airtime, and the audience infers the same standing.",
-    "senses": [
-      "Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer than an accurate one.",
-      "It works because fairness is a real journalistic virtue and symmetry looks like it. But a coin that lands heads ninety times out of a hundred is not evenly disputed, and equal time misrepresents it as such."
-    ],
-    "notes": [],
-    "example": "“Some say the bridge is safe, others say it will fall.” One of those groups has the inspection report.",
-    "cite": {
-      "label": "Wikipedia · False balance",
-      "url": "https://en.wikipedia.org/wiki/False_balance"
-    },
-    "summary": "Informal · Statistical fallacy: Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer than an...",
-    "confusedWith": [
-      {
-        "term": "False equivalence",
-        "slug": "false-equivalence",
-        "tell": "Equivalence says the two claims are alike; false balance gives them alike treatment and lets the audience draw the first conclusion.",
-        "path": "/fallacies/false-equivalence/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Argument to moderation",
-        "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Capitulectual",
-        "slug": "capitulectual",
-        "path": "/species/capitulectual/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Cable panel",
-        "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
-      }
-    ]
-  },
-  {
-    "term": "Argument from silence",
-    "slug": "argument-from-silence",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "path": "/fallacies/argument-from-silence/",
-    "chapter": "fallacies",
-    "chapterRoman": "V",
-    "chapterTitle": "The Fallacies (an appendix)",
-    "partOfSpeech": "noun",
-    "ipa": null,
-    "etymology": "Latin: argumentum ex silentio - nothing was said, so the nothing is read as a statement.",
-    "identification": [
-      {
-        "key": "family",
-        "label": "Family",
-        "type": "text",
-        "value": "Informal · Relevance"
-      },
-      {
-        "key": "committed_when",
-        "label": "Committed when",
-        "type": "text",
-        "value": "A record is missing and a conclusion is convenient."
-      },
-      {
-        "key": "tell",
-        "label": "The tell",
-        "type": "text",
-        "value": "The argument rests on what nobody wrote down."
-      },
-      {
-        "key": "counter",
-        "label": "Counter",
-        "type": "text",
-        "value": "Ask whether anyone would have written it down. If the answer is no, the silence is not evidence of anything."
-      }
-    ],
-    "voice": "The argument rests on what nobody wrote down.",
-    "senses": [
-      "Concluding something from the absence of a record, when the record would not have mentioned it either way.",
-      "It works because silence is genuinely informative sometimes. Whether it is depends entirely on whether the silence was supposed to be broken, and that question is the one the sentence skips."
-    ],
-    "notes": [],
-    "example": "“No complaints were filed, so everyone was satisfied.” Nobody knew there was a form.",
-    "cite": {
-      "label": "Wikipedia · Argument from silence",
-      "url": "https://en.wikipedia.org/wiki/Argument_from_silence"
-    },
-    "summary": "Informal · Relevance fallacy: Concluding something from the absence of a record, when the record would not have mentioned it either way.",
-    "confusedWith": [
-      {
-        "term": "Argument from ignorance",
-        "slug": "argument-from-ignorance",
-        "tell": "Ignorance is about missing evidence in general; silence is about a specific record that was never kept.",
-        "path": "/fallacies/argument-from-ignorance/"
-      }
-    ],
-    "related": [
-      {
-        "term": "Survivorship bias",
-        "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
-      }
-    ],
-    "edges": [],
-    "backlinks": [
-      {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Bootcurious",
-        "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
-      },
-      {
-        "rel": "houses",
-        "label": "Found in",
-        "term": "Group chat",
-        "slug": "group-chat",
-        "path": "/habitats/group-chat/"
       }
     ]
   }

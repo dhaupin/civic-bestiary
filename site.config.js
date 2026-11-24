@@ -15,7 +15,7 @@ export default {
   badge: 'vol. 1',
   tagline: 'A field guide to the creatures of the body politic.',
   description:
-    'A field guide to the creatures of the body politic: 28 coinages for performative patriotism and bad-faith debate, plus 30 documented fallacies.',
+    'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
   // The deploy origin. Cloudflare Pages serves the project at <project>.pages.dev
   // until a custom domain is attached - then change this one line, and rebuild:
   // prestruct bakes it into canonicals, OG tags, JSON-LD, sitemap, and llms.txt.
@@ -62,7 +62,7 @@ export default {
       meta: {
         title: 'The Civic Bestiary - creatures of the body politic',
         description:
-          'A field guide to the creatures of the body politic: 28 coinages for performative patriotism and bad-faith debate, plus 30 documented fallacies.',
+          'A field guide to the creatures of the body politic, and the documented fallacies they commit - sourced, crosslinked, and readable in both directions.',
       },
     },
     {

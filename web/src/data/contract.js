@@ -30,9 +30,9 @@ export default {
       "title": "Fearmongering, Grift & Algorithmic Radicalization"
     },
     {
-      "id": "fallacies",
+      "id": "strays",
       "roman": "V",
-      "title": "The Fallacies (an appendix)"
+      "title": "Stray Arguments"
     }
   ],
   "kinds": {

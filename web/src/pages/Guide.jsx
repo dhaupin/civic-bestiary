@@ -69,11 +69,11 @@ function headingFor(view) {
   return {
     eyebrow: `${stats.coinages} coinages · ${stats.fallacies} fallacies · ${chapters.length} chapters`,
     title: 'The field guide',
-    sub: 'Not everything here is a creature. Species are the actors, moves are what they do, abilities belong to offices, habitats are the places that house them, and buffs are the conditions they run under. The appendix names the documented fallacies they commit. Search by name, or drill down by kind and chapter.',
+    sub: 'Not everything here is a creature. Species are the actors, moves are what they do, abilities belong to offices, habitats are the places that house them, and buffs are the conditions they run under. Each chapter ends with the documented fallacies its creatures commit, and the ones no chapter owns are collected as strays. Search by name, or drill down by kind and chapter.',
     rows: [],
     path: '/guide/',
     description:
-      'Every entry in the bestiary, by kind and chapter - species, moves, abilities, habitats, buffs, and the appendix of real fallacies.',
+      'Every entry in the bestiary, by kind and chapter - species, moves, abilities, habitats, buffs, and the documented fallacies they commit.',
   }
 }
 
@@ -109,10 +109,10 @@ export default function Guide() {
     [master, letter, query],
   )
 
-  // The appendix carries its own taxonomy: within it, the useful grouping is
-  // the accredited family, not the guide's chapters - every entry there is in
-  // the same chapter, so chapter headings would say nothing.
-  const appendix = view.kind?.id === 'fallacy' || view.chapter?.id === 'fallacies'
+  // Where the view is only fallacies - their kind page, or the strays chapter -
+  // the useful grouping is the accredited family, not the guide's chapters,
+  // because every entry there shares a chapter and the heading says nothing.
+  const appendix = view.kind?.id === 'fallacy' || view.chapter?.id === 'strays'
   const groups = useMemo(() => {
     if (!appendix) {
       return chapters
@@ -292,6 +292,13 @@ export default function Guide() {
 
         {groups.map((group) => {
           const own = group.items
+          // A chapter is the coinages first, then the documented names for what
+          // they are doing. The sub-head is the seam between the two.
+          const coined = own.filter((entry) => entry.kind !== 'fallacy')
+          const filed = own.filter((entry) => entry.kind === 'fallacy')
+          const runs = coined.length && filed.length
+            ? [{ key: 'coined', label: null, items: coined }, { key: 'filed', label: 'Documented fallacies', items: filed }]
+            : [{ key: 'all', label: null, items: own }]
           return (
             <div key={group.key} className="group">
               {(!view.chapter || appendix) && (
@@ -300,7 +307,15 @@ export default function Guide() {
                   {group.label}
                 </h2>
               )}
-              {own.map((entry) => (
+              {runs.map((run) => (
+                <div key={run.key} className="run">
+                  {run.label && (
+                    <h3 className="group-sub">
+                      {run.label}
+                      <span className="group-sub-count">{run.items.length}</span>
+                    </h3>
+                  )}
+                  {run.items.map((entry) => (
                 <article key={entry.slug} id={entry.slug} className="listing">
                   <div className="listing-head">
                     <h3 className="listing-name">
@@ -330,6 +345,8 @@ export default function Guide() {
                     Read the full entry<span aria-hidden="true"> →</span>
                   </Link>
                 </article>
+                  ))}
+                </div>
               ))}
             </div>
           )
