@@ -75,6 +75,12 @@ Never commit to `main` directly, and never force-push `staging`: a divergence is
 meant to fail the sync job loudly, because that means a commit landed on staging
 that main does not have.
 
+Promote with a merge commit (`gh pr merge --merge`), not a squash. A squash lands
+the content on `main` without staging's commits, so staging stops being an ancestor
+of `main` and `staging-ff-sync` fails - by design, since it cannot tell that
+divergence from a real one. Recovering means deleting `staging` and re-running the
+sync job, which recreates it at `main`.
+
 ## Validation
 
 `build.py` refuses to render when a term is duplicated, an entry is missing a required field,
