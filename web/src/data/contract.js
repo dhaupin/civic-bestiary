@@ -415,8 +415,8 @@ export default {
       "type": "cite",
       "required": false,
       "requiredInIssue": false,
-      "hint": "For reference entries: where the documented account lives (label + URL). Coinages have no source - they are invented, and say so by leaving this empty.",
-      "example": "Wikipedia · Ad hominem -> https://en.wikipedia.org/wiki/Ad_hominem"
+      "hint": "Where the referent lives (label + URL), verified to resolve. A fallacy cites the documented account. A coinage cites the real institution, doctrine or procedure it is built on - Citizens United, the shadow docket, the pocket veto - because that is the thing a sceptical reader will look up. A character built on nothing real leaves this empty.",
+      "example": "Wikipedia · Pocket veto -> https://en.wikipedia.org/wiki/Pocket_veto"
     }
   ]
 }

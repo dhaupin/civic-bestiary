@@ -58,10 +58,15 @@ def entry_summary(entry, spec):
     return plain
 
 
-def summarize(text):
-    """First sense as a meta description: POS prefix and markdown stripped."""
+def plain_sense(text):
+    """A sense with its POS prefix and markdown stripped, nothing removed."""
     plain = " ".join(text.replace("**", "").replace("*", "").split())
-    plain = re.sub(r"^\((noun|adjective|verb|adverb)\)\s*", "", plain)
+    return re.sub(r"^\((noun|adjective|verb|adverb)\)\s*", "", plain)
+
+
+def summarize(text):
+    """First sense as a meta description, clipped to fit a search result."""
+    plain = plain_sense(text)
     if len(plain) <= SUMMARY_LIMIT:
         return plain
     return plain[:SUMMARY_LIMIT].rsplit(" ", 1)[0].rstrip(" ,;:-") + "..."
@@ -135,6 +140,7 @@ def build(doc):
                 "example": typographic(unwrap_emphasis(entry["example"])),
                 "cite": entry.get("cite"),
                 "summary": typographic(entry_summary(entry, spec)),
+                "definition": typographic(plain_sense(entry["senses"][0])),
                 "confusedWith": [
                     {"term": twin["term"], "slug": slugify(twin["term"]), "tell": typographic(twin["tell"])}
                     for twin in entry["confused_with"]

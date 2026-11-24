@@ -236,6 +236,49 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .card-link:hover h3 { color: var(--accent); }
 .card p { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.55; }
 
+/* --- the draw: one entry, at random ------------------------------------- */
+/* The panel holds the whole entry - head, identification rows, actions - so a
+   reader never mistakes a card edge for the end of the thing. */
+.draw { border: 1px solid var(--line); background: var(--surface); margin: 0 0 20px; }
+.draw-head {
+  display: block; padding: 24px 26px 20px; color: inherit; text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+.draw-head h3 {
+  font-family: var(--font-display); font-size: 26px; font-weight: 600;
+  letter-spacing: -0.01em; margin: 0 0 10px;
+}
+.draw-head:hover h3 { color: var(--accent); }
+.draw-summary { margin: 0; max-width: 64ch; color: var(--ink-soft); font-size: 15px; line-height: 1.6; }
+.draw-marks { margin: 0; padding: 0 26px; }
+.draw-marks > div {
+  display: grid; grid-template-columns: 118px 1fr; gap: 20px; align-items: baseline;
+  padding: 14px 0; border-bottom: 1px solid var(--line);
+}
+.draw-marks > div:last-child { border-bottom: none; }
+.draw-marks dt {
+  margin: 0; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ink-soft);
+}
+.draw-marks dd { margin: 0; font-size: 15px; line-height: 1.55; }
+.draw-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.draw-list li { position: relative; padding-left: 16px; }
+.draw-list li::before {
+  content: ""; position: absolute; left: 0; top: 0.62em;
+  width: 5px; height: 5px; background: var(--accent); border-radius: 50%;
+}
+.draw-foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  flex-wrap: wrap; padding: 14px 26px; border-top: 1px solid var(--line);
+  background: var(--raised);
+}
+.draw-more {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--accent); text-decoration: none;
+}
+.draw-more:hover { text-decoration: underline; }
+.draw-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
 /* --- browse ------------------------------------------------------------- */
 .page-head { padding: 40px 0 24px; border-bottom: 1px solid var(--rule); margin-bottom: 26px; }
 .page-head h1 { font-size: clamp(34px, 5vw, 50px); margin: 0 0 10px; }
@@ -686,6 +729,7 @@ button.chip { appearance: none; }
 
 @media (max-width: 780px) {
   .contribute-steps { grid-template-columns: 1fr; }
+  .draw-marks > div { grid-template-columns: 1fr; gap: 5px; }
   .contribute-grid { grid-template-columns: 1fr; gap: 30px; }
   .contract > div { grid-template-columns: 1fr; gap: 4px; }
 }

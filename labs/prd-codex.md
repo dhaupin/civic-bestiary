@@ -119,7 +119,7 @@ Common fields, in the order the schema declares them:
 | `confused_with` | Neighbours and the one thing that separates them. |
 | `related` | Two or three existing terms. The graph must stay connected. |
 | `edges` | Typed relations (below). Author one direction; the inverse renders itself. |
-| `cite` | Reference entries only (fallacies): label + URL. Coinages have no source. |
+| `cite` | Label + URL, verified to resolve, pointing at the referent: the documented fallacy for reference entries, the real doctrine or office a coinage is built on. Characters with no real referent carry none. |
 
 Kind-specific identification rows, which render as the entry's field-guide block:
 

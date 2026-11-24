@@ -162,6 +162,22 @@ coinages: the review bar is that the account is real and traceable, so every fal
 checking). Definitions are written in the guide's voice; nothing about the mechanism may be invented. Those
 pages have no `ipa`.
 
+## The sources
+
+A coinage is invented. The thing it is built on usually is not, and that is what a reader who suspects the
+guide of making things up will go looking for. So a coinage cites its **referent**: the pocket veto, the
+shadow docket, the blue slip, the ombudsman, the poll worker. `cite: { label, url }`, label first naming the
+source (`Wikipedia · Shadow docket`), URL verified to resolve. A character with no real referent - the
+passoffist, the sabottriot, the honeymoan - carries no `cite` and says so by leaving it empty.
+
+Two rules, both enforced by nothing but attention:
+
+- **Cite the thing, not the word.** The citation points at the doctrine, office or procedure the character
+  names, never at a page that would only exist because this guide exists. Do not cite the coinage back to
+  itself.
+- **Verify, then write.** `curl -sIL <url>` before the record lands. A dead link is worse than no link: it
+  tells the sceptical reader they were right.
+
 **The graph is the default, not the law.** A fallacy belongs to the chapter whose characters commit it - count
 the `commits` edges into it and take the majority. If the committers split across chapters, no chapter owns it
 and it goes to chapter `normalization` ("Normalization, Numbness & the Noise Floor"), which is where tu quoque,
