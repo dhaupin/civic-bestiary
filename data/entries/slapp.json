@@ -1,0 +1,44 @@
+{
+  "term": "SLAPP",
+  "kind": "ability",
+  "chapter": "hypocrisy-revisionism",
+  "position": 15,
+  "part_of_speech": "noun / verb",
+  "ipa": "/slæp/",
+  "etymology": "Acronym: Strategic Lawsuit Against Public Participation - a suit whose purpose is the chilling, not the winning.",
+  "effect": "Turns a lawsuit into a gag order by making the cost of speaking the punishment.",
+  "available_to": "Anyone with a lawyer, a thin-skinned client, and a critic with fewer resources.",
+  "counter": "An anti-SLAPP statute with an automatic stay and a fee shift, so the defendant's costs land on the plaintiff who filed it.",
+  "confused_with": [
+    {
+      "term": "NDA",
+      "tell": "The NDA buys silence before publication; the SLAPP bills for it afterwards."
+    }
+  ],
+  "senses": [
+    "A suit filed not to win but to cost: the claim is weak, the discovery is wide, and the point is that defending it takes years the critic does not have.",
+    "It works because the legal system prices speech in billable hours. Winning is optional; the filing alone raises the price of the next article, and the next editor remembers the last one."
+  ],
+  "notes": [],
+  "example": "*\"The review was accurate and the **SLAPP** was dismissed in fourteen months, by which time the writer had spent her savings and the magazine had stopped assigning the beat.\"*",
+  "related": [
+    "Qualified immunity",
+    "Judge shopping",
+    "Blueslip"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to fear"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from silence"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

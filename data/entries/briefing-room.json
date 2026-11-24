@@ -24,7 +24,7 @@
   "related": [
     "Spin room",
     "Comment section",
-    "Group chat"
+    "Access"
   ],
   "edges": [
     {
@@ -38,6 +38,10 @@
     {
       "rel": "commits",
       "to": "Appeal to authority"
+    },
+    {
+      "rel": "houses",
+      "to": "Flood the zone"
     }
   ],
   "sort": {

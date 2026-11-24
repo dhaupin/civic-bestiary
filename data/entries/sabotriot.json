@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈsæb.ə.tri.ət/",
   "etymology": "Blend of \"saboteur\" + \"patriot\"",
-  "range": "Voting booths, clinic parking lots, and the rural hospital that just closed.",
+  "occasion": "A service that has just closed, and a ballot that closed it.",
   "call": "\"I voted for the guy who'll cut it.\"",
-  "field_marks": [
+  "tell": [
     "Votes against the subsidy, keeps the check",
     "Waves the flag at the shuttered plant",
     "Blames the other party for the closure"
   ],
+  "counter": "Put the vote next to the closure. This is not a private hypocrisy; it is a public choice with a public receipt.",
   "confused_with": [
     {
       "term": "Playtriot",

@@ -1,0 +1,40 @@
+{
+  "term": "Heckler's veto",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 19,
+  "part_of_speech": "noun",
+  "ipa": "/ˈhɛk.ləz ˈviː.təʊ/",
+  "etymology": "English: the heckler who does not win the argument, and ends the event instead.",
+  "trigger": "A speaker whose event can be shut down more cheaply than it can be answered.",
+  "tell": "A chant timed to the microphone, a fire alarm at the right minute, and a venue that decides the booking is not worth the police.",
+  "counter": "Do not cancel. Move the room, publish the transcript, and let the disruption cost the disruptor the audience.",
+  "confused_with": [
+    {
+      "term": "Decorumancer",
+      "tell": "The decorumancer silences with the rule; the heckler's veto silences with the noise the rule cannot stop."
+    }
+  ],
+  "senses": [
+    "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is not worth holding.",
+    "It works because the cost is carried by somebody else. The heckler risks a fine; the organiser risks the insurance, and the calculation that ends the event is made by a third party who was never part of the argument."
+  ],
+  "notes": [],
+  "example": "*\"The talk was cancelled ninety minutes before it started, not because anyone won the argument but because the **heckler's veto** made the room uninsurable.\"*",
+  "related": [
+    "Rally",
+    "School board meeting",
+    "Comment section"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to fear"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

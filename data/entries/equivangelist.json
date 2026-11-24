@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ɪˈkwɪv.æn.dʒə.lɪst/",
   "etymology": "Blend of \"equivocate\" + \"evangelist\"",
-  "range": "Op-ed pages and any panel that needs both sides.",
+  "occasion": "A panel booked to be balanced, and a fact that arrived unbalanced.",
   "call": "\"Both sides do it.\"",
-  "field_marks": [
+  "tell": [
     "Weighs a fact against a feeling",
     "Finds the middle of a mob",
     "Treats balance as truth"
   ],
+  "counter": "Ask which side the evidence is on. Symmetry is a claim about the evidence, not a courtesy owed to the guests.",
   "confused_with": [
     {
       "term": "Capitulectual",

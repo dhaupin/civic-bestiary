@@ -13,16 +13,16 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 113,
-  "coinages": 63,
+  "entries": 128,
+  "coinages": 78,
   "fallacies": 50,
   "chapters": 5,
   "kinds": {
     "species": 24,
-    "move": 10,
-    "ability": 10,
-    "habitat": 10,
-    "buff": 9,
+    "move": 14,
+    "ability": 17,
+    "habitat": 12,
+    "buff": 11,
     "fallacy": 50
   }
 }
@@ -54,11 +54,11 @@ export const kinds = {
     "plural": "Species",
     "path": "/species/",
     "voice": "call",
-    "blurb": "An actor you can point at: the person running the bit.",
+    "blurb": "A recognisable pattern of behaviour, worn like a costume - point at the pattern, not at a person.",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text"
       },
       {
@@ -67,9 +67,14 @@ export const kinds = {
         "type": "text"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list"
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text"
       }
     ],
     "sorts": [
@@ -252,6 +257,8 @@ export const chapters = [
       "nightdocket",
       "coattails",
       "convention-bounce",
+      "cloture",
+      "discharge-petition",
       "slippery-slope",
       "no-true-scotsman",
       "appeal-to-tradition",
@@ -283,6 +290,10 @@ export const chapters = [
       "dead-cat",
       "trial-balloon",
       "friday-news-dump",
+      "astroturfing",
+      "motte-hop",
+      "hecklers-veto",
+      "flood-the-zone",
       "ad-hominem",
       "straw-man",
       "appeal-to-authority",
@@ -317,6 +328,11 @@ export const chapters = [
       "recessure",
       "signaway",
       "lame-duck",
+      "judge-shopping",
+      "slapp",
+      "nda",
+      "qualified-immunity",
+      "consent-decree",
       "two-wrongs-make-a-right",
       "post-hoc-ergo-propter-hoc",
       "special-pleading",
@@ -350,6 +366,10 @@ export const chapters = [
       "spin-room",
       "rally",
       "frankincense",
+      "pseudo-event",
+      "perp-walk",
+      "access",
+      "hot-mic",
       "appeal-to-emotion",
       "appeal-to-fear",
       "moving-the-goalposts",
@@ -407,10 +427,10 @@ export const entries = [
     "etymology": "Blend of \"play\" + \"patriot\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Truck beds, county fairs, and the comment section under any local news post."
+        "value": "A question about policy that has just been answered with a question about loyalty."
       },
       {
         "key": "call",
@@ -419,14 +439,20 @@ export const entries = [
         "value": "“Do you support the troops?”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Flag decal on a leased vehicle",
           "Quotes a founder, never a statute",
           "Knows the anthem’s tune, not its third verse"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer the flag question, then ask the policy question again. Patriotism is not a reply, and it does not survive being asked what it costs."
       }
     ],
     "voice": "“Do you support the troops?”",
@@ -525,10 +551,10 @@ export const entries = [
     "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Town-hall microphones, mask mandates, and the queue at the DMV."
+        "value": "A rule that applies to everyone, and a person who has just found out it applies to them."
       },
       {
         "key": "call",
@@ -537,14 +563,20 @@ export const entries = [
         "value": "“It’s a free country.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Confuses a right with an exemption",
           "Cites freedom, never a clause",
           "Loudest where the line is longest"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask which clause, and what it says. A right that cannot be quoted is a preference with a flag on it."
       }
     ],
     "voice": "“It’s a free country.”",
@@ -619,10 +651,10 @@ export const entries = [
     "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Homesteading channels, prepper forums, and the far end of a hardware store."
+        "value": "A conversation about self-reliance, held by someone with a mortgage and a subscription list."
       },
       {
         "key": "call",
@@ -631,14 +663,20 @@ export const entries = [
         "value": "“I could live off the grid tomorrow.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Solar panels on a financed roof",
           "Owns a crossbow, no arrows",
           "Files an HOA complaint about a fence"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what happens on the third day. Preparedness is a supply chain, and the fantasy usually ends where the delivery does."
       }
     ],
     "voice": "“I could live off the grid tomorrow.”",
@@ -720,10 +758,10 @@ export const entries = [
     "etymology": "Blend of \"sovereign citizen\" + \"shill\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "County recorder offices, traffic stops, and the comment section under any court ruling."
+        "value": "A form that has to be signed, at a counter, with a queue behind it."
       },
       {
         "key": "call",
@@ -732,14 +770,20 @@ export const entries = [
         "value": "“I do not consent.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Hand-lettered plate, no registration",
           "Argues in maritime law",
           "Owes back taxes on principle"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask which law, and read it. Consent is a doctrine with a text, and the text is not on the hand-lettered plate."
       }
     ],
     "voice": "“I do not consent.”",
@@ -821,10 +865,10 @@ export const entries = [
     "etymology": "Blend of \"saboteur\" + \"patriot\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Voting booths, clinic parking lots, and the rural hospital that just closed."
+        "value": "A service that has just closed, and a ballot that closed it."
       },
       {
         "key": "call",
@@ -833,14 +877,20 @@ export const entries = [
         "value": "“I voted for the guy who’ll cut it.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Votes against the subsidy, keeps the check",
           "Waves the flag at the shuttered plant",
           "Blames the other party for the closure"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Put the vote next to the closure. This is not a private hypocrisy; it is a public choice with a public receipt."
       }
     ],
     "voice": "“I voted for the guy who’ll cut it.”",
@@ -1014,10 +1064,10 @@ export const entries = [
     "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Cable primetime, the streaming docu-series, and the merch table after the rally."
+        "value": "A commercial break that needs a grievance to sell the next segment."
       },
       {
         "key": "call",
@@ -1026,8 +1076,8 @@ export const entries = [
         "value": "“Folks, they don’t want you to know this.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Every segment ends on a sponsor read",
@@ -1035,6 +1085,12 @@ export const entries = [
           "Says “the country” when meaning “my audience”",
           "No position survives a ratings dip"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what was withheld and who was paid. The audience is the product, and the “they” is usually the sponsor."
       }
     ],
     "voice": "“Folks, they don’t want you to know this.”",
@@ -1111,6 +1167,13 @@ export const entries = [
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
         "path": "/habitats/rubber-chicken-circuit/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Pseudo-event",
+        "slug": "pseudo-event",
+        "path": "/habitats/pseudo-event/"
       }
     ]
   },
@@ -1794,6 +1857,167 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Cloture",
+    "slug": "cloture",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/cloture/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈkləʊ.tʃə/",
+    "position": 16,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "English: from the French clôture, the closing - the motion that ends debate.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Ends a debate by arithmetic, at a price the majority has to pay out of its own calendar."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Sixty senators, or a majority willing to spend the days it takes to get to sixty."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Count the votes before you need them. Cloture is cheap for a majority that already has the number, and a week it cannot spare for one that does not."
+      }
+    ],
+    "voice": "Ends a debate by arithmetic, at a price the majority has to pay out of its own calendar.",
+    "senses": [
+      "The motion that closes debate: a supermajority votes to stop talking and the chamber moves to the question - the procedural exit from a filibuster, priced in session days rather than in votes.",
+      "It works because the price is time, and time is the one thing a majority cannot borrow. The two-step - cloture on the motion to proceed, then cloture on the bill - means a determined minority is charged twice for the same hour."
+    ],
+    "notes": [],
+    "example": "“They had the votes for the bill and not the votes for **cloture**, so the week went to the calendar and the bill went to the next session.”",
+    "cite": null,
+    "summary": "The motion that closes debate: a supermajority votes to stop talking and the chamber moves to the question - the procedural exit from a filibuster...",
+    "confusedWith": [
+      {
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "tell": "The filibluster spends the clock to stop a vote; cloture spends the clock to force one. Same clock, opposite buyer.",
+        "path": "/abilities/filibluster/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Discharge petition",
+        "slug": "discharge-petition",
+        "path": "/abilities/discharge-petition/"
+      },
+      {
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      },
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "path": "/species/gallopologist/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Discharge petition",
+    "slug": "discharge-petition",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/discharge-petition/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/dɪsˈtʃɑːdʒ pəˈtɪʃ.ən/",
+    "position": 17,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: the motion that discharges a bill from the committee that is holding it.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Pulls a bill out of a committee that will not move it, using a majority that has to sign its name."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "A majority of the House - 218 signatures - and a bill that a chair has decided to bury."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Keep the signatures public and the bill moving. A petition is expensive to sign and cheap to schedule, so the cheapest counter is a hearing."
+      }
+    ],
+    "voice": "Pulls a bill out of a committee that will not move it, using a majority that has to sign its name.",
+    "senses": [
+      "The House’s escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218 names, filed with the clerk, open for anyone to read.",
+      "It works because the signature is public and the alternative is invisible. A chair can kill a bill in private; a discharge petition makes every member choose in the open, which is why it is used rarely and threatened constantly."
+    ],
+    "notes": [],
+    "example": "“The bill sat in committee for a year, the **discharge petition** reached 218 on a Tuesday, and the chair scheduled a hearing by Thursday.”",
+    "cite": null,
+    "summary": "The House’s escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218...",
+    "confusedWith": [
+      {
+        "term": "Cloture",
+        "slug": "cloture",
+        "tell": "Cloture ends a debate in the chamber that is having it; a discharge petition takes the bill away from the chamber that is not.",
+        "path": "/abilities/cloture/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "path": "/abilities/filibluster/"
+      },
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
     "term": "Slippery slope",
     "slug": "slippery-slope",
     "kind": "fallacy",
@@ -2249,6 +2473,13 @@ export const entries = [
         "term": "Bluecheck",
         "slug": "bluecheck",
         "path": "/buffs/bluecheck/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Pseudo-event",
+        "slug": "pseudo-event",
+        "path": "/habitats/pseudo-event/"
       }
     ]
   },
@@ -2436,10 +2667,10 @@ export const entries = [
     "etymology": "Blend of \"sophist\" + \"troll\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Reply chains, panel shows, and Thanksgiving after the second drink."
+        "value": "A thread where winning is cheaper than being right."
       },
       {
         "key": "call",
@@ -2448,14 +2679,20 @@ export const entries = [
         "value": "“I’m just asking questions.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Moves the goalpost, never the argument",
           "One straw man, three fallacies",
           "Treats volume as evidence"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what would settle it, then settle it. The troll needs the argument to continue; the answer is to end it."
       }
     ],
     "voice": "“I’m just asking questions.”",
@@ -2553,10 +2790,10 @@ export const entries = [
     "etymology": "Blend of \"illogical\" + \"logician\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Podcast green rooms and any thread that opens with “Actually.”"
+        "value": "A claim that sounds settled, delivered to a room that will not check it."
       },
       {
         "key": "call",
@@ -2565,14 +2802,20 @@ export const entries = [
         "value": "“Do your own research.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Confuses confidence with proof",
           "Anecdote over data, always",
           "Debates the definition, not the claim"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the best single source and read it together. Research is a task, and a task handed to the audience is not an argument."
       }
     ],
     "voice": "“Do your own research.”",
@@ -2756,10 +2999,10 @@ export const entries = [
     "etymology": "Blend of \"trust me, bro\" + \"professor\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Video thumbnails, group chats, and the uncle who did his own research."
+        "value": "A claim that needs an authority it cannot name."
       },
       {
         "key": "call",
@@ -2768,14 +3011,20 @@ export const entries = [
         "value": "“Trust me, bro.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Credentials never named",
           "One graph, no axis",
           "Cites a guy who cites him"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the name, the field, and the paper. Authority is checkable, and the check takes a minute."
       }
     ],
     "voice": "“Trust me, bro.”",
@@ -2852,10 +3101,10 @@ export const entries = [
     "etymology": "Blend of \"bias\" + \"biographer\" / \"bibliographer\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Debate stages and the replies under any fact-check."
+        "value": "A finding that is inconvenient, and a speaker who would rather discuss the person who found it."
       },
       {
         "key": "call",
@@ -2864,14 +3113,20 @@ export const entries = [
         "value": "“Consider the source.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Answers proof with a résumé",
           "Curates a bibliography, reads none",
           "Every source is compromised"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the claim gets wrong. The source’s history can be real and the claim can still be right, and only one of those is on the table."
       }
     ],
     "voice": "“Consider the source.”",
@@ -2955,10 +3210,10 @@ export const entries = [
     "etymology": "Blend of \"bleat\" + \"gatekeeper\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Family group chats and the comment section under any correction."
+        "value": "A correction that has just been published, in front of people who repeated the error."
       },
       {
         "key": "call",
@@ -2967,14 +3222,20 @@ export const entries = [
         "value": "“Fake news.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Repeats the phrase, not the claim",
           "Never opens the link",
           "Corrects the correction"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Read the correction aloud, then ask what else they repeated. The phrase is not a reply to a story, and it does not survive being asked about one."
       }
     ],
     "voice": "“Fake news.”",
@@ -3044,10 +3305,10 @@ export const entries = [
     "etymology": "Blend of \"equivocate\" + \"evangelist\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Op-ed pages and any panel that needs both sides."
+        "value": "A panel booked to be balanced, and a fact that arrived unbalanced."
       },
       {
         "key": "call",
@@ -3056,14 +3317,20 @@ export const entries = [
         "value": "“Both sides do it.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Weighs a fact against a feeling",
           "Finds the middle of a mob",
           "Treats balance as truth"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask which side the evidence is on. Symmetry is a claim about the evidence, not a courtesy owed to the guests."
       }
     ],
     "voice": "“Both sides do it.”",
@@ -3131,10 +3398,10 @@ export const entries = [
     "etymology": "Blend of \"gish gallop\" + \"-ologist\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Long-form podcasts and the filibuster hour of any hearing."
+        "value": "A hearing or a podcast where the clock, and not the argument, decides when it ends."
       },
       {
         "key": "call",
@@ -3143,14 +3410,20 @@ export const entries = [
         "value": "“And another thing -”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Twelve claims, no sources",
           "Wins by exhausting the clock",
           "Changes the subject before the answer"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer one claim, and name which one. A gallop is a race against the clock; the counter is to stop running it."
       }
     ],
     "voice": "“And another thing -”",
@@ -3205,7 +3478,15 @@ export const entries = [
         "path": "/fallacies/nut-picking/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Cloture",
+        "slug": "cloture",
+        "path": "/abilities/cloture/"
+      }
+    ]
   },
   {
     "term": "Decorumancer",
@@ -3227,10 +3508,10 @@ export const entries = [
     "etymology": "Blend of \"decorum\" + \"necromancer\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "City council meetings and the replies to anyone who raises their voice."
+        "value": "A meeting where someone has just raised their voice about something that was done to them."
       },
       {
         "key": "call",
@@ -3239,14 +3520,20 @@ export const entries = [
         "value": "“Let’s keep this civil.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Polite tone, hostile substance",
           "Cites procedure, never the record",
           "Calls anger unprofessional"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer the substance first, then the tone. Civility is a rule for how to disagree, not a reason not to."
       }
     ],
     "voice": "“Let’s keep this civil.”",
@@ -3294,7 +3581,15 @@ export const entries = [
         "path": "/fallacies/ad-hominem/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Discharge petition",
+        "slug": "discharge-petition",
+        "path": "/abilities/discharge-petition/"
+      }
+    ]
   },
   {
     "term": "Comment section",
@@ -3419,6 +3714,13 @@ export const entries = [
         "term": "Receiptbomb",
         "slug": "receiptbomb",
         "path": "/moves/receiptbomb/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Motte hop",
+        "slug": "motte-hop",
+        "path": "/moves/motte-hop/"
       }
     ],
     "backlinks": []
@@ -3975,6 +4277,384 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Astroturfing",
+    "slug": "astroturfing",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/astroturfing/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈæs.trəʊˌtɜː.fɪŋ/",
+    "position": 17,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "From Astroturf, the artificial grass - a grassroots movement with the lawn manufactured.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A decision that needs to look like it has a constituency."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A burst of new accounts using the same phrase, a “local” group with a Washington address, and a comment section that agrees too quickly."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask who is paying, and when the group was incorporated. Grassroots has a membership list; astroturf has an invoice."
+      }
+    ],
+    "voice": "A burst of new accounts using the same phrase, a “local” group with a Washington address, and a comment section that agrees too quickly.",
+    "senses": [
+      "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule.",
+      "It works because numbers are read as consent. A legislator cannot count the people behind the letters, so forty identical emails from forty constituents and forty from a vendor look the same in the inbox - and the vendor knows it."
+    ],
+    "notes": [],
+    "example": "“Two hundred identical letters, three local groups sharing a PO box, and an **astroturfing** campaign that one staffer had drafted on a Tuesday.”",
+    "cite": null,
+    "summary": "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule.",
+    "confusedWith": [
+      {
+        "term": "Rally",
+        "slug": "rally",
+        "tell": "The rally is a crowd that showed up; astroturfing is a crowd that was ordered.",
+        "path": "/habitats/rally/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ]
+  },
+  {
+    "term": "Motte hop",
+    "slug": "motte-hop",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/motte-hop/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈmɒt hɒp/",
+    "position": 18,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "From the motte-and-bailey castle: the defensible tower and the indefensible yard, and the walk between them.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A claim has just been challenged by someone who can reach the evidence."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The bold claim is restated as a modest one, the modest one is defended, and the bold one returns when the challenger leaves."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Write both versions down, and ask which one the argument was for. The hop is only invisible while nobody keeps the receipt."
+      }
+    ],
+    "voice": "The bold claim is restated as a modest one, the modest one is defended, and the bold one returns when the challenger leaves.",
+    "senses": [
+      "The move of retreating from an indefensible claim to a defensible one, winning the argument about the small claim, then re-advancing the large one once the pressure is off.",
+      "It works because each step is individually reasonable. Nobody has to defend the yard if they can be seen defending the tower, and the audience remembers the exchange as a win for the side that never left the tower."
+    ],
+    "notes": [],
+    "example": "“He said the policy was a plot, then said he only meant it was a mistake, then said the plot again on Friday - a **motte hop** in three acts.”",
+    "cite": null,
+    "summary": "The move of retreating from an indefensible claim to a defensible one, winning the argument about the small claim, then re-advancing the large one...",
+    "confusedWith": [
+      {
+        "term": "Motte-and-bailey fallacy",
+        "slug": "motte-and-bailey-fallacy",
+        "tell": "The fallacy is the structure; the hop is the performance. One is named in the literature, the other is what you watch happen in a thread.",
+        "path": "/fallacies/motte-and-bailey-fallacy/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Equivangelist",
+        "slug": "equivangelist",
+        "path": "/species/equivangelist/"
+      },
+      {
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      },
+      {
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Motte-and-bailey fallacy",
+        "slug": "motte-and-bailey-fallacy",
+        "path": "/fallacies/motte-and-bailey-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Equivocation",
+        "slug": "equivocation",
+        "path": "/fallacies/equivocation/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ]
+  },
+  {
+    "term": "Heckler's veto",
+    "slug": "hecklers-veto",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/hecklers-veto/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈhɛk.ləz ˈviː.təʊ/",
+    "position": 19,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "English: the heckler who does not win the argument, and ends the event instead.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A speaker whose event can be shut down more cheaply than it can be answered."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A chant timed to the microphone, a fire alarm at the right minute, and a venue that decides the booking is not worth the police."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Do not cancel. Move the room, publish the transcript, and let the disruption cost the disruptor the audience."
+      }
+    ],
+    "voice": "A chant timed to the microphone, a fire alarm at the right minute, and a venue that decides the booking is not worth the police.",
+    "senses": [
+      "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is not worth holding.",
+      "It works because the cost is carried by somebody else. The heckler risks a fine; the organiser risks the insurance, and the calculation that ends the event is made by a third party who was never part of the argument."
+    ],
+    "notes": [],
+    "example": "“The talk was cancelled ninety minutes before it started, not because anyone won the argument but because the **heckler’s veto** made the room uninsurable.”",
+    "cite": null,
+    "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is not...",
+    "confusedWith": [
+      {
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "tell": "The decorumancer silences with the rule; the heckler’s veto silences with the noise the rule cannot stop.",
+        "path": "/species/decorumancer/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "path": "/fallacies/appeal-to-fear/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      }
+    ]
+  },
+  {
+    "term": "Flood the zone",
+    "slug": "flood-the-zone",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/flood-the-zone/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "verb phrase",
+    "ipa": "/flʌd ðə zəʊn/",
+    "position": 20,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "From the advice attributed to Steve Bannon: drown the press in so much material that nothing can be checked.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A story that has to be survived rather than answered, and a press corps with finite hours."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "Eleven announcements in one afternoon, three of them real, and a briefing that outruns the fact-checkers by design."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Pick one thread and pull it to the end. A flood is only a defence if the other side tries to drink all of it."
+      }
+    ],
+    "voice": "Eleven announcements in one afternoon, three of them real, and a briefing that outruns the fact-checkers by design.",
+    "senses": [
+      "The move of releasing more than anyone can process: real stories, fake stories and irrelevant stories in the same hour, so the true ones cannot be separated in time to matter.",
+      "It works because verification is slower than publication. Each item costs the press minutes to check and the source seconds to produce, and that asymmetry is the whole tactic - the flood does not have to convince anybody, only to keep them busy."
+    ],
+    "notes": [],
+    "example": "“Nine press releases before noon, two of them true, and **flood the zone** worked exactly as designed: by Friday the story was a list nobody had finished.”",
+    "cite": null,
+    "summary": "The move of releasing more than anyone can process: real stories, fake stories and irrelevant stories in the same hour, so the true ones cannot be...",
+    "confusedWith": [
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "tell": "The slopagandist fills the feed with volume for money; flooding the zone fills it with volume for cover.",
+        "path": "/species/slopagandist/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Dead cat",
+        "slug": "dead-cat",
+        "path": "/moves/dead-cat/"
+      },
+      {
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      },
+      {
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      }
+    ]
+  },
+  {
     "term": "Ad hominem",
     "slug": "ad-hominem",
     "kind": "fallacy",
@@ -4292,6 +4972,13 @@ export const entries = [
         "term": "Frankincense",
         "slug": "frankincense",
         "path": "/buffs/frankincense/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Access",
+        "slug": "access",
+        "path": "/buffs/access/"
       }
     ]
   },
@@ -4840,6 +5527,13 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Motte hop",
+        "slug": "motte-hop",
+        "path": "/moves/motte-hop/"
       }
     ]
   },
@@ -4929,6 +5623,13 @@ export const entries = [
         "term": "Biasographer",
         "slug": "biasographer",
         "path": "/species/biasographer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Judge shopping",
+        "slug": "judge-shopping",
+        "path": "/abilities/judge-shopping/"
       }
     ]
   },
@@ -5032,6 +5733,13 @@ export const entries = [
         "term": "Push poll",
         "slug": "push-poll",
         "path": "/moves/push-poll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
       }
     ]
   },
@@ -5240,10 +5948,10 @@ export const entries = [
     "etymology": "Blend of \"hypocrite\" + \"contortionist\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Pulpits, podiums, and any resignation statement."
+        "value": "A principle the speaker has just been caught applying to somebody else."
       },
       {
         "key": "call",
@@ -5252,14 +5960,20 @@ export const entries = [
         "value": "“That was different.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Principles that bend at the wallet",
           "Public austerity, private indulgence",
           "Repents only after the photo"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the difference is, and who it protects. The contortion only shows when the same rule is read twice."
       }
     ],
     "voice": "“That was different.”",
@@ -5341,10 +6055,10 @@ export const entries = [
     "etymology": "Blend of \"myth\" + \"historian\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Heritage segments, school-board meetings, and the comments under any museum post."
+        "value": "A policy argument that has just been moved from the present into a golden age."
       },
       {
         "key": "call",
@@ -5353,14 +6067,20 @@ export const entries = [
         "value": "“In my day -”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Nostalgic for a decade it cannot date",
           "Sanitized, never sourced",
           "Confuses a monument with a record"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the year, the statute, and the source. Nostalgia cannot survive a date."
       }
     ],
     "voice": "“In my day -”",
@@ -5639,10 +6359,10 @@ export const entries = [
     "etymology": "Blend of \"capitulate\" + \"intellectual\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Opinion pages in the week after an atrocity."
+        "value": "An atrocity that has just happened, and a column that is due on Friday."
       },
       {
         "key": "call",
@@ -5651,14 +6371,20 @@ export const entries = [
         "value": "“We have to understand both sides.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Surrenders before the argument",
           "Prefaces every concession",
           "Finds symmetry where there is none"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what would be too far. An analysis that cannot name a limit is not analysis; it is a mood with footnotes."
       }
     ],
     "voice": "“We have to understand both sides.”",
@@ -5952,9 +6678,9 @@ export const entries = [
         "path": "/species/hypocontortionist/"
       },
       {
-        "term": "Decorumancer",
-        "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "term": "Hot mic",
+        "slug": "hot-mic",
+        "path": "/buffs/hot-mic/"
       }
     ],
     "edges": [
@@ -6090,6 +6816,13 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/"
       }
     ],
     "backlinks": []
@@ -6441,6 +7174,422 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Judge shopping",
+    "slug": "judge-shopping",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/judge-shopping/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/dʒʌdʒ ˈʃɒp.ɪŋ/",
+    "position": 14,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "English: from forum shopping, the older practice of choosing the courtroom most likely to agree with you.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Lets a litigant choose which judge hears the case, by choosing which courthouse to file in."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any party with a lawyer, a choice of venue, and a case that can be filed in more than one district."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Random assignment across a district, and a rule that a related case follows the first filing. Both are administrative choices, which is to say both can be made."
+      }
+    ],
+    "voice": "Lets a litigant choose which judge hears the case, by choosing which courthouse to file in.",
+    "senses": [
+      "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case’s outcome can be shaped by a courthouse choice that never once mentions a judge.",
+      "It works because venue is procedure and procedure is unglamorous. Nobody campaigns on a filing rule, so a litigant can select a forum without having to defend the selection - and the ruling that follows looks like law rather than like a choice."
+    ],
+    "notes": [],
+    "example": "“The challenge was filed in a division with one judge, nine hundred miles from the agency it challenged, and the **judge shopping** was over before the docket sheet printed.”",
+    "cite": null,
+    "summary": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case’s outcome can be shaped by a courthouse...",
+    "confusedWith": [
+      {
+        "term": "Gerrythm",
+        "slug": "gerrythm",
+        "tell": "The gerrythm chooses the voters; judge shopping chooses the judge. Both are map-making done before the argument starts.",
+        "path": "/abilities/gerrythm/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
+      },
+      {
+        "term": "SLAPP",
+        "slug": "slapp",
+        "path": "/abilities/slapp/"
+      },
+      {
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "path": "/fallacies/cherry-picking/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "SLAPP",
+    "slug": "slapp",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/slapp/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/slæp/",
+    "position": 15,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
+    "etymology": "Acronym: Strategic Lawsuit Against Public Participation - a suit whose purpose is the chilling, not the winning.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Turns a lawsuit into a gag order by making the cost of speaking the punishment."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Anyone with a lawyer, a thin-skinned client, and a critic with fewer resources."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "An anti-SLAPP statute with an automatic stay and a fee shift, so the defendant’s costs land on the plaintiff who filed it."
+      }
+    ],
+    "voice": "Turns a lawsuit into a gag order by making the cost of speaking the punishment.",
+    "senses": [
+      "A suit filed not to win but to cost: the claim is weak, the discovery is wide, and the point is that defending it takes years the critic does not have.",
+      "It works because the legal system prices speech in billable hours. Winning is optional; the filing alone raises the price of the next article, and the next editor remembers the last one."
+    ],
+    "notes": [],
+    "example": "“The review was accurate and the **SLAPP** was dismissed in fourteen months, by which time the writer had spent her savings and the magazine had stopped assigning the beat.”",
+    "cite": null,
+    "summary": "A suit filed not to win but to cost: the claim is weak, the discovery is wide, and the point is that defending it takes years the critic does not...",
+    "confusedWith": [
+      {
+        "term": "NDA",
+        "slug": "nda",
+        "tell": "The NDA buys silence before publication; the SLAPP bills for it afterwards.",
+        "path": "/abilities/nda/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Qualified immunity",
+        "slug": "qualified-immunity",
+        "path": "/abilities/qualified-immunity/"
+      },
+      {
+        "term": "Judge shopping",
+        "slug": "judge-shopping",
+        "path": "/abilities/judge-shopping/"
+      },
+      {
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "path": "/fallacies/appeal-to-fear/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "path": "/fallacies/argument-from-silence/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "NDA",
+    "slug": "nda",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/nda/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌen.diːˈeɪ/",
+    "position": 16,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "Initialism: non-disclosure agreement - a contract to be quiet, signed before anyone knows what the quiet is for.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Makes silence a term of employment, and the cost of speaking a debt."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any employer with a lawyer, any settlement with a cheque, any volunteer with a badge."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Read it before signing, and legislate the categories that cannot be contracted away - harassment, wages, safety."
+      }
+    ],
+    "voice": "Makes silence a term of employment, and the cost of speaking a debt.",
+    "senses": [
+      "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you owe rather than something you know.",
+      "It works because contracts are private and rights are public. A clause nobody can see is a rule nobody can challenge, and the signature makes the silence look voluntary - which is what the doctrine requires and what the power imbalance supplies."
+    ],
+    "notes": [],
+    "example": "“She settled, signed the **NDA**, and spent four years unable to say the word harassment in an interview without a lawyer on the line.”",
+    "cite": null,
+    "summary": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you owe...",
+    "confusedWith": [
+      {
+        "term": "SLAPP",
+        "slug": "slapp",
+        "tell": "The NDA buys the silence before publication; the SLAPP bills for it after.",
+        "path": "/abilities/slapp/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Consent decree",
+        "slug": "consent-decree",
+        "path": "/abilities/consent-decree/"
+      },
+      {
+        "term": "Qualified immunity",
+        "slug": "qualified-immunity",
+        "path": "/abilities/qualified-immunity/"
+      },
+      {
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "path": "/fallacies/argument-from-silence/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Qualified immunity",
+    "slug": "qualified-immunity",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/qualified-immunity/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈkwɒl.ɪ.faɪd ɪˈmjuː.nɪ.ti/",
+    "position": 17,
+    "sort": {
+      "impact": 5,
+      "abuse": 4,
+      "blowback": 4
+    },
+    "etymology": "English: immunity qualified by a condition - the right must have been clearly established before the suit.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Ends a suit against an official before the facts are heard, by asking whether an identical case had already spelled the rule out."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any official sued in a personal capacity, and the lawyers whose job is to file the motion."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A state law that removes the defence, or a court that treats the Constitution as clearly established on its own terms."
+      }
+    ],
+    "voice": "Ends a suit against an official before the facts are heard, by asking whether an identical case had already spelled the rule out.",
+    "senses": [
+      "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first person to be wronged usually loses, and the rule is established by losing.",
+      "It works because it is a rule about rules. The question is not what happened but whether a previous court had described it precisely enough, so each new fact pattern restarts the clock and the law develops only as fast as the plaintiffs who can afford to lose."
+    ],
+    "notes": [],
+    "example": "“The video was clear, the policy was clear, and **qualified immunity** turned on whether a 2011 case from another circuit had described the same handcuffs.”",
+    "cite": null,
+    "summary": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first person...",
+    "confusedWith": [
+      {
+        "term": "Consent decree",
+        "slug": "consent-decree",
+        "tell": "Qualified immunity ends the case before the facts; a consent decree ends it after, with an inspector attached.",
+        "path": "/abilities/consent-decree/"
+      }
+    ],
+    "related": [
+      {
+        "term": "SLAPP",
+        "slug": "slapp",
+        "path": "/abilities/slapp/"
+      },
+      {
+        "term": "Judge shopping",
+        "slug": "judge-shopping",
+        "path": "/abilities/judge-shopping/"
+      },
+      {
+        "term": "NDA",
+        "slug": "nda",
+        "path": "/abilities/nda/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Consent decree",
+    "slug": "consent-decree",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/consent-decree/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/kənˈsɛnt dɪˈkriː/",
+    "position": 18,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: a decree issued by consent - a court order both sides agreed to and neither can walk away from.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Converts a lawsuit into a supervisor, and a promise into a court order with a deadline."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "A regulator with a case it would rather settle, and a defendant with a budget it would rather not spend."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Publish the decree, keep the monitor independent, and write the exit criteria before the parties are tired."
+      }
+    ],
+    "voice": "Converts a lawsuit into a supervisor, and a promise into a court order with a deadline.",
+    "senses": [
+      "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor, and a schedule.",
+      "It works because enforcement outlives the news cycle. A press conference ends; a decree has reporting deadlines, and the department that signed it has to file paperwork with a judge who is still there next year."
+    ],
+    "notes": [],
+    "example": "“The **consent decree** gave the department eighteen months, an independent monitor and a reporting requirement, and the monitor’s third report was the first thing anyone had read about the department in a decade.”",
+    "cite": null,
+    "summary": "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor, and a...",
+    "confusedWith": [
+      {
+        "term": "Qualified immunity",
+        "slug": "qualified-immunity",
+        "tell": "Qualified immunity ends the case before the facts; a consent decree ends it after, with a monitor attached.",
+        "path": "/abilities/qualified-immunity/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/"
+      },
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
+      }
+    ],
+    "edges": [],
+    "backlinks": []
+  },
+  {
     "term": "Two wrongs make a right",
     "slug": "two-wrongs-make-a-right",
     "kind": "fallacy",
@@ -6746,6 +7895,13 @@ export const entries = [
         "term": "Lame duck",
         "slug": "lame-duck",
         "path": "/buffs/lame-duck/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Qualified immunity",
+        "slug": "qualified-immunity",
+        "path": "/abilities/qualified-immunity/"
       }
     ]
   },
@@ -7036,6 +8192,20 @@ export const entries = [
         "path": "/abilities/blueslip/"
       },
       {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "SLAPP",
+        "slug": "slapp",
+        "path": "/abilities/slapp/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "NDA",
+        "slug": "nda",
+        "path": "/abilities/nda/"
+      },
+      {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
@@ -7064,10 +8234,10 @@ export const entries = [
     "etymology": "Blend of \"xenophobe\" + \"fabricator\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Talk radio, tabloid front pages, and the comments under a census story."
+        "value": "A census, a lease, or a school roster that has just made a change visible."
       },
       {
         "key": "call",
@@ -7076,14 +8246,20 @@ export const entries = [
         "value": "“They’re taking over.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Manufactures the threat, then fears it",
           "Recycles an older panic",
           "Numbers never sourced"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the number and the year. A panic that cannot produce a denominator is a rumour with a map."
       }
     ],
     "voice": "“They’re taking over.”",
@@ -7160,10 +8336,10 @@ export const entries = [
     "etymology": "Blend of \"drama\" + \"demagogue\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Rallies, megachurch broadcasts, and any stream that opens with a countdown."
+        "value": "A crisis real enough to sell, and an audience that has already been frightened once."
       },
       {
         "key": "call",
@@ -7172,14 +8348,20 @@ export const entries = [
         "value": "“Everything you know is a lie.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Theatrical, never specific",
           "Apocalypse on a schedule",
           "Sells the cure"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for one verifiable thing: a name, a date, a document. An apocalypse on a schedule never survives a specific question."
       }
     ],
     "voice": "“Everything you know is a lie.”",
@@ -7249,10 +8431,10 @@ export const entries = [
     "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Prime-time panels and the algorithm’s favorite uncle."
+        "value": "A segment that has to hold an audience across a commercial break."
       },
       {
         "key": "call",
@@ -7261,14 +8443,20 @@ export const entries = [
         "value": "“Are you angry yet?”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Outrage as a business model",
           "Never satisfied, always fed",
           "Monetizes the wound"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what the anger is for. Outrage that cannot name a remedy is a product, not a politics."
       }
     ],
     "voice": "“Are you angry yet?”",
@@ -7353,10 +8541,10 @@ export const entries = [
     "etymology": "Blend of \"martyr\" + \"-holic\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Any thread where they are, somehow, the victim."
+        "value": "A criticism that has just been made, accurately, in front of witnesses."
       },
       {
         "key": "call",
@@ -7365,14 +8553,20 @@ export const entries = [
         "value": "“So I’m the bad guy now?”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Persecuted by a policy they wrote",
           "Suffers loudly, profits quietly",
           "Never the aggressor in their own story"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Name the act, not the person, and refuse to argue about who suffers more. Suffering is not a rebuttal."
       }
     ],
     "voice": "“So I’m the bad guy now?”",
@@ -7449,10 +8643,10 @@ export const entries = [
     "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Video platforms at two in the morning, and any comment section with a pinned link."
+        "value": "A decision that has to look evidence-based, and a chart that arrived without its context."
       },
       {
         "key": "call",
@@ -7461,14 +8655,20 @@ export const entries = [
         "value": "“The data doesn’t lie.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "A chart with no axis",
           "One study, no authors",
           "Cites a preprint that does not exist"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the axis, the sample, and where the number came from. A chart that cannot produce them is a poster, not a finding."
       }
     ],
     "voice": "“The data doesn’t lie.”",
@@ -7560,10 +8760,10 @@ export const entries = [
     "etymology": "Blend of \"plutocrat\" + \"martyr\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Keynote stages and any interview after a fine."
+        "value": "A tax or a regulation that has just been applied to someone with a lawyer."
       },
       {
         "key": "call",
@@ -7572,14 +8772,20 @@ export const entries = [
         "value": "“They’re coming for people like me.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Wealth worn as hardship",
           "Persecution with a legal team",
           "Suffers in a private jet"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what is being taken, and by whom. Hardship with a legal team is a negotiating position."
       }
     ],
     "voice": "“They’re coming for people like me.”",
@@ -7664,10 +8870,10 @@ export const entries = [
     "etymology": "Blend of \"slop\" + \"propagandist\"",
     "identification": [
       {
-        "key": "range",
-        "label": "Range",
+        "key": "occasion",
+        "label": "Occasion",
         "type": "text",
-        "value": "Recommendation feeds and any page that publishes twelve articles an hour."
+        "value": "A feed that needs volume, and a story that needs only to be published."
       },
       {
         "key": "call",
@@ -7676,14 +8882,20 @@ export const entries = [
         "value": "“Sources say.”"
       },
       {
-        "key": "field_marks",
-        "label": "Field marks",
+        "key": "tell",
+        "label": "Tell",
         "type": "list",
         "value": [
           "Volume over verification",
           "Written by no one, read by millions",
           "Corrections never issued"
         ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask who wrote it and who would correct it. A byline and a corrections policy are the two things slop cannot fake for long."
       }
     ],
     "voice": "“Sources say.”",
@@ -7710,9 +8922,9 @@ export const entries = [
         "path": "/species/ragesturbationist/"
       },
       {
-        "term": "Dramagogue",
-        "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
       }
     ],
     "edges": [
@@ -7759,6 +8971,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
       }
     ]
   },
@@ -8364,6 +9583,13 @@ export const entries = [
         "term": "Push poll",
         "slug": "push-poll",
         "path": "/moves/push-poll/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Astroturfing",
+        "slug": "astroturfing",
+        "path": "/moves/astroturfing/"
       }
     ],
     "backlinks": []
@@ -8625,9 +9851,9 @@ export const entries = [
         "path": "/habitats/comment-section/"
       },
       {
-        "term": "Group chat",
-        "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "term": "Access",
+        "slug": "access",
+        "path": "/buffs/access/"
       }
     ],
     "edges": [
@@ -8651,6 +9877,13 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Flood the zone",
+        "slug": "flood-the-zone",
+        "path": "/moves/flood-the-zone/"
       }
     ],
     "backlinks": []
@@ -8807,9 +10040,9 @@ export const entries = [
         "path": "/species/playtriot/"
       },
       {
-        "term": "The Feed",
-        "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "term": "Pseudo-event",
+        "slug": "pseudo-event",
+        "path": "/habitats/pseudo-event/"
       },
       {
         "term": "Ragesturbationist",
@@ -8921,6 +10154,352 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Pseudo-event",
+    "slug": "pseudo-event",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/pseudo-event/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈsjuː.dəʊ ɪˌvɛnt/",
+    "position": 20,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "Coined by Daniel Boorstin in 1961 for an occurrence staged in order to be reported rather than in order to happen.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "A ribbon, a hard hat, a backdrop of people who work there, and a press release timestamped before the event."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Cheap to stage, free to air, and repeatable - the same ribbon can be cut in nine districts."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "The announcement of the thing instead of the thing, timed for the evening bulletin."
+      }
+    ],
+    "voice": "The announcement of the thing instead of the thing, timed for the evening bulletin.",
+    "senses": [
+      "An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement.",
+      "It works because coverage is the deliverable. A pseudo-event costs almost nothing to stage, produces a clip on schedule and can be repeated - which is why it crowds out the events that happen on their own timetable."
+    ],
+    "notes": [],
+    "example": "“The **pseudo-event** had a ribbon, a hard hat and a site that had not been funded, and it led the local news for two nights.”",
+    "cite": null,
+    "summary": "An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement.",
+    "confusedWith": [
+      {
+        "term": "Rally",
+        "slug": "rally",
+        "tell": "A rally is a crowd that came to see something; a pseudo-event is something that came to be seen.",
+        "path": "/habitats/rally/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      },
+      {
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Perp walk",
+    "slug": "perp-walk",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/perp-walk/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈpɜːp wɔːk/",
+    "position": 21,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "American English: the walk from the precinct to the car, at the pace of the photographers.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "A courthouse sidewalk, a pair of handcuffs, a jacket over the cuffs, and a defendant who has not been convicted of anything."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Free footage for the broadcaster, a verdict for the audience, and no budget line at all."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A defendant escorted slowly past a camera that was told what time to be there."
+      }
+    ],
+    "voice": "A defendant escorted slowly past a camera that was told what time to be there.",
+    "senses": [
+      "The staged walk: a suspect moved past cameras at the pace of the photographer, in restraints, before a jury has been chosen.",
+      "It works because an image of custody is read as evidence of guilt. The walk costs the state nothing, requires no finding, and cannot be retracted by an acquittal - the picture outlives the verdict."
+    ],
+    "notes": [],
+    "example": "“The **perp walk** ran on three networks, the charges were dropped in March, and the photograph was still the thumbnail on the story in June.”",
+    "cite": null,
+    "summary": "The staged walk: a suspect moved past cameras at the pace of the photographer, in restraints, before a jury has been chosen.",
+    "confusedWith": [
+      {
+        "term": "Spin room",
+        "slug": "spin-room",
+        "tell": "The spin room argues about a verdict; the perp walk delivers one before the trial.",
+        "path": "/habitats/spin-room/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Access",
+    "slug": "access",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/access/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈæk.sɛs/",
+    "position": 22,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English: access journalism, the arrangement in which the interview is the reward and the question is the price.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Makes the bearer’s questions worth answering, and the answers worth not printing."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A follow-up that never comes, a thank-you in the green room, and a scoop that arrives the day the book is published."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "The first question that costs the source something - or the first scoop that goes to somebody who asked it."
+      }
+    ],
+    "voice": "A follow-up that never comes, a thank-you in the green room, and a scoop that arrives the day the book is published.",
+    "senses": [
+      "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and the next hard question expensive.",
+      "It works because information is a renewable resource that requires cooperation. A reporter who asks the question loses the call, and the call is where the next three stories come from - so the incentive is not to lie, it is to ask something else."
+    ],
+    "notes": [],
+    "example": "“The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour.”",
+    "cite": null,
+    "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and...",
+    "confusedWith": [
+      {
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "tell": "The briefing room is where access is performed; access is what you still have when the room is empty.",
+        "path": "/habitats/briefing-room/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Bluecheck",
+        "slug": "bluecheck",
+        "path": "/buffs/bluecheck/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Hot mic",
+    "slug": "hot-mic",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/hot-mic/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/hɒt mɪk/",
+    "position": 23,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "Broadcast English: a microphone that is still live after the performance has stopped.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Publishes what the bearer believed was private, at the exact moment they stopped performing."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A candid remark in a hallway, a sigh after the interview, and a clip that begins two seconds before anybody knew it was on."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "When the clip is called edited, or when the next hot mic arrives and becomes the story instead."
+      }
+    ],
+    "voice": "A candid remark in a hallway, a sigh after the interview, and a clip that begins two seconds before anybody knew it was on.",
+    "senses": [
+      "The condition of being recorded while off: the green-room joke, the hallway aside, the thing said to the aide who is still holding the microphone.",
+      "It works because the performance is the exception and the aside is the habit. An official who is careful for the cameras and careless in the corridor has told you which one is the act, and the microphone has told everybody else."
+    ],
+    "notes": [],
+    "example": "“The **hot mic** caught him calling the voters the base and the donor the customer, and the distinction explained the next three years of policy.”",
+    "cite": null,
+    "summary": "The condition of being recorded while off: the green-room joke, the hallway aside, the thing said to the aide who is still holding the microphone.",
+    "confusedWith": [
+      {
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "tell": "The nonpology is the apology for what the hot mic caught.",
+        "path": "/moves/nonpology/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to emotion",
+        "slug": "appeal-to-emotion",
+        "path": "/fallacies/appeal-to-emotion/"
       }
     ],
     "backlinks": []
@@ -9046,6 +10625,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Hot mic",
+        "slug": "hot-mic",
+        "path": "/buffs/hot-mic/"
       }
     ]
   },
@@ -9130,11 +10716,25 @@ export const entries = [
         "path": "/abilities/omnibust/"
       },
       {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/"
+      },
+      {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "SLAPP",
+        "slug": "slapp",
+        "path": "/abilities/slapp/"
       },
       {
         "rel": "commits",
@@ -10057,6 +11657,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Judge shopping",
+        "slug": "judge-shopping",
+        "path": "/abilities/judge-shopping/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
@@ -10334,6 +11941,13 @@ export const entries = [
         "term": "Trial balloon",
         "slug": "trial-balloon",
         "path": "/moves/trial-balloon/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Motte hop",
+        "slug": "motte-hop",
+        "path": "/moves/motte-hop/"
       },
       {
         "rel": "commits",
@@ -10750,6 +12364,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Astroturfing",
+        "slug": "astroturfing",
+        "path": "/moves/astroturfing/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
@@ -11052,6 +12673,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Flood the zone",
+        "slug": "flood-the-zone",
+        "path": "/moves/flood-the-zone/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Bootcurious",
         "slug": "bootcurious",
         "path": "/buffs/bootcurious/"
@@ -11158,6 +12786,13 @@ export const entries = [
         "term": "Receiptbomb",
         "slug": "receiptbomb",
         "path": "/moves/receiptbomb/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Flood the zone",
+        "slug": "flood-the-zone",
+        "path": "/moves/flood-the-zone/"
       },
       {
         "rel": "commits",

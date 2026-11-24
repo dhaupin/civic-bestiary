@@ -2,7 +2,7 @@
 //
 // What it defends: the record grammar in data/ has to survive the round trip to
 // baked HTML. An entry carries an identification block whose rows depend on its
-// kind - a species has range / call / field marks, a move has trigger / tell /
+// kind - a species has occasion / call / tell / counter, a move has trigger / tell /
 // counter - and a page that silently drops any of them still looks fine in a
 // browser, because the prose is all there. These checks read the artifact, not
 // the source, so a generator regression that swallowed a block would go red here.

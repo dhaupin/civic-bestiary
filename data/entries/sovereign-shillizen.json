@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈsɒv.rɪn ˈʃɪl.ɪ.zən/",
   "etymology": "Blend of \"sovereign citizen\" + \"shill\"",
-  "range": "County recorder offices, traffic stops, and the comment section under any court ruling.",
+  "occasion": "A form that has to be signed, at a counter, with a queue behind it.",
   "call": "\"I do not consent.\"",
-  "field_marks": [
+  "tell": [
     "Hand-lettered plate, no registration",
     "Argues in maritime law",
     "Owes back taxes on principle"
   ],
+  "counter": "Ask which law, and read it. Consent is a doctrine with a text, and the text is not on the hand-lettered plate.",
   "confused_with": [
     {
       "term": "Freetard",

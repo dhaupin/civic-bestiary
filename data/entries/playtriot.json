@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈpleɪ.tri.ət/",
   "etymology": "Blend of \"play\" + \"patriot\"",
-  "range": "Truck beds, county fairs, and the comment section under any local news post.",
+  "occasion": "A question about policy that has just been answered with a question about loyalty.",
   "call": "\"Do you support the troops?\"",
-  "field_marks": [
+  "tell": [
     "Flag decal on a leased vehicle",
     "Quotes a founder, never a statute",
     "Knows the anthem's tune, not its third verse"
   ],
+  "counter": "Answer the flag question, then ask the policy question again. Patriotism is not a reply, and it does not survive being asked what it costs.",
   "confused_with": [
     {
       "term": "LARPtarian",

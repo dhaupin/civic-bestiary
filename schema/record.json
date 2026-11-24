@@ -13,7 +13,7 @@
       "new-term"
     ],
     "intro": "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a habitat is the place that houses them, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit.",
-    "identification_hint": "Describe it the way its kind is described. Species: range, call, field marks. Move: trigger, tell, counter. Ability: effect, available to, counter. Format: carriers, economics, signature. Buff: effect, tell, expires.",
+    "identification_hint": "Describe it the way its kind is described. Species: occasion, call, tell, counter. Move: trigger, tell, counter. Ability: effect, available to, counter. Habitat: carriers, economics, signature. Buff: effect, tell, expires. Fallacy: family, committed when, the tell, counter.",
     "outro": "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
   },
   "kinds": {
@@ -22,14 +22,14 @@
       "plural": "Species",
       "path": "/species/",
       "voice": "call",
-      "blurb": "An actor you can point at: the person running the bit.",
+      "blurb": "A recognisable pattern of behaviour, worn like a costume - point at the pattern, not at a person.",
       "identification": [
         {
-          "key": "range",
-          "label": "Range",
+          "key": "occasion",
+          "label": "Occasion",
           "type": "text",
-          "hint": "Where you meet it. Concrete places, not abstractions - truck beds, county fairs, a specific comment section.",
-          "example": "Truck beds, county fairs, and the comment section under any local news post."
+          "hint": "The situation that calls it out: a decision that has to be defended, a correction that has to be answered, a ceremony that has to be filled. Structural, not demographic - name the moment, never the neighbourhood.",
+          "example": "A public decision that has to be defended by someone who did not make it."
         },
         {
           "key": "call",
@@ -39,11 +39,18 @@
           "example": "\"Do you support the troops?\""
         },
         {
-          "key": "field_marks",
-          "label": "Field marks",
+          "key": "tell",
+          "label": "Tell",
           "type": "list",
-          "hint": "How you recognise it at a distance. Three is the house number.",
+          "hint": "How you recognise it before it speaks. Three is the house number.",
           "example": "Flag decal on a leased vehicle"
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "type": "text",
+          "hint": "The thing that ends it, or makes it cost more than it returns.",
+          "example": "Answer the flag question, then ask the policy question again."
         }
       ],
       "sorts": [

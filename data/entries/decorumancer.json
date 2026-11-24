@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈdɛk.ər.əm.ˌæn.sər/",
   "etymology": "Blend of \"decorum\" + \"necromancer\"",
-  "range": "City council meetings and the replies to anyone who raises their voice.",
+  "occasion": "A meeting where someone has just raised their voice about something that was done to them.",
   "call": "\"Let's keep this civil.\"",
-  "field_marks": [
+  "tell": [
     "Polite tone, hostile substance",
     "Cites procedure, never the record",
     "Calls anger unprofessional"
   ],
+  "counter": "Answer the substance first, then the tone. Civility is a rule for how to disagree, not a reason not to.",
   "confused_with": [
     {
       "term": "Equivangelist",

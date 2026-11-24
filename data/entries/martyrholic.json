@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˌmɑːr.tərˈhɒl.ɪk/",
   "etymology": "Blend of \"martyr\" + \"-holic\"",
-  "range": "Any thread where they are, somehow, the victim.",
+  "occasion": "A criticism that has just been made, accurately, in front of witnesses.",
   "call": "\"So I'm the bad guy now?\"",
-  "field_marks": [
+  "tell": [
     "Persecuted by a policy they wrote",
     "Suffers loudly, profits quietly",
     "Never the aggressor in their own story"
   ],
+  "counter": "Name the act, not the person, and refuse to argue about who suffers more. Suffering is not a rebuttal.",
   "confused_with": [
     {
       "term": "Plutomartyr",

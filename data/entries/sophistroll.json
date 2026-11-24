@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈsɒf.ɪ.stroʊl/",
   "etymology": "Blend of \"sophist\" + \"troll\"",
-  "range": "Reply chains, panel shows, and Thanksgiving after the second drink.",
+  "occasion": "A thread where winning is cheaper than being right.",
   "call": "\"I'm just asking questions.\"",
-  "field_marks": [
+  "tell": [
     "Moves the goalpost, never the argument",
     "One straw man, three fallacies",
     "Treats volume as evidence"
   ],
+  "counter": "Ask what would settle it, then settle it. The troll needs the argument to continue; the answer is to end it.",
   "confused_with": [
     {
       "term": "Illogician",

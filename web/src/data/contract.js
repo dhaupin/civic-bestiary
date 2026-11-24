@@ -6,7 +6,7 @@ export default {
     "name": "New entry",
     "titlePrefix": "[New entry] ",
     "template": "new-entry.yml",
-    "identificationHint": "Describe it the way its kind is described. Species: range, call, field marks. Move: trigger, tell, counter. Ability: effect, available to, counter. Format: carriers, economics, signature. Buff: effect, tell, expires."
+    "identificationHint": "Describe it the way its kind is described. Species: occasion, call, tell, counter. Move: trigger, tell, counter. Ability: effect, available to, counter. Habitat: carriers, economics, signature. Buff: effect, tell, expires. Fallacy: family, committed when, the tell, counter."
   },
   "chapters": [
     {
@@ -40,13 +40,13 @@ export default {
       "label": "Species",
       "plural": "Species",
       "path": "/species/",
-      "blurb": "An actor you can point at: the person running the bit.",
+      "blurb": "A recognisable pattern of behaviour, worn like a costume - point at the pattern, not at a person.",
       "identification": [
         {
-          "key": "range",
-          "label": "Range",
-          "hint": "Where you meet it. Concrete places, not abstractions - truck beds, county fairs, a specific comment section.",
-          "example": "Truck beds, county fairs, and the comment section under any local news post."
+          "key": "occasion",
+          "label": "Occasion",
+          "hint": "The situation that calls it out: a decision that has to be defended, a correction that has to be answered, a ceremony that has to be filled. Structural, not demographic - name the moment, never the neighbourhood.",
+          "example": "A public decision that has to be defended by someone who did not make it."
         },
         {
           "key": "call",
@@ -55,10 +55,16 @@ export default {
           "example": "\"Do you support the troops?\""
         },
         {
-          "key": "field_marks",
-          "label": "Field marks",
-          "hint": "How you recognise it at a distance. Three is the house number.",
+          "key": "tell",
+          "label": "Tell",
+          "hint": "How you recognise it before it speaks. Three is the house number.",
           "example": "Flag decal on a leased vehicle"
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "hint": "The thing that ends it, or makes it cost more than it returns.",
+          "example": "Answer the flag question, then ask the policy question again."
         }
       ]
     },

@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈbliːtˌkiː.pər/",
   "etymology": "Blend of \"bleat\" + \"gatekeeper\"",
-  "range": "Family group chats and the comment section under any correction.",
+  "occasion": "A correction that has just been published, in front of people who repeated the error.",
   "call": "\"Fake news.\"",
-  "field_marks": [
+  "tell": [
     "Repeats the phrase, not the claim",
     "Never opens the link",
     "Corrects the correction"
   ],
+  "counter": "Read the correction aloud, then ask what else they repeated. The phrase is not a reply to a story, and it does not survive being asked about one.",
   "confused_with": [
     {
       "term": "Algodemic",
