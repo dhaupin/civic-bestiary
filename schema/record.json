@@ -12,7 +12,7 @@
     "labels": [
       "new-term"
     ],
-    "intro": "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a format is a medium that stages the others, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit.",
+    "intro": "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a habitat is the place that houses them, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit.",
     "identification_hint": "Describe it the way its kind is described. Species: range, call, field marks. Move: trigger, tell, counter. Ability: effect, available to, counter. Format: carriers, economics, signature. Buff: effect, tell, expires.",
     "outro": "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
   },
@@ -107,32 +107,32 @@
         }
       ]
     },
-    "format": {
-      "label": "Format",
-      "plural": "Formats",
-      "path": "/formats/",
+    "habitat": {
+      "label": "Habitat",
+      "plural": "Habitats",
+      "path": "/habitats/",
       "voice": "signature",
-      "blurb": "A medium that stages the others - the show, not the performer.",
+      "blurb": "The place a creature is found and fed - the show, the rally, the forum. Broadcast or physical, it is where the performance has a home.",
       "identification": [
         {
           "key": "carriers",
           "label": "Carriers",
           "type": "text",
-          "hint": "Where the format lives: which channels, slots, or platforms.",
+          "hint": "What carries it: channels, slots, rooms, platforms.",
           "example": "Cable primetime, streaming specials, and the merch drop that follows."
         },
         {
           "key": "economics",
           "label": "Economics",
           "type": "text",
-          "hint": "How it pays for itself.",
+          "hint": "How the habitat pays for itself.",
           "example": "Ad rates keyed to outrage, plus a subscription tier for the uncut version."
         },
         {
           "key": "signature",
           "label": "Signature",
           "type": "text",
-          "hint": "The unmistakable formal tic - what makes it recognisably this format and not the news.",
+          "hint": "The unmistakable formal tic - what makes it recognisably this habitat and not the news.",
           "example": "A countdown clock over a battlefield."
         }
       ]
@@ -166,6 +166,46 @@
           "example": "The first primary debate, or the first subpoena - whichever lands first."
         }
       ]
+    },
+    "fallacy": {
+      "label": "Fallacy",
+      "plural": "Fallacies",
+      "path": "/fallacies/",
+      "voice": "tell",
+      "omit": [
+        "ipa"
+      ],
+      "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing the creatures commit.",
+      "identification": [
+        {
+          "key": "family",
+          "label": "Family",
+          "type": "text",
+          "hint": "Where the accredited taxonomy files it: formal, or informal and which family.",
+          "example": "Informal · Relevance"
+        },
+        {
+          "key": "committed_when",
+          "label": "Committed when",
+          "type": "text",
+          "hint": "The move that makes it happen, in plain terms.",
+          "example": "The claim is answered by attacking whoever made it."
+        },
+        {
+          "key": "tell",
+          "label": "The tell",
+          "type": "text",
+          "hint": "How you hear it in the room.",
+          "example": "The reply has no content about the claim, only about the claimant."
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "type": "text",
+          "hint": "The response that ends it.",
+          "example": "Ask what the claim gets wrong, and answer that instead."
+        }
+      ]
     }
   },
   "relations": {
@@ -185,24 +225,24 @@
       "inverse": "Used by",
       "from": [
         "species",
-        "format"
+        "habitat"
       ],
       "to": [
         "ability"
       ],
-      "hint": "The creature or format wields this capability."
+      "hint": "The creature or habitat wields this capability."
     },
-    "stages": {
-      "label": "Stages",
-      "inverse": "Staged in",
+    "houses": {
+      "label": "Houses",
+      "inverse": "Found in",
       "from": [
-        "format"
+        "habitat"
       ],
       "to": [
         "species",
         "move"
       ],
-      "hint": "The format is the place this happens; the creature or move is what fills it."
+      "hint": "The habitat is where this creature or move is staged. Author one direction; the other page says 'Found in'."
     },
     "counters": {
       "label": "Counters",
@@ -218,6 +258,21 @@
         "move"
       ],
       "hint": "The play that ends it. Author one direction only - the inverse page renders the other."
+    },
+    "commits": {
+      "label": "Commits",
+      "inverse": "Committed by",
+      "from": [
+        "species",
+        "move",
+        "ability",
+        "habitat",
+        "buff"
+      ],
+      "to": [
+        "fallacy"
+      ],
+      "hint": "The named fallacy this creature's behaviour instantiates. This is the bridge between the guide's coinages and the documented taxonomy."
     }
   },
   "fields": [
@@ -239,7 +294,7 @@
       "required": true,
       "required_in_issue": true,
       "addressed_to": "contributor",
-      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a format is a show, and a buff is a condition.",
+      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, and a fallacy is a documented error in reasoning.",
       "example": "Species"
     },
     {
@@ -349,6 +404,16 @@
       "addressed_to": "maintainer",
       "hint": "Relationship edges to other entries, each with a relation from the schema's vocabulary. Author one direction; the other page shows the inverse automatically.",
       "example": "stages -> Patriotainer"
+    },
+    {
+      "key": "cite",
+      "label": "Source",
+      "type": "cite",
+      "required": false,
+      "required_in_issue": false,
+      "addressed_to": "maintainer",
+      "hint": "For reference entries: where the documented account lives (label + URL). Coinages have no source - they are invented, and say so by leaving this empty.",
+      "example": "Wikipedia · Ad hominem -> https://en.wikipedia.org/wiki/Ad_hominem"
     }
   ]
 }

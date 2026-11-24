@@ -1,0 +1,31 @@
+{
+  "term": "Loaded question",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 10,
+  "part_of_speech": "noun",
+  "etymology": "Also the fallacy of many questions: a question that carries its conclusion in the presupposition.",
+  "family": "Informal · Improper premise",
+  "committed_when": "The speaker wants a concession that cannot be asked for directly.",
+  "tell": "The question has an assumption in it, and every answer is an admission.",
+  "counter": "Answer the presupposition, not the question: “there is no plan yet, so the question does not apply.”",
+  "senses": [
+    "Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
+    "It works because a question feels like an invitation, not an assertion. Answering accepts its frame; refusing looks evasive. The frame is the argument."
+  ],
+  "example": "“Why does your plan keep raising costs?” There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
+  "confused_with": [
+    {
+      "term": "Circular reasoning",
+      "tell": "Both smuggle the conclusion in; the loaded question does it through what it asks."
+    }
+  ],
+  "related": [
+    "Circular reasoning",
+    "Straw man"
+  ],
+  "cite": {
+    "label": "Wikipedia · Loaded question",
+    "url": "https://en.wikipedia.org/wiki/Loaded_question"
+  }
+}

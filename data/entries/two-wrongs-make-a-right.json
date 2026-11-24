@@ -1,0 +1,31 @@
+{
+  "term": "Two wrongs make a right",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 6,
+  "part_of_speech": "noun",
+  "etymology": "From the proverb, inverted: the move takes a well-known warning and uses it as a defence.",
+  "family": "Informal · Red herring",
+  "committed_when": "One's own side has just been caught doing something.",
+  "tell": "The answer is a comparison, and the comparison is accurate.",
+  "counter": "Point out that both acts are still wrong, and that the ledger being even is not the same as it being clean.",
+  "senses": [
+    "Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.",
+    "It works because fairness is a stronger instinct than consistency. The hearer wants the ledger balanced, and the sentence offers balance without ever asking whether either entry was wrong."
+  ],
+  "example": "“They gerrymandered too.” Both maps are still rigged; the sentence has only arranged for nobody to fix either.",
+  "confused_with": [
+    {
+      "term": "Ad hominem",
+      "tell": "The tu quoque changes the subject to the accuser's conduct; ad hominem changes it to the accuser's character."
+    }
+  ],
+  "related": [
+    "Ad hominem",
+    "Special pleading"
+  ],
+  "cite": {
+    "label": "Wikipedia · Two wrongs make a right",
+    "url": "https://en.wikipedia.org/wiki/Two_wrongs_make_a_right"
+  }
+}

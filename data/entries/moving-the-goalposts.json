@@ -1,0 +1,31 @@
+{
+  "term": "Moving the goalposts",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 17,
+  "part_of_speech": "noun",
+  "etymology": "From the pitch: the shot went in, so the posts are moved back and the point does not count.",
+  "family": "Informal · Presumption",
+  "committed_when": "The evidence asked for has just been supplied.",
+  "tell": "The standard changes at the moment it is satisfied, and only then.",
+  "counter": "Fix the standard in writing before the evidence is gathered. If the standard moves again, the argument is over, and say so.",
+  "senses": [
+    "Demanding new evidence after the original demand has been met.",
+    "It works because each new request sounds reasonable on its own. Nobody agrees to an impossible standard all at once; they agree to a series of fair-sounding ones."
+  ],
+  "example": "“Show me the emails.” The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
+  "confused_with": [
+    {
+      "term": "No true Scotsman",
+      "tell": "The Scotsman moves the group boundary; the goalposts move the evidentiary one."
+    }
+  ],
+  "related": [
+    "No true Scotsman",
+    "Special pleading"
+  ],
+  "cite": {
+    "label": "Wikipedia · Moving the goalposts",
+    "url": "https://en.wikipedia.org/wiki/Moving_the_goalposts"
+  }
+}

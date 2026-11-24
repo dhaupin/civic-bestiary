@@ -29,5 +29,15 @@
     "Ragesturbationist",
     "Algodemic",
     "Dramagogue"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
+    },
+    {
+      "rel": "commits",
+      "to": "Moving the goalposts"
+    }
   ]
 }

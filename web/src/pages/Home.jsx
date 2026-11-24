@@ -34,8 +34,12 @@ export default function Home() {
           </div>
           <dl className="stats">
             <div>
-              <dd>{stats.entries}</dd>
-              <dt>entries described</dt>
+              <dd>{stats.coinages}</dd>
+              <dt>coinages described</dt>
+            </div>
+            <div>
+              <dd>{stats.fallacies}</dd>
+              <dt>fallacies indexed</dt>
             </div>
             <div>
               <dd>{stats.chapters}</dd>

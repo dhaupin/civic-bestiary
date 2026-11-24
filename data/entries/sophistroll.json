@@ -29,5 +29,19 @@
     "Illogician",
     "JAQing off",
     "Equivangelist"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Straw man"
+    },
+    {
+      "rel": "commits",
+      "to": "Motte-and-bailey fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Ad hominem"
+    }
   ]
 }

@@ -25,5 +25,15 @@
     "Sophistroll",
     "Trust-me-brofessor",
     "Dramagogue"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Loaded question"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from ignorance"
+    }
   ]
 }

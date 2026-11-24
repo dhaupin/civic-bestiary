@@ -29,5 +29,15 @@
     "Playtriot",
     "Biasographer",
     "Bleatkeeper"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Cherry picking"
+    },
+    {
+      "rel": "commits",
+      "to": "Post hoc ergo propter hoc"
+    }
   ]
 }

@@ -29,5 +29,15 @@
     "Bootcurious",
     "Crookmaxxing",
     "Capitulectual"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Special pleading"
+    },
+    {
+      "rel": "commits",
+      "to": "Two wrongs make a right"
+    }
   ]
 }

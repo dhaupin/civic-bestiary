@@ -29,5 +29,15 @@
     "Bleatkeeper",
     "Trust-me-brofessor",
     "Ragesturbationist"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Cherry picking"
+    },
+    {
+      "rel": "commits",
+      "to": "Survivorship bias"
+    }
   ]
 }

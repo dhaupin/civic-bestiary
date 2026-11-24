@@ -22,6 +22,7 @@ ROOT = Path(__file__).parent
 OUTPUT = ROOT / "web" / "src" / "data" / "lexicon.js"
 BANNER = "// Generated from lexicon.json by build_site.py - edit the JSON, not this file."
 SUMMARY_LIMIT = 150
+META_LIMIT = 158
 
 
 def typographic(text):
@@ -39,6 +40,22 @@ def unwrap_emphasis(text):
             and not stripped.startswith("**") and not stripped.endswith("**"):
         return stripped[1:-1]
     return stripped
+
+
+def clip(text, limit):
+    """Trim to a word boundary, so a meta description never ends mid-word."""
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-") + "..."
+
+
+def entry_summary(entry, spec):
+    """Meta description: the definition, framed by kind when it is a reference
+    entry, so a two-clause definition still reads as a complete sentence."""
+    plain = summarize(entry["senses"][0])
+    if entry["kind"] == "fallacy":
+        return clip(f"{entry['family']} fallacy: {plain}", META_LIMIT)
+    return plain
 
 
 def summarize(text):
@@ -74,6 +91,7 @@ def build(doc):
             "id": chapter["id"],
             "roman": chapter["roman"],
             "title": chapter["title"],
+            "note": chapter.get("note"),
             "slugs": [slugify(e["term"]) for e in own],
         })
         for entry in own:
@@ -89,7 +107,7 @@ def build(doc):
                 "chapterRoman": chapter["roman"],
                 "chapterTitle": chapter["title"],
                 "partOfSpeech": entry["part_of_speech"],
-                "ipa": entry["ipa"],
+                "ipa": entry.get("ipa"),
                 "etymology": entry["etymology"],
                 "identification": [
                     {
@@ -108,7 +126,8 @@ def build(doc):
                     for note in entry.get("notes", [])
                 ],
                 "example": typographic(unwrap_emphasis(entry["example"])),
-                "summary": typographic(summarize(entry["senses"][0])),
+                "cite": entry.get("cite"),
+                "summary": typographic(entry_summary(entry, spec)),
                 "confusedWith": [
                     {"term": twin["term"], "slug": slugify(twin["term"]), "tell": typographic(twin["tell"])}
                     for twin in entry["confused_with"]
@@ -154,10 +173,17 @@ def build(doc):
                 })
 
     counts = {key: sum(1 for entry in entries if entry["kind"] == key) for key in kinds}
+    fallacies = counts.get("fallacy", 0)
     return {
         "meta": {"title": doc["title"], "description": doc["description"]},
         "preface": doc.get("preface", []),
-        "stats": {"entries": len(entries), "chapters": len(chapters), "kinds": counts},
+        "stats": {
+            "entries": len(entries),
+            "coinages": len(entries) - fallacies,
+            "fallacies": fallacies,
+            "chapters": len(chapters),
+            "kinds": counts,
+        },
         "kinds": kinds,
         "chapters": chapters,
         "entries": entries,

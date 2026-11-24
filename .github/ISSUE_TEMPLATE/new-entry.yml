@@ -6,7 +6,7 @@ labels: ["new-term"]
 body:
   - type: markdown
     attributes:
-      value: "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a format is a medium that stages the others, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit."
+      value: "Thanks for proposing a term. Pick the kind of thing you are naming first - a species is an actor you can point at, a move is an action you can watch, an ability is a capability an institution wields, a habitat is the place that houses them, and a buff is a temporary condition. Then fill in what you can; the maintainers handle placement, cross-references, and the final edit."
   - type: input
     id: term
     attributes:
@@ -19,13 +19,14 @@ body:
     id: kind
     attributes:
       label: "Kind"
-      description: "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a format is a show, and a buff is a condition."
+      description: "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, and a fallacy is a documented error in reasoning."
       options:
         - "Species"
         - "Move"
         - "Ability"
-        - "Format"
+        - "Habitat"
         - "Buff"
+        - "Fallacy"
     validations:
       required: true
   - type: dropdown
@@ -38,6 +39,7 @@ body:
         - "II. Bad-Faith Debate & Epistemic Breakdown"
         - "III. Hypocrisy, Revisionism & Authoritarian Submission"
         - "IV. Fearmongering, Grift & Algorithmic Radicalization"
+        - "V. The Fallacies (an appendix)"
     validations:
       required: true
   - type: dropdown

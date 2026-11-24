@@ -29,5 +29,15 @@
     "LARPtarian",
     "Crookmaxxing",
     "Playtriot"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Equivocation"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from ignorance"
+    }
   ]
 }

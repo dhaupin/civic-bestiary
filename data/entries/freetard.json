@@ -34,5 +34,15 @@
     "LARPtarian",
     "Sovereign shillizen",
     "Playtriot"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to nature"
+    },
+    {
+      "rel": "commits",
+      "to": "Two wrongs make a right"
+    }
   ]
 }

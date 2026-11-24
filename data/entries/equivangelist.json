@@ -29,5 +29,11 @@
     "Sophistroll",
     "Bleatkeeper",
     "Decorumancer"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Equivocation"
+    }
   ]
 }

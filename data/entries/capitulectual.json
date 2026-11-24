@@ -29,5 +29,15 @@
     "Bootcurious",
     "Hypocontortionist",
     "Decorumancer"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argument to moderation"
+    },
+    {
+      "rel": "commits",
+      "to": "False equivalence"
+    }
   ]
 }

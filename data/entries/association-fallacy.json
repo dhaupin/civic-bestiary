@@ -1,0 +1,31 @@
+{
+  "term": "Association fallacy",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 30,
+  "part_of_speech": "noun",
+  "etymology": "Also guilt by association: the company a claim keeps is treated as the claim itself.",
+  "family": "Informal · Red herring",
+  "committed_when": "An idea's supporters are easier to attack than the idea.",
+  "tell": "The response names the company and never the claim.",
+  "counter": "Ask what the claim says and whether it is true. Who else believes it is a separate question with a separate answer.",
+  "senses": [
+    "Rejecting or accepting an idea because of who else holds it, rather than because of what it says.",
+    "It works because groups really do cluster. Sharing a conclusion with a bad actor is genuine information about the actor, and none at all about whether the conclusion is true."
+  ],
+  "example": "“That is the same thing the crank down the street says.” The crank is also right about the weather, and nobody checks the sky by checking him.",
+  "confused_with": [
+    {
+      "term": "Ad hominem",
+      "tell": "The association attacks the company the claim keeps; ad hominem attacks the person who made it."
+    }
+  ],
+  "related": [
+    "Ad hominem",
+    "Hasty generalization"
+  ],
+  "cite": {
+    "label": "Wikipedia · Association fallacy",
+    "url": "https://en.wikipedia.org/wiki/Association_fallacy"
+  }
+}

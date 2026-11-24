@@ -29,5 +29,11 @@
     "Playtriot",
     "Martyrholic",
     "Bootcurious"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Slippery slope"
+    }
   ]
 }

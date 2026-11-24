@@ -1,0 +1,31 @@
+{
+  "term": "Appeal to nature",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 20,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad naturam - the natural is treated as the good, as though the word carried a verdict.",
+  "family": "Informal · Red herring",
+  "committed_when": "A product, practice, or hierarchy needs a justification.",
+  "tell": "The justification is a claim about what is natural, with no account of why natural is good.",
+  "counter": "Ask which part of nature is the model. Nature also contains arsenic, parasites, and every hierarchy that ever existed.",
+  "senses": [
+    "Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
+    "It works because “natural” smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement."
+  ],
+  "example": "“It is natural for people to sort themselves by tribe.” It is also natural to die of an infected cut, and we stopped doing that on purpose.",
+  "confused_with": [
+    {
+      "term": "Appeal to tradition",
+      "tell": "Tradition cites age, nature cites origin; both answer a question about value with a question about ancestry."
+    }
+  ],
+  "related": [
+    "Appeal to tradition",
+    "Hasty generalization"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to nature",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_nature"
+  }
+}

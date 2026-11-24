@@ -1,6 +1,6 @@
 {
   "term": "Patriotainment",
-  "kind": "format",
+  "kind": "habitat",
   "chapter": "performative-identity",
   "position": 6,
   "part_of_speech": "noun",
@@ -29,12 +29,16 @@
   ],
   "edges": [
     {
-      "rel": "stages",
+      "rel": "houses",
       "to": "Patriotainer"
     },
     {
-      "rel": "stages",
+      "rel": "houses",
       "to": "Playtriot"
+    },
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
     }
   ]
 }

@@ -39,6 +39,14 @@
     {
       "rel": "performs",
       "to": "JAQing Off"
+    },
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
     }
   ]
 }

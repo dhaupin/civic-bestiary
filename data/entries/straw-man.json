@@ -1,0 +1,31 @@
+{
+  "term": "Straw man",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 2,
+  "part_of_speech": "noun",
+  "etymology": "From the training dummy: a figure stuffed with straw is easier to knock down than the man holding the argument.",
+  "family": "Informal · Red herring",
+  "committed_when": "An opponent's position is paraphrased before it is answered.",
+  "tell": "The refutation lands cleanly, and the person refuted never said the thing.",
+  "counter": "Quote the position back in its own words and ask whether the reply still lands. If it does not, the reply was aimed elsewhere.",
+  "senses": [
+    "Replacing someone's position with a weaker, sillier version of it and then defeating the version you built.",
+    "It works because the audience rarely holds the original wording in mind. Whoever supplies the paraphrase controls what gets refuted, so an argument can be lost without ever being made."
+  ],
+  "example": "“They want to fund the libraries because they think books are free and nobody should work.” Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.",
+  "confused_with": [
+    {
+      "term": "Motte-and-bailey fallacy",
+      "tell": "The straw man misstates a position you reject; the motte retreats to a modest claim you never disputed."
+    }
+  ],
+  "related": [
+    "Loaded question",
+    "False dilemma"
+  ],
+  "cite": {
+    "label": "Wikipedia · Straw man",
+    "url": "https://en.wikipedia.org/wiki/Straw_man"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "term": "Sunk cost fallacy",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 26,
+  "part_of_speech": "noun",
+  "etymology": "From accounting: money already spent is gone, and no decision can bring it back.",
+  "family": "Informal · Statistical",
+  "committed_when": "A strategy has failed and its defenders are counting what it cost to start.",
+  "tell": "The case for continuing is entirely about the past, and the future is not mentioned.",
+  "counter": "Ask what you would do if the sunk cost did not exist. That answer is the decision; the ledger is history.",
+  "senses": [
+    "Continuing a failing course of action because of what has already been invested in it.",
+    "It works because abandoning a cost feels like admitting the cost was wasted. The loss is already real; the sentence only makes it feel avoidable."
+  ],
+  "example": "“We cannot withdraw now, after everything we have spent.” The spending is the reason the account is empty, not the reason to keep filling it.",
+  "confused_with": [
+    {
+      "term": "Appeal to tradition",
+      "tell": "Tradition binds the future to the distant past; sunk cost binds it to expenses still inside the fiscal year."
+    }
+  ],
+  "related": [
+    "Appeal to tradition",
+    "Post hoc ergo propter hoc"
+  ],
+  "cite": {
+    "label": "Wikipedia · Sunk cost",
+    "url": "https://en.wikipedia.org/wiki/Sunk_cost"
+  }
+}

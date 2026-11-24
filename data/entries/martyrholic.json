@@ -29,5 +29,15 @@
     "Dramagogue",
     "Sabotriot",
     "Plutomartyr"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Anecdotal evidence"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
+    }
   ]
 }

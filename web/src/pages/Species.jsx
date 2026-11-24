@@ -53,7 +53,7 @@ export default function Species() {
           <h1 className="species-name">{entry.term}</h1>
           <p className="species-meta">
             <em>{entry.partOfSpeech}</em>
-            <span className="ipa">{entry.ipa}</span>
+            {entry.ipa && <span className="ipa">{entry.ipa}</span>}
           </p>
           <p className="species-etym">{entry.etymology}</p>
         </header>
@@ -137,6 +137,16 @@ export default function Species() {
               </p>
             ))}
           </div>
+        )}
+
+        {entry.cite && (
+          <p className="species-cite">
+            <span className="species-edge-label">Source</span>
+            <a href={entry.cite.url} target="_blank" rel="noreferrer">
+              {entry.cite.label}
+              <span aria-hidden="true"> ↗</span>
+            </a>
+          </p>
         )}
 
         <div className="species-compare">

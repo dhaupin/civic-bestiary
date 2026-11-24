@@ -1,0 +1,31 @@
+{
+  "term": "Proof by assertion",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 25,
+  "part_of_speech": "noun",
+  "etymology": "From mathematics, where a proof is a demonstration - and this is the counterfeit: the conclusion, repeated.",
+  "family": "Informal · Presumption",
+  "committed_when": "The claim cannot be supported and must not be conceded.",
+  "tell": "The same sentence returns, louder, with no new reason attached.",
+  "counter": "Ask for the reason once, then note that none has arrived. Repetition is not a premise, and saying so out loud is usually enough.",
+  "senses": [
+    "Repeating a claim with confidence as though repetition were support, and treating objection as noise.",
+    "It works because certainty is contagious. An audience without the means to check infers from composure that there is something to check against."
+  ],
+  "example": "“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.” Four sentences, one assertion, zero evidence.",
+  "confused_with": [
+    {
+      "term": "Circular reasoning",
+      "tell": "The assertion adds no support and repeats itself; the circle adds a step and returns to the start."
+    }
+  ],
+  "related": [
+    "Circular reasoning",
+    "Appeal to authority"
+  ],
+  "cite": {
+    "label": "Wikipedia · Proof by assertion",
+    "url": "https://en.wikipedia.org/wiki/Proof_by_assertion"
+  }
+}

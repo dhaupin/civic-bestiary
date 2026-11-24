@@ -29,5 +29,15 @@
     "Sophistroll",
     "Trust-me-brofessor",
     "Bleatkeeper"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Circular reasoning"
+    },
+    {
+      "rel": "commits",
+      "to": "False dilemma"
+    }
   ]
 }

@@ -29,5 +29,15 @@
     "Biasographer",
     "Bleatkeeper",
     "Gallopologist"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to authority"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from ignorance"
+    }
   ]
 }

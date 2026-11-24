@@ -1,0 +1,31 @@
+{
+  "term": "Equivocation",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 29,
+  "part_of_speech": "noun",
+  "etymology": "Latin: aequus vox, “equal voice” - one word doing two jobs in the same argument.",
+  "family": "Informal · Ambiguity",
+  "committed_when": "A word with more than one sense is load-bearing in the argument.",
+  "tell": "The term means one thing in the premise and another in the conclusion.",
+  "counter": "Define the term at first use and substitute the definition everywhere. If the argument breaks, the word was doing the work.",
+  "senses": [
+    "Using one word in two different senses inside a single argument, so the conclusion appears to follow.",
+    "It works because the word really is the same word. The shift happens in the meaning, which is invisible on the page and audible only if you ask what the word meant each time."
+  ],
+  "example": "“Speech is free, so my platform must host it.” Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.",
+  "confused_with": [
+    {
+      "term": "Motte-and-bailey fallacy",
+      "tell": "The motte switches between two claims; equivocation switches between two senses of a word inside one claim."
+    }
+  ],
+  "related": [
+    "Motte-and-bailey fallacy",
+    "Loaded question"
+  ],
+  "cite": {
+    "label": "Wikipedia · Equivocation",
+    "url": "https://en.wikipedia.org/wiki/Equivocation"
+  }
+}

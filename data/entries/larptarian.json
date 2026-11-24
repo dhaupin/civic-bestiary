@@ -29,5 +29,15 @@
     "Sovereign shillizen",
     "Bootcurious",
     "Freetard"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "No true Scotsman"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to tradition"
+    }
   ]
 }

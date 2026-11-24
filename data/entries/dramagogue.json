@@ -29,5 +29,11 @@
     "Xenophobricator",
     "Martyrholic",
     "Ragesturbationist"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to fear"
+    }
   ]
 }

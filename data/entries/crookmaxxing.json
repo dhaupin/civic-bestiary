@@ -25,5 +25,11 @@
     "Hypocontortionist",
     "Ragesturbationist",
     "Sovereign shillizen"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Two wrongs make a right"
+    }
   ]
 }

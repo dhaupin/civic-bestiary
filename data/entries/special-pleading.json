@@ -1,0 +1,31 @@
+{
+  "term": "Special pleading",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 18,
+  "part_of_speech": "noun",
+  "etymology": "From law: a plea that asks the court to apply a different rule to this case, with no reason given for the exception.",
+  "family": "Informal · Presumption",
+  "committed_when": "A rule the speaker has just applied to someone else would now apply to the speaker.",
+  "tell": "The rule holds, except here, for reasons that are never stated as a rule.",
+  "counter": "Ask what makes this case different in a way that could be written down and applied to everyone.",
+  "senses": [
+    "Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.",
+    "It works because the exemption is usually framed as context. Every rule has context; the fallacy is invoking it only for one side."
+  ],
+  "example": "“Attacking a public official's family is out of bounds.” Said by the account that spent last spring on a mayor's brother.",
+  "confused_with": [
+    {
+      "term": "Two wrongs make a right",
+      "tell": "Special pleading asks for an exemption from the standard; two wrongs argues the standard is void because someone else broke it."
+    }
+  ],
+  "related": [
+    "Two wrongs make a right",
+    "Moving the goalposts"
+  ],
+  "cite": {
+    "label": "Wikipedia · Special pleading",
+    "url": "https://en.wikipedia.org/wiki/Special_pleading"
+  }
+}

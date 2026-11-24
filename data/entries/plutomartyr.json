@@ -29,5 +29,15 @@
     "Martyrholic",
     "Bootcurious",
     "Crookmaxxing"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "False equivalence"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
+    }
   ]
 }

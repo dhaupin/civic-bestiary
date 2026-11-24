@@ -29,5 +29,15 @@
     "Equivangelist",
     "Sophistroll",
     "Capitulectual"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Tone policing"
+    },
+    {
+      "rel": "commits",
+      "to": "Ad hominem"
+    }
   ]
 }

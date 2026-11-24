@@ -309,7 +309,8 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .badge-species { color: var(--accent); border-color: var(--accent); }
 .badge-move { color: #6b4d8f; border-color: #6b4d8f; }
 .badge-ability { color: #2f6b5e; border-color: #2f6b5e; }
-.badge-format { color: #8a5a1f; border-color: #8a5a1f; }
+.badge-habitat { color: #8a5a1f; border-color: #8a5a1f; }
+.badge-fallacy { color: #4a4a4a; border-color: #4a4a4a; }
 .badge-buff { color: #8f3a5e; border-color: #8f3a5e; }
 
 .atoz {
@@ -514,6 +515,10 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .species-edge a { color: var(--ink); text-decoration-color: var(--accent); }
 .species-edge a:hover { color: var(--accent); }
 .species-edge .sep { color: var(--line); margin: 0 6px; }
+
+.species-cite { margin: 0 0 26px; font-size: 18px; }
+.species-cite a { color: var(--ink); text-decoration-color: var(--accent); }
+.species-cite a:hover { color: var(--accent); }
 
 .species-compare { border-top: 1px solid var(--line); padding-top: 22px; margin-bottom: 40px; }
 .species-compare h2 {

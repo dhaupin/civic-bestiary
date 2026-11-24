@@ -29,5 +29,15 @@
     "Sophistroll",
     "JAQing off",
     "Trust-me-brofessor"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Hasty generalization"
+    },
+    {
+      "rel": "commits",
+      "to": "Anecdotal evidence"
+    }
   ]
 }

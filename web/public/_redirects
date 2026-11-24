@@ -22,6 +22,6 @@
 /species/crookmaxxing    /moves/crookmaxxing/      301
 /species/crookmaxxing/   /moves/crookmaxxing/      301
 /species/bootcurious     /buffs/bootcurious/       301
-/species/bootcurious/    /buffs/bootcurious/       301
-/species/patriotainment  /formats/patriotainment/  301
-/species/patriotainment/ /formats/patriotainment/  301
+/species/bootcurious/    /buffs/bootcurious/      301
+/species/patriotainment  /habitats/patriotainment/ 301
+/species/patriotainment/ /habitats/patriotainment/ 301

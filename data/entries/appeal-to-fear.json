@@ -1,0 +1,31 @@
+{
+  "term": "Appeal to fear",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 12,
+  "part_of_speech": "noun",
+  "etymology": "Latin: argumentum ad metum. The oldest political argument, and the one with the shortest feedback loop.",
+  "family": "Informal · Red herring",
+  "committed_when": "Something frightening is adjacent to the decision, and the case for the proposal is weak.",
+  "tell": "The argument ends in a threat, and the threat is doing all the work.",
+  "counter": "Ask for the proposed mechanism, then for the probability. Fear is a reason to look; it is not a reason to conclude.",
+  "senses": [
+    "Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.",
+    "It works because fear narrows attention. A frightened audience stops asking whether the proposal is good and starts asking whether the alternative is survivable."
+  ],
+  "example": "“If we do nothing, they win.” Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.",
+  "confused_with": [
+    {
+      "term": "Appeal to emotion",
+      "tell": "Fear is a channel of the wider emotional appeal, and the one that most reliably skips the argument."
+    }
+  ],
+  "related": [
+    "Appeal to emotion",
+    "Slippery slope"
+  ],
+  "cite": {
+    "label": "Wikipedia · Appeal to fear",
+    "url": "https://en.wikipedia.org/wiki/Appeal_to_fear"
+  }
+}

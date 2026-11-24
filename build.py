@@ -85,17 +85,21 @@ def validate(doc):
             errors.append(f"{chapter}: duplicate position {dupes}")
         if not positions:
             errors.append(f"{chapter}: no entries")
+    # The graph has to stay connected, but "related" is only one of the ways to
+    # connect now: a fallacy is reached through the creatures that commit it.
     referenced = {ref.lower() for e in doc["entries"] for ref in e.get("related", [])}
+    referenced |= {edge.get("to", "").lower() for e in doc["entries"] for edge in e.get("edges", [])}
     for term in terms:
         if term.lower() not in referenced:
-            errors.append(f"{term}: never listed as a related term; the cross-reference graph must stay connected")
+            errors.append(f"{term}: unreferenced - add it to a related list or target it with an edge; the graph must stay connected")
     for entry in doc["entries"]:
         name = entry.get("term", "?")
         kind = entry.get("kind")
         if kind not in KINDS:
             errors.append(f"{name}: unknown kind {kind!r}; known: {', '.join(KINDS)}")
             continue
-        missing = [k for k in (*REQUIRED, *identification_keys(kind)) if not entry.get(k)]
+        omitted = set(KINDS[kind].get("omit", []))
+        missing = [k for k in (*REQUIRED, *identification_keys(kind)) if k not in omitted and not entry.get(k)]
         if missing:
             errors.append(f"{name}: missing {', '.join(missing)}")
         # Kinds share row names (a move and a buff both have a `tell`), so the
@@ -127,6 +131,10 @@ def validate(doc):
                 errors.append(f"{entry.get('term', '?')}: related term {ref!r} is not defined")
             if ref.lower() == entry.get("term", "").lower():
                 errors.append(f"{entry.get('term', '?')}: relates to itself")
+        cite = entry.get("cite")
+        if cite is not None:
+            if not isinstance(cite, dict) or not cite.get("label") or not str(cite.get("url", "")).startswith("http"):
+                errors.append(f"{name}: cite needs a label and an http(s) url")
         seen_edges = set()
         for edge in entry.get("edges", []):
             rel = edge.get("rel")
@@ -189,9 +197,12 @@ def render_edges(entry, anchors):
 
 
 def render_entry(number, entry, anchors):
+    # A reference entry has no pronunciation, so the line adapts rather than
+    # printing an empty code span.
+    spoken = f" `{entry['ipa']}`" if entry.get("ipa") else ""
     lines = [
         f"### {number}. {entry['term']}",
-        f"*({entry['part_of_speech']})* `{entry['ipa']}` - *{KINDS[entry['kind']]['label'].lower()}*  ",
+        f"*({entry['part_of_speech']})*{spoken} - *{KINDS[entry['kind']]['label'].lower()}*  ",
         f"*{entry['etymology']}*",
         "",
     ]
@@ -216,6 +227,8 @@ def render_entry(number, entry, anchors):
     )
     lines.extend(render_edges(entry, anchors))
     lines.append(f"* **Related Terms:** {related}")
+    if entry.get("cite"):
+        lines.append(f"* **Source:** [{entry['cite']['label']}]({entry['cite']['url']})")
     return lines
 
 

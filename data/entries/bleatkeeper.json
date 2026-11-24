@@ -29,5 +29,11 @@
     "Biasographer",
     "Trust-me-brofessor",
     "Algodemic"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to authority"
+    }
   ]
 }

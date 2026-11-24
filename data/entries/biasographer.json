@@ -29,5 +29,15 @@
     "Trust-me-brofessor",
     "Bleatkeeper",
     "Mythstorian"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Cherry picking"
+    },
+    {
+      "rel": "commits",
+      "to": "Texas sharpshooter fallacy"
+    }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "term": "Slippery slope",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 7,
+  "part_of_speech": "noun",
+  "etymology": "The image is physical: one step onto the incline, and gravity is left to finish the argument.",
+  "family": "Informal · Presumption",
+  "committed_when": "A modest change is proposed that the speaker opposes.",
+  "tell": "The sentence jumps from a small rule to a catastrophe with no institution in between.",
+  "counter": "Ask what stops the slide at each step. If the answer is nothing, ask why the previous steps never slid.",
+  "senses": [
+    "Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it there.",
+    "It works because nobody can audit a chain of consequences they have not seen. Each link sounds plausible alone; the whole chain is narrated rather than argued."
+  ],
+  "example": "“First they ban the plastic bag, then they ban the car.” Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.",
+  "confused_with": [
+    {
+      "term": "False dilemma",
+      "tell": "The slope hides a chain of steps; the dilemma hides the options that are not steps."
+    }
+  ],
+  "related": [
+    "False dilemma",
+    "Post hoc ergo propter hoc"
+  ],
+  "cite": {
+    "label": "Wikipedia · Slippery slope",
+    "url": "https://en.wikipedia.org/wiki/Slippery_slope"
+  }
+}

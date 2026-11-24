@@ -1,0 +1,31 @@
+{
+  "term": "Texas sharpshooter fallacy",
+  "kind": "fallacy",
+  "chapter": "fallacies",
+  "position": 27,
+  "part_of_speech": "noun",
+  "etymology": "From the marksman who fires into a barn and then paints the target around the tightest cluster.",
+  "family": "Informal · Faulty generalization",
+  "committed_when": "A large dataset is available and a story is wanted.",
+  "tell": "The hypothesis was formed after the data was seen, and this is not mentioned.",
+  "counter": "Ask what the prediction was before the data arrived, and what the same measure shows in the cases not chosen.",
+  "senses": [
+    "Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
+    "It works because a cluster really is a cluster. With enough data, some grouping will be tight; the fallacy is the order of operations, which nobody can see in the finished result."
+  ],
+  "example": "“Crimes cluster around these three blocks.” So does every address in the city, when you draw the box around three blocks.",
+  "confused_with": [
+    {
+      "term": "Cherry picking",
+      "tell": "The sharpshooter keeps all the data and moves the target; the cherry picker keeps the target and drops the data."
+    }
+  ],
+  "related": [
+    "Cherry picking",
+    "Post hoc ergo propter hoc"
+  ],
+  "cite": {
+    "label": "Wikipedia · Texas sharpshooter fallacy",
+    "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy"
+  }
+}

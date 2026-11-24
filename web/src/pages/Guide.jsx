@@ -53,20 +53,20 @@ function headingFor(view) {
     return {
       eyebrow: `Chapter ${view.chapter.roman} · ${own.length} ${own.length === 1 ? 'entry' : 'entries'}`,
       title: view.chapter.title,
-      sub: null,
+      sub: view.chapter.note || null,
       rows: [],
       path: `/chapters/${view.chapter.id}/`,
       description: `${own.length} entries in chapter ${view.chapter.roman} of the bestiary: ${view.chapter.title}.`,
     }
   }
   return {
-    eyebrow: `${stats.entries} entries · ${chapters.length} chapters · ${kindsList.filter((spec) => stats.kinds[spec.id] > 0).length} kinds`,
+    eyebrow: `${stats.coinages} coinages · ${stats.fallacies} fallacies · ${chapters.length} chapters`,
     title: 'The field guide',
-    sub: 'Not everything here is a creature. Species are the actors, moves are what they do, abilities belong to offices, formats are the shows that stage them, and buffs are the conditions they run under. Search by name, or drill down by kind and chapter.',
+    sub: 'Not everything here is a creature. Species are the actors, moves are what they do, abilities belong to offices, habitats are the places that house them, and buffs are the conditions they run under. The appendix names the documented fallacies they commit. Search by name, or drill down by kind and chapter.',
     rows: [],
     path: '/guide/',
     description:
-      'Every entry in the bestiary, by kind and chapter - species, moves, abilities, formats, and buffs.',
+      'Every entry in the bestiary, by kind and chapter - species, moves, abilities, habitats, buffs, and the appendix of real fallacies.',
   }
 }
 

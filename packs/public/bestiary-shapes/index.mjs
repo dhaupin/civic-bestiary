@@ -11,11 +11,12 @@
 
 // Entries are addressed by the prefix their kind dictates, so the pack walks
 // every kind's tree rather than assuming /species/.
-const KIND_PREFIXES = ['species', 'moves', 'abilities', 'formats', 'buffs']
+const KIND_PREFIXES = ['species', 'moves', 'abilities', 'habitats', 'buffs', 'fallacies']
 const ENTRY_PAGE = new RegExp(`^(${KIND_PREFIXES.join('|')})/[^/]+/index\\.html$`)
 // The URL prefix is plural, the record's kind is singular: moves/ holds moves.
 const KIND_OF_PREFIX = {
-  species: 'species', moves: 'move', abilities: 'ability', formats: 'format', buffs: 'buff',
+  species: 'species', moves: 'move', abilities: 'ability', habitats: 'habitat',
+  buffs: 'buff', fallacies: 'fallacy',
 }
 
 const PAGE_MARKERS = [
@@ -68,6 +69,23 @@ export default {
           }
         }
         return findings
+      },
+    },
+    {
+      // The appendix exists because these are documented rather than invented:
+      // a fallacy page without a citation is just another coinage wearing a
+      // lab coat, so the source link is a shape requirement, not a nicety.
+      id: 'reference-entries-cite-a-source',
+      level: 'fail',
+      run(ctx) {
+        return walk(ctx, 'fallacies')
+          .filter((page) => !page.endsWith('index.html') || page !== 'fallacies/index.html')
+          .filter((page) => !page.endsWith('/index.html') || page.split('/').length > 2)
+          .filter((page) => {
+            const html = ctx.text(page) || ''
+            return !html.includes('https://en.wikipedia.org/')
+          })
+          .map((page) => ({ page, message: 'fallacy page cites no source' }))
       },
     },
     {

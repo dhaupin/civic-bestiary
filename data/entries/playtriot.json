@@ -29,5 +29,19 @@
     "Sabotriot",
     "LARPtarian",
     "Patriotainment"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to tradition"
+    },
+    {
+      "rel": "commits",
+      "to": "Sunk cost fallacy"
+    }
   ]
 }

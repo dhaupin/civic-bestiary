@@ -16,6 +16,11 @@ import { chapters, entries, kinds, meta as lexicon, stats } from './src/data/lex
 // needing the guide's javascript to filter it.
 // Every kind gets a front door, even a kind with no records yet: a reader who
 // types /abilities/ should get an explanation, not a 404.
+// Meta descriptions have a working length; trim on a word boundary rather than
+// letting a long chapter note run past it.
+const clip = (text, limit = 158) =>
+  (text.length <= limit ? text : `${text.slice(0, limit).replace(/[ ,;:-]+\S*$/, '')}...`)
+
 const kindRoutes = Object.entries(kinds)
   .map(([id, spec]) => ({
     path: spec.path,
@@ -38,7 +43,9 @@ const chapterRoutes = chapters.map((chapter) => {
     changefreq: 'monthly',
     meta: {
       title: `${label} | ${site.name}`.length <= 65 ? `${label} | ${site.name}` : label,
-      description: `Chapter ${chapter.roman} of the bestiary: ${count} entries, ${chapter.title}.`,
+      description: clip(chapter.note
+        ? `Chapter ${chapter.roman} of the bestiary: ${chapter.title}. ${chapter.note}`
+        : `Chapter ${chapter.roman} of the bestiary: ${count} entries, ${chapter.title}.`),
     },
   }
 })

@@ -29,5 +29,15 @@
     "Crookmaxxing",
     "Dramagogue",
     "Slopagandist"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to fear"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
+    }
   ]
 }

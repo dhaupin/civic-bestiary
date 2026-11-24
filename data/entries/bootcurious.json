@@ -25,5 +25,15 @@
     "LARPtarian",
     "Hypocontortionist",
     "Sabotriot"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Special pleading"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to authority"
+    }
   ]
 }

@@ -32,16 +32,18 @@ export default function AppLayout() {
           <Route path="/" element={<Home />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="/chapters/:chapter" element={<Guide />} />
-          {/* a kind's front door: /species/ /moves/ /abilities/ /formats/ /buffs/ */}
+          {/* a kind's front door: /species/ /moves/ /abilities/ /habitats/ /buffs/ /fallacies/ */}
           <Route path="/species" element={<Guide />} />
           <Route path="/moves" element={<Guide />} />
           <Route path="/abilities" element={<Guide />} />
-          <Route path="/formats" element={<Guide />} />
+          <Route path="/habitats" element={<Guide />} />
           <Route path="/buffs" element={<Guide />} />
+          <Route path="/fallacies" element={<Guide />} />
           <Route path="/species/:slug" element={<Species />} />
           <Route path="/moves/:slug" element={<Species />} />
           <Route path="/abilities/:slug" element={<Species />} />
-          <Route path="/formats/:slug" element={<Species />} />
+          <Route path="/habitats/:slug" element={<Species />} />
+          <Route path="/fallacies/:slug" element={<Species />} />
           <Route path="/buffs/:slug" element={<Species />} />
           <Route path="/contribute" element={<Contribute />} />
           {/* one Route per ssr.config.js entry; species routes share this one */}

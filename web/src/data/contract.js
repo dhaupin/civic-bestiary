@@ -28,6 +28,11 @@ export default {
       "id": "fearmongering-grift",
       "roman": "IV",
       "title": "Fearmongering, Grift & Algorithmic Radicalization"
+    },
+    {
+      "id": "fallacies",
+      "roman": "V",
+      "title": "The Fallacies (an appendix)"
     }
   ],
   "kinds": {
@@ -109,28 +114,28 @@ export default {
         }
       ]
     },
-    "format": {
-      "label": "Format",
-      "plural": "Formats",
-      "path": "/formats/",
-      "blurb": "A medium that stages the others - the show, not the performer.",
+    "habitat": {
+      "label": "Habitat",
+      "plural": "Habitats",
+      "path": "/habitats/",
+      "blurb": "The place a creature is found and fed - the show, the rally, the forum. Broadcast or physical, it is where the performance has a home.",
       "identification": [
         {
           "key": "carriers",
           "label": "Carriers",
-          "hint": "Where the format lives: which channels, slots, or platforms.",
+          "hint": "What carries it: channels, slots, rooms, platforms.",
           "example": "Cable primetime, streaming specials, and the merch drop that follows."
         },
         {
           "key": "economics",
           "label": "Economics",
-          "hint": "How it pays for itself.",
+          "hint": "How the habitat pays for itself.",
           "example": "Ad rates keyed to outrage, plus a subscription tier for the uncut version."
         },
         {
           "key": "signature",
           "label": "Signature",
-          "hint": "The unmistakable formal tic - what makes it recognisably this format and not the news.",
+          "hint": "The unmistakable formal tic - what makes it recognisably this habitat and not the news.",
           "example": "A countdown clock over a battlefield."
         }
       ]
@@ -160,6 +165,38 @@ export default {
           "example": "The first primary debate, or the first subpoena - whichever lands first."
         }
       ]
+    },
+    "fallacy": {
+      "label": "Fallacy",
+      "plural": "Fallacies",
+      "path": "/fallacies/",
+      "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing the creatures commit.",
+      "identification": [
+        {
+          "key": "family",
+          "label": "Family",
+          "hint": "Where the accredited taxonomy files it: formal, or informal and which family.",
+          "example": "Informal · Relevance"
+        },
+        {
+          "key": "committed_when",
+          "label": "Committed when",
+          "hint": "The move that makes it happen, in plain terms.",
+          "example": "The claim is answered by attacking whoever made it."
+        },
+        {
+          "key": "tell",
+          "label": "The tell",
+          "hint": "How you hear it in the room.",
+          "example": "The reply has no content about the claim, only about the claimant."
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "hint": "The response that ends it.",
+          "example": "Ask what the claim gets wrong, and answer that instead."
+        }
+      ]
     }
   },
   "contributor": [
@@ -178,7 +215,7 @@ export default {
       "type": "select",
       "required": true,
       "requiredInIssue": true,
-      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a format is a show, and a buff is a condition.",
+      "hint": "What sort of thing this is. A species is a person-shaped pattern, a move is an action, an ability belongs to an office, a habitat is a place that houses them, a buff is a condition, and a fallacy is a documented error in reasoning.",
       "example": "Species"
     },
     {
@@ -272,6 +309,15 @@ export default {
       "requiredInIssue": false,
       "hint": "Relationship edges to other entries, each with a relation from the schema's vocabulary. Author one direction; the other page shows the inverse automatically.",
       "example": "stages -> Patriotainer"
+    },
+    {
+      "key": "cite",
+      "label": "Source",
+      "type": "cite",
+      "required": false,
+      "requiredInIssue": false,
+      "hint": "For reference entries: where the documented account lives (label + URL). Coinages have no source - they are invented, and say so by leaving this empty.",
+      "example": "Wikipedia · Ad hominem -> https://en.wikipedia.org/wiki/Ad_hominem"
     }
   ]
 }

@@ -29,5 +29,15 @@
     "Dramagogue",
     "Ragesturbationist",
     "Illogician"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Hasty generalization"
+    },
+    {
+      "rel": "commits",
+      "to": "Association fallacy"
+    }
   ]
 }
