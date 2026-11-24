@@ -31,7 +31,7 @@ export default {
     url: `${site.url}/og-image.png`,
     width: 1200,
     height: 630,
-    alt: `${site.name} - a glossary of portmanteaus for performative patriotism and bad-faith debate`,
+    alt: `${site.name} - a field guide to the creatures of the body politic`,
   },
   keywords: site.keywords,
   robots: true,

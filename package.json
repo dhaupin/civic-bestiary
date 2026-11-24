@@ -1,5 +1,5 @@
 {
-  "name": "wordsmithing",
+  "name": "civicbestiary",
   "private": true,
   "type": "module",
   "description": "The Civic Bestiary - a field guide to the creatures of the body politic, generated from one dataset into a README and a prestruct-prerendered static site.",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhaupin/wordsmithing.git"
+    "url": "git+https://github.com/dhaupin/civicbestiary.git"
   },
   "engines": {
     "node": ">=20.19"

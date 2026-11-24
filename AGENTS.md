@@ -88,8 +88,13 @@ inserted mid-section. That is the one thing a renumber breaks; prefer appending.
   `<html data-theme>` attribute, nav and footer render from `site.config.js`.
 - **`siteUrl` is a placeholder** (`https://civicbestiary.example.com`). It is baked into
   canonicals, OG tags, and `sitemap.xml`, so replace it in `site.config.js` before publishing.
-- The site expects a domain root. For a project page (`user.github.io/repo/`) set Vite's
-  `base` in `web/vite.config.js` to the repo path.
+- The site expects a domain root. For a project page (`dhaupin.github.io/civicbestiary/`) set
+  Vite's `base` in `web/vite.config.js` to the repo path.
+- The repo URL is authored once, in `site.config.js` (`REPO`); the nav link, the footer, and
+  the JSON-LD license all derive from it. A few surfaces still carry hand-copied identity and
+  will drift on a rename: `web/public/site.webmanifest`, the `aria-label` in
+  `web/public/icon.svg`, the canonical placeholder in `web/index.html`, the two
+  `package.json` names, and the OG `alt` in `web/ssr.config.js`. Check them on any rename.
 - `web/public/icon.svg` is the authored mark; `node scripts/icons.mjs` (run from `web/` after
   `npm i --no-save @resvg/resvg-js`) re-rasterizes the favicons and `og-image.png`.
 - Deploy: `.github/workflows/pages.yml` builds and publishes `web/dist` to GitHub Pages.

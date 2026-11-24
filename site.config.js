@@ -3,10 +3,10 @@
  *
  * Adopted from dhaupin/coreforge. Everything else derives from it: the React
  * surfaces import it directly, and web/ssr.config.js reshapes it into what the
- * prestruct engine expects. The bestiary's own content lives in lexicon.json -
+ * prestruct engine expects. The bestiary's own content lives in data/ -
  * this file is identity and routing only.
  */
-const REPO = 'https://github.com/dhaupin/wordsmithing'
+const REPO = 'https://github.com/dhaupin/civicbestiary'
 
 export default {
   // --- identity -----------------------------------------------------------
@@ -26,7 +26,7 @@ export default {
     'bestiary, field guide, portmanteau, satire, rhetoric, propaganda, trolls, civic, nationalism, media literacy',
 
   maker: { label: 'dhaupin', url: 'https://github.com/dhaupin' },
-  org: { name: 'wordsmithing', url: REPO },
+  org: { name: 'civicbestiary', url: REPO },
 
   // --- theme --------------------------------------------------------------
   // Protocol constants shared by the pre-paint bootstrap and the switch; not
