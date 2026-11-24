@@ -119,10 +119,18 @@ inserted mid-section. That is the one thing a renumber breaks; prefer appending.
   `package.json` names, and the OG `alt` in `web/ssr.config.js`. Check them on any rename.
 - `web/public/icon.svg` is the authored mark; `node scripts/icons.mjs` (run from `web/` after
   `npm i --no-save @resvg/resvg-js`) re-rasterizes the favicons and `og-image.png`.
-- **Deploy is Cloudflare Pages, built from Git.** Project settings: root directory `web`,
-  build command `npm run build`, build output `dist`, production branch `main` (every other
-  branch gets a preview deployment, which is what `staging` buys us). `web/.nvmrc` pins Node -
-  both Pages and CI read that one file.
+- **Deploy is Cloudflare Pages, built from Git.** The dashboard must hold exactly:
+
+  | Setting | Value |
+  | --- | --- |
+  | Production branch | `main` (other branches get preview deployments) |
+  | Root directory | `web` - case-sensitive; `Web` fails with `Cannot find cwd` |
+  | Build command | `npm run build` |
+  | Build output | `dist` - relative to the root directory, so **not** `web/dist` |
+
+  Both failure modes are silent-ish: a wrong case dies before the build starts, and a wrong
+  output path builds fine and deploys an empty site. `web/.nvmrc` pins Node - Pages and CI
+  read the same file.
 - There is no deploy job in CI: `.github/workflows/verify.yml` only gates (artifacts current,
   pack lint, build, poststruct). A second build in CI could only disagree with the one that
   ships.
