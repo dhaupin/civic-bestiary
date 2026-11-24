@@ -1811,7 +1811,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Grace period (politics)",
+      "url": "https://en.wikipedia.org/wiki/Grace_period#Politics"
+    },
     "summary": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
     "definition": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
     "confusedWith": [
@@ -2225,7 +2228,15 @@ export const entries = [
         "path": "/fallacies/hasty-generalization/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
+      }
+    ]
   },
   {
     "term": "Cloture",
@@ -2320,7 +2331,15 @@ export const entries = [
         "path": "/abilities/filibluster/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ]
   },
   {
     "term": "Discharge petition",
@@ -2410,7 +2429,15 @@ export const entries = [
         "path": "/abilities/filibluster/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      }
+    ]
   },
   {
     "term": "Vague promises",
@@ -2489,6 +2516,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
       }
     ]
   },
@@ -5646,7 +5680,15 @@ export const entries = [
         "path": "/species/capitulectual/"
       }
     ],
-    "edges": [],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      }
+    ],
     "backlinks": [
       {
         "rel": "performs",
@@ -5654,6 +5696,13 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
       }
     ]
   },
@@ -6093,6 +6142,13 @@ export const entries = [
         "term": "Illogician",
         "slug": "illogician",
         "path": "/species/illogician/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/"
       },
       {
         "rel": "commits",
@@ -9590,7 +9646,15 @@ export const entries = [
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/"
+      }
+    ]
   },
   {
     "term": "Breaking treaties",
@@ -9736,7 +9800,15 @@ export const entries = [
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      }
+    ]
   },
   {
     "term": "Good ol' boys club",
@@ -9812,7 +9884,15 @@ export const entries = [
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ]
   },
   {
     "term": "Unelected official",
@@ -11827,7 +11907,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“He lost the thread, then posted a screenshot of his own tick, and the **bluecheck** did the rest of the arguing for him.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Twitter verification",
+      "url": "https://en.wikipedia.org/wiki/Twitter_verification"
+    },
     "summary": "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as...",
     "definition": "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as the account being right.",
     "confusedWith": [
@@ -12022,7 +12105,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Rally 'round the flag effect",
+      "url": "https://en.wikipedia.org/wiki/Rally_%27round_the_flag_effect"
+    },
     "summary": "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of...",
     "definition": "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
     "confusedWith": [
@@ -13149,7 +13235,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Access journalism",
+      "url": "https://en.wikipedia.org/wiki/Access_journalism"
+    },
     "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and...",
     "definition": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and the next hard question expensive.",
     "confusedWith": [
@@ -13282,7 +13371,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-emotion/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ]
   },
   {
     "term": "WMD mongering",
@@ -13356,7 +13453,15 @@ export const entries = [
         "path": "/species/dramagogue/"
       }
     ],
-    "edges": [],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "path": "/fallacies/appeal-to-fear/"
+      }
+    ],
     "backlinks": [
       {
         "rel": "performs",
@@ -13364,6 +13469,13 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
       }
     ]
   },
@@ -13442,6 +13554,13 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
       }
     ]
   },
@@ -13670,6 +13789,13 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
       }
     ]
   },
@@ -13748,6 +13874,13 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/"
       }
     ]
   },
@@ -14007,6 +14140,13 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "path": "/buffs/crisisglow/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
       }
     ]
   },
@@ -17047,6 +17187,13 @@ export const entries = [
         "term": "Recessure",
         "slug": "recessure",
         "path": "/abilities/recessure/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Discharge petition",
+        "slug": "discharge-petition",
+        "path": "/abilities/discharge-petition/"
       }
     ],
     "backlinks": []
@@ -17275,6 +17422,13 @@ export const entries = [
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
         "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
       }
     ],
     "backlinks": []
@@ -17815,6 +17969,13 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "path": "/abilities/cronycle/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Consent decree",
+        "slug": "consent-decree",
+        "path": "/abilities/consent-decree/"
       }
     ],
     "backlinks": []
@@ -17936,6 +18097,13 @@ export const entries = [
         "term": "Blueslip",
         "slug": "blueslip",
         "path": "/abilities/blueslip/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
       }
     ],
     "backlinks": [
@@ -18079,6 +18247,13 @@ export const entries = [
         "term": "Dead cat",
         "slug": "dead-cat",
         "path": "/moves/dead-cat/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Hot mic",
+        "slug": "hot-mic",
+        "path": "/buffs/hot-mic/"
       }
     ],
     "backlinks": [
@@ -18309,6 +18484,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
       }
     ],
     "backlinks": [
@@ -18537,6 +18719,20 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Cloture",
+        "slug": "cloture",
+        "path": "/abilities/cloture/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
       }
     ],
     "backlinks": [
@@ -18652,6 +18848,13 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Vague promises",
+        "slug": "vague-promises",
+        "path": "/moves/vague-promises/"
       }
     ],
     "backlinks": [
@@ -19095,6 +19298,13 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "path": "/buffs/crisisglow/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
       }
     ],
     "backlinks": []
@@ -19628,6 +19838,20 @@ export const entries = [
         "term": "Push poll",
         "slug": "push-poll",
         "path": "/moves/push-poll/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Climate hoax",
+        "slug": "climate-hoax",
+        "path": "/abilities/climate-hoax/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Convention bounce",
+        "slug": "convention-bounce",
+        "path": "/buffs/convention-bounce/"
       }
     ],
     "backlinks": []
@@ -19821,6 +20045,13 @@ export const entries = [
         "term": "JAQing Off",
         "slug": "jaqing-off",
         "path": "/moves/jaqing-off/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/"
       }
     ],
     "backlinks": [

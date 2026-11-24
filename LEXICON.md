@@ -426,6 +426,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Easily confused with:** *Crisisglow* - The honeymoan is grace after a win; the crisisglow is authority during a panic. One is granted by the calendar, the other by the alarm.
 * **Commits:** [*Appeal to novelty*](#133-appeal-to-novelty), [*Special pleading*](#92-special-pleading)
 * **Related Terms:** [*Playtriot*](#1-playtriot), [*Patriotainer*](#7-patriotainer)
+* **Source:** [Wikipedia · Grace period (politics)](https://en.wikipedia.org/wiki/Grace_period#Politics)
 
 ---
 
@@ -1107,6 +1108,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"My colleague is being unreasonable, but I think we can work something out" - the **good cop, bad cop** routine, with the something being the same something and a hand on the shoulder.*
 * **Easily confused with:** *Bothsidesing* - Bothsidesing presents two positions as equally valid; good cop, bad cop presents two positions as a range, and both of them are the same position.
+* **Commits:** [*False dilemma*](#51-false-dilemma)
 * **Related Terms:** [*Capitulectual*](#72-capitulectual)
 * **Source:** [Wikipedia · Good cop/bad cop](https://en.wikipedia.org/wiki/Good_cop/bad_cop)
 
@@ -2214,6 +2216,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Easily confused with:** *Bootcurious* - The bootcurious one defers to power; the bluecheck has been handed a little of it and spends it immediately.
 * **Commits:** [*Appeal to authority*](#50-appeal-to-authority), [*Proof by assertion*](#24-proof-by-assertion)
 * **Related Terms:** [*Trust-Me-Brofessor*](#30-trust-me-brofessor), [*The Feed*](#108-the-feed)
+* **Source:** [Wikipedia · Twitter verification](https://en.wikipedia.org/wiki/Twitter_verification)
 
 ---
 
@@ -2250,6 +2253,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Easily confused with:** *Martyrholic* - The martyrholic seeks the wound; the indictbump is what the wound pays. One is a temperament, the other a yield.
 * **Commits:** [*Tu quoque*](#142-tu-quoque), [*Poisoning the well*](#58-poisoning-the-well)
 * **Related Terms:** [*Plutomartyr*](#101-plutomartyr), [*Bluecheck*](#105-bluecheck)
+* **Source:** [Wikipedia · Rally 'round the flag effect](https://en.wikipedia.org/wiki/Rally_%27round_the_flag_effect)
 
 ---
 
@@ -2450,6 +2454,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Easily confused with:** *Briefing room* - The briefing room is where access is performed; access is what you still have when the room is empty.
 * **Commits:** [*Appeal to authority*](#50-appeal-to-authority)
 * **Related Terms:** [*Recusal*](#179-recusal), [*Comment section*](#36-comment-section), [*Spin room*](#112-spin-room)
+* **Source:** [Wikipedia · Access journalism](https://en.wikipedia.org/wiki/Access_journalism)
 
 ---
 
@@ -2485,6 +2490,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"We cannot wait for the smoking gun to become a mushroom cloud" - **WMD mongering**, in the sentence that made waiting sound like complicity.*
 * **Easily confused with:** *Proof by assertion* - Proof by assertion repeats the claim; WMD mongering manufactures the exhibit.
+* **Commits:** [*Appeal to fear*](#126-appeal-to-fear)
 * **Related Terms:** [*Forever war*](#124-forever-war), [*Dramagogue*](#97-dramagogue)
 * **Source:** [Wikipedia · Iraq and weapons of mass destruction](https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction)
 
@@ -3168,7 +3174,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Two years later the only proof of what the council had voted for was the **clerk**'s minutes, and the member who had denied it was reading them aloud."*
 * **Easily confused with:** *The archivist* - The clerk keeps what the body did this year; the archivist keeps what it did in 1974.
-* **Counters:** [*Sabotriot*](#5-sabotriot), [*Omnibust*](#10-omnibust), [*Pocketveto*](#12-pocketveto), [*Recessure*](#78-recessure)
+* **Counters:** [*Sabotriot*](#5-sabotriot), [*Omnibust*](#10-omnibust), [*Pocketveto*](#12-pocketveto), [*Recessure*](#78-recessure), [*Discharge petition*](#17-discharge-petition)
 * **Practises:** [*Records request*](#163-records-request)
 * **Related Terms:** [*The poll worker*](#156-the-poll-worker), [*Records request*](#163-records-request)
 * **Source:** [Wikipedia · City clerk](https://en.wikipedia.org/wiki/City_clerk)
@@ -3210,7 +3216,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it."*
 * **Easily confused with:** *The librarian* - The archivist keeps the thing; the librarian finds it.
-* **Counters:** [*Mythstorian*](#69-mythstorian), [*Friday news dump*](#42-friday-news-dump), [*Pseudo-event*](#115-pseudo-event), [*Hypocontortionist*](#68-hypocontortionist)
+* **Counters:** [*Mythstorian*](#69-mythstorian), [*Friday news dump*](#42-friday-news-dump), [*Pseudo-event*](#115-pseudo-event), [*Hypocontortionist*](#68-hypocontortionist), [*Secret meeting*](#87-secret-meeting)
 * **Practises:** [*The transcript*](#164-the-transcript)
 * **Related Terms:** [*The clerk*](#155-the-clerk), [*The transcript*](#164-the-transcript)
 * **Source:** [Wikipedia · Archivist of the United States](https://en.wikipedia.org/wiki/Archivist_of_the_United_States)
@@ -3315,7 +3321,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **auditor** pulled forty contracts, found the same vendor in eleven of them, and published the sampling method so that the finding could be argued with."*
 * **Easily confused with:** *The archivist* - The archivist keeps the record; the auditor reads it and says what it shows.
-* **Counters:** [*Cronycle*](#74-cronycle)
+* **Counters:** [*Cronycle*](#74-cronycle), [*Consent decree*](#85-consent-decree)
 * **Practises:** [*The audit*](#170-the-audit)
 * **Related Terms:** [*The clerk*](#155-the-clerk), [*The audit*](#170-the-audit), [*The caseworker*](#159-the-caseworker)
 * **Source:** [Wikipedia · Government Accountability Office](https://en.wikipedia.org/wiki/Government_Accountability_Office)
@@ -3336,7 +3342,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website."*
 * **Easily confused with:** *The transcript* - The request gets the document the body already wrote; the transcript makes a document out of what it said.
-* **Counters:** [*Bleatkeeper*](#32-bleatkeeper), [*Briefing room*](#111-briefing-room), [*Crookmaxxing*](#71-crookmaxxing), [*Trial balloon*](#41-trial-balloon), [*Blueslip*](#77-blueslip)
+* **Counters:** [*Bleatkeeper*](#32-bleatkeeper), [*Briefing room*](#111-briefing-room), [*Crookmaxxing*](#71-crookmaxxing), [*Trial balloon*](#41-trial-balloon), [*Blueslip*](#77-blueslip), [*Lobbyism*](#120-lobbyism)
 * **Related Terms:** [*The clerk*](#155-the-clerk), [*The audit*](#170-the-audit)
 * **Source:** [Wikipedia · Freedom of Information Act (United States)](https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States))
 
@@ -3356,7 +3362,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional."*
 * **Easily confused with:** *Records request* - The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.
-* **Counters:** [*Vaguebooking*](#38-vaguebooking), [*Cable panel*](#103-cable-panel), [*Motte hop*](#44-motte-hop), [*Subpoenado*](#73-subpoenado), [*Group chat*](#104-group-chat), [*Bootcurious*](#70-bootcurious), [*Dead cat*](#40-dead-cat)
+* **Counters:** [*Vaguebooking*](#38-vaguebooking), [*Cable panel*](#103-cable-panel), [*Motte hop*](#44-motte-hop), [*Subpoenado*](#73-subpoenado), [*Group chat*](#104-group-chat), [*Bootcurious*](#70-bootcurious), [*Dead cat*](#40-dead-cat), [*Hot mic*](#118-hot-mic)
 * **Related Terms:** [*The archivist*](#157-the-archivist), [*The second source*](#166-the-second-source)
 * **Source:** [Wikipedia · Court reporter](https://en.wikipedia.org/wiki/Court_reporter)
 
@@ -3396,7 +3402,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **second source** was the clerk's copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph."*
 * **Easily confused with:** *Lateral reading* - Lateral reading is what a reader does in ninety seconds; the second source is what a newsroom does in ninety minutes.
-* **Counters:** [*Slopagandist*](#102-slopagandist), [*Receiptbomb*](#39-receiptbomb), [*Patriotainer*](#7-patriotainer)
+* **Counters:** [*Slopagandist*](#102-slopagandist), [*Receiptbomb*](#39-receiptbomb), [*Patriotainer*](#7-patriotainer), [*WMD mongering*](#119-wmd-mongering)
 * **Related Terms:** [*The editor*](#160-the-editor), [*The transcript*](#164-the-transcript)
 * **Source:** [Wikipedia · Source criticism](https://en.wikipedia.org/wiki/Source_criticism)
 
@@ -3436,7 +3442,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted."*
 * **Easily confused with:** *The audit* - The count is watched while it happens; the audit checks it afterwards, on a sample.
-* **Counters:** [*Critizen*](#4-critizen), [*Rally*](#113-rally)
+* **Counters:** [*Critizen*](#4-critizen), [*Rally*](#113-rally), [*Cloture*](#16-cloture), [*Good ol' boys club*](#88-good-ol-boys-club)
 * **Related Terms:** [*The poll worker*](#156-the-poll-worker), [*Notice and comment*](#184-notice-and-comment)
 * **Source:** [Wikipedia · Risk-limiting audit](https://en.wikipedia.org/wiki/Risk-limiting_audit)
 
@@ -3456,7 +3462,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it."*
 * **Easily confused with:** *The transcript* - The transcript records what was said; the written reason records why it was decided.
-* **Counters:** [*Nonpology*](#75-nonpology), [*Spin room*](#112-spin-room), [*Capitulectual*](#72-capitulectual)
+* **Counters:** [*Nonpology*](#75-nonpology), [*Spin room*](#112-spin-room), [*Capitulectual*](#72-capitulectual), [*Vague promises*](#18-vague-promises)
 * **Related Terms:** [*The caseworker*](#159-the-caseworker), [*The audit*](#170-the-audit)
 * **Source:** [Wikipedia · Ratio decidendi](https://en.wikipedia.org/wiki/Ratio_decidendi)
 
@@ -3536,7 +3542,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The authority had been renewed eleven times, but the **sunset clause** meant every renewal had a hearing, and the eleventh was the one where somebody read the reports aloud."*
 * **Easily confused with:** *Crisisglow* - The crisisglow makes the emergency look permanent; the sunset clause makes permanence look like a decision.
-* **Counters:** [*Crisisglow*](#106-crisisglow)
+* **Counters:** [*Crisisglow*](#106-crisisglow), [*Forever war*](#124-forever-war)
 * **Related Terms:** [*The audit*](#170-the-audit), [*The written reason*](#169-the-written-reason), [*The public count*](#168-the-public-count)
 * **Source:** [Wikipedia · Sunset provision](https://en.wikipedia.org/wiki/Sunset_provision)
 
@@ -3640,7 +3646,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade."*
 * **Easily confused with:** *The auditor* - The auditor checks the books; the statistician checks the number everybody is quoting from them.
-* **Counters:** [*Xenophobricator*](#96-xenophobricator), [*Push poll*](#110-push-poll)
+* **Counters:** [*Xenophobricator*](#96-xenophobricator), [*Push poll*](#110-push-poll), [*Climate hoax*](#123-climate-hoax), [*Convention bounce*](#15-convention-bounce)
 * **Practises:** [*The audit*](#170-the-audit)
 * **Related Terms:** [*Xenophobricator*](#96-xenophobricator), [*The audit*](#170-the-audit)
 * **Source:** [Wikipedia · Statistician](https://en.wikipedia.org/wiki/Statistician)
@@ -3681,7 +3687,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version."*
 * **Easily confused with:** *The steelman* - The steelman strengthens the other side's argument; cross-examination finds out whether it holds.
-* **Counters:** [*Martyrholic*](#99-martyrholic), [*JAQing Off*](#29-jaqing-off)
+* **Counters:** [*Martyrholic*](#99-martyrholic), [*JAQing Off*](#29-jaqing-off), [*Good cop, bad cop*](#47-good-cop-bad-cop)
 * **Related Terms:** [*Martyrholic*](#99-martyrholic), [*The transcript*](#164-the-transcript)
 * **Source:** [Wikipedia · Cross-examination](https://en.wikipedia.org/wiki/Cross-examination)
 
@@ -3957,4 +3963,4 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ---
 
-*184 entries in 8 kinds and 6 chapters: 93 coinages (26 species, 17 moves, 23 abilities, 14 habitats, 13 buffs), 61 fallacies, 16 remedies, 14 keystones. 73 of the 93 coinages carry a counter.* Counted from `data/` by `build.py` - nothing on this line is typed.
+*184 entries in 8 kinds and 6 chapters: 93 coinages (26 species, 17 moves, 23 abilities, 14 habitats, 13 buffs), 61 fallacies, 16 remedies, 14 keystones. 84 of the 93 coinages carry a counter.* Counted from `data/` by `build.py` - nothing on this line is typed.

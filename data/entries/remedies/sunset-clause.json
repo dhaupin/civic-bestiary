@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Crisisglow"
+    },
+    {
+      "rel": "counters",
+      "to": "Forever war"
     }
   ],
   "cite": {

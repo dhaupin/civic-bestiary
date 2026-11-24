@@ -43,6 +43,10 @@
     {
       "rel": "counters",
       "to": "Patriotainer"
+    },
+    {
+      "rel": "counters",
+      "to": "WMD mongering"
     }
   ],
   "cite": {

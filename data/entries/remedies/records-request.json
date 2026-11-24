@@ -51,6 +51,10 @@
     {
       "rel": "counters",
       "to": "Blueslip"
+    },
+    {
+      "rel": "counters",
+      "to": "Lobbyism"
     }
   ],
   "cite": {

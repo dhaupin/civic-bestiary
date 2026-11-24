@@ -25,7 +25,12 @@
     "Bothsidesing",
     "Capitulectual"
   ],
-  "edges": [],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "False dilemma"
+    }
+  ],
   "cite": {
     "label": "Wikipedia · Good cop/bad cop",
     "url": "https://en.wikipedia.org/wiki/Good_cop/bad_cop"

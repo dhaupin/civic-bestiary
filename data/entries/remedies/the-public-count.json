@@ -39,6 +39,14 @@
     {
       "rel": "counters",
       "to": "Rally"
+    },
+    {
+      "rel": "counters",
+      "to": "Cloture"
+    },
+    {
+      "rel": "counters",
+      "to": "Good ol' boys club"
     }
   ],
   "cite": {

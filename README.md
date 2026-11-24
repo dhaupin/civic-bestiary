@@ -23,7 +23,7 @@ And a coinage built on something real - the pocket veto, the shadow docket, the 
 ## What is in it
 
 <!-- BEGIN:generated -->
-**184 entries.** 93 coinages (26 species, 17 moves, 23 abilities, 14 habitats, 13 buffs), 61 fallacies, 16 remedies, 14 keystones. 73 of the 93 coinages carry a counter, and every entry is a record: one JSON file under `data/entries/`.
+**184 entries.** 93 coinages (26 species, 17 moves, 23 abilities, 14 habitats, 13 buffs), 61 fallacies, 16 remedies, 14 keystones. 84 of the 93 coinages carry a counter, and every entry is a record: one JSON file under `data/entries/`.
 
 | Chapter | Entries |
 | --- | --: |
