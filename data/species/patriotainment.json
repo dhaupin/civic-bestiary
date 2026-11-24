@@ -1,0 +1,32 @@
+{
+  "term": "Patriotainment",
+  "section": "performative-identity",
+  "order": 6,
+  "part_of_speech": "noun",
+  "ipa": "/ˈpeɪ.tri.ə.ˌteɪn.mənt/",
+  "etymology": "Blend of \"patriot\" + \"entertainment\"",
+  "range": "Cable lineups, merch drops, and any documentary with a countdown clock.",
+  "call": "\"Right back after this.\"",
+  "field_marks": [
+    "Sells the flag by the yard",
+    "Reads a sponsor over a battlefield",
+    "Ad rates keyed to outrage"
+  ],
+  "confused_with": [
+    {
+      "term": "Ragesturbationist",
+      "tell": "The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it."
+    }
+  ],
+  "senses": [
+    "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the country is something you buy a ticket to watch rather than something you owe the people living in it.",
+    "A mode of civic life in which the spectacle of patriotism substitutes entirely for its obligations, so that cheering loudest counts as service and noticing anything else counts as betrayal."
+  ],
+  "notes": [],
+  "example": "*\"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale.\"*",
+  "related": [
+    "Playtriot",
+    "Sabotriot",
+    "Ragesturbationist"
+  ]
+}

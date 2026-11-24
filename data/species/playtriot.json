@@ -1,0 +1,32 @@
+{
+  "term": "Playtriot",
+  "section": "performative-identity",
+  "order": 1,
+  "part_of_speech": "noun",
+  "ipa": "/ˈpleɪ.tri.ət/",
+  "etymology": "Blend of \"play\" + \"patriot\"",
+  "range": "Truck beds, county fairs, and the comment section under any local news post.",
+  "call": "\"Do you support the troops?\"",
+  "field_marks": [
+    "Flag decal on a leased vehicle",
+    "Quotes a founder, never a statute",
+    "Knows the anthem's tune, not its third verse"
+  ],
+  "confused_with": [
+    {
+      "term": "LARPtarian",
+      "tell": "Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+    }
+  ],
+  "senses": [
+    "A U.S. citizen who performs shallow, theatrical displays of nationalism - such as wearing flag-themed apparel or using patriotic slogans - while actively undermining democratic norms, community well-being, or the rule of law.",
+    "An individual who adopts the aesthetics and rhetoric of love for their country as a shield or justification to engage in divisive, harmful, or anti-social behavior against fellow citizens."
+  ],
+  "notes": [],
+  "example": "*\"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.\"*",
+  "related": [
+    "Sabotriot",
+    "LARPtarian",
+    "Patriotainment"
+  ]
+}

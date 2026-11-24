@@ -1,0 +1,32 @@
+{
+  "term": "LARPtarian",
+  "section": "performative-identity",
+  "order": 3,
+  "part_of_speech": "noun",
+  "ipa": "/ˈlɑːrpˌtɛər.i.ən/",
+  "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
+  "range": "Homesteading channels, prepper forums, and the far end of a hardware store.",
+  "call": "\"I could live off the grid tomorrow.\"",
+  "field_marks": [
+    "Solar panels on a financed roof",
+    "Owns a crossbow, no arrows",
+    "Files an HOA complaint about a fence"
+  ],
+  "confused_with": [
+    {
+      "term": "Playtriot",
+      "tell": "The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer."
+    }
+  ],
+  "senses": [
+    "An individual who role-plays as a rugged, self-reliant rebel or oppressed freedom fighter while actively relying on - and taking for granted - the laws, infrastructure, and safety nets of a stable society.",
+    "Someone who adopts the rhetoric of radical individualism and anti-government defiance as a theatrical identity, without facing any real tyranny or sacrificing the comforts of modern civic life."
+  ],
+  "notes": [],
+  "example": "*\"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior.\"*",
+  "related": [
+    "Sovereign shillizen",
+    "Bootcurious",
+    "Freetard"
+  ]
+}
