@@ -13,7 +13,7 @@
     "Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never said it.",
     "It works because the citation is true as far as it goes. Verifying a quote means opening the transcript, and most readers will only verify the part that already agrees with them."
   ],
-  "example": "“They said the plan was dead on arrival.” The transcript says it was dead on arrival in the Senate, which then passed it.",
+  "example": "*“They said the plan was dead on arrival.”* The transcript says it was dead on arrival in the Senate, which then passed it.",
   "confused_with": [
     {
       "term": "Straw man",

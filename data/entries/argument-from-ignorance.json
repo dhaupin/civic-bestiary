@@ -13,7 +13,7 @@
     "Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
     "It works because the burden of proof feels like a formality. Most audiences assume a claim is either established or refuted, and the sentence supplies the third option, absence, as if it settled the matter."
   ],
-  "example": "“Nobody has proven the machines are safe.” Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
+  "example": "*“Nobody has proven the machines are safe.”* Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
   "confused_with": [
     {
       "term": "Appeal to authority",

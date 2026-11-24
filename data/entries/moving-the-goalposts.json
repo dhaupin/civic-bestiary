@@ -13,7 +13,7 @@
     "Demanding new evidence after the original demand has been met.",
     "It works because each new request sounds reasonable on its own. Nobody agrees to an impossible standard all at once; they agree to a series of fair-sounding ones."
   ],
-  "example": "“Show me the emails.” The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
+  "example": "*“Show me the emails.”* The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
   "confused_with": [
     {
       "term": "No true Scotsman",
