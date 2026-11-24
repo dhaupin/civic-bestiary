@@ -20,7 +20,7 @@
   --nav-bg: rgba(18, 16, 14, 0.9);
   --accent-contrast: #14100d;
 
-  --font-display: "Bodoni Moda", "Didot", "Times New Roman", serif;
+  --font-display: "Fraunces", "Newsreader", Georgia, serif;
   --font-body: "Newsreader", Georgia, "Times New Roman", serif;
   --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
@@ -60,6 +60,11 @@ body {
   line-height: 1.62;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* Variable serif: let the browser pick the optical cut from the rendered
+     size, so 19px nav text gets sturdy hairlines and 82px headings get fine
+     ones. Fraunces was chosen over a didone (Bodoni Moda) for exactly this -
+     didone hairlines disappear below ~20px. */
+  font-optical-sizing: auto;
 }
 
 /* Paper grain: one turbulence layer, barely there, so the flat fills read as
