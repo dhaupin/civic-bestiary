@@ -1,0 +1,44 @@
+{
+  "term": "Filibluster",
+  "kind": "ability",
+  "chapter": "performative-identity",
+  "position": 8,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˈfɪl.ɪˌblʌs.tər/",
+  "etymology": "Blend of \"filibuster\" + \"bluster\"",
+  "effect": "Converts a minority into a veto by outlasting the clock, without ever having to win the argument.",
+  "available_to": "Any member of a chamber that still keeps a speaking clock, a quorum, and a camera.",
+  "counter": "Cloture, a quorum that stays awake, or the nuclear option - each of which spends the institution to buy back the hour.",
+  "confused_with": [
+    {
+      "term": "Omnibust",
+      "tell": "The filibluster is performed aloud, for the clock; the omnibust is performed at 3 a.m., for the printer."
+    }
+  ],
+  "senses": [
+    "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather than the person, available to anyone willing to read the phone book into the record.",
+    "It works because the rules protect the speaker, not the subject. The longer a speech runs, the more the room's patience - and not its argument - becomes the thing under negotiation, so the win goes to whoever has least to lose by staying."
+  ],
+  "notes": [],
+  "example": "*\"He read the bill's table of contents, then the Bible, then his own memoir; by hour nine the compromise was dead and the cameras had gone home - a textbook **filibluster**.\"*",
+  "related": [
+    "Omnibust",
+    "Dramagogue",
+    "Patriotainer"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Ad nauseam"
+    },
+    {
+      "rel": "commits",
+      "to": "Gish gallop"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

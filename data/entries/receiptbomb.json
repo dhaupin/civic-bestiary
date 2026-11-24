@@ -1,0 +1,44 @@
+{
+  "term": "Receiptbomb",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 13,
+  "part_of_speech": "noun / verb",
+  "ipa": "/rɪˈsiːt.bɒm/",
+  "etymology": "Blend of \"receipts\", the slang for evidence, + \"bomb\"",
+  "trigger": "A claim has just been made that the other person could probably support, if anyone asked one question at a time.",
+  "tell": "Forty screenshots, no captions, no order, and a demand to \"do your own research\" attached to the last one.",
+  "counter": "Ask for the single best screenshot and read it. The move depends on nobody reading all of them.",
+  "confused_with": [
+    {
+      "term": "Gallopologist",
+      "tell": "The gallopologist invents the claims; the receiptbomber buries real ones. Both win on volume."
+    }
+  ],
+  "senses": [
+    "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost to make.",
+    "It works because evidence has an optimum and the bomb goes well past it. A single document can be read and answered; forty cannot, and the unanswered pile looks exactly like a refutation."
+  ],
+  "notes": [],
+  "example": "*\"He replied with forty-one screenshots, three of them duplicates and a link to a folder - a **receiptbomb** that took an hour to find the one paragraph that mattered in.\"*",
+  "related": [
+    "Gallopologist",
+    "Biasographer",
+    "Comment section"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Gish gallop"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting the burden of proof"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

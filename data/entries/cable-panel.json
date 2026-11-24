@@ -23,7 +23,8 @@
   "example": "*\"Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant.\"*",
   "related": [
     "Comment section",
-    "Patriotainment"
+    "Patriotainment",
+    "School board meeting"
   ],
   "edges": [
     {
@@ -49,6 +50,10 @@
     {
       "rel": "houses",
       "to": "Proof by assertion"
+    },
+    {
+      "rel": "houses",
+      "to": "Nonpology"
     }
   ],
   "sort": {

@@ -6,14 +6,14 @@ radicalization. One dataset, two artifacts: a GitHub-flavored README and a prere
 static site.
 
 The frame is a naturalist's guide, and the vocabulary follows it everywhere: groups are
-**chapters**, entries are addressed by their **kind** (species, move, ability, format, buff),
+**chapters**, entries are addressed by their **kind** (species, move, ability, habitat, buff, fallacy),
 the example is a **sighting in the wild**, and the cross-references are **compare with**.
 Code follows too (`.species-*`, `.listing-*`), so a grep for "term" or "entry" should turn up
 nothing but the README's own prose.
 
 The kind is not decoration: it decides which identification block a record must carry
 (species: range / call / field marks; move: trigger / tell / counter; ability: effect /
-available to / counter; format: carriers / economics / signature; buff: effect / tell /
+available to / counter; habitat: carriers / economics / signature; buff: effect / tell /
 expires) and which URL prefix the entry lives under (`/species/`, `/moves/`, `/abilities/`,
 `/formats/`, `/buffs/`). Changing a record's kind changes its URL, so a `_redirects` 301 has
 to follow it.
@@ -102,6 +102,17 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
    lists are kept at three items, and the validator tells you if you skipped this.
 3. `python3 build.py && python3 build_site.py`, then `npm --prefix web run build`.
 4. Review the README diff and the new entry page.
+
+## The six kinds, and what each one is for
+
+The taxonomy is the joke's grammar, so a record's kind is an argument about what the thing is:
+a **species** is a person-shaped pattern, a **move** is something done in front of witnesses, an
+**ability** belongs to an office rather than a person, a **habitat** is where the performance is
+fed, a **buff** is a temporary condition, and a **fallacy** is a real error with a citation.
+Abilities are the thinnest kind and the newest: five institutional powers (filibuster,
+redistricting, the unreadable bill, oversight theatre, patronage), each one a capability nobody
+individually owns. When a proposed entry is hard to place, ask who holds it - a body, a room, a
+clock, or a person - and the kind usually falls out.
 
 ## Sort axes
 

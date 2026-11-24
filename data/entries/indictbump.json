@@ -1,0 +1,44 @@
+{
+  "term": "Indictbump",
+  "kind": "buff",
+  "chapter": "fearmongering-grift",
+  "position": 12,
+  "part_of_speech": "noun",
+  "ipa": "/ɪnˈdaɪt.bʌmp/",
+  "etymology": "Blend of \"indictment\" + \"bump\", the poll movement",
+  "effect": "Converts a charge into a fundraising total, and a courtroom into a stage with better lighting.",
+  "tell": "A legal defence fund launched before the arraignment, and merchandise with the case number printed on it.",
+  "expires": "At the verdict, or at the next indictment - whichever the base finds more energising.",
+  "confused_with": [
+    {
+      "term": "Martyrholic",
+      "tell": "The martyrholic seeks the wound; the indictbump is what the wound pays. One is a temperament, the other a yield."
+    }
+  ],
+  "senses": [
+    "A temporary condition in which being charged raises the bearer's standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
+    "It works because the charge is processed as proof of sincerity rather than proof of conduct. The base never has to believe the defendant is innocent; it only has to believe the prosecution is political, and any prosecution is political once you have said so first."
+  ],
+  "notes": [],
+  "example": "*\"Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday.\"*",
+  "related": [
+    "Martyrholic",
+    "Plutomartyr",
+    "Bluecheck"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Tu quoque"
+    },
+    {
+      "rel": "commits",
+      "to": "Poisoning the well"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

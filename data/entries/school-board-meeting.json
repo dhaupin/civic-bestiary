@@ -1,0 +1,52 @@
+{
+  "term": "School board meeting",
+  "kind": "habitat",
+  "chapter": "hypocrisy-revisionism",
+  "position": 9,
+  "part_of_speech": "noun",
+  "ipa": "/ˈskuːl bɔːd ˌmiː.tɪŋ/",
+  "etymology": "English: the smallest chamber in the republic, named for the building it meets in.",
+  "carriers": "A library basement, a folding table, a public-comment card, and a livestream that will be clipped by morning.",
+  "economics": "Unpaid members, a municipal budget, and a national audience. The clip pays better than the seat ever will.",
+  "signature": "Three minutes at the microphone, a parent who has never spoken publicly before, and a camera that is not local.",
+  "confused_with": [
+    {
+      "term": "Cable panel",
+      "tell": "The panel is booked and the board is elected. Both are lit for cameras, but only one of them can change a policy by Friday."
+    }
+  ],
+  "senses": [
+    "The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while the country watches the clip.",
+    "It works because the stakes are real and the audience is not. A curriculum vote can be swung by people who will never send a child to the school, and the members who live there have to sit through it, in public, on a Tuesday."
+  ],
+  "notes": [],
+  "example": "*\"The **school board meeting** ran four hours, three of them about a book, and the budget passed at eleven with nobody left in the room.\"*",
+  "related": [
+    "Comment section",
+    "Group chat",
+    "Patriotainment"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Bothsidesing"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to fear"
+    },
+    {
+      "rel": "houses",
+      "to": "Straw man"
+    },
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

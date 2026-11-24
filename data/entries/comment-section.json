@@ -50,6 +50,14 @@
     {
       "rel": "houses",
       "to": "Appeal to the stone"
+    },
+    {
+      "rel": "houses",
+      "to": "Vaguebooking"
+    },
+    {
+      "rel": "houses",
+      "to": "Receiptbomb"
     }
   ],
   "sort": {

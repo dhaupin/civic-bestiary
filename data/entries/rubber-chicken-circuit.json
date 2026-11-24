@@ -1,0 +1,48 @@
+{
+  "term": "Rubber chicken circuit",
+  "kind": "habitat",
+  "chapter": "fearmongering-grift",
+  "position": 14,
+  "part_of_speech": "noun",
+  "ipa": "/ˈrʌb.ə ˈtʃɪk.ɪn ˈsɜː.kɪt/",
+  "etymology": "American English: the banquet circuit, named for the only reliably edible course.",
+  "carriers": "Hotel ballrooms, county dinners, a head table, a cash bar, and a photographer who has done this before.",
+  "economics": "Per-plate donations, a photo line, and a speaking fee that is really a transfer with a receipt.",
+  "signature": "A joke about the local team, a story about a diner, and a policy nobody will mention again after dessert.",
+  "confused_with": [
+    {
+      "term": "Patriotainment",
+      "tell": "Patriotainment is broadcast and paid by the ad; the circuit is in the room and paid by the plate. Same speech, different invoice."
+    }
+  ],
+  "senses": [
+    "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch.",
+    "It works because access is the product. Nobody buys a chicken dinner for the chicken; they buy four minutes at the head table, and the receipt is written off as a political contribution."
+  ],
+  "notes": [],
+  "example": "*\"Nine counties in four days, four **rubber chicken circuit** dinners, and the same joke about the local football team told nine times to nine rooms that all laughed.\"*",
+  "related": [
+    "Patriotainment",
+    "Cable panel",
+    "Plutomartyr"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Plutomartyr"
+    },
+    {
+      "rel": "houses",
+      "to": "Crookmaxxing"
+    },
+    {
+      "rel": "houses",
+      "to": "Patriotainer"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

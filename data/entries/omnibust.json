@@ -1,0 +1,44 @@
+{
+  "term": "Omnibust",
+  "kind": "ability",
+  "chapter": "performative-identity",
+  "position": 10,
+  "part_of_speech": "noun",
+  "ipa": "/ˈɒm.nɪˌbʌst/",
+  "etymology": "Blend of \"omnibus\" + \"bust\"",
+  "effect": "Passes a thousand pages nobody has read by making the reading of them the thing that keeps the lights off.",
+  "available_to": "Appropriators, at three in the morning, with a shutdown clock on the wall.",
+  "counter": "A single-subject rule, a mandatory reading period, or a clerk with stamina and a public log.",
+  "confused_with": [
+    {
+      "term": "Filibluster",
+      "tell": "The filibluster stops a bill by talking; the omnibust passes one by making sure nobody can."
+    }
+  ],
+  "senses": [
+    "The capability of a legislature to bundle everything it cannot defend separately into one document too large to read and too urgent to refuse.",
+    "It works because the deadline does the arguing. Every objection can be answered with the same sentence - the government closes Friday - so the bill's contents are never weighed against each other, only against the clock."
+  ],
+  "notes": [],
+  "example": "*\"The **omnibust** carried a bridge, a ban, three tax credits and a paragraph nobody has explained, and it passed at 3:41 a.m. because the alternative was a shutdown.\"*",
+  "related": [
+    "Filibluster",
+    "Gerrythm",
+    "Crookmaxxing"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "False dilemma"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to fear"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 4
+  }
+}

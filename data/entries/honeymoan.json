@@ -1,0 +1,44 @@
+{
+  "term": "Honeymoan",
+  "kind": "buff",
+  "chapter": "performative-identity",
+  "position": 11,
+  "part_of_speech": "noun",
+  "ipa": "/ˈhʌn.iˌməʊn/",
+  "etymology": "Blend of \"honeymoon\" + \"moan\"",
+  "effect": "For the first hundred days, any criticism of the winner is heard as grief, and any objection as sour grapes.",
+  "tell": "\"Give him a chance\" from someone who gave the last one four years of scrutiny and no chance at all.",
+  "expires": "The first budget, the first appointment, or the first scandal - whichever lands before the hundred days are up.",
+  "confused_with": [
+    {
+      "term": "Crisisglow",
+      "tell": "The honeymoan is grace after a win; the crisisglow is authority during a panic. One is granted by the calendar, the other by the alarm."
+    }
+  ],
+  "senses": [
+    "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
+    "It works because a new administration is owed a hearing, and a hearing is easy to extend into a silence. The grace period is real; the only open question is who gets to decide when it ends."
+  ],
+  "notes": [],
+  "example": "*\"Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned.\"*",
+  "related": [
+    "Crisisglow",
+    "Playtriot",
+    "Patriotainer"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to novelty"
+    },
+    {
+      "rel": "commits",
+      "to": "Special pleading"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

@@ -13,16 +13,16 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 81,
-  "coinages": 31,
+  "entries": 97,
+  "coinages": 47,
   "fallacies": 50,
   "chapters": 5,
   "kinds": {
     "species": 24,
-    "move": 2,
-    "ability": 0,
-    "habitat": 4,
-    "buff": 1,
+    "move": 6,
+    "ability": 5,
+    "habitat": 7,
+    "buff": 5,
     "fallacy": 50
   }
 }
@@ -244,6 +244,10 @@ export const chapters = [
       "sabotriot",
       "patriotainment",
       "patriotainer",
+      "filibluster",
+      "gerrythm",
+      "omnibust",
+      "honeymoan",
       "slippery-slope",
       "no-true-scotsman",
       "appeal-to-tradition",
@@ -269,6 +273,9 @@ export const chapters = [
       "gallopologist",
       "decorumancer",
       "comment-section",
+      "bothsidesing",
+      "vaguebooking",
+      "receiptbomb",
       "ad-hominem",
       "straw-man",
       "appeal-to-authority",
@@ -295,6 +302,10 @@ export const chapters = [
       "bootcurious",
       "crookmaxxing",
       "capitulectual",
+      "subpoenado",
+      "cronycle",
+      "nonpology",
+      "school-board-meeting",
       "two-wrongs-make-a-right",
       "post-hoc-ergo-propter-hoc",
       "special-pleading",
@@ -318,6 +329,11 @@ export const chapters = [
       "slopagandist",
       "cable-panel",
       "group-chat",
+      "bluecheck",
+      "crisisglow",
+      "indictbump",
+      "the-feed",
+      "rubber-chicken-circuit",
       "appeal-to-emotion",
       "appeal-to-fear",
       "moving-the-goalposts",
@@ -1023,9 +1039,9 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Slopagandist",
-        "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
       }
     ],
     "edges": [
@@ -1065,8 +1081,355 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
       }
     ]
+  },
+  {
+    "term": "Filibluster",
+    "slug": "filibluster",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/filibluster/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈfɪl.ɪˌblʌs.tər/",
+    "position": 8,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
+    "etymology": "Blend of \"filibuster\" + \"bluster\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Converts a minority into a veto by outlasting the clock, without ever having to win the argument."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any member of a chamber that still keeps a speaking clock, a quorum, and a camera."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Cloture, a quorum that stays awake, or the nuclear option - each of which spends the institution to buy back the hour."
+      }
+    ],
+    "voice": "Converts a minority into a veto by outlasting the clock, without ever having to win the argument.",
+    "senses": [
+      "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather than the person, available to anyone willing to read the phone book into the record.",
+      "It works because the rules protect the speaker, not the subject. The longer a speech runs, the more the room’s patience - and not its argument - becomes the thing under negotiation, so the win goes to whoever has least to lose by staying."
+    ],
+    "notes": [],
+    "example": "“He read the bill’s table of contents, then the Bible, then his own memoir; by hour nine the compromise was dead and the cameras had gone home - a textbook **filibluster**.”",
+    "cite": null,
+    "summary": "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather than the...",
+    "confusedWith": [
+      {
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "tell": "The filibluster is performed aloud, for the clock; the omnibust is performed at 3 a.m., for the printer.",
+        "path": "/abilities/omnibust/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      },
+      {
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Ad nauseam",
+        "slug": "ad-nauseam",
+        "path": "/fallacies/ad-nauseam/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Gerrythm",
+    "slug": "gerrythm",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/gerrythm/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈdʒɛr.iˌðəm/",
+    "position": 9,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"gerrymander\" + \"algorithm\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Draws the district you are going to win, at machine speed, before anyone has voted."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "State legislatures with a census, a map, and a data vendor on retainer."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "An independent commission with a drawing mandate, or a court willing to read the code."
+      }
+    ],
+    "voice": "Draws the district you are going to win, at machine speed, before anyone has voted.",
+    "senses": [
+      "The capability of a legislature to choose its voters instead of the reverse - now run by software that tests ten thousand maps overnight against turnout history and keeps the one most likely to survive a court.",
+      "It works because a district line is not an argument, so it never has to be defended as one. By the time anyone can prove the intent, the map has already elected three cycles of the people who drew it."
+    ],
+    "notes": [],
+    "example": "“The county split cleanly down a cul-de-sac, and the incumbent’s house landed in a district with none of his old voters - the **gerrythm** had run overnight and nobody had seen the code.”",
+    "cite": null,
+    "summary": "The capability of a legislature to choose its voters instead of the reverse - now run by software that tests ten thousand maps overnight against...",
+    "confusedWith": [
+      {
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "tell": "The filibluster wins the hour; the gerrythm wins the decade.",
+        "path": "/abilities/filibluster/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      },
+      {
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "path": "/fallacies/cherry-picking/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Omnibust",
+    "slug": "omnibust",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/omnibust/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɒm.nɪˌbʌst/",
+    "position": 10,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 4
+    },
+    "etymology": "Blend of \"omnibus\" + \"bust\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Passes a thousand pages nobody has read by making the reading of them the thing that keeps the lights off."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Appropriators, at three in the morning, with a shutdown clock on the wall."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A single-subject rule, a mandatory reading period, or a clerk with stamina and a public log."
+      }
+    ],
+    "voice": "Passes a thousand pages nobody has read by making the reading of them the thing that keeps the lights off.",
+    "senses": [
+      "The capability of a legislature to bundle everything it cannot defend separately into one document too large to read and too urgent to refuse.",
+      "It works because the deadline does the arguing. Every objection can be answered with the same sentence - the government closes Friday - so the bill’s contents are never weighed against each other, only against the clock."
+    ],
+    "notes": [],
+    "example": "“The **omnibust** carried a bridge, a ban, three tax credits and a paragraph nobody has explained, and it passed at 3:41 a.m. because the alternative was a shutdown.”",
+    "cite": null,
+    "summary": "The capability of a legislature to bundle everything it cannot defend separately into one document too large to read and too urgent to refuse.",
+    "confusedWith": [
+      {
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "tell": "The filibluster stops a bill by talking; the omnibust passes one by making sure nobody can.",
+        "path": "/abilities/filibluster/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Gerrythm",
+        "slug": "gerrythm",
+        "path": "/abilities/gerrythm/"
+      },
+      {
+        "term": "Crookmaxxing",
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "path": "/fallacies/appeal-to-fear/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Honeymoan",
+    "slug": "honeymoan",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/honeymoan/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈhʌn.iˌməʊn/",
+    "position": 11,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"honeymoon\" + \"moan\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "For the first hundred days, any criticism of the winner is heard as grief, and any objection as sour grapes."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "“Give him a chance” from someone who gave the last one four years of scrutiny and no chance at all."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "The first budget, the first appointment, or the first scandal - whichever lands before the hundred days are up."
+      }
+    ],
+    "voice": "“Give him a chance” from someone who gave the last one four years of scrutiny and no chance at all.",
+    "senses": [
+      "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
+      "It works because a new administration is owed a hearing, and a hearing is easy to extend into a silence. The grace period is real; the only open question is who gets to decide when it ends."
+    ],
+    "notes": [],
+    "example": "“Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned.”",
+    "cite": null,
+    "summary": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
+    "confusedWith": [
+      {
+        "term": "Crisisglow",
+        "slug": "crisisglow",
+        "tell": "The honeymoan is grace after a win; the crisisglow is authority during a panic. One is granted by the calendar, the other by the alarm.",
+        "path": "/buffs/crisisglow/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      },
+      {
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to novelty",
+        "slug": "appeal-to-novelty",
+        "path": "/fallacies/appeal-to-novelty/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
+    "backlinks": []
   },
   {
     "term": "Slippery slope",
@@ -1510,6 +1873,13 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bluecheck",
+        "slug": "bluecheck",
+        "path": "/buffs/bluecheck/"
       }
     ]
   },
@@ -2666,9 +3036,302 @@ export const entries = [
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
         "path": "/fallacies/appeal-to-the-stone/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Vaguebooking",
+        "slug": "vaguebooking",
+        "path": "/moves/vaguebooking/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Receiptbomb",
+        "slug": "receiptbomb",
+        "path": "/moves/receiptbomb/"
       }
     ],
     "backlinks": []
+  },
+  {
+    "term": "Bothsidesing",
+    "slug": "bothsidesing",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/bothsidesing/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈbəʊθ.saɪ.dɪŋ/",
+    "position": 11,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"both sides\" + the \"-ing\" of an argument still running",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A fact has just been stated plainly, and the segment has two chairs to fill."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "“Well, to be fair -” arrives before the fact is acknowledged. The two sides are named, weighed, and never once measured."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask which side the evidence is on, and whether the question was ever symmetric to begin with."
+      }
+    ],
+    "voice": "“Well, to be fair -” arrives before the fact is acknowledged. The two sides are named, weighed, and never once measured.",
+    "senses": [
+      "The move of answering a documented fact with the existence of a contrary claim, as though the claim’s existence were evidence of its weight.",
+      "It works because fairness is a procedure and procedures are easier to perform than judgments. The panel that gives equal time feels impartial to the audience and safe to the sponsor, and the fact leaves the room exactly as contested as it arrived."
+    ],
+    "notes": [],
+    "example": "“Asked about the audit, the host **bothsidesed** it: two minutes for the accountant, two for the man who says audits are a myth, and a promise to keep following the story.”",
+    "cite": null,
+    "summary": "The move of answering a documented fact with the existence of a contrary claim, as though the claim’s existence were evidence of its weight.",
+    "confusedWith": [
+      {
+        "term": "Equivangelist",
+        "slug": "equivangelist",
+        "tell": "The equivangelist preaches the symmetry as a virtue; the bothsideser performs it as a booking decision.",
+        "path": "/species/equivangelist/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      },
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "False balance",
+        "slug": "false-balance",
+        "path": "/fallacies/false-balance/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument to moderation",
+        "slug": "argument-to-moderation",
+        "path": "/fallacies/argument-to-moderation/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      }
+    ]
+  },
+  {
+    "term": "Vaguebooking",
+    "slug": "vaguebooking",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/vaguebooking/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈveɪɡ.bʊk.ɪŋ/",
+    "position": 12,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "Blend of \"vague\" + \"Facebook\" + the \"-ing\" of a status update",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "Something has gone wrong with a person who is present in the feed but not in the room."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A post about “some people” and “certain behaviour”, with no names, no dates, and a comment section full of allies asking if they are okay."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask in public who, and what. The move only pays while the accusation stays unspecific enough to be unfalsifiable."
+      }
+    ],
+    "voice": "A post about “some people” and “certain behaviour”, with no names, no dates, and a comment section full of allies asking if they are okay.",
+    "senses": [
+      "The move of publishing a grievance without its subject, so that every reader supplies the name they already suspected.",
+      "It works because the audience does the accusing. The poster keeps deniability, the crowd does the damage, and the target cannot answer a sentence that was never finished."
+    ],
+    "notes": [],
+    "example": "“No names, no context, just ‘some people showed their true colours today’ - and by evening three of us were **vaguebooking** about each other.”",
+    "cite": null,
+    "summary": "The move of publishing a grievance without its subject, so that every reader supplies the name they already suspected.",
+    "confusedWith": [
+      {
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "tell": "The JAQer hides a claim inside a question; the vaguebooker hides one inside a mood.",
+        "path": "/moves/jaqing-off/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ]
+  },
+  {
+    "term": "Receiptbomb",
+    "slug": "receiptbomb",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/receiptbomb/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/rɪˈsiːt.bɒm/",
+    "position": 13,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"receipts\", the slang for evidence, + \"bomb\"",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A claim has just been made that the other person could probably support, if anyone asked one question at a time."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "Forty screenshots, no captions, no order, and a demand to “do your own research” attached to the last one."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the single best screenshot and read it. The move depends on nobody reading all of them."
+      }
+    ],
+    "voice": "Forty screenshots, no captions, no order, and a demand to “do your own research” attached to the last one.",
+    "senses": [
+      "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost to make.",
+      "It works because evidence has an optimum and the bomb goes well past it. A single document can be read and answered; forty cannot, and the unanswered pile looks exactly like a refutation."
+    ],
+    "notes": [],
+    "example": "“He replied with forty-one screenshots, three of them duplicates and a link to a folder - a **receiptbomb** that took an hour to find the one paragraph that mattered in.”",
+    "cite": null,
+    "summary": "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost to...",
+    "confusedWith": [
+      {
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "tell": "The gallopologist invents the claims; the receiptbomber buries real ones. Both win on volume.",
+        "path": "/species/gallopologist/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ]
   },
   {
     "term": "Ad hominem",
@@ -2850,6 +3513,13 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       }
     ]
   },
@@ -2946,6 +3616,20 @@ export const entries = [
         "term": "Bootcurious",
         "slug": "bootcurious",
         "path": "/buffs/bootcurious/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "path": "/abilities/cronycle/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bluecheck",
+        "slug": "bluecheck",
+        "path": "/buffs/bluecheck/"
       }
     ]
   },
@@ -3025,9 +3709,23 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Illogician",
         "slug": "illogician",
         "path": "/species/illogician/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Crisisglow",
+        "slug": "crisisglow",
+        "path": "/buffs/crisisglow/"
       }
     ]
   },
@@ -3295,6 +3993,13 @@ export const entries = [
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/"
       }
     ]
   },
@@ -3377,6 +4082,13 @@ export const entries = [
         "term": "Decorumancer",
         "slug": "decorumancer",
         "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "path": "/moves/nonpology/"
       }
     ]
   },
@@ -3538,6 +4250,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Gerrythm",
+        "slug": "gerrythm",
+        "path": "/abilities/gerrythm/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
         "path": "/species/biasographer/"
@@ -3623,6 +4342,20 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Vaguebooking",
+        "slug": "vaguebooking",
+        "path": "/moves/vaguebooking/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Indictbump",
+        "slug": "indictbump",
+        "path": "/buffs/indictbump/"
       }
     ]
   },
@@ -4200,7 +4933,15 @@ export const entries = [
         "path": "/fallacies/whataboutism/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
+      }
+    ]
   },
   {
     "term": "Capitulectual",
@@ -4299,6 +5040,373 @@ export const entries = [
         "term": "False balance",
         "slug": "false-balance",
         "path": "/fallacies/false-balance/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Subpoenado",
+    "slug": "subpoenado",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/subpoenado/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/səbˈpiː.nɑː.dəʊ/",
+    "position": 6,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
+    "etymology": "Blend of \"subpoena\" + \"tornado\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Summons the truth with enormous force, spins for a news cycle, and sets down in an empty field."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any committee with a gavel, a camera, and a calendar that ends before the hearing does."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A deadline that outlives the coverage, or a witness who answers in writing and publishes it."
+      }
+    ],
+    "voice": "Summons the truth with enormous force, spins for a news cycle, and sets down in an empty field.",
+    "senses": [
+      "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is timed for the cameras rather than the calendar.",
+      "It works because a subpoena looks like accountability from a distance. The audience sees the summons and stops watching, the witness sees the clock and runs it out, and the file closes when the cycle does rather than when the question is answered."
+    ],
+    "notes": [],
+    "example": "“Three **subpoenados** in one month, each announced with a graphic, none of them producing a report - and the base counted it as three wins.”",
+    "cite": null,
+    "summary": "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is timed...",
+    "confusedWith": [
+      {
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "tell": "The subpoenado investigates the enemy; the cronycle installs the friend. Same gavel, opposite direction.",
+        "path": "/abilities/cronycle/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      },
+      {
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "path": "/abilities/filibluster/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Cronycle",
+    "slug": "cronycle",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/cronycle/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈkrəʊ.nɪ.kəl/",
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
+    "etymology": "Blend of \"crony\" + \"cycle\" - and a chronicle is what it writes over the machinery",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Converts a hiring freeze into a family reunion."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "An incoming administration with a spreadsheet, a schedule, and a legal opinion about the schedule."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A civil-service rule with a spine, or a senate that reads resumes instead of counting them."
+      }
+    ],
+    "voice": "Converts a hiring freeze into a family reunion.",
+    "senses": [
+      "The capability of an administration to replace the people who run the machinery with the people who donated to it - not by firing anyone, but by reclassifying the jobs until loyalty is a qualification.",
+      "It works because the machinery is invisible. Nobody votes on a personnel schedule, so a government can be rebuilt in a year and no headline has to say so; the effect surfaces later, as a service that quietly stops answering."
+    ],
+    "notes": [],
+    "example": "“The agency’s new senior advisers were the donor list with titles, and the **cronycle** had finished before the ethics waiver was filed.”",
+    "cite": null,
+    "summary": "The capability of an administration to replace the people who run the machinery with the people who donated to it - not by firing anyone, but by...",
+    "confusedWith": [
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "tell": "The subpoenado investigates the enemy; the cronycle installs the friend. Both are the same gavel.",
+        "path": "/abilities/subpoenado/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
+      },
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Nonpology",
+    "slug": "nonpology",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/nonpology/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/nɒnˈpɒl.ə.dʒi/",
+    "position": 8,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"non-\" + \"apology\"",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "The offence is documented, the audience has noticed, and the sponsor has not yet pulled the slot."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "“I’m sorry if anyone was offended” - the conditional does the work, and the second sentence explains why the offended person is the problem."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the sentence that names the act, the person, and the remedy. Anything less is the move continuing."
+      }
+    ],
+    "voice": "“I’m sorry if anyone was offended” - the conditional does the work, and the second sentence explains why the offended person is the problem.",
+    "senses": [
+      "The move of answering a documented harm with regret about its reception, so that the apology becomes a second accusation.",
+      "It works because the form is satisfied without the substance. Listeners hear the cadence of contrition and stop listening for the object of it; the record now shows an apology, and the harm is still standing."
+    ],
+    "notes": [],
+    "example": "“He **nonpologised** for ninety seconds - sorry if people misread it, sorry the media was unfair - and by the end the only person still at fault was the one who complained.”",
+    "cite": null,
+    "summary": "The move of answering a documented harm with regret about its reception, so that the apology becomes a second accusation.",
+    "confusedWith": [
+      {
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "tell": "The bothsideser spreads the blame across the aisle; the nonpologiser spreads it across the audience.",
+        "path": "/moves/bothsidesing/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
+      },
+      {
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Tu quoque",
+        "slug": "tu-quoque",
+        "path": "/fallacies/tu-quoque/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Tone policing",
+        "slug": "tone-policing",
+        "path": "/fallacies/tone-policing/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ]
+  },
+  {
+    "term": "School board meeting",
+    "slug": "school-board-meeting",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/school-board-meeting/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈskuːl bɔːd ˌmiː.tɪŋ/",
+    "position": 9,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English: the smallest chamber in the republic, named for the building it meets in.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "A library basement, a folding table, a public-comment card, and a livestream that will be clipped by morning."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Unpaid members, a municipal budget, and a national audience. The clip pays better than the seat ever will."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "Three minutes at the microphone, a parent who has never spoken publicly before, and a camera that is not local."
+      }
+    ],
+    "voice": "Three minutes at the microphone, a parent who has never spoken publicly before, and a camera that is not local.",
+    "senses": [
+      "The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while the country watches the clip.",
+      "It works because the stakes are real and the audience is not. A curriculum vote can be swung by people who will never send a child to the school, and the members who live there have to sit through it, in public, on a Tuesday."
+    ],
+    "notes": [],
+    "example": "“The **school board meeting** ran four hours, three of them about a book, and the budget passed at eleven with nobody left in the room.”",
+    "cite": null,
+    "summary": "The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while the...",
+    "confusedWith": [
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "tell": "The panel is booked and the board is elected. Both are lit for cameras, but only one of them can change a policy by Friday.",
+        "path": "/habitats/cable-panel/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      },
+      {
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "path": "/fallacies/appeal-to-fear/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Straw man",
+        "slug": "straw-man",
+        "path": "/fallacies/straw-man/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
     "backlinks": []
@@ -4557,6 +5665,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "path": "/buffs/honeymoan/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
         "path": "/species/hypocontortionist/"
@@ -4567,6 +5682,13 @@ export const entries = [
         "term": "Bootcurious",
         "slug": "bootcurious",
         "path": "/buffs/bootcurious/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "path": "/abilities/cronycle/"
       }
     ]
   },
@@ -4643,6 +5765,13 @@ export const entries = [
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -4725,6 +5854,13 @@ export const entries = [
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -5102,7 +6238,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-emotion/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ]
   },
   {
     "term": "Martyrholic",
@@ -5301,7 +6445,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-novelty/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ]
   },
   {
     "term": "Plutomartyr",
@@ -5369,9 +6521,9 @@ export const entries = [
         "path": "/buffs/bootcurious/"
       },
       {
-        "term": "Crookmaxxing",
-        "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "term": "Indictbump",
+        "slug": "indictbump",
+        "path": "/buffs/indictbump/"
       }
     ],
     "edges": [
@@ -5397,7 +6549,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-pity/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
+      }
+    ]
   },
   {
     "term": "Slopagandist",
@@ -5507,7 +6667,15 @@ export const entries = [
         "path": "/fallacies/gish-gallop/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ]
   },
   {
     "term": "Cable panel",
@@ -5569,6 +6737,11 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/"
+      },
+      {
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       }
     ],
     "edges": [
@@ -5613,6 +6786,13 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "path": "/fallacies/proof-by-assertion/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "path": "/moves/nonpology/"
       }
     ],
     "backlinks": []
@@ -5731,6 +6911,457 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Bluecheck",
+    "slug": "bluecheck",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/bluecheck/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈbluː.tʃɛk/",
+    "position": 10,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"blue check\" + the verb \"to check\" - the mark and the act of vouching",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Raises the price of contradicting the bearer, because the platform has already vouched for them."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A small blue tick, a large claim, and a reply that begins “as a verified-”"
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "When the platform sells the mark to anyone, which is the same week it stops meaning anything."
+      }
+    ],
+    "voice": "A small blue tick, a large claim, and a reply that begins “as a verified-”",
+    "senses": [
+      "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as the account being right.",
+      "It works because verification is a claim about identity that audiences receive as a claim about authority. The bearer does not have to argue better; the interface has already agreed with them in advance."
+    ],
+    "notes": [],
+    "example": "“He lost the thread, then posted a screenshot of his own tick, and the **bluecheck** did the rest of the arguing for him.”",
+    "cite": null,
+    "summary": "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as...",
+    "confusedWith": [
+      {
+        "term": "Bootcurious",
+        "slug": "bootcurious",
+        "tell": "The bootcurious one defers to power; the bluecheck has been handed a little of it and spends it immediately.",
+        "path": "/buffs/bootcurious/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
+      },
+      {
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Crisisglow",
+    "slug": "crisisglow",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/crisisglow/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈkraɪ.sɪsˌɡləʊ/",
+    "position": 11,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"crisis\" + \"afterglow\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Makes the bearer the only adult in the room for as long as the emergency lasts, and suspends the questions that were due this week."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "“Now is not the time to politicise this”, from someone who has been politicising everything else since Tuesday."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "When the emergency is declared over - a decision the bearer also gets to make."
+      }
+    ],
+    "voice": "“Now is not the time to politicise this”, from someone who has been politicising everything else since Tuesday.",
+    "senses": [
+      "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
+      "It works because urgency is real and disagreement is slow. A crisis genuinely does compress the timetable, and the bearer decides how long the compression lasts - which is why so few emergencies end on schedule."
+    ],
+    "notes": [],
+    "example": "“For six weeks of **crisisglow** the mayor could not be criticised without someone asking whether you supported the recovery.”",
+    "cite": null,
+    "summary": "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
+    "confusedWith": [
+      {
+        "term": "Indictbump",
+        "slug": "indictbump",
+        "tell": "The indictbump is sympathy for a defendant; the crisisglow is authority for an incumbent. One is a wound, the other a uniform.",
+        "path": "/buffs/indictbump/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "path": "/buffs/honeymoan/"
+      },
+      {
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      },
+      {
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "path": "/fallacies/appeal-to-fear/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Indictbump",
+    "slug": "indictbump",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/indictbump/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ɪnˈdaɪt.bʌmp/",
+    "position": 12,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "Blend of \"indictment\" + \"bump\", the poll movement",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Converts a charge into a fundraising total, and a courtroom into a stage with better lighting."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A legal defence fund launched before the arraignment, and merchandise with the case number printed on it."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "At the verdict, or at the next indictment - whichever the base finds more energising."
+      }
+    ],
+    "voice": "A legal defence fund launched before the arraignment, and merchandise with the case number printed on it.",
+    "senses": [
+      "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
+      "It works because the charge is processed as proof of sincerity rather than proof of conduct. The base never has to believe the defendant is innocent; it only has to believe the prosecution is political, and any prosecution is political once you have said so first."
+    ],
+    "notes": [],
+    "example": "“Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday.”",
+    "cite": null,
+    "summary": "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of...",
+    "confusedWith": [
+      {
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "tell": "The martyrholic seeks the wound; the indictbump is what the wound pays. One is a temperament, the other a yield.",
+        "path": "/species/martyrholic/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      },
+      {
+        "term": "Bluecheck",
+        "slug": "bluecheck",
+        "path": "/buffs/bluecheck/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Tu quoque",
+        "slug": "tu-quoque",
+        "path": "/fallacies/tu-quoque/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The Feed",
+    "slug": "the-feed",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/the-feed/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə fiːd/",
+    "position": 13,
+    "sort": {
+      "impact": 5,
+      "abuse": 5,
+      "blowback": 3
+    },
+    "etymology": "English: the stream - named for something that is consumed rather than entered.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "An infinite scroll, a recommendation model, a phone at two in the morning, and the sixty seconds after a strong emotion."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Attention sold forward. The audience is the inventory, and the inventory is priced by how much of it can be held."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "The next item is already loaded, and it is angrier than the last one."
+      }
+    ],
+    "voice": "The next item is already loaded, and it is angrier than the last one.",
+    "senses": [
+      "The habitat that chooses its own inhabitants: a place with no address, no closing time, and an editor that is a model trained on what you paused on.",
+      "It works because it is not a venue but a selection pressure. Nothing in the feed has to be true, or even popular in general; it only has to keep one person on the page, and the person most likely to stay is the one who has just been made angry."
+    ],
+    "notes": [],
+    "example": "“He opened the app to check the weather, and the **feed** gave him a war, a grievance, and a supplement in ninety seconds.”",
+    "cite": null,
+    "summary": "The habitat that chooses its own inhabitants: a place with no address, no closing time, and an editor that is a model trained on what you paused on.",
+    "confusedWith": [
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "tell": "The comment section is under a thing somebody made; the feed is the thing, and nobody made it.",
+        "path": "/habitats/comment-section/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      },
+      {
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to emotion",
+        "slug": "appeal-to-emotion",
+        "path": "/fallacies/appeal-to-emotion/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Rubber chicken circuit",
+    "slug": "rubber-chicken-circuit",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/rubber-chicken-circuit/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈrʌb.ə ˈtʃɪk.ɪn ˈsɜː.kɪt/",
+    "position": 14,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "American English: the banquet circuit, named for the only reliably edible course.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "Hotel ballrooms, county dinners, a head table, a cash bar, and a photographer who has done this before."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Per-plate donations, a photo line, and a speaking fee that is really a transfer with a receipt."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A joke about the local team, a story about a diner, and a policy nobody will mention again after dessert."
+      }
+    ],
+    "voice": "A joke about the local team, a story about a diner, and a policy nobody will mention again after dessert.",
+    "senses": [
+      "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift’s front porch.",
+      "It works because access is the product. Nobody buys a chicken dinner for the chicken; they buy four minutes at the head table, and the receipt is written off as a political contribution."
+    ],
+    "notes": [],
+    "example": "“Nine counties in four days, four **rubber chicken circuit** dinners, and the same joke about the local football team told nine times to nine rooms that all laughed.”",
+    "cite": null,
+    "summary": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift’s front porch.",
+    "confusedWith": [
+      {
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "tell": "Patriotainment is broadcast and paid by the ad; the circuit is in the room and paid by the plate. Same speech, different invoice.",
+        "path": "/habitats/patriotainment/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Crookmaxxing",
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
     "term": "Appeal to emotion",
     "slug": "appeal-to-emotion",
     "kind": "fallacy",
@@ -5837,6 +7468,13 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
       }
     ]
   },
@@ -5916,6 +7554,20 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
@@ -5926,6 +7578,13 @@ export const entries = [
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
         "path": "/species/ragesturbationist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Crisisglow",
+        "slug": "crisisglow",
+        "path": "/buffs/crisisglow/"
       }
     ]
   },
@@ -6429,6 +8088,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "path": "/abilities/filibluster/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
@@ -6522,6 +8188,13 @@ export const entries = [
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "path": "/buffs/honeymoan/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -6696,6 +8369,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Vaguebooking",
+        "slug": "vaguebooking",
+        "path": "/moves/vaguebooking/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
@@ -6775,6 +8455,13 @@ export const entries = [
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Gerrythm",
+        "slug": "gerrythm",
+        "path": "/abilities/gerrythm/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -7158,6 +8845,20 @@ export const entries = [
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
         "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "path": "/moves/nonpology/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Indictbump",
+        "slug": "indictbump",
+        "path": "/buffs/indictbump/"
       }
     ]
   },
@@ -7446,6 +9147,13 @@ export const entries = [
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
         "path": "/species/bleatkeeper/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       }
     ]
   },
@@ -7724,9 +9432,23 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Receiptbomb",
+        "slug": "receiptbomb",
+        "path": "/moves/receiptbomb/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Bootcurious",
         "slug": "bootcurious",
         "path": "/buffs/bootcurious/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/"
       }
     ]
   },
@@ -7809,6 +9531,20 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "path": "/abilities/filibluster/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Receiptbomb",
+        "slug": "receiptbomb",
+        "path": "/moves/receiptbomb/"
       },
       {
         "rel": "commits",
