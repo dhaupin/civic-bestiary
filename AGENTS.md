@@ -43,6 +43,24 @@ npm --prefix web run dev    # local dev server
 
 `npm run build` at the root runs all three in order.
 
+## Branches
+
+`staging` is the integration branch; `main` is what publishes.
+
+1. Work lands on a topic branch and PRs into `staging`. The `site` workflow runs
+   the full gate there (artifacts current, pack lint, build, poststruct audit) -
+   the same gate as main, minus the deploy.
+2. Promote with a PR `staging` -> `main`. Only `main` publishes: the deploy job
+   is gated on `github.ref`, so a green staging run is the evidence a promotion
+   carries, not a deploy.
+3. On every push to `main`, `staging-ff-sync` fast-forwards `staging` onto main,
+   keeping it a mirror rather than a second line of history. It also restores
+   `staging` if a promotion PR was merged with `--delete-branch`.
+
+Never commit to `main` directly, and never force-push `staging`: a divergence is
+meant to fail the sync job loudly, because that means a commit landed on staging
+that main does not have.
+
 ## Validation
 
 `build.py` refuses to render when a term is duplicated, an entry is missing a required field,
