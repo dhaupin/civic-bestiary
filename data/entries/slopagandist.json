@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈslɒp.ə.ˌɡæn.dɪst/",
   "etymology": "Blend of \"slop\" + \"propagandist\"",
-  "range": "Recommendation feeds and any page that publishes twelve articles an hour.",
+  "occasion": "A feed that needs volume, and a story that needs only to be published.",
   "call": "\"Sources say.\"",
-  "field_marks": [
+  "tell": [
     "Volume over verification",
     "Written by no one, read by millions",
     "Corrections never issued"
   ],
+  "counter": "Ask who wrote it and who would correct it. A byline and a corrections policy are the two things slop cannot fake for long.",
   "confused_with": [
     {
       "term": "Algodemic",
@@ -28,7 +29,7 @@
   "related": [
     "Ragesturbationist",
     "Algodemic",
-    "Dramagogue"
+    "Perp walk"
   ],
   "edges": [
     {

@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˌæl.ɡoʊˈdɛm.ɪk/",
   "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",
-  "range": "Video platforms at two in the morning, and any comment section with a pinned link.",
+  "occasion": "A decision that has to look evidence-based, and a chart that arrived without its context.",
   "call": "\"The data doesn't lie.\"",
-  "field_marks": [
+  "tell": [
     "A chart with no axis",
     "One study, no authors",
     "Cites a preprint that does not exist"
   ],
+  "counter": "Ask for the axis, the sample, and where the number came from. A chart that cannot produce them is a poster, not a finding.",
   "confused_with": [
     {
       "term": "Bleatkeeper",

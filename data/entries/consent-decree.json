@@ -1,0 +1,35 @@
+{
+  "term": "Consent decree",
+  "kind": "ability",
+  "chapter": "hypocrisy-revisionism",
+  "position": 18,
+  "part_of_speech": "noun",
+  "ipa": "/kənˈsɛnt dɪˈkriː/",
+  "etymology": "English: a decree issued by consent - a court order both sides agreed to and neither can walk away from.",
+  "effect": "Converts a lawsuit into a supervisor, and a promise into a court order with a deadline.",
+  "available_to": "A regulator with a case it would rather settle, and a defendant with a budget it would rather not spend.",
+  "counter": "Publish the decree, keep the monitor independent, and write the exit criteria before the parties are tired.",
+  "confused_with": [
+    {
+      "term": "Qualified immunity",
+      "tell": "Qualified immunity ends the case before the facts; a consent decree ends it after, with a monitor attached."
+    }
+  ],
+  "senses": [
+    "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor, and a schedule.",
+    "It works because enforcement outlives the news cycle. A press conference ends; a decree has reporting deadlines, and the department that signed it has to file paperwork with a judge who is still there next year."
+  ],
+  "notes": [],
+  "example": "*\"The **consent decree** gave the department eighteen months, an independent monitor and a reporting requirement, and the monitor's third report was the first thing anyone had read about the department in a decade.\"*",
+  "related": [
+    "Qualified immunity",
+    "Subpoenado",
+    "Nightdocket"
+  ],
+  "edges": [],
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

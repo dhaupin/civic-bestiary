@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈmɪθˌstɔːr.i.ən/",
   "etymology": "Blend of \"myth\" + \"historian\"",
-  "range": "Heritage segments, school-board meetings, and the comments under any museum post.",
+  "occasion": "A policy argument that has just been moved from the present into a golden age.",
   "call": "\"In my day -\"",
-  "field_marks": [
+  "tell": [
     "Nostalgic for a decade it cannot date",
     "Sanitized, never sourced",
     "Confuses a monument with a record"
   ],
+  "counter": "Ask for the year, the statute, and the source. Nostalgia cannot survive a date.",
   "confused_with": [
     {
       "term": "Algodemic",

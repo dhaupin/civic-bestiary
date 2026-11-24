@@ -42,6 +42,10 @@
     {
       "rel": "commits",
       "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "houses",
+      "to": "Heckler's veto"
     }
   ],
   "sort": {

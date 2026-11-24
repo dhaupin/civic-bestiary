@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ɡəˈlɒp.ɒl.ə.dʒɪst/",
   "etymology": "Blend of \"gish gallop\" + \"-ologist\"",
-  "range": "Long-form podcasts and the filibuster hour of any hearing.",
+  "occasion": "A hearing or a podcast where the clock, and not the argument, decides when it ends.",
   "call": "\"And another thing -\"",
-  "field_marks": [
+  "tell": [
     "Twelve claims, no sources",
     "Wins by exhausting the clock",
     "Changes the subject before the answer"
   ],
+  "counter": "Answer one claim, and name which one. A gallop is a race against the clock; the counter is to stop running it.",
   "confused_with": [
     {
       "term": "Sophistroll",

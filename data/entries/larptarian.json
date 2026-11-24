@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˈlɑːrpˌtɛər.i.ən/",
   "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
-  "range": "Homesteading channels, prepper forums, and the far end of a hardware store.",
+  "occasion": "A conversation about self-reliance, held by someone with a mortgage and a subscription list.",
   "call": "\"I could live off the grid tomorrow.\"",
-  "field_marks": [
+  "tell": [
     "Solar panels on a financed roof",
     "Owns a crossbow, no arrows",
     "Files an HOA complaint about a fence"
   ],
+  "counter": "Ask what happens on the third day. Preparedness is a supply chain, and the fantasy usually ends where the delivery does.",
   "confused_with": [
     {
       "term": "Playtriot",

@@ -12,7 +12,7 @@ Code follows too (`.species-*`, `.listing-*`), so a grep for "term" or "entry" s
 nothing but the README's own prose.
 
 The kind is not decoration: it decides which identification block a record must carry
-(species: range / call / field marks; move: trigger / tell / counter; ability: effect /
+(species: occasion / call / tell / counter; move: trigger / tell / counter; ability: effect /
 available to / counter; habitat: carriers / economics / signature; buff: effect / tell /
 expires) and which URL prefix the entry lives under (`/species/`, `/moves/`, `/abilities/`,
 `/formats/`, `/buffs/`). Changing a record's kind changes its URL, so a `_redirects` 301 has
@@ -106,7 +106,7 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
 ## The six kinds, and what each one is for
 
 The taxonomy is the joke's grammar, so a record's kind is an argument about what the thing is:
-a **species** is a person-shaped pattern, a **move** is something done in front of witnesses, an
+a **species** is a pattern of behaviour you can name, a **move** is something done in front of witnesses, an
 **ability** belongs to an office rather than a person, a **habitat** is where the performance is
 fed, a **buff** is a temporary condition, and a **fallacy** is a real error with a citation.
 Abilities are the thinnest kind and the newest: five institutional powers (filibuster,

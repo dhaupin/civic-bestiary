@@ -1,0 +1,40 @@
+{
+  "term": "Access",
+  "kind": "buff",
+  "chapter": "fearmongering-grift",
+  "position": 22,
+  "part_of_speech": "noun",
+  "ipa": "/ˈæk.sɛs/",
+  "etymology": "English: access journalism, the arrangement in which the interview is the reward and the question is the price.",
+  "effect": "Makes the bearer's questions worth answering, and the answers worth not printing.",
+  "tell": "A follow-up that never comes, a thank-you in the green room, and a scoop that arrives the day the book is published.",
+  "expires": "The first question that costs the source something - or the first scoop that goes to somebody who asked it.",
+  "confused_with": [
+    {
+      "term": "Briefing room",
+      "tell": "The briefing room is where access is performed; access is what you still have when the room is empty."
+    }
+  ],
+  "senses": [
+    "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and the next hard question expensive.",
+    "It works because information is a renewable resource that requires cooperation. A reporter who asks the question loses the call, and the call is where the next three stories come from - so the incentive is not to lie, it is to ask something else."
+  ],
+  "notes": [],
+  "example": "*\"The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour.\"*",
+  "related": [
+    "Bluecheck",
+    "Comment section",
+    "Spin room"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to authority"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

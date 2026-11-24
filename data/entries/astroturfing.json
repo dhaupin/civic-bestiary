@@ -1,0 +1,40 @@
+{
+  "term": "Astroturfing",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 17,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˈæs.trəʊˌtɜː.fɪŋ/",
+  "etymology": "From Astroturf, the artificial grass - a grassroots movement with the lawn manufactured.",
+  "trigger": "A decision that needs to look like it has a constituency.",
+  "tell": "A burst of new accounts using the same phrase, a \"local\" group with a Washington address, and a comment section that agrees too quickly.",
+  "counter": "Ask who is paying, and when the group was incorporated. Grassroots has a membership list; astroturf has an invoice.",
+  "confused_with": [
+    {
+      "term": "Rally",
+      "tell": "The rally is a crowd that showed up; astroturfing is a crowd that was ordered."
+    }
+  ],
+  "senses": [
+    "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule.",
+    "It works because numbers are read as consent. A legislator cannot count the people behind the letters, so forty identical emails from forty constituents and forty from a vendor look the same in the inbox - and the vendor knows it."
+  ],
+  "notes": [],
+  "example": "*\"Two hundred identical letters, three local groups sharing a PO box, and an **astroturfing** campaign that one staffer had drafted on a Tuesday.\"*",
+  "related": [
+    "Slopagandist",
+    "Comment section",
+    "The Feed"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

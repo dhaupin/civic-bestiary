@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˌzɛn.əˈfoʊ.brɪ.keɪ.tər/",
   "etymology": "Blend of \"xenophobe\" + \"fabricator\"",
-  "range": "Talk radio, tabloid front pages, and the comments under a census story.",
+  "occasion": "A census, a lease, or a school roster that has just made a change visible.",
   "call": "\"They're taking over.\"",
-  "field_marks": [
+  "tell": [
     "Manufactures the threat, then fears it",
     "Recycles an older panic",
     "Numbers never sourced"
   ],
+  "counter": "Ask for the number and the year. A panic that cannot produce a denominator is a rumour with a map.",
   "confused_with": [
     {
       "term": "Dramagogue",

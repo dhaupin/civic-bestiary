@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ˌreɪdʒ.stərˈbeɪ.ʃən.ɪst/",
   "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",
-  "range": "Prime-time panels and the algorithm's favorite uncle.",
+  "occasion": "A segment that has to hold an audience across a commercial break.",
   "call": "\"Are you angry yet?\"",
-  "field_marks": [
+  "tell": [
     "Outrage as a business model",
     "Never satisfied, always fed",
     "Monetizes the wound"
   ],
+  "counter": "Ask what the anger is for. Outrage that cannot name a remedy is a product, not a politics.",
   "confused_with": [
     {
       "term": "Dramagogue",

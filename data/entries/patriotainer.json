@@ -6,14 +6,15 @@
   "part_of_speech": "noun",
   "ipa": "/ˈpeɪ.tri.ə.ˌteɪ.nər/",
   "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
-  "range": "Cable primetime, the streaming docu-series, and the merch table after the rally.",
+  "occasion": "A commercial break that needs a grievance to sell the next segment.",
   "call": "\"Folks, they don't want you to know this.\"",
-  "field_marks": [
+  "tell": [
     "Every segment ends on a sponsor read",
     "Owns the flag as a prop and licenses the footage",
     "Says \"the country\" when meaning \"my audience\"",
     "No position survives a ratings dip"
   ],
+  "counter": "Ask what was withheld and who was paid. The audience is the product, and the \"they\" is usually the sponsor.",
   "confused_with": [
     {
       "term": "Playtriot",
