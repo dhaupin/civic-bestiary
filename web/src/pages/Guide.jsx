@@ -89,7 +89,7 @@ function headingFor(view, total) {
   return {
     eyebrow: `${stats.entries} entries · ${stats.fallacies} fallacies · ${chapters.length} chapters`,
     title: 'The field guide',
-    sub: 'This is the whole drawer. Pick a kind, pick a chapter, or search for the thing you keep hearing at dinner. A species is an actor, a move is what it does, an ability belongs to an office, a habitat is the place that houses them, and a buff is the weather they run under. Every entry tells you how to recognise it and what answers it - and the fallacies are here too, filed under the chapter that commits them, with the ones no chapter owns collected as strays.',
+    sub: 'This is the whole drawer. Pick a kind, pick a chapter, or search for the thing you keep hearing at dinner. A species is an actor, a move is what it does, an ability belongs to an office, a habitat is the place that houses them, and a buff is the weather they run under. Every entry tells you how to recognise it and what answers it - and the fallacies are here too, filed under the chapter that commits them, with the ones every chapter uses collected in chapter V, where the character is the room.',
     rows: [],
     path: '/guide/',
     description:
@@ -112,12 +112,22 @@ export default function Guide() {
   const requestedAxis = search.get(PARAM.sort)
   const axis = axes.some((item) => item.id === requestedAxis) ? requestedAxis : defaultAxis(view)
 
+  // What the page holds before the kind chip narrows it. The kind chips are
+  // counted from this, not from the whole guide: on a chapter page a chip is a
+  // filter within the chapter, and a kind the chapter does not carry is not a
+  // door worth offering.
+  const inView = useMemo(
+    () => entries.filter((entry) => !view.chapter || entry.chapter === view.chapter.id),
+    [view.chapter],
+  )
+  const kindCounts = useMemo(() => {
+    const counts = {}
+    for (const entry of inView) counts[entry.kind] = (counts[entry.kind] || 0) + 1
+    return counts
+  }, [inView])
   const master = useMemo(
-    () => entries.filter((entry) => (
-      (!view.kind || entry.kind === view.kind.id)
-      && (!view.chapter || entry.chapter === view.chapter.id)
-    )),
-    [view.kind, view.chapter],
+    () => (view.kind ? inView.filter((entry) => entry.kind === view.kind.id) : inView),
+    [inView, view.kind],
   )
   const heading = headingFor(view, master.length)
   usePageMeta({
@@ -128,7 +138,7 @@ export default function Guide() {
   })
 
   const present = useMemo(() => new Set(entries.map((entry) => entry.term[0].toUpperCase())), [])
-  const populatedKinds = kindsList.filter((spec) => stats.kinds[spec.id] > 0)
+  const populatedKinds = kindsList.filter((spec) => kindCounts[spec.id] > 0)
   const visible = useMemo(
     () => sortByAxis(
       master.filter((entry) => (
@@ -139,10 +149,10 @@ export default function Guide() {
     [master, letter, query, axis],
   )
 
-  // Where the view is only fallacies - their kind page, or the strays chapter -
-  // the useful grouping is the accredited family, not the guide's chapters,
-  // because every entry there shares a chapter and the heading says nothing.
-  const appendix = view.kind?.id === 'fallacy' || view.chapter?.id === 'strays'
+  // Where the view is only fallacies - their kind page, or chapter V, which has
+  // no characters by design - the useful grouping is the accredited family, not
+  // the guide's chapters, because every entry there shares a chapter.
+  const appendix = view.kind?.id === 'fallacy' || view.chapter?.id === 'normalization'
   const groups = useMemo(() => {
     if (!appendix) {
       return chapters
@@ -258,7 +268,7 @@ export default function Guide() {
                 aria-current={view.kind?.id === spec.id ? 'page' : undefined}
               >
                 {spec.plural}
-                <span className="chip-count">{stats.kinds[spec.id]}</span>
+                <span className="chip-count">{kindCounts[spec.id]}</span>
               </Link>
             ))}
           </div>
