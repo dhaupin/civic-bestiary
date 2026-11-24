@@ -39,6 +39,10 @@
     {
       "rel": "counters",
       "to": "Plutomartyr"
+    },
+    {
+      "rel": "counters",
+      "to": "LARPtarian"
     }
   ],
   "sort": {

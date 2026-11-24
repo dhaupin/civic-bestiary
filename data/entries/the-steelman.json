@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Equivangelist"
+    },
+    {
+      "rel": "counters",
+      "to": "Biasographer"
     }
   ],
   "sort": {

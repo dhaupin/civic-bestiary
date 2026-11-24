@@ -39,6 +39,10 @@
     {
       "rel": "counters",
       "to": "The Feed"
+    },
+    {
+      "rel": "counters",
+      "to": "Astroturfing"
     }
   ],
   "sort": {

@@ -39,6 +39,10 @@
     {
       "rel": "counters",
       "to": "Spin room"
+    },
+    {
+      "rel": "counters",
+      "to": "Capitulectual"
     }
   ],
   "sort": {

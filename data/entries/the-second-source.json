@@ -35,6 +35,14 @@
     {
       "rel": "counters",
       "to": "Slopagandist"
+    },
+    {
+      "rel": "counters",
+      "to": "Receiptbomb"
+    },
+    {
+      "rel": "counters",
+      "to": "Patriotainer"
     }
   ],
   "sort": {

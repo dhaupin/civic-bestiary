@@ -39,6 +39,26 @@
     {
       "rel": "counters",
       "to": "Cable panel"
+    },
+    {
+      "rel": "counters",
+      "to": "Motte hop"
+    },
+    {
+      "rel": "counters",
+      "to": "Subpoenado"
+    },
+    {
+      "rel": "counters",
+      "to": "Group chat"
+    },
+    {
+      "rel": "counters",
+      "to": "Bootcurious"
+    },
+    {
+      "rel": "counters",
+      "to": "Dead cat"
     }
   ],
   "sort": {

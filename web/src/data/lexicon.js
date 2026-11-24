@@ -639,6 +639,13 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The poll worker",
+        "slug": "the-poll-worker",
+        "path": "/keystones/the-poll-worker/"
       }
     ]
   },
@@ -740,7 +747,15 @@ export const entries = [
         "path": "/fallacies/two-wrongs-make-a-right/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The translator",
+        "slug": "the-translator",
+        "path": "/keystones/the-translator/"
+      }
+    ]
   },
   {
     "term": "LARPtarian",
@@ -847,7 +862,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-the-stone/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "path": "/keystones/the-caseworker/"
+      }
+    ]
   },
   {
     "term": "Sovereign Shillizen",
@@ -1182,7 +1205,15 @@ export const entries = [
         "path": "/fallacies/gish-gallop/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ]
   },
   {
     "term": "Patriotainer",
@@ -1314,6 +1345,13 @@ export const entries = [
         "term": "Pseudo-event",
         "slug": "pseudo-event",
         "path": "/habitats/pseudo-event/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
       }
     ]
   },
@@ -1400,7 +1438,22 @@ export const entries = [
         "path": "/fallacies/gish-gallop/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Cloture",
+        "slug": "cloture",
+        "path": "/abilities/cloture/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Discharge petition",
+        "slug": "discharge-petition",
+        "path": "/abilities/discharge-petition/"
+      }
+    ]
   },
   {
     "term": "Gerrythm",
@@ -1570,7 +1623,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-fear/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      }
+    ]
   },
   {
     "term": "Honeymoan",
@@ -1738,7 +1799,15 @@ export const entries = [
         "path": "/fallacies/argument-from-silence/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      }
+    ]
   },
   {
     "term": "Nightdocket",
@@ -2083,6 +2152,13 @@ export const entries = [
         "term": "Gallopologist",
         "slug": "gallopologist",
         "path": "/species/gallopologist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "path": "/abilities/filibluster/"
       }
     ],
     "backlinks": []
@@ -2161,6 +2237,13 @@ export const entries = [
         "term": "Decorumancer",
         "slug": "decorumancer",
         "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "path": "/abilities/filibluster/"
       }
     ],
     "backlinks": []
@@ -3140,6 +3223,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
       }
     ]
   },
@@ -3360,7 +3450,15 @@ export const entries = [
         "path": "/fallacies/false-attribution/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "path": "/remedies/the-steelman/"
+      }
+    ]
   },
   {
     "term": "Bleatkeeper",
@@ -4043,6 +4141,13 @@ export const entries = [
         "term": "Spin room",
         "slug": "spin-room",
         "path": "/habitats/spin-room/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "path": "/keystones/the-moderator/"
       }
     ]
   },
@@ -4236,6 +4341,13 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
       }
     ]
   },
@@ -4327,6 +4439,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
       }
     ]
   },
@@ -4411,7 +4530,15 @@ export const entries = [
         "path": "/fallacies/equivocation/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      }
+    ]
   },
   {
     "term": "Friday news dump",
@@ -4495,7 +4622,15 @@ export const entries = [
         "path": "/fallacies/argument-from-silence/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      }
+    ]
   },
   {
     "term": "Astroturfing",
@@ -4585,6 +4720,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "path": "/remedies/lateral-reading/"
       }
     ]
   },
@@ -4683,6 +4825,13 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
       }
     ]
   },
@@ -4774,6 +4923,13 @@ export const entries = [
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "path": "/keystones/the-moderator/"
       }
     ]
   },
@@ -4872,6 +5028,13 @@ export const entries = [
         "term": "Briefing room",
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
       }
     ]
   },
@@ -6254,7 +6417,15 @@ export const entries = [
         "path": "/fallacies/tu-quoque/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      }
+    ]
   },
   {
     "term": "Mythstorian",
@@ -6473,7 +6644,15 @@ export const entries = [
         "path": "/fallacies/argument-from-silence/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ]
   },
   {
     "term": "Crookmaxxing",
@@ -6565,6 +6744,13 @@ export const entries = [
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
         "path": "/habitats/rubber-chicken-circuit/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
       }
     ]
   },
@@ -6673,7 +6859,15 @@ export const entries = [
         "path": "/fallacies/false-balance/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ]
   },
   {
     "term": "Subpoenado",
@@ -6758,7 +6952,15 @@ export const entries = [
         "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ]
   },
   {
     "term": "Cronycle",
@@ -7173,7 +7375,15 @@ export const entries = [
         "path": "/fallacies/argument-from-silence/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      }
+    ]
   },
   {
     "term": "Recessure",
@@ -7256,7 +7466,15 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      }
+    ]
   },
   {
     "term": "Signaway",
@@ -7799,7 +8017,15 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public defender",
+        "slug": "the-public-defender",
+        "path": "/keystones/the-public-defender/"
+      }
+    ]
   },
   {
     "term": "Consent decree",
@@ -8821,6 +9047,13 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
       }
     ]
   },
@@ -9571,7 +9804,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-tradition/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ]
   },
   {
     "term": "Bluecheck",
@@ -9656,7 +9897,15 @@ export const entries = [
         "path": "/fallacies/proof-by-assertion/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The editor",
+        "slug": "the-editor",
+        "path": "/keystones/the-editor/"
+      }
+    ]
   },
   {
     "term": "Crisisglow",
@@ -10071,7 +10320,15 @@ export const entries = [
         "path": "/species/patriotainer/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "path": "/keystones/the-moderator/"
+      }
+    ]
   },
   {
     "term": "Push poll",
@@ -10168,6 +10425,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
       }
     ]
   },
@@ -10689,7 +10953,15 @@ export const entries = [
         "path": "/fallacies/proof-by-assertion/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      }
+    ]
   },
   {
     "term": "Perp walk",
@@ -10785,7 +11057,15 @@ export const entries = [
         "path": "/fallacies/poisoning-the-well/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The juror",
+        "slug": "the-juror",
+        "path": "/keystones/the-juror/"
+      }
+    ]
   },
   {
     "term": "Access",
@@ -13454,6 +13734,27 @@ export const entries = [
         "term": "Sabotriot",
         "slug": "sabotriot",
         "path": "/species/sabotriot/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Recessure",
+        "slug": "recessure",
+        "path": "/abilities/recessure/"
       }
     ],
     "backlinks": []
@@ -13549,6 +13850,13 @@ export const entries = [
         "term": "Sovereign Shillizen",
         "slug": "sovereign-shillizen",
         "path": "/species/sovereign-shillizen/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
       }
     ],
     "backlinks": []
@@ -13644,6 +13952,27 @@ export const entries = [
         "term": "Mythstorian",
         "slug": "mythstorian",
         "path": "/species/mythstorian/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Pseudo-event",
+        "slug": "pseudo-event",
+        "path": "/habitats/pseudo-event/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
       }
     ],
     "backlinks": []
@@ -13834,6 +14163,13 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "LARPtarian",
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
       }
     ],
     "backlinks": []
@@ -13929,6 +14265,13 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Bluecheck",
+        "slug": "bluecheck",
+        "path": "/buffs/bluecheck/"
       }
     ],
     "backlinks": []
@@ -14024,6 +14367,27 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
       }
     ],
     "backlinks": []
@@ -14219,6 +14583,27 @@ export const entries = [
         "term": "Briefing room",
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Crookmaxxing",
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "path": "/moves/trial-balloon/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
       }
     ],
     "backlinks": [
@@ -14322,6 +14707,41 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Motte hop",
+        "slug": "motte-hop",
+        "path": "/moves/motte-hop/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Bootcurious",
+        "slug": "bootcurious",
+        "path": "/buffs/bootcurious/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Dead cat",
+        "slug": "dead-cat",
+        "path": "/moves/dead-cat/"
       }
     ],
     "backlinks": [
@@ -14425,6 +14845,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Astroturfing",
+        "slug": "astroturfing",
+        "path": "/moves/astroturfing/"
       }
     ],
     "backlinks": [
@@ -14521,6 +14948,20 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Receiptbomb",
+        "slug": "receiptbomb",
+        "path": "/moves/receiptbomb/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
       }
     ],
     "backlinks": [
@@ -14622,6 +15063,13 @@ export const entries = [
         "term": "Equivangelist",
         "slug": "equivangelist",
         "path": "/species/equivangelist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
       }
     ],
     "backlinks": [
@@ -14835,6 +15283,13 @@ export const entries = [
         "term": "Spin room",
         "slug": "spin-room",
         "path": "/habitats/spin-room/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
       }
     ],
     "backlinks": [
@@ -14950,6 +15405,20 @@ export const entries = [
         "term": "Frankincense",
         "slug": "frankincense",
         "path": "/buffs/frankincense/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Flood the zone",
+        "slug": "flood-the-zone",
+        "path": "/moves/flood-the-zone/"
       }
     ],
     "backlinks": [
@@ -15434,6 +15903,13 @@ export const entries = [
         "term": "Cross-examination",
         "slug": "cross-examination",
         "path": "/remedies/cross-examination/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Qualified immunity",
+        "slug": "qualified-immunity",
+        "path": "/abilities/qualified-immunity/"
       }
     ],
     "backlinks": []
@@ -15529,6 +16005,13 @@ export const entries = [
         "term": "The written reason",
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Freetard",
+        "slug": "freetard",
+        "path": "/species/freetard/"
       }
     ],
     "backlinks": []
@@ -15629,6 +16112,13 @@ export const entries = [
         "term": "The steelman",
         "slug": "the-steelman",
         "path": "/remedies/the-steelman/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
       }
     ],
     "backlinks": []
@@ -15724,6 +16214,13 @@ export const entries = [
         "term": "The audit",
         "slug": "the-audit",
         "path": "/remedies/the-audit/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Push poll",
+        "slug": "push-poll",
+        "path": "/moves/push-poll/"
       }
     ],
     "backlinks": []
@@ -15819,6 +16316,13 @@ export const entries = [
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
       }
     ],
     "backlinks": []
@@ -15995,6 +16499,13 @@ export const entries = [
         "term": "Martyrholic",
         "slug": "martyrholic",
         "path": "/species/martyrholic/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
       }
     ],
     "backlinks": [
