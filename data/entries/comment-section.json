@@ -24,7 +24,7 @@
   "related": [
     "Patriotainment",
     "Group chat",
-    "Cable panel"
+    "The ombudsman"
   ],
   "edges": [
     {
@@ -68,5 +68,6 @@
     "impact": 3,
     "abuse": 5,
     "blowback": 2
-  }
+  },
+  "counter": "A moderator with a published policy and a queue slow enough to enforce it. The section is not the problem; the absence of anybody responsible for it is."
 }

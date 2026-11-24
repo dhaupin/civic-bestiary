@@ -173,6 +173,15 @@ The fallacies work the other way round. They are not coinages and are not ours: 
   - [145. Random draw](#145-random-draw)
   - [146. Fee shift](#146-fee-shift)
   - [147. Sunset clause](#147-sunset-clause)
+  - [148. The ombudsman](#148-the-ombudsman)
+  - [149. The public defender](#149-the-public-defender)
+  - [150. The translator](#150-the-translator)
+  - [151. The juror](#151-the-juror)
+  - [152. The statistician](#152-the-statistician)
+  - [153. Notice and comment](#153-notice-and-comment)
+  - [154. Recusal](#154-recusal)
+  - [155. Cross-examination](#155-cross-examination)
+  - [156. The stay](#156-the-stay)
 
 ---
 
@@ -187,8 +196,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Flag decal on a leased vehicle · Quotes a founder, never a statute · Knows the anthem's tune, not its third verse  
 **Counter:** Answer the flag question, then ask the policy question again. Patriotism is not a reply, and it does not survive being asked what it costs.  
 
-1. A U.S. citizen who performs shallow, theatrical displays of nationalism - such as wearing flag-themed apparel or using patriotic slogans - while actively undermining democratic norms, community well-being, or the rule of law.
-2. An individual who adopts the aesthetics and rhetoric of love for their country as a shield or justification to engage in divisive, harmful, or anti-social behavior against fellow citizens.
+1. The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.
+2. It works because symbols are cheap and legible while obligations are slow and unphotogenic, so the display can carry a loyalty the conduct would otherwise have to earn.
 
 * **Example:** *"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot."*
 * **Easily confused with:** *LARPtarian* - Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle.
@@ -206,8 +215,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Confuses a right with an exemption · Cites freedom, never a clause · Loudest where the line is longest  
 **Counter:** Ask which clause, and what it says. A right that cannot be quoted is a preference with a flag on it.  
 
-1. An individual whose grasp of genuine liberty is hindered or stunted by ideological bias, partisan agendas, or self-interest - leading them to mistake reckless, anti-social, or harmful behavior for the exercise of freedom.
-2. A person who invokes a distorted, one-sided view of personal rights to justify actions that undermine public safety, civic duty, or the well-being of society.
+1. The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.
+2. It works because rights are real and specific, so a claim that sounds like one is hard to refuse in public - and the specificity only appears when somebody asks which clause.
 
 * **Etymology & Usage Note:** Derived from the traditional verb *retard* (as in *fire-retardant*), signifying an understanding of freedom actively slowed or stunted by external agendas. Because the suffix *-tard* is commonly used online as an ableist slur, readers unfamiliar with this specific root framing may still interpret the word as derogatory without context.
 * **Example:** *"Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right."*
@@ -226,8 +235,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Solar panels on a financed roof · Owns a crossbow, no arrows · Files an HOA complaint about a fence  
 **Counter:** Ask what happens on the third day. Preparedness is a supply chain, and the fantasy usually ends where the delivery does.  
 
-1. An individual who role-plays as a rugged, self-reliant rebel or oppressed freedom fighter while actively relying on - and taking for granted - the laws, infrastructure, and safety nets of a stable society.
-2. Someone who adopts the rhetoric of radical individualism and anti-government defiance as a theatrical identity, without facing any real tyranny or sacrificing the comforts of modern civic life.
+1. The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.
+2. It works because the costume is legible and the dependency is invisible, and nobody audits the third day of a fantasy.
 
 * **Example:** *"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior."*
 * **Easily confused with:** *Playtriot* - The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer.
@@ -245,8 +254,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Hand-lettered plate, no registration · Argues in maritime law · Owes back taxes on principle  
 **Counter:** Ask which law, and read it. Consent is a doctrine with a text, and the text is not on the hand-lettered plate.  
 
-1. An individual who promotes, sells, or hides behind pseudo-legal "sovereign citizen" theories to evade taxes, licensing, or basic civic accountability - often profiting from or encouraging others to adopt the same self-serving legal fictions.
-2. Someone who selectively rejects the authority of the law and the responsibilities of citizenship while actively benefiting from public infrastructure, legal protections, and societal stability.
+1. The pattern of declining a legal obligation by asserting a law that does not exist: the form unsigned, the fee unpaid, the statute quoted from nowhere.
+2. It works because the counter is a queue and a deadline rather than an argument - and the queue is where the claim either meets a text or meets a closing time.
 
 * **Example:** *"After getting pulled over with fake license plates, the **sovereign shillizen** tried to hand the officer a 'fee schedule' he bought from an online guru."*
 * **Easily confused with:** *Freetard* - The shillizen files paperwork to escape the law; the freetard simply ignores it.
@@ -264,8 +273,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Votes against the subsidy, keeps the check · Waves the flag at the shuttered plant · Blames the other party for the closure  
 **Counter:** Put the vote next to the closure. This is not a private hypocrisy; it is a public choice with a public receipt.  
 
-1. An empathy-devoid spite-voter who actively undermines their own healthcare, wages, public infrastructure, and community well-being - all while waving a flag - purely for the satisfaction of believing it will hurt the fellow citizens they hate.
-2. Someone who treats self-destruction as a civic virtue, eagerly burning down the very institutions and safety nets their own family relies on just to "own" political rivals and watch their neighbors suffer.
+1. The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.
+2. It works because a vote is private and a closure is public, and the distance between them is where the explanation usually stops.
 
 * **Example:** *"Cheerfully voting to defund his own town's hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**."*
 * **Easily confused with:** *Playtriot* - A playtriot performs the loyalty; a sabotriot votes it into your hospital's closure.
@@ -281,6 +290,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** Cable primetime, streaming specials, rally tours, and the merch drop that follows each one.  
 **Economics:** Ad rates keyed to outrage, an eighty-dollar hoodie, and a subscription tier for the uncut version.  
 **Signature:** A countdown clock over a battlefield, and a sponsor read that starts before the anthem finishes.  
+**Counter:** Change the payment. A subscription, a public broadcaster, or one night without the channel - the format follows the revenue, and nothing else moves it.  
 
 1. The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the country is something you buy a ticket to watch rather than something you owe the people living in it.
 2. A mode of civic life in which the spectacle of patriotism substitutes entirely for its obligations, so that cheering loudest counts as service and noticing anything else counts as betrayal.
@@ -302,8 +312,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Every segment ends on a sponsor read · Owns the flag as a prop and licenses the footage · Says "the country" when meaning "my audience" · No position survives a ratings dip  
 **Counter:** Ask what was withheld and who was paid. The audience is the product, and the "they" is usually the sponsor.  
 
-1. The on-air performer who converts national identity into a segment: hired to be certain, paid to be angry, and never once required to be right.
-2. A broadcaster whose only consistent commitment is the next hour of programming. The flag is a prop, the outrage is inventory, and moral clarity is a liability no sponsor will underwrite.
+1. The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.
+2. It works because the segment is paid for by attention, and a conclusion is more bookable than a question - so being right becomes a liability no sponsor will underwrite.
 
 * **Example:** *"He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break."*
 * **Easily confused with:** *Playtriot* - The playtriot performs for free and believes it; the patriotainer performs on contract and invoices for it.
@@ -418,7 +428,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The **nightdocket** granted the stay at 11:40 p.m., one paragraph, no signature, and by morning the policy was suspended and the reasoning was a footnote in somebody else's brief."*
 * **Easily confused with:** *Subpoenado* - The subpoenado is a hearing staged for cameras; the nightdocket is a ruling staged for nobody.
 * **Commits:** [*Appeal to authority*](#47-appeal-to-authority), [*Special pleading*](#78-special-pleading)
-* **Related Terms:** [*Blueslip*](#67-blueslip), [*Pocketveto*](#12-pocketveto), [*Recessure*](#68-recessure)
+* **Related Terms:** [*Blueslip*](#67-blueslip), [*Pocketveto*](#12-pocketveto), [*The stay*](#156-the-stay)
 
 ---
 
@@ -638,8 +648,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Moves the goalpost, never the argument · One straw man, three fallacies · Treats volume as evidence  
 **Counter:** Ask what would settle it, then settle it. The troll needs the argument to continue; the answer is to end it.  
 
-1. A bad-faith debater whose sole tactic is deploying logical fallacies - such as straw men, whataboutism, ad hominem attacks, and moving the goalposts - to derail discussions and frustrate opponents rather than engage with facts.
-2. Someone who treats debate as a game of rhetorical attrition, relying on volume, deflection, and deceptive reasoning to claim victory while avoiding the actual issue.
+1. The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.
+2. It works because a bad argument costs nothing to make and something to answer, so the exchange is won by whoever is willing to spend less.
 
 * **Example:** *"You can't have a productive discussion with a **sophistroll**; the second you disprove his point, he'll pivot to three different straw men and an ad hominem attack."*
 * **Easily confused with:** *Illogician* - The sophistroll knows the fallacy is a fallacy; the illogician believes it.
@@ -657,8 +667,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Confuses confidence with proof · Anecdote over data, always · Debates the definition, not the claim  
 **Counter:** Ask for the best single source and read it together. Research is a task, and a task handed to the audience is not an argument.  
 
-1. A self-styled "rational thinker" or debater who treats broken reasoning as a fine art - deploying a relentless barrage of logical fallacies with the smug confidence of a formal philosopher while completely missing the point.
-2. Someone who mistakes loud, circular, or fallacious arguments for intellectual superiority, using pseudo-academic jargon to disguise the fact that their premise collapses under five seconds of scrutiny.
+1. The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second question.
+2. It works because form is easier to imitate than substance, and an audience that recognises the shape of an argument will often accept it without checking the joints.
 
 * **Example:** *"He spent twenty minutes smugly lecturing the thread about 'facts and logic' while committing four textbook fallacies per paragraph - a true **illogician** at work."*
 * **Easily confused with:** *Trust-Me-Brofessor* - Both skip the evidence; the illogician has a method, the brofessor has a mood.
@@ -694,13 +704,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Credentials never named · One graph, no axis · Cites a guy who cites him  
 **Counter:** Ask for the name, the field, and the paper. Authority is checkable, and the check takes a minute.  
 
-1. An armchair authority with zero credentials, expertise, or verifiable knowledge who lectures others with absolute certainty - yet immediately deflects, stalls, or throws a tantrum the second they are asked to provide a single source, citation, or piece of data.
-2. A self-appointed expert whose entire bibliography consists of half-remembered memes, gut feelings, and the demand that you "do your own research" rather than hold them accountable for proving their own claims.
+1. The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.
+2. It works because credentials are checkable only if somebody asks, and asking is precisely the move the performance is built to make expensive.
 
 * **Example:** *"He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to 'look it up themselves.'"*
 * **Easily confused with:** *Biasographer* - The brofessor names no authority; the biasographer names every authority and discredits each.
 * **Commits:** [*Appeal to authority*](#47-appeal-to-authority), [*Argument from ignorance*](#51-argument-from-ignorance), [*Shifting the burden of proof*](#126-shifting-the-burden-of-proof)
-* **Related Terms:** [*Bleatkeeper*](#30-bleatkeeper), [*Gallopologist*](#32-gallopologist)
+* **Related Terms:** [*Bleatkeeper*](#30-bleatkeeper), [*The translator*](#150-the-translator)
 
 ---
 
@@ -713,8 +723,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Answers proof with a résumé · Curates a bibliography, reads none · Every source is compromised  
 **Counter:** Ask what the claim gets wrong. The source's history can be real and the claim can still be right, and only one of those is on the table.  
 
-1. An arguer who responds to requests for proof by producing a curated bibliography of hyper-partisan blogs, opinion pieces, and unverified fringe outlets - passing off pure ideological spin as rigorous, peer-reviewed truth.
-2. Someone who builds an entire "factual" narrative out of zoomed-in anomalies, cropped charts, and cherry-picked outliers while deliberately ignoring the broader, consensus data sets that dismantle their claim.
+1. The pattern of answering a finding with a bibliography: the source's history produced instead of the claim's evidence.
+2. It works because a source can be flawed and the claim still true, so the move wins whenever nobody separates the two - which is the whole of its business.
 
 * **Example:** *"Don't bother asking him for actual peer-reviewed studies; he's a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy."*
 * **Easily confused with:** *Trust-Me-Brofessor* - The brofessor has no sources; the biasographer has a bibliography he has not read.
@@ -732,8 +742,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Repeats the phrase, not the claim · Never opens the link · Corrects the correction  
 **Counter:** Read the correction aloud, then ask what else they repeated. The phrase is not a reply to a story, and it does not survive being asked about one.  
 
-1. A reality-denier who reflexively bleats "fake news" or "hoax" at overwhelming expert consensus, hard data, and primary evidence - guarding their echo chamber by claiming exclusive access to "what's really going on."
-2. An individual who parrots spoon-fed herd talking points while smugly lecturing the person holding the facts that *they* are too naive or brainwashed to understand the truth.
+1. The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.
+2. It works because a phrase is faster than a document and travels without its context, so repeating it costs nothing and answering it costs a reading.
 
 * **Example:** *"Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as 'fake news' and patronizingly told the researcher to 'wake up and learn how the world actually works.'"*
 * **Easily confused with:** *Algodemic* - The bleatkeeper rejects the report; the algodemic rejects the method behind it, at greater length.
@@ -751,8 +761,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Weighs a fact against a feeling · Finds the middle of a mob · Treats balance as truth  
 **Counter:** Ask which side the evidence is on. Symmetry is a claim about the evidence, not a courtesy owed to the guests.  
 
-1. A pundit who evangelizes false equivalence, treating a documented fact and a fabricated claim as two sides that both deserve equal airtime - converting "both sides" from a reporting standard into a religious commitment.
-2. Someone who experiences moral asymmetry as bad manners, insisting that overwhelming evidence and baseless assertion be seated at the same table so that no conclusion can ever be reached and no one can ever be blamed.
+1. The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.
+2. It works because balance is easy to see and asymmetry is not, so the format can be defended as neutral while it settles the question by refusing to settle it.
 
 * **Example:** *"Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims 'raise real questions' before cutting to commercial."*
 * **Easily confused with:** *Capitulectual* - The equivangelist weighs both sides; the capitulectual gives one away before weighing.
@@ -770,13 +780,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Twelve claims, no sources · Wins by exhausting the clock · Changes the subject before the answer  
 **Counter:** Answer one claim, and name which one. A gallop is a race against the clock; the counter is to stop running it.  
 
-1. A debater who buries an opponent under a firehose of loosely related claims, each one cheap to make and expensive to refute, then declares victory when the clock runs out.
-2. Someone who mistakes the sheer volume of assertions for the strength of an argument, reading an opponent's inability to keep up as an inability to answer.
+1. The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.
+2. It works because the format ends whether or not the argument does, so whoever controls the volume controls what the room remembers - and the room remembers the noise.
 
 * **Example:** *"In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator's time limit 'proof' that he'd won."*
 * **Easily confused with:** *Sophistroll* - The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast.
 * **Commits:** [*Hasty generalization*](#115-hasty-generalization), [*Anecdotal evidence*](#118-anecdotal-evidence), [*Nut-picking*](#56-nut-picking)
-* **Related Terms:** [*JAQing off*](#27-jaqing-off), [*Trust-me-brofessor*](#28-trust-me-brofessor)
+* **Related Terms:** [*The juror*](#151-the-juror), [*Trust-me-brofessor*](#28-trust-me-brofessor)
 
 ---
 
@@ -789,8 +799,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Polite tone, hostile substance · Cites procedure, never the record · Calls anger unprofessional  
 **Counter:** Answer the substance first, then the tone. Civility is a rule for how to disagree, not a reason not to.  
 
-1. Someone who conjures civility and procedure to shut down anger that happens to be correct - insisting on tone, process, and "respectful disagreement" as the only legitimate response to open cruelty.
-2. A moderator by temperament who treats the volume of a protest as a graver offense than the thing being protested, turning decorum into a weapon against the people it excludes.
+1. The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.
+2. It works because civility is a real value and a cheap objection, so it can be raised against any complaint at no cost to the person raising it.
 
 * **Example:** *"The panel spent four minutes on the policy and twenty on whether the audience's booing was 'divisive' - a textbook **decorumancer** performance."*
 * **Easily confused with:** *Equivangelist* - The equivangelist calls it balance; the decorumancer calls it procedure.
@@ -806,6 +816,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** Article comments, video replies, live chats, and the replies under the replies.  
 **Economics:** Engagement: replies, quote-posts, dwell time. Nobody in it is being paid, and everything in it is being monetised.  
 **Signature:** One sentence, no context, and a number next to a username.  
+**Counter:** A moderator with a published policy and a queue slow enough to enforce it. The section is not the problem; the absence of anybody responsible for it is.  
 
 1. The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.
 2. It rewards the reply that travels over the reply that is right. Because the cheapest sentence to write is a verdict, the habitat selects for verdicts - which is why so many of the fallacies filed at the end of this chapter are at home here.
@@ -813,7 +824,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"Four hundred comments under a budget story, and not one of them about the budget - three about the mayor's brother, two hundred about each other, and a bot selling a supplement."*
 * **Easily confused with:** *Cable panel* - The panel is paced and produced; the comment section is feral and asynchronous. Both are venues for the verdict.
 * **Houses:** [*Ad hominem*](#45-ad-hominem), [*Tu quoque*](#120-tu-quoque), [*Whataboutism*](#121-whataboutism), [*Sealioning*](#57-sealioning), [*Nut-picking*](#56-nut-picking), [*Appeal to the stone*](#128-appeal-to-the-stone), [*Vaguebooking*](#36-vaguebooking), [*Receiptbomb*](#37-receiptbomb), [*Motte hop*](#42-motte-hop)
-* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*Group chat*](#90-group-chat)
+* **Related Terms:** [*Patriotainment*](#6-patriotainment), [*Group chat*](#90-group-chat), [*The ombudsman*](#148-the-ombudsman)
 
 ---
 
@@ -1256,8 +1267,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Principles that bend at the wallet · Public austerity, private indulgence · Repents only after the photo  
 **Counter:** Ask what the difference is, and who it protects. The contortion only shows when the same rule is read twice.  
 
-1. A performative moralist capable of twisting their "unshakeable" core principles into a complete 180-degree pretzel the exact second their own side is caught violating them - all without a trace of self-awareness or shame.
-2. An ideological shape-shifter who weaponizes self-righteous outrage against opponents for minor infractions, only to perform Olympic-level mental gymnastics to excuse, praise, or ignore identical behavior from their allies or benefactors.
+1. The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.
+2. It works because most principles are asserted rather than written down, so the exemption never has to be argued - only survived. The tell is not the reversal but the speed.
 
 * **Example:** *"After spending years screaming about 'law and order' and 'treason,' the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump's latest authoritarian threat was 'obviously just a joke.'"*
 * **Easily confused with:** *Martyrholic* - The hypocontortionist bends the principle; the martyrholic weeps about being judged for it.
@@ -1275,8 +1286,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Nostalgic for a decade it cannot date · Sanitized, never sourced · Confuses a monument with a record  
 **Counter:** Ask for the year, the statute, and the source. Nostalgia cannot survive a date.  
 
-1. A nostalgia-poisoned revisionist who worships an imaginary, sanitized "golden age" that never actually existed - aggressively rewriting, censoring, or whitewashing real history to pretend past atrocities, systemic injustices, or national failures were harmless or heroic.
-2. Someone who treats historical fact as an enemy to be erased whenever it threatens their curated fairy tale, replacing documented reality with patriotic folklore to justify repeating the worst mistakes of the past.
+1. The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.
+2. It works because nostalgia is unfalsifiable by default - nobody was there - until somebody produces the year, the statute, and the source.
 
 * **Example:** *"Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism."*
 * **Easily confused with:** *Algodemic* - The mythstorian invents the past; the algodemic invents the study of it.
@@ -1330,8 +1341,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Surrenders before the argument · Prefaces every concession · Finds symmetry where there is none  
 **Counter:** Ask what would be too far. An analysis that cannot name a limit is not analysis; it is a mood with footnotes.  
 
-1. A commentator who surrenders the argument before it is made - softening, hedging, and pre-apologizing for authoritarian moves in advance, then presenting the retreat as sober pragmatism.
-2. Someone whose celebrated "independence" consists entirely of arriving early at the conclusion power wanted, and being thanked for their seriousness.
+1. The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.
+2. It works because the concession is rewarded as seriousness, so the speaker is thanked for arriving early at the conclusion that power wanted.
 
 * **Example:** *"The order hadn't been signed yet and the **capitulectual** already had a column explaining why resistance would be 'counterproductive' and 'unserious.'"*
 * **Easily confused with:** *Equivangelist* - The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity.
@@ -1401,6 +1412,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** A library basement, a folding table, a public-comment card, and a livestream that will be clipped by morning.  
 **Economics:** Unpaid members, a municipal budget, and a national audience. The clip pays better than the seat ever will.  
 **Signature:** Three minutes at the microphone, a parent who has never spoken publicly before, and a camera that is not local.  
+**Counter:** A packet published before the meeting and public comment that is properly noticed. The meeting is already the remedy - it stops being one when the paperwork arrives after the vote.  
 
 1. The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while the country watches the clip.
 2. It works because the stakes are real and the audience is not. A curriculum vote can be swung by people who will never send a child to the school, and the members who live there have to sit through it, in public, on a Tuesday.
@@ -1463,7 +1475,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"He signed the oversight bill with a **signaway** attached, and the agency read the note instead of the statute."*
 * **Easily confused with:** *Pocketveto* - The pocketveto kills the bill; the signaway keeps the bill and kills the part of it he dislikes.
 * **Commits:** [*Special pleading*](#78-special-pleading), [*Equivocation*](#119-equivocation)
-* **Related Terms:** [*Subpoenado*](#63-subpoenado), [*Omnibust*](#10-omnibust), [*Recessure*](#68-recessure)
+* **Related Terms:** [*Subpoenado*](#63-subpoenado), [*Omnibust*](#10-omnibust), [*Notice and comment*](#153-notice-and-comment)
 
 ---
 
@@ -1699,13 +1711,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Manufactures the threat, then fears it · Recycles an older panic · Numbers never sourced  
 **Counter:** Ask for the number and the year. A panic that cannot produce a denominator is a rumour with a map.  
 
-1. An individual who manufactures, exaggerates, or recycles racialized conspiracy theories to blame immigrants or minority communities for complex systemic issues, economic strain, or public program failures.
-2. A fearmonger who relies on scapegoating outsiders - such as claiming a small local immigrant population is single-handedly bankrupting massive state or federal programs - to distract from real policy failures and stoke public resentment.
+1. The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest arrivals.
+2. It works because a scapegoat supplies a cause where the real one is diffuse - and a denominator is the one thing a panic never volunteers.
 
 * **Example:** *"Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program."*
 * **Easily confused with:** *Dramagogue* - The xenophobricator needs a specific outsider; the dramagogue only needs a crowd.
 * **Commits:** [*Hasty generalization*](#115-hasty-generalization), [*Association fallacy*](#109-association-fallacy), [*Appeal to motive*](#110-appeal-to-motive)
-* **Related Terms:** [*Ragesturbationist*](#84-ragesturbationist), [*Illogician*](#26-illogician)
+* **Related Terms:** [*Ragesturbationist*](#84-ragesturbationist), [*The statistician*](#152-the-statistician)
 
 ---
 
@@ -1718,13 +1730,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Theatrical, never specific · Apocalypse on a schedule · Sells the cure  
 **Counter:** Ask for one verifiable thing: a name, a date, a document. An apocalypse on a schedule never survives a specific question.  
 
-1. A theatrical fearmonger who whips up hysteria, outrage, and existential panic - often targeting minority faiths, immigrants, or out-groups as dangerous "extremists" - while aggressively pushing their own dogma or agenda without a shred of self-awareness.
-2. Someone who relies on manufactured crisis, melodrama, and scapegoating to rally followers and demand special privileges, treating basic constitutional protections like freedom of religion as a one-way street meant exclusively for them.
+1. The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.
+2. It works because fear is the cheapest way to hold attention, and an emergency is the fastest route to powers that would otherwise need an argument.
 
 * **Example:** *"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior."*
 * **Easily confused with:** *Ragesturbationist* - The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it.
 * **Commits:** [*Appeal to fear*](#106-appeal-to-fear), [*Appeal to consequences*](#114-appeal-to-consequences)
-* **Related Terms:** [*Xenophobricator*](#82-xenophobricator), [*Martyrholic*](#85-martyrholic)
+* **Related Terms:** [*Xenophobricator*](#82-xenophobricator), [*Martyrholic*](#85-martyrholic), [*The public defender*](#149-the-public-defender)
 
 ---
 
@@ -1737,8 +1749,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Outrage as a business model · Never satisfied, always fed · Monetizes the wound  
 **Counter:** Ask what the anger is for. Outrage that cannot name a remedy is a product, not a politics.  
 
-1. An outrage grifter who endlessly strokes public fury, paranoia, and grievance - not to solve a single real-world problem, but purely for self-gratification, algorithmic clout, engagement metrics, and cash.
-2. A cynical commentator or influencer addicted to the dopamine hit and financial payout of manufacturing hysteria, leaving their audience radicalized and society fractured while they cash the checks in private.
+1. The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.
+2. It works because outrage travels further than explanation and needs no conclusion - so the one thing it must never supply is the thing that would end it.
 
 * **Example:** *"He has zero intention of fixing the issue he screams about every night; he's a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities."*
 * **Easily confused with:** *Dramagogue* - The dramagogue wants your fear; the ragesturbationist wants your feed.
@@ -1756,13 +1768,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Persecuted by a policy they wrote · Suffers loudly, profits quietly · Never the aggressor in their own story  
 **Counter:** Name the act, not the person, and refuse to argue about who suffers more. Suffering is not a rebuttal.  
 
-1. An individual pathologically addicted to perpetual victimhood, who treats every marginalized group, cultural shift, or political buzzword - from immigrants and trans people to public education and "socialism" - as an active, personal attack against them.
-2. Someone who experiences genuine peace or security as withdrawal, constantly cycling through new imaginary boogeymen to nail themselves to a self-built cross and justify their hostility toward others.
+1. The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.
+2. It works because suffering cannot be measured in public, so the argument is moved to ground where no evidence can be produced - and the criticism is left unanswered while it is being deplored.
 
 * **Example:** *"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior."*
 * **Easily confused with:** *Plutomartyr* - Both suffer in public; the martyrholic has no jet.
 * **Commits:** [*Anecdotal evidence*](#118-anecdotal-evidence), [*Appeal to emotion*](#105-appeal-to-emotion), [*Appeal to pity*](#111-appeal-to-pity)
-* **Related Terms:** [*Dramagogue*](#83-dramagogue), [*Sabotriot*](#5-sabotriot)
+* **Related Terms:** [*Dramagogue*](#83-dramagogue), [*Cross-examination*](#155-cross-examination)
 
 ---
 
@@ -1775,8 +1787,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** A chart with no axis · One study, no authors · Cites a preprint that does not exist  
 **Counter:** Ask for the axis, the sample, and where the number came from. A chart that cannot produce them is a poster, not a finding.  
 
-1. A self-styled "independent researcher" and conspiracy theorist whose entire worldview is assembled from Facebook memes, fringe podcasts, and YouTube rabbit holes - connecting unrelated dots into a grand cabal while remaining completely oblivious to the fact that they are an easy mark being farmed by engagement algorithms and grifters.
-2. An individual who mistakes algorithmic radicalization for secret enlightenment, treating the total absence of real-world evidence as proof of how deep the cover-up goes.
+1. The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.
+2. It works because recommendation systems are optimised for the next click rather than the last fact, so a curiosity can be walked - one suggestion at a time - into a cosmology.
 
 * **Example:** *"Bragging that he 'escaped the matrix' while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**."*
 * **Easily confused with:** *Bleatkeeper* - The bleatkeeper trusts nothing; the algodemic trusts one chart he cannot read.
@@ -1794,8 +1806,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Wealth worn as hardship · Persecution with a legal team · Suffers in a private jet  
 **Counter:** Ask what is being taken, and by whom. Hardship with a legal team is a negotiating position.  
 
-1. A billionaire, celebrity, or legacy institution that recasts ordinary accountability - a subpoena, a fact-check, a declined invitation - as persecution, converting enormous advantage into a victim narrative.
-2. Someone insulated from every consequence except embarrassment, who treats that embarrassment as the gravest injustice in public life.
+1. The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the speaker.
+2. It works because the powerful are rarely inconvenienced, so any inconvenience reads as extraordinary - and a grievance is the cheapest available evidence of virtue.
 
 * **Example:** *"A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**."*
 * **Easily confused with:** *Martyrholic* - The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate.
@@ -1813,8 +1825,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Volume over verification · Written by no one, read by millions · Corrections never issued  
 **Counter:** Ask who wrote it and who would correct it. A byline and a corrections policy are the two things slop cannot fake for long.  
 
-1. An operator who mass-produces synthetic outrage - AI-written screeds, generated mugshots, bot-farmed replies - flooding the zone faster than any fact-checker can respond.
-2. Someone who no longer needs a coherent ideology, only a reliable pipeline: outrage in, engagement out, truth an irrelevant byproduct of the machinery.
+1. The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was accountable for the piece.
+2. It works because volume beats verification on a time budget - a fact-checker answers one item while the pipeline ships twenty - so the race is lost before it is run.
 
 * **Example:** *"Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn't believe the story, he just ships it."*
 * **Easily confused with:** *Algodemic* - The algodemic believes the nonsense; the slopagandist bills for it.
@@ -1830,6 +1842,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** The 8pm segment, the Sunday show, the podcast studio with four microphones and no clock.  
 **Economics:** Ad rates, and a book deal for whoever shouts the most quotable thing.  
 **Signature:** Four people, one topic, and a countdown to the break.  
+**Counter:** The transcript, read the next morning. The format is built for the moment it airs; the transcript is built for the day after.  
 
 1. A produced argument: a fixed panel, a fixed clock, and a topic chosen for heat rather than for answerability.
 2. It rewards the claim that fits before the break. A false claim costs nothing inside ninety seconds and an answer costs most of them, so the format systematically favours the gallop over the reply.
@@ -1848,6 +1861,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** The family thread, the neighbours' thread, the school parents' thread, and the one with the uncle.  
 **Economics:** Free, which is why it is where the forward lives and the correction never arrives.  
 **Signature:** A screenshot, a forward, and no link.  
+**Counter:** The screenshot, sent to the whole chat. A group where nothing can be quoted is a group where a rumour can live indefinitely.  
 
 1. A private, high-trust, low-correction forum - the room where a claim arrives from someone you love and is therefore not audited.
 2. It exploits trust rather than speed. Nobody fact-checks their aunt, so the habitat runs almost entirely on Appeals to Authority and Pity, and the correction that would fix it never gets forwarded.
@@ -1920,6 +1934,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** An infinite scroll, a recommendation model, a phone at two in the morning, and the sixty seconds after a strong emotion.  
 **Economics:** Attention sold forward. The audience is the inventory, and the inventory is priced by how much of it can be held.  
 **Signature:** The next item is already loaded, and it is angrier than the last one.  
+**Counter:** A subscription and a saved list: a feed you chose, read at an hour you chose. The algorithm is a default, and defaults can be changed in a settings screen.  
 
 1. The habitat that chooses its own inhabitants: a place with no address, no closing time, and an editor that is a model trained on what you paused on.
 2. It works because it is not a venue but a selection pressure. Nothing in the feed has to be true, or even popular in general; it only has to keep one person on the page, and the person most likely to stay is the one who has just been made angry.
@@ -1938,6 +1953,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** Hotel ballrooms, county dinners, a head table, a cash bar, and a photographer who has done this before.  
 **Economics:** Per-plate donations, a photo line, and a speaking fee that is really a transfer with a receipt.  
 **Signature:** A joke about the local team, a story about a diner, and a policy nobody will mention again after dessert.  
+**Counter:** One unscripted question from the floor, and the answer written down before the plates are cleared.  
 
 1. The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch.
 2. It works because access is the product. Nobody buys a chicken dinner for the chicken; they buy four minutes at the head table, and the receipt is written off as a political contribution.
@@ -1974,6 +1990,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** A podium, a flag, a bank of cameras, and a seating chart that decides who gets the second question.  
 **Economics:** Public salary, private ratings: the briefing is free to produce and pays the network in clips.  
 **Signature:** 'I'll circle back to you on that' - and the next question goes to the front row.  
+**Counter:** The records request. The room speaks in documents, and the documents outlast the room.  
 
 1. The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras neither side controls.
 2. It works because access is the currency on both sides. The reporter needs the room for a quote, the podium needs the room for a clip, and neither can afford to say the questions are not being answered - so the ritual repeats, and the record shows that a press conference happened.
@@ -1993,6 +2010,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** A hotel ballroom behind the stage, a folding table per campaign, and a camera crew that has to file in twenty minutes.  
 **Economics:** Free airtime for whichever table talks first, paid for by a debate the network had already sold.  
 **Signature:** A surrogate declaring victory before the closing statements are over, and a 'what the American people heard tonight' that nobody heard.  
+**Counter:** The written reason, published after the spin. The spin room is where a decision is explained; the reason is where it is checked.  
 
 1. The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning's story.
 2. It works because the first interpretation usually wins. Viewers form a verdict in minutes and reporters file in minutes, so the campaign that names the story first sets the frame the rest of the coverage has to argue with.
@@ -2012,6 +2030,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** An arena, a rope line, a sound system rented by the hour, and a crowd that arrived in a convoy.  
 **Economics:** Tickets are free, the merchandise is not, and the footage is worth more than the venue.  
 **Signature:** A chant the crowd already knows, a pause to let them say it, and a crowd estimate disputed by two police departments.  
+**Counter:** The transcript and the roll, read in the same week: what was said, and what was voted. The chant is the offer; the vote is the receipt.  
 
 1. The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back.
 2. It works because a crowd is evidence. Attendance gets reported as support, the chant gets reported as a position, and the room's enthusiasm becomes a data point in coverage that has no way to count the people who stayed home.
@@ -2049,6 +2068,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** A ribbon, a hard hat, a backdrop of people who work there, and a press release timestamped before the event.  
 **Economics:** Cheap to stage, free to air, and repeatable - the same ribbon can be cut in nine districts.  
 **Signature:** The announcement of the thing instead of the thing, timed for the evening bulletin.  
+**Counter:** Ask what would have happened if nobody had been invited. A pseudo-event is scheduled in order to be reported, so the question is what remains when the coverage stops.  
 
 1. An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement.
 2. It works because coverage is the deliverable. A pseudo-event costs almost nothing to stage, produces a clip on schedule and can be repeated - which is why it crowds out the events that happen on their own timetable.
@@ -2068,6 +2088,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Carriers:** A courthouse sidewalk, a pair of handcuffs, a jacket over the cuffs, and a defendant who has not been convicted of anything.  
 **Economics:** Free footage for the broadcaster, a verdict for the audience, and no budget line at all.  
 **Signature:** A defendant escorted slowly past a camera that was told what time to be there.  
+**Counter:** The presumption, printed at the same size as the photograph. The walk is a picture; the trial is a record.  
 
 1. The staged walk: a suspect moved past cameras at the pace of the photographer, in restraints, before a jury has been chosen.
 2. It works because an image of custody is read as evidence of guilt. The walk costs the state nothing, requires no finding, and cannot be retracted by an acquittal - the picture outlives the verdict.
@@ -2094,7 +2115,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour."*
 * **Easily confused with:** *Briefing room* - The briefing room is where access is performed; access is what you still have when the room is empty.
 * **Commits:** [*Appeal to authority*](#47-appeal-to-authority)
-* **Related Terms:** [*Bluecheck*](#91-bluecheck), [*Comment section*](#34-comment-section), [*Spin room*](#98-spin-room)
+* **Related Terms:** [*Recusal*](#154-recusal), [*Comment section*](#34-comment-section), [*Spin room*](#98-spin-room)
 
 ---
 
@@ -2750,7 +2771,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website."*
 * **Easily confused with:** *The transcript* - The request gets the document the body already wrote; the transcript makes a document out of what it said.
-* **Counters:** [*Bleatkeeper*](#30-bleatkeeper)
+* **Counters:** [*Bleatkeeper*](#30-bleatkeeper), [*Briefing room*](#97-briefing-room)
 * **Related Terms:** [*The clerk*](#129-the-clerk), [*The audit*](#144-the-audit)
 
 ---
@@ -2769,7 +2790,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional."*
 * **Easily confused with:** *Records request* - The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.
-* **Counters:** [*Vaguebooking*](#36-vaguebooking)
+* **Counters:** [*Vaguebooking*](#36-vaguebooking), [*Cable panel*](#89-cable-panel)
 * **Related Terms:** [*The archivist*](#131-the-archivist), [*The second source*](#140-the-second-source)
 
 ---
@@ -2788,7 +2809,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead."*
 * **Easily confused with:** *The second source* - Lateral reading checks a claim against the world; the second source is the world agreeing to go on the record.
-* **Counters:** [*Algodemic*](#86-algodemic)
+* **Counters:** [*Algodemic*](#86-algodemic), [*The Feed*](#94-the-feed)
 * **Related Terms:** [*The librarian*](#132-the-librarian), [*The steelman*](#141-the-steelman)
 
 ---
@@ -2845,7 +2866,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted."*
 * **Easily confused with:** *The audit* - The count is watched while it happens; the audit checks it afterwards, on a sample.
-* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen)
+* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen), [*Rally*](#99-rally)
 * **Related Terms:** [*The poll worker*](#130-the-poll-worker), [*Records request*](#137-records-request)
 
 ---
@@ -2864,7 +2885,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it."*
 * **Easily confused with:** *The transcript* - The transcript records what was said; the written reason records why it was decided.
-* **Counters:** [*Nonpology*](#65-nonpology)
+* **Counters:** [*Nonpology*](#65-nonpology), [*Spin room*](#98-spin-room)
 * **Related Terms:** [*The caseworker*](#133-the-caseworker), [*The audit*](#144-the-audit)
 
 ---
@@ -2945,6 +2966,182 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ---
 
+### 148. The ombudsman
+*(noun)* `/ˈɒm.bʊdz.mən/` - *keystone*  
+*Swedish, 1809: the office the Riksdag invented so a citizen could complain about the state to somebody with the power to read the file.*
+
+**Office:** The complaint, the file, and the duty to answer in writing.  
+**Call:** "Tell me what happened, in order."  
+**Tell:** Reads the file the department hoped nobody would read · Answers the complainant, not just the department · Publishes the case with the name removed  
+**Keystone:** Without the office, a complaint has nowhere to go but the feed, where it becomes a story instead of a case. The comment section is what an institution gets when it refuses to build one of these.  
+
+1. The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what went wrong. The office is old, cheap and structurally boring, which is most of why it works.
+2. It works because it gives a grievance a destination short of a lawsuit. Most people who have been treated badly do not want damages; they want somebody with authority to read the file and admit what it says - and an institution that offers nothing else will be discussed in public instead.
+
+* **Example:** *"The **ombudsman** read the refusal letter, found the assessment it had relied on, and published the four sentences the department had left out of its own summary."*
+* **Easily confused with:** *The caseworker* - The caseworker decides the case; the ombudsman investigates the decision.
+* **Counters:** [*Comment section*](#34-comment-section)
+* **Practises:** [*The written reason*](#143-the-written-reason)
+* **Related Terms:** [*The written reason*](#143-the-written-reason), [*Comment section*](#34-comment-section)
+
+---
+
+### 149. The public defender
+*(noun)* `/ˌpʌb.lɪk dɪˈfen.də/` - *keystone*  
+*English: counsel paid by the state to defend people who cannot pay for counsel - a right that exists because a trial without a defence is a formality.*
+
+**Office:** The case file, the bail hearing, and the hour before the arraignment.  
+**Call:** "Don't talk to anyone until I get there."  
+**Tell:** Knows the docket better than the prosecutor does · Asks for the bail hearing nobody scheduled · Says 'we will take it to trial' and means it  
+**Keystone:** Without counsel the right to a defence is a form, and every claim about the system being fair is unfalsifiable. The Dramagogue needs an undefended defendant to make a case sound like a verdict.  
+
+1. The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole story - a defender carrying two hundred files cannot investigate any of them.
+2. It works because the state has to prove its case to somebody whose job is to make it try. A defence that is funded, resourced and allowed to investigate is the difference between a plea bargain and a verdict.
+
+* **Example:** *"The **public defender** had the file for eleven minutes, asked for the body-camera footage, and the charge was withdrawn before the second hearing."*
+* **Easily confused with:** *The juror* - The defender argues the case; the juror decides it, and neither can do the other's job.
+* **Counters:** [*Dramagogue*](#83-dramagogue)
+* **Practises:** [*Cross-examination*](#155-cross-examination)
+* **Related Terms:** [*Dramagogue*](#83-dramagogue), [*Cross-examination*](#155-cross-examination)
+
+---
+
+### 150. The translator
+*(noun)* `/trænzˈleɪ.tə/` - *keystone*  
+*From the Latin transferre, to carry across - in public administration, the trade of carrying a rule across the gap between the office and the person it governs.*
+
+**Office:** The plain sentence, the rewritten form, and the difference between a notice and a notice nobody can read.  
+**Call:** "Say that again, without the acronym."  
+**Tell:** Rewrites the form, not the rule · Tests the wording on the person it is for · Keeps the meaning when the words change  
+**Keystone:** Without plain language, a right that exists on paper is a right only the literate can use, which is the quietest way to keep a franchise small. Jargon is not an accident of drafting; it is a filter.  
+
+1. The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice that says what happens next instead of citing the section that says it.
+2. It works because comprehension is a distribution problem. A rule that only a lawyer can parse has not been published, it has been filed - and the test of a notice is not whether it is accurate but whether the person holding it knows what to do on Monday.
+
+* **Example:** *"The form had been rewritten by the **translator**, and the number of people who missed the deadline because they could not tell it was a deadline fell by half."*
+* **Easily confused with:** *The librarian* - The librarian finds the source; the translator makes it usable by somebody who did not write it.
+* **Counters:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor)
+* **Practises:** [*The written reason*](#143-the-written-reason)
+* **Related Terms:** [*Trust-Me-Brofessor*](#28-trust-me-brofessor), [*The written reason*](#143-the-written-reason)
+
+---
+
+### 151. The juror
+*(noun)* `/ˈdʒʊə.rə/` - *keystone*  
+*From the Latin iurare, to swear - twelve people who did not ask for the job, sworn to decide on the evidence and nothing else.*
+
+**Office:** The instruction, the deliberation, and the requirement that twelve people agree.  
+**Call:** "Show us the document."  
+**Tell:** Asks the question the lawyers avoided · Reads the instruction twice · Refuses to vote before the evidence is on the table  
+**Keystone:** Without the jury the trial is a negotiation between professionals and the Gallopologist's clock decides. Deliberation is the one format where the volume of claims buys nothing, because everybody in the room has the same amount of time.  
+
+1. The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened. It is the only public duty that requires a person to weigh evidence rather than repeat a conclusion.
+2. It works because a verdict has to be unanimous and is explained to nobody. The requirement forces the argument to continue past the point where a broadcast would have moved on - and the instruction, read aloud, is the closest thing the system has to a published standard of proof.
+
+* **Example:** *"The **juror** asked for the transcript of the first interview, and the answer that had been quoted all week turned out to be a sentence about somebody else."*
+* **Easily confused with:** *The auditor* - The juror decides one case on the evidence; the auditor examines many on a sample.
+* **Counters:** [*Gallopologist*](#32-gallopologist)
+* **Practises:** [*The steelman*](#141-the-steelman)
+* **Related Terms:** [*Gallopologist*](#32-gallopologist), [*The steelman*](#141-the-steelman), [*The public defender*](#149-the-public-defender)
+
+---
+
+### 152. The statistician
+*(noun)* `/ˌstæt.ɪˈstɪʃ.ən/` - *keystone*  
+*From the German Statistik, the science of the state - the discipline invented to describe a population that could not be counted by hand.*
+
+**Office:** The denominator, the sampling frame, and the caveat printed next to the number.  
+**Call:** "Out of how many?"  
+**Tell:** Publishes the method before the figure · States the margin without being asked · Corrects the series when the frame was wrong  
+**Keystone:** Without the office there is no denominator, and a panic about a number nobody can size is unanswerable by argument. The Xenophobricator is not defeated by a feeling; it is defeated by a rate per hundred thousand.  
+
+1. The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion about the number; it is to publish how the number was made so that anyone can argue with the method.
+2. It works because a rate is checkable and an anecdote is not. The moment a claim acquires a denominator it can be tested, replicated or refuted - which is why the first move against an unwelcome figure is always to attack the sample rather than the arithmetic.
+
+* **Example:** *"The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade."*
+* **Easily confused with:** *The auditor* - The auditor checks the books; the statistician checks the number everybody is quoting from them.
+* **Counters:** [*Xenophobricator*](#82-xenophobricator)
+* **Practises:** [*The audit*](#144-the-audit)
+* **Related Terms:** [*Xenophobricator*](#82-xenophobricator), [*The audit*](#144-the-audit)
+
+---
+
+### 153. Notice and comment
+*(noun)* `/ˈnəʊ.tɪs ənd ˈkɒm.ent/` - *remedy*  
+*American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.*
+
+**Effect:** Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.  
+**Costs:** Sixty days, a docket to read, and a comment that engages with the text rather than the mood.  
+**Failure mode:** The comment period that is technically open, and the final rule identical to the draft with the comments answered in a paragraph.  
+**Tell:** A docket number · A response to comments · A difference between the proposed and the final text  
+
+1. The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state's version of a hearing, and it governs thousands of decisions a year that no camera ever covers.
+2. It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles.
+
+* **Example:** *"The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned."*
+* **Easily confused with:** *School board meeting* - The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.
+* **Counters:** [*Signaway*](#69-signaway), [*School board meeting*](#66-school-board-meeting)
+* **Related Terms:** [*Signaway*](#69-signaway), [*The written reason*](#143-the-written-reason)
+
+---
+
+### 154. Recusal
+*(noun)* `/rɪˈkjuː.zəl/` - *remedy*  
+*From the Latin recusare, to refuse - the judge who declines the case because the case is, in some way, theirs.*
+
+**Effect:** Removes the decider from the decision where they have an interest, and puts the reason for stepping back on the record.  
+**Costs:** The appearance of guilt, the delay, and the loss of the one person who knows the file.  
+**Failure mode:** The recusal announced and quietly reversed, and the modified participation that keeps the vote without the title.  
+**Tell:** A written reason for stepping back · A substitute who actually decides · No contact with the parties while it is pending  
+
+1. The rule that a person with a financial interest, a family tie, or a prior role in the matter steps out of it - and says so in writing, so the step is checkable rather than gallant.
+2. It works because influence is cheapest when it is invisible. A gift, a friendship or a former employer does not have to change a decision in order to change how the decision looks; recusal removes the question instead of answering it, which is the point.
+
+* **Example:** *"The **recusal** was filed on a Friday, the substitute read the record cold, and the contract drafted for one signature went out to tender."*
+* **Easily confused with:** *Access* - Access buys the meeting; recusal takes the decider out of it.
+* **Counters:** [*Access*](#103-access)
+* **Related Terms:** [*The written reason*](#143-the-written-reason), [*Random draw*](#145-random-draw)
+
+---
+
+### 155. Cross-examination
+*(noun)* `/ˌkrɒs ɪɡˌzæm.ɪˈneɪ.ʃən/` - *remedy*  
+*English legal usage: the questioning of a witness by the side that did not call them - the only part of a hearing designed to find out whether the story survives contact.*
+
+**Effect:** Makes the claim answerable, under oath, to somebody paid to test it - and puts the answers in a transcript.  
+**Costs:** A deposition, a transcript, and the risk that your own witness fares worse under the same treatment.  
+**Failure mode:** The objection sustained, and the time limit that arrives before the point does.  
+**Tell:** A question the witness cannot dodge · A transcript of the answer · A claim that changes under pressure  
+
+1. The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given rather than a theme restated.
+2. It works because it is the one procedure that makes a claim cost something at the moment it is made. A statement in a hearing can be a performance; the same statement under cross-examination has to survive being interrupted, dated, and read back.
+
+* **Example:** *"Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version."*
+* **Easily confused with:** *The steelman* - The steelman strengthens the other side's argument; cross-examination finds out whether it holds.
+* **Counters:** [*Martyrholic*](#85-martyrholic)
+* **Related Terms:** [*Martyrholic*](#85-martyrholic), [*The transcript*](#138-the-transcript)
+
+---
+
+### 156. The stay
+*(noun)* `/ðə steɪ/` - *remedy*  
+*From the Old French ester, to stand - the order that makes a thing stand still while it is argued about.*
+
+**Effect:** Stops the thing from happening while it is being argued about, and puts the status quo back where it was.  
+**Costs:** A motion, a bond, and a judge willing to be the one who halted it.  
+**Failure mode:** The stay that expires quietly, and the harm ruled not irreparable because it has already happened.  
+**Tell:** An order with a date on it · A bond that makes delay expensive · A status quo that actually holds  
+
+1. The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent of a hand on the arm, granted or refused by a judge who has to say why.
+2. It works because it changes who bears the risk of the delay. Without a stay the challenger loses by default - the thing is done before the argument is heard - so the remedy is not the ruling, it is the preservation of the possibility of one.
+
+* **Example:** *"The **stay** came through at four in the afternoon, the demolition crew stood down, and the hearing that followed was about the building instead of about the rubble."*
+* **Easily confused with:** *Nightdocket* - The night docket moves while nobody is watching; the stay is the thing that makes it wait until somebody is.
+* **Counters:** [*Nightdocket*](#13-nightdocket)
+* **Related Terms:** [*The written reason*](#143-the-written-reason), [*The audit*](#144-the-audit)
+
+---
+
 ## Index
 
 - [Access](#103-access)
@@ -2988,6 +3185,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Crisisglow](#92-crisisglow)
 - [Cronycle](#64-cronycle)
 - [Crookmaxxing](#61-crookmaxxing)
+- [Cross-examination](#155-cross-examination)
 - [Dead cat](#38-dead-cat)
 - [Decorumancer](#33-decorumancer)
 - [Discharge petition](#17-discharge-petition)
@@ -3031,6 +3229,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Nightdocket](#13-nightdocket)
 - [No true Scotsman](#19-no-true-scotsman)
 - [Nonpology](#65-nonpology)
+- [Notice and comment](#153-notice-and-comment)
 - [Nut-picking](#56-nut-picking)
 - [Omnibust](#10-omnibust)
 - [Patriotainer](#7-patriotainer)
@@ -3051,6 +3250,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Receiptbomb](#37-receiptbomb)
 - [Recessure](#68-recessure)
 - [Records request](#137-records-request)
+- [Recusal](#154-recusal)
 - [Rubber chicken circuit](#95-rubber-chicken-circuit)
 - [Sabotriot](#5-sabotriot)
 - [School board meeting](#66-school-board-meeting)
@@ -3077,13 +3277,19 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [The clerk](#129-the-clerk)
 - [The editor](#134-the-editor)
 - [The Feed](#94-the-feed)
+- [The juror](#151-the-juror)
 - [The librarian](#132-the-librarian)
 - [The moderator](#135-the-moderator)
+- [The ombudsman](#148-the-ombudsman)
 - [The poll worker](#130-the-poll-worker)
 - [The public count](#142-the-public-count)
+- [The public defender](#149-the-public-defender)
 - [The second source](#140-the-second-source)
+- [The statistician](#152-the-statistician)
+- [The stay](#156-the-stay)
 - [The steelman](#141-the-steelman)
 - [The transcript](#138-the-transcript)
+- [The translator](#150-the-translator)
 - [The written reason](#143-the-written-reason)
 - [Thought-terminating cliché](#124-thought-terminating-cliche)
 - [Tone policing](#52-tone-policing)

@@ -60,5 +60,6 @@
     "impact": 5,
     "abuse": 5,
     "blowback": 3
-  }
+  },
+  "counter": "A subscription and a saved list: a feed you chose, read at an hour you chose. The algorithm is a default, and defaults can be changed in a settings screen."
 }

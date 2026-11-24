@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Nonpology"
+    },
+    {
+      "rel": "counters",
+      "to": "Spin room"
     }
   ],
   "sort": {

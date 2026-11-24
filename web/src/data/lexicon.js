@@ -13,7 +13,7 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 147,
+  "entries": 156,
   "coinages": 78,
   "fallacies": 50,
   "chapters": 6,
@@ -24,8 +24,8 @@ export const stats = {
     "habitat": 12,
     "buff": 11,
     "fallacy": 50,
-    "remedy": 11,
-    "keystone": 8
+    "remedy": 15,
+    "keystone": 13
   }
 }
 
@@ -148,7 +148,7 @@ export const kinds = {
     "plural": "Habitats",
     "path": "/habitats/",
     "voice": "signature",
-    "blurb": "The place a creature is found and fed - the show, the rally, the forum. Broadcast or physical, it is where the performance has a home.",
+    "blurb": "The place a creature is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
     "identification": [
       {
         "key": "carriers",
@@ -163,6 +163,11 @@ export const kinds = {
       {
         "key": "signature",
         "label": "Signature",
+        "type": "text"
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
         "type": "text"
       }
     ],
@@ -498,7 +503,16 @@ export const chapters = [
       "the-audit",
       "random-draw",
       "fee-shift",
-      "sunset-clause"
+      "sunset-clause",
+      "the-ombudsman",
+      "the-public-defender",
+      "the-translator",
+      "the-juror",
+      "the-statistician",
+      "notice-and-comment",
+      "recusal",
+      "cross-examination",
+      "the-stay"
     ]
   }
 ]
@@ -554,13 +568,13 @@ export const entries = [
     ],
     "voice": "“Do you support the troops?”",
     "senses": [
-      "A U.S. citizen who performs shallow, theatrical displays of nationalism - such as wearing flag-themed apparel or using patriotic slogans - while actively undermining democratic norms, community well-being, or the rule of law.",
-      "An individual who adopts the aesthetics and rhetoric of love for their country as a shield or justification to engage in divisive, harmful, or anti-social behavior against fellow citizens."
+      "The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.",
+      "It works because symbols are cheap and legible while obligations are slow and unphotogenic, so the display can carry a loyalty the conduct would otherwise have to earn."
     ],
     "notes": [],
     "example": "“He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.”",
     "cite": null,
-    "summary": "A U.S. citizen who performs shallow, theatrical displays of nationalism - such as wearing flag-themed apparel or using patriotic slogans - while...",
+    "summary": "The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.",
     "confusedWith": [
       {
         "term": "LARPtarian",
@@ -678,8 +692,8 @@ export const entries = [
     ],
     "voice": "“It’s a free country.”",
     "senses": [
-      "An individual whose grasp of genuine liberty is hindered or stunted by ideological bias, partisan agendas, or self-interest - leading them to mistake reckless, anti-social, or harmful behavior for the exercise of freedom.",
-      "A person who invokes a distorted, one-sided view of personal rights to justify actions that undermine public safety, civic duty, or the well-being of society."
+      "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
+      "It works because rights are real and specific, so a claim that sounds like one is hard to refuse in public - and the specificity only appears when somebody asks which clause."
     ],
     "notes": [
       {
@@ -689,7 +703,7 @@ export const entries = [
     ],
     "example": "“Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right.”",
     "cite": null,
-    "summary": "An individual whose grasp of genuine liberty is hindered or stunted by ideological bias, partisan agendas, or self-interest - leading them to mistake...",
+    "summary": "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
     "confusedWith": [
       {
         "term": "Sovereign Shillizen",
@@ -778,13 +792,13 @@ export const entries = [
     ],
     "voice": "“I could live off the grid tomorrow.”",
     "senses": [
-      "An individual who role-plays as a rugged, self-reliant rebel or oppressed freedom fighter while actively relying on - and taking for granted - the laws, infrastructure, and safety nets of a stable society.",
-      "Someone who adopts the rhetoric of radical individualism and anti-government defiance as a theatrical identity, without facing any real tyranny or sacrificing the comforts of modern civic life."
+      "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
+      "It works because the costume is legible and the dependency is invisible, and nobody audits the third day of a fantasy."
     ],
     "notes": [],
     "example": "“Posting about ‘living off the grid’ from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior.”",
     "cite": null,
-    "summary": "An individual who role-plays as a rugged, self-reliant rebel or oppressed freedom fighter while actively relying on - and taking for granted - the...",
+    "summary": "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
     "confusedWith": [
       {
         "term": "Playtriot",
@@ -885,13 +899,13 @@ export const entries = [
     ],
     "voice": "“I do not consent.”",
     "senses": [
-      "An individual who promotes, sells, or hides behind pseudo-legal “sovereign citizen” theories to evade taxes, licensing, or basic civic accountability - often profiting from or encouraging others to adopt the same self-serving legal fictions.",
-      "Someone who selectively rejects the authority of the law and the responsibilities of citizenship while actively benefiting from public infrastructure, legal protections, and societal stability."
+      "The pattern of declining a legal obligation by asserting a law that does not exist: the form unsigned, the fee unpaid, the statute quoted from nowhere.",
+      "It works because the counter is a queue and a deadline rather than an argument - and the queue is where the claim either meets a text or meets a closing time."
     ],
     "notes": [],
     "example": "“After getting pulled over with fake license plates, the **sovereign shillizen** tried to hand the officer a ‘fee schedule’ he bought from an online guru.”",
     "cite": null,
-    "summary": "An individual who promotes, sells, or hides behind pseudo-legal “sovereign citizen” theories to evade taxes, licensing, or basic civic accountability...",
+    "summary": "The pattern of declining a legal obligation by asserting a law that does not exist: the form unsigned, the fee unpaid, the statute quoted from...",
     "confusedWith": [
       {
         "term": "Freetard",
@@ -1007,13 +1021,13 @@ export const entries = [
     ],
     "voice": "“I voted for the guy who’ll cut it.”",
     "senses": [
-      "An empathy-devoid spite-voter who actively undermines their own healthcare, wages, public infrastructure, and community well-being - all while waving a flag - purely for the satisfaction of believing it will hurt the fellow citizens they hate.",
-      "Someone who treats self-destruction as a civic virtue, eagerly burning down the very institutions and safety nets their own family relies on just to “own” political rivals and watch their neighbors suffer."
+      "The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.",
+      "It works because a vote is private and a closure is public, and the distance between them is where the explanation usually stops."
     ],
     "notes": [],
     "example": "“Cheerfully voting to defund his own town’s hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**.”",
     "cite": null,
-    "summary": "An empathy-devoid spite-voter who actively undermines their own healthcare, wages, public infrastructure, and community well-being - all while waving...",
+    "summary": "The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.",
     "confusedWith": [
       {
         "term": "Playtriot",
@@ -1089,6 +1103,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "A countdown clock over a battlefield, and a sponsor read that starts before the anthem finishes."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Change the payment. A subscription, a public broadcaster, or one night without the channel - the format follows the revenue, and nothing else moves it."
       }
     ],
     "voice": "A countdown clock over a battlefield, and a sponsor read that starts before the anthem finishes.",
@@ -1215,13 +1235,13 @@ export const entries = [
     ],
     "voice": "“Folks, they don’t want you to know this.”",
     "senses": [
-      "The on-air performer who converts national identity into a segment: hired to be certain, paid to be angry, and never once required to be right.",
-      "A broadcaster whose only consistent commitment is the next hour of programming. The flag is a prop, the outrage is inventory, and moral clarity is a liability no sponsor will underwrite."
+      "The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.",
+      "It works because the segment is paid for by attention, and a conclusion is more bookable than a question - so being right becomes a liability no sponsor will underwrite."
     ],
     "notes": [],
     "example": "“He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break.”",
     "cite": null,
-    "summary": "The on-air performer who converts national identity into a segment: hired to be certain, paid to be angry, and never once required to be right.",
+    "summary": "The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.",
     "confusedWith": [
       {
         "term": "Playtriot",
@@ -1787,9 +1807,9 @@ export const entries = [
         "path": "/abilities/pocketveto/"
       },
       {
-        "term": "Recessure",
-        "slug": "recessure",
-        "path": "/abilities/recessure/"
+        "term": "The stay",
+        "slug": "the-stay",
+        "path": "/remedies/the-stay/"
       }
     ],
     "edges": [
@@ -1808,7 +1828,15 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The stay",
+        "slug": "the-stay",
+        "path": "/remedies/the-stay/"
+      }
+    ]
   },
   {
     "term": "Coattails",
@@ -2817,13 +2845,13 @@ export const entries = [
     ],
     "voice": "“I’m just asking questions.”",
     "senses": [
-      "A bad-faith debater whose sole tactic is deploying logical fallacies - such as straw men, whataboutism, ad hominem attacks, and moving the goalposts - to derail discussions and frustrate opponents rather than engage with facts.",
-      "Someone who treats debate as a game of rhetorical attrition, relying on volume, deflection, and deceptive reasoning to claim victory while avoiding the actual issue."
+      "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
+      "It works because a bad argument costs nothing to make and something to answer, so the exchange is won by whoever is willing to spend less."
     ],
     "notes": [],
     "example": "“You can’t have a productive discussion with a **sophistroll**; the second you disprove his point, he’ll pivot to three different straw men and an ad hominem attack.”",
     "cite": null,
-    "summary": "A bad-faith debater whose sole tactic is deploying logical fallacies - such as straw men, whataboutism, ad hominem attacks, and moving the goalposts...",
+    "summary": "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
     "confusedWith": [
       {
         "term": "Illogician",
@@ -2948,13 +2976,13 @@ export const entries = [
     ],
     "voice": "“Do your own research.”",
     "senses": [
-      "A self-styled “rational thinker” or debater who treats broken reasoning as a fine art - deploying a relentless barrage of logical fallacies with the smug confidence of a formal philosopher while completely missing the point.",
-      "Someone who mistakes loud, circular, or fallacious arguments for intellectual superiority, using pseudo-academic jargon to disguise the fact that their premise collapses under five seconds of scrutiny."
+      "The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second question.",
+      "It works because form is easier to imitate than substance, and an audience that recognises the shape of an argument will often accept it without checking the joints."
     ],
     "notes": [],
     "example": "“He spent twenty minutes smugly lecturing the thread about ‘facts and logic’ while committing four textbook fallacies per paragraph - a true **illogician** at work.”",
     "cite": null,
-    "summary": "A self-styled “rational thinker” or debater who treats broken reasoning as a fine art - deploying a relentless barrage of logical fallacies with the...",
+    "summary": "The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second...",
     "confusedWith": [
       {
         "term": "Trust-Me-Brofessor",
@@ -3165,13 +3193,13 @@ export const entries = [
     ],
     "voice": "“Trust me, bro.”",
     "senses": [
-      "An armchair authority with zero credentials, expertise, or verifiable knowledge who lectures others with absolute certainty - yet immediately deflects, stalls, or throws a tantrum the second they are asked to provide a single source, citation, or piece of data.",
-      "A self-appointed expert whose entire bibliography consists of half-remembered memes, gut feelings, and the demand that you “do your own research” rather than hold them accountable for proving their own claims."
+      "The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.",
+      "It works because credentials are checkable only if somebody asks, and asking is precisely the move the performance is built to make expensive."
     ],
     "notes": [],
     "example": "“He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to ‘look it up themselves.’”",
     "cite": null,
-    "summary": "An armchair authority with zero credentials, expertise, or verifiable knowledge who lectures others with absolute certainty - yet immediately...",
+    "summary": "The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.",
     "confusedWith": [
       {
         "term": "Biasographer",
@@ -3187,9 +3215,9 @@ export const entries = [
         "path": "/species/bleatkeeper/"
       },
       {
-        "term": "Gallopologist",
-        "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "term": "The translator",
+        "slug": "the-translator",
+        "path": "/keystones/the-translator/"
       }
     ],
     "edges": [
@@ -3215,7 +3243,15 @@ export const entries = [
         "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The translator",
+        "slug": "the-translator",
+        "path": "/keystones/the-translator/"
+      }
+    ]
   },
   {
     "term": "Biasographer",
@@ -3267,13 +3303,13 @@ export const entries = [
     ],
     "voice": "“Consider the source.”",
     "senses": [
-      "An arguer who responds to requests for proof by producing a curated bibliography of hyper-partisan blogs, opinion pieces, and unverified fringe outlets - passing off pure ideological spin as rigorous, peer-reviewed truth.",
-      "Someone who builds an entire “factual” narrative out of zoomed-in anomalies, cropped charts, and cherry-picked outliers while deliberately ignoring the broader, consensus data sets that dismantle their claim."
+      "The pattern of answering a finding with a bibliography: the source’s history produced instead of the claim’s evidence.",
+      "It works because a source can be flawed and the claim still true, so the move wins whenever nobody separates the two - which is the whole of its business."
     ],
     "notes": [],
     "example": "“Don’t bother asking him for actual peer-reviewed studies; he’s a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy.”",
     "cite": null,
-    "summary": "An arguer who responds to requests for proof by producing a curated bibliography of hyper-partisan blogs, opinion pieces, and unverified fringe...",
+    "summary": "The pattern of answering a finding with a bibliography: the source’s history produced instead of the claim’s evidence.",
     "confusedWith": [
       {
         "term": "Trust-Me-Brofessor",
@@ -3376,13 +3412,13 @@ export const entries = [
     ],
     "voice": "“Fake news.”",
     "senses": [
-      "A reality-denier who reflexively bleats “fake news” or “hoax” at overwhelming expert consensus, hard data, and primary evidence - guarding their echo chamber by claiming exclusive access to “what’s really going on.”",
-      "An individual who parrots spoon-fed herd talking points while smugly lecturing the person holding the facts that *they* are too naive or brainwashed to understand the truth."
+      "The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.",
+      "It works because a phrase is faster than a document and travels without its context, so repeating it costs nothing and answering it costs a reading."
     ],
     "notes": [],
     "example": "“Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as ‘fake news’ and patronizingly told the researcher to ‘wake up and learn how the world actually works.’”",
     "cite": null,
-    "summary": "A reality-denier who reflexively bleats “fake news” or “hoax” at overwhelming expert consensus, hard data, and primary evidence - guarding their echo...",
+    "summary": "The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.",
     "confusedWith": [
       {
         "term": "Algodemic",
@@ -3479,13 +3515,13 @@ export const entries = [
     ],
     "voice": "“Both sides do it.”",
     "senses": [
-      "A pundit who evangelizes false equivalence, treating a documented fact and a fabricated claim as two sides that both deserve equal airtime - converting “both sides” from a reporting standard into a religious commitment.",
-      "Someone who experiences moral asymmetry as bad manners, insisting that overwhelming evidence and baseless assertion be seated at the same table so that no conclusion can ever be reached and no one can ever be blamed."
+      "The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.",
+      "It works because balance is easy to see and asymmetry is not, so the format can be defended as neutral while it settles the question by refusing to settle it."
     ],
     "notes": [],
     "example": "“Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims ‘raise real questions’ before cutting to commercial.”",
     "cite": null,
-    "summary": "A pundit who evangelizes false equivalence, treating a documented fact and a fabricated claim as two sides that both deserve equal airtime...",
+    "summary": "The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.",
     "confusedWith": [
       {
         "term": "Capitulectual",
@@ -3580,13 +3616,13 @@ export const entries = [
     ],
     "voice": "“And another thing -”",
     "senses": [
-      "A debater who buries an opponent under a firehose of loosely related claims, each one cheap to make and expensive to refute, then declares victory when the clock runs out.",
-      "Someone who mistakes the sheer volume of assertions for the strength of an argument, reading an opponent’s inability to keep up as an inability to answer."
+      "The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.",
+      "It works because the format ends whether or not the argument does, so whoever controls the volume controls what the room remembers - and the room remembers the noise."
     ],
     "notes": [],
     "example": "“In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator’s time limit ‘proof’ that he’d won.”",
     "cite": null,
-    "summary": "A debater who buries an opponent under a firehose of loosely related claims, each one cheap to make and expensive to refute, then declares victory...",
+    "summary": "The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.",
     "confusedWith": [
       {
         "term": "Sophistroll",
@@ -3597,9 +3633,9 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "JAQing off",
-        "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "term": "The juror",
+        "slug": "the-juror",
+        "path": "/keystones/the-juror/"
       },
       {
         "term": "Trust-me-brofessor",
@@ -3637,6 +3673,13 @@ export const entries = [
         "term": "Cloture",
         "slug": "cloture",
         "path": "/abilities/cloture/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The juror",
+        "slug": "the-juror",
+        "path": "/keystones/the-juror/"
       }
     ]
   },
@@ -3690,13 +3733,13 @@ export const entries = [
     ],
     "voice": "“Let’s keep this civil.”",
     "senses": [
-      "Someone who conjures civility and procedure to shut down anger that happens to be correct - insisting on tone, process, and “respectful disagreement” as the only legitimate response to open cruelty.",
-      "A moderator by temperament who treats the volume of a protest as a graver offense than the thing being protested, turning decorum into a weapon against the people it excludes."
+      "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.",
+      "It works because civility is a real value and a cheap objection, so it can be raised against any complaint at no cost to the person raising it."
     ],
     "notes": [],
     "example": "“The panel spent four minutes on the policy and twenty on whether the audience’s booing was ‘divisive’ - a textbook **decorumancer** performance.”",
     "cite": null,
-    "summary": "Someone who conjures civility and procedure to shut down anger that happens to be correct - insisting on tone, process, and “respectful disagreement”...",
+    "summary": "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.",
     "confusedWith": [
       {
         "term": "Equivangelist",
@@ -3779,6 +3822,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "One sentence, no context, and a number next to a username."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A moderator with a published policy and a queue slow enough to enforce it. The section is not the problem; the absence of anybody responsible for it is."
       }
     ],
     "voice": "One sentence, no context, and a number next to a username.",
@@ -3808,6 +3857,11 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      },
+      {
+        "term": "The ombudsman",
+        "slug": "the-ombudsman",
+        "path": "/keystones/the-ombudsman/"
       }
     ],
     "edges": [
@@ -3875,7 +3929,15 @@ export const entries = [
         "path": "/moves/motte-hop/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The ombudsman",
+        "slug": "the-ombudsman",
+        "path": "/keystones/the-ombudsman/"
+      }
+    ]
   },
   {
     "term": "Bothsidesing",
@@ -6137,13 +6199,13 @@ export const entries = [
     ],
     "voice": "“That was different.”",
     "senses": [
-      "A performative moralist capable of twisting their “unshakeable” core principles into a complete 180-degree pretzel the exact second their own side is caught violating them - all without a trace of self-awareness or shame.",
-      "An ideological shape-shifter who weaponizes self-righteous outrage against opponents for minor infractions, only to perform Olympic-level mental gymnastics to excuse, praise, or ignore identical behavior from their allies or benefactors."
+      "The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.",
+      "It works because most principles are asserted rather than written down, so the exemption never has to be argued - only survived. The tell is not the reversal but the speed."
     ],
     "notes": [],
     "example": "“After spending years screaming about ‘law and order’ and ‘treason,’ the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump’s latest authoritarian threat was ‘obviously just a joke.’”",
     "cite": null,
-    "summary": "A performative moralist capable of twisting their “unshakeable” core principles into a complete 180-degree pretzel the exact second their own side is...",
+    "summary": "The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.",
     "confusedWith": [
       {
         "term": "Martyrholic",
@@ -6244,13 +6306,13 @@ export const entries = [
     ],
     "voice": "“In my day -”",
     "senses": [
-      "A nostalgia-poisoned revisionist who worships an imaginary, sanitized “golden age” that never actually existed - aggressively rewriting, censoring, or whitewashing real history to pretend past atrocities, systemic injustices, or national failures were harmless or heroic.",
-      "Someone who treats historical fact as an enemy to be erased whenever it threatens their curated fairy tale, replacing documented reality with patriotic folklore to justify repeating the worst mistakes of the past."
+      "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.",
+      "It works because nostalgia is unfalsifiable by default - nobody was there - until somebody produces the year, the statute, and the source."
     ],
     "notes": [],
     "example": "“Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism.”",
     "cite": null,
-    "summary": "A nostalgia-poisoned revisionist who worships an imaginary, sanitized “golden age” that never actually existed - aggressively rewriting, censoring...",
+    "summary": "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.",
     "confusedWith": [
       {
         "term": "Algodemic",
@@ -6556,13 +6618,13 @@ export const entries = [
     ],
     "voice": "“We have to understand both sides.”",
     "senses": [
-      "A commentator who surrenders the argument before it is made - softening, hedging, and pre-apologizing for authoritarian moves in advance, then presenting the retreat as sober pragmatism.",
-      "Someone whose celebrated “independence” consists entirely of arriving early at the conclusion power wanted, and being thanked for their seriousness."
+      "The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.",
+      "It works because the concession is rewarded as seriousness, so the speaker is thanked for arriving early at the conclusion that power wanted."
     ],
     "notes": [],
     "example": "“The order hadn’t been signed yet and the **capitulectual** already had a column explaining why resistance would be ‘counterproductive’ and ‘unserious.’”",
     "cite": null,
-    "summary": "A commentator who surrenders the argument before it is made - softening, hedging, and pre-apologizing for authoritarian moves in advance, then...",
+    "summary": "The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.",
     "confusedWith": [
       {
         "term": "Equivangelist",
@@ -6934,6 +6996,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "Three minutes at the microphone, a parent who has never spoken publicly before, and a camera that is not local."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A packet published before the meeting and public comment that is properly noticed. The meeting is already the remedy - it stops being one when the paperwork arrives after the vote."
       }
     ],
     "voice": "Three minutes at the microphone, a parent who has never spoken publicly before, and a camera that is not local.",
@@ -7007,7 +7075,15 @@ export const entries = [
         "path": "/moves/hecklers-veto/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
+      }
+    ]
   },
   {
     "term": "Blueslip",
@@ -7249,9 +7325,9 @@ export const entries = [
         "path": "/abilities/omnibust/"
       },
       {
-        "term": "Recessure",
-        "slug": "recessure",
-        "path": "/abilities/recessure/"
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
       }
     ],
     "edges": [
@@ -7270,7 +7346,15 @@ export const entries = [
         "path": "/fallacies/equivocation/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
+      }
+    ]
   },
   {
     "term": "Lame duck",
@@ -8462,13 +8546,13 @@ export const entries = [
     ],
     "voice": "“They’re taking over.”",
     "senses": [
-      "An individual who manufactures, exaggerates, or recycles racialized conspiracy theories to blame immigrants or minority communities for complex systemic issues, economic strain, or public program failures.",
-      "A fearmonger who relies on scapegoating outsiders - such as claiming a small local immigrant population is single-handedly bankrupting massive state or federal programs - to distract from real policy failures and stoke public resentment."
+      "The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest arrivals.",
+      "It works because a scapegoat supplies a cause where the real one is diffuse - and a denominator is the one thing a panic never volunteers."
     ],
     "notes": [],
     "example": "“Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program.”",
     "cite": null,
-    "summary": "An individual who manufactures, exaggerates, or recycles racialized conspiracy theories to blame immigrants or minority communities for complex...",
+    "summary": "The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest...",
     "confusedWith": [
       {
         "term": "Dramagogue",
@@ -8484,9 +8568,9 @@ export const entries = [
         "path": "/species/ragesturbationist/"
       },
       {
-        "term": "Illogician",
-        "slug": "illogician",
-        "path": "/species/illogician/"
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
       }
     ],
     "edges": [
@@ -8512,7 +8596,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-motive/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
+      }
+    ]
   },
   {
     "term": "Dramagogue",
@@ -8564,13 +8656,13 @@ export const entries = [
     ],
     "voice": "“Everything you know is a lie.”",
     "senses": [
-      "A theatrical fearmonger who whips up hysteria, outrage, and existential panic - often targeting minority faiths, immigrants, or out-groups as dangerous “extremists” - while aggressively pushing their own dogma or agenda without a shred of self-awareness.",
-      "Someone who relies on manufactured crisis, melodrama, and scapegoating to rally followers and demand special privileges, treating basic constitutional protections like freedom of religion as a one-way street meant exclusively for them."
+      "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
+      "It works because fear is the cheapest way to hold attention, and an emergency is the fastest route to powers that would otherwise need an argument."
     ],
     "notes": [],
     "example": "“Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior.”",
     "cite": null,
-    "summary": "A theatrical fearmonger who whips up hysteria, outrage, and existential panic - often targeting minority faiths, immigrants, or out-groups as...",
+    "summary": "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
     "confusedWith": [
       {
         "term": "Ragesturbationist",
@@ -8589,6 +8681,11 @@ export const entries = [
         "term": "Martyrholic",
         "slug": "martyrholic",
         "path": "/species/martyrholic/"
+      },
+      {
+        "term": "The public defender",
+        "slug": "the-public-defender",
+        "path": "/keystones/the-public-defender/"
       }
     ],
     "edges": [
@@ -8607,7 +8704,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-consequences/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public defender",
+        "slug": "the-public-defender",
+        "path": "/keystones/the-public-defender/"
+      }
+    ]
   },
   {
     "term": "Ragesturbationist",
@@ -8659,13 +8764,13 @@ export const entries = [
     ],
     "voice": "“Are you angry yet?”",
     "senses": [
-      "An outrage grifter who endlessly strokes public fury, paranoia, and grievance - not to solve a single real-world problem, but purely for self-gratification, algorithmic clout, engagement metrics, and cash.",
-      "A cynical commentator or influencer addicted to the dopamine hit and financial payout of manufacturing hysteria, leaving their audience radicalized and society fractured while they cash the checks in private."
+      "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.",
+      "It works because outrage travels further than explanation and needs no conclusion - so the one thing it must never supply is the thing that would end it."
     ],
     "notes": [],
     "example": "“He has zero intention of fixing the issue he screams about every night; he’s a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities.”",
     "cite": null,
-    "summary": "An outrage grifter who endlessly strokes public fury, paranoia, and grievance - not to solve a single real-world problem, but purely for...",
+    "summary": "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.",
     "confusedWith": [
       {
         "term": "Dramagogue",
@@ -8769,13 +8874,13 @@ export const entries = [
     ],
     "voice": "“So I’m the bad guy now?”",
     "senses": [
-      "An individual pathologically addicted to perpetual victimhood, who treats every marginalized group, cultural shift, or political buzzword - from immigrants and trans people to public education and “socialism” - as an active, personal attack against them.",
-      "Someone who experiences genuine peace or security as withdrawal, constantly cycling through new imaginary boogeymen to nail themselves to a self-built cross and justify their hostility toward others."
+      "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker’s suffering.",
+      "It works because suffering cannot be measured in public, so the argument is moved to ground where no evidence can be produced - and the criticism is left unanswered while it is being deplored."
     ],
     "notes": [],
     "example": "“Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior.”",
     "cite": null,
-    "summary": "An individual pathologically addicted to perpetual victimhood, who treats every marginalized group, cultural shift, or political buzzword - from...",
+    "summary": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker’s suffering.",
     "confusedWith": [
       {
         "term": "Plutomartyr",
@@ -8791,9 +8896,9 @@ export const entries = [
         "path": "/species/dramagogue/"
       },
       {
-        "term": "Sabotriot",
-        "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
       }
     ],
     "edges": [
@@ -8819,7 +8924,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-pity/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
+      }
+    ]
   },
   {
     "term": "Algodemic",
@@ -8871,13 +8984,13 @@ export const entries = [
     ],
     "voice": "“The data doesn’t lie.”",
     "senses": [
-      "A self-styled “independent researcher” and conspiracy theorist whose entire worldview is assembled from Facebook memes, fringe podcasts, and YouTube rabbit holes - connecting unrelated dots into a grand cabal while remaining completely oblivious to the fact that they are an easy mark being farmed by engagement algorithms and grifters.",
-      "An individual who mistakes algorithmic radicalization for secret enlightenment, treating the total absence of real-world evidence as proof of how deep the cover-up goes."
+      "The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.",
+      "It works because recommendation systems are optimised for the next click rather than the last fact, so a curiosity can be walked - one suggestion at a time - into a cosmology."
     ],
     "notes": [],
     "example": "“Bragging that he ‘escaped the matrix’ while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**.”",
     "cite": null,
-    "summary": "A self-styled “independent researcher” and conspiracy theorist whose entire worldview is assembled from Facebook memes, fringe podcasts, and YouTube...",
+    "summary": "The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.",
     "confusedWith": [
       {
         "term": "Bleatkeeper",
@@ -8995,13 +9108,13 @@ export const entries = [
     ],
     "voice": "“They’re coming for people like me.”",
     "senses": [
-      "A billionaire, celebrity, or legacy institution that recasts ordinary accountability - a subpoena, a fact-check, a declined invitation - as persecution, converting enormous advantage into a victim narrative.",
-      "Someone insulated from every consequence except embarrassment, who treats that embarrassment as the gravest injustice in public life."
+      "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the speaker.",
+      "It works because the powerful are rarely inconvenienced, so any inconvenience reads as extraordinary - and a grievance is the cheapest available evidence of virtue."
     ],
     "notes": [],
     "example": "“A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**.”",
     "cite": null,
-    "summary": "A billionaire, celebrity, or legacy institution that recasts ordinary accountability - a subpoena, a fact-check, a declined invitation - as...",
+    "summary": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the...",
     "confusedWith": [
       {
         "term": "Martyrholic",
@@ -9112,13 +9225,13 @@ export const entries = [
     ],
     "voice": "“Sources say.”",
     "senses": [
-      "An operator who mass-produces synthetic outrage - AI-written screeds, generated mugshots, bot-farmed replies - flooding the zone faster than any fact-checker can respond.",
-      "Someone who no longer needs a coherent ideology, only a reliable pipeline: outrage in, engagement out, truth an irrelevant byproduct of the machinery."
+      "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was accountable for the piece.",
+      "It works because volume beats verification on a time budget - a fact-checker answers one item while the pipeline ships twenty - so the race is lost before it is run."
     ],
     "notes": [],
     "example": "“Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn’t believe the story, he just ships it.”",
     "cite": null,
-    "summary": "An operator who mass-produces synthetic outrage - AI-written screeds, generated mugshots, bot-farmed replies - flooding the zone faster than any...",
+    "summary": "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was...",
     "confusedWith": [
       {
         "term": "Algodemic",
@@ -9243,6 +9356,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "Four people, one topic, and a countdown to the break."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "The transcript, read the next morning. The format is built for the moment it airs; the transcript is built for the day after."
       }
     ],
     "voice": "Four people, one topic, and a countdown to the break.",
@@ -9325,7 +9444,15 @@ export const entries = [
         "path": "/moves/nonpology/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ]
   },
   {
     "term": "Group chat",
@@ -9363,6 +9490,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "A screenshot, a forward, and no link."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "The screenshot, sent to the whole chat. A group where nothing can be quoted is a group where a rumour can live indefinitely."
       }
     ],
     "voice": "A screenshot, a forward, and no link.",
@@ -9744,6 +9877,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "The next item is already loaded, and it is angrier than the last one."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "A subscription and a saved list: a feed you chose, read at an hour you chose. The algorithm is a default, and defaults can be changed in a settings screen."
       }
     ],
     "voice": "The next item is already loaded, and it is angrier than the last one.",
@@ -9826,7 +9965,15 @@ export const entries = [
         "path": "/moves/astroturfing/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "path": "/remedies/lateral-reading/"
+      }
+    ]
   },
   {
     "term": "Rubber chicken circuit",
@@ -9864,6 +10011,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "A joke about the local team, a story about a diner, and a policy nobody will mention again after dessert."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "One unscripted question from the floor, and the answer written down before the plates are cleared."
       }
     ],
     "voice": "A joke about the local team, a story about a diner, and a policy nobody will mention again after dessert.",
@@ -10054,6 +10207,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "‘I’ll circle back to you on that’ - and the next question goes to the front row."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "The records request. The room speaks in documents, and the documents outlast the room."
       }
     ],
     "voice": "‘I’ll circle back to you on that’ - and the next question goes to the front row.",
@@ -10120,7 +10279,15 @@ export const entries = [
         "path": "/moves/flood-the-zone/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      }
+    ]
   },
   {
     "term": "Spin room",
@@ -10158,6 +10325,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "A surrogate declaring victory before the closing statements are over, and a ‘what the American people heard tonight’ that nobody heard."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "The written reason, published after the spin. The spin room is where a decision is explained; the reason is where it is checked."
       }
     ],
     "voice": "A surrogate declaring victory before the closing statements are over, and a ‘what the American people heard tonight’ that nobody heard.",
@@ -10210,7 +10383,15 @@ export const entries = [
         "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ]
   },
   {
     "term": "Rally",
@@ -10248,6 +10429,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "A chant the crowd already knows, a pause to let them say it, and a crowd estimate disputed by two police departments."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "The transcript and the roll, read in the same week: what was said, and what was voted. The chant is the offer; the vote is the receipt."
       }
     ],
     "voice": "A chant the crowd already knows, a pause to let them say it, and a crowd estimate disputed by two police departments.",
@@ -10307,7 +10494,15 @@ export const entries = [
         "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ]
   },
   {
     "term": "Frankincense",
@@ -10436,6 +10631,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "The announcement of the thing instead of the thing, timed for the evening bulletin."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what would have happened if nobody had been invited. A pseudo-event is scheduled in order to be reported, so the question is what remains when the coverage stops."
       }
     ],
     "voice": "The announcement of the thing instead of the thing, timed for the evening bulletin.",
@@ -10526,6 +10727,12 @@ export const entries = [
         "label": "Signature",
         "type": "text",
         "value": "A defendant escorted slowly past a camera that was told what time to be there."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "The presumption, printed at the same size as the photograph. The walk is a picture; the trial is a record."
       }
     ],
     "voice": "A defendant escorted slowly past a camera that was told what time to be there.",
@@ -10637,9 +10844,9 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Bluecheck",
-        "slug": "bluecheck",
-        "path": "/buffs/bluecheck/"
+        "term": "Recusal",
+        "slug": "recusal",
+        "path": "/remedies/recusal/"
       },
       {
         "term": "Comment section",
@@ -10661,7 +10868,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-authority/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Recusal",
+        "slug": "recusal",
+        "path": "/remedies/recusal/"
+      }
+    ]
   },
   {
     "term": "Hot mic",
@@ -13997,6 +14212,13 @@ export const entries = [
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
         "path": "/species/bleatkeeper/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
       }
     ],
     "backlinks": [
@@ -14093,6 +14315,13 @@ export const entries = [
         "term": "Vaguebooking",
         "slug": "vaguebooking",
         "path": "/moves/vaguebooking/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
       }
     ],
     "backlinks": [
@@ -14189,6 +14418,13 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
       }
     ],
     "backlinks": [
@@ -14395,6 +14631,13 @@ export const entries = [
         "term": "The moderator",
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The juror",
+        "slug": "the-juror",
+        "path": "/keystones/the-juror/"
       }
     ]
   },
@@ -14482,6 +14725,13 @@ export const entries = [
         "term": "Sovereign Shillizen",
         "slug": "sovereign-shillizen",
         "path": "/species/sovereign-shillizen/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ],
     "backlinks": [
@@ -14578,6 +14828,13 @@ export const entries = [
         "term": "Nonpology",
         "slug": "nonpology",
         "path": "/moves/nonpology/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
       }
     ],
     "backlinks": [
@@ -14587,6 +14844,20 @@ export const entries = [
         "term": "The caseworker",
         "slug": "the-caseworker",
         "path": "/keystones/the-caseworker/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The ombudsman",
+        "slug": "the-ombudsman",
+        "path": "/keystones/the-ombudsman/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The translator",
+        "slug": "the-translator",
+        "path": "/keystones/the-translator/"
       }
     ]
   },
@@ -14688,6 +14959,13 @@ export const entries = [
         "term": "The auditor",
         "slug": "the-auditor",
         "path": "/keystones/the-auditor/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
       }
     ]
   },
@@ -14966,6 +15244,853 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "path": "/buffs/crisisglow/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The ombudsman",
+    "slug": "the-ombudsman",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-ombudsman/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɒm.bʊdz.mən/",
+    "position": 20,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "Swedish, 1809: the office the Riksdag invented so a citizen could complain about the state to somebody with the power to read the file.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The complaint, the file, and the duty to answer in writing."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Tell me what happened, in order.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Reads the file the department hoped nobody would read",
+          "Answers the complainant, not just the department",
+          "Publishes the case with the name removed"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the office, a complaint has nowhere to go but the feed, where it becomes a story instead of a case. The comment section is what an institution gets when it refuses to build one of these."
+      }
+    ],
+    "voice": "“Tell me what happened, in order.”",
+    "senses": [
+      "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what went wrong. The office is old, cheap and structurally boring, which is most of why it works.",
+      "It works because it gives a grievance a destination short of a lawsuit. Most people who have been treated badly do not want damages; they want somebody with authority to read the file and admit what it says - and an institution that offers nothing else will be discussed in public instead."
+    ],
+    "notes": [],
+    "example": "“The **ombudsman** read the refusal letter, found the assessment it had relied on, and published the four sentences the department had left out of its own summary.”",
+    "cite": null,
+    "summary": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what...",
+    "confusedWith": [
+      {
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "tell": "The caseworker decides the case; the ombudsman investigates the decision.",
+        "path": "/keystones/the-caseworker/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The public defender",
+    "slug": "the-public-defender",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-public-defender/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌpʌb.lɪk dɪˈfen.də/",
+    "position": 21,
+    "sort": {
+      "impact": 5,
+      "abuse": 1,
+      "blowback": 3
+    },
+    "etymology": "English: counsel paid by the state to defend people who cannot pay for counsel - a right that exists because a trial without a defence is a formality.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The case file, the bail hearing, and the hour before the arraignment."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Don’t talk to anyone until I get there.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Knows the docket better than the prosecutor does",
+          "Asks for the bail hearing nobody scheduled",
+          "Says ‘we will take it to trial’ and means it"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without counsel the right to a defence is a form, and every claim about the system being fair is unfalsifiable. The Dramagogue needs an undefended defendant to make a case sound like a verdict."
+      }
+    ],
+    "voice": "“Don’t talk to anyone until I get there.”",
+    "senses": [
+      "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole story - a defender carrying two hundred files cannot investigate any of them.",
+      "It works because the state has to prove its case to somebody whose job is to make it try. A defence that is funded, resourced and allowed to investigate is the difference between a plea bargain and a verdict."
+    ],
+    "notes": [],
+    "example": "“The **public defender** had the file for eleven minutes, asked for the body-camera footage, and the charge was withdrawn before the second hearing.”",
+    "cite": null,
+    "summary": "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole...",
+    "confusedWith": [
+      {
+        "term": "The juror",
+        "slug": "the-juror",
+        "tell": "The defender argues the case; the juror decides it, and neither can do the other’s job.",
+        "path": "/keystones/the-juror/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      },
+      {
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The translator",
+    "slug": "the-translator",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-translator/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/trænzˈleɪ.tə/",
+    "position": 22,
+    "sort": {
+      "impact": 4,
+      "abuse": 1,
+      "blowback": 2
+    },
+    "etymology": "From the Latin transferre, to carry across - in public administration, the trade of carrying a rule across the gap between the office and the person it governs.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The plain sentence, the rewritten form, and the difference between a notice and a notice nobody can read."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Say that again, without the acronym.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Rewrites the form, not the rule",
+          "Tests the wording on the person it is for",
+          "Keeps the meaning when the words change"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without plain language, a right that exists on paper is a right only the literate can use, which is the quietest way to keep a franchise small. Jargon is not an accident of drafting; it is a filter."
+      }
+    ],
+    "voice": "“Say that again, without the acronym.”",
+    "senses": [
+      "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice that says what happens next instead of citing the section that says it.",
+      "It works because comprehension is a distribution problem. A rule that only a lawyer can parse has not been published, it has been filed - and the test of a notice is not whether it is accurate but whether the person holding it knows what to do on Monday."
+    ],
+    "notes": [],
+    "example": "“The form had been rewritten by the **translator**, and the number of people who missed the deadline because they could not tell it was a deadline fell by half.”",
+    "cite": null,
+    "summary": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice that...",
+    "confusedWith": [
+      {
+        "term": "The librarian",
+        "slug": "the-librarian",
+        "tell": "The librarian finds the source; the translator makes it usable by somebody who did not write it.",
+        "path": "/keystones/the-librarian/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
+      },
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The juror",
+    "slug": "the-juror",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-juror/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈdʒʊə.rə/",
+    "position": 23,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 2
+    },
+    "etymology": "From the Latin iurare, to swear - twelve people who did not ask for the job, sworn to decide on the evidence and nothing else.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The instruction, the deliberation, and the requirement that twelve people agree."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Show us the document.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Asks the question the lawyers avoided",
+          "Reads the instruction twice",
+          "Refuses to vote before the evidence is on the table"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the jury the trial is a negotiation between professionals and the Gallopologist’s clock decides. Deliberation is the one format where the volume of claims buys nothing, because everybody in the room has the same amount of time."
+      }
+    ],
+    "voice": "“Show us the document.”",
+    "senses": [
+      "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened. It is the only public duty that requires a person to weigh evidence rather than repeat a conclusion.",
+      "It works because a verdict has to be unanimous and is explained to nobody. The requirement forces the argument to continue past the point where a broadcast would have moved on - and the instruction, read aloud, is the closest thing the system has to a published standard of proof."
+    ],
+    "notes": [],
+    "example": "“The **juror** asked for the transcript of the first interview, and the answer that had been quoted all week turned out to be a sentence about somebody else.”",
+    "cite": null,
+    "summary": "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened....",
+    "confusedWith": [
+      {
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "tell": "The juror decides one case on the evidence; the auditor examines many on a sample.",
+        "path": "/keystones/the-auditor/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "path": "/species/gallopologist/"
+      },
+      {
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "path": "/remedies/the-steelman/"
+      },
+      {
+        "term": "The public defender",
+        "slug": "the-public-defender",
+        "path": "/keystones/the-public-defender/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "path": "/species/gallopologist/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "path": "/remedies/the-steelman/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The statistician",
+    "slug": "the-statistician",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-statistician/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌstæt.ɪˈstɪʃ.ən/",
+    "position": 24,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 2
+    },
+    "etymology": "From the German Statistik, the science of the state - the discipline invented to describe a population that could not be counted by hand.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The denominator, the sampling frame, and the caveat printed next to the number."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Out of how many?”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Publishes the method before the figure",
+          "States the margin without being asked",
+          "Corrects the series when the frame was wrong"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the office there is no denominator, and a panic about a number nobody can size is unanswerable by argument. The Xenophobricator is not defeated by a feeling; it is defeated by a rate per hundred thousand."
+      }
+    ],
+    "voice": "“Out of how many?”",
+    "senses": [
+      "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion about the number; it is to publish how the number was made so that anyone can argue with the method.",
+      "It works because a rate is checkable and an anecdote is not. The moment a claim acquires a denominator it can be tested, replicated or refuted - which is why the first move against an unwelcome figure is always to attack the sample rather than the arithmetic."
+    ],
+    "notes": [],
+    "example": "“The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade.”",
+    "cite": null,
+    "summary": "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion...",
+    "confusedWith": [
+      {
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "tell": "The auditor checks the books; the statistician checks the number everybody is quoting from them.",
+        "path": "/keystones/the-auditor/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
+      },
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Notice and comment",
+    "slug": "notice-and-comment",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/notice-and-comment/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈnəʊ.tɪs ənd ˈkɒm.ent/",
+    "position": 25,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Sixty days, a docket to read, and a comment that engages with the text rather than the mood."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The comment period that is technically open, and the final rule identical to the draft with the comments answered in a paragraph."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A docket number",
+          "A response to comments",
+          "A difference between the proposed and the final text"
+        ]
+      }
+    ],
+    "voice": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.",
+    "senses": [
+      "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state’s version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
+      "It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles."
+    ],
+    "notes": [],
+    "example": "“The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned.”",
+    "cite": null,
+    "summary": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative...",
+    "confusedWith": [
+      {
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "tell": "The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.",
+        "path": "/habitats/school-board-meeting/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Recusal",
+    "slug": "recusal",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/recusal/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/rɪˈkjuː.zəl/",
+    "position": 26,
+    "sort": {
+      "impact": 4,
+      "abuse": 1,
+      "blowback": 2
+    },
+    "etymology": "From the Latin recusare, to refuse - the judge who declines the case because the case is, in some way, theirs.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Removes the decider from the decision where they have an interest, and puts the reason for stepping back on the record."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "The appearance of guilt, the delay, and the loss of the one person who knows the file."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The recusal announced and quietly reversed, and the modified participation that keeps the vote without the title."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A written reason for stepping back",
+          "A substitute who actually decides",
+          "No contact with the parties while it is pending"
+        ]
+      }
+    ],
+    "voice": "Removes the decider from the decision where they have an interest, and puts the reason for stepping back on the record.",
+    "senses": [
+      "The rule that a person with a financial interest, a family tie, or a prior role in the matter steps out of it - and says so in writing, so the step is checkable rather than gallant.",
+      "It works because influence is cheapest when it is invisible. A gift, a friendship or a former employer does not have to change a decision in order to change how the decision looks; recusal removes the question instead of answering it, which is the point."
+    ],
+    "notes": [],
+    "example": "“The **recusal** was filed on a Friday, the substitute read the record cold, and the contract drafted for one signature went out to tender.”",
+    "cite": null,
+    "summary": "The rule that a person with a financial interest, a family tie, or a prior role in the matter steps out of it - and says so in writing, so the step...",
+    "confusedWith": [
+      {
+        "term": "Access",
+        "slug": "access",
+        "tell": "Access buys the meeting; recusal takes the decider out of it.",
+        "path": "/buffs/access/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      },
+      {
+        "term": "Random draw",
+        "slug": "random-draw",
+        "path": "/remedies/random-draw/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Access",
+        "slug": "access",
+        "path": "/buffs/access/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Cross-examination",
+    "slug": "cross-examination",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/cross-examination/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌkrɒs ɪɡˌzæm.ɪˈneɪ.ʃən/",
+    "position": 27,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English legal usage: the questioning of a witness by the side that did not call them - the only part of a hearing designed to find out whether the story survives contact.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Makes the claim answerable, under oath, to somebody paid to test it - and puts the answers in a transcript."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A deposition, a transcript, and the risk that your own witness fares worse under the same treatment."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The objection sustained, and the time limit that arrives before the point does."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A question the witness cannot dodge",
+          "A transcript of the answer",
+          "A claim that changes under pressure"
+        ]
+      }
+    ],
+    "voice": "Makes the claim answerable, under oath, to somebody paid to test it - and puts the answers in a transcript.",
+    "senses": [
+      "The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given rather than a theme restated.",
+      "It works because it is the one procedure that makes a claim cost something at the moment it is made. A statement in a hearing can be a performance; the same statement under cross-examination has to survive being interrupted, dated, and read back."
+    ],
+    "notes": [],
+    "example": "“Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version.”",
+    "cite": null,
+    "summary": "The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given...",
+    "confusedWith": [
+      {
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "tell": "The steelman strengthens the other side’s argument; cross-examination finds out whether it holds.",
+        "path": "/remedies/the-steelman/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      },
+      {
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The public defender",
+        "slug": "the-public-defender",
+        "path": "/keystones/the-public-defender/"
+      }
+    ]
+  },
+  {
+    "term": "The stay",
+    "slug": "the-stay",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-stay/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə steɪ/",
+    "position": 28,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "From the Old French ester, to stand - the order that makes a thing stand still while it is argued about.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Stops the thing from happening while it is being argued about, and puts the status quo back where it was."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A motion, a bond, and a judge willing to be the one who halted it."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The stay that expires quietly, and the harm ruled not irreparable because it has already happened."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "An order with a date on it",
+          "A bond that makes delay expensive",
+          "A status quo that actually holds"
+        ]
+      }
+    ],
+    "voice": "Stops the thing from happening while it is being argued about, and puts the status quo back where it was.",
+    "senses": [
+      "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent of a hand on the arm, granted or refused by a judge who has to say why.",
+      "It works because it changes who bears the risk of the delay. Without a stay the challenger loses by default - the thing is done before the argument is heard - so the remedy is not the ruling, it is the preservation of the possibility of one."
+    ],
+    "notes": [],
+    "example": "“The **stay** came through at four in the afternoon, the demolition crew stood down, and the hearing that followed was about the building instead of about the rubble.”",
+    "cite": null,
+    "summary": "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent of a...",
+    "confusedWith": [
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "tell": "The night docket moves while nobody is watching; the stay is the thing that makes it wait until somebody is.",
+        "path": "/abilities/nightdocket/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      },
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
       }
     ],
     "backlinks": []

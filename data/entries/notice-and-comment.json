@@ -1,0 +1,49 @@
+{
+  "term": "Notice and comment",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 25,
+  "part_of_speech": "noun",
+  "ipa": "/ˈnəʊ.tɪs ənd ˈkɒm.ent/",
+  "etymology": "American administrative law: the requirement that a proposed rule be published, opened to public comment, and answered before it binds anybody.",
+  "effect": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.",
+  "costs": "Sixty days, a docket to read, and a comment that engages with the text rather than the mood.",
+  "failure": "The comment period that is technically open, and the final rule identical to the draft with the comments answered in a paragraph.",
+  "tell": [
+    "A docket number",
+    "A response to comments",
+    "A difference between the proposed and the final text"
+  ],
+  "confused_with": [
+    {
+      "term": "School board meeting",
+      "tell": "The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room."
+    }
+  ],
+  "senses": [
+    "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state's version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
+    "It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles."
+  ],
+  "notes": [],
+  "example": "*\"The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned.\"*",
+  "related": [
+    "Signaway",
+    "The written reason",
+    "School board meeting"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Signaway"
+    },
+    {
+      "rel": "counters",
+      "to": "School board meeting"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Algodemic"
+    },
+    {
+      "rel": "counters",
+      "to": "The Feed"
     }
   ],
   "sort": {

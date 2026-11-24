@@ -134,7 +134,7 @@
       "plural": "Habitats",
       "path": "/habitats/",
       "voice": "signature",
-      "blurb": "The place a creature is found and fed - the show, the rally, the forum. Broadcast or physical, it is where the performance has a home.",
+      "blurb": "The place a creature is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
       "identification": [
         {
           "key": "carriers",
@@ -156,6 +156,13 @@
           "type": "text",
           "hint": "The unmistakable formal tic - what makes it recognisably this habitat and not the news.",
           "example": "A countdown clock over a battlefield."
+        },
+        {
+          "key": "counter",
+          "label": "Counter",
+          "type": "text",
+          "hint": "What changes the room. Not a scolding - the condition, rule, or payment that would make this habitat a different place to stand in.",
+          "example": "A moderator with a published policy and a slow queue."
         }
       ],
       "sorts": [
@@ -381,9 +388,10 @@
         "species",
         "move",
         "ability",
-        "buff"
+        "buff",
+        "habitat"
       ],
-      "hint": "The play that ends it, authored from the side that ends it. A remedy or a keystone may counter a creature, a move, a power, or a buff; the inverse page renders the other direction."
+      "hint": "The play that ends it, authored from the side that ends it. A remedy or a keystone may counter a creature, a move, a power, a buff, or a habitat; the inverse page renders the other direction."
     },
     "commits": {
       "label": "Commits",
