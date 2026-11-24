@@ -43,6 +43,10 @@
     {
       "rel": "commits",
       "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "commits",
+      "to": "Creeping normality"
     }
   ],
   "sort": {

@@ -1,0 +1,36 @@
+{
+  "term": "Creeping normality",
+  "kind": "fallacy",
+  "chapter": "normalization",
+  "position": 116,
+  "part_of_speech": "noun",
+  "etymology": "Jared Diamond's term for change that arrives in increments too small to object to, each one accepted because the last one was.",
+  "family": "Informal · Presumption",
+  "committed_when": "The next step is being justified by the size of the step rather than the direction of the walk.",
+  "tell": "Every individual change is small, defensible and already done; only the sequence is indefensible.",
+  "counter": "Ask what the total is, not what the increment is. A series can be refused where a step cannot.",
+  "senses": [
+    "Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend: the fee, then the surcharge, then the surcharge with the waiting period.",
+    "It works because objection has a fixed cost and every increment is smaller than that cost. The room is never wrong about any single step; it is only never asked about the direction."
+  ],
+  "example": "*\"Nobody voted to end public comment.\"* The period went from thirty days to ten, then to \"as practicable\", then to a form that closed on Fridays.",
+  "confused_with": [
+    {
+      "term": "Slippery slope",
+      "tell": "The slippery slope is a prediction made by someone arguing against the first step; creeping normality is the same walk recorded afterwards by someone who did not notice it."
+    }
+  ],
+  "related": [
+    "Shifting baseline",
+    "Normalcy bias"
+  ],
+  "cite": {
+    "label": "Wikipedia · Creeping normality",
+    "url": "https://en.wikipedia.org/wiki/Creeping_normality"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 4,
+    "blowback": 1
+  }
+}
