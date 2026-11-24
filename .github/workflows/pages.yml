@@ -48,8 +48,13 @@ jobs:
       # a11y/language, plus our own shape pack. Both are pinned - an audit is a
       # gate, so it must not move under us on an unpinned release.
       - run: npx --yes poststruct@1.2.0 audit
+      # Publishing prep is main's business only. On staging (and on PRs) the
+      # build job stops after the audits: the gate is the deliverable there, and
+      # it must not depend on a Pages site existing.
       - uses: actions/configure-pages@v5
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           path: web/dist
 
