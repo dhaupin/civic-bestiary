@@ -1,0 +1,40 @@
+{
+  "term": "Lame duck",
+  "kind": "buff",
+  "chapter": "hypocrisy-revisionism",
+  "position": 13,
+  "part_of_speech": "noun",
+  "ipa": "/leɪm dʌk/",
+  "etymology": "English: from the exchange, where a lame duck was a broker who could not pay - a duck that cannot fly.",
+  "effect": "Lets a defeated officeholder govern without consequences until a date everybody knows and nobody enforces.",
+  "tell": "A pardon list, a regulation filed in December, and a press office that has stopped scheduling interviews.",
+  "expires": "Inauguration Day, or the moment the successor's transition team starts answering the phone instead.",
+  "confused_with": [
+    {
+      "term": "Honeymoan",
+      "tell": "The honeymoan is the grace before the first mistake; the lame duck is the grace after the last election."
+    }
+  ],
+  "senses": [
+    "The condition of an officeholder whose replacement is already elected: still holding the powers, no longer holding the future - the stretch between the vote and the oath.",
+    "It works because the clock is the only constraint left. The voters have spoken, the donors have moved on, and the remaining costs are historical - which is why the last weeks of a term produce the pardons, the midnight rules, and the appointments nobody would defend on a ballot."
+  ],
+  "notes": [],
+  "example": "*\"In six weeks of **lame duck** he issued forty-one pardons, three of them for people who had donated to the transition.\"*",
+  "related": [
+    "Plutomartyr",
+    "Pocketveto",
+    "Martyrholic"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Special pleading"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

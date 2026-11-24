@@ -1,0 +1,40 @@
+{
+  "term": "Frankincense",
+  "kind": "buff",
+  "chapter": "fearmongering-grift",
+  "position": 19,
+  "part_of_speech": "noun",
+  "ipa": "/ˈfræŋ.kɪnˌsɛns/",
+  "etymology": "Blend of \"franking\", the privilege of free official mail, + \"incense\", to inflame",
+  "effect": "Lets the bearer write to every voter at public expense, in an envelope that looks like a favour and reads like a campaign.",
+  "tell": "A glossy mailer from the incumbent, postage paid by the office, with a survey card and a 'tell me what you think' that is already a mailing list.",
+  "expires": "The day the franking rules are read aloud, or the day the challenger mails the envelope back with the incumbent's own words circled.",
+  "confused_with": [
+    {
+      "term": "Rubber chicken circuit",
+      "tell": "The circuit asks for the cheque in person; the frank asks for the vote by post, at public expense."
+    }
+  ],
+  "senses": [
+    "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the reason the mailbox fills before every election.",
+    "It works because the line between official and campaign mail is drawn by the institution that benefits from it. The frank pays for the paper, the constituent sees a letter from their representative, and whether that letter is service or solicitation is decided by a commission of members - which is to say, by the people whose mail it is."
+  ],
+  "notes": [],
+  "example": "*\"Four **frankincense** mailers in one month, all marked official, all carrying the same photograph, and the challenger's first ad was a picture of them in a pile.\"*",
+  "related": [
+    "Playtriot",
+    "Patriotainer",
+    "Plutomartyr"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to authority"
+    }
+  ],
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

@@ -13,16 +13,16 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 97,
-  "coinages": 47,
+  "entries": 113,
+  "coinages": 63,
   "fallacies": 50,
   "chapters": 5,
   "kinds": {
     "species": 24,
-    "move": 6,
-    "ability": 5,
-    "habitat": 7,
-    "buff": 5,
+    "move": 10,
+    "ability": 10,
+    "habitat": 10,
+    "buff": 9,
     "fallacy": 50
   }
 }
@@ -248,6 +248,10 @@ export const chapters = [
       "gerrythm",
       "omnibust",
       "honeymoan",
+      "pocketveto",
+      "nightdocket",
+      "coattails",
+      "convention-bounce",
       "slippery-slope",
       "no-true-scotsman",
       "appeal-to-tradition",
@@ -276,6 +280,9 @@ export const chapters = [
       "bothsidesing",
       "vaguebooking",
       "receiptbomb",
+      "dead-cat",
+      "trial-balloon",
+      "friday-news-dump",
       "ad-hominem",
       "straw-man",
       "appeal-to-authority",
@@ -306,6 +313,10 @@ export const chapters = [
       "cronycle",
       "nonpology",
       "school-board-meeting",
+      "blueslip",
+      "recessure",
+      "signaway",
+      "lame-duck",
       "two-wrongs-make-a-right",
       "post-hoc-ergo-propter-hoc",
       "special-pleading",
@@ -334,6 +345,11 @@ export const chapters = [
       "indictbump",
       "the-feed",
       "rubber-chicken-circuit",
+      "push-poll",
+      "briefing-room",
+      "spin-room",
+      "rally",
+      "frankincense",
       "appeal-to-emotion",
       "appeal-to-fear",
       "moving-the-goalposts",
@@ -437,9 +453,9 @@ export const entries = [
         "path": "/species/sabotriot/"
       },
       {
-        "term": "Patriotainment",
-        "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "term": "Frankincense",
+        "slug": "frankincense",
+        "path": "/buffs/frankincense/"
       }
     ],
     "edges": [
@@ -479,6 +495,13 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ]
   },
@@ -1432,6 +1455,345 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Pocketveto",
+    "slug": "pocketveto",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/pocketveto/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈpɒk.ɪtˌviː.təʊ/",
+    "position": 12,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 4
+    },
+    "etymology": "Blend of \"pocket\" + \"veto\", from the constitutional pocket veto",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Kills a bill by doing nothing, inside a ten-day window the chamber is not allowed to watch."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "A president, a bill passed near the end of a session, and a Congress that has gone home."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Stay in session. A pro forma gavel every few days keeps the ten-day clock running and forces the objection into writing."
+      }
+    ],
+    "voice": "Kills a bill by doing nothing, inside a ten-day window the chamber is not allowed to watch.",
+    "senses": [
+      "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill is simply not law - no message, no veto to override, no vote to defend.",
+      "It works because absence is not an act. A regular veto is a public document that invites a two-thirds fight; a pocket veto is a calendar, and there is nobody to argue with. The clause was written for a president travelling by horse, and it still works because Congress still goes home."
+    ],
+    "notes": [],
+    "example": "“The bill passed in December, the president went to Camp David, and the **pocketveto** did what a veto message could not - it ended the argument without leaving a record to run against.”",
+    "cite": null,
+    "summary": "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill is...",
+    "confusedWith": [
+      {
+        "term": "Filibluster",
+        "slug": "filibluster",
+        "tell": "The filibluster stops a bill by refusing to sit down; the pocketveto stops one by standing up and leaving.",
+        "path": "/abilities/filibluster/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      },
+      {
+        "term": "Recessure",
+        "slug": "recessure",
+        "path": "/abilities/recessure/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "path": "/fallacies/argument-from-silence/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Nightdocket",
+    "slug": "nightdocket",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/nightdocket/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈnaɪtˌdɒk.ɪt/",
+    "position": 13,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
+    "etymology": "Blend of \"night\" + \"docket\", from the emergency docket the court keeps after hours",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Decides the emergency case at midnight, in one unsigned paragraph, before anyone has argued it."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "An appellate court with an emergency application, a filing deadline, and no argument on the calendar."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Publish the reasoning and treat the order as precedent. A docket that leaves a record is harder to use as a shortcut."
+      }
+    ],
+    "voice": "Decides the emergency case at midnight, in one unsigned paragraph, before anyone has argued it.",
+    "senses": [
+      "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes the law without the hearing the law usually requires.",
+      "It works because emergencies are real and calendars are not. A stay granted at midnight is legally identical to a stay granted after argument, but it arrives without the record that would let anyone argue with it - and the emergency is often the point."
+    ],
+    "notes": [],
+    "example": "“The **nightdocket** granted the stay at 11:40 p.m., one paragraph, no signature, and by morning the policy was suspended and the reasoning was a footnote in somebody else’s brief.”",
+    "cite": null,
+    "summary": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes the...",
+    "confusedWith": [
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "tell": "The subpoenado is a hearing staged for cameras; the nightdocket is a ruling staged for nobody.",
+        "path": "/abilities/subpoenado/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
+      },
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      },
+      {
+        "term": "Recessure",
+        "slug": "recessure",
+        "path": "/abilities/recessure/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Coattails",
+    "slug": "coattails",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/coattails/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈkəʊt.teɪlz/",
+    "position": 14,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "English: the hem of the top-of-ticket coat, which every down-ballot candidate rides.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Carries the down-ballot races along on the top of the ticket, and lends a margin to people the voter never met."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A state legislator whose ads feature somebody else’s name, and a victory speech that says “we” about a race the speaker did not run."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "The first midterm, when the coat is not on the ballot and the hem has to stand up on its own."
+      }
+    ],
+    "voice": "A state legislator whose ads feature somebody else’s name, and a victory speech that says “we” about a race the speaker did not run.",
+    "senses": [
+      "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride the same wave, whether or not the wave was about them.",
+      "It works because most voters do not finish the ballot. They pick a top and stop, and the stopping point is the gift - which is why a legislature can swing wildly without a single district changing its mind."
+    ],
+    "notes": [],
+    "example": "“She won by nine, and the **coattails** carried a county clerk who had run on a road-repair budget and never mentioned the president once.”",
+    "cite": null,
+    "summary": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride the...",
+    "confusedWith": [
+      {
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "tell": "The honeymoan is grace granted to the winner; the coattails are the margin the winner lends to everyone standing behind them.",
+        "path": "/buffs/honeymoan/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Convention bounce",
+        "slug": "convention-bounce",
+        "path": "/buffs/convention-bounce/"
+      },
+      {
+        "term": "Lame duck",
+        "slug": "lame-duck",
+        "path": "/buffs/lame-duck/"
+      },
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Convention bounce",
+    "slug": "convention-bounce",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/convention-bounce/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/kənˈvɛn.ʃən baʊns/",
+    "position": 15,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "English: the polling lift after a party convention, named for the week it lives in.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Adds five points for a fortnight, and lets everyone in the building call it momentum."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A poll released on the last night of the convention, and a surrogate saying “the map has expanded” before the ballots are printed."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "Ten days after the balloons, or the first post-convention poll that disagrees with the first post-convention poll."
+      }
+    ],
+    "voice": "A poll released on the last night of the convention, and a surrogate saying “the map has expanded” before the ballots are printed.",
+    "senses": [
+      "The polling lift a party gets from its own convention: four days of unchallenged messaging, a balloon drop, and a sample that is briefly paying attention.",
+      "It works because attention is the mechanism, not persuasion. The bounce measures who was watching, so it decays as the audience returns to its habits - which is why the number is real and the meaning is mostly theatrical. Conventions have also stopped being news; the bounce shrank as the broadcast became an infomercial."
+    ],
+    "notes": [],
+    "example": "“The **convention bounce** put him up six, the coverage called it a reset, and three weeks later the same pollster found the race exactly where it started.”",
+    "cite": null,
+    "summary": "The polling lift a party gets from its own convention: four days of unchallenged messaging, a balloon drop, and a sample that is briefly paying...",
+    "confusedWith": [
+      {
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "tell": "The bounce is measured in polls and the honeymoan is spent in arguments; both expire on a calendar nobody printed.",
+        "path": "/buffs/honeymoan/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Coattails",
+        "slug": "coattails",
+        "path": "/buffs/coattails/"
+      },
+      {
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
+      {
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
     "term": "Slippery slope",
     "slug": "slippery-slope",
     "kind": "fallacy",
@@ -1681,6 +2043,13 @@ export const entries = [
         "term": "LARPtarian",
         "slug": "larptarian",
         "path": "/species/larptarian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
       },
       {
         "rel": "houses",
@@ -3144,6 +3513,20 @@ export const entries = [
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
       }
     ]
   },
@@ -3332,6 +3715,264 @@ export const entries = [
         "path": "/habitats/comment-section/"
       }
     ]
+  },
+  {
+    "term": "Dead cat",
+    "slug": "dead-cat",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/dead-cat/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/dɛd kæt/",
+    "position": 14,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "From the strategy credited to the campaign strategist Lynton Crosby: to end an argument you are losing, put a dead cat on the table.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A story that will not stop, and a week that needs a different one."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "Something outrageous appears at eight in the morning, unrelated to the story it replaced, and the people who were answering questions stop answering them."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Name the cat. Keep asking the original question, on the record, until the answer is on the record too."
+      }
+    ],
+    "voice": "Something outrageous appears at eight in the morning, unrelated to the story it replaced, and the people who were answering questions stop answering them.",
+    "senses": [
+      "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced by the thing nobody can stop looking at.",
+      "It works because attention is finite and news is a queue. Coverage can only hold one thing at a time, so the object does not have to be relevant - it only has to be louder, and the agenda moves while the question stays unanswered. What changed was never the facts; it was what everyone was looking at."
+    ],
+    "notes": [],
+    "example": "“The contract story was finally landing, and then a **dead cat** hit the table at eight in the morning - by noon nobody could remember what the contract said.”",
+    "cite": null,
+    "summary": "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced by the...",
+    "confusedWith": [
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "tell": "The slopagandist drowns the zone in volume; the dead cat changes the subject with one loud object.",
+        "path": "/species/slopagandist/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "path": "/moves/trial-balloon/"
+      },
+      {
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      },
+      {
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to emotion",
+        "slug": "appeal-to-emotion",
+        "path": "/fallacies/appeal-to-emotion/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ]
+  },
+  {
+    "term": "Trial balloon",
+    "slug": "trial-balloon",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/trial-balloon/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈtraɪ.əl bəˈluːn/",
+    "position": 15,
+    "sort": {
+      "impact": 3,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "English: from ballooning, where a ballon d'essai is released to see which way the wind blows.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A policy that would be expensive to announce and cheap to deny."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "An unnamed official, a draft that “circulated”, and a story that is neither confirmed nor denied for exactly one day."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the name and the document. A balloon with an author is a policy; one without is a rumour with a schedule."
+      }
+    ],
+    "voice": "An unnamed official, a draft that “circulated”, and a story that is neither confirmed nor denied for exactly one day.",
+    "senses": [
+      "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy.",
+      "It works because denial is free and attention is not. The public pays for the trial with a day of argument, and the office keeps both outcomes - the policy if it flies, the disavowal if it does not. The unnamed source is the mechanism, not the courtesy."
+    ],
+    "notes": [],
+    "example": "“A **trial balloon** went up on a Sunday: a mileage tax, unnamed officials, no bill - and by Wednesday it was ‘not under consideration’.”",
+    "cite": null,
+    "summary": "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy.",
+    "confusedWith": [
+      {
+        "term": "Dead cat",
+        "slug": "dead-cat",
+        "tell": "The dead cat replaces the story in front of you; the trial balloon tests the story you are about to be given.",
+        "path": "/moves/dead-cat/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/"
+      },
+      {
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      },
+      {
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Equivocation",
+        "slug": "equivocation",
+        "path": "/fallacies/equivocation/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Friday news dump",
+    "slug": "friday-news-dump",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/friday-news-dump/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈfraɪ.deɪ njuːz dʌmp/",
+    "position": 16,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English: the hour after the last deadline, when the week's worst news gets filed.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A story that has to be released and must not be discussed."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A 5:40 p.m. Friday email, a PDF with no summary, and a press office that has stopped answering the phone."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Read it on Saturday. Publish the number rather than the timing - the dump only works if the story is allowed to arrive on its own schedule."
+      }
+    ],
+    "voice": "A 5:40 p.m. Friday email, a PDF with no summary, and a press office that has stopped answering the phone.",
+    "senses": [
+      "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired.",
+      "It works because attention has a shape. Friday evening is the bottom of the news week, and a story that lands there gets one cycle instead of five - so the document is public and unnoticed at the same time, which is the whole design.",
+      "The feed has bent this rather than broken it: the release is now permanent and searchable, so the dump no longer hides the story, it only starves it of the attention it would have had."
+    ],
+    "notes": [],
+    "example": "“The settlement went out at 5:47 on a Friday, in a **Friday news dump** with a cover note that said ‘for immediate release’.”",
+    "cite": null,
+    "summary": "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired.",
+    "confusedWith": [
+      {
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "tell": "The nonpology buries the harm in the wording; the dump buries it in the timing.",
+        "path": "/moves/nonpology/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "path": "/moves/trial-balloon/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "path": "/fallacies/argument-from-silence/"
+      }
+    ],
+    "backlinks": []
   },
   {
     "term": "Ad hominem",
@@ -3599,6 +4240,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "path": "/species/trust-me-brofessor/"
@@ -3630,6 +4278,20 @@ export const entries = [
         "term": "Bluecheck",
         "slug": "bluecheck",
         "path": "/buffs/bluecheck/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Frankincense",
+        "slug": "frankincense",
+        "path": "/buffs/frankincense/"
       }
     ]
   },
@@ -3815,6 +4477,13 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Push poll",
+        "slug": "push-poll",
+        "path": "/moves/push-poll/"
       }
     ]
   },
@@ -4356,6 +5025,13 @@ export const entries = [
         "term": "Indictbump",
         "slug": "indictbump",
         "path": "/buffs/indictbump/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Push poll",
+        "slug": "push-poll",
+        "path": "/moves/push-poll/"
       }
     ]
   },
@@ -5304,6 +5980,13 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
       }
     ]
   },
@@ -5407,6 +6090,352 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Blueslip",
+    "slug": "blueslip",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/blueslip/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈbluː.slɪp/",
+    "position": 10,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "English: the slip of blue paper a home-state senator returns, or does not, on a judicial nominee.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Deletes a nominee from the map with a piece of paper that never enters the record."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "A home-state senator on the judiciary committee, with a nominee the president would like confirmed."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Publish the slips, or retire the practice. A veto that leaves no trace cannot be argued with."
+      }
+    ],
+    "voice": "Deletes a nominee from the map with a piece of paper that never enters the record.",
+    "senses": [
+      "Senatorial courtesy as a procedure: the committee asks both home-state senators to return a blue slip on each nominee, and a slip that never comes back is a nomination that never gets a hearing.",
+      "It works because the courtesy is custom, not rule. Nothing requires the committee to honour a withheld slip, which makes the veto real but unattributable - the nominee is not rejected, only never scheduled, and the seat is not empty, only unfilled."
+    ],
+    "notes": [],
+    "example": "“The judge had been confirmed twice before, and never got a hearing - the **blueslip** went out in March and came back in a drawer.”",
+    "cite": null,
+    "summary": "Senatorial courtesy as a procedure: the committee asks both home-state senators to return a blue slip on each nominee, and a slip that never comes...",
+    "confusedWith": [
+      {
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "tell": "The cronycle fills the seat with a friend; the blueslip makes sure the seat stays empty long enough to matter.",
+        "path": "/abilities/cronycle/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
+      },
+      {
+        "term": "Recessure",
+        "slug": "recessure",
+        "path": "/abilities/recessure/"
+      },
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "path": "/fallacies/argument-from-silence/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Recessure",
+    "slug": "recessure",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/recessure/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/rɪˈsɛʃ.ə/",
+    "position": 11,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"recess\" + \"seizure\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Installs an official while the chamber is empty, and calls the emptiness a recess."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "A president, a Senate that has left town, and a vacancy that has been waiting for a vote."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Pro forma sessions. A gavel every few days means the Senate is never in recess, and the appointment never happens."
+      }
+    ],
+    "voice": "Installs an official while the chamber is empty, and calls the emptiness a recess.",
+    "senses": [
+      "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session - a temporary official holding a permanent-looking title.",
+      "It works because recess is a word the Senate can disprove by showing up. The power is real but the trigger is procedural, so the fight is never about the nominee’s qualifications; it is about whether anyone is standing in the chamber to object."
+    ],
+    "notes": [],
+    "example": "“The nominee had been stalled for eight months, so the **recessure** happened on a Tuesday when the Senate was technically out of town, and the oath was administered by Thursday.”",
+    "cite": null,
+    "summary": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session - a...",
+    "confusedWith": [
+      {
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "tell": "The cronycle installs friends with the chamber’s consent; the recessure installs them without it.",
+        "path": "/abilities/cronycle/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
+      },
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      },
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Signaway",
+    "slug": "signaway",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "path": "/abilities/signaway/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˈsaɪn.əˌweɪ/",
+    "position": 12,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 4
+    },
+    "etymology": "Blend of \"signing statement\" + \"sign away\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Signs the law, then publishes a note explaining which parts of it the signature did not mean."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "A president, a bill he cannot afford to veto, and a legal office with a printer."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Read the statement into the record, fund only what the statute says, and let a court decide what the signature bought."
+      }
+    ],
+    "voice": "Signs the law, then publishes a note explaining which parts of it the signature did not mean.",
+    "senses": [
+      "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto that arrives after the bill is already law.",
+      "It works because a signature is the only thing the Constitution actually requires. The statement carries no vote and binds no court, but it is a public instruction to the agencies that have to enforce the statute, and instructions are followed more often than they are litigated."
+    ],
+    "notes": [],
+    "example": "“He signed the oversight bill with a **signaway** attached, and the agency read the note instead of the statute.”",
+    "cite": null,
+    "summary": "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto that...",
+    "confusedWith": [
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "tell": "The pocketveto kills the bill; the signaway keeps the bill and kills the part of it he dislikes.",
+        "path": "/abilities/pocketveto/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/"
+      },
+      {
+        "term": "Omnibust",
+        "slug": "omnibust",
+        "path": "/abilities/omnibust/"
+      },
+      {
+        "term": "Recessure",
+        "slug": "recessure",
+        "path": "/abilities/recessure/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Equivocation",
+        "slug": "equivocation",
+        "path": "/fallacies/equivocation/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Lame duck",
+    "slug": "lame-duck",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/lame-duck/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/leɪm dʌk/",
+    "position": 13,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: from the exchange, where a lame duck was a broker who could not pay - a duck that cannot fly.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Lets a defeated officeholder govern without consequences until a date everybody knows and nobody enforces."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A pardon list, a regulation filed in December, and a press office that has stopped scheduling interviews."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "Inauguration Day, or the moment the successor’s transition team starts answering the phone instead."
+      }
+    ],
+    "voice": "A pardon list, a regulation filed in December, and a press office that has stopped scheduling interviews.",
+    "senses": [
+      "The condition of an officeholder whose replacement is already elected: still holding the powers, no longer holding the future - the stretch between the vote and the oath.",
+      "It works because the clock is the only constraint left. The voters have spoken, the donors have moved on, and the remaining costs are historical - which is why the last weeks of a term produce the pardons, the midnight rules, and the appointments nobody would defend on a ballot."
+    ],
+    "notes": [],
+    "example": "“In six weeks of **lame duck** he issued forty-one pardons, three of them for people who had donated to the transition.”",
+    "cite": null,
+    "summary": "The condition of an officeholder whose replacement is already elected: still holding the powers, no longer holding the future - the stretch between...",
+    "confusedWith": [
+      {
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "tell": "The honeymoan is the grace before the first mistake; the lame duck is the grace after the last election.",
+        "path": "/buffs/honeymoan/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      },
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      },
+      {
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
       }
     ],
     "backlinks": []
@@ -5672,6 +6701,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
         "path": "/species/hypocontortionist/"
@@ -5689,6 +6725,27 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "path": "/abilities/cronycle/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Recessure",
+        "slug": "recessure",
+        "path": "/abilities/recessure/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Lame duck",
+        "slug": "lame-duck",
+        "path": "/buffs/lame-duck/"
       }
     ]
   },
@@ -5953,9 +7010,30 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Bootcurious",
         "slug": "bootcurious",
         "path": "/buffs/bootcurious/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/"
       },
       {
         "rel": "houses",
@@ -6245,6 +7323,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ]
   },
@@ -7265,6 +8350,20 @@ export const entries = [
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
         "path": "/fallacies/appeal-to-emotion/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Dead cat",
+        "slug": "dead-cat",
+        "path": "/moves/dead-cat/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Push poll",
+        "slug": "push-poll",
+        "path": "/moves/push-poll/"
       }
     ],
     "backlinks": []
@@ -7362,6 +8461,471 @@ export const entries = [
     "backlinks": []
   },
   {
+    "term": "Push poll",
+    "slug": "push-poll",
+    "kind": "move",
+    "kindLabel": "Move",
+    "path": "/moves/push-poll/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/pʊʃ pəʊl/",
+    "position": 15,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "English: a survey pushed at you rather than taken from you.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A primary that is closer than the campaign would like, and a phone list."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A survey that asks whether you would still support the candidate ‘if you knew’ something, and never asks anything else."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Demand the script, the sample, and the crosstabs. A poll that cannot produce them was never measuring anything."
+      }
+    ],
+    "voice": "A survey that asks whether you would still support the candidate ‘if you knew’ something, and never asks anything else.",
+    "senses": [
+      "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear’s delivery.",
+      "It works because the form of a poll is a claim to neutrality. Nobody expects a phone survey to persuade them, which is why an accusation delivered in the register of a questionnaire gets past the defence a leaflet would trigger. The polling profession’s own standards body says plainly that a push poll is not a poll - it is telemarketing with a clipboard."
+    ],
+    "notes": [],
+    "example": "“The **push poll** called nine thousand households to ask whether they would still vote for her if they knew about the investigation - there was no investigation, and the poll was the only place it existed.”",
+    "cite": null,
+    "summary": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear’s delivery.",
+    "confusedWith": [
+      {
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "tell": "The biasographer reads the data and finds what it wants; the push poll writes the data it wants read.",
+        "path": "/species/biasographer/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      },
+      {
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Loaded question",
+        "slug": "loaded-question",
+        "path": "/fallacies/loaded-question/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ]
+  },
+  {
+    "term": "Briefing room",
+    "slug": "briefing-room",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/briefing-room/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈbriː.fɪŋ ruːm/",
+    "position": 16,
+    "sort": {
+      "impact": 3,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "English: the room where a government answers the questions it has already chosen.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "A podium, a flag, a bank of cameras, and a seating chart that decides who gets the second question."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Public salary, private ratings: the briefing is free to produce and pays the network in clips."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "‘I’ll circle back to you on that’ - and the next question goes to the front row."
+      }
+    ],
+    "voice": "‘I’ll circle back to you on that’ - and the next question goes to the front row.",
+    "senses": [
+      "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras neither side controls.",
+      "It works because access is the currency on both sides. The reporter needs the room for a quote, the podium needs the room for a clip, and neither can afford to say the questions are not being answered - so the ritual repeats, and the record shows that a press conference happened."
+    ],
+    "notes": [],
+    "example": "“Eleven questions in the **briefing room**, four answered, and the transcript read like a conversation because both sides needed it to.”",
+    "cite": null,
+    "summary": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras neither...",
+    "confusedWith": [
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "tell": "The panel is booked for an argument; the room is booked for an answer, and reliably produces neither.",
+        "path": "/habitats/cable-panel/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "path": "/moves/nonpology/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Spin room",
+    "slug": "spin-room",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/spin-room/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/spɪn ruːm/",
+    "position": 17,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English: 'spin alley', the room behind a debate where each side declares what the audience just saw.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "A hotel ballroom behind the stage, a folding table per campaign, and a camera crew that has to file in twenty minutes."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Free airtime for whichever table talks first, paid for by a debate the network had already sold."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A surrogate declaring victory before the closing statements are over, and a ‘what the American people heard tonight’ that nobody heard."
+      }
+    ],
+    "voice": "A surrogate declaring victory before the closing statements are over, and a ‘what the American people heard tonight’ that nobody heard.",
+    "senses": [
+      "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning’s story.",
+      "It works because the first interpretation usually wins. Viewers form a verdict in minutes and reporters file in minutes, so the campaign that names the story first sets the frame the rest of the coverage has to argue with."
+    ],
+    "notes": [],
+    "example": "“The **spin room** had three tables and four winners, and by midnight the debate was being remembered the way the loudest table had described it.”",
+    "cite": null,
+    "summary": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning’s...",
+    "confusedWith": [
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "tell": "The panel is the argument; the spin room is the verdict about the argument, delivered while it is still happening.",
+        "path": "/habitats/cable-panel/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
+      {
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Rally",
+    "slug": "rally",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "path": "/habitats/rally/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈræl.i/",
+    "position": 18,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "English: from 'rally' - to gather again, and to recover.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "An arena, a rope line, a sound system rented by the hour, and a crowd that arrived in a convoy."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Tickets are free, the merchandise is not, and the footage is worth more than the venue."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A chant the crowd already knows, a pause to let them say it, and a crowd estimate disputed by two police departments."
+      }
+    ],
+    "voice": "A chant the crowd already knows, a pause to let them say it, and a crowd estimate disputed by two police departments.",
+    "senses": [
+      "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back.",
+      "It works because a crowd is evidence. Attendance gets reported as support, the chant gets reported as a position, and the room’s enthusiasm becomes a data point in coverage that has no way to count the people who stayed home."
+    ],
+    "notes": [],
+    "example": "“Twelve thousand in the **rally**, a chant that had been running since the primaries, and a news cycle about the crowd size rather than the speech.”",
+    "cite": null,
+    "summary": "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back.",
+    "confusedWith": [
+      {
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "tell": "Patriotainment sells the seat; the rally gives it away and sells the shirt.",
+        "path": "/habitats/patriotainment/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      },
+      {
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      },
+      {
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Ragesturbationist",
+        "slug": "ragesturbationist",
+        "path": "/species/ragesturbationist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Frankincense",
+    "slug": "frankincense",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "path": "/buffs/frankincense/",
+    "chapter": "fearmongering-grift",
+    "chapterRoman": "IV",
+    "chapterTitle": "Fearmongering, Grift & Algorithmic Radicalization",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈfræŋ.kɪnˌsɛns/",
+    "position": 19,
+    "sort": {
+      "impact": 3,
+      "abuse": 4,
+      "blowback": 2
+    },
+    "etymology": "Blend of \"franking\", the privilege of free official mail, + \"incense\", to inflame",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Lets the bearer write to every voter at public expense, in an envelope that looks like a favour and reads like a campaign."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A glossy mailer from the incumbent, postage paid by the office, with a survey card and a ‘tell me what you think’ that is already a mailing list."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "The day the franking rules are read aloud, or the day the challenger mails the envelope back with the incumbent’s own words circled."
+      }
+    ],
+    "voice": "A glossy mailer from the incumbent, postage paid by the office, with a survey card and a ‘tell me what you think’ that is already a mailing list.",
+    "senses": [
+      "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the reason the mailbox fills before every election.",
+      "It works because the line between official and campaign mail is drawn by the institution that benefits from it. The frank pays for the paper, the constituent sees a letter from their representative, and whether that letter is service or solicitation is decided by a commission of members - which is to say, by the people whose mail it is."
+    ],
+    "notes": [],
+    "example": "“Four **frankincense** mailers in one month, all marked official, all carrying the same photograph, and the challenger’s first ad was a picture of them in a pile.”",
+    "cite": null,
+    "summary": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the...",
+    "confusedWith": [
+      {
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "tell": "The circuit asks for the cheque in person; the frank asks for the vote by post, at public expense.",
+        "path": "/habitats/rubber-chicken-circuit/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      },
+      {
+        "term": "Patriotainer",
+        "slug": "patriotainer",
+        "path": "/species/patriotainer/"
+      },
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
     "term": "Appeal to emotion",
     "slug": "appeal-to-emotion",
     "kind": "fallacy",
@@ -7447,6 +9011,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Dead cat",
+        "slug": "dead-cat",
+        "path": "/moves/dead-cat/"
       },
       {
         "rel": "commits",
@@ -8362,6 +9933,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Convention bounce",
+        "slug": "convention-bounce",
+        "path": "/buffs/convention-bounce/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Gallopologist",
         "slug": "gallopologist",
         "path": "/species/gallopologist/"
@@ -8749,6 +10327,20 @@ export const entries = [
         "term": "Equivangelist",
         "slug": "equivangelist",
         "path": "/species/equivangelist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "path": "/moves/trial-balloon/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
       }
     ]
   },
@@ -9144,6 +10736,13 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Coattails",
+        "slug": "coattails",
+        "path": "/buffs/coattails/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
         "path": "/species/bleatkeeper/"
@@ -9154,6 +10753,20 @@ export const entries = [
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ]
   },

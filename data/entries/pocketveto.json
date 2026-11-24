@@ -1,0 +1,40 @@
+{
+  "term": "Pocketveto",
+  "kind": "ability",
+  "chapter": "performative-identity",
+  "position": 12,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˈpɒk.ɪtˌviː.təʊ/",
+  "etymology": "Blend of \"pocket\" + \"veto\", from the constitutional pocket veto",
+  "effect": "Kills a bill by doing nothing, inside a ten-day window the chamber is not allowed to watch.",
+  "available_to": "A president, a bill passed near the end of a session, and a Congress that has gone home.",
+  "counter": "Stay in session. A pro forma gavel every few days keeps the ten-day clock running and forces the objection into writing.",
+  "confused_with": [
+    {
+      "term": "Filibluster",
+      "tell": "The filibluster stops a bill by refusing to sit down; the pocketveto stops one by standing up and leaving."
+    }
+  ],
+  "senses": [
+    "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill is simply not law - no message, no veto to override, no vote to defend.",
+    "It works because absence is not an act. A regular veto is a public document that invites a two-thirds fight; a pocket veto is a calendar, and there is nobody to argue with. The clause was written for a president travelling by horse, and it still works because Congress still goes home."
+  ],
+  "notes": [],
+  "example": "*\"The bill passed in December, the president went to Camp David, and the **pocketveto** did what a veto message could not - it ended the argument without leaving a record to run against.\"*",
+  "related": [
+    "Signaway",
+    "Omnibust",
+    "Recessure"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argument from silence"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 4
+  }
+}
