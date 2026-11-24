@@ -8,6 +8,7 @@ import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import FieldGuide from './pages/FieldGuide.jsx'
 import Species from './pages/Species.jsx'
+import Contribute from './pages/Contribute.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function ScrollToTop() {
@@ -31,6 +32,7 @@ export default function AppLayout() {
           <Route path="/" element={<Home />} />
           <Route path="/species" element={<FieldGuide />} />
           <Route path="/species/:slug" element={<Species />} />
+          <Route path="/contribute" element={<Contribute />} />
           {/* one Route per ssr.config.js entry; species routes share this one */}
           <Route path="*" element={<NotFound />} />
         </Routes>

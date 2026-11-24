@@ -1,0 +1,106 @@
+# Generated from schema/record.json by build_schema.py - edit the schema, not this file.
+name: "New species"
+description: "Propose a creature for the Civic Bestiary"
+title: "[New species] "
+labels: ["new-term"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for proposing a term. Fill in what you can - the maintainers handle placement, cross-references, and the final edit. One proposal per issue, please."
+  - type: input
+    id: term
+    attributes:
+      label: "Term"
+      description: "The portmanteau, spelled the way it should be listed. Title case, no quotes."
+      placeholder: "Playtriot"
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: "Order"
+      description: "Which order the creature keeps. The maintainers will move it if it belongs elsewhere."
+      options:
+        - "I. Performative Identity & Weaponized Liberty"
+        - "II. Bad-Faith Debate & Epistemic Breakdown"
+        - "III. Hypocrisy, Revisionism & Authoritarian Submission"
+        - "IV. Fearmongering, Grift & Algorithmic Radicalization"
+    validations:
+      required: true
+  - type: dropdown
+    id: part_of_speech
+    attributes:
+      label: "Part of speech"
+      description: "What the term is grammatically. Most are nouns."
+      options:
+        - "noun"
+        - "adjective"
+        - "verb"
+        - "adverb"
+    validations:
+      required: true
+  - type: input
+    id: ipa
+    attributes:
+      label: "Pronunciation"
+      description: "IPA between slashes. Approximate is fine."
+      placeholder: "/ˈpleɪ.tri.ət/"
+    validations:
+      required: true
+  - type: input
+    id: etymology
+    attributes:
+      label: "Etymology"
+      description: "Where the word came from, in one line. Name both parents if it is a blend."
+      placeholder: "Blend of \"play\" + \"patriot\""
+    validations:
+      required: true
+  - type: input
+    id: range
+    attributes:
+      label: "Range"
+      description: "Where you meet it. Concrete places, not abstractions - truck beds, county fairs, a specific comment section."
+      placeholder: "Truck beds, county fairs, and the comment section under any local news post."
+    validations:
+      required: true
+  - type: input
+    id: call
+    attributes:
+      label: "Call"
+      description: "The thing it says. A short quotation, ideally something you have actually heard."
+      placeholder: "\"Do you support the troops?\""
+    validations:
+      required: true
+  - type: textarea
+    id: field_marks
+    attributes:
+      label: "Field marks"
+      description: "How you recognise it at a distance. Three is the house number; one per line."
+      placeholder: "Flag decal on a leased vehicle"
+    validations:
+      required: true
+  - type: textarea
+    id: senses
+    attributes:
+      label: "Senses"
+      description: "Two definitions: the creature, then the pattern it runs. Full sentences, one per line. The first sense becomes the page description, so make it stand alone."
+      placeholder: "A citizen who performs patriotism as a shield while undermining the civic obligations it claims to honour."
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: "Example"
+      description: "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside."
+      placeholder: "*\"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.\"*"
+    validations:
+      required: true
+  - type: textarea
+    id: confused_with
+    attributes:
+      label: "Easily confused with"
+      description: "Existing terms it could be mistaken for, and the one thing that tells them apart. Optional at proposal time - the maintainers add twins when the confusion is real."
+      placeholder: "LARPtarian - both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle."
+  - type: markdown
+    attributes:
+      value: "A proposal lands as a record under `data/species/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."

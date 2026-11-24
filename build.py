@@ -24,10 +24,12 @@ SPECIES = DATA / "species"
 OUTPUT = ROOT / "README.md"
 
 BANNER = "<!-- Generated from data/ by build.py - edit the records, not this file. -->"
-REQUIRED = (
-    "term", "section", "part_of_speech", "ipa", "etymology",
-    "range", "call", "field_marks", "confused_with", "senses", "example", "related",
-)
+
+# The record contract lives in schema/record.json, because the issue form and the
+# contribute page derive from it too. Requiring a field here without adding it
+# there would mean a contributor cannot supply what the validator demands.
+SCHEMA = json.loads((ROOT / "schema" / "record.json").read_text(encoding="utf-8"))
+REQUIRED = tuple(field["key"] for field in SCHEMA["fields"] if field.get("required"))
 
 
 def slugify(text):

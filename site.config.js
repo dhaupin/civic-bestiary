@@ -40,11 +40,13 @@ export default {
   // --- nav vocabulary -----------------------------------------------------
   // ONE list the header, the burger sidebar, and the footer render from.
   nav: [
-    { label: 'Field guide', to: '/species', group: 'site' },
+    { label: 'Field guide', to: '/species/', group: 'site' },
+    { label: 'Contribute', to: '/contribute/', group: 'site' },
     { label: 'GitHub', href: REPO, group: 'out' },
   ],
+  // GitHub already reaches the repo through the nav vocabulary, so the footer
+  // carries only what that link does not: the license.
   footerExtras: [
-    { label: 'Source', href: REPO },
     { label: 'License', href: `${REPO}/blob/main/LICENSE` },
   ],
 
@@ -60,6 +62,16 @@ export default {
         title: 'The Civic Bestiary - creatures of the body politic',
         description:
           'A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.',
+      },
+    },
+    {
+      path: '/contribute/',
+      priority: '0.6',
+      changefreq: 'yearly',
+      meta: {
+        title: 'Propose a term | The Civic Bestiary',
+        description:
+          'How to add a creature to the bestiary: what the record contract asks for, and where to send the proposal.',
       },
     },
     {

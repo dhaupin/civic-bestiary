@@ -13,7 +13,7 @@ import { alphabet, entries, matches, sections, stats } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
 
 export default function FieldGuide() {
-  const meta = routeMeta('/species')
+  const meta = routeMeta('/species/')
   usePageMeta({ siteUrl: site.url, path: '/species/', title: meta.title, description: meta.description })
 
   const [query, setQuery] = useState('')
@@ -138,6 +138,11 @@ export default function FieldGuide() {
             </div>
           )
         })}
+
+        <p className="guide-note">
+          Missing a creature you keep running into?{' '}
+          <Link to="/contribute/">Propose a term</Link> - the form asks what the record needs.
+        </p>
       </div>
     </section>
   )

@@ -97,13 +97,6 @@ a:hover { color: var(--accent-deep); }
 }
 .nav-inner { display: flex; align-items: center; gap: 22px; height: 62px; }
 .nav-right { display: flex; align-items: center; gap: 6px; margin-left: auto; }
-.nav-icon {
-  display: flex; align-items: center; justify-content: center;
-  background: none; border: none; border-radius: 4px; color: var(--ink-soft);
-  padding: 7px; cursor: pointer;
-}
-.nav-icon:hover { color: var(--accent); }
-.nav-icon svg { width: 18px; height: 18px; display: block; }
 .theme-switch {
   display: flex; align-items: center; justify-content: center;
   background: none; border: 1px solid transparent; border-radius: 4px;
@@ -497,6 +490,65 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
 .nf { padding: 110px 0; text-align: center; }
 .nf h1 { font-family: var(--font-display); font-size: 64px; margin: 0 0 8px; letter-spacing: -0.03em; }
 .nf p { color: var(--ink-soft); margin: 0 0 24px; }
+
+/* --- contribute ---------------------------------------------------------- */
+.guide-note {
+  margin: 34px 0 0; padding-top: 20px; border-top: 1px solid var(--line);
+  color: var(--ink-soft); font-size: 15.5px;
+}
+.guide-note a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
+.contribute-steps {
+  list-style: none; margin: 34px 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
+}
+.contribute-steps li {
+  position: relative; padding: 22px 22px 20px;
+  background: var(--raised); border: 1px solid var(--line); border-radius: 6px;
+}
+.contribute-steps h2 { font-size: 19px; margin: 10px 0 6px; }
+.contribute-steps p { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.55; }
+.step-no {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em;
+  color: var(--accent);
+}
+.contribute .cta-row { margin: 30px 0 8px; }
+.contribute-grid {
+  margin-top: 34px; padding-top: 30px; border-top: 1px solid var(--rule);
+  display: grid; grid-template-columns: 1.15fr 1fr; gap: 46px;
+}
+.contribute .contribute-h {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-soft); margin: 0 0 16px;
+}
+.contribute-note { color: var(--ink-soft); font-size: 14.5px; margin: 0 0 14px; }
+.contribute-note code {
+  font-family: var(--font-mono); font-size: 13px; color: var(--ink);
+  background: var(--raised); padding: 1px 5px; border-radius: 3px;
+}
+.contract { margin: 0; display: grid; gap: 15px; }
+.contract > div {
+  display: grid; grid-template-columns: 148px 1fr; gap: 18px; align-items: baseline;
+  padding-bottom: 14px; border-bottom: 1px solid var(--line);
+}
+.contract > div:last-child { border-bottom: none; padding-bottom: 0; }
+.contract dt { font-size: 15px; font-weight: 600; }
+.contract dd { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.5; }
+.contract-req {
+  display: block; margin-top: 3px; font-family: var(--font-mono);
+  font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent);
+}
+.contract-eg {
+  display: block; margin-top: 5px; font-family: var(--font-mono); font-size: 12.5px;
+  color: var(--ink); opacity: 0.72; overflow-wrap: anywhere;
+}
+.contract-list { margin: 0; padding-left: 18px; color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; }
+.contract-list strong { color: var(--ink); }
+
+@media (max-width: 780px) {
+  .contribute-steps { grid-template-columns: 1fr; }
+  .contribute-grid { grid-template-columns: 1fr; gap: 30px; }
+  .contract > div { grid-template-columns: 1fr; gap: 4px; }
+}
 
 @media (max-width: 640px) {
   body { font-size: 16.5px; }
