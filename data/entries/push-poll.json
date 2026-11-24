@@ -1,0 +1,44 @@
+{
+  "term": "Push poll",
+  "kind": "move",
+  "chapter": "fearmongering-grift",
+  "position": 15,
+  "part_of_speech": "noun / verb",
+  "ipa": "/pʊʃ pəʊl/",
+  "etymology": "English: a survey pushed at you rather than taken from you.",
+  "trigger": "A primary that is closer than the campaign would like, and a phone list.",
+  "tell": "A survey that asks whether you would still support the candidate 'if you knew' something, and never asks anything else.",
+  "counter": "Demand the script, the sample, and the crosstabs. A poll that cannot produce them was never measuring anything.",
+  "confused_with": [
+    {
+      "term": "Biasographer",
+      "tell": "The biasographer reads the data and finds what it wants; the push poll writes the data it wants read."
+    }
+  ],
+  "senses": [
+    "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery.",
+    "It works because the form of a poll is a claim to neutrality. Nobody expects a phone survey to persuade them, which is why an accusation delivered in the register of a questionnaire gets past the defence a leaflet would trigger. The polling profession's own standards body says plainly that a push poll is not a poll - it is telemarketing with a clipboard."
+  ],
+  "notes": [],
+  "example": "*\"The **push poll** called nine thousand households to ask whether they would still vote for her if they knew about the investigation - there was no investigation, and the poll was the only place it existed.\"*",
+  "related": [
+    "Slopagandist",
+    "Rally",
+    "The Feed"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Loaded question"
+    },
+    {
+      "rel": "commits",
+      "to": "Poisoning the well"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

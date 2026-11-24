@@ -42,6 +42,14 @@
     {
       "rel": "houses",
       "to": "Appeal to emotion"
+    },
+    {
+      "rel": "houses",
+      "to": "Dead cat"
+    },
+    {
+      "rel": "houses",
+      "to": "Push poll"
     }
   ],
   "sort": {

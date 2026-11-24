@@ -285,6 +285,12 @@ def render(doc):
     blocks.append(("prose", render_index(doc, anchors)))
 
     out = [BANNER, "", f"# {doc['title']}", "", doc["description"]]
+    if doc.get("site"):
+        line = f"**[Read the field guide]({doc['site']})**"
+        publisher = doc.get("publisher")
+        if publisher:
+            line += f" - published by [{publisher['name']}]({publisher['url']})"
+        out.extend(["", line])
     if doc.get("preface"):
         out.extend(["", "## Preface"])
         for paragraph in doc["preface"]:
