@@ -13,7 +13,7 @@
     "Offers the provisional ballot before the argument starts",
     "Knows the closing time and the recount rule"
   ],
-  "keystone": "Without them the ballot is a rumour and the count is an assertion. The Sovereign Shillizen needs an empty table to make 'I do not consent' sound like law; the poll worker is the person who fills it.",
+  "keystone": "Without them the ballot is a rumour and the count is an assertion. The Critizen needs an empty table to make 'That doesn't apply to me' sound like law; the poll worker is the person who fills it.",
   "confused_with": [
     {
       "term": "The clerk",
@@ -38,7 +38,7 @@
     },
     {
       "rel": "counters",
-      "to": "Sovereign Shillizen"
+      "to": "Critizen"
     },
     {
       "rel": "counters",

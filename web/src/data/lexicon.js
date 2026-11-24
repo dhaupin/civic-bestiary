@@ -328,7 +328,7 @@ export const chapters = [
       "playtriot",
       "freetard",
       "larptarian",
-      "sovereign-shillizen",
+      "critizen",
       "sabotriot",
       "patriotainment",
       "patriotainer",
@@ -730,10 +730,10 @@ export const entries = [
     "summary": "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
     "confusedWith": [
       {
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "tell": "The freetard wants no rules; the shillizen insists there already are none that apply to him.",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "tell": "The freetard wants no rules; the critizen insists there already are none that apply to him.",
+        "path": "/species/critizen/"
       }
     ],
     "related": [
@@ -841,9 +841,9 @@ export const entries = [
     ],
     "related": [
       {
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
       },
       {
         "term": "Bootcurious",
@@ -897,43 +897,43 @@ export const entries = [
     ]
   },
   {
-    "term": "Sovereign Shillizen",
-    "slug": "sovereign-shillizen",
+    "term": "Critizen",
+    "slug": "critizen",
     "kind": "species",
     "kindLabel": "Species",
-    "path": "/species/sovereign-shillizen/",
+    "path": "/species/critizen/",
     "chapter": "performative-identity",
     "chapterRoman": "I",
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
-    "ipa": "/ˈsɒv.rɪn ˈʃɪl.ɪ.zən/",
+    "ipa": "/ˈkrɪt.ɪ.zən/",
     "position": 4,
     "sort": {
       "impact": 4,
-      "abuse": 2,
+      "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of \"sovereign citizen\" + \"shill\"",
+    "etymology": "Blend of \"critic\" + \"citizen\" - the citizen whose critique of the rules exempts them from the rules",
     "identification": [
       {
         "key": "occasion",
         "label": "Occasion",
         "type": "text",
-        "value": "A form that has to be signed, at a counter, with a queue behind it."
+        "value": "An obligation with a form attached, a deadline behind it, and a queue that has already started moving."
       },
       {
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“I do not consent.”"
+        "value": "“That doesn’t apply to me.”"
       },
       {
         "key": "tell",
         "label": "Tell",
         "type": "list",
         "value": [
-          "Hand-lettered plate, no registration",
-          "Argues in maritime law",
+          "Names the defect in the rule, never the rule",
+          "Hand-lettered plate, unsigned form, unworn lanyard",
           "Owes back taxes on principle"
         ]
       },
@@ -941,23 +941,28 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask which law, and read it. Consent is a doctrine with a text, and the text is not on the hand-lettered plate."
+        "value": "Ask for the citation, then read it aloud. Every defect this species alleges has an address, and the claim rarely survives being read in the room where it was made."
       }
     ],
-    "voice": "“I do not consent.”",
+    "voice": "“That doesn’t apply to me.”",
     "senses": [
-      "The pattern of declining a legal obligation by asserting a law that does not exist: the form unsigned, the fee unpaid, the statute quoted from nowhere.",
-      "It works because the counter is a queue and a deadline rather than an argument - and the queue is where the claim either meets a text or meets a closing time."
+      "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation, the permit argued instead of filed.",
+      "It works because a rule is cheaper to dispute than to obey - the objection costs a sentence and the deadline costs a day - and a defect, once named, sounds like diligence rather than exemption."
     ],
-    "notes": [],
-    "example": "“After getting pulled over with fake license plates, the **sovereign shillizen** tried to hand the officer a ‘fee schedule’ he bought from an online guru.”",
+    "notes": [
+      {
+        "label": "Former name",
+        "text": "Formerly **Sovereign Shillizen**, a name that aimed at the shill and missed the wider species: the shillizen is one costume the critizen wears, and not the most common one."
+      }
+    ],
+    "example": "“Pulled over on plates he had printed himself, the **critizen** explained that he was travelling rather than driving, and that the officer was a corporation.”",
     "cite": null,
-    "summary": "The pattern of declining a legal obligation by asserting a law that does not exist: the form unsigned, the fee unpaid, the statute quoted from...",
+    "summary": "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation...",
     "confusedWith": [
       {
         "term": "Freetard",
         "slug": "freetard",
-        "tell": "The shillizen files paperwork to escape the law; the freetard simply ignores it.",
+        "tell": "The critizen has a theory about why the rule is void; the freetard has a feeling that it should be.",
         "path": "/species/freetard/"
       }
     ],
@@ -2958,9 +2963,9 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
       },
       {
         "rel": "commits",
@@ -5911,9 +5916,9 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
       },
       {
         "rel": "commits",
@@ -7605,10 +7610,10 @@ export const entries = [
     "summary": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing...",
     "confusedWith": [
       {
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "tell": "The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in.",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "tell": "The critizen believes the law does not apply; the crookmaxxer knows it does and prices it in.",
+        "path": "/species/critizen/"
       }
     ],
     "related": [
@@ -13725,9 +13730,9 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
       },
       {
         "rel": "commits",
@@ -14868,7 +14873,7 @@ export const entries = [
         "key": "keystone",
         "label": "Keystone",
         "type": "text",
-        "value": "Without them the ballot is a rumour and the count is an assertion. The Sovereign Shillizen needs an empty table to make ‘I do not consent’ sound like law; the poll worker is the person who fills it."
+        "value": "Without them the ballot is a rumour and the count is an assertion. The Critizen needs an empty table to make ‘That doesn’t apply to me’ sound like law; the poll worker is the person who fills it."
       }
     ],
     "voice": "“Name and address, please.”",
@@ -14911,9 +14916,9 @@ export const entries = [
       {
         "rel": "counters",
         "label": "Counters",
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
       },
       {
         "rel": "counters",
@@ -16234,9 +16239,9 @@ export const entries = [
       {
         "rel": "counters",
         "label": "Counters",
-        "term": "Sovereign Shillizen",
-        "slug": "sovereign-shillizen",
-        "path": "/species/sovereign-shillizen/"
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
       },
       {
         "rel": "counters",

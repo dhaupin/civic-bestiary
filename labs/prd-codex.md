@@ -275,6 +275,5 @@ typed into a document is a number that goes stale; there are none in this one.
 - **Hosting the contract.** This document is served as raw markdown from
   `/labs/`. If it becomes a front-door page, it needs a rendered route and a
   markdown pipeline rather than a copy step.
-- **Naming.** At least one species name is due to be replaced (see TASKS).
 - **Scale.** The guide is hand-curated on purpose. If contributions open up, the
   graph invariants - not the prose - become the bottleneck.

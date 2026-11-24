@@ -24,7 +24,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
   - [1. Playtriot](#1-playtriot)
   - [2. Freetard](#2-freetard)
   - [3. LARPtarian](#3-larptarian)
-  - [4. Sovereign Shillizen](#4-sovereign-shillizen)
+  - [4. Critizen](#4-critizen)
   - [5. Sabotriot](#5-sabotriot)
   - [6. Patriotainment](#6-patriotainment)
   - [7. Patriotainer](#7-patriotainer)
@@ -229,7 +229,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Etymology & Usage Note:** Derived from the traditional verb *retard* (as in *fire-retardant*), signifying an understanding of freedom actively slowed or stunted by external agendas. Because the suffix *-tard* is commonly used online as an ableist slur, readers unfamiliar with this specific root framing may still interpret the word as derogatory without context.
 * **Example:** *"Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right."*
-* **Easily confused with:** *Sovereign Shillizen* - The freetard wants no rules; the shillizen insists there already are none that apply to him.
+* **Easily confused with:** *Critizen* - The freetard wants no rules; the critizen insists there already are none that apply to him.
 * **Commits:** [*Appeal to nature*](#21-appeal-to-nature), [*Two wrongs make a right*](#83-two-wrongs-make-a-right)
 * **Related Terms:** [*LARPtarian*](#3-larptarian), [*Playtriot*](#1-playtriot)
 
@@ -250,24 +250,25 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior."*
 * **Easily confused with:** *Playtriot* - The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer.
 * **Commits:** [*No true Scotsman*](#19-no-true-scotsman), [*Appeal to tradition*](#20-appeal-to-tradition), [*Appeal to the stone*](#135-appeal-to-the-stone), [*Survivorship bias*](#115-survivorship-bias)
-* **Related Terms:** [*Sovereign Shillizen*](#4-sovereign-shillizen), [*Bootcurious*](#67-bootcurious), [*Freetard*](#2-freetard)
+* **Related Terms:** [*Critizen*](#4-critizen), [*Bootcurious*](#67-bootcurious), [*Freetard*](#2-freetard)
 
 ---
 
-### 4. Sovereign Shillizen
-*(noun)* `/ˈsɒv.rɪn ˈʃɪl.ɪ.zən/` - *species*  
-*Blend of "sovereign citizen" + "shill"*
+### 4. Critizen
+*(noun)* `/ˈkrɪt.ɪ.zən/` - *species*  
+*Blend of "critic" + "citizen" - the citizen whose critique of the rules exempts them from the rules*
 
-**Occasion:** A form that has to be signed, at a counter, with a queue behind it.  
-**Call:** "I do not consent."  
-**Tell:** Hand-lettered plate, no registration · Argues in maritime law · Owes back taxes on principle  
-**Counter:** Ask which law, and read it. Consent is a doctrine with a text, and the text is not on the hand-lettered plate.  
+**Occasion:** An obligation with a form attached, a deadline behind it, and a queue that has already started moving.  
+**Call:** "That doesn't apply to me."  
+**Tell:** Names the defect in the rule, never the rule · Hand-lettered plate, unsigned form, unworn lanyard · Owes back taxes on principle  
+**Counter:** Ask for the citation, then read it aloud. Every defect this species alleges has an address, and the claim rarely survives being read in the room where it was made.  
 
-1. The pattern of declining a legal obligation by asserting a law that does not exist: the form unsigned, the fee unpaid, the statute quoted from nowhere.
-2. It works because the counter is a queue and a deadline rather than an argument - and the queue is where the claim either meets a text or meets a closing time.
+1. The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation, the permit argued instead of filed.
+2. It works because a rule is cheaper to dispute than to obey - the objection costs a sentence and the deadline costs a day - and a defect, once named, sounds like diligence rather than exemption.
 
-* **Example:** *"After getting pulled over with fake license plates, the **sovereign shillizen** tried to hand the officer a 'fee schedule' he bought from an online guru."*
-* **Easily confused with:** *Freetard* - The shillizen files paperwork to escape the law; the freetard simply ignores it.
+* **Former name:** Formerly **Sovereign Shillizen**, a name that aimed at the shill and missed the wider species: the shillizen is one costume the critizen wears, and not the most common one.
+* **Example:** *"Pulled over on plates he had printed himself, the **critizen** explained that he was travelling rather than driving, and that the officer was a corporation."*
+* **Easily confused with:** *Freetard* - The critizen has a theory about why the rule is void; the freetard has a feeling that it should be.
 * **Commits:** [*Equivocation*](#126-equivocation), [*Argument from ignorance*](#51-argument-from-ignorance), [*I'm entitled to my opinion*](#24-im-entitled-to-my-opinion)
 * **Related Terms:** [*LARPtarian*](#3-larptarian), [*Crookmaxxing*](#68-crookmaxxing), [*Playtriot*](#1-playtriot)
 
@@ -1468,7 +1469,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 2. *(verb)* Aggressively projecting one's own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity.
 
 * **Example:** *"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**."*
-* **Easily confused with:** *Sovereign Shillizen* - The shillizen believes the law does not apply; the crookmaxxer knows it does and prices it in.
+* **Easily confused with:** *Critizen* - The critizen believes the law does not apply; the crookmaxxer knows it does and prices it in.
 * **Commits:** [*Two wrongs make a right*](#83-two-wrongs-make-a-right), [*Whataboutism*](#128-whataboutism)
 * **Related Terms:** [*Hypocontortionist*](#65-hypocontortionist), [*Ragesturbationist*](#91-ragesturbationist)
 
@@ -2766,14 +2767,14 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Office:** The roll, the provisional ballot, and the chain of custody that starts when the box is sealed.  
 **Call:** "Name and address, please."  
 **Tell:** Reads the instruction card out loud · Offers the provisional ballot before the argument starts · Knows the closing time and the recount rule  
-**Keystone:** Without them the ballot is a rumour and the count is an assertion. The Sovereign Shillizen needs an empty table to make 'I do not consent' sound like law; the poll worker is the person who fills it.  
+**Keystone:** Without them the ballot is a rumour and the count is an assertion. The Critizen needs an empty table to make 'That doesn't apply to me' sound like law; the poll worker is the person who fills it.  
 
 1. The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job is temporary and public, which is the point: the count is run by neighbours who can be watched.
 2. It works because every ballot that crosses the table is accounted for by two people who are allowed to disagree. The whole apparatus exists so that a stranger with a clipboard can prove the number is right, months later, without trusting anybody.
 
 * **Example:** *"The scanner jammed at nine, and the **poll worker** did what the training had covered: sealed the bin, called the county, and read the numbers into the log with an observer watching."*
 * **Easily confused with:** *The clerk* - The clerk records what the body did; the poll worker records what the voter did, one name at a time.
-* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen), [*Playtriot*](#1-playtriot)
+* **Counters:** [*Critizen*](#4-critizen), [*Playtriot*](#1-playtriot)
 * **Practises:** [*The public count*](#149-the-public-count)
 * **Related Terms:** [*The public count*](#149-the-public-count), [*The auditor*](#143-the-auditor)
 
@@ -3008,7 +3009,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted."*
 * **Easily confused with:** *The audit* - The count is watched while it happens; the audit checks it afterwards, on a sample.
-* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen), [*Rally*](#106-rally)
+* **Counters:** [*Critizen*](#4-critizen), [*Rally*](#106-rally)
 * **Related Terms:** [*The poll worker*](#137-the-poll-worker), [*Records request*](#144-records-request)
 
 ---
@@ -3367,6 +3368,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Consent decree](#82-consent-decree)
 - [Convention bounce](#15-convention-bounce)
 - [Crisisglow](#99-crisisglow)
+- [Critizen](#4-critizen)
 - [Cronycle](#71-cronycle)
 - [Crookmaxxing](#68-crookmaxxing)
 - [Cross-examination](#162-cross-examination)
@@ -3448,7 +3450,6 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Slippery slope](#18-slippery-slope)
 - [Slopagandist](#95-slopagandist)
 - [Sophistroll](#25-sophistroll)
-- [Sovereign Shillizen](#4-sovereign-shillizen)
 - [Special pleading](#85-special-pleading)
 - [Spin room](#105-spin-room)
 - [Straw man](#46-straw-man)
