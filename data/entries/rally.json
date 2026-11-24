@@ -42,6 +42,10 @@
     {
       "rel": "houses",
       "to": "Appeal to force"
+    },
+    {
+      "rel": "houses",
+      "to": "Provocrop"
     }
   ],
   "sort": {

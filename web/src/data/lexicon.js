@@ -13,12 +13,12 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 165,
-  "coinages": 78,
+  "entries": 167,
+  "coinages": 80,
   "fallacies": 57,
   "chapters": 6,
   "kinds": {
-    "species": 24,
+    "species": 26,
     "move": 14,
     "ability": 17,
     "habitat": 12,
@@ -476,8 +476,10 @@ export const chapters = [
     "id": "normalization",
     "roman": "V",
     "title": "Normalization, Numbness & the Noise Floor",
-    "note": "Every other chapter files its fallacies under the characters who commit them. This one has no characters, because the character is the room. These are the errors that turn up everywhere - the exhaustion, the deflection, the shrug - and a fallacy nobody owns is one nobody flinches at any more. Normalization is what a body politic does with the unacceptable once the flinching stops.",
+    "note": "Every other chapter points at a character and the errors they commit. This one points at the room. Its species are the ones who keep the room exactly as it is - the temperature managed, the slogan worn - and its fallacies are the errors no single character owns, because every chapter uses them. A fallacy nobody owns is one nobody flinches at any more. Normalization is what a body politic does with the unacceptable once the flinching stops.",
     "slugs": [
+      "passoffist",
+      "provocrop",
       "hasty-generalization",
       "cherry-picking",
       "false-equivalence",
@@ -10822,6 +10824,13 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
       }
     ],
     "backlinks": [
@@ -11790,6 +11799,13 @@ export const entries = [
         "term": "Appeal to force",
         "slug": "appeal-to-force",
         "path": "/fallacies/appeal-to-force/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/"
       }
     ],
     "backlinks": [
@@ -13264,6 +13280,226 @@ export const entries = [
     ]
   },
   {
+    "term": "Passoffist",
+    "slug": "passoffist",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/passoffist/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈpæs.ɒf.ɪst/",
+    "position": 1,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Blend of \"pass off\" + \"pacifist\" - the peacemaker whose peace is the subject never coming up",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A table where the subject has just arrived, and one person has decided the evening will not be about it."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Let’s not make this political.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Has a view on everything except the thing just said",
+          "Asks both sides to calm down, and means one",
+          "Calls the argument the problem, never the claim"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what they think, not what should be done. Neutrality is a position on someone else’s fight, and it survives only while the question stays about them: put it in the first person and the passoffist has to pick a side, which is the thing the mediating was for."
+      }
+    ],
+    "voice": "“Let’s not make this political.”",
+    "senses": [
+      "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the view never tested because it was never said.",
+      "It works because a mediator is handed authority over a dispute without having to enter it, so the passoffist gets the standing of a neutral and the safety of a partisan - a seat at the table that never requires a vote."
+    ],
+    "notes": [],
+    "example": "“Asked what she thought of the removals, the **passoffist** observed that everyone was getting very heated, and suggested they talk about something else.”",
+    "cite": null,
+    "summary": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the...",
+    "confusedWith": [
+      {
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "tell": "Both end the argument without answering it: the decorumancer objects to the volume, the passoffist to the subject.",
+        "path": "/species/decorumancer/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/"
+      },
+      {
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "False equivalence",
+        "slug": "false-equivalence",
+        "path": "/fallacies/false-equivalence/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ]
+  },
+  {
+    "term": "Provocrop",
+    "slug": "provocrop",
+    "kind": "species",
+    "kindLabel": "Species",
+    "path": "/species/provocrop/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈprɒv.ə.krɒp/",
+    "position": 2,
+    "sort": {
+      "impact": 3,
+      "abuse": 5,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"provocation\" + \"sharecropper\" - works a field of someone else's outrage and keeps a share of the crop",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A merchandise table at the back of a rally, and a slogan that was a headline this morning."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“It’s just a shirt.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Wears the argument instead of making it",
+          "Knows the slogan, not the policy behind it",
+          "Buys the take from the people who sell it"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask what they would vote for, not what they would wear. The provocrop holds the position on loan - the crop is someone else’s, worn for the charge it carries - and a question about the policy calls in the rent."
+      }
+    ],
+    "voice": "“It’s just a shirt.”",
+    "senses": [
+      "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the charge it carries rather than for anything it commits the wearer to.",
+      "It works because a shirt is a claim with no obligation attached. The take arrives ready-made, the reaction is immediate, nothing is asked of the wearer, and the rent for all of it is paid in what the room now finds normal."
+    ],
+    "notes": [],
+    "example": "“Tucked into dad jeans at the hardware store, the **provocrop** was wearing this morning’s headline and had not read past it.”",
+    "cite": null,
+    "summary": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the charge...",
+    "confusedWith": [
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "tell": "The slopagandist makes the take; the provocrop buys it by the shirt.",
+        "path": "/species/slopagandist/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      },
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to ridicule",
+        "slug": "appeal-to-ridicule",
+        "path": "/fallacies/appeal-to-ridicule/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      }
+    ]
+  },
+  {
     "term": "Hasty generalization",
     "slug": "hasty-generalization",
     "kind": "fallacy",
@@ -13274,7 +13510,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 1,
+    "position": 101,
     "sort": {
       "impact": 5,
       "abuse": 4,
@@ -13377,7 +13613,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 2,
+    "position": 102,
     "sort": {
       "impact": 5,
       "abuse": 4,
@@ -13487,7 +13723,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 3,
+    "position": 103,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -13562,6 +13798,13 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
       }
     ]
   },
@@ -13576,7 +13819,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 4,
+    "position": 104,
     "sort": {
       "impact": 3,
       "abuse": 4,
@@ -13665,7 +13908,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 5,
+    "position": 105,
     "sort": {
       "impact": 3,
       "abuse": 3,
@@ -13775,7 +14018,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 6,
+    "position": 106,
     "sort": {
       "impact": 3,
       "abuse": 5,
@@ -13885,7 +14128,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 7,
+    "position": 107,
     "sort": {
       "impact": 4,
       "abuse": 5,
@@ -13988,7 +14231,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 8,
+    "position": 108,
     "sort": {
       "impact": 3,
       "abuse": 4,
@@ -14070,6 +14313,13 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/"
       }
     ]
   },
@@ -14084,7 +14334,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 9,
+    "position": 109,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -14194,6 +14444,20 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/"
       }
     ]
   },
@@ -14208,7 +14472,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 10,
+    "position": 110,
     "sort": {
       "impact": 4,
       "abuse": 5,
@@ -14290,6 +14554,20 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/"
       }
     ]
   },
@@ -14304,7 +14582,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 11,
+    "position": 111,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -14400,7 +14678,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 12,
+    "position": 112,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -14510,7 +14788,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 13,
+    "position": 113,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -14627,7 +14905,7 @@ export const entries = [
     "chapterTitle": "Normalization, Numbness & the Noise Floor",
     "partOfSpeech": "noun",
     "ipa": null,
-    "position": 14,
+    "position": 114,
     "sort": {
       "impact": 2,
       "abuse": 4,
