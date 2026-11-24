@@ -2,7 +2,7 @@
 
 # The Civic Bestiary
 
-A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.
+A field guide to the creatures of the body politic: 28 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization.
 
 ## Preface
 

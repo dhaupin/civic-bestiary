@@ -2,7 +2,7 @@
 
 export const meta = {
   "title": "The Civic Bestiary",
-  "description": "A field guide to the creatures of the body politic: 27 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization."
+  "description": "A field guide to the creatures of the body politic: 28 portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization."
 }
 
 export const preface = [
