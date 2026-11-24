@@ -1,0 +1,45 @@
+{
+  "term": "The public count",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 14,
+  "part_of_speech": "noun",
+  "ipa": "/ðə ˈpʌb.lɪk kaʊnt/",
+  "etymology": "English: the count of ballots in a room with watchers - the oldest audit there is.",
+  "effect": "Counts in a room anyone can watch, and publishes the number the room saw.",
+  "costs": "Time, observers, and a process slow enough to be watched.",
+  "failure": "The observers who are told where to stand, and the tally reconciled in a room with no windows.",
+  "tell": [
+    "Observers with a legal right to be there",
+    "A reconciliation you can follow",
+    "Numbers published before the result is known"
+  ],
+  "confused_with": [
+    {
+      "term": "The audit",
+      "tell": "The count is watched while it happens; the audit checks it afterwards, on a sample."
+    }
+  ],
+  "senses": [
+    "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted, and a number published that matches the room.",
+    "It works because the alternative is a claim. A count nobody watched is an assertion about arithmetic, and an assertion can be doubted forever; a count that was watched can only be doubted by producing a different number from a different room."
+  ],
+  "notes": [],
+  "example": "*\"The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted.\"*",
+  "related": [
+    "The poll worker",
+    "The audit",
+    "Records request"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Sovereign Shillizen"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 1,
+    "blowback": 2
+  }
+}

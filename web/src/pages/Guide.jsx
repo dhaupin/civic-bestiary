@@ -67,7 +67,7 @@ function headingFor(view) {
     }
   }
   return {
-    eyebrow: `${stats.coinages} coinages · ${stats.fallacies} fallacies · ${chapters.length} chapters`,
+    eyebrow: `${stats.entries} entries · ${stats.fallacies} fallacies · ${chapters.length} chapters`,
     title: 'The field guide',
     sub: 'Not everything here is a creature. Species are the actors, moves are what they do, abilities belong to offices, habitats are the places that house them, and buffs are the conditions they run under. Each chapter ends with the documented fallacies its creatures commit, and the ones no chapter owns are collected as strays. Search by name, or drill down by kind and chapter.',
     rows: [],

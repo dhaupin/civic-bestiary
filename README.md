@@ -153,6 +153,26 @@ The fallacies work the other way round. They are not coinages and are not ours: 
   - [126. Shifting the burden of proof](#126-shifting-the-burden-of-proof)
   - [127. Gish gallop](#127-gish-gallop)
   - [128. Appeal to the stone](#128-appeal-to-the-stone)
+- [VI. The Keystones](#vi-the-keystones)
+  - [129. The clerk](#129-the-clerk)
+  - [130. The poll worker](#130-the-poll-worker)
+  - [131. The archivist](#131-the-archivist)
+  - [132. The librarian](#132-the-librarian)
+  - [133. The caseworker](#133-the-caseworker)
+  - [134. The editor](#134-the-editor)
+  - [135. The moderator](#135-the-moderator)
+  - [136. The auditor](#136-the-auditor)
+  - [137. Records request](#137-records-request)
+  - [138. The transcript](#138-the-transcript)
+  - [139. Lateral reading](#139-lateral-reading)
+  - [140. The second source](#140-the-second-source)
+  - [141. The steelman](#141-the-steelman)
+  - [142. The public count](#142-the-public-count)
+  - [143. The written reason](#143-the-written-reason)
+  - [144. The audit](#144-the-audit)
+  - [145. Random draw](#145-random-draw)
+  - [146. Fee shift](#146-fee-shift)
+  - [147. Sunset clause](#147-sunset-clause)
 
 ---
 
@@ -961,7 +981,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 ---
 
 ### 44. Flood the zone
-*(verb phrase)* `/flʌd ðə zəʊn/` - *move*  
+*(verb phrase / gerund)* `/flʌd ðə zəʊn/` - *move*  
 *From the advice attributed to Steve Bannon: drown the press in so much material that nothing can be checked.*
 
 **Trigger:** A story that has to be survived rather than answered, and a press corps with finite hours.  
@@ -1479,7 +1499,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The challenge was filed in a division with one judge, nine hundred miles from the agency it challenged, and the **judge shopping** was over before the docket sheet printed."*
 * **Easily confused with:** *Gerrythm* - The gerrythm chooses the voters; judge shopping chooses the judge. Both are map-making done before the argument starts.
 * **Commits:** [*Texas sharpshooter fallacy*](#54-texas-sharpshooter-fallacy), [*Cherry picking*](#116-cherry-picking)
-* **Related Terms:** [*Nightdocket*](#13-nightdocket), [*SLAPP*](#72-slapp), [*Blueslip*](#67-blueslip)
+* **Related Terms:** [*Nightdocket*](#13-nightdocket), [*SLAPP*](#72-slapp), [*Random draw*](#145-random-draw)
 
 ---
 
@@ -1497,7 +1517,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"The review was accurate and the **SLAPP** was dismissed in fourteen months, by which time the writer had spent her savings and the magazine had stopped assigning the beat."*
 * **Easily confused with:** *NDA* - The NDA buys silence before publication; the SLAPP bills for it afterwards.
 * **Commits:** [*Appeal to fear*](#106-appeal-to-fear), [*Argument from silence*](#81-argument-from-silence)
-* **Related Terms:** [*Qualified immunity*](#74-qualified-immunity), [*Judge shopping*](#71-judge-shopping), [*Blueslip*](#67-blueslip)
+* **Related Terms:** [*Qualified immunity*](#74-qualified-immunity), [*Judge shopping*](#71-judge-shopping), [*Fee shift*](#146-fee-shift)
 
 ---
 
@@ -1871,7 +1891,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Example:** *"For six weeks of **crisisglow** the mayor could not be criticised without someone asking whether you supported the recovery."*
 * **Easily confused with:** *Indictbump* - The indictbump is sympathy for a defendant; the crisisglow is authority for an incumbent. One is a wound, the other a uniform.
 * **Commits:** [*Appeal to fear*](#106-appeal-to-fear), [*False dilemma*](#48-false-dilemma)
-* **Related Terms:** [*Honeymoan*](#11-honeymoan), [*Dramagogue*](#83-dramagogue), [*Martyrholic*](#85-martyrholic)
+* **Related Terms:** [*Honeymoan*](#11-honeymoan), [*Dramagogue*](#83-dramagogue), [*Sunset clause*](#147-sunset-clause)
 
 ---
 
@@ -2554,6 +2574,377 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ---
 
+## VI. The Keystones
+
+### 129. The clerk
+*(noun)* `/klɑːk/` - *keystone*  
+*Old English clerc, a cleric - the literate man who kept the book because he was the one who could read.*
+
+**Office:** The minutes, the roll, and the file that proves both.  
+**Call:** "That's not in the record."  
+**Tell:** Reads the motion aloud, slowly · Knows the quorum rule without looking it up · Keeps the version that was actually adopted  
+**Keystone:** Without the clerk there is no record, and without a record there is no way to prove what the body did - which is the first thing a Sabotriot needs and the last thing they check.  
+
+1. The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.
+2. It works because procedure is evidence. A vote nobody recorded is a vote somebody can deny, so the clerk's real power is not the gavel but the file - and the job stays invisible precisely until it is done badly.
+
+* **Example:** *"Two years later the only proof of what the council had voted for was the **clerk**'s minutes, and the member who had denied it was reading them aloud."*
+* **Easily confused with:** *The archivist* - The clerk keeps what the body did this year; the archivist keeps what it did in 1974.
+* **Counters:** [*Sabotriot*](#5-sabotriot)
+* **Practises:** [*Records request*](#137-records-request)
+* **Related Terms:** [*The poll worker*](#130-the-poll-worker), [*Records request*](#137-records-request)
+
+---
+
+### 130. The poll worker
+*(noun)* `/pəʊl ˈwɜː.kə/` - *keystone*  
+*English: the precinct official who works the poll - a temporary, trained, paid job anyone can take.*
+
+**Office:** The roll, the provisional ballot, and the chain of custody that starts when the box is sealed.  
+**Call:** "Name and address, please."  
+**Tell:** Reads the instruction card out loud · Offers the provisional ballot before the argument starts · Knows the closing time and the recount rule  
+**Keystone:** Without them the ballot is a rumour and the count is an assertion. The Sovereign Shillizen needs an empty table to make 'I do not consent' sound like law; the poll worker is the person who fills it.  
+
+1. The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job is temporary and public, which is the point: the count is run by neighbours who can be watched.
+2. It works because every ballot that crosses the table is accounted for by two people who are allowed to disagree. The whole apparatus exists so that a stranger with a clipboard can prove the number is right, months later, without trusting anybody.
+
+* **Example:** *"The scanner jammed at nine, and the **poll worker** did what the training had covered: sealed the bin, called the county, and read the numbers into the log with an observer watching."*
+* **Easily confused with:** *The clerk* - The clerk records what the body did; the poll worker records what the voter did, one name at a time.
+* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen)
+* **Practises:** [*The public count*](#142-the-public-count)
+* **Related Terms:** [*The public count*](#142-the-public-count), [*The auditor*](#136-the-auditor)
+
+---
+
+### 131. The archivist
+*(noun)* `/ˈɑː.kɪ.vɪst/` - *keystone*  
+*From the Greek arkheion, the house of the magistrate - the building where the record was kept because it was the record.*
+
+**Office:** The retention schedule, the box number, and the thing everybody assumed was saved.  
+**Call:** "We have that. It's in the 1974 series."  
+**Tell:** Asks what you intend to do with it · Refuses to let a file leave the building · Can date a photograph by the paper  
+**Keystone:** Without the archive the past is a rumour with a monument, and every Mythstorian gets to write the decade. Retention schedules are boring until the only copy of the decision is in a shredder.  
+
+1. The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are usually the only people in an institution with a professional duty to keep things nobody is asking for.
+2. It works because provenance is checkable. A document with a series, a date and a custodian can be authenticated by a stranger; a document in somebody's drawer cannot - and that difference decides whether a claim about the past can be settled at all.
+
+* **Example:** *"The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it."*
+* **Easily confused with:** *The librarian* - The archivist keeps the thing; the librarian finds it.
+* **Counters:** [*Mythstorian*](#59-mythstorian)
+* **Practises:** [*The transcript*](#138-the-transcript)
+* **Related Terms:** [*The clerk*](#129-the-clerk), [*The transcript*](#138-the-transcript)
+
+---
+
+### 132. The librarian
+*(noun)* `/laɪˈbreə.ri.ən/` - *keystone*  
+*From the Latin librarius, a copyist - the trade that became a profession the day the public was allowed in.*
+
+**Office:** The reference desk, the database licence, and the right to ask a question that sounds stupid.  
+**Call:** "Let's find out together."  
+**Tell:** Answers with a source and a call number · Says 'I don't know' without flinching · Teaches the search instead of the answer  
+**Keystone:** Without the desk, 'do your own research' means 'go alone into the feed', which is the Illogician's entire business model. The library is the one place in town where being wrong is free.  
+
+1. The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The job is not to know the answer; it is to know how the answer is checked.
+2. It works because the desk is neutral by design. A librarian has no stake in which source wins, which is why the same question can be asked there without a cost - and why the institution gets defunded by people who would rather the question cost something.
+
+* **Example:** *"He had done his own research for a year, and the **librarian** found the study he had been citing, the correction to it, and the retraction, in about eleven minutes."*
+* **Easily confused with:** *The editor* - The librarian finds the source; the editor refuses to publish without it.
+* **Counters:** [*Illogician*](#26-illogician)
+* **Practises:** [*Lateral reading*](#139-lateral-reading)
+* **Related Terms:** [*The archivist*](#131-the-archivist), [*Lateral reading*](#139-lateral-reading)
+
+---
+
+### 133. The caseworker
+*(noun)* `/ˈkeɪsˌwɜː.kə/` - *keystone*  
+*English: the official who carries a caseload - the point where a statute becomes a decision about one household.*
+
+**Office:** The form, the deadline, and the discretion to read a rule the way it was written.  
+**Call:** "You qualify. Here's the page that says so."  
+**Tell:** Knows the appeal deadline better than the appellant · Writes the reason into the letter · Answers the phone on the second ring  
+**Keystone:** Without the caseworker, policy is a press release. The Plutomartyr needs a benefit that arrives as a favour rather than as an entitlement; the caseworker is the person who hands it over as a right.  
+
+1. The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political scientists call this street-level bureaucracy, and it is where most of the state is actually experienced.
+2. It works because discretion is unavoidable and therefore visible. No rule covers every case, so the caseworker decides, and the decision is only legitimate if it comes with reasons - which makes the job both the most humane part of the state and the easiest part to cut.
+
+* **Example:** *"The letter said no, the **caseworker** read the appeal, found the clause the automated screen had missed, and the cheque arrived nine days later."*
+* **Easily confused with:** *The clerk* - The clerk records the decision; the caseworker delivers it to somebody who needs it by Friday.
+* **Counters:** [*Plutomartyr*](#87-plutomartyr)
+* **Practises:** [*The written reason*](#143-the-written-reason)
+* **Related Terms:** [*The written reason*](#143-the-written-reason), [*The auditor*](#136-the-auditor)
+
+---
+
+### 134. The editor
+*(noun)* `/ˈed.ɪ.tə/` - *keystone*  
+*From the Latin edere, to give out - the one who decides what leaves the building.*
+
+**Office:** The second source, the corrections policy, and the authority to hold a story for a day.  
+**Call:** "Who else has this?"  
+**Tell:** Kills a story that would have worked · Puts the correction at the top, not the bottom · Answers the phone when the subject calls  
+**Keystone:** Without the desk, volume is the only quality signal left and the Slopagandist wins by publishing first. Editing is the cost that makes publishing expensive enough to mean something.  
+
+1. The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides what the story is actually claiming. The job is institutional rather than personal - it exists so the decision is not made by the person who wrote the sentence.
+2. It works because a published correction is expensive. An editor who has had to print one remembers it, and that memory is the only thing standing between a newsroom and a feed - which is why the desk is the first thing cut when the business model moves to volume.
+
+* **Example:** *"The **editor** held the story a day, the second call changed the second paragraph, and the version that ran was the one that survived being read to the person it was about."*
+* **Easily confused with:** *The moderator* - The editor decides what is published; the moderator decides what gets answered.
+* **Counters:** [*Slopagandist*](#88-slopagandist)
+* **Practises:** [*The second source*](#140-the-second-source)
+* **Related Terms:** [*The librarian*](#132-the-librarian), [*The second source*](#140-the-second-source)
+
+---
+
+### 135. The moderator
+*(noun)* `/ˈmɒd.ə.reɪ.tə/` - *keystone*  
+*From the Latin moderari, to keep within bounds - the same root as moderate, and the same job.*
+
+**Office:** The question, the clock, and the rule that an answer has to be an answer.  
+**Call:** "That's not what I asked."  
+**Tell:** Repeats the question, word for word · Gives the same time to the side that is losing · Checks the claim while it is still in the room  
+**Keystone:** Without the moderator, a debate is two broadcasts sharing a room and the Sophistroll wins by making the format the argument. A question that has to be answered is a question that can be marked unanswered.  
+
+1. The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was asked. Moderation is a procedural job that everybody mistakes for a personality.
+2. It works because a live check is cheap. A moderator can ask for the source while the claim is still in the room, which is the one moment when verification costs the speaker something - and the reason formats without moderators are so popular with people who need a claim to travel.
+
+* **Example:** *"The **moderator** asked the same question three times, got three answers about something else, and said so on air - which was the whole of the remedy."*
+* **Easily confused with:** *The steelman* - The moderator runs the format; the steelman is what the format is for.
+* **Counters:** [*Sophistroll*](#25-sophistroll)
+* **Practises:** [*The steelman*](#141-the-steelman)
+* **Related Terms:** [*The editor*](#134-the-editor), [*The caseworker*](#133-the-caseworker)
+
+---
+
+### 136. The auditor
+*(noun)* `/ˈɔː.dɪ.tə/` - *keystone*  
+*From the Latin audire, to hear - the officer who heard the accounts read aloud, because the books were once spoken.*
+
+**Office:** The sample, the standard, and the report nobody commissioned.  
+**Call:** "Show me the transaction."  
+**Tell:** Publishes the methodology before the finding · Names the office, not the mood · Comes back the following year  
+**Keystone:** Without the auditor the books are a story an office tells about itself, and the Cronycle is just a friend with a contract. Audit is the difference between a claim and a record.  
+
+1. The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate with the audited. The output is not an opinion; it is a finding with a name and a date attached.
+2. It works because the sample is public and repeatable. An audit that says how it chose what to look at can be checked by anyone, which is what separates it from a review - and why the first move against an auditor is always to shrink the scope.
+
+* **Example:** *"The **auditor** pulled forty contracts, found the same vendor in eleven of them, and published the sampling method so that the finding could be argued with."*
+* **Easily confused with:** *The archivist* - The archivist keeps the record; the auditor reads it and says what it shows.
+* **Counters:** [*Cronycle*](#64-cronycle)
+* **Practises:** [*The audit*](#144-the-audit)
+* **Related Terms:** [*The clerk*](#129-the-clerk), [*The audit*](#144-the-audit), [*The caseworker*](#133-the-caseworker)
+
+---
+
+### 137. Records request
+*(noun)* `/ˈrek.ɔːdz rɪˌkwest/` - *remedy*  
+*English: the statutory demand for a document, known in the United States as FOIA and elsewhere as freedom of information or right to know.*
+
+**Effect:** Turns a question into a deadline: the agency has to answer in writing, or say in writing why it will not.  
+**Costs:** Fees, weeks, and the patience to appeal a redaction.  
+**Failure mode:** The fee estimate that costs more than the record, and the exemption that arrives after the news cycle.  
+**Tell:** An answer with a reference number · A redaction log with reasons · A date you can hold them to  
+
+1. The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need a lawyer or a reason - you need the right office and the right words.
+2. It works because writing is expensive. A request forces the agency to produce the record or name the exemption, and either answer is itself a document - so the remedy's real product is often not the file but the refusal, which can be appealed, published, and read aloud.
+
+* **Example:** *"The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website."*
+* **Easily confused with:** *The transcript* - The request gets the document the body already wrote; the transcript makes a document out of what it said.
+* **Counters:** [*Bleatkeeper*](#30-bleatkeeper)
+* **Related Terms:** [*The clerk*](#129-the-clerk), [*The audit*](#144-the-audit)
+
+---
+
+### 138. The transcript
+*(noun)* `/ˈtræn.skrɪpt/` - *remedy*  
+*From the Latin transcribere, to copy across - the written version of a thing that was said out loud.*
+
+**Effect:** Converts a performance into a text, and a text into something you can quote back.  
+**Costs:** Time, and the risk that your quote is worse out of context than it was in it.  
+**Failure mode:** The transcript that is still being finalised, and the correction that quietly changes a word.  
+**Tell:** Timestamps · A speaker label on every line · A version number  
+
+1. The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about what somebody said on Tuesday.
+2. It works because a text can be searched and a performance cannot. The clip is chosen by whoever edits it; the transcript is chosen by whoever reads it - and that difference is the whole of the remedy.
+
+* **Example:** *"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional."*
+* **Easily confused with:** *Records request* - The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.
+* **Counters:** [*Vaguebooking*](#36-vaguebooking)
+* **Related Terms:** [*The archivist*](#131-the-archivist), [*The second source*](#140-the-second-source)
+
+---
+
+### 139. Lateral reading
+*(verb phrase / gerund)* `/ˈlæt.ər.əl ˈriː.dɪŋ/` - *remedy*  
+*English: reading sideways - leaving the page to find out who is behind it, rather than reading down it for clues.*
+
+**Effect:** Checks a claim by leaving the page: who else is saying this, and what do they say about the source saying it.  
+**Costs:** Ninety seconds, and the discipline to leave a page you already believe.  
+**Failure mode:** The search that returns the claim's own ecosystem, and the fact-check that cites the thing it is checking.  
+**Tell:** Two sources that do not cite each other · A name, a date, a document · A correction you can find  
+
+1. The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who the publisher is, what they have got wrong before, and who else is reporting the same thing.
+2. It works because the web is cheap to search and expensive to fake at scale. A claim can be dressed up on one page; it is much harder to be independently confirmed by people with nothing to gain - so the check is not the page, it is the company the page keeps.
+
+* **Example:** *"The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead."*
+* **Easily confused with:** *The second source* - Lateral reading checks a claim against the world; the second source is the world agreeing to go on the record.
+* **Counters:** [*Algodemic*](#86-algodemic)
+* **Related Terms:** [*The librarian*](#132-the-librarian), [*The steelman*](#141-the-steelman)
+
+---
+
+### 140. The second source
+*(noun)* `/ðə ˈsek.ənd sɔːs/` - *remedy*  
+*Newsroom English: the confirmation that does not depend on the first one.*
+
+**Effect:** Requires a claim to exist somewhere else before it is published, and pays for the call that finds out.  
+**Costs:** A day of the story's life, and the possibility that the second call kills it.  
+**Failure mode:** The second source that is the first source's spokesperson, and the wire copy everyone treats as confirmation.  
+**Tell:** Two people who could not have talked to each other · A document that predates the claim · A story that survives being read to its subject  
+
+1. The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It is a cost, deliberately, and the cost is the quality control.
+2. It works because independence is checkable. Two sources who share a motive are one source with two mouths, so the discipline is not counting - it is asking how each of them knows, and whether their knowing depends on the same thing.
+
+* **Example:** *"The **second source** was the clerk's copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph."*
+* **Easily confused with:** *Lateral reading* - Lateral reading is what a reader does in ninety seconds; the second source is what a newsroom does in ninety minutes.
+* **Counters:** [*Slopagandist*](#88-slopagandist)
+* **Related Terms:** [*The editor*](#134-the-editor), [*The transcript*](#138-the-transcript)
+
+---
+
+### 141. The steelman
+*(noun)* `/ˈstiːl.mæn/` - *remedy*  
+*English: the deliberate opposite of the straw man - the argument rebuilt in steel so that refuting it means something.*
+
+**Effect:** States the other side's argument in its strongest form, then answers that version instead of the worst one.  
+**Costs:** The risk of being persuaded, and the work of finding the best version rather than the loudest.  
+**Failure mode:** The steelman built by the wrong side, and the version so strong that it stops being the argument anybody actually made.  
+**Tell:** The other side says 'yes, that's it' · The strongest source, not the loudest · A reply that addresses the claim  
+
+1. The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather than a mood.
+2. It works because a weak target is a way of not answering. If you can only refute the worst version of an argument you have not refuted the argument - and saying the strong version out loud is what makes the difference visible to everyone in the room.
+
+* **Example:** *"She wrote the **steelman** first, sent it to the person she disagreed with, got a 'yes, that's it', and only then wrote the reply."*
+* **Easily confused with:** *Bothsidesing* - Bothsidesing splits the difference; the steelman takes one side at its strongest and then argues with it.
+* **Counters:** [*Equivangelist*](#31-equivangelist)
+* **Related Terms:** [*The moderator*](#135-the-moderator), [*Lateral reading*](#139-lateral-reading), [*The written reason*](#143-the-written-reason)
+
+---
+
+### 142. The public count
+*(noun)* `/ðə ˈpʌb.lɪk kaʊnt/` - *remedy*  
+*English: the count of ballots in a room with watchers - the oldest audit there is.*
+
+**Effect:** Counts in a room anyone can watch, and publishes the number the room saw.  
+**Costs:** Time, observers, and a process slow enough to be watched.  
+**Failure mode:** The observers who are told where to stand, and the tally reconciled in a room with no windows.  
+**Tell:** Observers with a legal right to be there · A reconciliation you can follow · Numbers published before the result is known  
+
+1. The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted, and a number published that matches the room.
+2. It works because the alternative is a claim. A count nobody watched is an assertion about arithmetic, and an assertion can be doubted forever; a count that was watched can only be doubted by producing a different number from a different room.
+
+* **Example:** *"The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted."*
+* **Easily confused with:** *The audit* - The count is watched while it happens; the audit checks it afterwards, on a sample.
+* **Counters:** [*Sovereign Shillizen*](#4-sovereign-shillizen)
+* **Related Terms:** [*The poll worker*](#130-the-poll-worker), [*Records request*](#137-records-request)
+
+---
+
+### 143. The written reason
+*(noun)* `/ðə ˈrɪt.ən ˈriː.zən/` - *remedy*  
+*English: the duty to give reasons - the administrative-law rule that a decision must say why it was made.*
+
+**Effect:** Requires a decision to say why, in writing, and how to appeal it.  
+**Costs:** A sentence the decider would rather not write, and a deadline they would rather not have.  
+**Failure mode:** The boilerplate reason, copied from the last refusal, that satisfies the form and answers nothing.  
+**Tell:** A reason that names the rule · An appeal address that works · A decision you can quote back  
+
+1. The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It is the cheapest accountability mechanism ever invented, and the one most often reduced to a template.
+2. It works because a reason can be tested. A decision without reasons can only be disliked; a decision with reasons can be checked against the rule it claims to apply - which is why the template exists, and why reading the reasons is the first move of any appeal.
+
+* **Example:** *"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it."*
+* **Easily confused with:** *The transcript* - The transcript records what was said; the written reason records why it was decided.
+* **Counters:** [*Nonpology*](#65-nonpology)
+* **Related Terms:** [*The caseworker*](#133-the-caseworker), [*The audit*](#144-the-audit)
+
+---
+
+### 144. The audit
+*(noun)* `/ˈɔː.dɪt/` - *remedy*  
+*From the Latin auditus, a hearing - the books were once read aloud to an officer whose job was to listen.*
+
+**Effect:** Reads the books somebody else wrote, and publishes what it finds whether or not anyone asked.  
+**Costs:** Staff, access, and the political cost of being the office that finds things.  
+**Failure mode:** The audit scoped to what the audited office will agree to, and the finding that stays under review until the next election.  
+**Tell:** A published methodology · Findings with names attached · A follow-up audit  
+
+1. The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it examined and to the public at the same time.
+2. It works because the method is the argument. An audit that says how it chose what to look at can be replicated or attacked on its merits; a review that says we found no wrongdoing cannot be checked at all - and the difference is the sampling.
+
+* **Example:** *"The **audit** sampled forty contracts, published the sampling method, and the finding survived three attempts to discredit it because the method was in the appendix."*
+* **Easily confused with:** *The public count* - The count is watched while it happens; the audit checks it afterwards, on a sample.
+* **Counters:** [*Frankincense*](#100-frankincense)
+* **Related Terms:** [*The auditor*](#136-the-auditor), [*Records request*](#137-records-request), [*The written reason*](#143-the-written-reason)
+
+---
+
+### 145. Random draw
+*(noun)* `/ˈræn.dəm drɔː/` - *remedy*  
+*English: assignment by lot - the oldest anti-corruption technology in the book, older than the book.*
+
+**Effect:** Takes the choice of judge, panel, or jury out of the hands of the party who benefits from it.  
+**Costs:** A docket that is less convenient, and a schedule nobody can optimise.  
+**Failure mode:** The carve-out for complex cases, which is where the shopping goes to live.  
+**Tell:** A published assignment rule · No exceptions in the filing · A docket you cannot predict from outside  
+
+1. Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works by making the choice uninteresting.
+2. It works because randomness removes the negotiation. Any assignment system that can be gamed will be gamed, so the fix is not a better rule about who chooses - it is the removal of the choice, which is also why the carve-outs matter more than the rule.
+
+* **Example:** *"The division was redrawn to assign cases by **random draw**, and the filing that had gone to one courthouse for six years started going to nine."*
+* **Easily confused with:** *Judge shopping* - Judge shopping chooses the courtroom; the random draw removes the choice that made the courtroom worth choosing.
+* **Counters:** [*Judge shopping*](#71-judge-shopping)
+* **Related Terms:** [*The clerk*](#129-the-clerk), [*Fee shift*](#146-fee-shift), [*The audit*](#144-the-audit)
+
+---
+
+### 146. Fee shift
+*(noun)* `/fiː ʃɪft/` - *remedy*  
+*English: cost-shifting - moving the bill for a lawsuit onto the party who brought it.*
+
+**Effect:** Moves the bill for a bad suit onto the party who filed it.  
+**Costs:** A statute, a motion, and a judge willing to find that the suit was brought to chill.  
+**Failure mode:** The fee award that arrives two years late, by which time the article was never written.  
+**Tell:** A stay that stops discovery while the motion is heard · A fee award that is actually collected · A plaintiff who stops filing  
+
+1. The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit was brought to silence them.
+2. It works because it changes the arithmetic before the harm is done. The SLAPP's business model is that defending is expensive, so the remedy is not a bigger verdict at the end - it is a smaller bill at the start.
+
+* **Example:** *"The **fee shift** turned a two-year defence into a nine-week motion, and the second letter from the same lawyer never arrived."*
+* **Easily confused with:** *SLAPP* - The SLAPP prices speech in billable hours; the fee shift sends the invoice back to the sender.
+* **Counters:** [*SLAPP*](#72-slapp)
+* **Related Terms:** [*The audit*](#144-the-audit), [*Random draw*](#145-random-draw), [*The public count*](#142-the-public-count)
+
+---
+
+### 147. Sunset clause
+*(noun)* `/ˈsʌn.set klɔːz/` - *remedy*  
+*English: the provision that lets a power expire unless somebody votes to keep it, named for the hour it ends.*
+
+**Effect:** Gives a power a date, so that keeping it becomes a decision somebody has to make in public.  
+**Costs:** The reauthorisation fight, every time, including the ones you lose.  
+**Failure mode:** The routine extension, and the emergency that is renewed so often it becomes furniture.  
+**Tell:** A date in the statute · A report due before the date · A vote that could actually fail  
+
+1. The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked for out loud.
+2. It works because a deadline creates a moment. A standing power is invisible; a power that expires generates a hearing, a report, and a vote - and even a routine renewal leaves a record of who voted for it, which is the thing a standing power never has to produce.
+
+* **Example:** *"The authority had been renewed eleven times, but the **sunset clause** meant every renewal had a hearing, and the eleventh was the one where somebody read the reports aloud."*
+* **Easily confused with:** *Crisisglow* - The crisisglow makes the emergency look permanent; the sunset clause makes permanence look like a decision.
+* **Counters:** [*Crisisglow*](#92-crisisglow)
+* **Related Terms:** [*The audit*](#144-the-audit), [*The written reason*](#143-the-written-reason), [*The public count*](#142-the-public-count)
+
+---
+
 ## Index
 
 - [Access](#103-access)
@@ -2607,6 +2998,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [False balance](#80-false-balance)
 - [False dilemma](#48-false-dilemma)
 - [False equivalence](#117-false-equivalence)
+- [Fee shift](#146-fee-shift)
 - [Filibluster](#8-filibluster)
 - [Flood the zone](#44-flood-the-zone)
 - [Frankincense](#100-frankincense)
@@ -2628,6 +3020,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Judge shopping](#71-judge-shopping)
 - [Lame duck](#70-lame-duck)
 - [LARPtarian](#3-larptarian)
+- [Lateral reading](#139-lateral-reading)
 - [Loaded question](#49-loaded-question)
 - [Martyrholic](#85-martyrholic)
 - [Motte hop](#42-motte-hop)
@@ -2654,8 +3047,10 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Qualified immunity](#74-qualified-immunity)
 - [Ragesturbationist](#84-ragesturbationist)
 - [Rally](#99-rally)
+- [Random draw](#145-random-draw)
 - [Receiptbomb](#37-receiptbomb)
 - [Recessure](#68-recessure)
+- [Records request](#137-records-request)
 - [Rubber chicken circuit](#95-rubber-chicken-circuit)
 - [Sabotriot](#5-sabotriot)
 - [School board meeting](#66-school-board-meeting)
@@ -2672,9 +3067,24 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 - [Straw man](#46-straw-man)
 - [Subpoenado](#63-subpoenado)
 - [Sunk cost fallacy](#23-sunk-cost-fallacy)
+- [Sunset clause](#147-sunset-clause)
 - [Survivorship bias](#108-survivorship-bias)
 - [Texas sharpshooter fallacy](#54-texas-sharpshooter-fallacy)
+- [The archivist](#131-the-archivist)
+- [The audit](#144-the-audit)
+- [The auditor](#136-the-auditor)
+- [The caseworker](#133-the-caseworker)
+- [The clerk](#129-the-clerk)
+- [The editor](#134-the-editor)
 - [The Feed](#94-the-feed)
+- [The librarian](#132-the-librarian)
+- [The moderator](#135-the-moderator)
+- [The poll worker](#130-the-poll-worker)
+- [The public count](#142-the-public-count)
+- [The second source](#140-the-second-source)
+- [The steelman](#141-the-steelman)
+- [The transcript](#138-the-transcript)
+- [The written reason](#143-the-written-reason)
 - [Thought-terminating cliché](#124-thought-terminating-cliche)
 - [Tone policing](#52-tone-policing)
 - [Trial balloon](#39-trial-balloon)

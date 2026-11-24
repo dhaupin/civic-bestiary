@@ -1,0 +1,49 @@
+{
+  "term": "The archivist",
+  "kind": "keystone",
+  "chapter": "keystones",
+  "position": 3,
+  "part_of_speech": "noun",
+  "ipa": "/ˈɑː.kɪ.vɪst/",
+  "etymology": "From the Greek arkheion, the house of the magistrate - the building where the record was kept because it was the record.",
+  "office": "The retention schedule, the box number, and the thing everybody assumed was saved.",
+  "call": "\"We have that. It's in the 1974 series.\"",
+  "tell": [
+    "Asks what you intend to do with it",
+    "Refuses to let a file leave the building",
+    "Can date a photograph by the paper"
+  ],
+  "keystone": "Without the archive the past is a rumour with a monument, and every Mythstorian gets to write the decade. Retention schedules are boring until the only copy of the decision is in a shredder.",
+  "confused_with": [
+    {
+      "term": "The librarian",
+      "tell": "The archivist keeps the thing; the librarian finds it."
+    }
+  ],
+  "senses": [
+    "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are usually the only people in an institution with a professional duty to keep things nobody is asking for.",
+    "It works because provenance is checkable. A document with a series, a date and a custodian can be authenticated by a stranger; a document in somebody's drawer cannot - and that difference decides whether a claim about the past can be settled at all."
+  ],
+  "notes": [],
+  "example": "*\"The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it.\"*",
+  "related": [
+    "The clerk",
+    "The librarian",
+    "The transcript"
+  ],
+  "edges": [
+    {
+      "rel": "practises",
+      "to": "The transcript"
+    },
+    {
+      "rel": "counters",
+      "to": "Mythstorian"
+    }
+  ],
+  "sort": {
+    "impact": 5,
+    "abuse": 2,
+    "blowback": 2
+  }
+}

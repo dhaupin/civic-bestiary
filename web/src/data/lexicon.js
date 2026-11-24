@@ -13,17 +13,19 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 128,
+  "entries": 147,
   "coinages": 78,
   "fallacies": 50,
-  "chapters": 5,
+  "chapters": 6,
   "kinds": {
     "species": 24,
     "move": 14,
     "ability": 17,
     "habitat": 12,
     "buff": 11,
-    "fallacy": 50
+    "fallacy": 50,
+    "remedy": 11,
+    "keystone": 8
   }
 }
 
@@ -232,6 +234,74 @@ export const kinds = {
       "abuse",
       "blowback"
     ]
+  },
+  "remedy": {
+    "label": "Remedy",
+    "plural": "Remedies",
+    "path": "/remedies/",
+    "voice": "effect",
+    "blurb": "A procedure that works: what it does, what it costs the person using it, and how it gets captured.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text"
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text"
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list"
+      }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
+    ]
+  },
+  "keystone": {
+    "label": "Keystone",
+    "plural": "Keystones",
+    "path": "/keystones/",
+    "voice": "call",
+    "blurb": "A species whose presence holds the ecosystem together - and whose absence is the whole problem.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text"
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list"
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text"
+      }
+    ],
+    "sorts": [
+      "impact",
+      "abuse",
+      "blowback"
+    ]
   }
 }
 
@@ -402,6 +472,33 @@ export const chapters = [
       "shifting-the-burden-of-proof",
       "gish-gallop",
       "appeal-to-the-stone"
+    ]
+  },
+  {
+    "id": "keystones",
+    "roman": "VI",
+    "title": "The Keystones",
+    "note": "Every creature in chapters I to IV has a counterpart with a job title: the clerk who keeps the record, the auditor who reads the books, the poll worker who counts in public. These are the species whose absence is the pathology - and the procedures they actually run.",
+    "slugs": [
+      "the-clerk",
+      "the-poll-worker",
+      "the-archivist",
+      "the-librarian",
+      "the-caseworker",
+      "the-editor",
+      "the-moderator",
+      "the-auditor",
+      "records-request",
+      "the-transcript",
+      "lateral-reading",
+      "the-second-source",
+      "the-steelman",
+      "the-public-count",
+      "the-written-reason",
+      "the-audit",
+      "random-draw",
+      "fee-shift",
+      "sunset-clause"
     ]
   }
 ]
@@ -843,7 +940,22 @@ export const entries = [
         "path": "/fallacies/im-entitled-to-my-opinion/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The poll worker",
+        "slug": "the-poll-worker",
+        "path": "/keystones/the-poll-worker/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ]
   },
   {
     "term": "Sabotriot",
@@ -931,7 +1043,15 @@ export const entries = [
         "path": "/fallacies/slippery-slope/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      }
+    ]
   },
   {
     "term": "Patriotainment",
@@ -2768,7 +2888,15 @@ export const entries = [
         "path": "/fallacies/poisoning-the-well/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "path": "/keystones/the-moderator/"
+      }
+    ]
   },
   {
     "term": "Illogician",
@@ -2877,7 +3005,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-the-stone/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The librarian",
+        "slug": "the-librarian",
+        "path": "/keystones/the-librarian/"
+      }
+    ]
   },
   {
     "term": "JAQing Off",
@@ -3283,7 +3419,15 @@ export const entries = [
         "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      }
+    ]
   },
   {
     "term": "Equivangelist",
@@ -3376,7 +3520,15 @@ export const entries = [
         "path": "/fallacies/equivocation/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "path": "/remedies/the-steelman/"
+      }
+    ]
   },
   {
     "term": "Gallopologist",
@@ -3922,6 +4074,13 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
       }
     ]
   },
@@ -4565,7 +4724,7 @@ export const entries = [
     "chapter": "bad-faith-debate",
     "chapterRoman": "II",
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
-    "partOfSpeech": "verb phrase",
+    "partOfSpeech": "verb phrase / gerund",
     "ipa": "/flʌd ðə zəʊn/",
     "position": 20,
     "sort": {
@@ -6140,7 +6299,15 @@ export const entries = [
         "path": "/fallacies/false-attribution/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      }
+    ]
   },
   {
     "term": "Bootcurious",
@@ -6614,7 +6781,15 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/"
+      }
+    ]
   },
   {
     "term": "Nonpology",
@@ -6713,6 +6888,13 @@ export const entries = [
         "term": "Briefing room",
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
       }
     ]
   },
@@ -7240,9 +7422,9 @@ export const entries = [
         "path": "/abilities/slapp/"
       },
       {
-        "term": "Blueslip",
-        "slug": "blueslip",
-        "path": "/abilities/blueslip/"
+        "term": "Random draw",
+        "slug": "random-draw",
+        "path": "/remedies/random-draw/"
       }
     ],
     "edges": [
@@ -7261,7 +7443,15 @@ export const entries = [
         "path": "/fallacies/cherry-picking/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Random draw",
+        "slug": "random-draw",
+        "path": "/remedies/random-draw/"
+      }
+    ]
   },
   {
     "term": "SLAPP",
@@ -7330,9 +7520,9 @@ export const entries = [
         "path": "/abilities/judge-shopping/"
       },
       {
-        "term": "Blueslip",
-        "slug": "blueslip",
-        "path": "/abilities/blueslip/"
+        "term": "Fee shift",
+        "slug": "fee-shift",
+        "path": "/remedies/fee-shift/"
       }
     ],
     "edges": [
@@ -7351,7 +7541,15 @@ export const entries = [
         "path": "/fallacies/argument-from-silence/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Fee shift",
+        "slug": "fee-shift",
+        "path": "/remedies/fee-shift/"
+      }
+    ]
   },
   {
     "term": "NDA",
@@ -8737,6 +8935,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "path": "/remedies/lateral-reading/"
       }
     ]
   },
@@ -8847,6 +9052,13 @@ export const entries = [
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
         "path": "/habitats/rubber-chicken-circuit/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "path": "/keystones/the-caseworker/"
       }
     ]
   },
@@ -8978,6 +9190,20 @@ export const entries = [
         "term": "Perp walk",
         "slug": "perp-walk",
         "path": "/habitats/perp-walk/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The editor",
+        "slug": "the-editor",
+        "path": "/keystones/the-editor/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
       }
     ]
   },
@@ -9366,9 +9592,9 @@ export const entries = [
         "path": "/species/dramagogue/"
       },
       {
-        "term": "Martyrholic",
-        "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/"
       }
     ],
     "edges": [
@@ -9387,7 +9613,15 @@ export const entries = [
         "path": "/fallacies/false-dilemma/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/"
+      }
+    ]
   },
   {
     "term": "Indictbump",
@@ -10156,7 +10390,15 @@ export const entries = [
         "path": "/fallacies/appeal-to-authority/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ]
   },
   {
     "term": "Pseudo-event",
@@ -12905,5 +13147,1827 @@ export const entries = [
         "path": "/habitats/comment-section/"
       }
     ]
+  },
+  {
+    "term": "The clerk",
+    "slug": "the-clerk",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-clerk/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/klɑːk/",
+    "position": 1,
+    "sort": {
+      "impact": 5,
+      "abuse": 1,
+      "blowback": 2
+    },
+    "etymology": "Old English clerc, a cleric - the literate man who kept the book because he was the one who could read.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The minutes, the roll, and the file that proves both."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“That’s not in the record.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Reads the motion aloud, slowly",
+          "Knows the quorum rule without looking it up",
+          "Keeps the version that was actually adopted"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the clerk there is no record, and without a record there is no way to prove what the body did - which is the first thing a Sabotriot needs and the last thing they check."
+      }
+    ],
+    "voice": "“That’s not in the record.”",
+    "senses": [
+      "The officer who keeps the body’s memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.",
+      "It works because procedure is evidence. A vote nobody recorded is a vote somebody can deny, so the clerk’s real power is not the gavel but the file - and the job stays invisible precisely until it is done badly."
+    ],
+    "notes": [],
+    "example": "“Two years later the only proof of what the council had voted for was the **clerk**’s minutes, and the member who had denied it was reading them aloud.”",
+    "cite": null,
+    "summary": "The officer who keeps the body’s memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this...",
+    "confusedWith": [
+      {
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "tell": "The clerk keeps what the body did this year; the archivist keeps what it did in 1974.",
+        "path": "/keystones/the-archivist/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The poll worker",
+        "slug": "the-poll-worker",
+        "path": "/keystones/the-poll-worker/"
+      },
+      {
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Sabotriot",
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The poll worker",
+    "slug": "the-poll-worker",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-poll-worker/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/pəʊl ˈwɜː.kə/",
+    "position": 2,
+    "sort": {
+      "impact": 5,
+      "abuse": 1,
+      "blowback": 2
+    },
+    "etymology": "English: the precinct official who works the poll - a temporary, trained, paid job anyone can take.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The roll, the provisional ballot, and the chain of custody that starts when the box is sealed."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Name and address, please.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Reads the instruction card out loud",
+          "Offers the provisional ballot before the argument starts",
+          "Knows the closing time and the recount rule"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without them the ballot is a rumour and the count is an assertion. The Sovereign Shillizen needs an empty table to make ‘I do not consent’ sound like law; the poll worker is the person who fills it."
+      }
+    ],
+    "voice": "“Name and address, please.”",
+    "senses": [
+      "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job is temporary and public, which is the point: the count is run by neighbours who can be watched.",
+      "It works because every ballot that crosses the table is accounted for by two people who are allowed to disagree. The whole apparatus exists so that a stranger with a clipboard can prove the number is right, months later, without trusting anybody."
+    ],
+    "notes": [],
+    "example": "“The scanner jammed at nine, and the **poll worker** did what the training had covered: sealed the bin, called the county, and read the numbers into the log with an observer watching.”",
+    "cite": null,
+    "summary": "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job is...",
+    "confusedWith": [
+      {
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "tell": "The clerk records what the body did; the poll worker records what the voter did, one name at a time.",
+        "path": "/keystones/the-clerk/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      },
+      {
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Sovereign Shillizen",
+        "slug": "sovereign-shillizen",
+        "path": "/species/sovereign-shillizen/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The archivist",
+    "slug": "the-archivist",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-archivist/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɑː.kɪ.vɪst/",
+    "position": 3,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 2
+    },
+    "etymology": "From the Greek arkheion, the house of the magistrate - the building where the record was kept because it was the record.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The retention schedule, the box number, and the thing everybody assumed was saved."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“We have that. It’s in the 1974 series.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Asks what you intend to do with it",
+          "Refuses to let a file leave the building",
+          "Can date a photograph by the paper"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the archive the past is a rumour with a monument, and every Mythstorian gets to write the decade. Retention schedules are boring until the only copy of the decision is in a shredder."
+      }
+    ],
+    "voice": "“We have that. It’s in the 1974 series.”",
+    "senses": [
+      "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are usually the only people in an institution with a professional duty to keep things nobody is asking for.",
+      "It works because provenance is checkable. A document with a series, a date and a custodian can be authenticated by a stranger; a document in somebody’s drawer cannot - and that difference decides whether a claim about the past can be settled at all."
+    ],
+    "notes": [],
+    "example": "“The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it.”",
+    "cite": null,
+    "summary": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are...",
+    "confusedWith": [
+      {
+        "term": "The librarian",
+        "slug": "the-librarian",
+        "tell": "The archivist keeps the thing; the librarian finds it.",
+        "path": "/keystones/the-librarian/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      },
+      {
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Mythstorian",
+        "slug": "mythstorian",
+        "path": "/species/mythstorian/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The librarian",
+    "slug": "the-librarian",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-librarian/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/laɪˈbreə.ri.ən/",
+    "position": 4,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 2
+    },
+    "etymology": "From the Latin librarius, a copyist - the trade that became a profession the day the public was allowed in.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The reference desk, the database licence, and the right to ask a question that sounds stupid."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Let’s find out together.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Answers with a source and a call number",
+          "Says ‘I don’t know’ without flinching",
+          "Teaches the search instead of the answer"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the desk, ‘do your own research’ means ‘go alone into the feed’, which is the Illogician’s entire business model. The library is the one place in town where being wrong is free."
+      }
+    ],
+    "voice": "“Let’s find out together.”",
+    "senses": [
+      "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The job is not to know the answer; it is to know how the answer is checked.",
+      "It works because the desk is neutral by design. A librarian has no stake in which source wins, which is why the same question can be asked there without a cost - and why the institution gets defunded by people who would rather the question cost something."
+    ],
+    "notes": [],
+    "example": "“He had done his own research for a year, and the **librarian** found the study he had been citing, the correction to it, and the retraction, in about eleven minutes.”",
+    "cite": null,
+    "summary": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The job...",
+    "confusedWith": [
+      {
+        "term": "The editor",
+        "slug": "the-editor",
+        "tell": "The librarian finds the source; the editor refuses to publish without it.",
+        "path": "/keystones/the-editor/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      },
+      {
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "path": "/remedies/lateral-reading/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "path": "/remedies/lateral-reading/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Illogician",
+        "slug": "illogician",
+        "path": "/species/illogician/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The caseworker",
+    "slug": "the-caseworker",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-caseworker/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈkeɪsˌwɜː.kə/",
+    "position": 5,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: the official who carries a caseload - the point where a statute becomes a decision about one household.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The form, the deadline, and the discretion to read a rule the way it was written."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“You qualify. Here’s the page that says so.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Knows the appeal deadline better than the appellant",
+          "Writes the reason into the letter",
+          "Answers the phone on the second ring"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the caseworker, policy is a press release. The Plutomartyr needs a benefit that arrives as a favour rather than as an entitlement; the caseworker is the person who hands it over as a right."
+      }
+    ],
+    "voice": "“You qualify. Here’s the page that says so.”",
+    "senses": [
+      "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political scientists call this street-level bureaucracy, and it is where most of the state is actually experienced.",
+      "It works because discretion is unavoidable and therefore visible. No rule covers every case, so the caseworker decides, and the decision is only legitimate if it comes with reasons - which makes the job both the most humane part of the state and the easiest part to cut."
+    ],
+    "notes": [],
+    "example": "“The letter said no, the **caseworker** read the appeal, found the clause the automated screen had missed, and the cheque arrived nine days later.”",
+    "cite": null,
+    "summary": "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political...",
+    "confusedWith": [
+      {
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "tell": "The clerk records the decision; the caseworker delivers it to somebody who needs it by Friday.",
+        "path": "/keystones/the-clerk/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      },
+      {
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The editor",
+    "slug": "the-editor",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-editor/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈed.ɪ.tə/",
+    "position": 6,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "From the Latin edere, to give out - the one who decides what leaves the building.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The second source, the corrections policy, and the authority to hold a story for a day."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Who else has this?”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Kills a story that would have worked",
+          "Puts the correction at the top, not the bottom",
+          "Answers the phone when the subject calls"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the desk, volume is the only quality signal left and the Slopagandist wins by publishing first. Editing is the cost that makes publishing expensive enough to mean something."
+      }
+    ],
+    "voice": "“Who else has this?”",
+    "senses": [
+      "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject’s lawyer, and decides what the story is actually claiming. The job is institutional rather than personal - it exists so the decision is not made by the person who wrote the sentence.",
+      "It works because a published correction is expensive. An editor who has had to print one remembers it, and that memory is the only thing standing between a newsroom and a feed - which is why the desk is the first thing cut when the business model moves to volume."
+    ],
+    "notes": [],
+    "example": "“The **editor** held the story a day, the second call changed the second paragraph, and the version that ran was the one that survived being read to the person it was about.”",
+    "cite": null,
+    "summary": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject’s lawyer, and decides what...",
+    "confusedWith": [
+      {
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "tell": "The editor decides what is published; the moderator decides what gets answered.",
+        "path": "/keystones/the-moderator/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The librarian",
+        "slug": "the-librarian",
+        "path": "/keystones/the-librarian/"
+      },
+      {
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The moderator",
+    "slug": "the-moderator",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-moderator/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈmɒd.ə.reɪ.tə/",
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "From the Latin moderari, to keep within bounds - the same root as moderate, and the same job.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The question, the clock, and the rule that an answer has to be an answer."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“That’s not what I asked.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Repeats the question, word for word",
+          "Gives the same time to the side that is losing",
+          "Checks the claim while it is still in the room"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the moderator, a debate is two broadcasts sharing a room and the Sophistroll wins by making the format the argument. A question that has to be answered is a question that can be marked unanswered."
+      }
+    ],
+    "voice": "“That’s not what I asked.”",
+    "senses": [
+      "The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was asked. Moderation is a procedural job that everybody mistakes for a personality.",
+      "It works because a live check is cheap. A moderator can ask for the source while the claim is still in the room, which is the one moment when verification costs the speaker something - and the reason formats without moderators are so popular with people who need a claim to travel."
+    ],
+    "notes": [],
+    "example": "“The **moderator** asked the same question three times, got three answers about something else, and said so on air - which was the whole of the remedy.”",
+    "cite": null,
+    "summary": "The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was...",
+    "confusedWith": [
+      {
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "tell": "The moderator runs the format; the steelman is what the format is for.",
+        "path": "/remedies/the-steelman/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The editor",
+        "slug": "the-editor",
+        "path": "/keystones/the-editor/"
+      },
+      {
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "path": "/keystones/the-caseworker/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "path": "/remedies/the-steelman/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The auditor",
+    "slug": "the-auditor",
+    "kind": "keystone",
+    "kindLabel": "Keystone",
+    "path": "/keystones/the-auditor/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɔː.dɪ.tə/",
+    "position": 8,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "From the Latin audire, to hear - the officer who heard the accounts read aloud, because the books were once spoken.",
+    "identification": [
+      {
+        "key": "office",
+        "label": "Office",
+        "type": "text",
+        "value": "The sample, the standard, and the report nobody commissioned."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“Show me the transaction.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Publishes the methodology before the finding",
+          "Names the office, not the mood",
+          "Comes back the following year"
+        ]
+      },
+      {
+        "key": "keystone",
+        "label": "Keystone",
+        "type": "text",
+        "value": "Without the auditor the books are a story an office tells about itself, and the Cronycle is just a friend with a contract. Audit is the difference between a claim and a record."
+      }
+    ],
+    "voice": "“Show me the transaction.”",
+    "senses": [
+      "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate with the audited. The output is not an opinion; it is a finding with a name and a date attached.",
+      "It works because the sample is public and repeatable. An audit that says how it chose what to look at can be checked by anyone, which is what separates it from a review - and why the first move against an auditor is always to shrink the scope."
+    ],
+    "notes": [],
+    "example": "“The **auditor** pulled forty contracts, found the same vendor in eleven of them, and published the sampling method so that the finding could be argued with.”",
+    "cite": null,
+    "summary": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate...",
+    "confusedWith": [
+      {
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "tell": "The archivist keeps the record; the auditor reads it and says what it shows.",
+        "path": "/keystones/the-archivist/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      },
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      },
+      {
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "path": "/keystones/the-caseworker/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "practises",
+        "label": "Practises",
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "path": "/abilities/cronycle/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Records request",
+    "slug": "records-request",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/records-request/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈrek.ɔːdz rɪˌkwest/",
+    "position": 9,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: the statutory demand for a document, known in the United States as FOIA and elsewhere as freedom of information or right to know.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Turns a question into a deadline: the agency has to answer in writing, or say in writing why it will not."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Fees, weeks, and the patience to appeal a redaction."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The fee estimate that costs more than the record, and the exemption that arrives after the news cycle."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "An answer with a reference number",
+          "A redaction log with reasons",
+          "A date you can hold them to"
+        ]
+      }
+    ],
+    "voice": "Turns a question into a deadline: the agency has to answer in writing, or say in writing why it will not.",
+    "senses": [
+      "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need a lawyer or a reason - you need the right office and the right words.",
+      "It works because writing is expensive. A request forces the agency to produce the record or name the exemption, and either answer is itself a document - so the remedy’s real product is often not the file but the refusal, which can be appealed, published, and read aloud."
+    ],
+    "notes": [],
+    "example": "“The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website.”",
+    "cite": null,
+    "summary": "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need a...",
+    "confusedWith": [
+      {
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "tell": "The request gets the document the body already wrote; the transcript makes a document out of what it said.",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      },
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Bleatkeeper",
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      }
+    ]
+  },
+  {
+    "term": "The transcript",
+    "slug": "the-transcript",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-transcript/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈtræn.skrɪpt/",
+    "position": 10,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "From the Latin transcribere, to copy across - the written version of a thing that was said out loud.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Converts a performance into a text, and a text into something you can quote back."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Time, and the risk that your quote is worse out of context than it was in it."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The transcript that is still being finalised, and the correction that quietly changes a word."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Timestamps",
+          "A speaker label on every line",
+          "A version number"
+        ]
+      }
+    ],
+    "voice": "Converts a performance into a text, and a text into something you can quote back.",
+    "senses": [
+      "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about what somebody said on Tuesday.",
+      "It works because a text can be searched and a performance cannot. The clip is chosen by whoever edits it; the transcript is chosen by whoever reads it - and that difference is the whole of the remedy."
+    ],
+    "notes": [],
+    "example": "“The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional.”",
+    "cite": null,
+    "summary": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about what...",
+    "confusedWith": [
+      {
+        "term": "Records request",
+        "slug": "records-request",
+        "tell": "The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.",
+        "path": "/remedies/records-request/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      },
+      {
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Vaguebooking",
+        "slug": "vaguebooking",
+        "path": "/moves/vaguebooking/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      }
+    ]
+  },
+  {
+    "term": "Lateral reading",
+    "slug": "lateral-reading",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/lateral-reading/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "verb phrase / gerund",
+    "ipa": "/ˈlæt.ər.əl ˈriː.dɪŋ/",
+    "position": 11,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 2
+    },
+    "etymology": "English: reading sideways - leaving the page to find out who is behind it, rather than reading down it for clues.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Checks a claim by leaving the page: who else is saying this, and what do they say about the source saying it."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Ninety seconds, and the discipline to leave a page you already believe."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The search that returns the claim’s own ecosystem, and the fact-check that cites the thing it is checking."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Two sources that do not cite each other",
+          "A name, a date, a document",
+          "A correction you can find"
+        ]
+      }
+    ],
+    "voice": "Checks a claim by leaving the page: who else is saying this, and what do they say about the source saying it.",
+    "senses": [
+      "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who the publisher is, what they have got wrong before, and who else is reporting the same thing.",
+      "It works because the web is cheap to search and expensive to fake at scale. A claim can be dressed up on one page; it is much harder to be independently confirmed by people with nothing to gain - so the check is not the page, it is the company the page keeps."
+    ],
+    "notes": [],
+    "example": "“The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead.”",
+    "cite": null,
+    "summary": "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who the...",
+    "confusedWith": [
+      {
+        "term": "The second source",
+        "slug": "the-second-source",
+        "tell": "Lateral reading checks a claim against the world; the second source is the world agreeing to go on the record.",
+        "path": "/remedies/the-second-source/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The librarian",
+        "slug": "the-librarian",
+        "path": "/keystones/the-librarian/"
+      },
+      {
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "path": "/remedies/the-steelman/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Algodemic",
+        "slug": "algodemic",
+        "path": "/species/algodemic/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The librarian",
+        "slug": "the-librarian",
+        "path": "/keystones/the-librarian/"
+      }
+    ]
+  },
+  {
+    "term": "The second source",
+    "slug": "the-second-source",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-second-source/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə ˈsek.ənd sɔːs/",
+    "position": 12,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 2
+    },
+    "etymology": "Newsroom English: the confirmation that does not depend on the first one.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Requires a claim to exist somewhere else before it is published, and pays for the call that finds out."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A day of the story’s life, and the possibility that the second call kills it."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The second source that is the first source’s spokesperson, and the wire copy everyone treats as confirmation."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Two people who could not have talked to each other",
+          "A document that predates the claim",
+          "A story that survives being read to its subject"
+        ]
+      }
+    ],
+    "voice": "Requires a claim to exist somewhere else before it is published, and pays for the call that finds out.",
+    "senses": [
+      "The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It is a cost, deliberately, and the cost is the quality control.",
+      "It works because independence is checkable. Two sources who share a motive are one source with two mouths, so the discipline is not counting - it is asking how each of them knows, and whether their knowing depends on the same thing."
+    ],
+    "notes": [],
+    "example": "“The **second source** was the clerk’s copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph.”",
+    "cite": null,
+    "summary": "The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It...",
+    "confusedWith": [
+      {
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "tell": "Lateral reading is what a reader does in ninety seconds; the second source is what a newsroom does in ninety minutes.",
+        "path": "/remedies/lateral-reading/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The editor",
+        "slug": "the-editor",
+        "path": "/keystones/the-editor/"
+      },
+      {
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The editor",
+        "slug": "the-editor",
+        "path": "/keystones/the-editor/"
+      }
+    ]
+  },
+  {
+    "term": "The steelman",
+    "slug": "the-steelman",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-steelman/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈstiːl.mæn/",
+    "position": 13,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: the deliberate opposite of the straw man - the argument rebuilt in steel so that refuting it means something.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "States the other side’s argument in its strongest form, then answers that version instead of the worst one."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "The risk of being persuaded, and the work of finding the best version rather than the loudest."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The steelman built by the wrong side, and the version so strong that it stops being the argument anybody actually made."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "The other side says ‘yes, that’s it’",
+          "The strongest source, not the loudest",
+          "A reply that addresses the claim"
+        ]
+      }
+    ],
+    "voice": "States the other side’s argument in its strongest form, then answers that version instead of the worst one.",
+    "senses": [
+      "The discipline of reconstructing an opponent’s position at its best before answering it: the principle of charity, run as a procedure rather than a mood.",
+      "It works because a weak target is a way of not answering. If you can only refute the worst version of an argument you have not refuted the argument - and saying the strong version out loud is what makes the difference visible to everyone in the room."
+    ],
+    "notes": [],
+    "example": "“She wrote the **steelman** first, sent it to the person she disagreed with, got a ‘yes, that’s it’, and only then wrote the reply.”",
+    "cite": null,
+    "summary": "The discipline of reconstructing an opponent’s position at its best before answering it: the principle of charity, run as a procedure rather than a...",
+    "confusedWith": [
+      {
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "tell": "Bothsidesing splits the difference; the steelman takes one side at its strongest and then argues with it.",
+        "path": "/moves/bothsidesing/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "path": "/keystones/the-moderator/"
+      },
+      {
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "path": "/remedies/lateral-reading/"
+      },
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Equivangelist",
+        "slug": "equivangelist",
+        "path": "/species/equivangelist/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "path": "/keystones/the-moderator/"
+      }
+    ]
+  },
+  {
+    "term": "The public count",
+    "slug": "the-public-count",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-public-count/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə ˈpʌb.lɪk kaʊnt/",
+    "position": 14,
+    "sort": {
+      "impact": 5,
+      "abuse": 1,
+      "blowback": 2
+    },
+    "etymology": "English: the count of ballots in a room with watchers - the oldest audit there is.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Counts in a room anyone can watch, and publishes the number the room saw."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Time, observers, and a process slow enough to be watched."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The observers who are told where to stand, and the tally reconciled in a room with no windows."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Observers with a legal right to be there",
+          "A reconciliation you can follow",
+          "Numbers published before the result is known"
+        ]
+      }
+    ],
+    "voice": "Counts in a room anyone can watch, and publishes the number the room saw.",
+    "senses": [
+      "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted, and a number published that matches the room.",
+      "It works because the alternative is a claim. A count nobody watched is an assertion about arithmetic, and an assertion can be doubted forever; a count that was watched can only be doubted by producing a different number from a different room."
+    ],
+    "notes": [],
+    "example": "“The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted.”",
+    "cite": null,
+    "summary": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted, and...",
+    "confusedWith": [
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "tell": "The count is watched while it happens; the audit checks it afterwards, on a sample.",
+        "path": "/remedies/the-audit/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The poll worker",
+        "slug": "the-poll-worker",
+        "path": "/keystones/the-poll-worker/"
+      },
+      {
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Sovereign Shillizen",
+        "slug": "sovereign-shillizen",
+        "path": "/species/sovereign-shillizen/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The poll worker",
+        "slug": "the-poll-worker",
+        "path": "/keystones/the-poll-worker/"
+      }
+    ]
+  },
+  {
+    "term": "The written reason",
+    "slug": "the-written-reason",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-written-reason/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə ˈrɪt.ən ˈriː.zən/",
+    "position": 15,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 2
+    },
+    "etymology": "English: the duty to give reasons - the administrative-law rule that a decision must say why it was made.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Requires a decision to say why, in writing, and how to appeal it."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A sentence the decider would rather not write, and a deadline they would rather not have."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The boilerplate reason, copied from the last refusal, that satisfies the form and answers nothing."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A reason that names the rule",
+          "An appeal address that works",
+          "A decision you can quote back"
+        ]
+      }
+    ],
+    "voice": "Requires a decision to say why, in writing, and how to appeal it.",
+    "senses": [
+      "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It is the cheapest accountability mechanism ever invented, and the one most often reduced to a template.",
+      "It works because a reason can be tested. A decision without reasons can only be disliked; a decision with reasons can be checked against the rule it claims to apply - which is why the template exists, and why reading the reasons is the first move of any appeal."
+    ],
+    "notes": [],
+    "example": "“The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it.”",
+    "cite": null,
+    "summary": "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It is the...",
+    "confusedWith": [
+      {
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "tell": "The transcript records what was said; the written reason records why it was decided.",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "path": "/keystones/the-caseworker/"
+      },
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "path": "/moves/nonpology/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "path": "/keystones/the-caseworker/"
+      }
+    ]
+  },
+  {
+    "term": "The audit",
+    "slug": "the-audit",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/the-audit/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɔː.dɪt/",
+    "position": 16,
+    "sort": {
+      "impact": 5,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "From the Latin auditus, a hearing - the books were once read aloud to an officer whose job was to listen.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Reads the books somebody else wrote, and publishes what it finds whether or not anyone asked."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Staff, access, and the political cost of being the office that finds things."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The audit scoped to what the audited office will agree to, and the finding that stays under review until the next election."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A published methodology",
+          "Findings with names attached",
+          "A follow-up audit"
+        ]
+      }
+    ],
+    "voice": "Reads the books somebody else wrote, and publishes what it finds whether or not anyone asked.",
+    "senses": [
+      "The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it examined and to the public at the same time.",
+      "It works because the method is the argument. An audit that says how it chose what to look at can be replicated or attacked on its merits; a review that says we found no wrongdoing cannot be checked at all - and the difference is the sampling."
+    ],
+    "notes": [],
+    "example": "“The **audit** sampled forty contracts, published the sampling method, and the finding survived three attempts to discredit it because the method was in the appendix.”",
+    "cite": null,
+    "summary": "The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it...",
+    "confusedWith": [
+      {
+        "term": "The public count",
+        "slug": "the-public-count",
+        "tell": "The count is watched while it happens; the audit checks it afterwards, on a sample.",
+        "path": "/remedies/the-public-count/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/"
+      },
+      {
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
+      },
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Frankincense",
+        "slug": "frankincense",
+        "path": "/buffs/frankincense/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "practises",
+        "label": "Practised by",
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/"
+      }
+    ]
+  },
+  {
+    "term": "Random draw",
+    "slug": "random-draw",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/random-draw/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈræn.dəm drɔː/",
+    "position": 17,
+    "sort": {
+      "impact": 3,
+      "abuse": 1,
+      "blowback": 2
+    },
+    "etymology": "English: assignment by lot - the oldest anti-corruption technology in the book, older than the book.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Takes the choice of judge, panel, or jury out of the hands of the party who benefits from it."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A docket that is less convenient, and a schedule nobody can optimise."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The carve-out for complex cases, which is where the shopping goes to live."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A published assignment rule",
+          "No exceptions in the filing",
+          "A docket you cannot predict from outside"
+        ]
+      }
+    ],
+    "voice": "Takes the choice of judge, panel, or jury out of the hands of the party who benefits from it.",
+    "senses": [
+      "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works by making the choice uninteresting.",
+      "It works because randomness removes the negotiation. Any assignment system that can be gamed will be gamed, so the fix is not a better rule about who chooses - it is the removal of the choice, which is also why the carve-outs matter more than the rule."
+    ],
+    "notes": [],
+    "example": "“The division was redrawn to assign cases by **random draw**, and the filing that had gone to one courthouse for six years started going to nine.”",
+    "cite": null,
+    "summary": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works by...",
+    "confusedWith": [
+      {
+        "term": "Judge shopping",
+        "slug": "judge-shopping",
+        "tell": "Judge shopping chooses the courtroom; the random draw removes the choice that made the courtroom worth choosing.",
+        "path": "/abilities/judge-shopping/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      },
+      {
+        "term": "Fee shift",
+        "slug": "fee-shift",
+        "path": "/remedies/fee-shift/"
+      },
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Judge shopping",
+        "slug": "judge-shopping",
+        "path": "/abilities/judge-shopping/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Fee shift",
+    "slug": "fee-shift",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/fee-shift/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/fiː ʃɪft/",
+    "position": 18,
+    "sort": {
+      "impact": 4,
+      "abuse": 1,
+      "blowback": 2
+    },
+    "etymology": "English: cost-shifting - moving the bill for a lawsuit onto the party who brought it.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Moves the bill for a bad suit onto the party who filed it."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A statute, a motion, and a judge willing to find that the suit was brought to chill."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The fee award that arrives two years late, by which time the article was never written."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A stay that stops discovery while the motion is heard",
+          "A fee award that is actually collected",
+          "A plaintiff who stops filing"
+        ]
+      }
+    ],
+    "voice": "Moves the bill for a bad suit onto the party who filed it.",
+    "senses": [
+      "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit was brought to silence them.",
+      "It works because it changes the arithmetic before the harm is done. The SLAPP’s business model is that defending is expensive, so the remedy is not a bigger verdict at the end - it is a smaller bill at the start."
+    ],
+    "notes": [],
+    "example": "“The **fee shift** turned a two-year defence into a nine-week motion, and the second letter from the same lawyer never arrived.”",
+    "cite": null,
+    "summary": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit...",
+    "confusedWith": [
+      {
+        "term": "SLAPP",
+        "slug": "slapp",
+        "tell": "The SLAPP prices speech in billable hours; the fee shift sends the invoice back to the sender.",
+        "path": "/abilities/slapp/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      },
+      {
+        "term": "Random draw",
+        "slug": "random-draw",
+        "path": "/remedies/random-draw/"
+      },
+      {
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "SLAPP",
+        "slug": "slapp",
+        "path": "/abilities/slapp/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "Sunset clause",
+    "slug": "sunset-clause",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "path": "/remedies/sunset-clause/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈsʌn.set klɔːz/",
+    "position": 19,
+    "sort": {
+      "impact": 4,
+      "abuse": 1,
+      "blowback": 3
+    },
+    "etymology": "English: the provision that lets a power expire unless somebody votes to keep it, named for the hour it ends.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Gives a power a date, so that keeping it becomes a decision somebody has to make in public."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "The reauthorisation fight, every time, including the ones you lose."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The routine extension, and the emergency that is renewed so often it becomes furniture."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A date in the statute",
+          "A report due before the date",
+          "A vote that could actually fail"
+        ]
+      }
+    ],
+    "voice": "Gives a power a date, so that keeping it becomes a decision somebody has to make in public.",
+    "senses": [
+      "The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked for out loud.",
+      "It works because a deadline creates a moment. A standing power is invisible; a power that expires generates a hearing, a report, and a vote - and even a routine renewal leaves a record of who voted for it, which is the thing a standing power never has to produce."
+    ],
+    "notes": [],
+    "example": "“The authority had been renewed eleven times, but the **sunset clause** meant every renewal had a hearing, and the eleventh was the one where somebody read the reports aloud.”",
+    "cite": null,
+    "summary": "The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked for...",
+    "confusedWith": [
+      {
+        "term": "Crisisglow",
+        "slug": "crisisglow",
+        "tell": "The crisisglow makes the emergency look permanent; the sunset clause makes permanence look like a decision.",
+        "path": "/buffs/crisisglow/"
+      }
+    ],
+    "related": [
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/"
+      },
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
+      },
+      {
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Crisisglow",
+        "slug": "crisisglow",
+        "path": "/buffs/crisisglow/"
+      }
+    ],
+    "backlinks": []
   }
 ]
