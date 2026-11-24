@@ -1,0 +1,49 @@
+{
+  "term": "Spin room",
+  "kind": "habitat",
+  "chapter": "fearmongering-grift",
+  "position": 17,
+  "part_of_speech": "noun",
+  "ipa": "/spɪn ruːm/",
+  "etymology": "English: 'spin alley', the room behind a debate where each side declares what the audience just saw.",
+  "carriers": "A hotel ballroom behind the stage, a folding table per campaign, and a camera crew that has to file in twenty minutes.",
+  "economics": "Free airtime for whichever table talks first, paid for by a debate the network had already sold.",
+  "signature": "A surrogate declaring victory before the closing statements are over, and a 'what the American people heard tonight' that nobody heard.",
+  "confused_with": [
+    {
+      "term": "Cable panel",
+      "tell": "The panel is the argument; the spin room is the verdict about the argument, delivered while it is still happening."
+    }
+  ],
+  "senses": [
+    "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning's story.",
+    "It works because the first interpretation usually wins. Viewers form a verdict in minutes and reporters file in minutes, so the campaign that names the story first sets the frame the rest of the coverage has to argue with."
+  ],
+  "notes": [],
+  "example": "*\"The **spin room** had three tables and four winners, and by midnight the debate was being remembered the way the loudest table had described it.\"*",
+  "related": [
+    "Briefing room",
+    "Patriotainment",
+    "Patriotainer"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Bothsidesing"
+    },
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Spin room",
+    "url": "https://en.wikipedia.org/wiki/Spin_room"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
+  },
+  "counter": "The written reason, published after the spin. The spin room is where a decision is explained; the reason is where it is checked."
+}

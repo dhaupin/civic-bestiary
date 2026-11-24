@@ -86,7 +86,7 @@ body:
     id: example
     attributes:
       label: "Example"
-      description: "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the README renders it as an aside."
+      description: "One sentence in the wild, with the term in bold. Wrap the quotation in *asterisks*; the book renders it as an aside."
       placeholder: "*\"<a line you could overhear>\"* - the term in **bold**"
     validations:
       required: true
@@ -104,4 +104,4 @@ body:
       placeholder: "Occasion: ... Call: ... Tell: ... Counter: ..."
   - type: markdown
     attributes:
-      value: "A proposal lands as a record under `data/entries/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."
+      value: "A proposal lands as a record under `data/entries/<kind>/` once the writing holds up. The bar is not novelty, it is use: the term should name something a reader recognises and has no word for yet."

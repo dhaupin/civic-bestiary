@@ -1,0 +1,38 @@
+{
+  "term": "PAC check",
+  "kind": "buff",
+  "chapter": "fearmongering-grift",
+  "position": 26,
+  "part_of_speech": "noun",
+  "ipa": "/pæk tʃek/",
+  "etymology": "American political finance: the committee's cheque, delivered before the vote and disclosed after it.",
+  "effect": "A temporary condition in which a vote arrives already paid for: the maximum contribution, the bundled list, and a member who is grateful in a way that is entirely legal.",
+  "tell": "The money is disclosed after the vote and remembered at the next one.",
+  "expires": "At the next filing deadline, or when the donor's interest moves to a different committee.",
+  "senses": [
+    "The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt.",
+    "It works because nothing about it is a secret. The amount is public, the timing is legal, and the favour is never written down - a transaction with a receipt and no contract."
+  ],
+  "notes": [],
+  "example": "*\"Our support reflects a shared commitment to the district\" - the **PAC check** was itemised in the filing, one month before the markup.*",
+  "confused_with": [
+    {
+      "term": "Coattails",
+      "tell": "Coattails carry a candidate on somebody else's popularity; a PAC check carries a vote on somebody else's money."
+    }
+  ],
+  "related": [
+    "Citizens United",
+    "Lobbyism"
+  ],
+  "edges": [],
+  "cite": {
+    "label": "Wikipedia · Political action committee",
+    "url": "https://en.wikipedia.org/wiki/Political_action_committee"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

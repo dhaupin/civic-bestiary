@@ -1,0 +1,38 @@
+{
+  "term": "WMD mongering",
+  "kind": "move",
+  "chapter": "fearmongering-grift",
+  "position": 24,
+  "part_of_speech": "noun",
+  "ipa": "/ˌdʌb.əl.juː.iːˈdiː ˈmʌŋ.ɡər.ɪŋ/",
+  "etymology": "English: the trade in weapons that may not exist, sold by the people who would know.",
+  "trigger": "A war that needs a reason the public will accept before the evidence is in.",
+  "tell": "The case is a dossier, the dossier is a summary, and the summary is a mood.",
+  "counter": "Demand the inspectors' report and the date, in public, before the vote. A threat that cannot survive inspection was a sales document.",
+  "senses": [
+    "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory that is always forty-five minutes away.",
+    "It works because the public cannot audit a capability and the claim is unfalsifiable in the time available. By the time the inspectors publish, the vote is taken, the war is running, and the correction is a footnote in somebody else's memoir."
+  ],
+  "notes": [],
+  "example": "*\"We cannot wait for the smoking gun to become a mushroom cloud\" - **WMD mongering**, in the sentence that made waiting sound like complicity.*",
+  "confused_with": [
+    {
+      "term": "Proof by assertion",
+      "tell": "Proof by assertion repeats the claim; WMD mongering manufactures the exhibit."
+    }
+  ],
+  "related": [
+    "Forever war",
+    "Dramagogue"
+  ],
+  "edges": [],
+  "cite": {
+    "label": "Wikipedia · Iraq and weapons of mass destruction",
+    "url": "https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

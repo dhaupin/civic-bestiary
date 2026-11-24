@@ -1,0 +1,44 @@
+{
+  "term": "Dead cat",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 14,
+  "part_of_speech": "noun / verb",
+  "ipa": "/dɛd kæt/",
+  "etymology": "From the strategy credited to the campaign strategist Lynton Crosby: to end an argument you are losing, put a dead cat on the table.",
+  "trigger": "A story that will not stop, and a week that needs a different one.",
+  "tell": "Something outrageous appears at eight in the morning, unrelated to the story it replaced, and the people who were answering questions stop answering them.",
+  "counter": "Name the cat. Keep asking the original question, on the record, until the answer is on the record too.",
+  "confused_with": [
+    {
+      "term": "Slopagandist",
+      "tell": "The slopagandist drowns the zone in volume; the dead cat changes the subject with one loud object."
+    }
+  ],
+  "senses": [
+    "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced by the thing nobody can stop looking at.",
+    "It works because attention is finite and news is a queue. Coverage can only hold one thing at a time, so the object does not have to be relevant - it only has to be louder, and the agenda moves while the question stays unanswered. What changed was never the facts; it was what everyone was looking at."
+  ],
+  "notes": [],
+  "example": "*\"The contract story was finally landing, and then a **dead cat** hit the table at eight in the morning - by noon nobody could remember what the contract said.\"*",
+  "related": [
+    "Trial balloon",
+    "The Feed",
+    "Ragesturbationist"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Dead cat strategy",
+    "url": "https://en.wikipedia.org/wiki/Dead_cat_strategy"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

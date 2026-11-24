@@ -1,0 +1,48 @@
+{
+  "term": "Discharge petition",
+  "kind": "ability",
+  "chapter": "performative-identity",
+  "position": 17,
+  "part_of_speech": "noun",
+  "ipa": "/dɪsˈtʃɑːdʒ pəˈtɪʃ.ən/",
+  "etymology": "English: the motion that discharges a bill from the committee that is holding it.",
+  "effect": "Pulls a bill out of a committee that will not move it, using a majority that has to sign its name.",
+  "available_to": "A majority of the House - 218 signatures - and a bill that a chair has decided to bury.",
+  "counter": "Keep the signatures public and the bill moving. A petition is expensive to sign and cheap to schedule, so the cheapest counter is a hearing.",
+  "confused_with": [
+    {
+      "term": "Cloture",
+      "tell": "Cloture ends a debate in the chamber that is having it; a discharge petition takes the bill away from the chamber that is not."
+    }
+  ],
+  "senses": [
+    "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218 names, filed with the clerk, open for anyone to read.",
+    "It works because the signature is public and the alternative is invisible. A chair can kill a bill in private; a discharge petition makes every member choose in the open, which is why it is used rarely and threatened constantly."
+  ],
+  "notes": [],
+  "example": "*\"The bill sat in committee for a year, the **discharge petition** reached 218 on a Tuesday, and the chair scheduled a hearing by Thursday.\"*",
+  "related": [
+    "Cloture",
+    "Filibluster",
+    "Subpoenado"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Decorumancer"
+    },
+    {
+      "rel": "counters",
+      "to": "Filibluster"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Discharge petition",
+    "url": "https://en.wikipedia.org/wiki/Discharge_petition"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

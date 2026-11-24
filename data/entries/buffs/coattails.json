@@ -1,0 +1,44 @@
+{
+  "term": "Coattails",
+  "kind": "buff",
+  "chapter": "performative-identity",
+  "position": 14,
+  "part_of_speech": "noun",
+  "ipa": "/ˈkəʊt.teɪlz/",
+  "etymology": "English: the hem of the top-of-ticket coat, which every down-ballot candidate rides.",
+  "effect": "Carries the down-ballot races along on the top of the ticket, and lends a margin to people the voter never met.",
+  "tell": "A state legislator whose ads feature somebody else's name, and a victory speech that says \"we\" about a race the speaker did not run.",
+  "expires": "The first midterm, when the coat is not on the ballot and the hem has to stand up on its own.",
+  "confused_with": [
+    {
+      "term": "Honeymoan",
+      "tell": "The honeymoan is grace granted to the winner; the coattails are the margin the winner lends to everyone standing behind them."
+    }
+  ],
+  "senses": [
+    "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride the same wave, whether or not the wave was about them.",
+    "It works because most voters do not finish the ballot. They pick a top and stop, and the stopping point is the gift - which is why a legislature can swing wildly without a single district changing its mind."
+  ],
+  "notes": [],
+  "example": "*\"She won by nine, and the **coattails** carried a county clerk who had run on a road-repair budget and never mentioned the president once.\"*",
+  "related": [
+    "Convention bounce",
+    "Lame duck",
+    "Playtriot"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argumentum ad populum"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Coattail effect",
+    "url": "https://en.wikipedia.org/wiki/Coattail_effect"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

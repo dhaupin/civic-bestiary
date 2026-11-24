@@ -1,0 +1,44 @@
+{
+  "term": "NDA",
+  "kind": "ability",
+  "chapter": "hypocrisy-revisionism",
+  "position": 16,
+  "part_of_speech": "noun",
+  "ipa": "/ˌen.diːˈeɪ/",
+  "etymology": "Initialism: non-disclosure agreement - a contract to be quiet, signed before anyone knows what the quiet is for.",
+  "effect": "Makes silence a term of employment, and the cost of speaking a debt.",
+  "available_to": "Any employer with a lawyer, any settlement with a cheque, any volunteer with a badge.",
+  "counter": "Read it before signing, and legislate the categories that cannot be contracted away - harassment, wages, safety.",
+  "confused_with": [
+    {
+      "term": "SLAPP",
+      "tell": "The NDA buys the silence before publication; the SLAPP bills for it after."
+    }
+  ],
+  "senses": [
+    "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you owe rather than something you know.",
+    "It works because contracts are private and rights are public. A clause nobody can see is a rule nobody can challenge, and the signature makes the silence look voluntary - which is what the doctrine requires and what the power imbalance supplies."
+  ],
+  "notes": [],
+  "example": "*\"She settled, signed the **NDA**, and spent four years unable to say the word harassment in an interview without a lawyer on the line.\"*",
+  "related": [
+    "The carve-out",
+    "Consent decree",
+    "Qualified immunity"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argument from silence"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Non-disclosure agreement",
+    "url": "https://en.wikipedia.org/wiki/Non-disclosure_agreement"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

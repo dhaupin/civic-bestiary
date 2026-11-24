@@ -1,0 +1,44 @@
+{
+  "term": "Trial balloon",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 15,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˈtraɪ.əl bəˈluːn/",
+  "etymology": "English: from ballooning, where a ballon d'essai is released to see which way the wind blows.",
+  "trigger": "A policy that would be expensive to announce and cheap to deny.",
+  "tell": "An unnamed official, a draft that \"circulated\", and a story that is neither confirmed nor denied for exactly one day.",
+  "counter": "Ask for the name and the document. A balloon with an author is a policy; one without is a rumour with a schedule.",
+  "confused_with": [
+    {
+      "term": "Dead cat",
+      "tell": "The dead cat replaces the story in front of you; the trial balloon tests the story you are about to be given."
+    }
+  ],
+  "senses": [
+    "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy.",
+    "It works because denial is free and attention is not. The public pays for the trial with a day of argument, and the office keeps both outcomes - the policy if it flies, the disavowal if it does not. The unnamed source is the mechanism, not the courtesy."
+  ],
+  "notes": [],
+  "example": "*\"A **trial balloon** went up on a Sunday: a mileage tax, unnamed officials, no bill - and by Wednesday it was 'not under consideration'.\"*",
+  "related": [
+    "Friday news dump",
+    "Biasographer",
+    "Briefing room"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Equivocation"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Trial balloon",
+    "url": "https://en.wikipedia.org/wiki/Trial_balloon"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "term": "Good cop, bad cop",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 21,
+  "part_of_speech": "noun",
+  "ipa": "/ɡʊd kɒp bæd kɒp/",
+  "etymology": "From the interview room, exported to diplomacy: two speakers, one demand, and the appearance of a range.",
+  "trigger": "A subject who will not move, and two people who can take turns.",
+  "tell": "One asks for everything, and the other asks for the same thing and calls it a compromise.",
+  "counter": "Answer the pair as one actor: ask which of the two is authorised to settle. The offer collapses the moment the roles have to be named.",
+  "senses": [
+    "The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions, then the envoy with the same terms and a softer voice.",
+    "It works because a range of options is easier to accept than an ultimatum, and two speakers are cheaper than one concession. The subject negotiates with the kind one, which is the point - the kind one is not authorised to move either."
+  ],
+  "notes": [],
+  "example": "*\"My colleague is being unreasonable, but I think we can work something out\" - the **good cop, bad cop** routine, with the something being the same something and a hand on the shoulder.*",
+  "confused_with": [
+    {
+      "term": "Bothsidesing",
+      "tell": "Bothsidesing presents two positions as equally valid; good cop, bad cop presents two positions as a range, and both of them are the same position."
+    }
+  ],
+  "related": [
+    "Bothsidesing",
+    "Capitulectual"
+  ],
+  "edges": [],
+  "cite": {
+    "label": "Wikipedia · Good cop/bad cop",
+    "url": "https://en.wikipedia.org/wiki/Good_cop/bad_cop"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 2
+  }
+}

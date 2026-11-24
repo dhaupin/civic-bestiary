@@ -1,0 +1,34 @@
+{
+  "term": "Vague promises",
+  "kind": "move",
+  "chapter": "performative-identity",
+  "position": 18,
+  "part_of_speech": "noun",
+  "ipa": "/veɪɡ ˈprɒm.ɪs.ɪz/",
+  "etymology": "English: the promise with its content removed - a commitment kept only in tone.",
+  "trigger": "A question that needs a number, a date, or a name.",
+  "tell": "The promise has an adjective where the figure should be: historic, unprecedented, soon.",
+  "counter": "Ask for the number and the date in the same sentence. A commitment that cannot survive being written down was a mood.",
+  "senses": [
+    "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.",
+    "It works because the shape of a promise is enough to be reported as one. The listener hears the certainty, the journalist quotes the adjective, and the only person who needed the figure was the one who will be blamed for asking."
+  ],
+  "notes": [],
+  "example": "*\"We will have a **bold, historic plan** within the first hundred days\" - the plan had a title, a press conference, and no sentence that could be checked.*",
+  "confused_with": [
+    {
+      "term": "Vaguebooking",
+      "tell": "Vaguebooking withholds the subject; vague promises withhold the terms."
+    }
+  ],
+  "related": [
+    "Honeymoan",
+    "Convention bounce"
+  ],
+  "edges": [],
+  "sort": {
+    "impact": 3,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

@@ -7,6 +7,7 @@ import usePageMeta from '../hooks/usePageMeta.js'
 import site from '../site.js'
 import { entryFor, neighbors, positionOf, sorts } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
+import ShareButton from '../components/ShareButton.jsx'
 import NotFound from './NotFound.jsx'
 
 /** Edges arrive flat; the page groups them by the relation's own label. */
@@ -152,15 +153,25 @@ export default function Species() {
           </div>
         )}
 
-        {entry.cite && (
-          <p className="species-cite">
-            <span className="species-edge-label">Source</span>
-            <a href={entry.cite.url} target="_blank" rel="noreferrer">
-              {entry.cite.label}
+        <div className="species-actions">
+          {entry.cite && (
+            <p className="species-action">
+              <span className="species-edge-label">Source</span>
+              <a href={entry.cite.url} target="_blank" rel="noreferrer">
+                {entry.cite.label}
+                <span aria-hidden="true"> ↗</span>
+              </a>
+            </p>
+          )}
+          <p className="species-action">
+            <span className="species-edge-label">Record</span>
+            <a href={`${site.repo}/blob/main/${entry.source}`} target="_blank" rel="noreferrer">
+              {entry.source}
               <span aria-hidden="true"> ↗</span>
             </a>
           </p>
-        )}
+          <ShareButton url={`${site.url}${entry.path}`} title={`${entry.term} - ${site.name}`} label="Share this entry" />
+        </div>
 
         <div className="species-compare">
           <h2>Compare with</h2>

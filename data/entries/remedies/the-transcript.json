@@ -1,0 +1,73 @@
+{
+  "term": "The transcript",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 10,
+  "part_of_speech": "noun",
+  "ipa": "/ˈtræn.skrɪpt/",
+  "etymology": "From the Latin transcribere, to copy across - the written version of a thing that was said out loud.",
+  "effect": "Converts a performance into a text, and a text into something you can quote back.",
+  "costs": "Time, and the risk that your quote is worse out of context than it was in it.",
+  "failure": "The transcript that is still being finalised, and the correction that quietly changes a word.",
+  "tell": [
+    "Timestamps",
+    "A speaker label on every line",
+    "A version number"
+  ],
+  "confused_with": [
+    {
+      "term": "Records request",
+      "tell": "The request gets what the body wrote down; the transcript is what it said before anybody wrote it down."
+    }
+  ],
+  "senses": [
+    "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about what somebody said on Tuesday.",
+    "It works because a text can be searched and a performance cannot. The clip is chosen by whoever edits it; the transcript is chosen by whoever reads it - and that difference is the whole of the remedy."
+  ],
+  "notes": [],
+  "example": "*\"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional.\"*",
+  "related": [
+    "The archivist",
+    "The second source",
+    "Records request"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Vaguebooking"
+    },
+    {
+      "rel": "counters",
+      "to": "Cable panel"
+    },
+    {
+      "rel": "counters",
+      "to": "Motte hop"
+    },
+    {
+      "rel": "counters",
+      "to": "Subpoenado"
+    },
+    {
+      "rel": "counters",
+      "to": "Group chat"
+    },
+    {
+      "rel": "counters",
+      "to": "Bootcurious"
+    },
+    {
+      "rel": "counters",
+      "to": "Dead cat"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Court reporter",
+    "url": "https://en.wikipedia.org/wiki/Court_reporter"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

@@ -94,11 +94,11 @@ surfaces cannot drift. Contributing and provenance are foot-of-page links.
 
 ```
 data/lexicon.json         meta, preface, chapters (identity of the guide)
-data/entries/<slug>.json  one record per entry; filename is the slug
+data/entries/<kind>/<slug>.json  one record per entry, filed by kind; filename is the slug
 schema/record.json        the contract: kinds, relations, fields, sorts
 ```
 
-Nothing else is authored. `README.md` and `web/src/data/lexicon.js` are
+Nothing else is authored. `LEXICON.md` and `web/src/data/lexicon.js` are
 generated, and the validator fails the build if a generated file is stale.
 
 ### Record anatomy
@@ -109,7 +109,7 @@ Common fields, in the order the schema declares them:
 |---|---|
 | `term` | The coinage, title case, no quotes. The filename is its slug. |
 | `kind` | One of the eight. |
-| `chapter` | Chapter id from `lexicon.json`. |
+| `chapter` | Chapter id from `lexicon.json`. Defaults to the majority of the entry's `commits` edges; `build.py --chapters` reports where the two disagree. |
 | `position` | Sort position inside the chapter. |
 | `part_of_speech` | Grammatically what the term is. Most species are nouns; moves are gerunds. |
 | `ipa` | Approximate IPA between slashes. |
@@ -119,7 +119,7 @@ Common fields, in the order the schema declares them:
 | `confused_with` | Neighbours and the one thing that separates them. |
 | `related` | Two or three existing terms. The graph must stay connected. |
 | `edges` | Typed relations (below). Author one direction; the inverse renders itself. |
-| `cite` | Reference entries only (fallacies): label + URL. Coinages have no source. |
+| `cite` | Label + URL, verified to resolve, pointing at the referent: the documented fallacy for reference entries, the real doctrine or office a coinage is built on. Characters with no real referent carry none. |
 
 Kind-specific identification rows, which render as the entry's field-guide block:
 
@@ -162,7 +162,7 @@ Every record carries three 1-5 scores, which drive the guide's default ordering:
 Order matters. Run it in this order or the validator will tell you why.
 
 ```bash
-python3 build.py             # validate data/, regenerate README.md
+python3 build.py             # validate data/, regenerate LEXICON.md + README block
 python3 build_schema.py      # regenerate the issue form + web/src/data/contract.js
 python3 build_site.py        # regenerate web/src/data/lexicon.js (+ labs/ copy)
 npm --prefix web run build   # vite build + prestruct prerender
@@ -172,7 +172,7 @@ npm run verify               # validator + freshness + SEO audit + poststruct
 What each step owns:
 
 - **`build.py`** - the gate. Validates every record against `schema/record.json`,
-  enforces the invariants in section 7, and writes `README.md`.
+  enforces the invariants in section 7, and writes `LEXICON.md`.
 - **`build_schema.py`** - one schema, three audiences: the GitHub issue form, the
   web contract module, and the contribute page. A new required field appears in
   all three at once.
@@ -197,7 +197,7 @@ serves but is not canonical.
    the label exists before debugging anything else.
 3. **Maintainers own the graph.** Placement, cross-references, sort scores, and
    the final edit stay with the maintainers, so a proposal cannot orphan a node.
-4. **A proposal lands as one file**, `data/entries/<slug>.json`, once the writing
+4. **A proposal lands as one file**, `data/entries/<kind>/<slug>.json`, once the writing
    holds up. The bar is not novelty, it is use.
 
 ---
@@ -210,7 +210,7 @@ serves but is not canonical.
 - Every entry is referenced by at least one other entry - no orphans. A new entry
   must be reachable from the existing graph before it can be added.
 - Chapters and positions are unique; every chapter in `lexicon.json` is used.
-- Generated files (`README.md`, `lexicon.js`, `contract.js`, the issue form) are
+- Generated files (`LEXICON.md`, `lexicon.js`, `contract.js`, the issue form) are
   current - a stale generated file fails the build.
 - The SEO audit reports zero failures across every baked page.
 
@@ -263,7 +263,7 @@ Backlog and open questions live in [`TASKS.md`](TASKS.md).
 ## 11. Current numbers
 
 Not written here, on purpose. `build.py` counts them into the footer of
-`README.md` - entries, kinds, chapters, coinages, the answer side, and how many
+`LEXICON.md` - entries, kinds, chapters, coinages, the answer side, and how many
 coinages carry a counter - and the site reads the same figures from the
 generated bundle, so `/` and `/about/` cannot disagree with the data. A number
 typed into a document is a number that goes stale; there are none in this one.

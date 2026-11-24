@@ -1,0 +1,48 @@
+{
+  "term": "Motte hop",
+  "kind": "move",
+  "chapter": "bad-faith-debate",
+  "position": 18,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˈmɒt hɒp/",
+  "etymology": "From the motte-and-bailey castle: the defensible tower and the indefensible yard, and the walk between them.",
+  "trigger": "A claim has just been challenged by someone who can reach the evidence.",
+  "tell": "The bold claim is restated as a modest one, the modest one is defended, and the bold one returns when the challenger leaves.",
+  "counter": "Write both versions down, and ask which one the argument was for. The hop is only invisible while nobody keeps the receipt.",
+  "confused_with": [
+    {
+      "term": "Motte-and-bailey fallacy",
+      "tell": "The fallacy is the structure; the hop is the performance. One is named in the literature, the other is what you watch happen in a thread."
+    }
+  ],
+  "senses": [
+    "The move of retreating from an indefensible claim to a defensible one, winning the argument about the small claim, then re-advancing the large one once the pressure is off.",
+    "It works because each step is individually reasonable. Nobody has to defend the yard if they can be seen defending the tower, and the audience remembers the exchange as a win for the side that never left the tower."
+  ],
+  "notes": [],
+  "example": "*\"He said the policy was a plot, then said he only meant it was a mistake, then said the plot again on Friday - a **motte hop** in three acts.\"*",
+  "related": [
+    "Equivangelist",
+    "Sophistroll",
+    "Moving the goalposts"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Motte-and-bailey fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Equivocation"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Motte and bailey fallacy",
+    "url": "https://en.wikipedia.org/wiki/Motte_and_bailey_fallacy"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

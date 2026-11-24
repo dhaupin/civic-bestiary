@@ -86,29 +86,46 @@ export default function Home() {
             An entry from the guide, drawn fresh each visit. Every one is written the same way: what it
             is, how to recognise it, and what answers it.
           </p>
-          <Link to={featured.path} className="card card-link">
-            <p className="card-kicker">
-              {featured.kindLabel} · chapter {featured.chapterRoman} · {featured.chapterTitle}
-            </p>
-            <h3>{featured.term}</h3>
-            <p>{featured.summary}</p>
-          </Link>
-          <dl className="contract">
-            {tell.map((row) => (
-              <div key={row.key}>
-                <dt>{row.label}</dt>
-                <dd>{row.value}</dd>
-              </div>
-            ))}
-          </dl>
-          <div className="cta-row">
-            <button type="button" className="btn btn-ghost" onClick={() => setFeatured(pickOther(featured))}>
-              Show me another
-            </button>
-            <Link className="btn btn-ghost" to="/guide/">
-              Browse all {stats.entries}
+          <article className="draw">
+            <Link to={featured.path} className="draw-head">
+              <p className="card-kicker">
+                {featured.kindLabel} · chapter {featured.chapterRoman} · {featured.chapterTitle}
+              </p>
+              <h3>{featured.term}</h3>
+              <p className="draw-summary">{featured.definition}</p>
             </Link>
-          </div>
+            <dl className="draw-marks">
+              {tell.map((row) => (
+                <div key={row.key}>
+                  <dt>{row.label}</dt>
+                  <dd>
+                    {row.type === 'list' ? (
+                      <ul className="draw-list">
+                        {row.value.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      row.value
+                    )}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+            <div className="draw-foot">
+              <Link className="draw-more" to={featured.path}>
+                Read the entry →
+              </Link>
+              <div className="draw-actions">
+                <button type="button" className="btn btn-ghost" onClick={() => setFeatured(pickOther(featured))}>
+                  Show me another
+                </button>
+                <Link className="btn btn-ghost" to="/guide/">
+                  Browse all {stats.entries}
+                </Link>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
 

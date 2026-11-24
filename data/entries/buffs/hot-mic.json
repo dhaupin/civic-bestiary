@@ -1,0 +1,44 @@
+{
+  "term": "Hot mic",
+  "kind": "buff",
+  "chapter": "fearmongering-grift",
+  "position": 23,
+  "part_of_speech": "noun",
+  "ipa": "/hɒt mɪk/",
+  "etymology": "Broadcast English: a microphone that is still live after the performance has stopped.",
+  "effect": "Publishes what the bearer believed was private, at the exact moment they stopped performing.",
+  "tell": "A candid remark in a hallway, a sigh after the interview, and a clip that begins two seconds before anybody knew it was on.",
+  "expires": "When the clip is called edited, or when the next hot mic arrives and becomes the story instead.",
+  "confused_with": [
+    {
+      "term": "Nonpology",
+      "tell": "The nonpology is the apology for what the hot mic caught."
+    }
+  ],
+  "senses": [
+    "The condition of being recorded while off: the green-room joke, the hallway aside, the thing said to the aide who is still holding the microphone.",
+    "It works because the performance is the exception and the aside is the habit. An official who is careful for the cameras and careless in the corridor has told you which one is the act, and the microphone has told everybody else."
+  ],
+  "notes": [],
+  "example": "*\"The **hot mic** caught him calling the voters the base and the donor the customer, and the distinction explained the next three years of policy.\"*",
+  "related": [
+    "Briefing room",
+    "Cable panel",
+    "Comment section"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to emotion"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Hot mic",
+    "url": "https://en.wikipedia.org/wiki/Hot_mic"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

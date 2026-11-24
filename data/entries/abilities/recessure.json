@@ -1,0 +1,44 @@
+{
+  "term": "Recessure",
+  "kind": "ability",
+  "chapter": "hypocrisy-revisionism",
+  "position": 11,
+  "part_of_speech": "noun",
+  "ipa": "/rɪˈsɛʃ.ə/",
+  "etymology": "Blend of \"recess\" + \"seizure\"",
+  "effect": "Installs an official while the chamber is empty, and calls the emptiness a recess.",
+  "available_to": "A president, a Senate that has left town, and a vacancy that has been waiting for a vote.",
+  "counter": "Pro forma sessions. A gavel every few days means the Senate is never in recess, and the appointment never happens.",
+  "confused_with": [
+    {
+      "term": "Cronycle",
+      "tell": "The cronycle installs friends with the chamber's consent; the recessure installs them without it."
+    }
+  ],
+  "senses": [
+    "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session - a temporary official holding a permanent-looking title.",
+    "It works because recess is a word the Senate can disprove by showing up. The power is real but the trigger is procedural, so the fight is never about the nominee's qualifications; it is about whether anyone is standing in the chamber to object."
+  ],
+  "notes": [],
+  "example": "*\"The nominee had been stalled for eight months, so the **recessure** happened on a Tuesday when the Senate was technically out of town, and the oath was administered by Thursday.\"*",
+  "related": [
+    "Pocketveto",
+    "Nightdocket",
+    "Unelected official"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Special pleading"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Recess appointment",
+    "url": "https://en.wikipedia.org/wiki/Recess_appointment"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 3
+  }
+}

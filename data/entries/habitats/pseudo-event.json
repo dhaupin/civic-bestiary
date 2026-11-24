@@ -1,0 +1,49 @@
+{
+  "term": "Pseudo-event",
+  "kind": "habitat",
+  "chapter": "fearmongering-grift",
+  "position": 20,
+  "part_of_speech": "noun",
+  "ipa": "/ˈsjuː.dəʊ ɪˌvɛnt/",
+  "etymology": "Coined by Daniel Boorstin in 1961 for an occurrence staged in order to be reported rather than in order to happen.",
+  "carriers": "A ribbon, a hard hat, a backdrop of people who work there, and a press release timestamped before the event.",
+  "economics": "Cheap to stage, free to air, and repeatable - the same ribbon can be cut in nine districts.",
+  "signature": "The announcement of the thing instead of the thing, timed for the evening bulletin.",
+  "confused_with": [
+    {
+      "term": "Rally",
+      "tell": "A rally is a crowd that came to see something; a pseudo-event is something that came to be seen."
+    }
+  ],
+  "senses": [
+    "An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement.",
+    "It works because coverage is the deliverable. A pseudo-event costs almost nothing to stage, produces a clip on schedule and can be repeated - which is why it crowds out the events that happen on their own timetable."
+  ],
+  "notes": [],
+  "example": "*\"The **pseudo-event** had a ribbon, a hard hat and a site that had not been funded, and it led the local news for two nights.\"*",
+  "related": [
+    "Briefing room",
+    "Spin room",
+    "Patriotainment"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Patriotainer"
+    },
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Pseudo-event",
+    "url": "https://en.wikipedia.org/wiki/Pseudo-event"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 4,
+    "blowback": 2
+  },
+  "counter": "Ask what would have happened if nobody had been invited. A pseudo-event is scheduled in order to be reported, so the question is what remains when the coverage stops."
+}

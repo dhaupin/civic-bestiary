@@ -1,0 +1,48 @@
+{
+  "term": "Cloture",
+  "kind": "ability",
+  "chapter": "performative-identity",
+  "position": 16,
+  "part_of_speech": "noun",
+  "ipa": "/ˈkləʊ.tʃə/",
+  "etymology": "English: from the French clôture, the closing - the motion that ends debate.",
+  "effect": "Ends a debate by arithmetic, at a price the majority has to pay out of its own calendar.",
+  "available_to": "Sixty senators, or a majority willing to spend the days it takes to get to sixty.",
+  "counter": "Count the votes before you need them. Cloture is cheap for a majority that already has the number, and a week it cannot spare for one that does not.",
+  "confused_with": [
+    {
+      "term": "Filibluster",
+      "tell": "The filibluster spends the clock to stop a vote; cloture spends the clock to force one. Same clock, opposite buyer."
+    }
+  ],
+  "senses": [
+    "The motion that closes debate: a supermajority votes to stop talking and the chamber moves to the question - the procedural exit from a filibuster, priced in session days rather than in votes.",
+    "It works because the price is time, and time is the one thing a majority cannot borrow. The two-step - cloture on the motion to proceed, then cloture on the bill - means a determined minority is charged twice for the same hour."
+  ],
+  "notes": [],
+  "example": "*\"They had the votes for the bill and not the votes for **cloture**, so the week went to the calendar and the bill went to the next session.\"*",
+  "related": [
+    "Discharge petition",
+    "Omnibust",
+    "Pocketveto"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Gallopologist"
+    },
+    {
+      "rel": "counters",
+      "to": "Filibluster"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Cloture",
+    "url": "https://en.wikipedia.org/wiki/Cloture"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 3
+  }
+}
