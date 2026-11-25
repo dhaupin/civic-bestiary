@@ -95,7 +95,7 @@ function headingFor(view, total) {
   return {
     eyebrow: `${stats.entries} entries · ${stats.fallacies} fallacies · ${chapters.length} chapters`,
     title: 'The field guide',
-    sub: 'This is the whole drawer. Pick a kind, pick a chapter, or search for the line you keep seeing in a reply box. A species is an actor, a move is what it does, an ability belongs to an office, a habitat is the room it works in, a buff is the weather it runs under, and a fallacy is the documented error it commits. Every entry says what the thing is, how to recognise it, and what answers it - and the answers have entries of their own, in chapter VI. Each character links to the fallacies it commits, and each fallacy links back to the characters who commit it, so the guide reads in both directions.',
+    sub: 'Welcome to the field guide. Pick a kind, pick a chapter, or search for the line you keep seeing in a reply box. A species is an actor, a move is what it does, an ability belongs to an office, a habitat is the room it works in, a buff is the weather it runs under, and a fallacy is the documented error it commits. Every entry says what the thing is, how to recognise it, and what answers it - and the answers have entries of their own, in chapter VI. Each character links to the fallacies it commits, and each fallacy links back to the characters who commit it, so the guide reads in both directions.',
     rows: [],
     path: '/guide/',
     description:

@@ -29,7 +29,7 @@ export default {
   keywords:
     'bestiary, field guide, portmanteau, satire, rhetoric, propaganda, trolls, civic, nationalism, media literacy',
 
-  maker: { label: 'dhaupin', url: 'https://github.com/dhaupin' },
+  copyright: { label: 'Creadev.org', url: 'https://creadev.org' },
   org: { name: 'civicbestiary', url: REPO },
 
   // --- theme --------------------------------------------------------------
