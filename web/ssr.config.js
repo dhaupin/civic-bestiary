@@ -8,6 +8,9 @@
  *
  * Edit site.config.js or lexicon.json, never this file.
  */
+import crypto from 'node:crypto'
+import fs from 'node:fs'
+
 import site from '../site.config.js'
 import { chapters, entries, kinds, meta as lexicon, stats } from './src/data/lexicon.js'
 
@@ -60,6 +63,11 @@ const termRoutes = entries.map((entry) => ({
   },
 }))
 
+const ogCard = new URL('./public/og-image.svg', import.meta.url)
+const ogVersion = fs.existsSync(ogCard)
+  ? crypto.createHash('sha256').update(fs.readFileSync(ogCard)).digest('hex').slice(0, 8)
+  : '0'
+
 export default {
   siteUrl: site.url,
   siteName: site.name,
@@ -67,7 +75,10 @@ export default {
   author: site.author,
   tagline: site.tagline,
   ogImage: {
-    url: `${site.url}/og-image.png`,
+    // Scrapers cache an image by its URL, so a card whose counts changed under
+    // an unchanged URL keeps being served stale. Hashing the card into the
+    // query makes every content change a new URL and a fresh scrape.
+    url: `${site.url}/og-image.png?v=${ogVersion}`,
     width: 1200,
     height: 630,
     alt: `${site.name} - a field guide to the characters of the body politic`,

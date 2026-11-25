@@ -12,6 +12,7 @@ Usage:
 """
 
 import json
+import html
 import re
 import sys
 from pathlib import Path
@@ -25,14 +26,6 @@ SUMMARY_LIMIT = 150
 META_LIMIT = 158
 
 
-def typographic(text):
-    """Straight quotes to curly ones - the site's editorial voice, and 1 char
-    instead of the 6 an HTML entity costs in a meta description."""
-    text = re.sub(r'"([^"]*)"', lambda m: "\u201c" + m.group(1) + "\u201d", text)
-    text = re.sub(r"(^|[\s(\[])'", lambda m: m.group(1) + "\u2018", text)
-    return text.replace("'", "\u2019")
-
-
 def unwrap_emphasis(text):
     """Drop the book's outer *...* wrapper so only the inner **term** survives."""
     stripped = text.strip()
@@ -42,11 +35,20 @@ def unwrap_emphasis(text):
     return stripped
 
 
+def meta_length(text):
+    """Length as the tag renders it: a straight quote is &quot;, six characters."""
+    return len(html.escape(text))
+
+
 def clip(text, limit):
-    """Trim to a word boundary, so a meta description never ends mid-word."""
-    if len(text) <= limit:
+    """Trim to a word boundary, so a meta description never ends mid-word. The
+    budget is measured after escaping, since that is what the tag costs."""
+    if meta_length(text) <= limit:
         return text
-    return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-") + "..."
+    words = text.split()
+    while words and meta_length(" ".join(words).rstrip(" ,;:-") + "...") > limit:
+        words.pop()
+    return " ".join(words).rstrip(" ,;:-") + "..."
 
 
 def entry_summary(entry, spec):
@@ -66,10 +68,7 @@ def plain_sense(text):
 
 def summarize(text):
     """First sense as a meta description, clipped to fit a search result."""
-    plain = plain_sense(text)
-    if len(plain) <= SUMMARY_LIMIT:
-        return plain
-    return plain[:SUMMARY_LIMIT].rsplit(" ", 1)[0].rstrip(" ,;:-") + "..."
+    return clip(plain_sense(text), SUMMARY_LIMIT)
 
 
 def build(doc):
@@ -120,29 +119,29 @@ def build(doc):
                 "ipa": entry.get("ipa"),
                 "position": entry["position"],
                 "sort": entry.get("sort", {}),
-                "etymology": typographic(entry["etymology"]),
+                "etymology": entry["etymology"],
                 "identification": [
                     {
                         "key": row["key"],
                         "label": row["label"],
                         "type": row["type"],
-                        "value": ([typographic(item) for item in entry[row["key"]]]
-                                  if row["type"] == "list" else typographic(entry[row["key"]])),
+                        "value": ([item for item in entry[row["key"]]]
+                                  if row["type"] == "list" else entry[row["key"]]),
                     }
                     for row in spec["identification"]
                 ],
-                "voice": typographic(entry[spec["voice"]]),
-                "senses": [typographic(sense) for sense in entry["senses"]],
+                "voice": entry[spec["voice"]],
+                "senses": list(entry["senses"]),
                 "notes": [
-                    {"label": note["label"], "text": typographic(note["text"])}
+                    {"label": note["label"], "text": note["text"]}
                     for note in entry.get("notes", [])
                 ],
-                "example": typographic(unwrap_emphasis(entry["example"])),
+                "example": unwrap_emphasis(entry["example"]),
                 "cite": entry.get("cite"),
-                "summary": typographic(entry_summary(entry, spec)),
-                "definition": typographic(plain_sense(entry["senses"][0])),
+                "summary": entry_summary(entry, spec),
+                "definition": plain_sense(entry["senses"][0]),
                 "confusedWith": [
-                    {"term": twin["term"], "slug": slugify(twin["term"]), "tell": typographic(twin["tell"])}
+                    {"term": twin["term"], "slug": slugify(twin["term"]), "tell": twin["tell"]}
                     for twin in entry["confused_with"]
                 ],
                 "related": [
