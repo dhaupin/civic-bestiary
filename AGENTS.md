@@ -113,7 +113,10 @@ It does not fail the build; do not "fix" it by deleting the fallback.
    `kind`, `chapter`, and `position`. Coinages number from 1 and the fallacies in the same chapter
    start at 101, so the coinages always sort ahead of the documented errors; append within your own
    block, one past its highest, because inserting mid-chapter shifts every book anchor below it.
-   `position` sets the "No. 7 of 28" line. Fill the identification block the kind requires, and no
+   The 101 is a spacer, not a rule about density: the invariant is that every coined entry sorts
+   ahead of every reference entry in its chapter, and the validator enforces it. `position` sets
+   that order only - the book numbers entries by running count, so "No. 7 of 187" is the entry's
+   place in the guide, not its position. Fill the identification block the kind requires, and no
    other kind's block.
 2. Add the new term to one existing entry's `related` list, swapping out its weakest link -
    lists are kept at three items, and the validator tells you if you skipped this.
