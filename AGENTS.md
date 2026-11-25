@@ -233,6 +233,12 @@ the untyped fallback for a connection the vocabulary cannot name.
 The graph must stay connected, but `related` is no longer the only way to connect: a term is
 reachable if it appears in a `related` list **or** is the target of any edge.
 
+A fallacy is filed by the argument it names; the characters that commit it are filed by what
+they do. So a fallacy page also derives "In chapters" from the chapters of the entries whose
+`commits` edge points at it. The line appears only when it says something the breadcrumb does
+not - two or more chapters, or one chapter that is not the entry's own - and it moves nothing:
+the authored `chapter` stays where it was.
+
 The site slug is derived from the term (`Trust-Me-Brofessor` becomes
 `/species/trust-me-brofessor`), so it is stable; the prefix is the kind's. `LEXICON.md` anchors are
 GitHub's auto-generated heading anchors (`#10-trust-me-brofessor`) and therefore **do** shift

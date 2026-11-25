@@ -688,7 +688,8 @@ export const entries = [
         "slug": "the-poll-worker",
         "path": "/keystones/the-poll-worker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Freetard",
@@ -805,7 +806,8 @@ export const entries = [
         "slug": "the-translator",
         "path": "/keystones/the-translator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "LARPtarian",
@@ -936,7 +938,8 @@ export const entries = [
         "slug": "the-caseworker",
         "path": "/keystones/the-caseworker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Critizen",
@@ -1079,7 +1082,8 @@ export const entries = [
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Sabotriot",
@@ -1198,7 +1202,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Patriotainment",
@@ -1353,7 +1358,8 @@ export const entries = [
         "slug": "the-audit",
         "path": "/remedies/the-audit/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Patriotainer",
@@ -1509,7 +1515,8 @@ export const entries = [
         "slug": "the-second-source",
         "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Filibluster",
@@ -1614,7 +1621,8 @@ export const entries = [
         "slug": "discharge-petition",
         "path": "/abilities/discharge-petition/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Gerrythm",
@@ -1717,7 +1725,8 @@ export const entries = [
         "slug": "the-redistricting-commission",
         "path": "/keystones/the-redistricting-commission/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Omnibust",
@@ -1815,7 +1824,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Honeymoan",
@@ -1905,7 +1915,8 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Pocketveto",
@@ -2001,7 +2012,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Nightdocket",
@@ -2104,7 +2116,8 @@ export const entries = [
         "slug": "the-stay",
         "path": "/remedies/the-stay/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Coattails",
@@ -2192,7 +2205,8 @@ export const entries = [
         "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Convention bounce",
@@ -2288,7 +2302,8 @@ export const entries = [
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Cloture",
@@ -2391,7 +2406,8 @@ export const entries = [
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Discharge petition",
@@ -2489,7 +2505,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Vague promises",
@@ -2583,7 +2600,8 @@ export const entries = [
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Citizens United",
@@ -2678,7 +2696,8 @@ export const entries = [
         "slug": "the-sponsor-line",
         "path": "/remedies/the-sponsor-line/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Slippery slope",
@@ -2775,6 +2794,18 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -2873,6 +2904,18 @@ export const entries = [
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
         "path": "/species/hypocontortionist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -2989,6 +3032,18 @@ export const entries = [
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -3086,6 +3141,18 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -3211,6 +3278,18 @@ export const entries = [
         "slug": "pseudo-event",
         "path": "/habitats/pseudo-event/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -3309,6 +3388,13 @@ export const entries = [
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      }
     ]
   },
   {
@@ -3406,6 +3492,18 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -3575,7 +3673,8 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Illogician",
@@ -3708,7 +3807,8 @@ export const entries = [
         "slug": "the-librarian",
         "path": "/keystones/the-librarian/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "JAQing Off",
@@ -3827,7 +3927,8 @@ export const entries = [
         "slug": "cross-examination",
         "path": "/remedies/cross-examination/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Trust-Me-Brofessor",
@@ -3946,7 +4047,8 @@ export const entries = [
         "slug": "the-translator",
         "path": "/keystones/the-translator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Biasographer",
@@ -4086,7 +4188,8 @@ export const entries = [
         "slug": "the-steelman",
         "path": "/remedies/the-steelman/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bleatkeeper",
@@ -4212,7 +4315,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Equivangelist",
@@ -4329,7 +4433,8 @@ export const entries = [
         "slug": "the-steelman",
         "path": "/remedies/the-steelman/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Gallopologist",
@@ -4455,7 +4560,8 @@ export const entries = [
         "slug": "the-juror",
         "path": "/keystones/the-juror/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Decorumancer",
@@ -4574,7 +4680,8 @@ export const entries = [
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Comment section",
@@ -4799,7 +4906,8 @@ export const entries = [
         "slug": "the-ombudsman",
         "path": "/keystones/the-ombudsman/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bothsidesing",
@@ -4918,7 +5026,8 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Vaguebooking",
@@ -5023,7 +5132,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Receiptbomb",
@@ -5125,7 +5235,8 @@ export const entries = [
         "slug": "the-second-source",
         "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Dead cat",
@@ -5228,7 +5339,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Trial balloon",
@@ -5331,7 +5443,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Friday news dump",
@@ -5439,7 +5552,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Astroturfing",
@@ -5542,7 +5656,8 @@ export const entries = [
         "slug": "lateral-reading",
         "path": "/remedies/lateral-reading/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Motte hop",
@@ -5652,7 +5767,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Heckler's veto",
@@ -5762,7 +5878,8 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Flood the zone",
@@ -5872,7 +5989,8 @@ export const entries = [
         "slug": "the-audit",
         "path": "/remedies/the-audit/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Good cop, bad cop",
@@ -5972,7 +6090,8 @@ export const entries = [
         "slug": "cross-examination",
         "path": "/remedies/cross-examination/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Ad hominem",
@@ -6079,6 +6198,13 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -6199,6 +6325,18 @@ export const entries = [
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -6352,6 +6490,28 @@ export const entries = [
         "slug": "access",
         "path": "/buffs/access/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -6469,6 +6629,23 @@ export const entries = [
         "slug": "rally",
         "path": "/habitats/rally/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -6567,6 +6744,18 @@ export const entries = [
         "slug": "push-poll",
         "path": "/moves/push-poll/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -6664,6 +6853,13 @@ export const entries = [
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
         "path": "/species/bleatkeeper/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -6787,6 +6983,23 @@ export const entries = [
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -6885,6 +7098,18 @@ export const entries = [
         "slug": "nonpology",
         "path": "/moves/nonpology/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -6982,6 +7207,13 @@ export const entries = [
         "term": "Spin room",
         "slug": "spin-room",
         "path": "/habitats/spin-room/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -7092,6 +7324,23 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -7212,6 +7461,18 @@ export const entries = [
         "slug": "perp-walk",
         "path": "/habitats/perp-walk/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -7310,6 +7571,13 @@ export const entries = [
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      }
     ]
   },
   {
@@ -7407,6 +7675,13 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -7511,6 +7786,13 @@ export const entries = [
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -7613,6 +7895,18 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -7717,6 +8011,18 @@ export const entries = [
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -7819,6 +8125,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -7923,6 +8236,18 @@ export const entries = [
         "slug": "rally",
         "path": "/habitats/rally/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      }
     ]
   },
   {
@@ -8026,6 +8351,13 @@ export const entries = [
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      }
     ]
   },
   {
@@ -8128,6 +8460,13 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -8267,7 +8606,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Mythstorian",
@@ -8398,7 +8738,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bootcurious",
@@ -8512,7 +8853,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Crookmaxxing",
@@ -8614,7 +8956,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Capitulectual",
@@ -8759,7 +9102,8 @@ export const entries = [
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Subpoenado",
@@ -8857,7 +9201,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Cronycle",
@@ -8952,7 +9297,8 @@ export const entries = [
         "slug": "the-auditor",
         "path": "/keystones/the-auditor/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Nonpology",
@@ -9064,7 +9410,8 @@ export const entries = [
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "School board meeting",
@@ -9250,7 +9597,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Blueslip",
@@ -9353,7 +9701,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Recessure",
@@ -9449,7 +9798,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Signaway",
@@ -9552,7 +9902,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Lame duck",
@@ -9640,7 +9991,8 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Judge shopping",
@@ -9743,7 +10095,8 @@ export const entries = [
         "slug": "random-draw",
         "path": "/remedies/random-draw/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "SLAPP",
@@ -9846,7 +10199,8 @@ export const entries = [
         "slug": "fee-shift",
         "path": "/remedies/fee-shift/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "NDA",
@@ -9942,7 +10296,8 @@ export const entries = [
         "slug": "the-carve-out",
         "path": "/remedies/the-carve-out/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Qualified immunity",
@@ -10038,7 +10393,8 @@ export const entries = [
         "slug": "the-public-defender",
         "path": "/keystones/the-public-defender/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Consent decree",
@@ -10121,7 +10477,8 @@ export const entries = [
         "slug": "the-auditor",
         "path": "/keystones/the-auditor/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Breaking treaties",
@@ -10204,7 +10561,8 @@ export const entries = [
         "slug": "the-withdrawal-clause",
         "path": "/remedies/the-withdrawal-clause/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Secret meeting",
@@ -10304,7 +10662,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Good ol' boys club",
@@ -10411,7 +10770,8 @@ export const entries = [
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Unelected official",
@@ -10478,7 +10838,8 @@ export const entries = [
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Two wrongs make a right",
@@ -10583,6 +10944,18 @@ export const entries = [
         "slug": "crookmaxxing",
         "path": "/moves/crookmaxxing/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -10680,6 +11053,18 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -10828,6 +11213,18 @@ export const entries = [
         "slug": "good-ol-boys-club",
         "path": "/habitats/good-ol-boys-club/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -10926,6 +11323,18 @@ export const entries = [
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -11023,6 +11432,18 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -11149,6 +11570,23 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -11283,7 +11721,8 @@ export const entries = [
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Dramagogue",
@@ -11428,7 +11867,8 @@ export const entries = [
         "slug": "the-public-defender",
         "path": "/keystones/the-public-defender/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Ragesturbationist",
@@ -11547,7 +11987,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Martyrholic",
@@ -11673,7 +12114,8 @@ export const entries = [
         "slug": "cross-examination",
         "path": "/remedies/cross-examination/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Algodemic",
@@ -11820,7 +12262,8 @@ export const entries = [
         "slug": "lateral-reading",
         "path": "/remedies/lateral-reading/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Plutomartyr",
@@ -11967,7 +12410,8 @@ export const entries = [
         "slug": "the-caseworker",
         "path": "/keystones/the-caseworker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Slopagandist",
@@ -12142,7 +12586,8 @@ export const entries = [
         "slug": "the-second-source",
         "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Cable panel",
@@ -12337,7 +12782,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Group chat",
@@ -12504,7 +12950,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bluecheck",
@@ -12602,7 +13049,8 @@ export const entries = [
         "slug": "the-editor",
         "path": "/keystones/the-editor/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Crisisglow",
@@ -12702,7 +13150,8 @@ export const entries = [
         "slug": "sunset-clause",
         "path": "/remedies/sunset-clause/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Indictbump",
@@ -12792,7 +13241,8 @@ export const entries = [
         "path": "/fallacies/poisoning-the-well/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The Feed",
@@ -12966,7 +13416,8 @@ export const entries = [
         "slug": "lateral-reading",
         "path": "/remedies/lateral-reading/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Rubber chicken circuit",
@@ -13084,7 +13535,8 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Push poll",
@@ -13194,7 +13646,8 @@ export const entries = [
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Briefing room",
@@ -13366,7 +13819,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Spin room",
@@ -13496,7 +13950,8 @@ export const entries = [
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Rally",
@@ -13682,7 +14137,8 @@ export const entries = [
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Frankincense",
@@ -13775,7 +14231,8 @@ export const entries = [
         "slug": "the-audit",
         "path": "/remedies/the-audit/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Pseudo-event",
@@ -13884,7 +14341,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Perp walk",
@@ -14007,7 +14465,8 @@ export const entries = [
         "slug": "the-juror",
         "path": "/keystones/the-juror/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Access",
@@ -14103,7 +14562,8 @@ export const entries = [
         "slug": "recusal",
         "path": "/remedies/recusal/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Hot mic",
@@ -14199,7 +14659,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "WMD mongering",
@@ -14304,7 +14765,8 @@ export const entries = [
         "slug": "the-second-source",
         "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Lobbyism",
@@ -14389,7 +14851,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "PAC check",
@@ -14464,7 +14927,8 @@ export const entries = [
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Oil diplomacy",
@@ -14552,7 +15016,8 @@ export const entries = [
         "slug": "the-reserve",
         "path": "/remedies/the-reserve/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Climate hoax",
@@ -14637,7 +15102,8 @@ export const entries = [
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Forever war",
@@ -14722,7 +15188,8 @@ export const entries = [
         "slug": "sunset-clause",
         "path": "/remedies/sunset-clause/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Appeal to emotion",
@@ -14859,6 +15326,23 @@ export const entries = [
         "term": "Hot mic",
         "slug": "hot-mic",
         "path": "/buffs/hot-mic/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14998,6 +15482,28 @@ export const entries = [
         "slug": "wmd-mongering",
         "path": "/moves/wmd-mongering/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -15095,6 +15601,18 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15194,6 +15712,18 @@ export const entries = [
         "slug": "algodemic",
         "path": "/species/algodemic/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -15291,6 +15821,18 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15390,6 +15932,13 @@ export const entries = [
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -15487,6 +16036,13 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15593,6 +16149,18 @@ export const entries = [
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -15690,6 +16258,18 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15793,6 +16373,13 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15927,7 +16514,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Provocrop",
@@ -16053,7 +16641,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Hasty generalization",
@@ -16164,6 +16753,23 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -16289,6 +16895,28 @@ export const entries = [
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -16399,6 +17027,23 @@ export const entries = [
         "slug": "passoffist",
         "path": "/species/passoffist/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
+      }
     ]
   },
   {
@@ -16501,6 +17146,18 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -16621,6 +17278,23 @@ export const entries = [
         "slug": "spin-room",
         "path": "/habitats/spin-room/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -16733,6 +17407,23 @@ export const entries = [
         "slug": "indictbump",
         "path": "/buffs/indictbump/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -16838,6 +17529,18 @@ export const entries = [
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -16942,6 +17645,23 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -17090,6 +17810,33 @@ export const entries = [
         "slug": "provocrop",
         "path": "/species/provocrop/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
+      }
     ]
   },
   {
@@ -17202,6 +17949,23 @@ export const entries = [
         "slug": "provocrop",
         "path": "/species/provocrop/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
+      }
     ]
   },
   {
@@ -17299,6 +18063,18 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -17419,6 +18195,18 @@ export const entries = [
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -17538,6 +18326,23 @@ export const entries = [
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -17635,6 +18440,18 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -17740,6 +18557,23 @@ export const entries = [
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -17851,6 +18685,23 @@ export const entries = [
         "slug": "provocrop",
         "path": "/species/provocrop/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
+      }
     ]
   },
   {
@@ -17954,6 +18805,18 @@ export const entries = [
         "slug": "passoffist",
         "path": "/species/passoffist/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
+      }
     ]
   },
   {
@@ -18056,6 +18919,18 @@ export const entries = [
         "term": "Perp walk",
         "slug": "perp-walk",
         "path": "/habitats/perp-walk/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -18185,7 +19060,8 @@ export const entries = [
         "path": "/abilities/discharge-petition/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The poll worker",
@@ -18292,7 +19168,8 @@ export const entries = [
         "path": "/species/playtriot/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The archivist",
@@ -18420,7 +19297,8 @@ export const entries = [
         "path": "/habitats/secret-meeting/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The librarian",
@@ -18520,7 +19398,8 @@ export const entries = [
         "path": "/species/illogician/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The caseworker",
@@ -18627,7 +19506,8 @@ export const entries = [
         "path": "/species/larptarian/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The editor",
@@ -18734,7 +19614,8 @@ export const entries = [
         "path": "/buffs/bluecheck/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The moderator",
@@ -18855,7 +19736,8 @@ export const entries = [
         "path": "/habitats/rubber-chicken-circuit/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The auditor",
@@ -18967,7 +19849,8 @@ export const entries = [
         "path": "/abilities/consent-decree/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Records request",
@@ -19103,7 +19986,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The transcript",
@@ -19253,7 +20137,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Lateral reading",
@@ -19368,7 +20253,8 @@ export const entries = [
         "slug": "the-librarian",
         "path": "/keystones/the-librarian/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The second source",
@@ -19495,7 +20381,8 @@ export const entries = [
         "slug": "the-editor",
         "path": "/keystones/the-editor/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The steelman",
@@ -19615,7 +20502,8 @@ export const entries = [
         "slug": "the-juror",
         "path": "/keystones/the-juror/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The public count",
@@ -19742,7 +20630,8 @@ export const entries = [
         "slug": "the-poll-worker",
         "path": "/keystones/the-poll-worker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The written reason",
@@ -19878,7 +20767,8 @@ export const entries = [
         "slug": "the-translator",
         "path": "/keystones/the-translator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The audit",
@@ -20005,7 +20895,8 @@ export const entries = [
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Random draw",
@@ -20103,7 +20994,8 @@ export const entries = [
         "path": "/abilities/judge-shopping/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Fee shift",
@@ -20201,7 +21093,8 @@ export const entries = [
         "path": "/abilities/slapp/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Sunset clause",
@@ -20311,7 +21204,8 @@ export const entries = [
         "path": "/abilities/forever-war/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The ombudsman",
@@ -20411,7 +21305,8 @@ export const entries = [
         "path": "/remedies/the-written-reason/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The public defender",
@@ -20518,7 +21413,8 @@ export const entries = [
         "path": "/abilities/qualified-immunity/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The translator",
@@ -20625,7 +21521,8 @@ export const entries = [
         "path": "/species/freetard/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The juror",
@@ -20737,7 +21634,8 @@ export const entries = [
         "path": "/habitats/perp-walk/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The statistician",
@@ -20858,7 +21756,8 @@ export const entries = [
         "path": "/buffs/convention-bounce/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Recusal",
@@ -20951,7 +21850,8 @@ export const entries = [
         "path": "/buffs/access/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Cross-examination",
@@ -21066,7 +21966,8 @@ export const entries = [
         "slug": "the-public-defender",
         "path": "/keystones/the-public-defender/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The stay",
@@ -21159,7 +22060,8 @@ export const entries = [
         "path": "/abilities/nightdocket/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The redistricting commission",
@@ -21259,7 +22161,8 @@ export const entries = [
         "path": "/remedies/notice-and-comment/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The carve-out",
@@ -21352,7 +22255,8 @@ export const entries = [
         "path": "/abilities/nda/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Notice and comment",
@@ -21481,7 +22385,8 @@ export const entries = [
         "slug": "the-redistricting-commission",
         "path": "/keystones/the-redistricting-commission/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The withdrawal clause",
@@ -21574,7 +22479,8 @@ export const entries = [
         "path": "/abilities/breaking-treaties/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The sponsor line",
@@ -21672,7 +22578,8 @@ export const entries = [
         "path": "/abilities/citizens-united/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The reserve",
@@ -21770,6 +22677,7 @@ export const entries = [
         "path": "/abilities/oil-diplomacy/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   }
 ]
