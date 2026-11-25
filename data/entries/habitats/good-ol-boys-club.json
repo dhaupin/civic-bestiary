@@ -6,13 +6,14 @@
   "part_of_speech": "noun",
   "ipa": "/ɡʊd ɒl bɔɪz klʌb/",
   "etymology": "Southern American English: the informal network whose membership is assumed rather than applied for.",
-  "carriers": "The alumni network, the county party, the trade association, and the fraternity that became a hiring pipeline.",
+  "carriers": "The alumni network, the county party, the trade association, the fraternity that became a hiring pipeline, and the lodge whose parking lot is full on a Tuesday night.",
   "economics": "Membership is free and admission is not: the dues are paid in favours, and the ledger is never written down.",
-  "signature": "Every post is filled before it is advertised, and every candidate is somebody's nephew.",
+  "signature": "Every post is filled before it is advertised, every candidate is somebody's nephew, and the vote is a formality held in a room with no chairs for the public.",
   "counter": "Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting.",
   "senses": [
     "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
-    "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document."
+    "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document.",
+    "It scales without changing shape. The same room picks the shift supervisor and the attorney general; the lodge hall and the cabinet differ only in the size of the parking lot, and in both the membership assumes nobody is counting."
   ],
   "notes": [],
   "example": "*\"He's one of us\" - the whole interview, in four words, before the résumé was opened: the **good ol' boys club** doing its hiring in the open.*",
@@ -26,7 +27,20 @@
     "Cronycle",
     "Secret meeting"
   ],
-  "edges": [],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Hypocontortionist"
+    },
+    {
+      "rel": "houses",
+      "to": "Trust-Me-Brofessor"
+    },
+    {
+      "rel": "houses",
+      "to": "Special pleading"
+    }
+  ],
   "cite": {
     "label": "Wikipedia · Old boy network",
     "url": "https://en.wikipedia.org/wiki/Old_boy_network"

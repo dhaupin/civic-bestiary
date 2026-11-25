@@ -54,6 +54,22 @@
     {
       "rel": "houses",
       "to": "Passoffist"
+    },
+    {
+      "rel": "houses",
+      "to": "Anecdotal evidence"
+    },
+    {
+      "rel": "houses",
+      "to": "Hasty generalization"
+    },
+    {
+      "rel": "houses",
+      "to": "Poisoning the well"
+    },
+    {
+      "rel": "houses",
+      "to": "Association fallacy"
     }
   ],
   "cite": {

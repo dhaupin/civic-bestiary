@@ -46,6 +46,38 @@
     {
       "rel": "houses",
       "to": "Heckler's veto"
+    },
+    {
+      "rel": "houses",
+      "to": "Critizen"
+    },
+    {
+      "rel": "houses",
+      "to": "Decorumancer"
+    },
+    {
+      "rel": "houses",
+      "to": "Sabotriot"
+    },
+    {
+      "rel": "houses",
+      "to": "McNamara fallacy"
+    },
+    {
+      "rel": "houses",
+      "to": "Moving the goalposts"
+    },
+    {
+      "rel": "houses",
+      "to": "Nirvana fallacy"
+    },
+    {
+      "rel": "houses",
+      "to": "Shifting baseline"
+    },
+    {
+      "rel": "houses",
+      "to": "Sunk cost fallacy"
     }
   ],
   "cite": {

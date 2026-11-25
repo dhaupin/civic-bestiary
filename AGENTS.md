@@ -354,6 +354,12 @@ appending.
   the fallacy is a fallacy; the illogician believes it"), not a restatement of either entry.
   A twin is filtered out of `related` by both generators, so the same species never appears
   under both "Easily confused with" and "Compare with".
+- Counters are authored from the side that ends it: the remedy or keystone carries the
+  `counters` edge, and the coinage's page renders the inverse. A coinage whose `counter` prose
+  names a procedure the guide already has should point at it - the prose and the graph saying
+  the same thing in different places is how a page ends up describing an answer it does not
+  link to. Buffs are the exception: their identification row is `expires`, not `counter`, so a
+  buff with no `counters` edge is not a gap. If one is later needed, wire it then.
 - `part_of_speech` and `ipa` use the loose conventions already in the file; IPA is
   approximate and follows the coining, not a dictionary.
 - Prose uses ` - ` (spaced hyphen), never an em dash. The site converts quotes to curly at

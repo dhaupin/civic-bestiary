@@ -42,6 +42,34 @@
     {
       "rel": "houses",
       "to": "Flood the zone"
+    },
+    {
+      "rel": "houses",
+      "to": "Bleatkeeper"
+    },
+    {
+      "rel": "houses",
+      "to": "JAQing Off"
+    },
+    {
+      "rel": "houses",
+      "to": "Trial balloon"
+    },
+    {
+      "rel": "houses",
+      "to": "WMD mongering"
+    },
+    {
+      "rel": "houses",
+      "to": "Argument from ignorance"
+    },
+    {
+      "rel": "houses",
+      "to": "Cherry picking"
+    },
+    {
+      "rel": "houses",
+      "to": "Shifting the burden of proof"
     }
   ],
   "cite": {

@@ -13,7 +13,7 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 184,
+  "entries": 187,
   "coinages": 93,
   "fallacies": 61,
   "chapters": 6,
@@ -24,7 +24,7 @@ export const stats = {
     "habitat": 14,
     "buff": 13,
     "fallacy": 61,
-    "remedy": 16,
+    "remedy": 19,
     "keystone": 14
   }
 }
@@ -548,7 +548,10 @@ export const chapters = [
       "the-stay",
       "the-redistricting-commission",
       "the-carve-out",
-      "notice-and-comment"
+      "notice-and-comment",
+      "the-withdrawal-clause",
+      "the-sponsor-line",
+      "the-reserve"
     ]
   }
 ]
@@ -789,6 +792,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The translator",
@@ -912,6 +922,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -1042,6 +1059,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The poll worker",
@@ -1160,6 +1184,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -1291,6 +1322,27 @@ export const entries = [
         "term": "Citizens United",
         "slug": "citizens-united",
         "path": "/abilities/citizens-united/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Mythstorian",
+        "slug": "mythstorian",
+        "path": "/species/mythstorian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Circular reasoning",
+        "slug": "circular-reasoning",
+        "path": "/fallacies/circular-reasoning/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Survivorship bias",
+        "slug": "survivorship-bias",
+        "path": "/fallacies/survivorship-bias/"
       }
     ],
     "backlinks": [
@@ -2518,6 +2570,13 @@ export const entries = [
         "path": "/species/patriotainer/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The written reason",
@@ -2596,6 +2655,11 @@ export const entries = [
         "term": "PAC check",
         "slug": "pac-check",
         "path": "/buffs/pac-check/"
+      },
+      {
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
       }
     ],
     "edges": [],
@@ -2606,6 +2670,13 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
       }
     ]
   },
@@ -2697,6 +2768,13 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ]
   },
@@ -2783,6 +2861,13 @@ export const entries = [
         "path": "/species/larptarian/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
@@ -2862,6 +2947,16 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "term": "Sunk cost fallacy",
+        "slug": "sunk-cost-fallacy",
+        "path": "/fallacies/sunk-cost-fallacy/"
+      },
+      {
+        "term": "Appeal to novelty",
+        "slug": "appeal-to-novelty",
+        "path": "/fallacies/appeal-to-novelty/"
       }
     ],
     "edges": [],
@@ -2984,6 +3079,13 @@ export const entries = [
         "term": "Mythstorian",
         "slug": "mythstorian",
         "path": "/species/mythstorian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ]
   },
@@ -3058,6 +3160,11 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "term": "I'm entitled to my opinion",
+        "slug": "im-entitled-to-my-opinion",
+        "path": "/fallacies/im-entitled-to-my-opinion/"
       }
     ],
     "edges": [],
@@ -3194,6 +3301,13 @@ export const entries = [
         "term": "Sabotriot",
         "slug": "sabotriot",
         "path": "/species/sabotriot/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       }
     ]
   },
@@ -3285,6 +3399,13 @@ export const entries = [
         "term": "Decorumancer",
         "slug": "decorumancer",
         "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
       }
     ]
   },
@@ -3441,6 +3562,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The moderator",
@@ -3567,6 +3695,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The librarian",
@@ -3677,6 +3812,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
       },
       {
         "rel": "counters",
@@ -3790,6 +3932,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -3924,6 +4073,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The steelman",
@@ -4043,6 +4199,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
@@ -4152,6 +4315,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -4272,6 +4442,13 @@ export const entries = [
         "path": "/abilities/cloture/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The juror",
@@ -4389,6 +4566,13 @@ export const entries = [
         "term": "Discharge petition",
         "slug": "discharge-petition",
         "path": "/abilities/discharge-petition/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       }
     ]
   },
@@ -4542,6 +4726,69 @@ export const entries = [
         "term": "Kafka trap",
         "slug": "kafka-trap",
         "path": "/fallacies/kafka-trap/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Freetard",
+        "slug": "freetard",
+        "path": "/species/freetard/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Illogician",
+        "slug": "illogician",
+        "path": "/species/illogician/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to motive",
+        "slug": "appeal-to-motive",
+        "path": "/fallacies/appeal-to-motive/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "I'm entitled to my opinion",
+        "slug": "im-entitled-to-my-opinion",
+        "path": "/fallacies/im-entitled-to-my-opinion/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "No true Scotsman",
+        "slug": "no-true-scotsman",
+        "path": "/fallacies/no-true-scotsman/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Tone policing",
+        "slug": "tone-policing",
+        "path": "/fallacies/tone-policing/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Two wrongs make a right",
+        "slug": "two-wrongs-make-a-right",
+        "path": "/fallacies/two-wrongs-make-a-right/"
       }
     ],
     "backlinks": [
@@ -5071,6 +5318,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
@@ -5171,6 +5425,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -5698,6 +5959,13 @@ export const entries = [
         "path": "/species/sophistroll/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "Cross-examination",
@@ -5777,6 +6045,16 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/"
+      },
+      {
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
       }
     ],
     "edges": [],
@@ -5880,6 +6158,16 @@ export const entries = [
         "term": "False dilemma",
         "slug": "false-dilemma",
         "path": "/fallacies/false-dilemma/"
+      },
+      {
+        "term": "The fallacy fallacy",
+        "slug": "the-fallacy-fallacy",
+        "path": "/fallacies/the-fallacy-fallacy/"
+      },
+      {
+        "term": "False attribution",
+        "slug": "false-attribution",
+        "path": "/fallacies/false-attribution/"
       }
     ],
     "edges": [],
@@ -5985,6 +6273,11 @@ export const entries = [
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
         "path": "/fallacies/argument-from-ignorance/"
+      },
+      {
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
     "edges": [],
@@ -6023,6 +6316,13 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "path": "/abilities/cronycle/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
       },
       {
         "rel": "commits",
@@ -6125,6 +6425,11 @@ export const entries = [
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
         "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -6156,6 +6461,13 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "path": "/buffs/crisisglow/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ]
   },
@@ -6333,6 +6645,13 @@ export const entries = [
     "edges": [],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Illogician",
@@ -6419,6 +6738,16 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/"
+      },
+      {
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "path": "/fallacies/argument-from-silence/"
       }
     ],
     "edges": [],
@@ -6450,6 +6779,13 @@ export const entries = [
         "term": "Subpoenado",
         "slug": "subpoenado",
         "path": "/abilities/subpoenado/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
       }
     ]
   },
@@ -6534,6 +6870,13 @@ export const entries = [
         "term": "Decorumancer",
         "slug": "decorumancer",
         "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
       },
       {
         "rel": "commits",
@@ -6632,6 +6975,13 @@ export const entries = [
         "term": "Motte hop",
         "slug": "motte-hop",
         "path": "/moves/motte-hop/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
       }
     ]
   },
@@ -6706,6 +7056,11 @@ export const entries = [
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
         "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      },
+      {
+        "term": "McNamara fallacy",
+        "slug": "mcnamara-fallacy",
+        "path": "/fallacies/mcnamara-fallacy/"
       }
     ],
     "edges": [],
@@ -6730,6 +7085,13 @@ export const entries = [
         "term": "Judge shopping",
         "slug": "judge-shopping",
         "path": "/abilities/judge-shopping/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
       }
     ]
   },
@@ -6821,6 +7183,13 @@ export const entries = [
         "term": "Vaguebooking",
         "slug": "vaguebooking",
         "path": "/moves/vaguebooking/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
       },
       {
         "rel": "commits",
@@ -7232,6 +7601,13 @@ export const entries = [
         "path": "/species/biasographer/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Capitulectual",
@@ -7326,6 +7702,13 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       },
       {
         "rel": "commits",
@@ -7726,6 +8109,13 @@ export const entries = [
     "edges": [],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
@@ -7864,6 +8254,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The archivist",
@@ -7987,6 +8384,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -8341,6 +8745,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -8773,6 +9184,62 @@ export const entries = [
         "term": "Heckler's veto",
         "slug": "hecklers-veto",
         "path": "/moves/hecklers-veto/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Sabotriot",
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "McNamara fallacy",
+        "slug": "mcnamara-fallacy",
+        "path": "/fallacies/mcnamara-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Sunk cost fallacy",
+        "slug": "sunk-cost-fallacy",
+        "path": "/fallacies/sunk-cost-fallacy/"
       }
     ],
     "backlinks": [
@@ -9721,10 +10188,23 @@ export const entries = [
         "term": "Forever war",
         "slug": "forever-war",
         "path": "/abilities/forever-war/"
+      },
+      {
+        "term": "The withdrawal clause",
+        "slug": "the-withdrawal-clause",
+        "path": "/remedies/the-withdrawal-clause/"
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The withdrawal clause",
+        "slug": "the-withdrawal-clause",
+        "path": "/remedies/the-withdrawal-clause/"
+      }
+    ]
   },
   {
     "term": "Secret meeting",
@@ -9750,7 +10230,7 @@ export const entries = [
         "key": "carriers",
         "label": "Carriers",
         "type": "text",
-        "value": "Cabinets, boards, caucuses, and the dinner that appears on nobody’s schedule."
+        "value": "Cabinets, boards, caucuses, the dinner that appears on nobody’s schedule, and the hunting camp where the season’s legislation is agreed before the season opens."
       },
       {
         "key": "economics",
@@ -9762,7 +10242,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "A decision that arrives fully formed, attributed to a process nobody watched."
+        "value": "A decision that arrives fully formed, attributed to a process nobody watched, and a guest list nobody kept."
       },
       {
         "key": "counter",
@@ -9771,10 +10251,11 @@ export const entries = [
         "value": "A calendar rule: no decision without a record, and no record without a date. What cannot be minuted cannot be appealed."
       }
     ],
-    "voice": "A decision that arrives fully formed, attributed to a process nobody watched.",
+    "voice": "A decision that arrives fully formed, attributed to a process nobody watched, and a guest list nobody kept.",
     "senses": [
       "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum’s authority and none of a quorum’s exposure.",
-      "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else."
+      "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else.",
+      "It is the same room at every scale: four trustees in a kitchen, a caucus in a cabin, a cabinet at a weekend retreat. The tell is not the secrecy but the completeness - the proposal arrives with its coalition already assembled."
     ],
     "notes": [],
     "example": "“The decision was made in the ordinary course” - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.",
@@ -9799,7 +10280,22 @@ export const entries = [
         "path": "/habitats/good-ol-boys-club/"
       }
     ],
-    "edges": [],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/"
+      }
+    ],
     "backlinks": [
       {
         "rel": "counters",
@@ -9834,7 +10330,7 @@ export const entries = [
         "key": "carriers",
         "label": "Carriers",
         "type": "text",
-        "value": "The alumni network, the county party, the trade association, and the fraternity that became a hiring pipeline."
+        "value": "The alumni network, the county party, the trade association, the fraternity that became a hiring pipeline, and the lodge whose parking lot is full on a Tuesday night."
       },
       {
         "key": "economics",
@@ -9846,7 +10342,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "Every post is filled before it is advertised, and every candidate is somebody’s nephew."
+        "value": "Every post is filled before it is advertised, every candidate is somebody’s nephew, and the vote is a formality held in a room with no chairs for the public."
       },
       {
         "key": "counter",
@@ -9855,10 +10351,11 @@ export const entries = [
         "value": "Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting."
       }
     ],
-    "voice": "Every post is filled before it is advertised, and every candidate is somebody’s nephew.",
+    "voice": "Every post is filled before it is advertised, every candidate is somebody’s nephew, and the vote is a formality held in a room with no chairs for the public.",
     "senses": [
       "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
-      "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document."
+      "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document.",
+      "It scales without changing shape. The same room picks the shift supervisor and the attorney general; the lodge hall and the cabinet differ only in the size of the parking lot, and in both the membership assumes nobody is counting."
     ],
     "notes": [],
     "example": "“He’s one of us” - the whole interview, in four words, before the résumé was opened: the **good ol’ boys club** doing its hiring in the open.",
@@ -9883,7 +10380,29 @@ export const entries = [
         "path": "/habitats/secret-meeting/"
       }
     ],
-    "edges": [],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
     "backlinks": [
       {
         "rel": "counters",
@@ -10044,6 +10563,13 @@ export const entries = [
         "path": "/species/freetard/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
@@ -10147,6 +10673,13 @@ export const entries = [
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
       }
     ]
   },
@@ -10287,6 +10820,13 @@ export const entries = [
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
         "path": "/abilities/qualified-immunity/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
       }
     ]
   },
@@ -10378,6 +10918,13 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
       }
     ]
   },
@@ -10723,6 +11270,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The statistician",
@@ -10860,6 +11414,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -11098,6 +11659,13 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -11710,6 +12278,55 @@ export const entries = [
         "term": "The fallacy fallacy",
         "slug": "the-fallacy-fallacy",
         "path": "/fallacies/the-fallacy-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Equivangelist",
+        "slug": "equivangelist",
+        "path": "/species/equivangelist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "path": "/species/gallopologist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argument to moderation",
+        "slug": "argument-to-moderation",
+        "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "False equivalence",
+        "slug": "false-equivalence",
+        "path": "/fallacies/false-equivalence/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/"
       }
     ],
     "backlinks": [
@@ -11849,6 +12466,34 @@ export const entries = [
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Anecdotal evidence",
+        "slug": "anecdotal-evidence",
+        "path": "/fallacies/anecdotal-evidence/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/"
       }
     ],
     "backlinks": [
@@ -12283,6 +12928,34 @@ export const entries = [
         "term": "Base rate fallacy",
         "slug": "base-rate-fallacy",
         "path": "/fallacies/base-rate-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to novelty",
+        "slug": "appeal-to-novelty",
+        "path": "/fallacies/appeal-to-novelty/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Post hoc ergo propter hoc",
+        "slug": "post-hoc-ergo-propter-hoc",
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
       }
     ],
     "backlinks": [
@@ -12394,6 +13067,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Vague promises",
+        "slug": "vague-promises",
+        "path": "/moves/vague-promises/"
       }
     ],
     "backlinks": [
@@ -12627,6 +13307,55 @@ export const entries = [
         "term": "Flood the zone",
         "slug": "flood-the-zone",
         "path": "/moves/flood-the-zone/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Bleatkeeper",
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "path": "/moves/trial-balloon/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "path": "/fallacies/cherry-picking/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
     "backlinks": [
@@ -12736,6 +13465,27 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Equivocation",
+        "slug": "equivocation",
+        "path": "/fallacies/equivocation/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Motte-and-bailey fallacy",
+        "slug": "motte-and-bailey-fallacy",
+        "path": "/fallacies/motte-and-bailey-fallacy/"
       }
     ],
     "backlinks": [
@@ -12866,6 +13616,62 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "LARPtarian",
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to consequences",
+        "slug": "appeal-to-consequences",
+        "path": "/fallacies/appeal-to-consequences/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to nature",
+        "slug": "appeal-to-nature",
+        "path": "/fallacies/appeal-to-nature/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Slippery slope",
+        "slug": "slippery-slope",
+        "path": "/fallacies/slippery-slope/"
       }
     ],
     "backlinks": [
@@ -13177,6 +13983,20 @@ export const entries = [
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
         "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Just-world hypothesis",
+        "slug": "just-world-hypothesis",
+        "path": "/fallacies/just-world-hypothesis/"
       }
     ],
     "backlinks": [
@@ -13471,6 +14291,13 @@ export const entries = [
         "path": "/species/dramagogue/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The second source",
@@ -13709,10 +14536,23 @@ export const entries = [
         "term": "Signaway",
         "slug": "signaway",
         "path": "/abilities/signaway/"
+      },
+      {
+        "term": "The reserve",
+        "slug": "the-reserve",
+        "path": "/remedies/the-reserve/"
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The reserve",
+        "slug": "the-reserve",
+        "path": "/remedies/the-reserve/"
+      }
+    ]
   },
   {
     "term": "Climate hoax",
@@ -13955,6 +14795,11 @@ export const entries = [
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
         "path": "/fallacies/motte-and-bailey-fallacy/"
+      },
+      {
+        "term": "Appeal to pity",
+        "slug": "appeal-to-pity",
+        "path": "/fallacies/appeal-to-pity/"
       }
     ],
     "edges": [],
@@ -14088,6 +14933,11 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "term": "Appeal to force",
+        "slug": "appeal-to-force",
+        "path": "/fallacies/appeal-to-force/"
       }
     ],
     "edges": [],
@@ -14233,6 +15083,13 @@ export const entries = [
         "path": "/species/bleatkeeper/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
@@ -14322,6 +15179,13 @@ export const entries = [
         "term": "LARPtarian",
         "slug": "larptarian",
         "path": "/species/larptarian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
       },
       {
         "rel": "commits",
@@ -14420,6 +15284,13 @@ export const entries = [
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
       }
     ]
   },
@@ -14498,6 +15369,13 @@ export const entries = [
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -14805,6 +15683,13 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
       }
     ]
   },
@@ -14879,6 +15764,11 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "term": "Just-world hypothesis",
+        "slug": "just-world-hypothesis",
+        "path": "/fallacies/just-world-hypothesis/"
       }
     ],
     "edges": [],
@@ -14896,6 +15786,13 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
       }
     ]
   },
@@ -15260,6 +16157,13 @@ export const entries = [
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
       }
     ]
   },
@@ -15334,6 +16238,11 @@ export const entries = [
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
         "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Nut-picking",
+        "slug": "nut-picking",
+        "path": "/fallacies/nut-picking/"
       }
     ],
     "edges": [],
@@ -15372,6 +16281,13 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
       }
     ]
   },
@@ -15446,6 +16362,11 @@ export const entries = [
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
         "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "term": "False balance",
+        "slug": "false-balance",
+        "path": "/fallacies/false-balance/"
       }
     ],
     "edges": [],
@@ -15463,6 +16384,13 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
       },
       {
         "rel": "commits",
@@ -15544,6 +16472,11 @@ export const entries = [
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
         "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/"
       }
     ],
     "edges": [],
@@ -15561,6 +16494,13 @@ export const entries = [
         "term": "Martyrholic",
         "slug": "martyrholic",
         "path": "/species/martyrholic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
       }
     ]
   },
@@ -15673,6 +16613,13 @@ export const entries = [
         "term": "Signaway",
         "slug": "signaway",
         "path": "/abilities/signaway/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
       }
     ]
   },
@@ -16123,6 +17070,13 @@ export const entries = [
         "path": "/habitats/rally/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
@@ -16457,6 +17411,13 @@ export const entries = [
         "term": "Subpoenado",
         "slug": "subpoenado",
         "path": "/abilities/subpoenado/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
       }
     ]
   },
@@ -16760,6 +17721,13 @@ export const entries = [
         "path": "/species/capitulectual/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
@@ -16870,6 +17838,13 @@ export const entries = [
         "path": "/species/hypocontortionist/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Provocrop",
@@ -16964,6 +17939,13 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
       },
       {
         "rel": "commits",
@@ -17067,6 +18049,13 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
       }
     ]
   },
@@ -18461,6 +19450,11 @@ export const entries = [
         "term": "The transcript",
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
+      },
+      {
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
       }
     ],
     "edges": [
@@ -18703,6 +19697,11 @@ export const entries = [
         "term": "Notice and comment",
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
+      },
+      {
+        "term": "The reserve",
+        "slug": "the-reserve",
+        "path": "/remedies/the-reserve/"
       }
     ],
     "edges": [
@@ -19289,6 +20288,11 @@ export const entries = [
         "term": "The public count",
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
+      },
+      {
+        "term": "The withdrawal clause",
+        "slug": "the-withdrawal-clause",
+        "path": "/remedies/the-withdrawal-clause/"
       }
     ],
     "edges": [
@@ -20478,5 +21482,294 @@ export const entries = [
         "path": "/keystones/the-redistricting-commission/"
       }
     ]
+  },
+  {
+    "term": "The withdrawal clause",
+    "slug": "the-withdrawal-clause",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-withdrawal-clause.json",
+    "path": "/remedies/the-withdrawal-clause/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈwɪð.drɔː.əl klɔːz/",
+    "position": 32,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: the paragraph at the back of an agreement that decides how a signatory may leave it - notice, survival, and price.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Turns an exit into a scheduled act with a bill attached: notice in writing, a published list of the obligations that survive the withdrawal, and a successor agreement that names what leaving costs."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Negotiating leverage, because a state that prices its own exit has admitted it might use it."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The clause that sets a notice period and nothing else - twelve months of waiting, then the same exit with a cleaner headline."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A notice period with a date on it",
+          "A list of obligations that survive the signature",
+          "Allies who price the exit into the next agreement"
+        ]
+      }
+    ],
+    "voice": "Turns an exit into a scheduled act with a bill attached: notice in writing, a published list of the obligations that survive the withdrawal, and a successor agreement that names what leaving costs.",
+    "senses": [
+      "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule of what the departing party still owes.",
+      "It works because the benefit of an agreement is paid over decades and the cost of leaving is paid once, in a news cycle. Moving the cost into the text - a notice period the market can read, obligations that outlive the signature - makes the arbitrage visible while it is being proposed instead of after it is done."
+    ],
+    "notes": [],
+    "example": "“The **withdrawal clause** bought the other parties a year of notice and a list of agreements that would outlive the government that left; the announcement ran three minutes and the bill ran four years.”",
+    "cite": {
+      "label": "Wikipedia · Article 50 of the Treaty on European Union",
+      "url": "https://en.wikipedia.org/wiki/Article_50_of_the_Treaty_on_European_Union"
+    },
+    "summary": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule...",
+    "definition": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule of what the departing party still owes.",
+    "confusedWith": [
+      {
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "tell": "The sunset clause gives a power a date; the withdrawal clause gives an exit a price, and publishes it before anyone leaves.",
+        "path": "/remedies/sunset-clause/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Breaking treaties",
+        "slug": "breaking-treaties",
+        "path": "/abilities/breaking-treaties/"
+      },
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Breaking treaties",
+        "slug": "breaking-treaties",
+        "path": "/abilities/breaking-treaties/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The sponsor line",
+    "slug": "the-sponsor-line",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-sponsor-line.json",
+    "path": "/remedies/the-sponsor-line/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈspɒn.sə laɪn/",
+    "position": 33,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "English: the sentence at the end of an advertisement that names who paid for it - in the United States, \"I'm a candidate and I approve this message.\"",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Puts the funder’s name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A disclosure rule enforced against bodies that can afford better lawyers than the regulator can."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The disclaimer read at speed over the last half-second, and the shell company whose name is a noun with an LLC after it."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A funder named in the ad, not after it",
+          "A list published before the ballot",
+          "A shell company that has to name its own shell"
+        ]
+      }
+    ],
+    "voice": "Puts the funder’s name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote.",
+    "senses": [
+      "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
+      "It works because anonymity is the doctrine’s operating condition - an argument made by a body nobody can summon is an argument nobody can answer. The sponsor line does not cap the spending; it makes the spender answerable to the audience the spending was aimed at."
+    ],
+    "notes": [],
+    "example": "“**The sponsor line** ran for four seconds under a ninety-second advertisement, and the four seconds were the only part of it anybody could check.”",
+    "cite": {
+      "label": "Wikipedia · Stand by Your Ad provision",
+      "url": "https://en.wikipedia.org/wiki/Stand_by_Your_Ad_provision"
+    },
+    "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same...",
+    "definition": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
+    "confusedWith": [
+      {
+        "term": "Records request",
+        "slug": "records-request",
+        "tell": "The records request produces the document after the decision; the sponsor line puts the payer’s name in front of the audience before the vote.",
+        "path": "/remedies/records-request/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/"
+      },
+      {
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
+      },
+      {
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/"
+      }
+    ],
+    "backlinks": []
+  },
+  {
+    "term": "The reserve",
+    "slug": "the-reserve",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-reserve.json",
+    "path": "/remedies/the-reserve/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə rɪˈzɜːv/",
+    "position": 34,
+    "sort": {
+      "impact": 3,
+      "abuse": 1,
+      "blowback": 3
+    },
+    "etymology": "French réserve, from Latin reservare, to keep back: the stockpile held against the day a price becomes a policy.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Breaks the price lever by holding the thing in stock: barrels released on a published schedule, substitutes bought before they are needed, and contracts that outlast the spot price."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Money parked in a warehouse, and the political price of spending it at the moment it is most useful."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The release that arrives after the price has already moved, and the reserve that becomes the market’s new floor."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A release schedule with dates on it",
+          "A stock level published monthly",
+          "A contract whose term is longer than the price cycle"
+        ]
+      }
+    ],
+    "voice": "Breaks the price lever by holding the thing in stock: barrels released on a published schedule, substitutes bought before they are needed, and contracts that outlast the spot price.",
+    "senses": [
+      "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the commodity a worse weapon.",
+      "It works because leverage needs scarcity to stay credible. A published reserve turns a threat into a calculation - the squeeze has to outlast the stockpile, and a stockpile is measured in months while an election is measured in weeks."
+    ],
+    "notes": [],
+    "example": "“**The reserve** released nine million barrels over six weeks, and the foreign minister’s visit was rescheduled for the following quarter.”",
+    "cite": {
+      "label": "Wikipedia · Strategic Petroleum Reserve (United States)",
+      "url": "https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States)"
+    },
+    "summary": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the...",
+    "definition": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the commodity a worse weapon.",
+    "confusedWith": [
+      {
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "tell": "The sunset clause puts a date on a power; the reserve puts a quantity between the power and its price.",
+        "path": "/remedies/sunset-clause/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Oil diplomacy",
+        "slug": "oil-diplomacy",
+        "path": "/abilities/oil-diplomacy/"
+      },
+      {
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
+      },
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Oil diplomacy",
+        "slug": "oil-diplomacy",
+        "path": "/abilities/oil-diplomacy/"
+      }
+    ],
+    "backlinks": []
   }
 ]
