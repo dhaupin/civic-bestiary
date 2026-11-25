@@ -77,7 +77,7 @@ export default {
       meta: {
         title: 'About the guide | The Civic Bestiary',
         description:
-          'What the Civic Bestiary is for, the rules that keep it from becoming a list of insults, and how the entries are written and answered.',
+          'What the Civic Bestiary is, how the entries are built, and the rules that keep it from becoming a list of insults.',
       },
     },
     {
@@ -97,7 +97,7 @@ export default {
       meta: {
         title: 'The field guide | The Civic Bestiary',
         description:
-          'Every entry in the bestiary, by kind and chapter - species, moves, abilities, habitats, buffs, fallacies, remedies, and keystones.',
+          'Every entry in the bestiary, by kind and chapter - species, moves, abilities, habitats, buffs, fallacies, remedies, and keystones, each with a tell and a counter.',
       },
     },
   ],
