@@ -4,16 +4,16 @@
   "chapter": "normalization",
   "position": 107,
   "part_of_speech": "noun",
-  "etymology": "Named for the Soviet reply to every complaint: “and what about…?”",
+  "etymology": "Named for the Soviet reply to every complaint: \"and what about…?\"",
   "family": "Informal · Red herring",
   "committed_when": "A specific question has been asked that the speaker would rather not answer.",
-  "tell": "The reply begins with “what about” and never returns to the question.",
+  "tell": "The reply begins with \"what about\" and never returns to the question.",
   "counter": "Say that the other case can be discussed after this one, and repeat the question. The order of questions is a fair thing to insist on.",
   "senses": [
     "Deflecting a question by raising a different grievance, so the original subject never gets answered.",
     "It works because there is always another grievance. The move does not have to be false - it only has to be more interesting than the question being asked."
   ],
-  "example": "*“What about the crime in your city?”* The question was about a contract. Both can be answered; only one was asked.",
+  "example": "*\"What about the crime in your city?\"* The question was about a contract. Both can be answered; only one was asked.",
   "confused_with": [
     {
       "term": "Tu quoque",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Tu quoque",
     "Ad hominem"
   ],
   "cite": {

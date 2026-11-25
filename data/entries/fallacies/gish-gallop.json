@@ -13,7 +13,7 @@
     "Overwhelming an opponent with a flood of dubious claims so that answering all of them is impossible in the time available.",
     "It works on arithmetic, not argument. Each claim takes ten seconds to make and ten minutes to check, and the format does not care that they are not equally cheap."
   ],
-  "example": "*“Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…”* Fourteen claims, ninety seconds, one of them true.",
+  "example": "*\"Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…\"* Fourteen claims, ninety seconds, one of them true.",
   "confused_with": [
     {
       "term": "Ad nauseam",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Ad nauseam",
     "Proof by assertion"
   ],
   "cite": {

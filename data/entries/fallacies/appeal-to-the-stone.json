@@ -4,7 +4,7 @@
   "chapter": "normalization",
   "position": 114,
   "part_of_speech": "noun",
-  "etymology": "Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying “I refute it thus”.",
+  "etymology": "Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying \"I refute it thus\".",
   "family": "Informal · Relevance",
   "committed_when": "A claim sounds wrong on its face and the speaker cannot say why.",
   "tell": "The reply is a verdict - ridiculous, obviously false, come on - with no reason attached to it.",
@@ -13,7 +13,7 @@
     "Dismissing a claim as absurd without saying what is wrong with it, treating obviousness as an argument.",
     "It works because most absurd-sounding claims are absurd, so the reflex is usually right. The problem is that it cannot tell the two cases apart, and it never has to show its work."
   ],
-  "example": "*“That is the dumbest thing I have heard all week.”* Possible. The sentence has not said which part is wrong.",
+  "example": "*\"That is the dumbest thing I have heard all week.\"* Possible. The sentence has not said which part is wrong.",
   "confused_with": [
     {
       "term": "Appeal to ridicule",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Appeal to ridicule",
     "Proof by assertion"
   ],
   "cite": {

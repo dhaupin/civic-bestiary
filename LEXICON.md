@@ -558,7 +558,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.
 2. It works because the shape of a promise is enough to be reported as one. The listener hears the certainty, the journalist quotes the adjective, and the only person who needed the figure was the one who will be blamed for asking.
 
-* **Example:** *"We will have a **bold, historic plan** within the first hundred days" - the plan had a title, a press conference, and no sentence that could be checked.*
+* **Example:** *"We will have a bold, historic plan within the first hundred days" - **vague promises**: a title, a press conference, and no sentence that could be checked.*
 * **Easily confused with:** *Vaguebooking* - Vaguebooking withholds the subject; vague promises withhold the terms.
 * **Related Terms:** [*Honeymoan*](#11-honeymoan), [*Convention bounce*](#15-convention-bounce)
 
@@ -594,7 +594,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it there.
 2. It works because nobody can audit a chain of consequences they have not seen. Each link sounds plausible alone; the whole chain is narrated rather than argued.
 
-* **Example:** *“First they ban the plastic bag, then they ban the car.”* Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.
+* **Example:** *"First they ban the plastic bag, then they ban the car."* Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.
 * **Easily confused with:** *False dilemma* - The slope hides a chain of steps; the dilemma hides the options that are not steps.
 * **Related Terms:** [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc)
 * **Source:** [Wikipedia · Slippery slope](https://en.wikipedia.org/wiki/Slippery_slope)
@@ -613,7 +613,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside it.
 2. It works because definitions are genuinely negotiable. The sentence sounds like a clarification, and a clarification is much harder to argue with than a false claim.
 
-* **Example:** *“No real conservative would vote for that.”* The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.
+* **Example:** *"No real conservative would vote for that."* The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.
 * **Easily confused with:** *Straw man* - The straw man weakens the opponent's claim; the Scotsman strengthens the speaker's, by shrinking the group until the counterexample is expelled.
 * **Related Terms:** [*Moving the goalposts*](#127-moving-the-goalposts)
 * **Source:** [Wikipedia · No true Scotsman](https://en.wikipedia.org/wiki/No_true_Scotsman)
@@ -632,7 +632,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Treating a practice as correct because it is old, without showing that age is evidence of anything.
 2. It works because inherited arrangements carry the weight of everyone who lived with them. Age is genuine information about endurance; it is not information about fairness or function.
 
-* **Example:** *“We have always opened with a prayer.”* The question was whether the chamber should, and always is not an answer to should.
+* **Example:** *"We have always opened with a prayer."* The question was whether the chamber should, and always is not an answer to should.
 * **Easily confused with:** *Appeal to nature* - Tradition says it is old, nature says it is natural; both replace a reason with a pedigree.
 * **Related Terms:** [*Appeal to authority*](#50-appeal-to-authority), [*Sunk cost fallacy*](#25-sunk-cost-fallacy), [*Appeal to novelty*](#133-appeal-to-novelty)
 * **Source:** [Wikipedia · Appeal to tradition](https://en.wikipedia.org/wiki/Appeal_to_tradition)
@@ -649,9 +649,9 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Counter:** Ask which part of nature is the model. Nature also contains arsenic, parasites, and every hierarchy that ever existed.  
 
 1. Concluding that something is right or healthy because it is natural, or wrong because it is artificial.
-2. It works because “natural” smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement.
+2. It works because "natural" smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement.
 
-* **Example:** *“It is natural for people to sort themselves by tribe.”* It is also natural to die of an infected cut, and we stopped doing that on purpose.
+* **Example:** *"It is natural for people to sort themselves by tribe."* It is also natural to die of an infected cut, and we stopped doing that on purpose.
 * **Easily confused with:** *Appeal to tradition* - Tradition cites age, nature cites origin; both answer a question about value with a question about ancestry.
 * **Related Terms:** [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Appeal to nature](https://en.wikipedia.org/wiki/Appeal_to_nature)
@@ -670,7 +670,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Repeating a claim with confidence as though repetition were support, and treating objection as noise.
 2. It works because certainty is contagious. An audience without the means to check infers from composure that there is something to check against.
 
-* **Example:** *“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.”* Four sentences, one assertion, zero evidence.
+* **Example:** *"It is the worst deal in history. The worst deal. Everybody knows it is the worst deal."* Four sentences, one assertion, zero evidence.
 * **Easily confused with:** *Circular reasoning* - The assertion adds no support and repeats itself; the circle adds a step and returns to the start.
 * **Related Terms:** [*Appeal to authority*](#50-appeal-to-authority), [*I'm entitled to my opinion*](#26-im-entitled-to-my-opinion)
 * **Source:** [Wikipedia · Proof by assertion](https://en.wikipedia.org/wiki/Proof_by_assertion)
@@ -689,7 +689,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Continuing a failing course of action because of what has already been invested in it.
 2. It works because abandoning a cost feels like admitting the cost was wasted. The loss is already real; the sentence only makes it feel avoidable.
 
-* **Example:** *“We cannot withdraw now, after everything we have spent.”* The spending is the reason the account is empty, not the reason to keep filling it.
+* **Example:** *"We cannot withdraw now, after everything we have spent."* The spending is the reason the account is empty, not the reason to keep filling it.
 * **Easily confused with:** *Appeal to tradition* - Tradition binds the future to the distant past; sunk cost binds it to expenses still inside the fiscal year.
 * **Related Terms:** [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc)
 * **Source:** [Wikipedia · Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost)
@@ -708,7 +708,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Ending a dispute about facts by asserting the right to hold an opinion, as though the right settled the question.
 2. It works because the entitlement is real. Everyone is entitled to their opinion, and nobody is entitled to their own facts - the sentence fuses the two so the second disappears into the first.
 
-* **Example:** *“I am entitled to my opinion.”* You are. The water is still poisoned, and the entitlement has not tested it.
+* **Example:** *"I am entitled to my opinion."* You are. The water is still poisoned, and the entitlement has not tested it.
 * **Easily confused with:** *Proof by assertion* - The assertion defends the claim; the entitlement defends the person holding it.
 * **Related Terms:** [*Equivocation*](#141-equivocation)
 * **Source:** [Wikipedia · I'm entitled to my opinion](https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion)
@@ -1119,7 +1119,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 48. Ad hominem
 *(noun)* - *fallacy*  
-*Latin: argumentum ad hominem, “argument to the person” - the target moves from the claim to the one who made it.*
+*Latin: argumentum ad hominem, "argument to the person" - the target moves from the claim to the one who made it.*
 
 **Family:** Informal · Red herring  
 **Committed when:** A claim has just been made that cannot be answered on the merits.  
@@ -1129,7 +1129,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Answering an argument by attacking the person who advanced it rather than the claim they advanced.
 2. It works because people are credulous about character: once you dislike the speaker, their sentence loses weight even when it is true. The claim is never touched, so it is never answered.
 
-* **Example:** *“You want to talk about the audit? You were late on your taxes in 2011.”* The audit is still late, and now nobody is looking at it.
+* **Example:** *"You want to talk about the audit? You were late on your taxes in 2011."* The audit is still late, and now nobody is looking at it.
 * **Easily confused with:** *Tone policing* - Ad hominem attacks the person's record or character; tone policing attacks the manner of the delivery.
 * **Related Terms:** [*Straw man*](#49-straw-man), [*Association fallacy*](#129-association-fallacy), [*Bulverism*](#62-bulverism)
 * **Source:** [Wikipedia · Ad hominem](https://en.wikipedia.org/wiki/Ad_hominem)
@@ -1148,7 +1148,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Replacing someone's position with a weaker, sillier version of it and then defeating the version you built.
 2. It works because the audience rarely holds the original wording in mind. Whoever supplies the paraphrase controls what gets refuted, so an argument can be lost without ever being made.
 
-* **Example:** *“They want to fund the libraries because they think books are free and nobody should work.”* Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.
+* **Example:** *"They want to fund the libraries because they think books are free and nobody should work."* Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.
 * **Easily confused with:** *Motte-and-bailey fallacy* - The straw man misstates a position you reject; the motte retreats to a modest claim you never disputed.
 * **Related Terms:** [*Loaded question*](#52-loaded-question), [*False dilemma*](#51-false-dilemma), [*The fallacy fallacy*](#66-the-fallacy-fallacy), [*False attribution*](#147-false-attribution)
 * **Source:** [Wikipedia · Straw man](https://en.wikipedia.org/wiki/Straw_man)
@@ -1167,7 +1167,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.
 2. It works because expertise is a genuine shortcut: nobody can verify everything, so we trust the people who did. The fallacy is trusting the title outside the field, or after the field has moved.
 
-* **Example:** *“A Nobel laureate says the water is safe.”* He holds the prize in economics. The water has never met him.
+* **Example:** *"A Nobel laureate says the water is safe."* He holds the prize in economics. The water has never met him.
 * **Easily confused with:** *Circular reasoning* - Authority outsources the premises to a person; the circle outsources them to the conclusion itself.
 * **Related Terms:** [*Argument from ignorance*](#54-argument-from-ignorance), [*Argumentum ad populum*](#145-argumentum-ad-populum)
 * **Source:** [Wikipedia · Appeal to authority](https://en.wikipedia.org/wiki/Appeal_to_authority)
@@ -1186,7 +1186,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.
 2. It works by shrinking the field. Most real disputes have a third, boring option - wait, fund it differently, do half of it - and the boring option is exactly what the dilemma is built to hide.
 
-* **Example:** *“You are either with us or with the terrorists.”* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.
+* **Example:** *"You are either with us or with the terrorists."* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.
 * **Easily confused with:** *False equivalence* - The dilemma collapses the field to two; equivalence claims those two weigh the same.
 * **Related Terms:** [*Argument to moderation*](#93-argument-to-moderation), [*Nirvana fallacy*](#63-nirvana-fallacy)
 * **Source:** [Wikipedia · False dilemma](https://en.wikipedia.org/wiki/False_dilemma)
@@ -1200,12 +1200,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Family:** Informal · Improper premise  
 **Committed when:** The speaker wants a concession that cannot be asked for directly.  
 **The tell:** The question has an assumption in it, and every answer is an admission.  
-**Counter:** Answer the presupposition, not the question: “there is no plan yet, so the question does not apply.”  
+**Counter:** Answer the presupposition, not the question: "there is no plan yet, so the question does not apply."  
 
 1. Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.
 2. It works because a question feels like an invitation, not an assertion. Answering accepts its frame; refusing looks evasive. The frame is the argument.
 
-* **Example:** *“Why does your plan keep raising costs?”* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.
+* **Example:** *"Why does your plan keep raising costs?"* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.
 * **Easily confused with:** *Circular reasoning* - Both smuggle the conclusion in; the loaded question does it through what it asks.
 * **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Loaded question](https://en.wikipedia.org/wiki/Loaded_question)
@@ -1214,7 +1214,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 53. Circular reasoning
 *(noun)* - *fallacy*  
-*Latin: circulus in probando, “a circle in the proving” - the premise and the conclusion take turns holding each other up.*
+*Latin: circulus in probando, "a circle in the proving" - the premise and the conclusion take turns holding each other up.*
 
 **Family:** Informal · Improper premise  
 **Committed when:** A conclusion is wanted and the evidence is thin.  
@@ -1224,7 +1224,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Using a claim as its own support, often with an extra step so the circle is harder to see.
 2. It works because a short loop reads as an argument. Each sentence sounds like it is adding something, and the last one sounds like a conclusion because it is the last one.
 
-* **Example:** *“The policy is sound because it is what serious people support, and serious people support it because it is sound.”* Two sentences, one step each, no ground.
+* **Example:** *"The policy is sound because it is what serious people support, and serious people support it because it is sound."* Two sentences, one step each, no ground.
 * **Easily confused with:** *Appeal to authority* - The circle restates itself; the appeal to authority borrows a person to stand where the premise should be.
 * **Related Terms:** [*Loaded question*](#52-loaded-question)
 * **Source:** [Wikipedia · Circular reasoning](https://en.wikipedia.org/wiki/Circular_reasoning)
@@ -1243,7 +1243,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Treating a claim as true because it has not been proven false, or false because it has not been proven true.
 2. It works because the burden of proof feels like a formality. Most audiences assume a claim is either established or refuted, and the sentence supplies the third option, absence, as if it settled the matter.
 
-* **Example:** *“Nobody has proven the machines are safe.”* Nobody has proven them unsafe either; the sentence treats the missing study as a finding.
+* **Example:** *"Nobody has proven the machines are safe."* Nobody has proven them unsafe either; the sentence treats the missing study as a finding.
 * **Easily confused with:** *Appeal to authority* - Both outsource the support; ignorance to a gap, authority to a person.
 * **Related Terms:** [*Loaded question*](#52-loaded-question), [*Kafka trap*](#61-kafka-trap), [*Argument from silence*](#95-argument-from-silence)
 * **Source:** [Wikipedia · Argument from ignorance](https://en.wikipedia.org/wiki/Argument_from_ignorance)
@@ -1254,7 +1254,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 *(noun)* - *fallacy*  
 *From policing: the offence is not what was said but the manner of saying it.*
 
-**Family:** Informal · Red herring (ad hominem family)  
+**Family:** Informal · Red herring  
 **Committed when:** A claim has landed and its content is inconvenient.  
 **The tell:** The reply is about volume, spelling, or mood rather than the sentence that was said.  
 **Counter:** Separate the manner from the claim and answer the claim. If the manner really was the problem, it can be raised after.  
@@ -1262,7 +1262,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.
 2. It works because tone is a real problem sometimes and a distraction every time. The complaint is unfalsifiable, so answering it costs a turn and concedes the frame.
 
-* **Example:** *“I agree with the concern, but the way you said it lost the room.”* The room was lost by the sentence, not the volume, and the sentence is still standing.
+* **Example:** *"I agree with the concern, but the way you said it lost the room."* The room was lost by the sentence, not the volume, and the sentence is still standing.
 * **Easily confused with:** *Ad hominem* - Tone policing attacks how the speaker spoke; ad hominem attacks who the speaker is.
 * **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Tone policing](https://en.wikipedia.org/wiki/Tone_policing)
@@ -1281,7 +1281,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing the strong claim once the pressure is off.
 2. It works because the two claims are related. The retreat is sincere-sounding because the modest claim is genuinely held; the strong claim is never withdrawn, only set down.
 
-* **Example:** *“Defund the police”* argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.
+* **Example:** *"Defund the police"* argued, then "we only mean reallocating the overtime budget" defended, then argued again by Thursday.
 * **Easily confused with:** *Equivocation* - The motte switches between two claims; equivocation switches between two meanings of one word.
 * **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Motte-and-bailey fallacy](https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy)
@@ -1300,7 +1300,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.
 2. It works because a cluster really is a cluster. With enough data, some grouping will be tight; the fallacy is the order of operations, which nobody can see in the finished result.
 
-* **Example:** *“Crimes cluster around these three blocks.”* So does every address in the city, when you draw the box around three blocks.
+* **Example:** *"Crimes cluster around these three blocks."* So does every address in the city, when you draw the box around three blocks.
 * **Easily confused with:** *Cherry picking* - The sharpshooter keeps all the data and moves the target; the cherry picker keeps the target and drops the data.
 * **Related Terms:** [*Post hoc ergo propter hoc*](#91-post-hoc-ergo-propter-hoc), [*McNamara fallacy*](#67-mcnamara-fallacy)
 * **Source:** [Wikipedia · Texas sharpshooter fallacy](https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy)
@@ -1319,7 +1319,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.
 2. It works because a prior doubt is hard to unhear. The audience now listens for confirmation of the warning rather than for the content, and the content is never engaged.
 
-* **Example:** *“Before you read that report, remember who wrote it.”* The report is unread and already dismissed; nobody has said what is wrong in it.
+* **Example:** *"Before you read that report, remember who wrote it."* The report is unread and already dismissed; nobody has said what is wrong in it.
 * **Easily confused with:** *Ad hominem* - Poisoning the well attacks in advance and by implication; ad hominem answers something that was actually said.
 * **Related Terms:** [*Appeal to motive*](#130-appeal-to-motive)
 * **Source:** [Wikipedia · Poisoning the well](https://en.wikipedia.org/wiki/Poisoning_the_well)
@@ -1328,7 +1328,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 59. Nut-picking
 *(noun)* - *fallacy*  
-*From “nut” in the American sense: cherry picking the most extreme case and calling it the group.*
+*From "nut" in the American sense: cherry picking the most extreme case and calling it the group.*
 
 **Family:** Informal · Faulty generalization  
 **Committed when:** A group's worst member is easier to find than its actual position.  
@@ -1338,7 +1338,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Judging a movement by its worst adherents, or defending it by its most reasonable ones.
 2. It works because the extreme case is vivid and the movement is large. Any sizeable group contains someone who will embarrass it, so the example is always available and never representative.
 
-* **Example:** *“Look at this comment, this is what they all think.”* One comment, four hundred thousand readers, no survey.
+* **Example:** *"Look at this comment, this is what they all think."* One comment, four hundred thousand readers, no survey.
 * **Easily confused with:** *Cherry picking* - Nut-picking is cherry picking where the cherries are people, chosen for being the worst available.
 * **Related Terms:** [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Nutpicking](https://en.wikipedia.org/wiki/Nutpicking)
@@ -1357,7 +1357,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.
 2. It works because every single request is reasonable. Only the sequence is the tactic, and a sequence is invisible in any one message - which is why it is so hard to call out without looking rude.
 
-* **Example:** *“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.”* Four polite requests, one derailed argument.
+* **Example:** *"I am just asking for a source. And for the methodology. And for the raw data. And for your credentials."* Four polite requests, one derailed argument.
 * **Easily confused with:** *Shifting the burden of proof* - The shift hands over the burden once; sealioning hands it over indefinitely, one request at a time.
 * **Related Terms:** [*Loaded question*](#52-loaded-question)
 * **Source:** [Wikipedia · Sealioning](https://en.wikipedia.org/wiki/Sealioning)
@@ -1376,7 +1376,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say.
 2. It works because the test is unfalsifiable by design. Any response - silence, anger, calm, evidence - can be read as consistent with guilt, so the accusation can never be closed and never has to be proved.
 
-* **Example:** *“He denied it, which is exactly what someone with something to hide would do.”*
+* **Example:** *"He denied it, which is exactly what someone with something to hide would do."*
 * **Easily confused with:** *Argument from ignorance* - The argument from ignorance says the claim has not been proved; the Kafka trap says the denial proves it.
 * **Related Terms:** [*Poisoning the well*](#58-poisoning-the-well), [*Thought-terminating cliché*](#146-thought-terminating-cliche)
 * **Source:** [Unstrange Mind · Kafka trap](https://unstrangemind.com/kafka-trap/)
@@ -1395,7 +1395,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list.
 2. It works because causes are always available and usually unflattering. Any position can be given a psychology, and a psychology is much easier to produce than a counter-argument.
 
-* **Example:** *“Of course he thinks the zoning reform is fine - he bought his house in 1998.”* The reform is still on the table.
+* **Example:** *"Of course he thinks the zoning reform is fine - he bought his house in 1998."* The reform is still on the table.
 * **Easily confused with:** *Ad hominem* - Ad hominem attacks the arguer; Bulverism explains the arguer and treats the explanation as the refutation.
 * **Related Terms:** [*Appeal to motive*](#130-appeal-to-motive), [*Poisoning the well*](#58-poisoning-the-well)
 * **Source:** [Wikipedia · Bulverism](https://en.wikipedia.org/wiki/Bulverism)
@@ -1408,13 +1408,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 **Family:** Informal · Presumption  
 **Committed when:** A policy has been proposed that would improve something, and somebody has found a flaw in it.  
-**The tell:** The objection is measured against perfection and the status quo is measured against nothing. “It won't fix everything” is offered as a reason to do nothing.  
+**The tell:** The objection is measured against perfection and the status quo is measured against nothing. "It won't fix everything" is offered as a reason to do nothing.  
 **Counter:** Ask what happens without it, and compare the two. A proposal is not competing with an ideal; it is competing with the world it would replace.  
 
 1. Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost.
 2. It works because the status quo is the invisible baseline. Nobody has to defend the current waiting list, the current price, or the current number of deaths - so any reform carries the burden of proof and the alternative carries none.
 
-* **Example:** *“The bill only covers half the uninsured, so it doesn't really solve the problem.”* Half the uninsured is the comparison, not the bill.
+* **Example:** *"The bill only covers half the uninsured, so it doesn't really solve the problem."* Half the uninsured is the comparison, not the bill.
 * **Easily confused with:** *False dilemma* - The false dilemma offers two options and hides a third; the Nirvana fallacy offers two and makes one of them perfect.
 * **Related Terms:** [*Appeal to the stone*](#150-appeal-to-the-stone), [*Argument to moderation*](#93-argument-to-moderation)
 * **Source:** [Wikipedia · Nirvana fallacy](https://en.wikipedia.org/wiki/Nirvana_fallacy)
@@ -1433,7 +1433,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with.
 2. It works because the vivid case is the one that reaches you. Selection decides what you see, so the sample in your head is not the sample in the world - and the denominator is the part of the story that never travels.
 
-* **Example:** *“Three of them in one month.”* Three out of how many, in a city of how many, against a five-year average of what?
+* **Example:** *"Three of them in one month."* Three out of how many, in a city of how many, against a five-year average of what?
 * **Easily confused with:** *Anecdotal evidence* - Anecdotal evidence argues from one case; the base rate fallacy argues from one case while a rate sits unread beside it.
 * **Related Terms:** [*Survivorship bias*](#128-survivorship-bias), [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Base rate fallacy](https://en.wikipedia.org/wiki/Base_rate_fallacy)
@@ -1452,7 +1452,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear.
 2. It works because it does not need to be stated. A reminder of who signs the contract is cheaper than an argument and much harder to complain about - and the person who complains has just demonstrated that they understood it.
 
-* **Example:** *“I'd think carefully about how this looks for the department.”* The policy was not discussed again.
+* **Example:** *"I'd think carefully about how this looks for the department."* The policy was not discussed again.
 * **Easily confused with:** *Appeal to fear* - Appeal to fear sells a threat to the audience; the appeal to force applies a threat to the person in the room.
 * **Related Terms:** [*Heckler's veto*](#45-hecklers-veto), [*Appeal to consequences*](#134-appeal-to-consequences)
 * **Source:** [Wikipedia · Appeal to force](https://en.wikipedia.org/wiki/Appeal_to_force)
@@ -1465,13 +1465,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 **Family:** Informal · Presumption  
 **Committed when:** An argument has been shown to contain a named fallacy, and the conclusion is being discarded on that basis.  
-**The tell:** The fallacy is named with confidence and the conclusion is never examined. “That's a slippery slope” ends the discussion about the slope.  
+**The tell:** The fallacy is named with confidence and the conclusion is never examined. "That's a slippery slope" ends the discussion about the slope.  
 **Counter:** Separate the argument from the claim, then test the claim on its own. A conclusion can be true and badly defended, and a named fallacy is not a refutation.  
 
 1. Concluding that a claim is false because the argument offered for it is invalid.
 2. It works because naming a fallacy is cheap and sounds decisive. The name does the work of an argument while leaving the actual question exactly where it was - which is why it is popular with people who want to win without reading.
 
-* **Example:** *“That's an appeal to authority, so the study doesn't count.”* The study is still a study.
+* **Example:** *"That's an appeal to authority, so the study doesn't count."* The study is still a study.
 * **Easily confused with:** *Straw man* - The straw man misrepresents the argument; the fallacy fallacy accepts the argument as given and then discards the conclusion with it.
 * **Related Terms:** [*Ad hominem*](#48-ad-hominem), [*Thought-terminating cliché*](#146-thought-terminating-cliche)
 * **Source:** [Wikipedia · Fallacy fallacy](https://en.wikipedia.org/wiki/Fallacy_fallacy)
@@ -1490,7 +1490,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the charge is not.
 2. It works because numbers are auditable and judgements are not. A figure can be defended line by line, so the institution reports the figure - and the thing that could not be counted slowly stops being the thing that is managed.
 
-* **Example:** *“Response times are down 12%.”* The response is faster and the ambulance no longer comes.
+* **Example:** *"Response times are down 12%."* The response is faster and the ambulance no longer comes.
 * **Easily confused with:** *Texas sharpshooter fallacy* - The sharpshooter picks the target after the shot; the McNamara fallacy picks the target because it is the one that can be scored.
 * **Related Terms:** [*Survivorship bias*](#128-survivorship-bias), [*Appeal to authority*](#50-appeal-to-authority)
 * **Source:** [Wikipedia · McNamara fallacy](https://en.wikipedia.org/wiki/McNamara_fallacy)
@@ -1867,8 +1867,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Counter:** A calendar rule: no decision without a record, and no record without a date. What cannot be minuted cannot be appealed.  
 
 1. The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum's authority and none of a quorum's exposure.
-2. It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else.
-3. It is the same room at every scale: four trustees in a kitchen, a caucus in a cabin, a cabinet at a weekend retreat. The tell is not the secrecy but the completeness - the proposal arrives with its coalition already assembled.
+2. It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else. It is the same room at every scale: four trustees in a kitchen, a caucus in a cabin, a cabinet at a weekend retreat.
 
 * **Example:** *"The decision was made in the ordinary course" - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.*
 * **Easily confused with:** *Nightdocket* - The night docket is a court deciding without explanation; a secret meeting is a room deciding without a witness.
@@ -1888,8 +1887,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Counter:** Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting.  
 
 1. The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.
-2. It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document.
-3. It scales without changing shape. The same room picks the shift supervisor and the attorney general; the lodge hall and the cabinet differ only in the size of the parking lot, and in both the membership assumes nobody is counting.
+2. It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document. It scales without changing shape: the same room picks the shift supervisor and the attorney general, and the lodge hall and the cabinet differ only in the size of the parking lot.
 
 * **Example:** *"He's one of us" - the whole interview, in four words, before the résumé was opened: the **good ol' boys club** doing its hiring in the open.*
 * **Easily confused with:** *Cronycle* - The cronycle is the cycle that fills the posts; the club is the room the cycle recruits from.
@@ -1928,7 +1926,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.
 2. It works because fairness is a stronger instinct than consistency. The hearer wants the ledger balanced, and the sentence offers balance without ever asking whether either entry was wrong.
 
-* **Example:** *“They gerrymandered too.”* Both maps are still rigged; the sentence has only arranged for nobody to fix either.
+* **Example:** *"They gerrymandered too."* Both maps are still rigged; the sentence has only arranged for nobody to fix either.
 * **Easily confused with:** *Ad hominem* - The tu quoque changes the subject to the accuser's conduct; ad hominem changes it to the accuser's character.
 * **Related Terms:** [*Special pleading*](#92-special-pleading)
 * **Source:** [Wikipedia · Two wrongs make a right](https://en.wikipedia.org/wiki/Two_wrongs_make_a_right)
@@ -1937,7 +1935,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 91. Post hoc ergo propter hoc
 *(noun)* - *fallacy*  
-*Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.*
+*Latin: "after this, therefore because of this" - the first reason children believe the rooster makes the sun rise.*
 
 **Family:** Informal · Questionable cause  
 **Committed when:** Two events happened in sequence and a cause is being claimed.  
@@ -1947,7 +1945,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Concluding that one event caused another because it happened first.
 2. It works because sequence is the one causal cue an audience can observe directly. Order is visible; mechanism has to be argued, so order wins by default.
 
-* **Example:** *“I took the supplement and the cough cleared in a week.”* A week is also how long a cough lasts.
+* **Example:** *"I took the supplement and the cough cleared in a week."* A week is also how long a cough lasts.
 * **Easily confused with:** *Cherry picking* - Post hoc invents a cause from sequence; cherry picking hides the cases where the sequence did not hold.
 * **Related Terms:** [*Slippery slope*](#20-slippery-slope)
 * **Source:** [Wikipedia · Post hoc ergo propter hoc](https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc)
@@ -1966,7 +1964,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.
 2. It works because the exemption is usually framed as context. Every rule has context; the fallacy is invoking it only for one side.
 
-* **Example:** *“Attacking a public official's family is out of bounds.”* Said by the account that spent last spring on a mayor's brother.
+* **Example:** *"Attacking a public official's family is out of bounds."* Said by the account that spent last spring on a mayor's brother.
 * **Easily confused with:** *Two wrongs make a right* - Special pleading asks for an exemption from the standard; two wrongs argues the standard is void because someone else broke it.
 * **Related Terms:** [*Moving the goalposts*](#127-moving-the-goalposts)
 * **Source:** [Wikipedia · Special pleading](https://en.wikipedia.org/wiki/Special_pleading)
@@ -1985,7 +1983,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Assuming that the correct answer must lie between two stated positions, regardless of what either position says.
 2. It works because compromise is a genuine virtue in negotiation. The sentence borrows that virtue for questions of fact, where the midpoint of true and false is still false.
 
-* **Example:** *“One side says the water is safe, the other says it is poison - surely the truth is in the middle.”* The test results are not in the middle; they are in the lab.
+* **Example:** *"One side says the water is safe, the other says it is poison - surely the truth is in the middle."* The test results are not in the middle; they are in the lab.
 * **Easily confused with:** *False equivalence* - Equivalence says the two sides are equally wrong; moderation says the truth is arithmetically between them.
 * **Related Terms:** [*False dilemma*](#51-false-dilemma)
 * **Source:** [Wikipedia · Argument to moderation](https://en.wikipedia.org/wiki/Argument_to_moderation)
@@ -2004,7 +2002,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer than an accurate one.
 2. It works because fairness is a real journalistic virtue and symmetry looks like it. But a coin that lands heads ninety times out of a hundred is not evenly disputed, and equal time misrepresents it as such.
 
-* **Example:** *“Some say the bridge is safe, others say it will fall.”* One of those groups has the inspection report.
+* **Example:** *"Some say the bridge is safe, others say it will fall."* One of those groups has the inspection report.
 * **Easily confused with:** *False equivalence* - Equivalence says the two claims are alike; false balance gives them alike treatment and lets the audience draw the first conclusion.
 * **Related Terms:** [*Argument to moderation*](#93-argument-to-moderation)
 * **Source:** [Wikipedia · False balance](https://en.wikipedia.org/wiki/False_balance)
@@ -2023,7 +2021,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Concluding something from the absence of a record, when the record would not have mentioned it either way.
 2. It works because silence is genuinely informative sometimes. Whether it is depends entirely on whether the silence was supposed to be broken, and that question is the one the sentence skips.
 
-* **Example:** *“No complaints were filed, so everyone was satisfied.”* Nobody knew there was a form.
+* **Example:** *"No complaints were filed, so everyone was satisfied."* Nobody knew there was a form.
 * **Easily confused with:** *Argument from ignorance* - Ignorance is about missing evidence in general; silence is about a specific record that was never kept.
 * **Related Terms:** [*Survivorship bias*](#128-survivorship-bias)
 * **Source:** [Wikipedia · Argument from silence](https://en.wikipedia.org/wiki/Argument_from_silence)
@@ -2605,7 +2603,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Treating an emotional reaction as evidence for a factual claim - fear, anger, sympathy, or pride standing in for a reason.
 2. It works because a feeling is real. The hearer is not imagining the dread; they are imagining that the dread is proof. Emotion supplies the urgency a premises-and-conclusion argument cannot.
 
-* **Example:** *“Think of the children”* attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.
+* **Example:** *"Think of the children"* attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.
 * **Easily confused with:** *Appeal to fear* - Emotion is the general case; fear is its most reliable channel, and its most common disguise.
 * **Related Terms:** [*Motte-and-bailey fallacy*](#56-motte-and-bailey-fallacy), [*Appeal to pity*](#131-appeal-to-pity)
 * **Source:** [Wikipedia · Appeal to emotion](https://en.wikipedia.org/wiki/Appeal_to_emotion)
@@ -2624,7 +2622,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.
 2. It works because fear narrows attention. A frightened audience stops asking whether the proposal is good and starts asking whether the alternative is survivable.
 
-* **Example:** *“If we do nothing, they win.”* Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.
+* **Example:** *"If we do nothing, they win."* Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.
 * **Easily confused with:** *Appeal to emotion* - Fear is a channel of the wider emotional appeal, and the one that most reliably skips the argument.
 * **Related Terms:** [*Slippery slope*](#20-slippery-slope), [*Appeal to force*](#65-appeal-to-force)
 * **Source:** [Wikipedia · Appeal to fear](https://en.wikipedia.org/wiki/Appeal_to_fear)
@@ -2643,7 +2641,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Demanding new evidence after the original demand has been met.
 2. It works because each new request sounds reasonable on its own. Nobody agrees to an impossible standard all at once; they agree to a series of fair-sounding ones.
 
-* **Example:** *“Show me the emails.”* The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.
+* **Example:** *"Show me the emails."* The emails are produced. "Emails can be edited - show me the metadata." The metadata would not have been mentioned yesterday.
 * **Easily confused with:** *No true Scotsman* - The Scotsman moves the group boundary; the goalposts move the evidentiary one.
 * **Related Terms:** [*Special pleading*](#92-special-pleading)
 * **Source:** [Wikipedia · Moving the goalposts](https://en.wikipedia.org/wiki/Moving_the_goalposts)
@@ -2657,12 +2655,12 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Family:** Informal · Statistical  
 **Committed when:** A set of successes is being used to explain why a method works.  
 **The tell:** Every case you can see succeeded, and nothing explains what happened to the others.  
-**Counter:** Ask where the failures went. If the answer is “they are not in the dataset”, the dataset is the argument.  
+**Counter:** Ask where the failures went. If the answer is "they are not in the dataset", the dataset is the argument.  
 
 1. Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.
 2. It works because the missing cases are missing. The sample looks complete precisely because the ones that would have completed it are not there to be counted.
 
-* **Example:** *“Every founder I know says the degree was useless.”* The founders who dropped out and failed are not at the conferences where this sentence gets said.
+* **Example:** *"Every founder I know says the degree was useless."* The founders who dropped out and failed are not at the conferences where this sentence gets said.
 * **Easily confused with:** *Cherry picking* - Cherry picking keeps the data and drops the rest; survivorship bias never had the rest - it was never recorded.
 * **Related Terms:** [*Anecdotal evidence*](#140-anecdotal-evidence)
 * **Source:** [Wikipedia · Survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias)
@@ -2681,7 +2679,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Rejecting or accepting an idea because of who else holds it, rather than because of what it says.
 2. It works because groups really do cluster. Sharing a conclusion with a bad actor is genuine information about the actor, and none at all about whether the conclusion is true.
 
-* **Example:** *“That is the same thing the crank down the street says.”* The crank is also right about the weather, and nobody checks the sky by checking him.
+* **Example:** *"That is the same thing the crank down the street says."* The crank is also right about the weather, and nobody checks the sky by checking him.
 * **Easily confused with:** *Ad hominem* - The association attacks the company the claim keeps; ad hominem attacks the person who made it.
 * **Related Terms:** [*Hasty generalization*](#137-hasty-generalization)
 * **Source:** [Wikipedia · Association fallacy](https://en.wikipedia.org/wiki/Association_fallacy)
@@ -2700,7 +2698,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.
 2. It works because motives are real and often relevant. But a motive explains why someone is talking, not whether what they said is accurate - and the audience conflates the two.
 
-* **Example:** *“Of course the landlord says rents are fine - he owns the building.”* He does; the rent roll is still a document.
+* **Example:** *"Of course the landlord says rents are fine - he owns the building."* He does; the rent roll is still a document.
 * **Easily confused with:** *Ad hominem* - Appeal to motive attacks the reason behind the claim; ad hominem attacks the person's character or record.
 * **Related Terms:** [*Poisoning the well*](#58-poisoning-the-well)
 * **Source:** [Wikipedia · Appeal to motive](https://en.wikipedia.org/wiki/Appeal_to_motive)
@@ -2719,7 +2717,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.
 2. It works because sympathy is a real moral response and the hardship is often genuine. Neither fact tells you whether the claim is accurate.
 
-* **Example:** *“I lost my job over this, so you know I am telling the truth.”* Losing a job is terrible and says nothing about the facts.
+* **Example:** *"I lost my job over this, so you know I am telling the truth."* Losing a job is terrible and says nothing about the facts.
 * **Easily confused with:** *Appeal to emotion* - Pity is the specific channel; the emotional appeal is the whole family.
 * **Related Terms:** [*Tu quoque*](#142-tu-quoque)
 * **Source:** [Wikipedia · Appeal to pity](https://en.wikipedia.org/wiki/Appeal_to_pity)
@@ -2728,7 +2726,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 132. Ad nauseam
 *(noun)* - *fallacy*  
-*Latin: “to the point of sickness” - the argument that wins by making the audience tired.*
+*Latin: "to the point of sickness" - the argument that wins by making the audience tired.*
 
 **Family:** Informal · Relevance  
 **Committed when:** A claim has been answered once and the answer was not accepted.  
@@ -2738,7 +2736,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.
 2. It works on volume rather than content. Nobody can answer the same sentence forty times, so the fortieth repetition lands unanswered and looks unanswerable.
 
-* **Example:** *“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.”* Three sentences, one claim, no count.
+* **Example:** *"It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd."* Three sentences, one claim, no count.
 * **Easily confused with:** *Proof by assertion* - Proof by assertion repeats to sound certain; ad nauseam repeats to make the audience stop asking.
 * **Related Terms:** [*Gish gallop*](#149-gish-gallop)
 * **Source:** [Wikipedia · Ad nauseam](https://en.wikipedia.org/wiki/Ad_nauseam)
@@ -2757,7 +2755,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Treating a claim or a practice as correct because it is new, or an older one as wrong because it is old.
 2. It works because progress is real and the future usually arrives. Recency is genuine evidence of relevance; it is not evidence of correctness, and the two are easy to confuse in a feed.
 
-* **Example:** *“Nobody uses cash anymore.”* Most people still do; the sentence is about the future the speaker would like.
+* **Example:** *"Nobody uses cash anymore."* Most people still do; the sentence is about the future the speaker would like.
 * **Easily confused with:** *Appeal to tradition* - Tradition cites age as proof; novelty cites youth as proof. Both substitute a timestamp for a reason.
 * **Related Terms:** [*Appeal to nature*](#23-appeal-to-nature)
 * **Source:** [Wikipedia · Appeal to novelty](https://en.wikipedia.org/wiki/Appeal_to_novelty)
@@ -2776,7 +2774,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.
 2. It works because consequences are legitimately part of policy - just not of truth. The sentence moves from what follows to what is, and the move is one word wide.
 
-* **Example:** *“If that were true, the whole policy would be indefensible.”* It may well be indefensible; the audit found what it found.
+* **Example:** *"If that were true, the whole policy would be indefensible."* It may well be indefensible; the audit found what it found.
 * **Easily confused with:** *Appeal to fear* - Fear forecasts the bad outcome to end the argument; consequences use the bad outcome as a disproof.
 * **Related Terms:** [*Slippery slope*](#20-slippery-slope), [*Just-world hypothesis*](#154-just-world-hypothesis)
 * **Source:** [Wikipedia · Appeal to consequences](https://en.wikipedia.org/wiki/Appeal_to_consequences)
@@ -2825,7 +2823,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 137. Hasty generalization
 *(noun)* - *fallacy*  
-*Latin: secundum quid, “according to a particular” - a rule drawn from too narrow a sample.*
+*Latin: secundum quid, "according to a particular" - a rule drawn from too narrow a sample.*
 
 **Family:** Informal · Faulty generalization  
 **Committed when:** A striking case is available and a general claim is wanted.  
@@ -2835,7 +2833,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Drawing a broad conclusion from a sample too small, or too selected, to support it.
 2. It works because a single vivid case feels like a pattern. The mind generalises from what it can picture, and one picture is enough to feel like evidence.
 
-* **Example:** *“I met two rude tourists from there, so that is what they are like.”* Two people, one airport, an entire country.
+* **Example:** *"I met two rude tourists from there, so that is what they are like."* Two people, one airport, an entire country.
 * **Easily confused with:** *Anecdotal evidence* - The generalization is the conclusion; the anecdote is the single story it was built on.
 * **Related Terms:** [*Cherry picking*](#138-cherry-picking)
 * **Source:** [Wikipedia · Hasty generalization](https://en.wikipedia.org/wiki/Hasty_generalization)
@@ -2854,7 +2852,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Selecting the evidence that supports a conclusion while ignoring the evidence that does not.
 2. It works because every selection is individually true. Nothing in the sentence is a lie, so the audit has to ask what was left out - and the audience rarely sees the tree.
 
-* **Example:** *“Crime fell in the years we cut the programme.”* It also fell in the four years before, in the neighbouring county, and by more.
+* **Example:** *"Crime fell in the years we cut the programme."* It also fell in the four years before, in the neighbouring county, and by more.
 * **Easily confused with:** *Texas sharpshooter fallacy* - Cherry picking removes the inconvenient data; the sharpshooter keeps all of it and moves the target instead.
 * **Related Terms:** [*Survivorship bias*](#128-survivorship-bias), [*Nut-picking*](#59-nut-picking)
 * **Source:** [Wikipedia · Cherry picking](https://en.wikipedia.org/wiki/Cherry_picking)
@@ -2871,9 +2869,9 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Counter:** Compare like quantities: how many, how bad, how permanent, who can fix it. Equivalence collapses under one honest axis.  
 
 1. Treating two things as equally bad, or equally serious, because they share a name or a shape.
-2. It works because a shared label feels like a shared scale. Once both acts are called “unfair”, the sentence can weigh them evenly without ever measuring them.
+2. It works because a shared label feels like a shared scale. Once both acts are called "unfair", the sentence can weigh them evenly without ever measuring them.
 
-* **Example:** *“Both sides traffic in misinformation.”* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.
+* **Example:** *"Both sides traffic in misinformation."* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.
 * **Easily confused with:** *False dilemma* - The dilemma collapses the field to two options; equivalence collapses the distance between them.
 * **Related Terms:** [*Argument to moderation*](#93-argument-to-moderation), [*False balance*](#94-false-balance)
 * **Source:** [Wikipedia · False equivalence](https://en.wikipedia.org/wiki/False_equivalence)
@@ -2882,17 +2880,17 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 140. Anecdotal evidence
 *(noun)* - *fallacy*  
-*From the Greek anekdota, “unpublished things” - the story that never made it into the record.*
+*From the Greek anekdota, "unpublished things" - the story that never made it into the record.*
 
 **Family:** Informal · Faulty generalization  
 **Committed when:** A statistic has just been presented that the speaker dislikes.  
-**The tell:** The reply begins “well, in my experience” and ends the discussion.  
+**The tell:** The reply begins "well, in my experience" and ends the discussion.  
 **Counter:** Ask whether the story is typical. One case is a reason to check the data, not a substitute for it.  
 
 1. Using a single personal story as though it outweighed systematic evidence about the same question.
 2. It works because stories are persuasive and statistics are not. One concrete case is easier to hold in mind than a distribution, so it feels heavier even when it is one data point.
 
-* **Example:** *“My uncle smoked for sixty years.”* The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.
+* **Example:** *"My uncle smoked for sixty years."* The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.
 * **Easily confused with:** *Hasty generalization* - The anecdote is the evidence; the generalization is the rule drawn from it.
 * **Related Terms:** [*Survivorship bias*](#128-survivorship-bias), [*Base rate fallacy*](#64-base-rate-fallacy)
 * **Source:** [Wikipedia · Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence)
@@ -2901,7 +2899,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 141. Equivocation
 *(noun)* - *fallacy*  
-*Latin: aequus vox, “equal voice” - one word doing two jobs in the same argument.*
+*Latin: aequus vox, "equal voice" - one word doing two jobs in the same argument.*
 
 **Family:** Informal · Ambiguity  
 **Committed when:** A word with more than one sense is load-bearing in the argument.  
@@ -2911,7 +2909,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Using one word in two different senses inside a single argument, so the conclusion appears to follow.
 2. It works because the word really is the same word. The shift happens in the meaning, which is invisible on the page and audible only if you ask what the word meant each time.
 
-* **Example:** *“Speech is free, so my platform must host it.”* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.
+* **Example:** *"Speech is free, so my platform must host it."* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.
 * **Easily confused with:** *Motte-and-bailey fallacy* - The motte switches between two claims; equivocation switches between two senses of a word inside one claim.
 * **Related Terms:** [*Loaded question*](#52-loaded-question)
 * **Source:** [Wikipedia · Equivocation](https://en.wikipedia.org/wiki/Equivocation)
@@ -2920,7 +2918,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 142. Tu quoque
 *(noun)* - *fallacy*  
-*Latin: “you too” - the second-person form of the two-wrongs move, and the most common sentence on the internet.*
+*Latin: "you too" - the second-person form of the two-wrongs move, and the most common sentence on the internet.*
 
 **Family:** Informal · Red herring  
 **Committed when:** A criticism has been made that one cannot answer on the merits.  
@@ -2930,7 +2928,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Answering a charge by charging the accuser with the same thing, as though a second offence cancelled the first.
 2. It works because hypocrisy is genuinely relevant to credibility, so the deflection has a real foothold. The foothold is about the speaker; the question was about the act.
 
-* **Example:** *“You are funded by a billionaire.”* “So are you.” Both disclosures are true; only one of them was on the table.
+* **Example:** *"You are funded by a billionaire."* "So are you." Both disclosures are true; only one of them was on the table.
 * **Easily confused with:** *Two wrongs make a right* - Tu quoque attacks the accuser's consistency; two wrongs uses the comparison as a defence of the act itself.
 * **Related Terms:** [*Whataboutism*](#143-whataboutism)
 * **Source:** [Wikipedia · Tu quoque](https://en.wikipedia.org/wiki/Tu_quoque)
@@ -2939,17 +2937,17 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 143. Whataboutism
 *(noun)* - *fallacy*  
-*Named for the Soviet reply to every complaint: “and what about…?”*
+*Named for the Soviet reply to every complaint: "and what about…?"*
 
 **Family:** Informal · Red herring  
 **Committed when:** A specific question has been asked that the speaker would rather not answer.  
-**The tell:** The reply begins with “what about” and never returns to the question.  
+**The tell:** The reply begins with "what about" and never returns to the question.  
 **Counter:** Say that the other case can be discussed after this one, and repeat the question. The order of questions is a fair thing to insist on.  
 
 1. Deflecting a question by raising a different grievance, so the original subject never gets answered.
 2. It works because there is always another grievance. The move does not have to be false - it only has to be more interesting than the question being asked.
 
-* **Example:** *“What about the crime in your city?”* The question was about a contract. Both can be answered; only one was asked.
+* **Example:** *"What about the crime in your city?"* The question was about a contract. Both can be answered; only one was asked.
 * **Easily confused with:** *Tu quoque* - Tu quoque answers a charge with a charge against the accuser; whataboutism raises any third subject at all.
 * **Related Terms:** [*Ad hominem*](#48-ad-hominem)
 * **Source:** [Wikipedia · Whataboutism](https://en.wikipedia.org/wiki/Whataboutism)
@@ -2968,7 +2966,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Dismissing a position by making it sound absurd rather than by showing that it is wrong.
 2. It works because ridicule is cheap and memorable. A laugh is a conclusion the audience reaches themselves, which makes it feel like their own judgement rather than the speaker's.
 
-* **Example:** *“So we should just let everyone do whatever they want, then?”* Nobody proposed that; the sentence made the proposal funny and then defeated the joke.
+* **Example:** *"So we should just let everyone do whatever they want, then?"* Nobody proposed that; the sentence made the proposal funny and then defeated the joke.
 * **Easily confused with:** *Appeal to the stone* - Ridicule gets a laugh; the stone gets a shrug. Both substitute a reaction for a reason.
 * **Related Terms:** [*Straw man*](#49-straw-man)
 * **Source:** [Wikipedia · Appeal to ridicule](https://en.wikipedia.org/wiki/Appeal_to_ridicule)
@@ -2977,7 +2975,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 145. Argumentum ad populum
 *(noun)* - *fallacy*  
-*Latin: “to the people” - the crowd is treated as the evidence, and the bandwagon as the proof.*
+*Latin: "to the people" - the crowd is treated as the evidence, and the bandwagon as the proof.*
 
 **Family:** Informal · Red herring  
 **Committed when:** A claim is popular or unpopular and that is the strongest thing that can be said for it.  
@@ -2987,7 +2985,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Treating a belief as true because many people hold it, or as false because few do.
 2. It works because consensus is usually a decent heuristic and occasionally the only evidence available. The fallacy is treating a majority as a measurement.
 
-* **Example:** *“Everyone knows the water is fine.”* Everyone knew a lot of things that turned out to be false; the water has a test result.
+* **Example:** *"Everyone knows the water is fine."* Everyone knew a lot of things that turned out to be false; the water has a test result.
 * **Easily confused with:** *Appeal to authority* - Authority borrows one credential; ad populum borrows a crowd, which is cheaper and worse.
 * **Related Terms:** [*Appeal to tradition*](#22-appeal-to-tradition)
 * **Source:** [Wikipedia · Argumentum ad populum](https://en.wikipedia.org/wiki/Argumentum_ad_populum)
@@ -3006,7 +3004,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Closing a line of thought with a stock phrase that sounds like a conclusion and forecloses the next question.
 2. It works because the phrase is familiar and warm. Familiarity reads as wisdom, and the sentence arrives pre-approved, so using it feels like agreeing with everyone rather than ending an argument.
 
-* **Example:** *“It is what it is.”* Said about a policy that could be changed, by the people who could change it.
+* **Example:** *"It is what it is."* Said about a policy that could be changed, by the people who could change it.
 * **Easily confused with:** *Proof by assertion* - The cliché stops the conversation with familiarity; the assertion stops it with confidence.
 * **Related Terms:** [*Appeal to tradition*](#22-appeal-to-tradition)
 * **Source:** [Wikipedia · Thought-terminating cliché](https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9)
@@ -3025,7 +3023,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never said it.
 2. It works because the citation is true as far as it goes. Verifying a quote means opening the transcript, and most readers will only verify the part that already agrees with them.
 
-* **Example:** *“They said the plan was dead on arrival.”* The transcript says it was dead on arrival in the Senate, which then passed it.
+* **Example:** *"They said the plan was dead on arrival."* The transcript says it was dead on arrival in the Senate, which then passed it.
 * **Easily confused with:** *Straw man* - False attribution puts new words in someone's mouth; the straw man puts a weaker argument there.
 * **Related Terms:** [*Cherry picking*](#138-cherry-picking)
 * **Source:** [Wikipedia · False attribution](https://en.wikipedia.org/wiki/False_attribution)
@@ -3038,13 +3036,13 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 **Family:** Informal · Presumption  
 **Committed when:** A claim has been made with no evidence offered.  
-**The tell:** The reply is “prove me wrong” or “do your own research”, and the original claim is never defended.  
+**The tell:** The reply is "prove me wrong" or "do your own research", and the original claim is never defended.  
 **Counter:** State who holds the burden and what would count as evidence. A claim does not become true by surviving an audit it never had to pass.  
 
 1. Demanding that others disprove a claim instead of supporting it, so that the absence of disproof is treated as support.
 2. It works because a demand sounds like an invitation to debate. The audience rarely notices that the person making the claim has not made a case for it.
 
-* **Example:** *“Show me the study that says it is harmful.”* The claim was that it is safe; the absent study is not a finding.
+* **Example:** *"Show me the study that says it is harmful."* The claim was that it is safe; the absent study is not a finding.
 * **Easily confused with:** *Argument from ignorance* - Ignorance treats a gap as proof; the shift assigns the work of closing the gap to the sceptic.
 * **Related Terms:** [*Sealioning*](#60-sealioning)
 * **Source:** [Wikipedia · Burden of proof (philosophy)](https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy))
@@ -3063,7 +3061,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Overwhelming an opponent with a flood of dubious claims so that answering all of them is impossible in the time available.
 2. It works on arithmetic, not argument. Each claim takes ten seconds to make and ten minutes to check, and the format does not care that they are not equally cheap.
 
-* **Example:** *“Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…”* Fourteen claims, ninety seconds, one of them true.
+* **Example:** *"Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…"* Fourteen claims, ninety seconds, one of them true.
 * **Easily confused with:** *Ad nauseam* - Ad nauseam repeats one claim; the gallop produces a new one every sentence.
 * **Related Terms:** [*Proof by assertion*](#24-proof-by-assertion)
 * **Source:** [Wikipedia · Gish gallop](https://en.wikipedia.org/wiki/Gish_gallop)
@@ -3072,7 +3070,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 ### 150. Appeal to the stone
 *(noun)* - *fallacy*  
-*Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying “I refute it thus”.*
+*Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying "I refute it thus".*
 
 **Family:** Informal · Relevance  
 **Committed when:** A claim sounds wrong on its face and the speaker cannot say why.  
@@ -3082,7 +3080,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. Dismissing a claim as absurd without saying what is wrong with it, treating obviousness as an argument.
 2. It works because most absurd-sounding claims are absurd, so the reflex is usually right. The problem is that it cannot tell the two cases apart, and it never has to show its work.
 
-* **Example:** *“That is the dumbest thing I have heard all week.”* Possible. The sentence has not said which part is wrong.
+* **Example:** *"That is the dumbest thing I have heard all week."* Possible. The sentence has not said which part is wrong.
 * **Easily confused with:** *Appeal to ridicule* - Ridicule makes the claim funny; the stone simply declares it absurd. The stone is lazier and more common.
 * **Related Terms:** [*Proof by assertion*](#24-proof-by-assertion)
 * **Source:** [Wikipedia · Appeal to the stone](https://en.wikipedia.org/wiki/Appeal_to_the_stone)

@@ -8,12 +8,12 @@
   "family": "Informal · Statistical",
   "committed_when": "A set of successes is being used to explain why a method works.",
   "tell": "Every case you can see succeeded, and nothing explains what happened to the others.",
-  "counter": "Ask where the failures went. If the answer is “they are not in the dataset”, the dataset is the argument.",
+  "counter": "Ask where the failures went. If the answer is \"they are not in the dataset\", the dataset is the argument.",
   "senses": [
     "Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
     "It works because the missing cases are missing. The sample looks complete precisely because the ones that would have completed it are not there to be counted."
   ],
-  "example": "*“Every founder I know says the degree was useless.”* The founders who dropped out and failed are not at the conferences where this sentence gets said.",
+  "example": "*\"Every founder I know says the degree was useless.\"* The founders who dropped out and failed are not at the conferences where this sentence gets said.",
   "confused_with": [
     {
       "term": "Cherry picking",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Cherry picking",
     "Anecdotal evidence"
   ],
   "cite": {

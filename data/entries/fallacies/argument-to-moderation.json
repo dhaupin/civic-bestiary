@@ -13,7 +13,7 @@
     "Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
     "It works because compromise is a genuine virtue in negotiation. The sentence borrows that virtue for questions of fact, where the midpoint of true and false is still false."
   ],
-  "example": "*“One side says the water is safe, the other says it is poison - surely the truth is in the middle.”* The test results are not in the middle; they are in the lab.",
+  "example": "*\"One side says the water is safe, the other says it is poison - surely the truth is in the middle.\"* The test results are not in the middle; they are in the lab.",
   "confused_with": [
     {
       "term": "False equivalence",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "False equivalence",
     "False dilemma"
   ],
   "cite": {

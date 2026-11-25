@@ -4,7 +4,7 @@
   "chapter": "hypocrisy-revisionism",
   "position": 102,
   "part_of_speech": "noun",
-  "etymology": "Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.",
+  "etymology": "Latin: \"after this, therefore because of this\" - the first reason children believe the rooster makes the sun rise.",
   "family": "Informal · Questionable cause",
   "committed_when": "Two events happened in sequence and a cause is being claimed.",
   "tell": "The evidence is the calendar, not the mechanism.",
@@ -13,7 +13,7 @@
     "Concluding that one event caused another because it happened first.",
     "It works because sequence is the one causal cue an audience can observe directly. Order is visible; mechanism has to be argued, so order wins by default."
   ],
-  "example": "*“I took the supplement and the cough cleared in a week.”* A week is also how long a cough lasts.",
+  "example": "*\"I took the supplement and the cough cleared in a week.\"* A week is also how long a cough lasts.",
   "confused_with": [
     {
       "term": "Cherry picking",
@@ -21,8 +21,7 @@
     }
   ],
   "related": [
-    "Slippery slope",
-    "Cherry picking"
+    "Slippery slope"
   ],
   "cite": {
     "label": "Wikipedia · Post hoc ergo propter hoc",

@@ -13,7 +13,7 @@
     "Concluding something from the absence of a record, when the record would not have mentioned it either way.",
     "It works because silence is genuinely informative sometimes. Whether it is depends entirely on whether the silence was supposed to be broken, and that question is the one the sentence skips."
   ],
-  "example": "*“No complaints were filed, so everyone was satisfied.”* Nobody knew there was a form.",
+  "example": "*\"No complaints were filed, so everyone was satisfied.\"* Nobody knew there was a form.",
   "confused_with": [
     {
       "term": "Argument from ignorance",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Argument from ignorance",
     "Survivorship bias"
   ],
   "cite": {

@@ -575,7 +575,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"play\" + \"patriot\"",
+    "etymology": "Blend of “play” + “patriot”",
     "identification": [
       {
         "key": "occasion",
@@ -709,7 +709,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",
+    "etymology": "Blend of “free” + “retard” [verb: to delay, hinder, or impede progress]",
     "identification": [
       {
         "key": "occasion",
@@ -827,7 +827,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
+    "etymology": "Blend of “LARP” [Live Action Role-Play] + “libertarian”",
     "identification": [
       {
         "key": "occasion",
@@ -959,7 +959,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of \"critic\" + \"citizen\" - the citizen whose critique of the rules exempts them from the rules",
+    "etymology": "Blend of “critic” + “citizen” - the citizen whose critique of the rules exempts them from the rules",
     "identification": [
       {
         "key": "occasion",
@@ -1103,7 +1103,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of \"saboteur\" + \"patriot\"",
+    "etymology": "Blend of “saboteur” + “patriot”",
     "identification": [
       {
         "key": "occasion",
@@ -1223,7 +1223,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Blend of \"patriot\" + \"entertainment\"",
+    "etymology": "Blend of “patriot” + “entertainment”",
     "identification": [
       {
         "key": "carriers",
@@ -1379,7 +1379,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
+    "etymology": "Back-formation from “patriotainment”: the performer the format cannot run without",
     "identification": [
       {
         "key": "occasion",
@@ -1536,7 +1536,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"filibuster\" + \"bluster\"",
+    "etymology": "Blend of “filibuster” + “bluster”",
     "identification": [
       {
         "key": "effect",
@@ -1642,7 +1642,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"gerrymander\" + \"algorithm\"",
+    "etymology": "Blend of “gerrymander” + “algorithm”",
     "identification": [
       {
         "key": "effect",
@@ -1746,7 +1746,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"omnibus\" + \"bust\"",
+    "etymology": "Blend of “omnibus” + “bust”",
     "identification": [
       {
         "key": "effect",
@@ -1845,7 +1845,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"honeymoon\" + \"moan\"",
+    "etymology": "Blend of “honeymoon” + “moan”",
     "identification": [
       {
         "key": "effect",
@@ -1936,7 +1936,7 @@ export const entries = [
       "abuse": 2,
       "blowback": 4
     },
-    "etymology": "Blend of \"pocket\" + \"veto\", from the constitutional pocket veto",
+    "etymology": "Blend of “pocket” + “veto”, from the constitutional pocket veto",
     "identification": [
       {
         "key": "effect",
@@ -2033,7 +2033,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"night\" + \"docket\", from the emergency docket the court keeps after hours",
+    "etymology": "Blend of “night” + “docket”, from the emergency docket the court keeps after hours",
     "identification": [
       {
         "key": "effect",
@@ -2553,7 +2553,7 @@ export const entries = [
       "It works because the shape of a promise is enough to be reported as one. The listener hears the certainty, the journalist quotes the adjective, and the only person who needed the figure was the one who will be blamed for asking."
     ],
     "notes": [],
-    "example": "“We will have a **bold, historic plan** within the first hundred days” - the plan had a title, a press conference, and no sentence that could be checked.",
+    "example": "“We will have a bold, historic plan within the first hundred days” - **vague promises**: a title, a press conference, and no sentence that could be checked.",
     "cite": null,
     "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a...",
     "definition": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.",
@@ -2827,7 +2827,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
+    "etymology": "From Antony Flew’s example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
     "identification": [
       {
         "key": "family",
@@ -3525,7 +3525,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of \"sophist\" + \"troll\"",
+    "etymology": "Blend of “sophist” + “troll”",
     "identification": [
       {
         "key": "occasion",
@@ -3694,7 +3694,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"illogical\" + \"logician\"",
+    "etymology": "Blend of “illogical” + “logician”",
     "identification": [
       {
         "key": "occasion",
@@ -3828,7 +3828,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"JAQ\" [\"Just Asking Questions\"] + vulgar slang \"jacking off\"",
+    "etymology": "Blend of “JAQ” [“Just Asking Questions”] + vulgar slang “jacking off”",
     "identification": [
       {
         "key": "trigger",
@@ -3948,7 +3948,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 4
     },
-    "etymology": "Blend of \"trust me, bro\" + \"professor\"",
+    "etymology": "Blend of “trust me, bro” + “professor”",
     "identification": [
       {
         "key": "occasion",
@@ -4068,7 +4068,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of \"bias\" + \"biographer\" / \"bibliographer\"",
+    "etymology": "Blend of “bias” + “biographer” / “bibliographer”",
     "identification": [
       {
         "key": "occasion",
@@ -4209,7 +4209,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 4
     },
-    "etymology": "Blend of \"bleat\" + \"gatekeeper\"",
+    "etymology": "Blend of “bleat” + “gatekeeper”",
     "identification": [
       {
         "key": "occasion",
@@ -4336,7 +4336,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"equivocate\" + \"evangelist\"",
+    "etymology": "Blend of “equivocate” + “evangelist”",
     "identification": [
       {
         "key": "occasion",
@@ -4454,7 +4454,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"gish gallop\" + \"-ologist\"",
+    "etymology": "Blend of “gish gallop” + “-ologist”",
     "identification": [
       {
         "key": "occasion",
@@ -4581,7 +4581,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"decorum\" + \"necromancer\"",
+    "etymology": "Blend of “decorum” + “necromancer”",
     "identification": [
       {
         "key": "occasion",
@@ -4927,7 +4927,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"both sides\" + the \"-ing\" of an argument still running",
+    "etymology": "Blend of “both sides” + the “-ing” of an argument still running",
     "identification": [
       {
         "key": "trigger",
@@ -5047,7 +5047,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"vague\" + \"Facebook\" + the \"-ing\" of a status update",
+    "etymology": "Blend of “vague” + “Facebook” + the “-ing” of a status update",
     "identification": [
       {
         "key": "trigger",
@@ -5153,7 +5153,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"receipts\", the slang for evidence, + \"bomb\"",
+    "etymology": "Blend of “receipts”, the slang for evidence, + “bomb”",
     "identification": [
       {
         "key": "trigger",
@@ -5360,7 +5360,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "English: from ballooning, where a ballon d'essai is released to see which way the wind blows.",
+    "etymology": "English: from ballooning, where a ballon d’essai is released to see which way the wind blows.",
     "identification": [
       {
         "key": "trigger",
@@ -5464,7 +5464,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: the hour after the last deadline, when the week's worst news gets filed.",
+    "etymology": "English: the hour after the last deadline, when the week’s worst news gets filed.",
     "identification": [
       {
         "key": "trigger",
@@ -7026,7 +7026,7 @@ export const entries = [
         "key": "family",
         "label": "Family",
         "type": "text",
-        "value": "Informal · Red herring (ad hominem family)"
+        "value": "Informal · Red herring"
       },
       {
         "key": "committed_when",
@@ -7058,7 +7058,7 @@ export const entries = [
       "label": "Wikipedia · Tone policing",
       "url": "https://en.wikipedia.org/wiki/Tone_policing"
     },
-    "summary": "Informal · Red herring (ad hominem family) fallacy: Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
+    "summary": "Informal · Red herring fallacy: Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
     "definition": "Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
     "confusedWith": [
       {
@@ -7703,7 +7703,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Named for Kafka's The Trial: the accusation is the process, and the defence is the evidence.",
+    "etymology": "Named for Kafka’s The Trial: the accusation is the process, and the defence is the evidence.",
     "identification": [
       {
         "key": "family",
@@ -8378,7 +8378,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Named for Robert McNamara's defence metrics: body counts offered as the measure of a war the counts could not describe.",
+    "etymology": "Named for Robert McNamara’s defence metrics: body counts offered as the measure of a war the counts could not describe.",
     "identification": [
       {
         "key": "family",
@@ -8488,7 +8488,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of \"hypocrite\" + \"contortionist\"",
+    "etymology": "Blend of “hypocrite” + “contortionist”",
     "identification": [
       {
         "key": "occasion",
@@ -8627,7 +8627,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"myth\" + \"historian\"",
+    "etymology": "Blend of “myth” + “historian”",
     "identification": [
       {
         "key": "occasion",
@@ -8759,7 +8759,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"bootlicker\" + \"curious\"",
+    "etymology": "Blend of “bootlicker” + “curious”",
     "identification": [
       {
         "key": "effect",
@@ -8874,7 +8874,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of \"crook\" + \"-maxxing\"",
+    "etymology": "Blend of “crook” + “-maxxing”",
     "identification": [
       {
         "key": "trigger",
@@ -8977,7 +8977,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"capitulate\" + \"intellectual\"",
+    "etymology": "Blend of “capitulate” + “intellectual”",
     "identification": [
       {
         "key": "occasion",
@@ -9123,7 +9123,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"subpoena\" + \"tornado\"",
+    "etymology": "Blend of “subpoena” + “tornado”",
     "identification": [
       {
         "key": "effect",
@@ -9222,7 +9222,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"crony\" + \"cycle\" - and a chronicle is what it writes over the machinery",
+    "etymology": "Blend of “crony” + “cycle” - and a chronicle is what it writes over the machinery",
     "identification": [
       {
         "key": "effect",
@@ -9318,7 +9318,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"non-\" + \"apology\"",
+    "etymology": "Blend of “non-” + “apology”",
     "identification": [
       {
         "key": "trigger",
@@ -9722,7 +9722,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"recess\" + \"seizure\"",
+    "etymology": "Blend of “recess” + “seizure”",
     "identification": [
       {
         "key": "effect",
@@ -9819,7 +9819,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"signing statement\" + \"sign away\"",
+    "etymology": "Blend of “signing statement” + “sign away”",
     "identification": [
       {
         "key": "effect",
@@ -10612,8 +10612,7 @@ export const entries = [
     "voice": "A decision that arrives fully formed, attributed to a process nobody watched, and a guest list nobody kept.",
     "senses": [
       "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum’s authority and none of a quorum’s exposure.",
-      "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else.",
-      "It is the same room at every scale: four trustees in a kitchen, a caucus in a cabin, a cabinet at a weekend retreat. The tell is not the secrecy but the completeness - the proposal arrives with its coalition already assembled."
+      "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else. It is the same room at every scale: four trustees in a kitchen, a caucus in a cabin, a cabinet at a weekend retreat."
     ],
     "notes": [],
     "example": "“The decision was made in the ordinary course” - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.",
@@ -10713,8 +10712,7 @@ export const entries = [
     "voice": "Every post is filled before it is advertised, every candidate is somebody’s nephew, and the vote is a formality held in a room with no chairs for the public.",
     "senses": [
       "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
-      "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document.",
-      "It scales without changing shape. The same room picks the shift supervisor and the attorney general; the lodge hall and the cabinet differ only in the size of the parking lot, and in both the membership assumes nobody is counting."
+      "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document. It scales without changing shape: the same room picks the shift supervisor and the attorney general, and the lodge hall and the cabinet differ only in the size of the parking lot."
     ],
     "notes": [],
     "example": "“He’s one of us” - the whole interview, in four words, before the résumé was opened: the **good ol’ boys club** doing its hiring in the open.",
@@ -11608,7 +11606,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 5
     },
-    "etymology": "Blend of \"xenophobe\" + \"fabricator\"",
+    "etymology": "Blend of “xenophobe” + “fabricator”",
     "identification": [
       {
         "key": "occasion",
@@ -11742,7 +11740,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"drama\" + \"demagogue\"",
+    "etymology": "Blend of “drama” + “demagogue”",
     "identification": [
       {
         "key": "occasion",
@@ -11888,7 +11886,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",
+    "etymology": "Blend of “rage” + “masturbation” + “-ist”",
     "identification": [
       {
         "key": "occasion",
@@ -12008,7 +12006,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"martyr\" + \"-holic\"",
+    "etymology": "Blend of “martyr” + “-holic”",
     "identification": [
       {
         "key": "occasion",
@@ -12135,7 +12133,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",
+    "etymology": "Blend of “algorithm” + “academic” / “pandemic”",
     "identification": [
       {
         "key": "occasion",
@@ -12283,7 +12281,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"plutocrat\" + \"martyr\"",
+    "etymology": "Blend of “plutocrat” + “martyr”",
     "identification": [
       {
         "key": "occasion",
@@ -12431,7 +12429,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of \"slop\" + \"propagandist\"",
+    "etymology": "Blend of “slop” + “propagandist”",
     "identification": [
       {
         "key": "occasion",
@@ -12971,7 +12969,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"blue check\" + the verb \"to check\" - the mark and the act of vouching",
+    "etymology": "Blend of “blue check” + the verb “to check” - the mark and the act of vouching",
     "identification": [
       {
         "key": "effect",
@@ -13070,7 +13068,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"crisis\" + \"afterglow\"",
+    "etymology": "Blend of “crisis” + “afterglow”",
     "identification": [
       {
         "key": "effect",
@@ -13171,7 +13169,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Blend of \"indictment\" + \"bump\", the poll movement",
+    "etymology": "Blend of “indictment” + “bump”, the poll movement",
     "identification": [
       {
         "key": "effect",
@@ -13840,7 +13838,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: 'spin alley', the room behind a debate where each side declares what the audience just saw.",
+    "etymology": "English: ‘spin alley’, the room behind a debate where each side declares what the audience just saw.",
     "identification": [
       {
         "key": "carriers",
@@ -13971,7 +13969,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: from 'rally' - to gather again, and to recover.",
+    "etymology": "English: from ‘rally’ - to gather again, and to recover.",
     "identification": [
       {
         "key": "carriers",
@@ -14158,7 +14156,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"franking\", the privilege of free official mail, + \"incense\", to inflame",
+    "etymology": "Blend of “franking”, the privilege of free official mail, + “incense”, to inflame",
     "identification": [
       {
         "key": "effect",
@@ -14872,7 +14870,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "American political finance: the committee's cheque, delivered before the vote and disclosed after it.",
+    "etymology": "American political finance: the committee’s cheque, delivered before the vote and disclosed after it.",
     "identification": [
       {
         "key": "effect",
@@ -16401,7 +16399,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of \"pass off\" + \"pacifist\" - the peacemaker whose peace is the subject never coming up",
+    "etymology": "Blend of “pass off” + “pacifist” - the peacemaker whose peace is the subject never coming up",
     "identification": [
       {
         "key": "occasion",
@@ -16535,7 +16533,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"provocation\" + \"sharecropper\" - works a field of someone else's outrage and keeps a share of the crop",
+    "etymology": "Blend of “provocation” + “sharecropper” - works a field of someone else’s outrage and keeps a share of the crop",
     "identification": [
       {
         "key": "occasion",
@@ -18595,7 +18593,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 1
     },
-    "etymology": "Jared Diamond's term for change that arrives in increments too small to object to, each one accepted because the last one was.",
+    "etymology": "Jared Diamond’s term for change that arrives in increments too small to object to, each one accepted because the last one was.",
     "identification": [
       {
         "key": "family",
@@ -18837,7 +18835,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Melvin Lerner's term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
+    "etymology": "Melvin Lerner’s term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
     "identification": [
       {
         "key": "family",
@@ -22500,7 +22498,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "English: the sentence at the end of an advertisement that names who paid for it - in the United States, \"I'm a candidate and I approve this message.\"",
+    "etymology": "English: the sentence at the end of an advertisement that names who paid for it - in the United States, “I’m a candidate and I approve this message.”",
     "identification": [
       {
         "key": "effect",

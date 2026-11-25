@@ -13,7 +13,7 @@
     "The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say.",
     "It works because the test is unfalsifiable by design. Any response - silence, anger, calm, evidence - can be read as consistent with guilt, so the accusation can never be closed and never has to be proved."
   ],
-  "example": "*“He denied it, which is exactly what someone with something to hide would do.”*",
+  "example": "*\"He denied it, which is exactly what someone with something to hide would do.\"*",
   "confused_with": [
     {
       "term": "Argument from ignorance",
@@ -22,7 +22,6 @@
   ],
   "related": [
     "Poisoning the well",
-    "Argument from ignorance",
     "Thought-terminating cliché"
   ],
   "cite": {

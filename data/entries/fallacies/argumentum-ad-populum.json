@@ -4,7 +4,7 @@
   "chapter": "normalization",
   "position": 109,
   "part_of_speech": "noun",
-  "etymology": "Latin: “to the people” - the crowd is treated as the evidence, and the bandwagon as the proof.",
+  "etymology": "Latin: \"to the people\" - the crowd is treated as the evidence, and the bandwagon as the proof.",
   "family": "Informal · Red herring",
   "committed_when": "A claim is popular or unpopular and that is the strongest thing that can be said for it.",
   "tell": "The support is a headcount: everyone knows, everybody is saying, no one believes that anymore.",
@@ -13,7 +13,7 @@
     "Treating a belief as true because many people hold it, or as false because few do.",
     "It works because consensus is usually a decent heuristic and occasionally the only evidence available. The fallacy is treating a majority as a measurement."
   ],
-  "example": "*“Everyone knows the water is fine.”* Everyone knew a lot of things that turned out to be false; the water has a test result.",
+  "example": "*\"Everyone knows the water is fine.\"* Everyone knew a lot of things that turned out to be false; the water has a test result.",
   "confused_with": [
     {
       "term": "Appeal to authority",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Appeal to authority",
     "Appeal to tradition"
   ],
   "cite": {

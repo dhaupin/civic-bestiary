@@ -11,9 +11,9 @@
   "counter": "Compare like quantities: how many, how bad, how permanent, who can fix it. Equivalence collapses under one honest axis.",
   "senses": [
     "Treating two things as equally bad, or equally serious, because they share a name or a shape.",
-    "It works because a shared label feels like a shared scale. Once both acts are called “unfair”, the sentence can weigh them evenly without ever measuring them."
+    "It works because a shared label feels like a shared scale. Once both acts are called \"unfair\", the sentence can weigh them evenly without ever measuring them."
   ],
-  "example": "*“Both sides traffic in misinformation.”* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.",
+  "example": "*\"Both sides traffic in misinformation.\"* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.",
   "confused_with": [
     {
       "term": "False dilemma",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "False dilemma",
     "Argument to moderation",
     "False balance"
   ],
