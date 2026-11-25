@@ -47,8 +47,8 @@ export default function Home() {
           </h1>
           <p className="lede">
             Every argument has a cast. This is the field guide to the ones who turn up in your feed,
-            your group chat, and the holiday table - what they do, how to spot them, and what actually
-            works on them.
+            your group chat, and the comment thread under a news story - what they do, how to spot
+            them, and what actually works on them.
           </p>
           <div className="cta-row">
             <Link className="btn btn-primary" to="/guide/">

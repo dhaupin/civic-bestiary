@@ -95,7 +95,7 @@ function headingFor(view, total) {
   return {
     eyebrow: `${stats.entries} entries · ${stats.fallacies} fallacies · ${chapters.length} chapters`,
     title: 'The field guide',
-    sub: 'This is the whole drawer. Pick a kind, pick a chapter, or search for the thing you keep hearing at dinner. A species is an actor, a move is what it does, an ability belongs to an office, a habitat is the place that houses them, and a buff is the weather they run under. Every entry tells you how to recognise it and what answers it - and the fallacies are here too, filed under the chapter that commits them, with the ones every chapter uses collected in chapter V, where the character is the room.',
+    sub: 'This is the whole drawer. Pick a kind, pick a chapter, or search for the line you keep seeing in a reply box. A species is an actor, a move is what it does, an ability belongs to an office, a habitat is the room it works in, a buff is the weather it runs under, and a fallacy is the documented error it commits. Every entry says what the thing is, how to recognise it, and what answers it - and the answers have entries of their own, in chapter VI. Each character links to the fallacies it commits, and each fallacy links back to the characters who commit it, so the guide reads in both directions.',
     rows: [],
     path: '/guide/',
     description:
@@ -324,7 +324,7 @@ export default function Guide() {
             )}
             {query && (
               <button type="button" className="tag" onClick={() => setFilter(PARAM.query, null)}>
-                “{query}”<span className="tag-x" aria-hidden="true">×</span>
+                "{query}"<span className="tag-x" aria-hidden="true">×</span>
                 <span className="sr-only">Clear search</span>
               </button>
             )}
