@@ -150,11 +150,6 @@ export default function About() {
               Read the source
             </a>
           </div>
-          <p>
-            Published by <a href="https://creadev.org" target="_blank" rel="noopener">Creadev</a>. The
-            text is {site.license}-licensed and the build is reproducible from the repository: the
-            entries are JSON, the guide is generated, and the site is static.
-          </p>
         </div>
       </section>
     </>
