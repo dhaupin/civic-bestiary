@@ -304,6 +304,14 @@ appending.
   committed because it is text and `--check` can compare it exactly; the PNG is not, because
   rasterizer output is not byte-stable across platforms. Edit the data or `site.config.js` and
   rebuild - never the SVG.
+- `web/public/og/<kind>/<slug>.png` is **generated**, one card per entry, by the same script in
+  the same pass: a shared Bootcurious shows Bootcurious, not the site card. Nothing about them is
+  committed - they are derived from the records, which are the reviewed artifact - and the
+  directory is wiped and rebuilt each run so a renamed entry cannot leave a card behind at a URL
+  nothing links to. The URL carries `?v=<hash of what the card prints>`, computed in
+  `build_site.py` and emitted as `entry.og`; `web/ssr.config.js` puts it in the route's
+  `ogImage`, and `usePageMeta` keeps it in step on client-side navigation. A changed entry is
+  therefore a changed URL, and scrapers refetch instead of serving the old card.
 - **Deploy is Cloudflare Pages, built from Git.** The dashboard must hold exactly:
 
   | Setting | Value |

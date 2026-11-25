@@ -13,6 +13,7 @@ Usage:
 
 import json
 import html
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -40,6 +41,13 @@ def meta_length(text):
     return len(html.escape(text))
 
 
+# Function words that read as a mistake when a clipped sentence ends on them
+# ("...draft maps released for comment, and a...").
+DANGLING = {"a", "an", "and", "as", "at", "but", "by", "for", "from", "in",
+            "into", "is", "its", "nor", "of", "on", "or", "so", "than", "that",
+            "the", "their", "then", "to", "with", "yet"}
+
+
 def clip(text, limit):
     """Trim to a word boundary, so a meta description never ends mid-word. The
     budget is measured after escaping, since that is what the tag costs."""
@@ -47,6 +55,8 @@ def clip(text, limit):
         return text
     words = text.split()
     while words and meta_length(" ".join(words).rstrip(" ,;:-") + "...") > limit:
+        words.pop()
+    while len(words) > 1 and words[-1].strip(".,;:").lower() in DANGLING:
         words.pop()
     return " ".join(words).rstrip(" ,;:-") + "..."
 
@@ -103,6 +113,13 @@ def build(doc):
         for entry in own:
             spec = kinds[entry["kind"]]
             slug = slugify(entry["term"])
+            summary = entry_summary(entry, spec)
+            # The card's URL carries a hash of what the card prints, so an entry
+            # that changes is an entry whose image URL changes - scrapers cache
+            # by URL, and an unchanged one would keep serving the old card.
+            og_version = hashlib.sha256("|".join([
+                entry["kind"], slug, entry["term"], chapter["roman"], chapter["title"], summary,
+            ]).encode()).hexdigest()[:8]
             entries.append({
                 "term": entry["term"],
                 "slug": slug,
@@ -138,7 +155,8 @@ def build(doc):
                 ],
                 "example": unwrap_emphasis(entry["example"]),
                 "cite": entry.get("cite"),
-                "summary": entry_summary(entry, spec),
+                "summary": summary,
+                "og": f"/og/{entry['kind']}/{slug}.png?v={og_version}",
                 "definition": plain_sense(entry["senses"][0]),
                 "confusedWith": [
                     {"term": twin["term"], "slug": slugify(twin["term"]), "tell": twin["tell"]}
