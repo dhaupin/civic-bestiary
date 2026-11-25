@@ -237,19 +237,53 @@ def number_entries(doc):
     return numbered, anchors
 
 
-def render_edges(entry, anchors):
+# A relation that points at more than one kind has to say which is which: a
+# habitat's houses list mixes species, moves and fallacies, and in a flat list of
+# italic links a room reads as though it houses a reasoning error.
+HOUSE_PHRASES = {
+    "species": "Species you'll meet here",
+    "move": "Moves you'll see here",
+    "fallacy": "Fallacies at home here",
+}
+
+
+def edge_groups(targets, by_term):
+    """Split a relation's targets by kind, in the schema's kind order, so a
+    habitat always reads species, then moves, then fallacies. Empty when the
+    list is all one kind."""
+    order = list(KINDS)
+    kinds = sorted({by_term[term.lower()]["kind"] for term in targets}, key=order.index)
+    if len(kinds) < 2:
+        return []
+    return [(kind, [t for t in targets if by_term[t.lower()]["kind"] == kind]) for kind in kinds]
+
+
+def kind_heading(kind, rel):
+    if rel == "houses":
+        return HOUSE_PHRASES.get(kind, KINDS[kind]["plural"])
+    return KINDS[kind]["plural"]
+
+
+def render_edges(entry, anchors, by_term):
     """Authored edges, grouped by relation, in vocabulary order."""
     lines = []
     for rel, spec in RELATIONS.items():
         targets = [edge["to"] for edge in entry.get("edges", []) if edge.get("rel") == rel]
         if not targets:
             continue
-        links = ", ".join(f"[*{term}*](#{anchors[term.lower()]})" for term in targets)
-        lines.append(f"* **{spec['label']}:** {links}")
+        groups = edge_groups(targets, by_term)
+        if not groups:
+            links = ", ".join(f"[*{term}*](#{anchors[term.lower()]})" for term in targets)
+            lines.append(f"* **{spec['label']}:** {links}")
+            continue
+        lines.append(f"* **{spec['label']}:**")
+        for kind, members in groups:
+            links = ", ".join(f"[*{term}*](#{anchors[term.lower()]})" for term in members)
+            lines.append(f"  * *{kind_heading(kind, rel)}:* {links}")
     return lines
 
 
-def render_entry(number, entry, anchors):
+def render_entry(number, entry, anchors, by_term):
     # A reference entry has no pronunciation, so the line adapts rather than
     # printing an empty code span.
     spoken = f" `{entry['ipa']}`" if entry.get("ipa") else ""
@@ -278,7 +312,7 @@ def render_entry(number, entry, anchors):
     related = ", ".join(
         f"[*{term}*](#{anchors[term.lower()]})" for term in entry["related"] if term.lower() not in twins
     )
-    lines.extend(render_edges(entry, anchors))
+    lines.extend(render_edges(entry, anchors, by_term))
     lines.append(f"* **Related Terms:** {related}")
     if entry.get("cite"):
         lines.append(f"* **Source:** [{entry['cite']['label']}]({entry['cite']['url']})")
@@ -357,7 +391,7 @@ def render(doc):
     for chapter, pairs in numbered:
         blocks.append(("heading", [f"## {chapter['roman']}. {chapter['title']}"]))
         for number, entry in pairs:
-            blocks.append(("entry", render_entry(number, entry, anchors)))
+            blocks.append(("entry", render_entry(number, entry, anchors, doc["by_term"])))
     blocks.append(("prose", render_index(doc, anchors)))
 
     out = [BANNER, "", f"# {doc['title']}", "", doc["description"]]
