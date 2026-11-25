@@ -60,6 +60,15 @@ const termRoutes = entries.map((entry) => ({
   meta: {
     title: `${entry.term} - ${entry.partOfSpeech} | ${site.name}`,
     description: entry.summary,
+    // The object form, so prerender also reconciles the width/height/alt
+    // companions - a card declared 1200x630 but measured otherwise renders
+    // letterboxed or cropped in the big unfurl.
+    ogImage: {
+      url: `${site.url}${entry.og}`,
+      width: 1200,
+      height: 630,
+      alt: `${entry.term} - ${entry.kindLabel} - ${site.name}`,
+    },
   },
 }))
 

@@ -5,3 +5,4 @@ dist/
 # Built from public/og-image.svg by scripts/og.mjs; rasterizer output is not
 # byte-stable across platforms, so the SVG is what is reviewed and committed.
 public/og-image.png
+public/og/

@@ -17,9 +17,12 @@
  *   <meta property="og:description">
  *   <meta name="twitter:title">
  *   <meta name="twitter:description">
+ *   <meta property="og:image">, og:image:alt, twitter:image  (only when the
+ *     page passes `image`; entry pages have their own card, everything else
+ *     keeps the baked site card)
  *
  * Tags intentionally NOT updated (same on every page):
- *   og:image, og:type, og:locale, og:site_name, twitter:card, twitter:image
+ *   og:type, og:locale, og:site_name, twitter:card
  *
  * NO external dependencies -- does not import from ssr.config.js or any app file.
  * siteUrl is passed as a prop or read from VITE_SITE_URL env.
@@ -53,7 +56,7 @@ const rrd = rrdNS.default ?? rrdNS
 const { useLocation } = rrd
 
 /** Update the SPA head tags on every route change (see the module head doc). */
-export default function usePageMeta({ title, description, path, siteUrl }) {
+export default function usePageMeta({ title, description, path, siteUrl, image, imageAlt }) {
   // Trailing-slash normalization (#53): a configured base with its trailing
   // slash would join into `https://site//about` on every navigation
   const base = (siteUrl || import.meta.env?.VITE_SITE_URL || '').replace(/\/$/, '')
@@ -83,5 +86,10 @@ export default function usePageMeta({ title, description, path, siteUrl }) {
       set('meta[property="og:description"]',                    'content', description)
       set('meta[name="twitter:description"]',                   'content', description)
     }
-  }, [title, description, path, base, location])
+    if (image) {
+      set('meta[property="og:image"]',                          'content', image)
+      set('meta[name="twitter:image"]',                         'content', image)
+      set('meta[property="og:image:alt"]',                      'content', imageAlt || title || '')
+    }
+  }, [title, description, path, base, location, image, imageAlt])
 }
