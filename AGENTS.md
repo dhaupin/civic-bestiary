@@ -223,6 +223,13 @@ abused". Comment section, Cable panel, and Group chat are habitats whose `Houses
 and each fallacy page derives "Found in" from the same authored edge. That is the whole reason the relation
 is a vocabulary: extending it to a new pair of kinds is a schema edit, not a new renderer.
 
+A relation that points at more than one kind is split by kind wherever it renders - in the book and
+on the entry page - because a flat list of links cannot say which is a person, which is an action and
+which is a documented error. `houses` says "Species you'll meet here", "Moves you'll see here" and
+"Fallacies at home here"; every other mixed list falls back to the kind's plural ("Species",
+"Habitats"). The split is derived from each link's `kind`, which `build_site.py` stamps onto every
+edge and backlink, so a new pair of kinds needs no renderer change. One kind and the list stays flat.
+
 ## Linking two entries
 
 `edges` is a controlled vocabulary, not prose: `{ "rel": "houses", "to": "Patriotainer" }`.

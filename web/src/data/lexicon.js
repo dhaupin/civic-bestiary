@@ -627,19 +627,22 @@ export const entries = [
         "term": "LARPtarian",
         "slug": "larptarian",
         "tell": "Both dress the part; the playtriot buys the flag, the LARPtarian buys the surplus rifle.",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       },
       {
         "term": "Frankincense",
         "slug": "frankincense",
-        "path": "/buffs/frankincense/"
+        "path": "/buffs/frankincense/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -648,28 +651,32 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Sunk cost fallacy",
         "slug": "sunk-cost-fallacy",
-        "path": "/fallacies/sunk-cost-fallacy/"
+        "path": "/fallacies/sunk-cost-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -678,21 +685,24 @@ export const entries = [
         "label": "Found in",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The poll worker",
         "slug": "the-poll-worker",
-        "path": "/keystones/the-poll-worker/"
+        "path": "/keystones/the-poll-worker/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -767,19 +777,22 @@ export const entries = [
         "term": "Critizen",
         "slug": "critizen",
         "tell": "The freetard wants no rules; the critizen insists there already are none that apply to him.",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -788,14 +801,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
-        "path": "/fallacies/appeal-to-nature/"
+        "path": "/fallacies/appeal-to-nature/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
-        "path": "/fallacies/two-wrongs-make-a-right/"
+        "path": "/fallacies/two-wrongs-make-a-right/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -804,14 +819,16 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The translator",
         "slug": "the-translator",
-        "path": "/keystones/the-translator/"
+        "path": "/keystones/the-translator/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -881,24 +898,28 @@ export const entries = [
         "term": "Playtriot",
         "slug": "playtriot",
         "tell": "The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer.",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "term": "Freetard",
         "slug": "freetard",
-        "path": "/species/freetard/"
+        "path": "/species/freetard/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -907,28 +928,32 @@ export const entries = [
         "label": "Commits",
         "term": "No true Scotsman",
         "slug": "no-true-scotsman",
-        "path": "/fallacies/no-true-scotsman/"
+        "path": "/fallacies/no-true-scotsman/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
-        "path": "/fallacies/appeal-to-the-stone/"
+        "path": "/fallacies/appeal-to-the-stone/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -937,14 +962,16 @@ export const entries = [
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The caseworker",
         "slug": "the-caseworker",
-        "path": "/keystones/the-caseworker/"
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -1019,24 +1046,28 @@ export const entries = [
         "term": "Freetard",
         "slug": "freetard",
         "tell": "The critizen has a theory about why the rule is void; the freetard has a feeling that it should be.",
-        "path": "/species/freetard/"
+        "path": "/species/freetard/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
       },
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -1045,28 +1076,32 @@ export const entries = [
         "label": "Commits",
         "term": "Equivocation",
         "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "I'm entitled to my opinion",
         "slug": "im-entitled-to-my-opinion",
-        "path": "/fallacies/im-entitled-to-my-opinion/"
+        "path": "/fallacies/im-entitled-to-my-opinion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Just-world hypothesis",
         "slug": "just-world-hypothesis",
-        "path": "/fallacies/just-world-hypothesis/"
+        "path": "/fallacies/just-world-hypothesis/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -1075,21 +1110,24 @@ export const entries = [
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The poll worker",
         "slug": "the-poll-worker",
-        "path": "/keystones/the-poll-worker/"
+        "path": "/keystones/the-poll-worker/",
+        "kind": "keystone"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -1159,19 +1197,22 @@ export const entries = [
         "term": "Playtriot",
         "slug": "playtriot",
         "tell": "A playtriot performs the loyalty; a sabotriot votes it into your hospital's closure.",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -1180,21 +1221,24 @@ export const entries = [
         "label": "Commits",
         "term": "Slippery slope",
         "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
+        "path": "/fallacies/slippery-slope/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Sunk cost fallacy",
         "slug": "sunk-cost-fallacy",
-        "path": "/fallacies/sunk-cost-fallacy/"
+        "path": "/fallacies/sunk-cost-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to force",
         "slug": "appeal-to-force",
-        "path": "/fallacies/appeal-to-force/"
+        "path": "/fallacies/appeal-to-force/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -1203,14 +1247,16 @@ export const entries = [
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -1276,24 +1322,28 @@ export const entries = [
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
         "tell": "The ragesturbationist sells the anger; the patriotainer sells the merchandise that goes with it.",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       },
       {
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -1302,63 +1352,72 @@ export const entries = [
         "label": "Houses",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       },
       {
         "rel": "uses",
         "label": "Uses",
         "term": "Citizens United",
         "slug": "citizens-united",
-        "path": "/abilities/citizens-united/"
+        "path": "/abilities/citizens-united/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Mythstorian",
         "slug": "mythstorian",
-        "path": "/species/mythstorian/"
+        "path": "/species/mythstorian/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Circular reasoning",
         "slug": "circular-reasoning",
-        "path": "/fallacies/circular-reasoning/"
+        "path": "/fallacies/circular-reasoning/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -1367,7 +1426,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -1438,25 +1498,29 @@ export const entries = [
         "term": "Playtriot",
         "slug": "playtriot",
         "tell": "The playtriot performs for free and believes it; the patriotainer performs on contract and invoices for it.",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
         "tell": "The format is the show; the patriotainer is the person the show is built around - and the one who gets replaced when the timeslot moves.",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       },
       {
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -1465,42 +1529,48 @@ export const entries = [
         "label": "Performs",
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to ridicule",
         "slug": "appeal-to-ridicule",
-        "path": "/fallacies/appeal-to-ridicule/"
+        "path": "/fallacies/appeal-to-ridicule/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "rel": "performs",
         "label": "Performs",
         "term": "Vague promises",
         "slug": "vague-promises",
-        "path": "/moves/vague-promises/"
+        "path": "/moves/vague-promises/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -1509,28 +1579,32 @@ export const entries = [
         "label": "Found in",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Pseudo-event",
         "slug": "pseudo-event",
-        "path": "/habitats/pseudo-event/"
+        "path": "/habitats/pseudo-event/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -1593,19 +1667,22 @@ export const entries = [
         "term": "Omnibust",
         "slug": "omnibust",
         "tell": "The filibluster is performed aloud, for the clock; the omnibust is performed at 3 a.m., for the printer.",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -1614,14 +1691,16 @@ export const entries = [
         "label": "Commits",
         "term": "Ad nauseam",
         "slug": "ad-nauseam",
-        "path": "/fallacies/ad-nauseam/"
+        "path": "/fallacies/ad-nauseam/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -1630,14 +1709,16 @@ export const entries = [
         "label": "Countered by",
         "term": "Cloture",
         "slug": "cloture",
-        "path": "/abilities/cloture/"
+        "path": "/abilities/cloture/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Discharge petition",
         "slug": "discharge-petition",
-        "path": "/abilities/discharge-petition/"
+        "path": "/abilities/discharge-petition/",
+        "kind": "ability"
       }
     ],
     "committedFrom": []
@@ -1700,24 +1781,28 @@ export const entries = [
         "term": "Filibluster",
         "slug": "filibluster",
         "tell": "The filibluster wins the hour; the gerrythm wins the decade.",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "The redistricting commission",
         "slug": "the-redistricting-commission",
-        "path": "/keystones/the-redistricting-commission/"
+        "path": "/keystones/the-redistricting-commission/",
+        "kind": "keystone"
       },
       {
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -1726,14 +1811,16 @@ export const entries = [
         "label": "Commits",
         "term": "Texas sharpshooter fallacy",
         "slug": "texas-sharpshooter-fallacy",
-        "path": "/fallacies/texas-sharpshooter-fallacy/"
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -1742,7 +1829,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The redistricting commission",
         "slug": "the-redistricting-commission",
-        "path": "/keystones/the-redistricting-commission/"
+        "path": "/keystones/the-redistricting-commission/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -1805,19 +1893,22 @@ export const entries = [
         "term": "Filibluster",
         "slug": "filibluster",
         "tell": "The filibluster stops a bill by talking; the omnibust passes one by making sure nobody can.",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Gerrythm",
         "slug": "gerrythm",
-        "path": "/abilities/gerrythm/"
+        "path": "/abilities/gerrythm/",
+        "kind": "ability"
       },
       {
         "term": "Oil diplomacy",
         "slug": "oil-diplomacy",
-        "path": "/abilities/oil-diplomacy/"
+        "path": "/abilities/oil-diplomacy/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -1826,14 +1917,16 @@ export const entries = [
         "label": "Commits",
         "term": "False dilemma",
         "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -1842,7 +1935,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -1905,19 +1999,22 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "tell": "The honeymoan is grace after a win; the crisisglow is authority during a panic. One is granted by the calendar, the other by the alarm.",
-        "path": "/buffs/crisisglow/"
+        "path": "/buffs/crisisglow/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -1926,14 +2023,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to novelty",
         "slug": "appeal-to-novelty",
-        "path": "/fallacies/appeal-to-novelty/"
+        "path": "/fallacies/appeal-to-novelty/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [],
@@ -1997,24 +2096,28 @@ export const entries = [
         "term": "Filibluster",
         "slug": "filibluster",
         "tell": "The filibluster stops a bill by refusing to sit down; the pocketveto stops one by standing up and leaving.",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       },
       {
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       },
       {
         "term": "Recessure",
         "slug": "recessure",
-        "path": "/abilities/recessure/"
+        "path": "/abilities/recessure/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -2023,7 +2126,8 @@ export const entries = [
         "label": "Commits",
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -2032,7 +2136,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -2095,24 +2200,28 @@ export const entries = [
         "term": "Subpoenado",
         "slug": "subpoenado",
         "tell": "The subpoenado is a hearing staged for cameras; the nightdocket is a ruling staged for nobody.",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Blueslip",
         "slug": "blueslip",
-        "path": "/abilities/blueslip/"
+        "path": "/abilities/blueslip/",
+        "kind": "ability"
       },
       {
         "term": "The stay",
         "slug": "the-stay",
-        "path": "/remedies/the-stay/"
+        "path": "/remedies/the-stay/",
+        "kind": "remedy"
       },
       {
         "term": "Secret meeting",
         "slug": "secret-meeting",
-        "path": "/habitats/secret-meeting/"
+        "path": "/habitats/secret-meeting/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -2121,14 +2230,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -2137,7 +2248,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The stay",
         "slug": "the-stay",
-        "path": "/remedies/the-stay/"
+        "path": "/remedies/the-stay/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -2200,24 +2312,28 @@ export const entries = [
         "term": "Honeymoan",
         "slug": "honeymoan",
         "tell": "The honeymoan is grace granted to the winner; the coattails are the margin the winner lends to everyone standing behind them.",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Convention bounce",
         "slug": "convention-bounce",
-        "path": "/buffs/convention-bounce/"
+        "path": "/buffs/convention-bounce/",
+        "kind": "buff"
       },
       {
         "term": "Lame duck",
         "slug": "lame-duck",
-        "path": "/buffs/lame-duck/"
+        "path": "/buffs/lame-duck/",
+        "kind": "buff"
       },
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -2226,7 +2342,8 @@ export const entries = [
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [],
@@ -2290,24 +2407,28 @@ export const entries = [
         "term": "Honeymoan",
         "slug": "honeymoan",
         "tell": "The bounce is measured in polls and the honeymoan is spent in arguments; both expire on a calendar nobody printed.",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Coattails",
         "slug": "coattails",
-        "path": "/buffs/coattails/"
+        "path": "/buffs/coattails/",
+        "kind": "buff"
       },
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -2316,7 +2437,8 @@ export const entries = [
         "label": "Commits",
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -2325,7 +2447,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The statistician",
         "slug": "the-statistician",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -2388,24 +2511,28 @@ export const entries = [
         "term": "Filibluster",
         "slug": "filibluster",
         "tell": "The filibluster spends the clock to stop a vote; cloture spends the clock to force one. Same clock, opposite buyer.",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Discharge petition",
         "slug": "discharge-petition",
-        "path": "/abilities/discharge-petition/"
+        "path": "/abilities/discharge-petition/",
+        "kind": "ability"
       },
       {
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       },
       {
         "term": "Pocketveto",
         "slug": "pocketveto",
-        "path": "/abilities/pocketveto/"
+        "path": "/abilities/pocketveto/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -2414,14 +2541,16 @@ export const entries = [
         "label": "Counters",
         "term": "Gallopologist",
         "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Filibluster",
         "slug": "filibluster",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       }
     ],
     "backlinks": [
@@ -2430,7 +2559,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -2493,19 +2623,22 @@ export const entries = [
         "term": "Cloture",
         "slug": "cloture",
         "tell": "Cloture ends a debate in the chamber that is having it; a discharge petition takes the bill away from the chamber that is not.",
-        "path": "/abilities/cloture/"
+        "path": "/abilities/cloture/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Filibluster",
         "slug": "filibluster",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       },
       {
         "term": "Subpoenado",
         "slug": "subpoenado",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -2514,14 +2647,16 @@ export const entries = [
         "label": "Counters",
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Filibluster",
         "slug": "filibluster",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       }
     ],
     "backlinks": [
@@ -2530,7 +2665,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -2590,19 +2726,22 @@ export const entries = [
         "term": "Vaguebooking",
         "slug": "vaguebooking",
         "tell": "Vaguebooking withholds the subject; vague promises withhold the terms.",
-        "path": "/moves/vaguebooking/"
+        "path": "/moves/vaguebooking/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Honeymoan",
         "slug": "honeymoan",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       },
       {
         "term": "Convention bounce",
         "slug": "convention-bounce",
-        "path": "/buffs/convention-bounce/"
+        "path": "/buffs/convention-bounce/",
+        "kind": "buff"
       }
     ],
     "edges": [],
@@ -2612,21 +2751,24 @@ export const entries = [
         "label": "Performed by",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -2689,24 +2831,28 @@ export const entries = [
         "term": "Access",
         "slug": "access",
         "tell": "Access buys the meeting; Citizens United buys the megaphone, and the megaphone reaches the people the meeting was about.",
-        "path": "/buffs/access/"
+        "path": "/buffs/access/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Lobbyism",
         "slug": "lobbyism",
-        "path": "/abilities/lobbyism/"
+        "path": "/abilities/lobbyism/",
+        "kind": "ability"
       },
       {
         "term": "PAC check",
         "slug": "pac-check",
-        "path": "/buffs/pac-check/"
+        "path": "/buffs/pac-check/",
+        "kind": "buff"
       },
       {
         "term": "The sponsor line",
         "slug": "the-sponsor-line",
-        "path": "/remedies/the-sponsor-line/"
+        "path": "/remedies/the-sponsor-line/",
+        "kind": "remedy"
       }
     ],
     "edges": [],
@@ -2716,14 +2862,16 @@ export const entries = [
         "label": "Used by",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The sponsor line",
         "slug": "the-sponsor-line",
-        "path": "/remedies/the-sponsor-line/"
+        "path": "/remedies/the-sponsor-line/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -2792,19 +2940,22 @@ export const entries = [
         "term": "False dilemma",
         "slug": "false-dilemma",
         "tell": "The slope hides a chain of steps; the dilemma hides the options that are not steps.",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/",
+        "kind": "fallacy"
       },
       {
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
-        "path": "/fallacies/nirvana-fallacy/"
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -2814,21 +2965,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -2908,19 +3062,22 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "tell": "The straw man weakens the opponent's claim; the Scotsman strengthens the speaker's, by shrinking the group until the counterexample is expelled.",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
+        "path": "/fallacies/moving-the-goalposts/",
+        "kind": "fallacy"
       },
       {
         "term": "Nut-picking",
         "slug": "nut-picking",
-        "path": "/fallacies/nut-picking/"
+        "path": "/fallacies/nut-picking/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -2930,21 +3087,24 @@ export const entries = [
         "label": "Committed by",
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -3024,24 +3184,28 @@ export const entries = [
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
         "tell": "Tradition says it is old, nature says it is natural; both replace a reason with a pedigree.",
-        "path": "/fallacies/appeal-to-nature/"
+        "path": "/fallacies/appeal-to-nature/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "term": "Sunk cost fallacy",
         "slug": "sunk-cost-fallacy",
-        "path": "/fallacies/sunk-cost-fallacy/"
+        "path": "/fallacies/sunk-cost-fallacy/",
+        "kind": "fallacy"
       },
       {
         "term": "Appeal to novelty",
         "slug": "appeal-to-novelty",
-        "path": "/fallacies/appeal-to-novelty/"
+        "path": "/fallacies/appeal-to-novelty/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -3051,42 +3215,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Blueslip",
         "slug": "blueslip",
-        "path": "/abilities/blueslip/"
+        "path": "/abilities/blueslip/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Precedentarian",
         "slug": "precedentarian",
-        "path": "/species/precedentarian/"
+        "path": "/species/precedentarian/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Grandfather clause",
         "slug": "grandfather-clause",
-        "path": "/abilities/grandfather-clause/"
+        "path": "/abilities/grandfather-clause/",
+        "kind": "ability"
       }
     ],
     "committedFrom": [
@@ -3171,19 +3341,22 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "tell": "Tradition cites age, nature cites origin; both answer a question about value with a question about ancestry.",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       },
       {
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -3193,21 +3366,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Freetard",
         "slug": "freetard",
-        "path": "/species/freetard/"
+        "path": "/species/freetard/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Mythstorian",
         "slug": "mythstorian",
-        "path": "/species/mythstorian/"
+        "path": "/species/mythstorian/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -3287,19 +3463,22 @@ export const entries = [
         "term": "Circular reasoning",
         "slug": "circular-reasoning",
         "tell": "The assertion adds no support and repeats itself; the circle adds a step and returns to the start.",
-        "path": "/fallacies/circular-reasoning/"
+        "path": "/fallacies/circular-reasoning/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "term": "I'm entitled to my opinion",
         "slug": "im-entitled-to-my-opinion",
-        "path": "/fallacies/im-entitled-to-my-opinion/"
+        "path": "/fallacies/im-entitled-to-my-opinion/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -3309,42 +3488,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bluecheck",
         "slug": "bluecheck",
-        "path": "/buffs/bluecheck/"
+        "path": "/buffs/bluecheck/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Pseudo-event",
         "slug": "pseudo-event",
-        "path": "/habitats/pseudo-event/"
+        "path": "/habitats/pseudo-event/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -3424,19 +3609,22 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "tell": "Tradition binds the future to the distant past; sunk cost binds it to expenses still inside the fiscal year.",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/",
+        "kind": "fallacy"
       },
       {
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -3446,21 +3634,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -3535,19 +3726,22 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "tell": "The assertion defends the claim; the entitlement defends the person holding it.",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Equivocation",
         "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       },
       {
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -3557,21 +3751,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -3652,19 +3849,22 @@ export const entries = [
         "term": "Illogician",
         "slug": "illogician",
         "tell": "The sophistroll knows the fallacy is a fallacy; the illogician believes it.",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       },
       {
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -3673,70 +3873,80 @@ export const entries = [
         "label": "Commits",
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Ad hominem",
         "slug": "ad-hominem",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Tu quoque",
         "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Whataboutism",
         "slug": "whataboutism",
-        "path": "/fallacies/whataboutism/"
+        "path": "/fallacies/whataboutism/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Sealioning",
         "slug": "sealioning",
-        "path": "/fallacies/sealioning/"
+        "path": "/fallacies/sealioning/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "The fallacy fallacy",
         "slug": "the-fallacy-fallacy",
-        "path": "/fallacies/the-fallacy-fallacy/"
+        "path": "/fallacies/the-fallacy-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Creeping normality",
         "slug": "creeping-normality",
-        "path": "/fallacies/creeping-normality/"
+        "path": "/fallacies/creeping-normality/",
+        "kind": "fallacy"
       },
       {
         "rel": "performs",
         "label": "Performs",
         "term": "Good cop, bad cop",
         "slug": "good-cop-bad-cop",
-        "path": "/moves/good-cop-bad-cop/"
+        "path": "/moves/good-cop-bad-cop/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -3745,14 +3955,16 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The moderator",
         "slug": "the-moderator",
-        "path": "/keystones/the-moderator/"
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -3822,19 +4034,22 @@ export const entries = [
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "tell": "Both skip the evidence; the illogician has a method, the brofessor has a mood.",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -3843,35 +4058,40 @@ export const entries = [
         "label": "Commits",
         "term": "Circular reasoning",
         "slug": "circular-reasoning",
-        "path": "/fallacies/circular-reasoning/"
+        "path": "/fallacies/circular-reasoning/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "False dilemma",
         "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to ridicule",
         "slug": "appeal-to-ridicule",
-        "path": "/fallacies/appeal-to-ridicule/"
+        "path": "/fallacies/appeal-to-ridicule/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
-        "path": "/fallacies/appeal-to-the-stone/"
+        "path": "/fallacies/appeal-to-the-stone/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "The fallacy fallacy",
         "slug": "the-fallacy-fallacy",
-        "path": "/fallacies/the-fallacy-fallacy/"
+        "path": "/fallacies/the-fallacy-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -3880,14 +4100,16 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The librarian",
         "slug": "the-librarian",
-        "path": "/keystones/the-librarian/"
+        "path": "/keystones/the-librarian/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -3950,19 +4172,22 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "tell": "The sophistroll argues badly; the JAQer never argues at all, only asks.",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -3971,21 +4196,24 @@ export const entries = [
         "label": "Commits",
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Sealioning",
         "slug": "sealioning",
-        "path": "/fallacies/sealioning/"
+        "path": "/fallacies/sealioning/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -3994,21 +4222,24 @@ export const entries = [
         "label": "Performed by",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Cross-examination",
         "slug": "cross-examination",
-        "path": "/remedies/cross-examination/"
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -4078,19 +4309,22 @@ export const entries = [
         "term": "Biasographer",
         "slug": "biasographer",
         "tell": "The brofessor names no authority; the biasographer names every authority and discredits each.",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "term": "The translator",
         "slug": "the-translator",
-        "path": "/keystones/the-translator/"
+        "path": "/keystones/the-translator/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -4099,21 +4333,24 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -4122,14 +4359,16 @@ export const entries = [
         "label": "Found in",
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
-        "path": "/habitats/good-ol-boys-club/"
+        "path": "/habitats/good-ol-boys-club/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The translator",
         "slug": "the-translator",
-        "path": "/keystones/the-translator/"
+        "path": "/keystones/the-translator/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -4199,19 +4438,22 @@ export const entries = [
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
         "tell": "The brofessor has no sources; the biasographer has a bibliography he has not read.",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "term": "Mythstorian",
         "slug": "mythstorian",
-        "path": "/species/mythstorian/"
+        "path": "/species/mythstorian/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -4220,42 +4462,48 @@ export const entries = [
         "label": "Commits",
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Texas sharpshooter fallacy",
         "slug": "texas-sharpshooter-fallacy",
-        "path": "/fallacies/texas-sharpshooter-fallacy/"
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Nut-picking",
         "slug": "nut-picking",
-        "path": "/fallacies/nut-picking/"
+        "path": "/fallacies/nut-picking/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "False attribution",
         "slug": "false-attribution",
-        "path": "/fallacies/false-attribution/"
+        "path": "/fallacies/false-attribution/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Association fallacy",
         "slug": "association-fallacy",
-        "path": "/fallacies/association-fallacy/"
+        "path": "/fallacies/association-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Bulverism",
         "slug": "bulverism",
-        "path": "/fallacies/bulverism/"
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -4264,14 +4512,16 @@ export const entries = [
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The steelman",
         "slug": "the-steelman",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -4341,19 +4591,22 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "tell": "The bleatkeeper rejects the report; the algodemic rejects the method behind it, at greater length.",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -4362,28 +4615,32 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Circular reasoning",
         "slug": "circular-reasoning",
-        "path": "/fallacies/circular-reasoning/"
+        "path": "/fallacies/circular-reasoning/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
+        "path": "/fallacies/moving-the-goalposts/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -4392,14 +4649,16 @@ export const entries = [
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -4469,24 +4728,28 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "tell": "The equivangelist weighs both sides; the capitulectual gives one away before weighing.",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -4495,14 +4758,16 @@ export const entries = [
         "label": "Commits",
         "term": "Equivocation",
         "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -4511,14 +4776,16 @@ export const entries = [
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The steelman",
         "slug": "the-steelman",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -4588,19 +4855,22 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "tell": "The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast.",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "The juror",
         "slug": "the-juror",
-        "path": "/keystones/the-juror/"
+        "path": "/keystones/the-juror/",
+        "kind": "keystone"
       },
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -4609,21 +4879,24 @@ export const entries = [
         "label": "Commits",
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
-        "path": "/fallacies/anecdotal-evidence/"
+        "path": "/fallacies/anecdotal-evidence/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Nut-picking",
         "slug": "nut-picking",
-        "path": "/fallacies/nut-picking/"
+        "path": "/fallacies/nut-picking/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -4632,21 +4905,24 @@ export const entries = [
         "label": "Countered by",
         "term": "Cloture",
         "slug": "cloture",
-        "path": "/abilities/cloture/"
+        "path": "/abilities/cloture/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The juror",
         "slug": "the-juror",
-        "path": "/keystones/the-juror/"
+        "path": "/keystones/the-juror/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -4716,19 +4992,22 @@ export const entries = [
         "term": "Equivangelist",
         "slug": "equivangelist",
         "tell": "The equivangelist calls it balance; the decorumancer calls it procedure.",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -4737,21 +5016,24 @@ export const entries = [
         "label": "Commits",
         "term": "Tone policing",
         "slug": "tone-policing",
-        "path": "/fallacies/tone-policing/"
+        "path": "/fallacies/tone-policing/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Ad hominem",
         "slug": "ad-hominem",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "I'm entitled to my opinion",
         "slug": "im-entitled-to-my-opinion",
-        "path": "/fallacies/im-entitled-to-my-opinion/"
+        "path": "/fallacies/im-entitled-to-my-opinion/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -4760,14 +5042,16 @@ export const entries = [
         "label": "Countered by",
         "term": "Discharge petition",
         "slug": "discharge-petition",
-        "path": "/abilities/discharge-petition/"
+        "path": "/abilities/discharge-petition/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": []
@@ -4833,24 +5117,28 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "tell": "The panel is paced and produced; the comment section is feral and asynchronous. Both are venues for the verdict.",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "term": "The ombudsman",
         "slug": "the-ombudsman",
-        "path": "/keystones/the-ombudsman/"
+        "path": "/keystones/the-ombudsman/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -4859,133 +5147,152 @@ export const entries = [
         "label": "Houses",
         "term": "Ad hominem",
         "slug": "ad-hominem",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Tu quoque",
         "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Whataboutism",
         "slug": "whataboutism",
-        "path": "/fallacies/whataboutism/"
+        "path": "/fallacies/whataboutism/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Sealioning",
         "slug": "sealioning",
-        "path": "/fallacies/sealioning/"
+        "path": "/fallacies/sealioning/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Nut-picking",
         "slug": "nut-picking",
-        "path": "/fallacies/nut-picking/"
+        "path": "/fallacies/nut-picking/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
-        "path": "/fallacies/appeal-to-the-stone/"
+        "path": "/fallacies/appeal-to-the-stone/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Vaguebooking",
         "slug": "vaguebooking",
-        "path": "/moves/vaguebooking/"
+        "path": "/moves/vaguebooking/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Receiptbomb",
         "slug": "receiptbomb",
-        "path": "/moves/receiptbomb/"
+        "path": "/moves/receiptbomb/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Motte hop",
         "slug": "motte-hop",
-        "path": "/moves/motte-hop/"
+        "path": "/moves/motte-hop/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Kafka trap",
         "slug": "kafka-trap",
-        "path": "/fallacies/kafka-trap/"
+        "path": "/fallacies/kafka-trap/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Freetard",
         "slug": "freetard",
-        "path": "/species/freetard/"
+        "path": "/species/freetard/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Illogician",
         "slug": "illogician",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
-        "path": "/fallacies/appeal-to-motive/"
+        "path": "/fallacies/appeal-to-motive/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Bulverism",
         "slug": "bulverism",
-        "path": "/fallacies/bulverism/"
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "I'm entitled to my opinion",
         "slug": "im-entitled-to-my-opinion",
-        "path": "/fallacies/im-entitled-to-my-opinion/"
+        "path": "/fallacies/im-entitled-to-my-opinion/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "No true Scotsman",
         "slug": "no-true-scotsman",
-        "path": "/fallacies/no-true-scotsman/"
+        "path": "/fallacies/no-true-scotsman/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Tone policing",
         "slug": "tone-policing",
-        "path": "/fallacies/tone-policing/"
+        "path": "/fallacies/tone-policing/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
-        "path": "/fallacies/two-wrongs-make-a-right/"
+        "path": "/fallacies/two-wrongs-make-a-right/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -4994,7 +5301,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The ombudsman",
         "slug": "the-ombudsman",
-        "path": "/keystones/the-ombudsman/"
+        "path": "/keystones/the-ombudsman/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -5057,19 +5365,22 @@ export const entries = [
         "term": "Equivangelist",
         "slug": "equivangelist",
         "tell": "The equivangelist preaches the symmetry as a virtue; the bothsideser performs it as a booking decision.",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       },
       {
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -5078,14 +5389,16 @@ export const entries = [
         "label": "Commits",
         "term": "False balance",
         "slug": "false-balance",
-        "path": "/fallacies/false-balance/"
+        "path": "/fallacies/false-balance/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
+        "path": "/fallacies/argument-to-moderation/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5094,28 +5407,32 @@ export const entries = [
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The moderator",
         "slug": "the-moderator",
-        "path": "/keystones/the-moderator/"
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -5178,19 +5495,22 @@ export const entries = [
         "term": "JAQing Off",
         "slug": "jaqing-off",
         "tell": "The JAQer hides a claim inside a question; the vaguebooker hides one inside a mood.",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -5199,14 +5519,16 @@ export const entries = [
         "label": "Commits",
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5215,14 +5537,16 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -5282,19 +5606,22 @@ export const entries = [
         "term": "Gallopologist",
         "slug": "gallopologist",
         "tell": "The gallopologist invents the claims; the receiptbomber buries real ones. Both win on volume.",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -5303,14 +5630,16 @@ export const entries = [
         "label": "Commits",
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5319,14 +5648,16 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -5389,24 +5720,28 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "tell": "The slopagandist drowns the zone in volume; the dead cat changes the subject with one loud object.",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Trial balloon",
         "slug": "trial-balloon",
-        "path": "/moves/trial-balloon/"
+        "path": "/moves/trial-balloon/",
+        "kind": "move"
       },
       {
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -5415,7 +5750,8 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5424,14 +5760,16 @@ export const entries = [
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -5494,24 +5832,28 @@ export const entries = [
         "term": "Dead cat",
         "slug": "dead-cat",
         "tell": "The dead cat replaces the story in front of you; the trial balloon tests the story you are about to be given.",
-        "path": "/moves/dead-cat/"
+        "path": "/moves/dead-cat/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Friday news dump",
         "slug": "friday-news-dump",
-        "path": "/moves/friday-news-dump/"
+        "path": "/moves/friday-news-dump/",
+        "kind": "move"
       },
       {
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "term": "Soft launch",
         "slug": "soft-launch",
-        "path": "/moves/soft-launch/"
+        "path": "/moves/soft-launch/",
+        "kind": "move"
       }
     ],
     "edges": [
@@ -5520,7 +5862,8 @@ export const entries = [
         "label": "Commits",
         "term": "Equivocation",
         "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5529,14 +5872,16 @@ export const entries = [
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -5604,24 +5949,28 @@ export const entries = [
         "term": "Nonpology",
         "slug": "nonpology",
         "tell": "The nonpology buries the harm in the wording; the dump buries it in the timing.",
-        "path": "/moves/nonpology/"
+        "path": "/moves/nonpology/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Trial balloon",
         "slug": "trial-balloon",
-        "path": "/moves/trial-balloon/"
+        "path": "/moves/trial-balloon/",
+        "kind": "move"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -5630,7 +5979,8 @@ export const entries = [
         "label": "Commits",
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5639,14 +5989,16 @@ export const entries = [
         "label": "Found in",
         "term": "Secret meeting",
         "slug": "secret-meeting",
-        "path": "/habitats/secret-meeting/"
+        "path": "/habitats/secret-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -5709,24 +6061,28 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "tell": "The rally is a crowd that showed up; astroturfing is a crowd that was ordered.",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -5735,7 +6091,8 @@ export const entries = [
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5744,14 +6101,16 @@ export const entries = [
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Lateral reading",
         "slug": "lateral-reading",
-        "path": "/remedies/lateral-reading/"
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -5814,24 +6173,28 @@ export const entries = [
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
         "tell": "The fallacy is the structure; the hop is the performance. One is named in the literature, the other is what you watch happen in a thread.",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       },
       {
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
+        "path": "/fallacies/moving-the-goalposts/",
+        "kind": "fallacy"
       }
     ],
     "edges": [
@@ -5840,14 +6203,16 @@ export const entries = [
         "label": "Commits",
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Equivocation",
         "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5856,14 +6221,16 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -5926,24 +6293,28 @@ export const entries = [
         "term": "Decorumancer",
         "slug": "decorumancer",
         "tell": "The decorumancer silences with the rule; the heckler's veto silences with the noise the rule cannot stop.",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -5952,14 +6323,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to force",
         "slug": "appeal-to-force",
-        "path": "/fallacies/appeal-to-force/"
+        "path": "/fallacies/appeal-to-force/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -5968,14 +6341,16 @@ export const entries = [
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The moderator",
         "slug": "the-moderator",
-        "path": "/keystones/the-moderator/"
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -6038,24 +6413,28 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "tell": "The slopagandist fills the feed with volume for money; flooding the zone fills it with volume for cover.",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Dead cat",
         "slug": "dead-cat",
-        "path": "/moves/dead-cat/"
+        "path": "/moves/dead-cat/",
+        "kind": "move"
       },
       {
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -6064,14 +6443,16 @@ export const entries = [
         "label": "Commits",
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -6080,14 +6461,16 @@ export const entries = [
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -6150,19 +6533,22 @@ export const entries = [
         "term": "Bothsidesing",
         "slug": "bothsidesing",
         "tell": "Bothsidesing presents two positions as equally valid; good cop, bad cop presents two positions as a range, and both of them are the same position.",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       }
     ],
     "edges": [
@@ -6171,7 +6557,8 @@ export const entries = [
         "label": "Commits",
         "term": "False dilemma",
         "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -6180,21 +6567,24 @@ export const entries = [
         "label": "Performed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Secret meeting",
         "slug": "secret-meeting",
-        "path": "/habitats/secret-meeting/"
+        "path": "/habitats/secret-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Cross-examination",
         "slug": "cross-examination",
-        "path": "/remedies/cross-examination/"
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -6263,24 +6653,28 @@ export const entries = [
         "term": "Tone policing",
         "slug": "tone-policing",
         "tell": "Ad hominem attacks the person's record or character; tone policing attacks the manner of the delivery.",
-        "path": "/fallacies/tone-policing/"
+        "path": "/fallacies/tone-policing/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "term": "Association fallacy",
         "slug": "association-fallacy",
-        "path": "/fallacies/association-fallacy/"
+        "path": "/fallacies/association-fallacy/",
+        "kind": "fallacy"
       },
       {
         "term": "Bulverism",
         "slug": "bulverism",
-        "path": "/fallacies/bulverism/"
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -6290,21 +6684,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -6379,29 +6776,34 @@ export const entries = [
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
         "tell": "The straw man misstates a position you reject; the motte retreats to a modest claim you never disputed.",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "term": "False dilemma",
         "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       },
       {
         "term": "The fallacy fallacy",
         "slug": "the-fallacy-fallacy",
-        "path": "/fallacies/the-fallacy-fallacy/"
+        "path": "/fallacies/the-fallacy-fallacy/",
+        "kind": "fallacy"
       },
       {
         "term": "False attribution",
         "slug": "false-attribution",
-        "path": "/fallacies/false-attribution/"
+        "path": "/fallacies/false-attribution/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -6411,28 +6813,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -6512,19 +6918,22 @@ export const entries = [
         "term": "Circular reasoning",
         "slug": "circular-reasoning",
         "tell": "Authority outsources the premises to a person; the circle outsources them to the conclusion itself.",
-        "path": "/fallacies/circular-reasoning/"
+        "path": "/fallacies/circular-reasoning/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       },
       {
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -6534,70 +6943,80 @@ export const entries = [
         "label": "Committed by",
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Cronycle",
         "slug": "cronycle",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bluecheck",
         "slug": "bluecheck",
-        "path": "/buffs/bluecheck/"
+        "path": "/buffs/bluecheck/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Frankincense",
         "slug": "frankincense",
-        "path": "/buffs/frankincense/"
+        "path": "/buffs/frankincense/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Access",
         "slug": "access",
-        "path": "/buffs/access/"
+        "path": "/buffs/access/",
+        "kind": "buff"
       }
     ],
     "committedFrom": [
@@ -6687,19 +7106,22 @@ export const entries = [
         "term": "False equivalence",
         "slug": "false-equivalence",
         "tell": "The dilemma collapses the field to two; equivalence claims those two weigh the same.",
-        "path": "/fallacies/false-equivalence/"
+        "path": "/fallacies/false-equivalence/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
+        "path": "/fallacies/argument-to-moderation/",
+        "kind": "fallacy"
       },
       {
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
-        "path": "/fallacies/nirvana-fallacy/"
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -6709,35 +7131,40 @@ export const entries = [
         "label": "Committed by",
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Illogician",
         "slug": "illogician",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Good cop, bad cop",
         "slug": "good-cop-bad-cop",
-        "path": "/moves/good-cop-bad-cop/"
+        "path": "/moves/good-cop-bad-cop/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Crisisglow",
         "slug": "crisisglow",
-        "path": "/buffs/crisisglow/"
+        "path": "/buffs/crisisglow/",
+        "kind": "buff"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -6822,19 +7249,22 @@ export const entries = [
         "term": "Circular reasoning",
         "slug": "circular-reasoning",
         "tell": "Both smuggle the conclusion in; the loaded question does it through what it asks.",
-        "path": "/fallacies/circular-reasoning/"
+        "path": "/fallacies/circular-reasoning/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -6844,21 +7274,24 @@ export const entries = [
         "label": "Committed by",
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Push poll",
         "slug": "push-poll",
-        "path": "/moves/push-poll/"
+        "path": "/moves/push-poll/",
+        "kind": "move"
       }
     ],
     "committedFrom": [
@@ -6938,19 +7371,22 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "tell": "The circle restates itself; the appeal to authority borrows a person to stand where the premise should be.",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -6960,21 +7396,24 @@ export const entries = [
         "label": "Found in",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Illogician",
         "slug": "illogician",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -7049,24 +7488,28 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "tell": "Both outsource the support; ignorance to a gap, authority to a person.",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "term": "Kafka trap",
         "slug": "kafka-trap",
-        "path": "/fallacies/kafka-trap/"
+        "path": "/fallacies/kafka-trap/",
+        "kind": "fallacy"
       },
       {
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7076,35 +7519,40 @@ export const entries = [
         "label": "Committed by",
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Subpoenado",
         "slug": "subpoenado",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -7189,19 +7637,22 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "tell": "Tone policing attacks how the speaker spoke; ad hominem attacks who the speaker is.",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "term": "Whataboutism",
         "slug": "whataboutism",
-        "path": "/fallacies/whataboutism/"
+        "path": "/fallacies/whataboutism/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7211,21 +7662,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Nonpology",
         "slug": "nonpology",
-        "path": "/moves/nonpology/"
+        "path": "/moves/nonpology/",
+        "kind": "move"
       }
     ],
     "committedFrom": [
@@ -7305,19 +7759,22 @@ export const entries = [
         "term": "Equivocation",
         "slug": "equivocation",
         "tell": "The motte switches between two claims; equivocation switches between two meanings of one word.",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
+        "path": "/fallacies/moving-the-goalposts/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7327,21 +7784,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Motte hop",
         "slug": "motte-hop",
-        "path": "/moves/motte-hop/"
+        "path": "/moves/motte-hop/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -7416,19 +7876,22 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "tell": "The sharpshooter keeps all the data and moves the target; the cherry picker keeps the target and drops the data.",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/",
+        "kind": "fallacy"
       },
       {
         "term": "McNamara fallacy",
         "slug": "mcnamara-fallacy",
-        "path": "/fallacies/mcnamara-fallacy/"
+        "path": "/fallacies/mcnamara-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7438,28 +7901,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Gerrythm",
         "slug": "gerrythm",
-        "path": "/abilities/gerrythm/"
+        "path": "/abilities/gerrythm/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Judge shopping",
         "slug": "judge-shopping",
-        "path": "/abilities/judge-shopping/"
+        "path": "/abilities/judge-shopping/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -7544,19 +8011,22 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "tell": "Poisoning the well attacks in advance and by implication; ad hominem answers something that was actually said.",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
-        "path": "/fallacies/appeal-to-motive/"
+        "path": "/fallacies/appeal-to-motive/",
+        "kind": "fallacy"
       },
       {
         "term": "Tu quoque",
         "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7566,42 +8036,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Vaguebooking",
         "slug": "vaguebooking",
-        "path": "/moves/vaguebooking/"
+        "path": "/moves/vaguebooking/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Indictbump",
         "slug": "indictbump",
-        "path": "/buffs/indictbump/"
+        "path": "/buffs/indictbump/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Push poll",
         "slug": "push-poll",
-        "path": "/moves/push-poll/"
+        "path": "/moves/push-poll/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Perp walk",
         "slug": "perp-walk",
-        "path": "/habitats/perp-walk/"
+        "path": "/habitats/perp-walk/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -7681,19 +8157,22 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "tell": "Nut-picking is cherry picking where the cherries are people, chosen for being the worst available.",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       },
       {
         "term": "Texas sharpshooter fallacy",
         "slug": "texas-sharpshooter-fallacy",
-        "path": "/fallacies/texas-sharpshooter-fallacy/"
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7703,21 +8182,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Gallopologist",
         "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -7792,19 +8274,22 @@ export const entries = [
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
         "tell": "The shift hands over the burden once; sealioning hands it over indefinitely, one request at a time.",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7814,21 +8299,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -7903,19 +8391,22 @@ export const entries = [
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
         "tell": "The argument from ignorance says the claim has not been proved; the Kafka trap says the denial proves it.",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       },
       {
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -7925,21 +8416,24 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -8014,19 +8508,22 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "tell": "Ad hominem attacks the arguer; Bulverism explains the arguer and treats the explanation as the refutation.",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
-        "path": "/fallacies/appeal-to-motive/"
+        "path": "/fallacies/appeal-to-motive/",
+        "kind": "fallacy"
       },
       {
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -8036,21 +8533,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -8130,19 +8630,22 @@ export const entries = [
         "term": "False dilemma",
         "slug": "false-dilemma",
         "tell": "The false dilemma offers two options and hides a third; the Nirvana fallacy offers two and makes one of them perfect.",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
-        "path": "/fallacies/appeal-to-the-stone/"
+        "path": "/fallacies/appeal-to-the-stone/",
+        "kind": "fallacy"
       },
       {
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
+        "path": "/fallacies/argument-to-moderation/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -8152,21 +8655,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -8246,19 +8752,22 @@ export const entries = [
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
         "tell": "Anecdotal evidence argues from one case; the base rate fallacy argues from one case while a rate sits unread beside it.",
-        "path": "/fallacies/anecdotal-evidence/"
+        "path": "/fallacies/anecdotal-evidence/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       },
       {
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -8268,21 +8777,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -8357,19 +8869,22 @@ export const entries = [
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
         "tell": "Appeal to fear sells a threat to the audience; the appeal to force applies a threat to the person in the room.",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Heckler's veto",
         "slug": "hecklers-veto",
-        "path": "/moves/hecklers-veto/"
+        "path": "/moves/hecklers-veto/",
+        "kind": "move"
       },
       {
         "term": "Appeal to consequences",
         "slug": "appeal-to-consequences",
-        "path": "/fallacies/appeal-to-consequences/"
+        "path": "/fallacies/appeal-to-consequences/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -8379,21 +8894,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Heckler's veto",
         "slug": "hecklers-veto",
-        "path": "/moves/hecklers-veto/"
+        "path": "/moves/hecklers-veto/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -8473,19 +8991,22 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "tell": "The straw man misrepresents the argument; the fallacy fallacy accepts the argument as given and then discards the conclusion with it.",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Ad hominem",
         "slug": "ad-hominem",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       },
       {
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -8495,21 +9016,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Illogician",
         "slug": "illogician",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -8584,19 +9108,22 @@ export const entries = [
         "term": "Texas sharpshooter fallacy",
         "slug": "texas-sharpshooter-fallacy",
         "tell": "The sharpshooter picks the target after the shot; the McNamara fallacy picks the target because it is the one that can be scored.",
-        "path": "/fallacies/texas-sharpshooter-fallacy/"
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       },
       {
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -8606,21 +9133,24 @@ export const entries = [
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -8696,24 +9226,28 @@ export const entries = [
         "term": "Martyrholic",
         "slug": "martyrholic",
         "tell": "The hypocontortionist bends the principle; the martyrholic weeps about being judged for it.",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
       },
       {
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -8722,35 +9256,40 @@ export const entries = [
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
-        "path": "/fallacies/two-wrongs-make-a-right/"
+        "path": "/fallacies/two-wrongs-make-a-right/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Tu quoque",
         "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "No true Scotsman",
         "slug": "no-true-scotsman",
-        "path": "/fallacies/no-true-scotsman/"
+        "path": "/fallacies/no-true-scotsman/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Creeping normality",
         "slug": "creeping-normality",
-        "path": "/fallacies/creeping-normality/"
+        "path": "/fallacies/creeping-normality/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -8759,14 +9298,16 @@ export const entries = [
         "label": "Found in",
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
-        "path": "/habitats/good-ol-boys-club/"
+        "path": "/habitats/good-ol-boys-club/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -8836,24 +9377,28 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "tell": "The mythstorian invents the past; the algodemic invents the study of it.",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -8862,28 +9407,32 @@ export const entries = [
         "label": "Commits",
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "False attribution",
         "slug": "false-attribution",
-        "path": "/fallacies/false-attribution/"
+        "path": "/fallacies/false-attribution/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
-        "path": "/fallacies/appeal-to-nature/"
+        "path": "/fallacies/appeal-to-nature/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -8892,14 +9441,16 @@ export const entries = [
         "label": "Found in",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -8959,24 +9510,28 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "tell": "The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence.",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -8985,28 +9540,32 @@ export const entries = [
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9015,7 +9574,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -9075,19 +9635,22 @@ export const entries = [
         "term": "Critizen",
         "slug": "critizen",
         "tell": "The critizen believes the law does not apply; the crookmaxxer knows it does and prices it in.",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -9096,14 +9659,16 @@ export const entries = [
         "label": "Commits",
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
-        "path": "/fallacies/two-wrongs-make-a-right/"
+        "path": "/fallacies/two-wrongs-make-a-right/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Whataboutism",
         "slug": "whataboutism",
-        "path": "/fallacies/whataboutism/"
+        "path": "/fallacies/whataboutism/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9112,14 +9677,16 @@ export const entries = [
         "label": "Found in",
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -9189,24 +9756,28 @@ export const entries = [
         "term": "Equivangelist",
         "slug": "equivangelist",
         "tell": "The same surrender: the equivangelist frames it as fairness, the capitulectual as maturity.",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -9215,42 +9786,48 @@ export const entries = [
         "label": "Commits",
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
+        "path": "/fallacies/argument-to-moderation/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "False equivalence",
         "slug": "false-equivalence",
-        "path": "/fallacies/false-equivalence/"
+        "path": "/fallacies/false-equivalence/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "False balance",
         "slug": "false-balance",
-        "path": "/fallacies/false-balance/"
+        "path": "/fallacies/false-balance/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Bulverism",
         "slug": "bulverism",
-        "path": "/fallacies/bulverism/"
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
-        "path": "/fallacies/nirvana-fallacy/"
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9259,14 +9836,16 @@ export const entries = [
         "label": "Found in",
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -9329,19 +9908,22 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "tell": "The subpoenado investigates the enemy; the cronycle installs the friend. Same gavel, opposite direction.",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       },
       {
         "term": "Filibluster",
         "slug": "filibluster",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -9350,14 +9932,16 @@ export const entries = [
         "label": "Commits",
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9366,7 +9950,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -9426,19 +10011,22 @@ export const entries = [
         "term": "Subpoenado",
         "slug": "subpoenado",
         "tell": "The subpoenado investigates the enemy; the cronycle installs the friend. Both are the same gavel.",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
-        "path": "/habitats/good-ol-boys-club/"
+        "path": "/habitats/good-ol-boys-club/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -9447,14 +10035,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9463,7 +10053,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The auditor",
         "slug": "the-auditor",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -9526,19 +10117,22 @@ export const entries = [
         "term": "Bothsidesing",
         "slug": "bothsidesing",
         "tell": "The bothsideser spreads the blame across the aisle; the nonpologiser spreads it across the audience.",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "term": "Hot mic",
         "slug": "hot-mic",
-        "path": "/buffs/hot-mic/"
+        "path": "/buffs/hot-mic/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -9547,14 +10141,16 @@ export const entries = [
         "label": "Commits",
         "term": "Tu quoque",
         "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Tone policing",
         "slug": "tone-policing",
-        "path": "/fallacies/tone-policing/"
+        "path": "/fallacies/tone-policing/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9563,21 +10159,24 @@ export const entries = [
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -9646,24 +10245,28 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "tell": "The panel is booked and the board is elected. Both are lit for cameras, but only one of them can change a policy by Friday.",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -9672,91 +10275,104 @@ export const entries = [
         "label": "Houses",
         "term": "Bothsidesing",
         "slug": "bothsidesing",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Heckler's veto",
         "slug": "hecklers-veto",
-        "path": "/moves/hecklers-veto/"
+        "path": "/moves/hecklers-veto/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "McNamara fallacy",
         "slug": "mcnamara-fallacy",
-        "path": "/fallacies/mcnamara-fallacy/"
+        "path": "/fallacies/mcnamara-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
+        "path": "/fallacies/moving-the-goalposts/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
-        "path": "/fallacies/nirvana-fallacy/"
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Sunk cost fallacy",
         "slug": "sunk-cost-fallacy",
-        "path": "/fallacies/sunk-cost-fallacy/"
+        "path": "/fallacies/sunk-cost-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9765,7 +10381,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -9828,24 +10445,28 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "tell": "The cronycle fills the seat with a friend; the blueslip makes sure the seat stays empty long enough to matter.",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       },
       {
         "term": "Recessure",
         "slug": "recessure",
-        "path": "/abilities/recessure/"
+        "path": "/abilities/recessure/",
+        "kind": "ability"
       },
       {
         "term": "Subpoenado",
         "slug": "subpoenado",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -9854,14 +10475,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9870,7 +10493,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -9933,24 +10557,28 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "tell": "The cronycle installs friends with the chamber's consent; the recessure installs them without it.",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Pocketveto",
         "slug": "pocketveto",
-        "path": "/abilities/pocketveto/"
+        "path": "/abilities/pocketveto/",
+        "kind": "ability"
       },
       {
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       },
       {
         "term": "Unelected official",
         "slug": "unelected-official",
-        "path": "/buffs/unelected-official/"
+        "path": "/buffs/unelected-official/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -9959,7 +10587,8 @@ export const entries = [
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -9968,7 +10597,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -10031,24 +10661,28 @@ export const entries = [
         "term": "Pocketveto",
         "slug": "pocketveto",
         "tell": "The pocketveto kills the bill; the signaway keeps the bill and kills the part of it he dislikes.",
-        "path": "/abilities/pocketveto/"
+        "path": "/abilities/pocketveto/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       },
       {
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       },
       {
         "term": "Breaking treaties",
         "slug": "breaking-treaties",
-        "path": "/abilities/breaking-treaties/"
+        "path": "/abilities/breaking-treaties/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -10057,14 +10691,16 @@ export const entries = [
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Equivocation",
         "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -10073,7 +10709,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -10136,24 +10773,28 @@ export const entries = [
         "term": "Honeymoan",
         "slug": "honeymoan",
         "tell": "The honeymoan is the grace before the first mistake; the lame duck is the grace after the last election.",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "term": "Pocketveto",
         "slug": "pocketveto",
-        "path": "/abilities/pocketveto/"
+        "path": "/abilities/pocketveto/",
+        "kind": "ability"
       },
       {
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -10162,7 +10803,8 @@ export const entries = [
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [],
@@ -10226,24 +10868,28 @@ export const entries = [
         "term": "Gerrythm",
         "slug": "gerrythm",
         "tell": "The gerrythm chooses the voters; judge shopping chooses the judge. Both are map-making done before the argument starts.",
-        "path": "/abilities/gerrythm/"
+        "path": "/abilities/gerrythm/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       },
       {
         "term": "SLAPP",
         "slug": "slapp",
-        "path": "/abilities/slapp/"
+        "path": "/abilities/slapp/",
+        "kind": "ability"
       },
       {
         "term": "Random draw",
         "slug": "random-draw",
-        "path": "/remedies/random-draw/"
+        "path": "/remedies/random-draw/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -10252,14 +10898,16 @@ export const entries = [
         "label": "Commits",
         "term": "Texas sharpshooter fallacy",
         "slug": "texas-sharpshooter-fallacy",
-        "path": "/fallacies/texas-sharpshooter-fallacy/"
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -10268,7 +10916,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Random draw",
         "slug": "random-draw",
-        "path": "/remedies/random-draw/"
+        "path": "/remedies/random-draw/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -10331,24 +10980,28 @@ export const entries = [
         "term": "NDA",
         "slug": "nda",
         "tell": "The NDA buys silence before publication; the SLAPP bills for it afterwards.",
-        "path": "/abilities/nda/"
+        "path": "/abilities/nda/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
-        "path": "/abilities/qualified-immunity/"
+        "path": "/abilities/qualified-immunity/",
+        "kind": "ability"
       },
       {
         "term": "Judge shopping",
         "slug": "judge-shopping",
-        "path": "/abilities/judge-shopping/"
+        "path": "/abilities/judge-shopping/",
+        "kind": "ability"
       },
       {
         "term": "Fee shift",
         "slug": "fee-shift",
-        "path": "/remedies/fee-shift/"
+        "path": "/remedies/fee-shift/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -10357,14 +11010,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -10373,7 +11028,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Fee shift",
         "slug": "fee-shift",
-        "path": "/remedies/fee-shift/"
+        "path": "/remedies/fee-shift/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -10436,24 +11092,28 @@ export const entries = [
         "term": "SLAPP",
         "slug": "slapp",
         "tell": "The NDA buys the silence before publication; the SLAPP bills for it after.",
-        "path": "/abilities/slapp/"
+        "path": "/abilities/slapp/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "The carve-out",
         "slug": "the-carve-out",
-        "path": "/remedies/the-carve-out/"
+        "path": "/remedies/the-carve-out/",
+        "kind": "remedy"
       },
       {
         "term": "Consent decree",
         "slug": "consent-decree",
-        "path": "/abilities/consent-decree/"
+        "path": "/abilities/consent-decree/",
+        "kind": "ability"
       },
       {
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
-        "path": "/abilities/qualified-immunity/"
+        "path": "/abilities/qualified-immunity/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -10462,7 +11122,8 @@ export const entries = [
         "label": "Commits",
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -10471,7 +11132,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The carve-out",
         "slug": "the-carve-out",
-        "path": "/remedies/the-carve-out/"
+        "path": "/remedies/the-carve-out/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -10534,24 +11196,28 @@ export const entries = [
         "term": "Consent decree",
         "slug": "consent-decree",
         "tell": "Qualified immunity ends the case before the facts; a consent decree ends it after, with an inspector attached.",
-        "path": "/abilities/consent-decree/"
+        "path": "/abilities/consent-decree/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "SLAPP",
         "slug": "slapp",
-        "path": "/abilities/slapp/"
+        "path": "/abilities/slapp/",
+        "kind": "ability"
       },
       {
         "term": "Judge shopping",
         "slug": "judge-shopping",
-        "path": "/abilities/judge-shopping/"
+        "path": "/abilities/judge-shopping/",
+        "kind": "ability"
       },
       {
         "term": "NDA",
         "slug": "nda",
-        "path": "/abilities/nda/"
+        "path": "/abilities/nda/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -10560,7 +11226,8 @@ export const entries = [
         "label": "Commits",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -10569,7 +11236,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The public defender",
         "slug": "the-public-defender",
-        "path": "/keystones/the-public-defender/"
+        "path": "/keystones/the-public-defender/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -10632,19 +11300,22 @@ export const entries = [
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
         "tell": "Qualified immunity ends the case before the facts; a consent decree ends it after, with a monitor attached.",
-        "path": "/abilities/qualified-immunity/"
+        "path": "/abilities/qualified-immunity/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Subpoenado",
         "slug": "subpoenado",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       },
       {
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       }
     ],
     "edges": [],
@@ -10654,7 +11325,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The auditor",
         "slug": "the-auditor",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -10717,19 +11389,22 @@ export const entries = [
         "term": "Signaway",
         "slug": "signaway",
         "tell": "Signaway gives away a right in the fine print; breaking treaties takes back a promise in the headline.",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Forever war",
         "slug": "forever-war",
-        "path": "/abilities/forever-war/"
+        "path": "/abilities/forever-war/",
+        "kind": "ability"
       },
       {
         "term": "The withdrawal clause",
         "slug": "the-withdrawal-clause",
-        "path": "/remedies/the-withdrawal-clause/"
+        "path": "/remedies/the-withdrawal-clause/",
+        "kind": "remedy"
       }
     ],
     "edges": [],
@@ -10739,7 +11414,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The withdrawal clause",
         "slug": "the-withdrawal-clause",
-        "path": "/remedies/the-withdrawal-clause/"
+        "path": "/remedies/the-withdrawal-clause/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -10808,19 +11484,22 @@ export const entries = [
         "term": "Nightdocket",
         "slug": "nightdocket",
         "tell": "The night docket is a court deciding without explanation; a secret meeting is a room deciding without a witness.",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
-        "path": "/habitats/good-ol-boys-club/"
+        "path": "/habitats/good-ol-boys-club/",
+        "kind": "habitat"
       },
       {
         "term": "Pseudo-event",
         "slug": "pseudo-event",
-        "path": "/habitats/pseudo-event/"
+        "path": "/habitats/pseudo-event/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -10829,14 +11508,16 @@ export const entries = [
         "label": "Houses",
         "term": "Friday news dump",
         "slug": "friday-news-dump",
-        "path": "/moves/friday-news-dump/"
+        "path": "/moves/friday-news-dump/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Good cop, bad cop",
         "slug": "good-cop-bad-cop",
-        "path": "/moves/good-cop-bad-cop/"
+        "path": "/moves/good-cop-bad-cop/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -10845,7 +11526,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -10914,19 +11596,22 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "tell": "The cronycle is the cycle that fills the posts; the club is the room the cycle recruits from.",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Secret meeting",
         "slug": "secret-meeting",
-        "path": "/habitats/secret-meeting/"
+        "path": "/habitats/secret-meeting/",
+        "kind": "habitat"
       },
       {
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -10935,21 +11620,24 @@ export const entries = [
         "label": "Houses",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -10958,7 +11646,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -11018,19 +11707,22 @@ export const entries = [
         "term": "Recessure",
         "slug": "recessure",
         "tell": "Recessure is the appointment made while the chamber is empty; the unelected official is what the appointment leaves behind.",
-        "path": "/abilities/recessure/"
+        "path": "/abilities/recessure/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       },
       {
         "term": "Lame duck",
         "slug": "lame-duck",
-        "path": "/buffs/lame-duck/"
+        "path": "/buffs/lame-duck/",
+        "kind": "buff"
       }
     ],
     "edges": [],
@@ -11101,19 +11793,22 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "tell": "The tu quoque changes the subject to the accuser's conduct; ad hominem changes it to the accuser's character.",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       },
       {
         "term": "Whataboutism",
         "slug": "whataboutism",
-        "path": "/fallacies/whataboutism/"
+        "path": "/fallacies/whataboutism/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -11123,28 +11818,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Freetard",
         "slug": "freetard",
-        "path": "/species/freetard/"
+        "path": "/species/freetard/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
       }
     ],
     "committedFrom": [
@@ -11224,19 +11923,22 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "tell": "Post hoc invents a cause from sequence; cherry picking hides the cases where the sequence did not hold.",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Slippery slope",
         "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
+        "path": "/fallacies/slippery-slope/",
+        "kind": "fallacy"
       },
       {
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -11246,21 +11948,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Mythstorian",
         "slug": "mythstorian",
-        "path": "/species/mythstorian/"
+        "path": "/species/mythstorian/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -11340,19 +12045,22 @@ export const entries = [
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
         "tell": "Special pleading asks for an exemption from the standard; two wrongs argues the standard is void because someone else broke it.",
-        "path": "/fallacies/two-wrongs-make-a-right/"
+        "path": "/fallacies/two-wrongs-make-a-right/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
+        "path": "/fallacies/moving-the-goalposts/",
+        "kind": "fallacy"
       },
       {
         "term": "No true Scotsman",
         "slug": "no-true-scotsman",
-        "path": "/fallacies/no-true-scotsman/"
+        "path": "/fallacies/no-true-scotsman/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -11362,70 +12070,80 @@ export const entries = [
         "label": "Committed by",
         "term": "Honeymoan",
         "slug": "honeymoan",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Cronycle",
         "slug": "cronycle",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Recessure",
         "slug": "recessure",
-        "path": "/abilities/recessure/"
+        "path": "/abilities/recessure/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Lame duck",
         "slug": "lame-duck",
-        "path": "/buffs/lame-duck/"
+        "path": "/buffs/lame-duck/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
-        "path": "/abilities/qualified-immunity/"
+        "path": "/abilities/qualified-immunity/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
-        "path": "/habitats/good-ol-boys-club/"
+        "path": "/habitats/good-ol-boys-club/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -11505,19 +12223,22 @@ export const entries = [
         "term": "False equivalence",
         "slug": "false-equivalence",
         "tell": "Equivalence says the two sides are equally wrong; moderation says the truth is arithmetically between them.",
-        "path": "/fallacies/false-equivalence/"
+        "path": "/fallacies/false-equivalence/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "False dilemma",
         "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       },
       {
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
-        "path": "/fallacies/nirvana-fallacy/"
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -11527,21 +12248,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Bothsidesing",
         "slug": "bothsidesing",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -11621,19 +12345,22 @@ export const entries = [
         "term": "False equivalence",
         "slug": "false-equivalence",
         "tell": "Equivalence says the two claims are alike; false balance gives them alike treatment and lets the audience draw the first conclusion.",
-        "path": "/fallacies/false-equivalence/"
+        "path": "/fallacies/false-equivalence/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
+        "path": "/fallacies/argument-to-moderation/",
+        "kind": "fallacy"
       },
       {
         "term": "Bothsidesing",
         "slug": "bothsidesing",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       }
     ],
     "edges": [],
@@ -11643,21 +12370,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Bothsidesing",
         "slug": "bothsidesing",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -11737,19 +12467,22 @@ export const entries = [
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
         "tell": "Ignorance is about missing evidence in general; silence is about a specific record that was never kept.",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       },
       {
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -11759,49 +12492,56 @@ export const entries = [
         "label": "Committed by",
         "term": "Pocketveto",
         "slug": "pocketveto",
-        "path": "/abilities/pocketveto/"
+        "path": "/abilities/pocketveto/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Friday news dump",
         "slug": "friday-news-dump",
-        "path": "/moves/friday-news-dump/"
+        "path": "/moves/friday-news-dump/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Blueslip",
         "slug": "blueslip",
-        "path": "/abilities/blueslip/"
+        "path": "/abilities/blueslip/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "SLAPP",
         "slug": "slapp",
-        "path": "/abilities/slapp/"
+        "path": "/abilities/slapp/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "NDA",
         "slug": "nda",
-        "path": "/abilities/nda/"
+        "path": "/abilities/nda/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -11887,19 +12627,22 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "tell": "The xenophobricator needs a specific outsider; the dramagogue only needs a crowd.",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       },
       {
         "term": "The statistician",
         "slug": "the-statistician",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -11908,35 +12651,40 @@ export const entries = [
         "label": "Commits",
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Association fallacy",
         "slug": "association-fallacy",
-        "path": "/fallacies/association-fallacy/"
+        "path": "/fallacies/association-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
-        "path": "/fallacies/appeal-to-motive/"
+        "path": "/fallacies/appeal-to-motive/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Base rate fallacy",
         "slug": "base-rate-fallacy",
-        "path": "/fallacies/base-rate-fallacy/"
+        "path": "/fallacies/base-rate-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -11945,14 +12693,16 @@ export const entries = [
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The statistician",
         "slug": "the-statistician",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -12022,24 +12772,28 @@ export const entries = [
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
         "tell": "The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it.",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "term": "The public defender",
         "slug": "the-public-defender",
-        "path": "/keystones/the-public-defender/"
+        "path": "/keystones/the-public-defender/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -12048,42 +12802,48 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to consequences",
         "slug": "appeal-to-consequences",
-        "path": "/fallacies/appeal-to-consequences/"
+        "path": "/fallacies/appeal-to-consequences/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
-        "path": "/fallacies/appeal-to-motive/"
+        "path": "/fallacies/appeal-to-motive/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Slippery slope",
         "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
+        "path": "/fallacies/slippery-slope/",
+        "kind": "fallacy"
       },
       {
         "rel": "performs",
         "label": "Performs",
         "term": "WMD mongering",
         "slug": "wmd-mongering",
-        "path": "/moves/wmd-mongering/"
+        "path": "/moves/wmd-mongering/",
+        "kind": "move"
       },
       {
         "rel": "uses",
         "label": "Uses",
         "term": "Forever war",
         "slug": "forever-war",
-        "path": "/abilities/forever-war/"
+        "path": "/abilities/forever-war/",
+        "kind": "ability"
       }
     ],
     "backlinks": [
@@ -12092,14 +12852,16 @@ export const entries = [
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The public defender",
         "slug": "the-public-defender",
-        "path": "/keystones/the-public-defender/"
+        "path": "/keystones/the-public-defender/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -12169,19 +12931,22 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "tell": "The dramagogue wants your fear; the ragesturbationist wants your feed.",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
       },
       {
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -12190,14 +12955,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -12206,21 +12973,24 @@ export const entries = [
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -12290,19 +13060,22 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "tell": "Both suffer in public; the martyrholic has no jet.",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "term": "Cross-examination",
         "slug": "cross-examination",
-        "path": "/remedies/cross-examination/"
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -12311,28 +13084,32 @@ export const entries = [
         "label": "Commits",
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
-        "path": "/fallacies/anecdotal-evidence/"
+        "path": "/fallacies/anecdotal-evidence/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to pity",
         "slug": "appeal-to-pity",
-        "path": "/fallacies/appeal-to-pity/"
+        "path": "/fallacies/appeal-to-pity/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Kafka trap",
         "slug": "kafka-trap",
-        "path": "/fallacies/kafka-trap/"
+        "path": "/fallacies/kafka-trap/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -12341,14 +13118,16 @@ export const entries = [
         "label": "Found in",
         "term": "Perp walk",
         "slug": "perp-walk",
-        "path": "/habitats/perp-walk/"
+        "path": "/habitats/perp-walk/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Cross-examination",
         "slug": "cross-examination",
-        "path": "/remedies/cross-examination/"
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -12418,19 +13197,22 @@ export const entries = [
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
         "tell": "The bleatkeeper trusts nothing; the algodemic trusts one chart he cannot read.",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -12439,49 +13221,56 @@ export const entries = [
         "label": "Commits",
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Ad nauseam",
         "slug": "ad-nauseam",
-        "path": "/fallacies/ad-nauseam/"
+        "path": "/fallacies/ad-nauseam/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to novelty",
         "slug": "appeal-to-novelty",
-        "path": "/fallacies/appeal-to-novelty/"
+        "path": "/fallacies/appeal-to-novelty/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Base rate fallacy",
         "slug": "base-rate-fallacy",
-        "path": "/fallacies/base-rate-fallacy/"
+        "path": "/fallacies/base-rate-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "McNamara fallacy",
         "slug": "mcnamara-fallacy",
-        "path": "/fallacies/mcnamara-fallacy/"
+        "path": "/fallacies/mcnamara-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -12490,14 +13279,16 @@ export const entries = [
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Lateral reading",
         "slug": "lateral-reading",
-        "path": "/remedies/lateral-reading/"
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -12567,19 +13358,22 @@ export const entries = [
         "term": "Martyrholic",
         "slug": "martyrholic",
         "tell": "The martyrholic is persecuted by a policy; the plutomartyr is persecuted by a tax rate.",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "term": "Indictbump",
         "slug": "indictbump",
-        "path": "/buffs/indictbump/"
+        "path": "/buffs/indictbump/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -12588,49 +13382,56 @@ export const entries = [
         "label": "Commits",
         "term": "False equivalence",
         "slug": "false-equivalence",
-        "path": "/fallacies/false-equivalence/"
+        "path": "/fallacies/false-equivalence/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to pity",
         "slug": "appeal-to-pity",
-        "path": "/fallacies/appeal-to-pity/"
+        "path": "/fallacies/appeal-to-pity/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to consequences",
         "slug": "appeal-to-consequences",
-        "path": "/fallacies/appeal-to-consequences/"
+        "path": "/fallacies/appeal-to-consequences/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Kafka trap",
         "slug": "kafka-trap",
-        "path": "/fallacies/kafka-trap/"
+        "path": "/fallacies/kafka-trap/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
-        "path": "/fallacies/nirvana-fallacy/"
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Just-world hypothesis",
         "slug": "just-world-hypothesis",
-        "path": "/fallacies/just-world-hypothesis/"
+        "path": "/fallacies/just-world-hypothesis/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -12639,14 +13440,16 @@ export const entries = [
         "label": "Found in",
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The caseworker",
         "slug": "the-caseworker",
-        "path": "/keystones/the-caseworker/"
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -12716,19 +13519,22 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "tell": "The algodemic believes the nonsense; the slopagandist bills for it.",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       },
       {
         "term": "Perp walk",
         "slug": "perp-walk",
-        "path": "/habitats/perp-walk/"
+        "path": "/habitats/perp-walk/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -12737,63 +13543,72 @@ export const entries = [
         "label": "Commits",
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
-        "path": "/fallacies/moving-the-goalposts/"
+        "path": "/fallacies/moving-the-goalposts/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Ad nauseam",
         "slug": "ad-nauseam",
-        "path": "/fallacies/ad-nauseam/"
+        "path": "/fallacies/ad-nauseam/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "McNamara fallacy",
         "slug": "mcnamara-fallacy",
-        "path": "/fallacies/mcnamara-fallacy/"
+        "path": "/fallacies/mcnamara-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       },
       {
         "rel": "uses",
         "label": "Uses",
         "term": "Lobbyism",
         "slug": "lobbyism",
-        "path": "/abilities/lobbyism/"
+        "path": "/abilities/lobbyism/",
+        "kind": "ability"
       },
       {
         "rel": "uses",
         "label": "Uses",
         "term": "Climate hoax",
         "slug": "climate-hoax",
-        "path": "/abilities/climate-hoax/"
+        "path": "/abilities/climate-hoax/",
+        "kind": "ability"
       }
     ],
     "backlinks": [
@@ -12802,28 +13617,32 @@ export const entries = [
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Perp walk",
         "slug": "perp-walk",
-        "path": "/habitats/perp-walk/"
+        "path": "/habitats/perp-walk/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The editor",
         "slug": "the-editor",
-        "path": "/keystones/the-editor/"
+        "path": "/keystones/the-editor/",
+        "kind": "keystone"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -12892,19 +13711,22 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "tell": "The panel is produced and timed; the comment section is neither. Both punish the answer and reward the claim.",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -12913,105 +13735,120 @@ export const entries = [
         "label": "Houses",
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "False balance",
         "slug": "false-balance",
-        "path": "/fallacies/false-balance/"
+        "path": "/fallacies/false-balance/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Ad nauseam",
         "slug": "ad-nauseam",
-        "path": "/fallacies/ad-nauseam/"
+        "path": "/fallacies/ad-nauseam/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to ridicule",
         "slug": "appeal-to-ridicule",
-        "path": "/fallacies/appeal-to-ridicule/"
+        "path": "/fallacies/appeal-to-ridicule/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Nonpology",
         "slug": "nonpology",
-        "path": "/moves/nonpology/"
+        "path": "/moves/nonpology/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "The fallacy fallacy",
         "slug": "the-fallacy-fallacy",
-        "path": "/fallacies/the-fallacy-fallacy/"
+        "path": "/fallacies/the-fallacy-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Gallopologist",
         "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
+        "path": "/fallacies/argument-to-moderation/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "False equivalence",
         "slug": "false-equivalence",
-        "path": "/fallacies/false-equivalence/"
+        "path": "/fallacies/false-equivalence/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Texas sharpshooter fallacy",
         "slug": "texas-sharpshooter-fallacy",
-        "path": "/fallacies/texas-sharpshooter-fallacy/"
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -13020,7 +13857,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -13089,19 +13927,22 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "tell": "The comment section is public and adversarial; the group chat is private and trusting. Same fallacies, opposite selection pressure.",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -13110,77 +13951,88 @@ export const entries = [
         "label": "Houses",
         "term": "False attribution",
         "slug": "false-attribution",
-        "path": "/fallacies/false-attribution/"
+        "path": "/fallacies/false-attribution/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to pity",
         "slug": "appeal-to-pity",
-        "path": "/fallacies/appeal-to-pity/"
+        "path": "/fallacies/appeal-to-pity/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Argument from silence",
         "slug": "argument-from-silence",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Whataboutism",
         "slug": "whataboutism",
-        "path": "/fallacies/whataboutism/"
+        "path": "/fallacies/whataboutism/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
-        "path": "/fallacies/anecdotal-evidence/"
+        "path": "/fallacies/anecdotal-evidence/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Association fallacy",
         "slug": "association-fallacy",
-        "path": "/fallacies/association-fallacy/"
+        "path": "/fallacies/association-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -13189,7 +14041,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -13252,19 +14105,22 @@ export const entries = [
         "term": "Bootcurious",
         "slug": "bootcurious",
         "tell": "The bootcurious one defers to power; the bluecheck has been handed a little of it and spends it immediately.",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -13273,14 +14129,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -13289,7 +14147,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The editor",
         "slug": "the-editor",
-        "path": "/keystones/the-editor/"
+        "path": "/keystones/the-editor/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -13349,24 +14208,28 @@ export const entries = [
         "term": "Indictbump",
         "slug": "indictbump",
         "tell": "The indictbump is sympathy for a defendant; the crisisglow is authority for an incumbent. One is a wound, the other a uniform.",
-        "path": "/buffs/indictbump/"
+        "path": "/buffs/indictbump/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Honeymoan",
         "slug": "honeymoan",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       },
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "term": "Outrage fatigue",
         "slug": "outrage-fatigue",
-        "path": "/buffs/outrage-fatigue/"
+        "path": "/buffs/outrage-fatigue/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -13375,14 +14238,16 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "False dilemma",
         "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -13391,7 +14256,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Sunset clause",
         "slug": "sunset-clause",
-        "path": "/remedies/sunset-clause/"
+        "path": "/remedies/sunset-clause/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -13454,19 +14320,22 @@ export const entries = [
         "term": "Martyrholic",
         "slug": "martyrholic",
         "tell": "The martyrholic seeks the wound; the indictbump is what the wound pays. One is a temperament, the other a yield.",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "term": "Bluecheck",
         "slug": "bluecheck",
-        "path": "/buffs/bluecheck/"
+        "path": "/buffs/bluecheck/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -13475,14 +14344,16 @@ export const entries = [
         "label": "Commits",
         "term": "Tu quoque",
         "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [],
@@ -13552,19 +14423,22 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "tell": "The comment section is under a thing somebody made; the feed is the thing, and nobody made it.",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -13573,84 +14447,96 @@ export const entries = [
         "label": "Houses",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Dead cat",
         "slug": "dead-cat",
-        "path": "/moves/dead-cat/"
+        "path": "/moves/dead-cat/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Push poll",
         "slug": "push-poll",
-        "path": "/moves/push-poll/"
+        "path": "/moves/push-poll/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Astroturfing",
         "slug": "astroturfing",
-        "path": "/moves/astroturfing/"
+        "path": "/moves/astroturfing/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Base rate fallacy",
         "slug": "base-rate-fallacy",
-        "path": "/fallacies/base-rate-fallacy/"
+        "path": "/fallacies/base-rate-fallacy/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to novelty",
         "slug": "appeal-to-novelty",
-        "path": "/fallacies/appeal-to-novelty/"
+        "path": "/fallacies/appeal-to-novelty/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Creeping normality",
         "slug": "creeping-normality",
-        "path": "/fallacies/creeping-normality/"
+        "path": "/fallacies/creeping-normality/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
-        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -13659,7 +14545,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Lateral reading",
         "slug": "lateral-reading",
-        "path": "/remedies/lateral-reading/"
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -13728,24 +14615,28 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "tell": "Patriotainment is broadcast and paid by the ad; the circuit is in the room and paid by the plate. Same speech, different invoice.",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -13754,28 +14645,32 @@ export const entries = [
         "label": "Houses",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Vague promises",
         "slug": "vague-promises",
-        "path": "/moves/vague-promises/"
+        "path": "/moves/vague-promises/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -13784,7 +14679,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The moderator",
         "slug": "the-moderator",
-        "path": "/keystones/the-moderator/"
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -13847,24 +14743,28 @@ export const entries = [
         "term": "Biasographer",
         "slug": "biasographer",
         "tell": "The biasographer reads the data and finds what it wants; the push poll writes the data it wants read.",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -13873,14 +14773,16 @@ export const entries = [
         "label": "Commits",
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -13889,14 +14791,16 @@ export const entries = [
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The statistician",
         "slug": "the-statistician",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -13965,24 +14869,28 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "tell": "The panel is booked for an argument; the room is booked for an answer, and reliably produces neither.",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "term": "Access",
         "slug": "access",
-        "path": "/buffs/access/"
+        "path": "/buffs/access/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -13991,77 +14899,88 @@ export const entries = [
         "label": "Houses",
         "term": "Bothsidesing",
         "slug": "bothsidesing",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Nonpology",
         "slug": "nonpology",
-        "path": "/moves/nonpology/"
+        "path": "/moves/nonpology/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Flood the zone",
         "slug": "flood-the-zone",
-        "path": "/moves/flood-the-zone/"
+        "path": "/moves/flood-the-zone/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Trial balloon",
         "slug": "trial-balloon",
-        "path": "/moves/trial-balloon/"
+        "path": "/moves/trial-balloon/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "WMD mongering",
         "slug": "wmd-mongering",
-        "path": "/moves/wmd-mongering/"
+        "path": "/moves/wmd-mongering/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14070,7 +14989,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -14139,24 +15059,28 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "tell": "The panel is the argument; the spin room is the verdict about the argument, delivered while it is still happening.",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -14165,35 +15089,40 @@ export const entries = [
         "label": "Houses",
         "term": "Bothsidesing",
         "slug": "bothsidesing",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Equivocation",
         "slug": "equivocation",
-        "path": "/fallacies/equivocation/"
+        "path": "/fallacies/equivocation/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14202,7 +15131,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -14271,24 +15201,28 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "tell": "Patriotainment sells the seat; the rally gives it away and sells the shirt.",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "term": "Pseudo-event",
         "slug": "pseudo-event",
-        "path": "/habitats/pseudo-event/"
+        "path": "/habitats/pseudo-event/",
+        "kind": "habitat"
       },
       {
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -14297,91 +15231,104 @@ export const entries = [
         "label": "Houses",
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to force",
         "slug": "appeal-to-force",
-        "path": "/fallacies/appeal-to-force/"
+        "path": "/fallacies/appeal-to-force/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Provocrop",
         "slug": "provocrop",
-        "path": "/species/provocrop/"
+        "path": "/species/provocrop/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to consequences",
         "slug": "appeal-to-consequences",
-        "path": "/fallacies/appeal-to-consequences/"
+        "path": "/fallacies/appeal-to-consequences/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
-        "path": "/fallacies/appeal-to-nature/"
+        "path": "/fallacies/appeal-to-nature/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "False dilemma",
         "slug": "false-dilemma",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Slippery slope",
         "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
+        "path": "/fallacies/slippery-slope/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14390,7 +15337,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -14450,24 +15398,28 @@ export const entries = [
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
         "tell": "The circuit asks for the cheque in person; the frank asks for the vote by post, at public expense.",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -14476,7 +15428,8 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14485,7 +15438,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -14554,24 +15508,28 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "tell": "A rally is a crowd that came to see something; a pseudo-event is something that came to be seen.",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       },
       {
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -14580,14 +15538,16 @@ export const entries = [
         "label": "Houses",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14596,7 +15556,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -14665,24 +15626,28 @@ export const entries = [
         "term": "Spin room",
         "slug": "spin-room",
         "tell": "The spin room argues about a verdict; the perp walk delivers one before the trial.",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -14691,28 +15656,32 @@ export const entries = [
         "label": "Houses",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Just-world hypothesis",
         "slug": "just-world-hypothesis",
-        "path": "/fallacies/just-world-hypothesis/"
+        "path": "/fallacies/just-world-hypothesis/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14721,7 +15690,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The juror",
         "slug": "the-juror",
-        "path": "/keystones/the-juror/"
+        "path": "/keystones/the-juror/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -14784,24 +15754,28 @@ export const entries = [
         "term": "Briefing room",
         "slug": "briefing-room",
         "tell": "The briefing room is where access is performed; access is what you still have when the room is empty.",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Recusal",
         "slug": "recusal",
-        "path": "/remedies/recusal/"
+        "path": "/remedies/recusal/",
+        "kind": "remedy"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -14810,7 +15784,8 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14819,7 +15794,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Recusal",
         "slug": "recusal",
-        "path": "/remedies/recusal/"
+        "path": "/remedies/recusal/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -14882,24 +15858,28 @@ export const entries = [
         "term": "Nonpology",
         "slug": "nonpology",
         "tell": "The nonpology is the apology for what the hot mic caught.",
-        "path": "/moves/nonpology/"
+        "path": "/moves/nonpology/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -14908,7 +15888,8 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -14917,7 +15898,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -14980,19 +15962,22 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "tell": "Proof by assertion repeats the claim; WMD mongering manufactures the exhibit.",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Forever war",
         "slug": "forever-war",
-        "path": "/abilities/forever-war/"
+        "path": "/abilities/forever-war/",
+        "kind": "ability"
       },
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -15001,7 +15986,8 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -15010,21 +15996,24 @@ export const entries = [
         "label": "Performed by",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -15087,19 +16076,22 @@ export const entries = [
         "term": "Access",
         "slug": "access",
         "tell": "Access buys the meeting; lobbyism writes the text the meeting was about.",
-        "path": "/buffs/access/"
+        "path": "/buffs/access/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Citizens United",
         "slug": "citizens-united",
-        "path": "/abilities/citizens-united/"
+        "path": "/abilities/citizens-united/",
+        "kind": "ability"
       },
       {
         "term": "Cronycle",
         "slug": "cronycle",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       }
     ],
     "edges": [],
@@ -15109,21 +16101,24 @@ export const entries = [
         "label": "Used by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "uses",
         "label": "Used by",
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -15186,19 +16181,22 @@ export const entries = [
         "term": "Coattails",
         "slug": "coattails",
         "tell": "Coattails carry a candidate on somebody else's popularity; a PAC check carries a vote on somebody else's money.",
-        "path": "/buffs/coattails/"
+        "path": "/buffs/coattails/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Citizens United",
         "slug": "citizens-united",
-        "path": "/abilities/citizens-united/"
+        "path": "/abilities/citizens-united/",
+        "kind": "ability"
       },
       {
         "term": "Lobbyism",
         "slug": "lobbyism",
-        "path": "/abilities/lobbyism/"
+        "path": "/abilities/lobbyism/",
+        "kind": "ability"
       }
     ],
     "edges": [],
@@ -15263,24 +16261,28 @@ export const entries = [
         "term": "Appeal to force",
         "slug": "appeal-to-force",
         "tell": "The appeal to force threatens the harm; oil diplomacy prices it, and a price is easier to agree with.",
-        "path": "/fallacies/appeal-to-force/"
+        "path": "/fallacies/appeal-to-force/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Forever war",
         "slug": "forever-war",
-        "path": "/abilities/forever-war/"
+        "path": "/abilities/forever-war/",
+        "kind": "ability"
       },
       {
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       },
       {
         "term": "The reserve",
         "slug": "the-reserve",
-        "path": "/remedies/the-reserve/"
+        "path": "/remedies/the-reserve/",
+        "kind": "remedy"
       }
     ],
     "edges": [],
@@ -15290,7 +16292,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The reserve",
         "slug": "the-reserve",
-        "path": "/remedies/the-reserve/"
+        "path": "/remedies/the-reserve/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -15353,19 +16356,22 @@ export const entries = [
         "term": "Bothsidesing",
         "slug": "bothsidesing",
         "tell": "Bothsidesing gives a finding equal time with its denial; the climate hoax is the campaign that made the denial worth airing.",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "term": "Forever war",
         "slug": "forever-war",
-        "path": "/abilities/forever-war/"
+        "path": "/abilities/forever-war/",
+        "kind": "ability"
       }
     ],
     "edges": [],
@@ -15375,14 +16381,16 @@ export const entries = [
         "label": "Used by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The statistician",
         "slug": "the-statistician",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -15445,19 +16453,22 @@ export const entries = [
         "term": "Omnibust",
         "slug": "omnibust",
         "tell": "Omnibust bundles what cannot pass alone; a forever war is bundled with the last authorisation and never unbundled.",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "WMD mongering",
         "slug": "wmd-mongering",
-        "path": "/moves/wmd-mongering/"
+        "path": "/moves/wmd-mongering/",
+        "kind": "move"
       },
       {
         "term": "Climate hoax",
         "slug": "climate-hoax",
-        "path": "/abilities/climate-hoax/"
+        "path": "/abilities/climate-hoax/",
+        "kind": "ability"
       }
     ],
     "edges": [],
@@ -15467,14 +16478,16 @@ export const entries = [
         "label": "Used by",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Sunset clause",
         "slug": "sunset-clause",
-        "path": "/remedies/sunset-clause/"
+        "path": "/remedies/sunset-clause/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -15543,19 +16556,22 @@ export const entries = [
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
         "tell": "Emotion is the general case; fear is its most reliable channel, and its most common disguise.",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy"
       },
       {
         "term": "Appeal to pity",
         "slug": "appeal-to-pity",
-        "path": "/fallacies/appeal-to-pity/"
+        "path": "/fallacies/appeal-to-pity/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -15565,56 +16581,64 @@ export const entries = [
         "label": "Committed by",
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Dead cat",
         "slug": "dead-cat",
-        "path": "/moves/dead-cat/"
+        "path": "/moves/dead-cat/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hot mic",
         "slug": "hot-mic",
-        "path": "/buffs/hot-mic/"
+        "path": "/buffs/hot-mic/",
+        "kind": "buff"
       }
     ],
     "committedFrom": [
@@ -15699,19 +16723,22 @@ export const entries = [
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
         "tell": "Fear is a channel of the wider emotional appeal, and the one that most reliably skips the argument.",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Slippery slope",
         "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
+        "path": "/fallacies/slippery-slope/",
+        "kind": "fallacy"
       },
       {
         "term": "Appeal to force",
         "slug": "appeal-to-force",
-        "path": "/fallacies/appeal-to-force/"
+        "path": "/fallacies/appeal-to-force/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -15721,56 +16748,64 @@ export const entries = [
         "label": "Committed by",
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Heckler's veto",
         "slug": "hecklers-veto",
-        "path": "/moves/hecklers-veto/"
+        "path": "/moves/hecklers-veto/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "SLAPP",
         "slug": "slapp",
-        "path": "/abilities/slapp/"
+        "path": "/abilities/slapp/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Crisisglow",
         "slug": "crisisglow",
-        "path": "/buffs/crisisglow/"
+        "path": "/buffs/crisisglow/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "WMD mongering",
         "slug": "wmd-mongering",
-        "path": "/moves/wmd-mongering/"
+        "path": "/moves/wmd-mongering/",
+        "kind": "move"
       }
     ],
     "committedFrom": [
@@ -15860,19 +16895,22 @@ export const entries = [
         "term": "No true Scotsman",
         "slug": "no-true-scotsman",
         "tell": "The Scotsman moves the group boundary; the goalposts move the evidentiary one.",
-        "path": "/fallacies/no-true-scotsman/"
+        "path": "/fallacies/no-true-scotsman/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       },
       {
         "term": "Nirvana fallacy",
         "slug": "nirvana-fallacy",
-        "path": "/fallacies/nirvana-fallacy/"
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -15882,21 +16920,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -15976,19 +17017,22 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "tell": "Cherry picking keeps the data and drops the rest; survivorship bias never had the rest - it was never recorded.",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
-        "path": "/fallacies/anecdotal-evidence/"
+        "path": "/fallacies/anecdotal-evidence/",
+        "kind": "fallacy"
       },
       {
         "term": "Base rate fallacy",
         "slug": "base-rate-fallacy",
-        "path": "/fallacies/base-rate-fallacy/"
+        "path": "/fallacies/base-rate-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -15998,21 +17042,24 @@ export const entries = [
         "label": "Committed by",
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -16092,19 +17139,22 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "tell": "The association attacks the company the claim keeps; ad hominem attacks the person who made it.",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       },
       {
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -16114,21 +17164,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -16208,19 +17261,22 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "tell": "Appeal to motive attacks the reason behind the claim; ad hominem attacks the person's character or record.",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       },
       {
         "term": "Bulverism",
         "slug": "bulverism",
-        "path": "/fallacies/bulverism/"
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -16230,21 +17286,24 @@ export const entries = [
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -16319,14 +17378,16 @@ export const entries = [
         "term": "Appeal to emotion",
         "slug": "appeal-to-emotion",
         "tell": "Pity is the specific channel; the emotional appeal is the whole family.",
-        "path": "/fallacies/appeal-to-emotion/"
+        "path": "/fallacies/appeal-to-emotion/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Tu quoque",
         "slug": "tu-quoque",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -16336,21 +17397,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -16425,19 +17489,22 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "tell": "Proof by assertion repeats to sound certain; ad nauseam repeats to make the audience stop asking.",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       },
       {
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -16447,28 +17514,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Filibluster",
         "slug": "filibluster",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -16548,19 +17619,22 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "tell": "Tradition cites age as proof; novelty cites youth as proof. Both substitute a timestamp for a reason.",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
-        "path": "/fallacies/appeal-to-nature/"
+        "path": "/fallacies/appeal-to-nature/",
+        "kind": "fallacy"
       },
       {
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -16570,28 +17644,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Honeymoan",
         "slug": "honeymoan",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -16671,19 +17749,22 @@ export const entries = [
         "term": "Appeal to fear",
         "slug": "appeal-to-fear",
         "tell": "Fear forecasts the bad outcome to end the argument; consequences use the bad outcome as a disproof.",
-        "path": "/fallacies/appeal-to-fear/"
+        "path": "/fallacies/appeal-to-fear/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Slippery slope",
         "slug": "slippery-slope",
-        "path": "/fallacies/slippery-slope/"
+        "path": "/fallacies/slippery-slope/",
+        "kind": "fallacy"
       },
       {
         "term": "Just-world hypothesis",
         "slug": "just-world-hypothesis",
-        "path": "/fallacies/just-world-hypothesis/"
+        "path": "/fallacies/just-world-hypothesis/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -16693,21 +17774,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -16783,24 +17867,28 @@ export const entries = [
         "term": "Decorumancer",
         "slug": "decorumancer",
         "tell": "Both end the argument without answering it: the decorumancer objects to the volume, the passoffist to the subject.",
-        "path": "/species/decorumancer/"
+        "path": "/species/decorumancer/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Provocrop",
         "slug": "provocrop",
-        "path": "/species/provocrop/"
+        "path": "/species/provocrop/",
+        "kind": "species"
       },
       {
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "term": "Precedentarian",
         "slug": "precedentarian",
-        "path": "/species/precedentarian/"
+        "path": "/species/precedentarian/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -16809,35 +17897,40 @@ export const entries = [
         "label": "Commits",
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "False equivalence",
         "slug": "false-equivalence",
-        "path": "/fallacies/false-equivalence/"
+        "path": "/fallacies/false-equivalence/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -16846,14 +17939,16 @@ export const entries = [
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -16923,19 +18018,22 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "tell": "The slopagandist makes the take; the provocrop buys it by the shirt.",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       },
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -16944,28 +18042,32 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to ridicule",
         "slug": "appeal-to-ridicule",
-        "path": "/fallacies/appeal-to-ridicule/"
+        "path": "/fallacies/appeal-to-ridicule/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Creeping normality",
         "slug": "creeping-normality",
-        "path": "/fallacies/creeping-normality/"
+        "path": "/fallacies/creeping-normality/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -16974,14 +18076,16 @@ export const entries = [
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -17054,14 +18158,16 @@ export const entries = [
         "term": "Biasographer",
         "slug": "biasographer",
         "tell": "The biasographer writes the flattering account; the precedentarian cites it as a constraint.",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       }
     ],
     "related": [
       {
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -17070,21 +18176,24 @@ export const entries = [
         "label": "Commits",
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -17093,14 +18202,16 @@ export const entries = [
         "label": "Found in",
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -17163,19 +18274,22 @@ export const entries = [
         "term": "Trial balloon",
         "slug": "trial-balloon",
         "tell": "The trial balloon asks the room; the soft launch asks the silence.",
-        "path": "/moves/trial-balloon/"
+        "path": "/moves/trial-balloon/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "Friday news dump",
         "slug": "friday-news-dump",
-        "path": "/moves/friday-news-dump/"
+        "path": "/moves/friday-news-dump/",
+        "kind": "move"
       },
       {
         "term": "Creeping normality",
         "slug": "creeping-normality",
-        "path": "/fallacies/creeping-normality/"
+        "path": "/fallacies/creeping-normality/",
+        "kind": "fallacy"
       }
     ],
     "edges": [
@@ -17184,7 +18298,8 @@ export const entries = [
         "label": "Commits",
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -17193,14 +18308,16 @@ export const entries = [
         "label": "Found in",
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Countered by",
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -17263,19 +18380,22 @@ export const entries = [
         "term": "The carve-out",
         "slug": "the-carve-out",
         "tell": "The carve-out writes the exception into the rule; the grandfather clause writes the rule around what already exists.",
-        "path": "/remedies/the-carve-out/"
+        "path": "/remedies/the-carve-out/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       },
       {
         "term": "Pocketveto",
         "slug": "pocketveto",
-        "path": "/abilities/pocketveto/"
+        "path": "/abilities/pocketveto/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -17284,14 +18404,16 @@ export const entries = [
         "label": "Commits",
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       },
       {
         "rel": "commits",
         "label": "Commits",
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [
@@ -17300,7 +18422,8 @@ export const entries = [
         "label": "Countered by",
         "term": "Sunset clause",
         "slug": "sunset-clause",
-        "path": "/remedies/sunset-clause/"
+        "path": "/remedies/sunset-clause/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -17369,14 +18492,16 @@ export const entries = [
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
         "tell": "The circuit is the same speech in a different hall; the conference is a different speech about the same practice.",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -17385,42 +18510,48 @@ export const entries = [
         "label": "Houses",
         "term": "Precedentarian",
         "slug": "precedentarian",
-        "path": "/species/precedentarian/"
+        "path": "/species/precedentarian/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Soft launch",
         "slug": "soft-launch",
-        "path": "/moves/soft-launch/"
+        "path": "/moves/soft-launch/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/"
+        "path": "/fallacies/argumentum-ad-populum/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to novelty",
         "slug": "appeal-to-novelty",
-        "path": "/fallacies/appeal-to-novelty/"
+        "path": "/fallacies/appeal-to-novelty/",
+        "kind": "fallacy"
       },
       {
         "rel": "houses",
         "label": "Houses",
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       },
       {
         "rel": "uses",
         "label": "Uses",
         "term": "Lobbyism",
         "slug": "lobbyism",
-        "path": "/abilities/lobbyism/"
+        "path": "/abilities/lobbyism/",
+        "kind": "ability"
       }
     ],
     "backlinks": [
@@ -17429,7 +18560,8 @@ export const entries = [
         "label": "Countered by",
         "term": "The sponsor line",
         "slug": "the-sponsor-line",
-        "path": "/remedies/the-sponsor-line/"
+        "path": "/remedies/the-sponsor-line/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -17492,14 +18624,16 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "tell": "The crisisglow is authority for as long as the emergency lasts; the outrage fatigue is the audience's attention running out. One is a uniform, the other a battery.",
-        "path": "/buffs/crisisglow/"
+        "path": "/buffs/crisisglow/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "Honeymoan",
         "slug": "honeymoan",
-        "path": "/buffs/honeymoan/"
+        "path": "/buffs/honeymoan/",
+        "kind": "buff"
       }
     ],
     "edges": [
@@ -17508,7 +18642,8 @@ export const entries = [
         "label": "Commits",
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       }
     ],
     "backlinks": [],
@@ -17578,19 +18713,22 @@ export const entries = [
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
         "tell": "The generalization is the conclusion; the anecdote is the single story it was built on.",
-        "path": "/fallacies/anecdotal-evidence/"
+        "path": "/fallacies/anecdotal-evidence/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       },
       {
         "term": "Nut-picking",
         "slug": "nut-picking",
-        "path": "/fallacies/nut-picking/"
+        "path": "/fallacies/nut-picking/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -17600,35 +18738,40 @@ export const entries = [
         "label": "Committed by",
         "term": "Convention bounce",
         "slug": "convention-bounce",
-        "path": "/buffs/convention-bounce/"
+        "path": "/buffs/convention-bounce/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Gallopologist",
         "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Vaguebooking",
         "slug": "vaguebooking",
-        "path": "/moves/vaguebooking/"
+        "path": "/moves/vaguebooking/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -17713,19 +18856,22 @@ export const entries = [
         "term": "Texas sharpshooter fallacy",
         "slug": "texas-sharpshooter-fallacy",
         "tell": "Cherry picking removes the inconvenient data; the sharpshooter keeps all of it and moves the target instead.",
-        "path": "/fallacies/texas-sharpshooter-fallacy/"
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       },
       {
         "term": "Nut-picking",
         "slug": "nut-picking",
-        "path": "/fallacies/nut-picking/"
+        "path": "/fallacies/nut-picking/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -17735,42 +18881,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Gerrythm",
         "slug": "gerrythm",
-        "path": "/abilities/gerrythm/"
+        "path": "/abilities/gerrythm/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Mythstorian",
         "slug": "mythstorian",
-        "path": "/species/mythstorian/"
+        "path": "/species/mythstorian/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Judge shopping",
         "slug": "judge-shopping",
-        "path": "/abilities/judge-shopping/"
+        "path": "/abilities/judge-shopping/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -17860,19 +19012,22 @@ export const entries = [
         "term": "False dilemma",
         "slug": "false-dilemma",
         "tell": "The dilemma collapses the field to two options; equivalence collapses the distance between them.",
-        "path": "/fallacies/false-dilemma/"
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
-        "path": "/fallacies/argument-to-moderation/"
+        "path": "/fallacies/argument-to-moderation/",
+        "kind": "fallacy"
       },
       {
         "term": "False balance",
         "slug": "false-balance",
-        "path": "/fallacies/false-balance/"
+        "path": "/fallacies/false-balance/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -17882,28 +19037,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -17988,19 +19147,22 @@ export const entries = [
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
         "tell": "The anecdote is the evidence; the generalization is the rule drawn from it.",
-        "path": "/fallacies/hasty-generalization/"
+        "path": "/fallacies/hasty-generalization/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
-        "path": "/fallacies/survivorship-bias/"
+        "path": "/fallacies/survivorship-bias/",
+        "kind": "fallacy"
       },
       {
         "term": "Base rate fallacy",
         "slug": "base-rate-fallacy",
-        "path": "/fallacies/base-rate-fallacy/"
+        "path": "/fallacies/base-rate-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18010,21 +19172,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Gallopologist",
         "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -18104,19 +19269,22 @@ export const entries = [
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
         "tell": "The motte switches between two claims; equivocation switches between two senses of a word inside one claim.",
-        "path": "/fallacies/motte-and-bailey-fallacy/"
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Loaded question",
         "slug": "loaded-question",
-        "path": "/fallacies/loaded-question/"
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
       },
       {
         "term": "Special pleading",
         "slug": "special-pleading",
-        "path": "/fallacies/special-pleading/"
+        "path": "/fallacies/special-pleading/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18126,42 +19294,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Trial balloon",
         "slug": "trial-balloon",
-        "path": "/moves/trial-balloon/"
+        "path": "/moves/trial-balloon/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Motte hop",
         "slug": "motte-hop",
-        "path": "/moves/motte-hop/"
+        "path": "/moves/motte-hop/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -18246,19 +19420,22 @@ export const entries = [
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
         "tell": "Tu quoque attacks the accuser's consistency; two wrongs uses the comparison as a defence of the act itself.",
-        "path": "/fallacies/two-wrongs-make-a-right/"
+        "path": "/fallacies/two-wrongs-make-a-right/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Whataboutism",
         "slug": "whataboutism",
-        "path": "/fallacies/whataboutism/"
+        "path": "/fallacies/whataboutism/",
+        "kind": "fallacy"
       },
       {
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
-        "path": "/fallacies/poisoning-the-well/"
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18268,35 +19445,40 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Nonpology",
         "slug": "nonpology",
-        "path": "/moves/nonpology/"
+        "path": "/moves/nonpology/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Indictbump",
         "slug": "indictbump",
-        "path": "/buffs/indictbump/"
+        "path": "/buffs/indictbump/",
+        "kind": "buff"
       }
     ],
     "committedFrom": [
@@ -18381,19 +19563,22 @@ export const entries = [
         "term": "Tu quoque",
         "slug": "tu-quoque",
         "tell": "Tu quoque answers a charge with a charge against the accuser; whataboutism raises any third subject at all.",
-        "path": "/fallacies/tu-quoque/"
+        "path": "/fallacies/tu-quoque/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Ad hominem",
         "slug": "ad-hominem",
-        "path": "/fallacies/ad-hominem/"
+        "path": "/fallacies/ad-hominem/",
+        "kind": "fallacy"
       },
       {
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
-        "path": "/fallacies/two-wrongs-make-a-right/"
+        "path": "/fallacies/two-wrongs-make-a-right/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18403,28 +19588,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -18504,19 +19693,22 @@ export const entries = [
         "term": "Appeal to the stone",
         "slug": "appeal-to-the-stone",
         "tell": "Ridicule gets a laugh; the stone gets a shrug. Both substitute a reaction for a reason.",
-        "path": "/fallacies/appeal-to-the-stone/"
+        "path": "/fallacies/appeal-to-the-stone/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Straw man",
         "slug": "straw-man",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       },
       {
         "term": "Tone policing",
         "slug": "tone-policing",
-        "path": "/fallacies/tone-policing/"
+        "path": "/fallacies/tone-policing/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18526,28 +19718,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Illogician",
         "slug": "illogician",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Provocrop",
         "slug": "provocrop",
-        "path": "/species/provocrop/"
+        "path": "/species/provocrop/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -18632,19 +19828,22 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "tell": "Authority borrows one credential; ad populum borrows a crowd, which is cheaper and worse.",
-        "path": "/fallacies/appeal-to-authority/"
+        "path": "/fallacies/appeal-to-authority/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       },
       {
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
-        "path": "/fallacies/appeal-to-nature/"
+        "path": "/fallacies/appeal-to-nature/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18654,77 +19853,88 @@ export const entries = [
         "label": "Committed by",
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Coattails",
         "slug": "coattails",
-        "path": "/buffs/coattails/"
+        "path": "/buffs/coattails/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Astroturfing",
         "slug": "astroturfing",
-        "path": "/moves/astroturfing/"
+        "path": "/moves/astroturfing/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Provocrop",
         "slug": "provocrop",
-        "path": "/species/provocrop/"
+        "path": "/species/provocrop/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -18819,19 +20029,22 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "tell": "The cliché stops the conversation with familiarity; the assertion stops it with confidence.",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
-        "path": "/fallacies/appeal-to-tradition/"
+        "path": "/fallacies/appeal-to-tradition/",
+        "kind": "fallacy"
       },
       {
         "term": "Gish gallop",
         "slug": "gish-gallop",
-        "path": "/fallacies/gish-gallop/"
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18841,42 +20054,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Provocrop",
         "slug": "provocrop",
-        "path": "/species/provocrop/"
+        "path": "/species/provocrop/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Precedentarian",
         "slug": "precedentarian",
-        "path": "/species/precedentarian/"
+        "path": "/species/precedentarian/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -18961,19 +20180,22 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "tell": "False attribution puts new words in someone's mouth; the straw man puts a weaker argument there.",
-        "path": "/fallacies/straw-man/"
+        "path": "/fallacies/straw-man/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Cherry picking",
         "slug": "cherry-picking",
-        "path": "/fallacies/cherry-picking/"
+        "path": "/fallacies/cherry-picking/",
+        "kind": "fallacy"
       },
       {
         "term": "Association fallacy",
         "slug": "association-fallacy",
-        "path": "/fallacies/association-fallacy/"
+        "path": "/fallacies/association-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -18983,21 +20205,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Mythstorian",
         "slug": "mythstorian",
-        "path": "/species/mythstorian/"
+        "path": "/species/mythstorian/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -19077,19 +20302,22 @@ export const entries = [
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
         "tell": "Ignorance treats a gap as proof; the shift assigns the work of closing the gap to the sceptic.",
-        "path": "/fallacies/argument-from-ignorance/"
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Sealioning",
         "slug": "sealioning",
-        "path": "/fallacies/sealioning/"
+        "path": "/fallacies/sealioning/",
+        "kind": "fallacy"
       },
       {
         "term": "Kafka trap",
         "slug": "kafka-trap",
-        "path": "/fallacies/kafka-trap/"
+        "path": "/fallacies/kafka-trap/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -19099,42 +20327,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Receiptbomb",
         "slug": "receiptbomb",
-        "path": "/moves/receiptbomb/"
+        "path": "/moves/receiptbomb/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Flood the zone",
         "slug": "flood-the-zone",
-        "path": "/moves/flood-the-zone/"
+        "path": "/moves/flood-the-zone/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Subpoenado",
         "slug": "subpoenado",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -19214,19 +20448,22 @@ export const entries = [
         "term": "Ad nauseam",
         "slug": "ad-nauseam",
         "tell": "Ad nauseam repeats one claim; the gallop produces a new one every sentence.",
-        "path": "/fallacies/ad-nauseam/"
+        "path": "/fallacies/ad-nauseam/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       },
       {
         "term": "Shifting the burden of proof",
         "slug": "shifting-the-burden-of-proof",
-        "path": "/fallacies/shifting-the-burden-of-proof/"
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -19236,42 +20473,48 @@ export const entries = [
         "label": "Committed by",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Filibluster",
         "slug": "filibluster",
-        "path": "/abilities/filibluster/"
+        "path": "/abilities/filibluster/",
+        "kind": "ability"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Receiptbomb",
         "slug": "receiptbomb",
-        "path": "/moves/receiptbomb/"
+        "path": "/moves/receiptbomb/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Flood the zone",
         "slug": "flood-the-zone",
-        "path": "/moves/flood-the-zone/"
+        "path": "/moves/flood-the-zone/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -19356,19 +20599,22 @@ export const entries = [
         "term": "Appeal to ridicule",
         "slug": "appeal-to-ridicule",
         "tell": "Ridicule makes the claim funny; the stone simply declares it absurd. The stone is lazier and more common.",
-        "path": "/fallacies/appeal-to-ridicule/"
+        "path": "/fallacies/appeal-to-ridicule/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
-        "path": "/fallacies/proof-by-assertion/"
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
       },
       {
         "term": "Thought-terminating cliché",
         "slug": "thought-terminating-cliche",
-        "path": "/fallacies/thought-terminating-cliche/"
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -19378,21 +20624,24 @@ export const entries = [
         "label": "Committed by",
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Illogician",
         "slug": "illogician",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -19472,19 +20721,22 @@ export const entries = [
         "term": "Creeping normality",
         "slug": "creeping-normality",
         "tell": "Creeping normality is the drift itself, one increment at a time; shifting baseline is why the drift goes unmeasured - each generation resets the ruler.",
-        "path": "/fallacies/creeping-normality/"
+        "path": "/fallacies/creeping-normality/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       },
       {
         "term": "Sunk cost fallacy",
         "slug": "sunk-cost-fallacy",
-        "path": "/fallacies/sunk-cost-fallacy/"
+        "path": "/fallacies/sunk-cost-fallacy/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -19494,49 +20746,56 @@ export const entries = [
         "label": "Committed by",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Soft launch",
         "slug": "soft-launch",
-        "path": "/moves/soft-launch/"
+        "path": "/moves/soft-launch/",
+        "kind": "move"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Grandfather clause",
         "slug": "grandfather-clause",
-        "path": "/abilities/grandfather-clause/"
+        "path": "/abilities/grandfather-clause/",
+        "kind": "ability"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -19621,19 +20880,22 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "tell": "The slippery slope is a prediction made by someone arguing against the first step; creeping normality is the same walk recorded afterwards by someone who did not notice it.",
-        "path": "/fallacies/slippery-slope/"
+        "path": "/fallacies/slippery-slope/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       },
       {
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       }
     ],
     "edges": [],
@@ -19643,28 +20905,32 @@ export const entries = [
         "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Provocrop",
         "slug": "provocrop",
-        "path": "/species/provocrop/"
+        "path": "/species/provocrop/",
+        "kind": "species"
       }
     ],
     "committedFrom": [
@@ -19749,19 +21015,22 @@ export const entries = [
         "term": "Argument from silence",
         "slug": "argument-from-silence",
         "tell": "The argument from silence reads a missing record as a settled question; normalcy bias reads a quiet record as a safe one.",
-        "path": "/fallacies/argument-from-silence/"
+        "path": "/fallacies/argument-from-silence/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Shifting baseline",
         "slug": "shifting-baseline",
-        "path": "/fallacies/shifting-baseline/"
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy"
       },
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       }
     ],
     "edges": [],
@@ -19771,35 +21040,40 @@ export const entries = [
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Precedentarian",
         "slug": "precedentarian",
-        "path": "/species/precedentarian/"
+        "path": "/species/precedentarian/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Outrage fatigue",
         "slug": "outrage-fatigue",
-        "path": "/buffs/outrage-fatigue/"
+        "path": "/buffs/outrage-fatigue/",
+        "kind": "buff"
       }
     ],
     "committedFrom": [
@@ -19879,19 +21153,22 @@ export const entries = [
         "term": "Appeal to consequences",
         "slug": "appeal-to-consequences",
         "tell": "The appeal to consequences rejects a claim because believing it would be bad; the just-world hypothesis accepts an outcome because an undeserved one would be unbearable.",
-        "path": "/fallacies/appeal-to-consequences/"
+        "path": "/fallacies/appeal-to-consequences/",
+        "kind": "fallacy"
       }
     ],
     "related": [
       {
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
-        "path": "/fallacies/normalcy-bias/"
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy"
       },
       {
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       }
     ],
     "edges": [],
@@ -19901,21 +21178,24 @@ export const entries = [
         "label": "Committed by",
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "rel": "houses",
         "label": "Found in",
         "term": "Perp walk",
         "slug": "perp-walk",
-        "path": "/habitats/perp-walk/"
+        "path": "/habitats/perp-walk/",
+        "kind": "habitat"
       }
     ],
     "committedFrom": [
@@ -19999,19 +21279,22 @@ export const entries = [
         "term": "The archivist",
         "slug": "the-archivist",
         "tell": "The clerk keeps what the body did this year; the archivist keeps what it did in 1974.",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The poll worker",
         "slug": "the-poll-worker",
-        "path": "/keystones/the-poll-worker/"
+        "path": "/keystones/the-poll-worker/",
+        "kind": "keystone"
       },
       {
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -20020,42 +21303,48 @@ export const entries = [
         "label": "Practises",
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Sabotriot",
         "slug": "sabotriot",
-        "path": "/species/sabotriot/"
+        "path": "/species/sabotriot/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Omnibust",
         "slug": "omnibust",
-        "path": "/abilities/omnibust/"
+        "path": "/abilities/omnibust/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Pocketveto",
         "slug": "pocketveto",
-        "path": "/abilities/pocketveto/"
+        "path": "/abilities/pocketveto/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Recessure",
         "slug": "recessure",
-        "path": "/abilities/recessure/"
+        "path": "/abilities/recessure/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Discharge petition",
         "slug": "discharge-petition",
-        "path": "/abilities/discharge-petition/"
+        "path": "/abilities/discharge-petition/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -20129,19 +21418,22 @@ export const entries = [
         "term": "The clerk",
         "slug": "the-clerk",
         "tell": "The clerk records what the body did; the poll worker records what the voter did, one name at a time.",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       },
       {
         "term": "The auditor",
         "slug": "the-auditor",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -20150,21 +21442,24 @@ export const entries = [
         "label": "Practises",
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Playtriot",
         "slug": "playtriot",
-        "path": "/species/playtriot/"
+        "path": "/species/playtriot/",
+        "kind": "species"
       }
     ],
     "backlinks": [],
@@ -20238,19 +21533,22 @@ export const entries = [
         "term": "The librarian",
         "slug": "the-librarian",
         "tell": "The archivist keeps the thing; the librarian finds it.",
-        "path": "/keystones/the-librarian/"
+        "path": "/keystones/the-librarian/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       },
       {
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -20259,42 +21557,48 @@ export const entries = [
         "label": "Practises",
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Mythstorian",
         "slug": "mythstorian",
-        "path": "/species/mythstorian/"
+        "path": "/species/mythstorian/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Friday news dump",
         "slug": "friday-news-dump",
-        "path": "/moves/friday-news-dump/"
+        "path": "/moves/friday-news-dump/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Pseudo-event",
         "slug": "pseudo-event",
-        "path": "/habitats/pseudo-event/"
+        "path": "/habitats/pseudo-event/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
-        "path": "/species/hypocontortionist/"
+        "path": "/species/hypocontortionist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Secret meeting",
         "slug": "secret-meeting",
-        "path": "/habitats/secret-meeting/"
+        "path": "/habitats/secret-meeting/",
+        "kind": "habitat"
       }
     ],
     "backlinks": [],
@@ -20368,19 +21672,22 @@ export const entries = [
         "term": "The editor",
         "slug": "the-editor",
         "tell": "The librarian finds the source; the editor refuses to publish without it.",
-        "path": "/keystones/the-editor/"
+        "path": "/keystones/the-editor/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       },
       {
         "term": "Lateral reading",
         "slug": "lateral-reading",
-        "path": "/remedies/lateral-reading/"
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -20389,14 +21696,16 @@ export const entries = [
         "label": "Practises",
         "term": "Lateral reading",
         "slug": "lateral-reading",
-        "path": "/remedies/lateral-reading/"
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Illogician",
         "slug": "illogician",
-        "path": "/species/illogician/"
+        "path": "/species/illogician/",
+        "kind": "species"
       }
     ],
     "backlinks": [],
@@ -20470,19 +21779,22 @@ export const entries = [
         "term": "The clerk",
         "slug": "the-clerk",
         "tell": "The clerk records the decision; the caseworker delivers it to somebody who needs it by Friday.",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       },
       {
         "term": "The auditor",
         "slug": "the-auditor",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -20491,21 +21803,24 @@ export const entries = [
         "label": "Practises",
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
-        "path": "/species/plutomartyr/"
+        "path": "/species/plutomartyr/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "LARPtarian",
         "slug": "larptarian",
-        "path": "/species/larptarian/"
+        "path": "/species/larptarian/",
+        "kind": "species"
       }
     ],
     "backlinks": [],
@@ -20579,19 +21894,22 @@ export const entries = [
         "term": "The moderator",
         "slug": "the-moderator",
         "tell": "The editor decides what is published; the moderator decides what gets answered.",
-        "path": "/keystones/the-moderator/"
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The librarian",
         "slug": "the-librarian",
-        "path": "/keystones/the-librarian/"
+        "path": "/keystones/the-librarian/",
+        "kind": "keystone"
       },
       {
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -20600,21 +21918,24 @@ export const entries = [
         "label": "Practises",
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Bluecheck",
         "slug": "bluecheck",
-        "path": "/buffs/bluecheck/"
+        "path": "/buffs/bluecheck/",
+        "kind": "buff"
       }
     ],
     "backlinks": [],
@@ -20688,19 +22009,22 @@ export const entries = [
         "term": "The steelman",
         "slug": "the-steelman",
         "tell": "The moderator runs the format; the steelman is what the format is for.",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The editor",
         "slug": "the-editor",
-        "path": "/keystones/the-editor/"
+        "path": "/keystones/the-editor/",
+        "kind": "keystone"
       },
       {
         "term": "The caseworker",
         "slug": "the-caseworker",
-        "path": "/keystones/the-caseworker/"
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -20709,35 +22033,40 @@ export const entries = [
         "label": "Practises",
         "term": "The steelman",
         "slug": "the-steelman",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Sophistroll",
         "slug": "sophistroll",
-        "path": "/species/sophistroll/"
+        "path": "/species/sophistroll/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Bothsidesing",
         "slug": "bothsidesing",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Heckler's veto",
         "slug": "hecklers-veto",
-        "path": "/moves/hecklers-veto/"
+        "path": "/moves/hecklers-veto/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
-        "path": "/habitats/rubber-chicken-circuit/"
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat"
       }
     ],
     "backlinks": [],
@@ -20811,24 +22140,28 @@ export const entries = [
         "term": "The archivist",
         "slug": "the-archivist",
         "tell": "The archivist keeps the record; the auditor reads it and says what it shows.",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       },
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       },
       {
         "term": "The caseworker",
         "slug": "the-caseworker",
-        "path": "/keystones/the-caseworker/"
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -20837,21 +22170,24 @@ export const entries = [
         "label": "Practises",
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Cronycle",
         "slug": "cronycle",
-        "path": "/abilities/cronycle/"
+        "path": "/abilities/cronycle/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Consent decree",
         "slug": "consent-decree",
-        "path": "/abilities/consent-decree/"
+        "path": "/abilities/consent-decree/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -20925,19 +22261,22 @@ export const entries = [
         "term": "The transcript",
         "slug": "the-transcript",
         "tell": "The request gets the document the body already wrote; the transcript makes a document out of what it said.",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       },
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -20946,42 +22285,48 @@ export const entries = [
         "label": "Counters",
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
-        "path": "/species/bleatkeeper/"
+        "path": "/species/bleatkeeper/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Briefing room",
         "slug": "briefing-room",
-        "path": "/habitats/briefing-room/"
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
-        "path": "/moves/crookmaxxing/"
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Trial balloon",
         "slug": "trial-balloon",
-        "path": "/moves/trial-balloon/"
+        "path": "/moves/trial-balloon/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Blueslip",
         "slug": "blueslip",
-        "path": "/abilities/blueslip/"
+        "path": "/abilities/blueslip/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Lobbyism",
         "slug": "lobbyism",
-        "path": "/abilities/lobbyism/"
+        "path": "/abilities/lobbyism/",
+        "kind": "ability"
       }
     ],
     "backlinks": [
@@ -20990,7 +22335,8 @@ export const entries = [
         "label": "Practised by",
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21063,19 +22409,22 @@ export const entries = [
         "term": "Records request",
         "slug": "records-request",
         "tell": "The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       },
       {
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -21084,63 +22433,72 @@ export const entries = [
         "label": "Counters",
         "term": "Vaguebooking",
         "slug": "vaguebooking",
-        "path": "/moves/vaguebooking/"
+        "path": "/moves/vaguebooking/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Cable panel",
         "slug": "cable-panel",
-        "path": "/habitats/cable-panel/"
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Motte hop",
         "slug": "motte-hop",
-        "path": "/moves/motte-hop/"
+        "path": "/moves/motte-hop/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Subpoenado",
         "slug": "subpoenado",
-        "path": "/abilities/subpoenado/"
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Group chat",
         "slug": "group-chat",
-        "path": "/habitats/group-chat/"
+        "path": "/habitats/group-chat/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Bootcurious",
         "slug": "bootcurious",
-        "path": "/buffs/bootcurious/"
+        "path": "/buffs/bootcurious/",
+        "kind": "buff"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Dead cat",
         "slug": "dead-cat",
-        "path": "/moves/dead-cat/"
+        "path": "/moves/dead-cat/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Hot mic",
         "slug": "hot-mic",
-        "path": "/buffs/hot-mic/"
+        "path": "/buffs/hot-mic/",
+        "kind": "buff"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Precedentarian",
         "slug": "precedentarian",
-        "path": "/species/precedentarian/"
+        "path": "/species/precedentarian/",
+        "kind": "species"
       }
     ],
     "backlinks": [
@@ -21149,7 +22507,8 @@ export const entries = [
         "label": "Practised by",
         "term": "The archivist",
         "slug": "the-archivist",
-        "path": "/keystones/the-archivist/"
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21222,19 +22581,22 @@ export const entries = [
         "term": "The second source",
         "slug": "the-second-source",
         "tell": "Lateral reading checks a claim against the world; the second source is the world agreeing to go on the record.",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The librarian",
         "slug": "the-librarian",
-        "path": "/keystones/the-librarian/"
+        "path": "/keystones/the-librarian/",
+        "kind": "keystone"
       },
       {
         "term": "The steelman",
         "slug": "the-steelman",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -21243,21 +22605,24 @@ export const entries = [
         "label": "Counters",
         "term": "Algodemic",
         "slug": "algodemic",
-        "path": "/species/algodemic/"
+        "path": "/species/algodemic/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "The Feed",
         "slug": "the-feed",
-        "path": "/habitats/the-feed/"
+        "path": "/habitats/the-feed/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Astroturfing",
         "slug": "astroturfing",
-        "path": "/moves/astroturfing/"
+        "path": "/moves/astroturfing/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -21266,7 +22631,8 @@ export const entries = [
         "label": "Practised by",
         "term": "The librarian",
         "slug": "the-librarian",
-        "path": "/keystones/the-librarian/"
+        "path": "/keystones/the-librarian/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21339,24 +22705,28 @@ export const entries = [
         "term": "Lateral reading",
         "slug": "lateral-reading",
         "tell": "Lateral reading is what a reader does in ninety seconds; the second source is what a newsroom does in ninety minutes.",
-        "path": "/remedies/lateral-reading/"
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The editor",
         "slug": "the-editor",
-        "path": "/keystones/the-editor/"
+        "path": "/keystones/the-editor/",
+        "kind": "keystone"
       },
       {
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       },
       {
         "term": "The sponsor line",
         "slug": "the-sponsor-line",
-        "path": "/remedies/the-sponsor-line/"
+        "path": "/remedies/the-sponsor-line/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -21365,28 +22735,32 @@ export const entries = [
         "label": "Counters",
         "term": "Slopagandist",
         "slug": "slopagandist",
-        "path": "/species/slopagandist/"
+        "path": "/species/slopagandist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Receiptbomb",
         "slug": "receiptbomb",
-        "path": "/moves/receiptbomb/"
+        "path": "/moves/receiptbomb/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Patriotainer",
         "slug": "patriotainer",
-        "path": "/species/patriotainer/"
+        "path": "/species/patriotainer/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "WMD mongering",
         "slug": "wmd-mongering",
-        "path": "/moves/wmd-mongering/"
+        "path": "/moves/wmd-mongering/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -21395,7 +22769,8 @@ export const entries = [
         "label": "Practised by",
         "term": "The editor",
         "slug": "the-editor",
-        "path": "/keystones/the-editor/"
+        "path": "/keystones/the-editor/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21468,24 +22843,28 @@ export const entries = [
         "term": "Bothsidesing",
         "slug": "bothsidesing",
         "tell": "Bothsidesing splits the difference; the steelman takes one side at its strongest and then argues with it.",
-        "path": "/moves/bothsidesing/"
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
       }
     ],
     "related": [
       {
         "term": "The moderator",
         "slug": "the-moderator",
-        "path": "/keystones/the-moderator/"
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone"
       },
       {
         "term": "Lateral reading",
         "slug": "lateral-reading",
-        "path": "/remedies/lateral-reading/"
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy"
       },
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -21494,14 +22873,16 @@ export const entries = [
         "label": "Counters",
         "term": "Equivangelist",
         "slug": "equivangelist",
-        "path": "/species/equivangelist/"
+        "path": "/species/equivangelist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Biasographer",
         "slug": "biasographer",
-        "path": "/species/biasographer/"
+        "path": "/species/biasographer/",
+        "kind": "species"
       }
     ],
     "backlinks": [
@@ -21510,14 +22891,16 @@ export const entries = [
         "label": "Practised by",
         "term": "The moderator",
         "slug": "the-moderator",
-        "path": "/keystones/the-moderator/"
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone"
       },
       {
         "rel": "practises",
         "label": "Practised by",
         "term": "The juror",
         "slug": "the-juror",
-        "path": "/keystones/the-juror/"
+        "path": "/keystones/the-juror/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21590,24 +22973,28 @@ export const entries = [
         "term": "The audit",
         "slug": "the-audit",
         "tell": "The count is watched while it happens; the audit checks it afterwards, on a sample.",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The poll worker",
         "slug": "the-poll-worker",
-        "path": "/keystones/the-poll-worker/"
+        "path": "/keystones/the-poll-worker/",
+        "kind": "keystone"
       },
       {
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       },
       {
         "term": "The reserve",
         "slug": "the-reserve",
-        "path": "/remedies/the-reserve/"
+        "path": "/remedies/the-reserve/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -21616,28 +23003,32 @@ export const entries = [
         "label": "Counters",
         "term": "Critizen",
         "slug": "critizen",
-        "path": "/species/critizen/"
+        "path": "/species/critizen/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Rally",
         "slug": "rally",
-        "path": "/habitats/rally/"
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Cloture",
         "slug": "cloture",
-        "path": "/abilities/cloture/"
+        "path": "/abilities/cloture/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
-        "path": "/habitats/good-ol-boys-club/"
+        "path": "/habitats/good-ol-boys-club/",
+        "kind": "habitat"
       }
     ],
     "backlinks": [
@@ -21646,7 +23037,8 @@ export const entries = [
         "label": "Practised by",
         "term": "The poll worker",
         "slug": "the-poll-worker",
-        "path": "/keystones/the-poll-worker/"
+        "path": "/keystones/the-poll-worker/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21719,19 +23111,22 @@ export const entries = [
         "term": "The transcript",
         "slug": "the-transcript",
         "tell": "The transcript records what was said; the written reason records why it was decided.",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The caseworker",
         "slug": "the-caseworker",
-        "path": "/keystones/the-caseworker/"
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone"
       },
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -21740,28 +23135,32 @@ export const entries = [
         "label": "Counters",
         "term": "Nonpology",
         "slug": "nonpology",
-        "path": "/moves/nonpology/"
+        "path": "/moves/nonpology/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Spin room",
         "slug": "spin-room",
-        "path": "/habitats/spin-room/"
+        "path": "/habitats/spin-room/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Capitulectual",
         "slug": "capitulectual",
-        "path": "/species/capitulectual/"
+        "path": "/species/capitulectual/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Vague promises",
         "slug": "vague-promises",
-        "path": "/moves/vague-promises/"
+        "path": "/moves/vague-promises/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -21770,21 +23169,24 @@ export const entries = [
         "label": "Practised by",
         "term": "The caseworker",
         "slug": "the-caseworker",
-        "path": "/keystones/the-caseworker/"
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone"
       },
       {
         "rel": "practises",
         "label": "Practised by",
         "term": "The ombudsman",
         "slug": "the-ombudsman",
-        "path": "/keystones/the-ombudsman/"
+        "path": "/keystones/the-ombudsman/",
+        "kind": "keystone"
       },
       {
         "rel": "practises",
         "label": "Practised by",
         "term": "The translator",
         "slug": "the-translator",
-        "path": "/keystones/the-translator/"
+        "path": "/keystones/the-translator/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21857,24 +23259,28 @@ export const entries = [
         "term": "The public count",
         "slug": "the-public-count",
         "tell": "The count is watched while it happens; the audit checks it afterwards, on a sample.",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "The auditor",
         "slug": "the-auditor",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       },
       {
         "term": "Records request",
         "slug": "records-request",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       },
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -21883,21 +23289,24 @@ export const entries = [
         "label": "Counters",
         "term": "Frankincense",
         "slug": "frankincense",
-        "path": "/buffs/frankincense/"
+        "path": "/buffs/frankincense/",
+        "kind": "buff"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Patriotainment",
         "slug": "patriotainment",
-        "path": "/habitats/patriotainment/"
+        "path": "/habitats/patriotainment/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Flood the zone",
         "slug": "flood-the-zone",
-        "path": "/moves/flood-the-zone/"
+        "path": "/moves/flood-the-zone/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -21906,14 +23315,16 @@ export const entries = [
         "label": "Practised by",
         "term": "The auditor",
         "slug": "the-auditor",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       },
       {
         "rel": "practises",
         "label": "Practised by",
         "term": "The statistician",
         "slug": "the-statistician",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -21986,24 +23397,28 @@ export const entries = [
         "term": "Judge shopping",
         "slug": "judge-shopping",
         "tell": "Judge shopping chooses the courtroom; the random draw removes the choice that made the courtroom worth choosing.",
-        "path": "/abilities/judge-shopping/"
+        "path": "/abilities/judge-shopping/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "The clerk",
         "slug": "the-clerk",
-        "path": "/keystones/the-clerk/"
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone"
       },
       {
         "term": "Fee shift",
         "slug": "fee-shift",
-        "path": "/remedies/fee-shift/"
+        "path": "/remedies/fee-shift/",
+        "kind": "remedy"
       },
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22012,7 +23427,8 @@ export const entries = [
         "label": "Counters",
         "term": "Judge shopping",
         "slug": "judge-shopping",
-        "path": "/abilities/judge-shopping/"
+        "path": "/abilities/judge-shopping/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -22086,24 +23502,28 @@ export const entries = [
         "term": "SLAPP",
         "slug": "slapp",
         "tell": "The SLAPP prices speech in billable hours; the fee shift sends the invoice back to the sender.",
-        "path": "/abilities/slapp/"
+        "path": "/abilities/slapp/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       },
       {
         "term": "Random draw",
         "slug": "random-draw",
-        "path": "/remedies/random-draw/"
+        "path": "/remedies/random-draw/",
+        "kind": "remedy"
       },
       {
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22112,7 +23532,8 @@ export const entries = [
         "label": "Counters",
         "term": "SLAPP",
         "slug": "slapp",
-        "path": "/abilities/slapp/"
+        "path": "/abilities/slapp/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -22186,29 +23607,34 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "tell": "The crisisglow makes the emergency look permanent; the sunset clause makes permanence look like a decision.",
-        "path": "/buffs/crisisglow/"
+        "path": "/buffs/crisisglow/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       },
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       },
       {
         "term": "The public count",
         "slug": "the-public-count",
-        "path": "/remedies/the-public-count/"
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy"
       },
       {
         "term": "The withdrawal clause",
         "slug": "the-withdrawal-clause",
-        "path": "/remedies/the-withdrawal-clause/"
+        "path": "/remedies/the-withdrawal-clause/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22217,21 +23643,24 @@ export const entries = [
         "label": "Counters",
         "term": "Crisisglow",
         "slug": "crisisglow",
-        "path": "/buffs/crisisglow/"
+        "path": "/buffs/crisisglow/",
+        "kind": "buff"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Forever war",
         "slug": "forever-war",
-        "path": "/abilities/forever-war/"
+        "path": "/abilities/forever-war/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Grandfather clause",
         "slug": "grandfather-clause",
-        "path": "/abilities/grandfather-clause/"
+        "path": "/abilities/grandfather-clause/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -22305,19 +23734,22 @@ export const entries = [
         "term": "The caseworker",
         "slug": "the-caseworker",
         "tell": "The caseworker decides the case; the ombudsman investigates the decision.",
-        "path": "/keystones/the-caseworker/"
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       },
       {
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       }
     ],
     "edges": [
@@ -22326,14 +23758,16 @@ export const entries = [
         "label": "Counters",
         "term": "Comment section",
         "slug": "comment-section",
-        "path": "/habitats/comment-section/"
+        "path": "/habitats/comment-section/",
+        "kind": "habitat"
       },
       {
         "rel": "practises",
         "label": "Practises",
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "backlinks": [],
@@ -22407,19 +23841,22 @@ export const entries = [
         "term": "The juror",
         "slug": "the-juror",
         "tell": "The defender argues the case; the juror decides it, and neither can do the other's job.",
-        "path": "/keystones/the-juror/"
+        "path": "/keystones/the-juror/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "term": "Cross-examination",
         "slug": "cross-examination",
-        "path": "/remedies/cross-examination/"
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22428,21 +23865,24 @@ export const entries = [
         "label": "Counters",
         "term": "Dramagogue",
         "slug": "dramagogue",
-        "path": "/species/dramagogue/"
+        "path": "/species/dramagogue/",
+        "kind": "species"
       },
       {
         "rel": "practises",
         "label": "Practises",
         "term": "Cross-examination",
         "slug": "cross-examination",
-        "path": "/remedies/cross-examination/"
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
-        "path": "/abilities/qualified-immunity/"
+        "path": "/abilities/qualified-immunity/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -22516,19 +23956,22 @@ export const entries = [
         "term": "The librarian",
         "slug": "the-librarian",
         "tell": "The librarian finds the source; the translator makes it usable by somebody who did not write it.",
-        "path": "/keystones/the-librarian/"
+        "path": "/keystones/the-librarian/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22537,21 +23980,24 @@ export const entries = [
         "label": "Counters",
         "term": "Trust-Me-Brofessor",
         "slug": "trust-me-brofessor",
-        "path": "/species/trust-me-brofessor/"
+        "path": "/species/trust-me-brofessor/",
+        "kind": "species"
       },
       {
         "rel": "practises",
         "label": "Practises",
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Freetard",
         "slug": "freetard",
-        "path": "/species/freetard/"
+        "path": "/species/freetard/",
+        "kind": "species"
       }
     ],
     "backlinks": [],
@@ -22625,24 +24071,28 @@ export const entries = [
         "term": "The auditor",
         "slug": "the-auditor",
         "tell": "The juror decides one case on the evidence; the auditor examines many on a sample.",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "Gallopologist",
         "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       },
       {
         "term": "The steelman",
         "slug": "the-steelman",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       },
       {
         "term": "The public defender",
         "slug": "the-public-defender",
-        "path": "/keystones/the-public-defender/"
+        "path": "/keystones/the-public-defender/",
+        "kind": "keystone"
       }
     ],
     "edges": [
@@ -22651,21 +24101,24 @@ export const entries = [
         "label": "Counters",
         "term": "Gallopologist",
         "slug": "gallopologist",
-        "path": "/species/gallopologist/"
+        "path": "/species/gallopologist/",
+        "kind": "species"
       },
       {
         "rel": "practises",
         "label": "Practises",
         "term": "The steelman",
         "slug": "the-steelman",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Perp walk",
         "slug": "perp-walk",
-        "path": "/habitats/perp-walk/"
+        "path": "/habitats/perp-walk/",
+        "kind": "habitat"
       }
     ],
     "backlinks": [],
@@ -22739,19 +24192,22 @@ export const entries = [
         "term": "The auditor",
         "slug": "the-auditor",
         "tell": "The auditor checks the books; the statistician checks the number everybody is quoting from them.",
-        "path": "/keystones/the-auditor/"
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22760,35 +24216,40 @@ export const entries = [
         "label": "Counters",
         "term": "Xenophobricator",
         "slug": "xenophobricator",
-        "path": "/species/xenophobricator/"
+        "path": "/species/xenophobricator/",
+        "kind": "species"
       },
       {
         "rel": "practises",
         "label": "Practises",
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Push poll",
         "slug": "push-poll",
-        "path": "/moves/push-poll/"
+        "path": "/moves/push-poll/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Climate hoax",
         "slug": "climate-hoax",
-        "path": "/abilities/climate-hoax/"
+        "path": "/abilities/climate-hoax/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Convention bounce",
         "slug": "convention-bounce",
-        "path": "/buffs/convention-bounce/"
+        "path": "/buffs/convention-bounce/",
+        "kind": "buff"
       }
     ],
     "backlinks": [],
@@ -22862,19 +24323,22 @@ export const entries = [
         "term": "Access",
         "slug": "access",
         "tell": "Access buys the meeting; recusal takes the decider out of it.",
-        "path": "/buffs/access/"
+        "path": "/buffs/access/",
+        "kind": "buff"
       }
     ],
     "related": [
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       },
       {
         "term": "Random draw",
         "slug": "random-draw",
-        "path": "/remedies/random-draw/"
+        "path": "/remedies/random-draw/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22883,7 +24347,8 @@ export const entries = [
         "label": "Counters",
         "term": "Access",
         "slug": "access",
-        "path": "/buffs/access/"
+        "path": "/buffs/access/",
+        "kind": "buff"
       }
     ],
     "backlinks": [],
@@ -22957,19 +24422,22 @@ export const entries = [
         "term": "The steelman",
         "slug": "the-steelman",
         "tell": "The steelman strengthens the other side's argument; cross-examination finds out whether it holds.",
-        "path": "/remedies/the-steelman/"
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "term": "The transcript",
         "slug": "the-transcript",
-        "path": "/remedies/the-transcript/"
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -22978,21 +24446,24 @@ export const entries = [
         "label": "Counters",
         "term": "Martyrholic",
         "slug": "martyrholic",
-        "path": "/species/martyrholic/"
+        "path": "/species/martyrholic/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "JAQing Off",
         "slug": "jaqing-off",
-        "path": "/moves/jaqing-off/"
+        "path": "/moves/jaqing-off/",
+        "kind": "move"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Good cop, bad cop",
         "slug": "good-cop-bad-cop",
-        "path": "/moves/good-cop-bad-cop/"
+        "path": "/moves/good-cop-bad-cop/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -23001,7 +24472,8 @@ export const entries = [
         "label": "Practised by",
         "term": "The public defender",
         "slug": "the-public-defender",
-        "path": "/keystones/the-public-defender/"
+        "path": "/keystones/the-public-defender/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -23074,19 +24546,22 @@ export const entries = [
         "term": "Nightdocket",
         "slug": "nightdocket",
         "tell": "The night docket moves while nobody is watching; the stay is the thing that makes it wait until somebody is.",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       },
       {
         "term": "The audit",
         "slug": "the-audit",
-        "path": "/remedies/the-audit/"
+        "path": "/remedies/the-audit/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -23095,7 +24570,8 @@ export const entries = [
         "label": "Counters",
         "term": "Nightdocket",
         "slug": "nightdocket",
-        "path": "/abilities/nightdocket/"
+        "path": "/abilities/nightdocket/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -23169,19 +24645,22 @@ export const entries = [
         "term": "The statistician",
         "slug": "the-statistician",
         "tell": "The statistician counts the population; the commission draws the districts that count it.",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       }
     ],
     "related": [
       {
         "term": "Gerrythm",
         "slug": "gerrythm",
-        "path": "/abilities/gerrythm/"
+        "path": "/abilities/gerrythm/",
+        "kind": "ability"
       },
       {
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -23190,14 +24669,16 @@ export const entries = [
         "label": "Counters",
         "term": "Gerrythm",
         "slug": "gerrythm",
-        "path": "/abilities/gerrythm/"
+        "path": "/abilities/gerrythm/",
+        "kind": "ability"
       },
       {
         "rel": "practises",
         "label": "Practises",
         "term": "Notice and comment",
         "slug": "notice-and-comment",
-        "path": "/remedies/notice-and-comment/"
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy"
       }
     ],
     "backlinks": [],
@@ -23271,19 +24752,22 @@ export const entries = [
         "term": "NDA",
         "slug": "nda",
         "tell": "The NDA buys silence with a contract; the carve-out voids the contract for one category of claim.",
-        "path": "/abilities/nda/"
+        "path": "/abilities/nda/",
+        "kind": "ability"
       }
     ],
     "related": [
       {
         "term": "Cross-examination",
         "slug": "cross-examination",
-        "path": "/remedies/cross-examination/"
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy"
       },
       {
         "term": "Sunset clause",
         "slug": "sunset-clause",
-        "path": "/remedies/sunset-clause/"
+        "path": "/remedies/sunset-clause/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -23292,7 +24776,8 @@ export const entries = [
         "label": "Counters",
         "term": "NDA",
         "slug": "nda",
-        "path": "/abilities/nda/"
+        "path": "/abilities/nda/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -23366,19 +24851,22 @@ export const entries = [
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "tell": "The meeting takes comment in a room; notice and comment takes it in a docket that outlives the room.",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       }
     ],
     "related": [
       {
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       },
       {
         "term": "The written reason",
         "slug": "the-written-reason",
-        "path": "/remedies/the-written-reason/"
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy"
       }
     ],
     "edges": [
@@ -23387,42 +24875,48 @@ export const entries = [
         "label": "Counters",
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "School board meeting",
         "slug": "school-board-meeting",
-        "path": "/habitats/school-board-meeting/"
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Ragesturbationist",
         "slug": "ragesturbationist",
-        "path": "/species/ragesturbationist/"
+        "path": "/species/ragesturbationist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Passoffist",
         "slug": "passoffist",
-        "path": "/species/passoffist/"
+        "path": "/species/passoffist/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Provocrop",
         "slug": "provocrop",
-        "path": "/species/provocrop/"
+        "path": "/species/provocrop/",
+        "kind": "species"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Soft launch",
         "slug": "soft-launch",
-        "path": "/moves/soft-launch/"
+        "path": "/moves/soft-launch/",
+        "kind": "move"
       }
     ],
     "backlinks": [
@@ -23431,7 +24925,8 @@ export const entries = [
         "label": "Practised by",
         "term": "The redistricting commission",
         "slug": "the-redistricting-commission",
-        "path": "/keystones/the-redistricting-commission/"
+        "path": "/keystones/the-redistricting-commission/",
+        "kind": "keystone"
       }
     ],
     "committedFrom": []
@@ -23504,19 +24999,22 @@ export const entries = [
         "term": "Sunset clause",
         "slug": "sunset-clause",
         "tell": "The sunset clause gives a power a date; the withdrawal clause gives an exit a price, and publishes it before anyone leaves.",
-        "path": "/remedies/sunset-clause/"
+        "path": "/remedies/sunset-clause/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "Breaking treaties",
         "slug": "breaking-treaties",
-        "path": "/abilities/breaking-treaties/"
+        "path": "/abilities/breaking-treaties/",
+        "kind": "ability"
       },
       {
         "term": "Signaway",
         "slug": "signaway",
-        "path": "/abilities/signaway/"
+        "path": "/abilities/signaway/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -23525,7 +25023,8 @@ export const entries = [
         "label": "Counters",
         "term": "Breaking treaties",
         "slug": "breaking-treaties",
-        "path": "/abilities/breaking-treaties/"
+        "path": "/abilities/breaking-treaties/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],
@@ -23599,24 +25098,28 @@ export const entries = [
         "term": "Records request",
         "slug": "records-request",
         "tell": "The records request produces the document after the decision; the sponsor line puts the payer's name in front of the audience before the vote.",
-        "path": "/remedies/records-request/"
+        "path": "/remedies/records-request/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "Citizens United",
         "slug": "citizens-united",
-        "path": "/abilities/citizens-united/"
+        "path": "/abilities/citizens-united/",
+        "kind": "ability"
       },
       {
         "term": "The second source",
         "slug": "the-second-source",
-        "path": "/remedies/the-second-source/"
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy"
       },
       {
         "term": "Lobbyism",
         "slug": "lobbyism",
-        "path": "/abilities/lobbyism/"
+        "path": "/abilities/lobbyism/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -23625,14 +25128,16 @@ export const entries = [
         "label": "Counters",
         "term": "Citizens United",
         "slug": "citizens-united",
-        "path": "/abilities/citizens-united/"
+        "path": "/abilities/citizens-united/",
+        "kind": "ability"
       },
       {
         "rel": "counters",
         "label": "Counters",
         "term": "Industry conference",
         "slug": "industry-conference",
-        "path": "/habitats/industry-conference/"
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat"
       }
     ],
     "backlinks": [],
@@ -23706,24 +25211,28 @@ export const entries = [
         "term": "Sunset clause",
         "slug": "sunset-clause",
         "tell": "The sunset clause puts a date on a power; the reserve puts a quantity between the power and its price.",
-        "path": "/remedies/sunset-clause/"
+        "path": "/remedies/sunset-clause/",
+        "kind": "remedy"
       }
     ],
     "related": [
       {
         "term": "Oil diplomacy",
         "slug": "oil-diplomacy",
-        "path": "/abilities/oil-diplomacy/"
+        "path": "/abilities/oil-diplomacy/",
+        "kind": "ability"
       },
       {
         "term": "The statistician",
         "slug": "the-statistician",
-        "path": "/keystones/the-statistician/"
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone"
       },
       {
         "term": "Forever war",
         "slug": "forever-war",
-        "path": "/abilities/forever-war/"
+        "path": "/abilities/forever-war/",
+        "kind": "ability"
       }
     ],
     "edges": [
@@ -23732,7 +25241,8 @@ export const entries = [
         "label": "Counters",
         "term": "Oil diplomacy",
         "slug": "oil-diplomacy",
-        "path": "/abilities/oil-diplomacy/"
+        "path": "/abilities/oil-diplomacy/",
+        "kind": "ability"
       }
     ],
     "backlinks": [],

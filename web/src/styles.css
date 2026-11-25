@@ -20,6 +20,16 @@
   --nav-bg: rgba(18, 16, 14, 0.9);
   --accent-contrast: #14100d;
 
+  /* One hue per kind, retuned for the paper under it: the badges and the
+     relation headings borrow these, so a kind looks the same wherever it is
+     named. The species follows the accent, which is already theme-aware. */
+  --kind-species: var(--accent);
+  --kind-move: #b28ade;
+  --kind-ability: #75b79a;
+  --kind-habitat: #cf9b52;
+  --kind-fallacy: #9b9187;
+  --kind-buff: #cf7f9f;
+
   --font-display: "Fraunces", "Newsreader", Georgia, serif;
   --font-body: "Newsreader", Georgia, "Times New Roman", serif;
   --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -43,6 +53,12 @@ html[data-theme="light"] {
   --code-bg: #efe8da;
   --nav-bg: rgba(244, 239, 230, 0.9);
   --accent-contrast: #f7f2e9;
+
+  --kind-move: #6b4d8f;
+  --kind-ability: #2f6b5e;
+  --kind-habitat: #8a5a1f;
+  --kind-fallacy: #4a4a4a;
+  --kind-buff: #8f3a5e;
 
   color-scheme: light;
 }
@@ -356,12 +372,21 @@ button.chip { appearance: none; }
   border: 1px solid var(--rule); border-radius: 2px; color: var(--ink-soft);
   vertical-align: middle;
 }
-.badge-species { color: var(--accent); border-color: var(--accent); }
-.badge-move { color: #6b4d8f; border-color: #6b4d8f; }
-.badge-ability { color: #2f6b5e; border-color: #2f6b5e; }
-.badge-habitat { color: #8a5a1f; border-color: #8a5a1f; }
-.badge-fallacy { color: #4a4a4a; border-color: #4a4a4a; }
-.badge-buff { color: #8f3a5e; border-color: #8f3a5e; }
+.badge-species { color: var(--kind-species); border-color: var(--kind-species); }
+.badge-move { color: var(--kind-move); border-color: var(--kind-move); }
+.badge-ability { color: var(--kind-ability); border-color: var(--kind-ability); }
+.badge-habitat { color: var(--kind-habitat); border-color: var(--kind-habitat); }
+.badge-fallacy { color: var(--kind-fallacy); border-color: var(--kind-fallacy); }
+.badge-buff { color: var(--kind-buff); border-color: var(--kind-buff); }
+
+/* The same colours as plain text, for headings that already sit inside a
+   bordered shape. */
+.kind-species { color: var(--kind-species); }
+.kind-move { color: var(--kind-move); }
+.kind-ability { color: var(--kind-ability); }
+.kind-habitat { color: var(--kind-habitat); }
+.kind-fallacy { color: var(--kind-fallacy); }
+.kind-buff { color: var(--kind-buff); }
 
 .atoz {
   display: flex; gap: 3px; flex-wrap: wrap;
@@ -619,6 +644,19 @@ button.chip { appearance: none; }
 .species-edge a { color: var(--ink); text-decoration-color: var(--accent); }
 .species-edge a:hover { color: var(--accent); }
 .species-edge .sep { color: var(--line); margin: 0 6px; }
+
+/* One relation, several kinds: the relation's own label heads the block and
+   each kind gets a line of its own, so a habitat can house species, moves and
+   fallacies without the three reading as one undifferentiated list. */
+.species-edge-grouped { margin-bottom: 14px; }
+.species-edge-grouped .species-edge-label { display: block; margin: 0 0 3px; }
+/* The kind heads its own line so the terms keep the full measure the other
+   relations use, and a long list wraps back to the margin it started from. */
+.species-edge-group { margin: 0 0 7px; font-size: 18px; }
+.species-edge-group-label {
+  display: block; font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1px;
+}
 
 /* The bottom rail of an entry: where it came from, where the record lives,
    and the one button a reader needs to send it to somebody. */

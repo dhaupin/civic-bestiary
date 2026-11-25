@@ -188,6 +188,10 @@ def build(doc):
     for entry in entries:
         for link in [*entry["related"], *entry["confusedWith"], *entry["edges"]]:
             link["path"] = path_of.get(link["slug"], f"/species/{link['slug']}/")
+            # Every link says what it points at. A list that mixes kinds - a
+            # habitat's houses - cannot label itself without it.
+            target = by_slug.get(link["slug"])
+            link["kind"] = target["kind"] if target is not None else None
     # Derive the reverse of every authored edge, so the target page can say
     # "staged in Patriotainment" without anyone writing that sentence.
     for entry in entries:
@@ -200,6 +204,7 @@ def build(doc):
                     "term": entry["term"],
                     "slug": entry["slug"],
                     "path": entry["path"],
+                    "kind": entry["kind"],
                 })
 
     # A fallacy is filed by the argument it names; the characters that commit it
