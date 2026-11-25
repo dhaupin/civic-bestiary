@@ -27,6 +27,8 @@ export default function Species() {
     path: entry ? entry.path : `/species/${slug}/`,
     title: entry ? `${entry.term} - ${entry.partOfSpeech} | ${site.name}` : undefined,
     description: entry ? entry.summary : undefined,
+    image: entry ? `${site.url}${entry.og}` : undefined,
+    imageAlt: entry ? `${entry.term} - ${entry.kindLabel} - ${site.name}` : undefined,
   })
 
   if (!entry) return <NotFound />

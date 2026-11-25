@@ -620,6 +620,7 @@ export const entries = [
     "example": "\"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.\"",
     "cite": null,
     "summary": "The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.",
+    "og": "/og/species/playtriot.png?v=38b340bb",
     "definition": "The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.",
     "confusedWith": [
       {
@@ -759,6 +760,7 @@ export const entries = [
     "example": "\"Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right.\"",
     "cite": null,
     "summary": "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
+    "og": "/og/species/freetard.png?v=062c5d0f",
     "definition": "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
     "confusedWith": [
       {
@@ -872,6 +874,7 @@ export const entries = [
     "example": "\"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior.\"",
     "cite": null,
     "summary": "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
+    "og": "/og/species/larptarian.png?v=ee65ad54",
     "definition": "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
     "confusedWith": [
       {
@@ -1009,6 +1012,7 @@ export const entries = [
     "example": "\"Pulled over on plates he had printed himself, the **critizen** explained that he was travelling rather than driving, and that the officer was a corporation.\"",
     "cite": null,
     "summary": "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation...",
+    "og": "/og/species/critizen.png?v=360d3d29",
     "definition": "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation, the permit argued instead of filed.",
     "confusedWith": [
       {
@@ -1148,6 +1152,7 @@ export const entries = [
     "example": "\"Cheerfully voting to defund his own town's hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**.\"",
     "cite": null,
     "summary": "The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.",
+    "og": "/og/species/sabotriot.png?v=2525c802",
     "definition": "The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.",
     "confusedWith": [
       {
@@ -1264,6 +1269,7 @@ export const entries = [
     "example": "\"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale.\"",
     "cite": null,
     "summary": "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving...",
+    "og": "/og/habitat/patriotainment.png?v=6583a767",
     "definition": "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the country is something you buy a ticket to watch rather than something you owe the people living in it.",
     "confusedWith": [
       {
@@ -1425,6 +1431,7 @@ export const entries = [
     "example": "\"He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break.\"",
     "cite": null,
     "summary": "The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.",
+    "og": "/og/species/patriotainer.png?v=87f21d10",
     "definition": "The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.",
     "confusedWith": [
       {
@@ -1578,7 +1585,8 @@ export const entries = [
       "label": "Wikipedia · Filibuster",
       "url": "https://en.wikipedia.org/wiki/Filibuster"
     },
-    "summary": "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather than the...",
+    "summary": "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather...",
+    "og": "/og/ability/filibluster.png?v=b91113dc",
     "definition": "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather than the person, available to anyone willing to read the phone book into the record.",
     "confusedWith": [
       {
@@ -1685,6 +1693,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Gerrymandering"
     },
     "summary": "The capability of a legislature to choose its voters instead of the reverse - now run by software that tests ten thousand maps overnight against...",
+    "og": "/og/ability/gerrythm.png?v=07b61f3d",
     "definition": "The capability of a legislature to choose its voters instead of the reverse - now run by software that tests ten thousand maps overnight against turnout history and keeps the one most likely to survive a court.",
     "confusedWith": [
       {
@@ -1789,6 +1798,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Omnibus_bill"
     },
     "summary": "The capability of a legislature to bundle everything it cannot defend separately into one document too large to read and too urgent to refuse.",
+    "og": "/og/ability/omnibust.png?v=96792874",
     "definition": "The capability of a legislature to bundle everything it cannot defend separately into one document too large to read and too urgent to refuse.",
     "confusedWith": [
       {
@@ -1888,6 +1898,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Grace_period#Politics"
     },
     "summary": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
+    "og": "/og/buff/honeymoan.png?v=5342c574",
     "definition": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
     "confusedWith": [
       {
@@ -1978,7 +1989,8 @@ export const entries = [
       "label": "Wikipedia · Pocket veto",
       "url": "https://en.wikipedia.org/wiki/Pocket_veto"
     },
-    "summary": "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill is...",
+    "summary": "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill...",
+    "og": "/og/ability/pocketveto.png?v=43239d35",
     "definition": "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill is simply not law - no message, no veto to override, no vote to defend.",
     "confusedWith": [
       {
@@ -2076,6 +2088,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Shadow_docket"
     },
     "summary": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes...",
+    "og": "/og/ability/nightdocket.png?v=050ffece",
     "definition": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes the law without the hearing the law usually requires.",
     "confusedWith": [
       {
@@ -2180,6 +2193,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Coattail_effect"
     },
     "summary": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride...",
+    "og": "/og/buff/coattails.png?v=d29b0636",
     "definition": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride the same wave, whether or not the wave was about them.",
     "confusedWith": [
       {
@@ -2269,6 +2283,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Convention_bounce"
     },
     "summary": "The polling lift a party gets from its own convention: four days of unchallenged messaging, a balloon drop, and a sample that is briefly paying...",
+    "og": "/og/buff/convention-bounce.png?v=d1c49e20",
     "definition": "The polling lift a party gets from its own convention: four days of unchallenged messaging, a balloon drop, and a sample that is briefly paying attention.",
     "confusedWith": [
       {
@@ -2366,6 +2381,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Cloture"
     },
     "summary": "The motion that closes debate: a supermajority votes to stop talking and the chamber moves to the question - the procedural exit from a filibuster...",
+    "og": "/og/ability/cloture.png?v=5e2c0ac2",
     "definition": "The motion that closes debate: a supermajority votes to stop talking and the chamber moves to the question - the procedural exit from a filibuster, priced in session days rather than in votes.",
     "confusedWith": [
       {
@@ -2469,7 +2485,8 @@ export const entries = [
       "label": "Wikipedia · Discharge petition",
       "url": "https://en.wikipedia.org/wiki/Discharge_petition"
     },
-    "summary": "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the...",
+    "summary": "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it...",
+    "og": "/og/ability/discharge-petition.png?v=6bfa1493",
     "definition": "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218 names, filed with the clerk, open for anyone to read.",
     "confusedWith": [
       {
@@ -2566,6 +2583,7 @@ export const entries = [
     "example": "\"We will have a bold, historic plan within the first hundred days\" - **vague promises**: a title, a press conference, and no sentence that could be checked.",
     "cite": null,
     "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given...",
+    "og": "/og/move/vague-promises.png?v=eb0d5439",
     "definition": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.",
     "confusedWith": [
       {
@@ -2664,6 +2682,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Citizens_United_v._FEC"
     },
     "summary": "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker.",
+    "og": "/og/ability/citizens-united.png?v=510e8b2a",
     "definition": "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker.",
     "confusedWith": [
       {
@@ -2766,6 +2785,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Slippery_slope"
     },
     "summary": "Informal · Presumption fallacy: Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it...",
+    "og": "/og/fallacy/slippery-slope.png?v=ee3d8c2f",
     "definition": "Claiming that a small first step will inevitably lead to an extreme outcome, without showing the mechanism that carries it there.",
     "confusedWith": [
       {
@@ -2881,6 +2901,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/No_true_Scotsman"
     },
     "summary": "Informal · Faulty generalization fallacy: Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall...",
+    "og": "/og/fallacy/no-true-scotsman.png?v=02630fb1",
     "definition": "Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside it.",
     "confusedWith": [
       {
@@ -2996,6 +3017,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
     },
     "summary": "Informal · Red herring fallacy: Treating a practice as correct because it is old, without showing that age is evidence of anything.",
+    "og": "/og/fallacy/appeal-to-tradition.png?v=033630a8",
     "definition": "Treating a practice as correct because it is old, without showing that age is evidence of anything.",
     "confusedWith": [
       {
@@ -3142,6 +3164,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_nature"
     },
     "summary": "Informal · Red herring fallacy: Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
+    "og": "/og/fallacy/appeal-to-nature.png?v=0f6f3084",
     "definition": "Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
     "confusedWith": [
       {
@@ -3257,6 +3280,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Proof_by_assertion"
     },
     "summary": "Informal · Presumption fallacy: Repeating a claim with confidence as though repetition were support, and treating objection as noise.",
+    "og": "/og/fallacy/proof-by-assertion.png?v=fca96777",
     "definition": "Repeating a claim with confidence as though repetition were support, and treating objection as noise.",
     "confusedWith": [
       {
@@ -3393,6 +3417,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Sunk_cost"
     },
     "summary": "Informal · Statistical fallacy: Continuing a failing course of action because of what has already been invested in it.",
+    "og": "/og/fallacy/sunk-cost-fallacy.png?v=5cbafbe3",
     "definition": "Continuing a failing course of action because of what has already been invested in it.",
     "confusedWith": [
       {
@@ -3503,6 +3528,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion"
     },
     "summary": "Informal · Red herring fallacy: Ending a dispute about facts by asserting the right to hold an opinion, as though the right settled the question.",
+    "og": "/og/fallacy/im-entitled-to-my-opinion.png?v=2ecd0a7f",
     "definition": "Ending a dispute about facts by asserting the right to hold an opinion, as though the right settled the question.",
     "confusedWith": [
       {
@@ -3619,6 +3645,7 @@ export const entries = [
     "example": "\"You can't have a productive discussion with a **sophistroll**; the second you disprove his point, he'll pivot to three different straw men and an ad hominem attack.\"",
     "cite": null,
     "summary": "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
+    "og": "/og/species/sophistroll.png?v=97694d18",
     "definition": "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
     "confusedWith": [
       {
@@ -3788,6 +3815,7 @@ export const entries = [
     "example": "\"He spent twenty minutes smugly lecturing the thread about 'facts and logic' while committing four textbook fallacies per paragraph - a true **illogician** at work.\"",
     "cite": null,
     "summary": "The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second...",
+    "og": "/og/species/illogician.png?v=500d2d19",
     "definition": "The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second question.",
     "confusedWith": [
       {
@@ -3915,6 +3943,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Sealioning"
     },
     "summary": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\"...",
+    "og": "/og/move/jaqing-off.png?v=c4345ab5",
     "definition": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\" solely for self-gratification and plausible deniability - immediately retreating behind \"Hey, I'm just asking questions!\" the second anyone demands accountability.",
     "confusedWith": [
       {
@@ -4042,6 +4071,7 @@ export const entries = [
     "example": "\"He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to 'look it up themselves.'\"",
     "cite": null,
     "summary": "The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.",
+    "og": "/og/species/trust-me-brofessor.png?v=f0d33504",
     "definition": "The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.",
     "confusedWith": [
       {
@@ -4162,6 +4192,7 @@ export const entries = [
     "example": "\"Don't bother asking him for actual peer-reviewed studies; he's a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy.\"",
     "cite": null,
     "summary": "The pattern of answering a finding with a bibliography: the source's history produced instead of the claim's evidence.",
+    "og": "/og/species/biasographer.png?v=13b22008",
     "definition": "The pattern of answering a finding with a bibliography: the source's history produced instead of the claim's evidence.",
     "confusedWith": [
       {
@@ -4303,6 +4334,7 @@ export const entries = [
     "example": "\"Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as 'fake news' and patronizingly told the researcher to 'wake up and learn how the world actually works.'\"",
     "cite": null,
     "summary": "The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.",
+    "og": "/og/species/bleatkeeper.png?v=b4a3522f",
     "definition": "The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.",
     "confusedWith": [
       {
@@ -4430,6 +4462,7 @@ export const entries = [
     "example": "\"Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims 'raise real questions' before cutting to commercial.\"",
     "cite": null,
     "summary": "The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.",
+    "og": "/og/species/equivangelist.png?v=ee492206",
     "definition": "The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.",
     "confusedWith": [
       {
@@ -4548,6 +4581,7 @@ export const entries = [
     "example": "\"In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator's time limit 'proof' that he'd won.\"",
     "cite": null,
     "summary": "The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.",
+    "og": "/og/species/gallopologist.png?v=2930a575",
     "definition": "The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.",
     "confusedWith": [
       {
@@ -4675,6 +4709,7 @@ export const entries = [
     "example": "\"The panel spent four minutes on the policy and twenty on whether the audience's booing was 'divisive' - a textbook **decorumancer** performance.\"",
     "cite": null,
     "summary": "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.",
+    "og": "/og/species/decorumancer.png?v=5db43721",
     "definition": "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.",
     "confusedWith": [
       {
@@ -4791,6 +4826,7 @@ export const entries = [
     "example": "\"Four hundred comments under a budget story, and not one of them about the budget - three about the mayor's brother, two hundred about each other, and a bot selling a supplement.\"",
     "cite": null,
     "summary": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.",
+    "og": "/og/habitat/comment-section.png?v=4bad08b1",
     "definition": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.",
     "confusedWith": [
       {
@@ -5014,6 +5050,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/False_balance"
     },
     "summary": "The move of answering a documented fact with the existence of a contrary claim, as though the claim's existence were evidence of its weight.",
+    "og": "/og/move/bothsidesing.png?v=b0294051",
     "definition": "The move of answering a documented fact with the existence of a contrary claim, as though the claim's existence were evidence of its weight.",
     "confusedWith": [
       {
@@ -5134,6 +5171,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Vaguebooking"
     },
     "summary": "The move of publishing a grievance without its subject, so that every reader supplies the name they already suspected.",
+    "og": "/og/move/vaguebooking.png?v=6c7df23b",
     "definition": "The move of publishing a grievance without its subject, so that every reader supplies the name they already suspected.",
     "confusedWith": [
       {
@@ -5237,6 +5275,7 @@ export const entries = [
     "example": "\"He replied with forty-one screenshots, three of them duplicates and a link to a folder - a **receiptbomb** that took an hour to find the one paragraph that mattered in.\"",
     "cite": null,
     "summary": "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost...",
+    "og": "/og/move/receiptbomb.png?v=4cb1ebfe",
     "definition": "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost to make.",
     "confusedWith": [
       {
@@ -5342,7 +5381,8 @@ export const entries = [
       "label": "Wikipedia · Dead cat strategy",
       "url": "https://en.wikipedia.org/wiki/Dead_cat_strategy"
     },
-    "summary": "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced by the...",
+    "summary": "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced...",
+    "og": "/og/move/dead-cat.png?v=05e5cdbc",
     "definition": "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced by the thing nobody can stop looking at.",
     "confusedWith": [
       {
@@ -5447,6 +5487,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Trial_balloon"
     },
     "summary": "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy.",
+    "og": "/og/move/trial-balloon.png?v=50bd1d64",
     "definition": "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy.",
     "confusedWith": [
       {
@@ -5556,6 +5597,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Friday_news_dump"
     },
     "summary": "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired.",
+    "og": "/og/move/friday-news-dump.png?v=47558846",
     "definition": "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired.",
     "confusedWith": [
       {
@@ -5660,6 +5702,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Astroturfing"
     },
     "summary": "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule.",
+    "og": "/og/move/astroturfing.png?v=734a4e70",
     "definition": "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule.",
     "confusedWith": [
       {
@@ -5764,6 +5807,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Motte_and_bailey_fallacy"
     },
     "summary": "The move of retreating from an indefensible claim to a defensible one, winning the argument about the small claim, then re-advancing the large one...",
+    "og": "/og/move/motte-hop.png?v=2bb0bd30",
     "definition": "The move of retreating from an indefensible claim to a defensible one, winning the argument about the small claim, then re-advancing the large one once the pressure is off.",
     "confusedWith": [
       {
@@ -5874,7 +5918,8 @@ export const entries = [
       "label": "Wikipedia · Heckler's veto",
       "url": "https://en.wikipedia.org/wiki/Heckler%27s_veto"
     },
-    "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is...",
+    "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event...",
+    "og": "/og/move/hecklers-veto.png?v=31f2d0a2",
     "definition": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is not worth holding.",
     "confusedWith": [
       {
@@ -5986,6 +6031,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Firehose_of_falsehood"
     },
     "summary": "The move of releasing more than anyone can process: real stories, fake stories and irrelevant stories in the same hour, so the true ones cannot be...",
+    "og": "/og/move/flood-the-zone.png?v=c0b7f169",
     "definition": "The move of releasing more than anyone can process: real stories, fake stories and irrelevant stories in the same hour, so the true ones cannot be separated in time to matter.",
     "confusedWith": [
       {
@@ -6097,6 +6143,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Good_cop/bad_cop"
     },
     "summary": "The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions...",
+    "og": "/og/move/good-cop-bad-cop.png?v=9b80dafe",
     "definition": "The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions, then the envoy with the same terms and a softer voice.",
     "confusedWith": [
       {
@@ -6209,6 +6256,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Ad_hominem"
     },
     "summary": "Informal · Red herring fallacy: Answering an argument by attacking the person who advanced it rather than the claim they advanced.",
+    "og": "/og/fallacy/ad-hominem.png?v=e0f53f2d",
     "definition": "Answering an argument by attacking the person who advanced it rather than the claim they advanced.",
     "confusedWith": [
       {
@@ -6324,6 +6372,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Straw_man"
     },
     "summary": "Informal · Red herring fallacy: Replacing someone's position with a weaker, sillier version of it and then defeating the version you built.",
+    "og": "/og/fallacy/straw-man.png?v=1d0354c6",
     "definition": "Replacing someone's position with a weaker, sillier version of it and then defeating the version you built.",
     "confusedWith": [
       {
@@ -6456,6 +6505,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_authority"
     },
     "summary": "Informal · Red herring fallacy: Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
+    "og": "/og/fallacy/appeal-to-authority.png?v=c5dc8234",
     "definition": "Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
     "confusedWith": [
       {
@@ -6630,6 +6680,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/False_dilemma"
     },
     "summary": "Informal · Presumption fallacy: Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
+    "og": "/og/fallacy/false-dilemma.png?v=26f9a25e",
     "definition": "Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
     "confusedWith": [
       {
@@ -6764,6 +6815,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Loaded_question"
     },
     "summary": "Informal · Improper premise fallacy: Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
+    "og": "/og/fallacy/loaded-question.png?v=6b44d01a",
     "definition": "Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
     "confusedWith": [
       {
@@ -6879,6 +6931,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Circular_reasoning"
     },
     "summary": "Informal · Improper premise fallacy: Using a claim as its own support, often with an extra step so the circle is harder to see.",
+    "og": "/og/fallacy/circular-reasoning.png?v=f9265a7e",
     "definition": "Using a claim as its own support, often with an extra step so the circle is harder to see.",
     "confusedWith": [
       {
@@ -6989,6 +7042,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance"
     },
     "summary": "Informal · Relevance fallacy: Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
+    "og": "/og/fallacy/argument-from-ignorance.png?v=66b465b1",
     "definition": "Treating a claim as true because it has not been proven false, or false because it has not been proven true.",
     "confusedWith": [
       {
@@ -7128,6 +7182,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Tone_policing"
     },
     "summary": "Informal · Red herring fallacy: Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
+    "og": "/og/fallacy/tone-policing.png?v=65631942",
     "definition": "Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
     "confusedWith": [
       {
@@ -7242,7 +7297,8 @@ export const entries = [
       "label": "Wikipedia · Motte-and-bailey fallacy",
       "url": "https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy"
     },
-    "summary": "Informal · Presumption fallacy: Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and...",
+    "summary": "Informal · Presumption fallacy: Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged...",
+    "og": "/og/fallacy/motte-and-bailey-fallacy.png?v=5729c8ca",
     "definition": "Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing the strong claim once the pressure is off.",
     "confusedWith": [
       {
@@ -7353,6 +7409,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy"
     },
     "summary": "Informal · Faulty generalization fallacy: Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
+    "og": "/og/fallacy/texas-sharpshooter-fallacy.png?v=fe2c5f1b",
     "definition": "Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
     "confusedWith": [
       {
@@ -7480,6 +7537,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Poisoning_the_well"
     },
     "summary": "Informal · Red herring fallacy: Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.",
+    "og": "/og/fallacy/poisoning-the-well.png?v=bf64c6d3",
     "definition": "Discrediting a source in advance, so that anything they say afterwards is discounted before it is heard.",
     "confusedWith": [
       {
@@ -7616,6 +7674,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Nutpicking"
     },
     "summary": "Informal · Faulty generalization fallacy: Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
+    "og": "/og/fallacy/nut-picking.png?v=c4e25874",
     "definition": "Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
     "confusedWith": [
       {
@@ -7726,6 +7785,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Sealioning"
     },
     "summary": "Informal · Relevance fallacy: Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.",
+    "og": "/og/fallacy/sealioning.png?v=9f45f01c",
     "definition": "Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment.",
     "confusedWith": [
       {
@@ -7836,6 +7896,7 @@ export const entries = [
       "url": "https://unstrangemind.com/kafka-trap/"
     },
     "summary": "Informal · Presumption fallacy: The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would...",
+    "og": "/og/fallacy/kafka-trap.png?v=97226f03",
     "definition": "The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say.",
     "confusedWith": [
       {
@@ -7946,6 +8007,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Bulverism"
     },
     "summary": "Informal · Red herring fallacy: Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list.",
+    "og": "/og/fallacy/bulverism.png?v=a690dad4",
     "definition": "Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list.",
     "confusedWith": [
       {
@@ -8061,6 +8123,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Nirvana_fallacy"
     },
     "summary": "Informal · Presumption fallacy: Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost.",
+    "og": "/og/fallacy/nirvana-fallacy.png?v=4c603324",
     "definition": "Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost.",
     "confusedWith": [
       {
@@ -8176,6 +8239,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy"
     },
     "summary": "Informal · Statistical fallacy: Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event...",
+    "og": "/og/fallacy/base-rate-fallacy.png?v=7c5eda20",
     "definition": "Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with.",
     "confusedWith": [
       {
@@ -8286,6 +8350,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_force"
     },
     "summary": "Informal · Red herring fallacy: Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear.",
+    "og": "/og/fallacy/appeal-to-force.png?v=bf8ddb91",
     "definition": "Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear.",
     "confusedWith": [
       {
@@ -8401,6 +8466,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Fallacy_fallacy"
     },
     "summary": "Informal · Presumption fallacy: Concluding that a claim is false because the argument offered for it is invalid.",
+    "og": "/og/fallacy/the-fallacy-fallacy.png?v=df832cc8",
     "definition": "Concluding that a claim is false because the argument offered for it is invalid.",
     "confusedWith": [
       {
@@ -8511,6 +8577,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/McNamara_fallacy"
     },
     "summary": "Informal · Statistical fallacy: Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted...",
+    "og": "/og/fallacy/mcnamara-fallacy.png?v=db4c22fe",
     "definition": "Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the charge is not.",
     "confusedWith": [
       {
@@ -8622,6 +8689,7 @@ export const entries = [
     "example": "\"After spending years screaming about 'law and order' and 'treason,' the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump's latest authoritarian threat was 'obviously just a joke.'\"",
     "cite": null,
     "summary": "The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.",
+    "og": "/og/species/hypocontortionist.png?v=9c059485",
     "definition": "The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.",
     "confusedWith": [
       {
@@ -8761,6 +8829,7 @@ export const entries = [
     "example": "\"Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism.\"",
     "cite": null,
     "summary": "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.",
+    "og": "/og/species/mythstorian.png?v=58ebe3fa",
     "definition": "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.",
     "confusedWith": [
       {
@@ -8883,6 +8952,7 @@ export const entries = [
     "example": "\"For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests.\"",
     "cite": null,
     "summary": "An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently...",
+    "og": "/og/buff/bootcurious.png?v=ff8f6483",
     "definition": "An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
     "confusedWith": [
       {
@@ -8998,6 +9068,7 @@ export const entries = [
     "example": "\"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**.\"",
     "cite": null,
     "summary": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing...",
+    "og": "/og/move/crookmaxxing.png?v=f017f72c",
     "definition": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.",
     "confusedWith": [
       {
@@ -9111,6 +9182,7 @@ export const entries = [
     "example": "\"The order hadn't been signed yet and the **capitulectual** already had a column explaining why resistance would be 'counterproductive' and 'unserious.'\"",
     "cite": null,
     "summary": "The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.",
+    "og": "/og/species/capitulectual.png?v=8b07ce46",
     "definition": "The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.",
     "confusedWith": [
       {
@@ -9249,7 +9321,8 @@ export const entries = [
       "label": "Wikipedia · Subpoena",
       "url": "https://en.wikipedia.org/wiki/Subpoena"
     },
-    "summary": "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is...",
+    "summary": "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons...",
+    "og": "/og/ability/subpoenado.png?v=2f3b4566",
     "definition": "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is timed for the cameras rather than the calendar.",
     "confusedWith": [
       {
@@ -9345,7 +9418,8 @@ export const entries = [
     "notes": [],
     "example": "\"The agency's new senior advisers were the donor list with titles, and the **cronycle** had finished before the ethics waiver was filed.\"",
     "cite": null,
-    "summary": "The capability of an administration to replace the people who run the machinery with the people who donated to it - not by firing anyone, but by...",
+    "summary": "The capability of an administration to replace the people who run the machinery with the people who donated to it - not by firing anyone...",
+    "og": "/og/ability/cronycle.png?v=1b73d46d",
     "definition": "The capability of an administration to replace the people who run the machinery with the people who donated to it - not by firing anyone, but by reclassifying the jobs until loyalty is a qualification.",
     "confusedWith": [
       {
@@ -9445,6 +9519,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Non-apology_apology"
     },
     "summary": "The move of answering a documented harm with regret about its reception, so that the apology becomes a second accusation.",
+    "og": "/og/move/nonpology.png?v=f0159c50",
     "definition": "The move of answering a documented harm with regret about its reception, so that the apology becomes a second accusation.",
     "confusedWith": [
       {
@@ -9563,7 +9638,8 @@ export const entries = [
       "label": "Wikipedia · Board of education",
       "url": "https://en.wikipedia.org/wiki/Board_of_education"
     },
-    "summary": "The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while the...",
+    "summary": "The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while...",
+    "og": "/og/habitat/school-board-meeting.png?v=2892a615",
     "definition": "The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while the country watches the clip.",
     "confusedWith": [
       {
@@ -9745,6 +9821,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Blue_slip"
     },
     "summary": "Senatorial courtesy as a procedure: the committee asks both home-state senators to return a blue slip on each nominee, and a slip that never comes...",
+    "og": "/og/ability/blueslip.png?v=d6a32b29",
     "definition": "Senatorial courtesy as a procedure: the committee asks both home-state senators to return a blue slip on each nominee, and a slip that never comes back is a nomination that never gets a hearing.",
     "confusedWith": [
       {
@@ -9849,6 +9926,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Recess_appointment"
     },
     "summary": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session...",
+    "og": "/og/ability/recessure.png?v=c9e4246f",
     "definition": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session - a temporary official holding a permanent-looking title.",
     "confusedWith": [
       {
@@ -9945,7 +10023,8 @@ export const entries = [
       "label": "Wikipedia · Signing statement",
       "url": "https://en.wikipedia.org/wiki/Signing_statement"
     },
-    "summary": "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto that...",
+    "summary": "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto...",
+    "og": "/og/ability/signaway.png?v=eae41fe6",
     "definition": "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto that arrives after the bill is already law.",
     "confusedWith": [
       {
@@ -10050,6 +10129,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Lame_duck_(politics)"
     },
     "summary": "The condition of an officeholder whose replacement is already elected: still holding the powers, no longer holding the future - the stretch between...",
+    "og": "/og/buff/lame-duck.png?v=25ae7202",
     "definition": "The condition of an officeholder whose replacement is already elected: still holding the powers, no longer holding the future - the stretch between the vote and the oath.",
     "confusedWith": [
       {
@@ -10138,7 +10218,8 @@ export const entries = [
       "label": "Wikipedia · Judge shopping",
       "url": "https://en.wikipedia.org/wiki/Judge_shopping"
     },
-    "summary": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped by a...",
+    "summary": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped...",
+    "og": "/og/ability/judge-shopping.png?v=78a93fdd",
     "definition": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped by a courthouse choice that never once mentions a judge.",
     "confusedWith": [
       {
@@ -10243,6 +10324,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Strategic_lawsuit_against_public_participation"
     },
     "summary": "A suit filed not to win but to cost: the claim is weak, the discovery is wide, and the point is that defending it takes years the critic does not...",
+    "og": "/og/ability/slapp.png?v=cdb3e28d",
     "definition": "A suit filed not to win but to cost: the claim is weak, the discovery is wide, and the point is that defending it takes years the critic does not have.",
     "confusedWith": [
       {
@@ -10347,6 +10429,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Non-disclosure_agreement"
     },
     "summary": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you...",
+    "og": "/og/ability/nda.png?v=3c96ecec",
     "definition": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you owe rather than something you know.",
     "confusedWith": [
       {
@@ -10444,6 +10527,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Qualified_immunity"
     },
     "summary": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first...",
+    "og": "/og/ability/qualified-immunity.png?v=6f2846e1",
     "definition": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first person to be wronged usually loses, and the rule is established by losing.",
     "confusedWith": [
       {
@@ -10540,7 +10624,8 @@ export const entries = [
       "label": "Wikipedia · Consent decree",
       "url": "https://en.wikipedia.org/wiki/Consent_decree"
     },
-    "summary": "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor, and a...",
+    "summary": "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor...",
+    "og": "/og/ability/consent-decree.png?v=21205dbd",
     "definition": "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor, and a schedule.",
     "confusedWith": [
       {
@@ -10625,6 +10710,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Vienna_Convention_on_the_Law_of_Treaties"
     },
     "summary": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal...",
+    "og": "/og/ability/breaking-treaties.png?v=a81a362d",
     "definition": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal is announced in the language of liberation.",
     "confusedWith": [
       {
@@ -10714,7 +10800,8 @@ export const entries = [
       "label": "Wikipedia · Executive session",
       "url": "https://en.wikipedia.org/wiki/Executive_session"
     },
-    "summary": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a...",
+    "summary": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room...",
+    "og": "/og/habitat/secret-meeting.png?v=2d5fd05b",
     "definition": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum's authority and none of a quorum's exposure.",
     "confusedWith": [
       {
@@ -10820,6 +10907,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Old_boy_network"
     },
     "summary": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes...",
+    "og": "/og/habitat/good-ol-boys-club.png?v=6ea809be",
     "definition": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
     "confusedWith": [
       {
@@ -10923,6 +11011,7 @@ export const entries = [
     "example": "\"Per the guidance issued by the office\" - an **unelected official** whose name nobody in the room could give, exercising a power nobody in the room could vote on.",
     "cite": null,
     "summary": "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate...",
+    "og": "/og/buff/unelected-official.png?v=c551b9db",
     "definition": "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate and answers to nobody who votes.",
     "confusedWith": [
       {
@@ -11005,6 +11094,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Two_wrongs_make_a_right"
     },
     "summary": "Informal · Red herring fallacy: Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.",
+    "og": "/og/fallacy/two-wrongs-make-a-right.png?v=7891b8e6",
     "definition": "Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question.",
     "confusedWith": [
       {
@@ -11127,6 +11217,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc"
     },
     "summary": "Informal · Questionable cause fallacy: Concluding that one event caused another because it happened first.",
+    "og": "/og/fallacy/post-hoc-ergo-propter-hoc.png?v=bac35bac",
     "definition": "Concluding that one event caused another because it happened first.",
     "confusedWith": [
       {
@@ -11242,6 +11333,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Special_pleading"
     },
     "summary": "Informal · Presumption fallacy: Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.",
+    "og": "/og/fallacy/special-pleading.png?v=b9da63fc",
     "definition": "Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others.",
     "confusedWith": [
       {
@@ -11406,6 +11498,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Argument_to_moderation"
     },
     "summary": "Informal · Presumption fallacy: Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
+    "og": "/og/fallacy/argument-to-moderation.png?v=2713118d",
     "definition": "Assuming that the correct answer must lie between two stated positions, regardless of what either position says.",
     "confusedWith": [
       {
@@ -11520,7 +11613,8 @@ export const entries = [
       "label": "Wikipedia · False balance",
       "url": "https://en.wikipedia.org/wiki/False_balance"
     },
-    "summary": "Informal · Statistical fallacy: Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer than an...",
+    "summary": "Informal · Statistical fallacy: Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer...",
+    "og": "/og/fallacy/false-balance.png?v=9af71485",
     "definition": "Presenting two sides as equally supported when the evidence is lopsided, because a balanced panel feels fairer than an accurate one.",
     "confusedWith": [
       {
@@ -11636,6 +11730,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Argument_from_silence"
     },
     "summary": "Informal · Relevance fallacy: Concluding something from the absence of a record, when the record would not have mentioned it either way.",
+    "og": "/og/fallacy/argument-from-silence.png?v=ca87a1a8",
     "definition": "Concluding something from the absence of a record, when the record would not have mentioned it either way.",
     "confusedWith": [
       {
@@ -11785,6 +11880,7 @@ export const entries = [
     "example": "\"Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program.\"",
     "cite": null,
     "summary": "The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest...",
+    "og": "/og/species/xenophobricator.png?v=2ff05ab9",
     "definition": "The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest arrivals.",
     "confusedWith": [
       {
@@ -11919,6 +12015,7 @@ export const entries = [
     "example": "\"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior.\"",
     "cite": null,
     "summary": "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
+    "og": "/og/species/dramagogue.png?v=a7e1aff2",
     "definition": "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
     "confusedWith": [
       {
@@ -12065,6 +12162,7 @@ export const entries = [
     "example": "\"He has zero intention of fixing the issue he screams about every night; he's a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities.\"",
     "cite": null,
     "summary": "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.",
+    "og": "/og/species/ragesturbationist.png?v=8200c4f9",
     "definition": "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.",
     "confusedWith": [
       {
@@ -12185,6 +12283,7 @@ export const entries = [
     "example": "\"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior.\"",
     "cite": null,
     "summary": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.",
+    "og": "/og/species/martyrholic.png?v=7ae44fba",
     "definition": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.",
     "confusedWith": [
       {
@@ -12312,6 +12411,7 @@ export const entries = [
     "example": "\"Bragging that he 'escaped the matrix' while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**.\"",
     "cite": null,
     "summary": "The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.",
+    "og": "/og/species/algodemic.png?v=bc64a761",
     "definition": "The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.",
     "confusedWith": [
       {
@@ -12459,7 +12559,8 @@ export const entries = [
     "notes": [],
     "example": "\"A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**.\"",
     "cite": null,
-    "summary": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the...",
+    "summary": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against...",
+    "og": "/og/species/plutomartyr.png?v=91891754",
     "definition": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the speaker.",
     "confusedWith": [
       {
@@ -12608,6 +12709,7 @@ export const entries = [
     "example": "\"Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn't believe the story, he just ships it.\"",
     "cite": null,
     "summary": "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was...",
+    "og": "/og/species/slopagandist.png?v=0f377e22",
     "definition": "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was accountable for the piece.",
     "confusedWith": [
       {
@@ -12783,6 +12885,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Panel_discussion"
     },
     "summary": "A produced argument: a fixed panel, a fixed clock, and a topic chosen for heat rather than for answerability.",
+    "og": "/og/habitat/cable-panel.png?v=64a1a906",
     "definition": "A produced argument: a fixed panel, a fixed clock, and a topic chosen for heat rather than for answerability.",
     "confusedWith": [
       {
@@ -12979,6 +13082,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Group_chat"
     },
     "summary": "A private, high-trust, low-correction forum - the room where a claim arrives from someone you love and is therefore not audited.",
+    "og": "/og/habitat/group-chat.png?v=4a9de6e8",
     "definition": "A private, high-trust, low-correction forum - the room where a claim arrives from someone you love and is therefore not audited.",
     "confusedWith": [
       {
@@ -13140,7 +13244,8 @@ export const entries = [
       "label": "Wikipedia · Twitter verification",
       "url": "https://en.wikipedia.org/wiki/Twitter_verification"
     },
-    "summary": "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real, and...",
+    "summary": "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real...",
+    "og": "/og/buff/bluecheck.png?v=ad8bb793",
     "definition": "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real, and gets heard as the account being right.",
     "confusedWith": [
       {
@@ -13237,6 +13342,7 @@ export const entries = [
     "example": "\"For six weeks of **crisisglow** the mayor could not be criticised without someone asking whether you supported the recovery.\"",
     "cite": null,
     "summary": "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
+    "og": "/og/buff/crisisglow.png?v=de7f7ba1",
     "definition": "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
     "confusedWith": [
       {
@@ -13341,6 +13447,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Rally_%27round_the_flag_effect"
     },
     "summary": "A temporary condition in which being charged raises the bearer's standing with their own audience, because persecution is the strongest...",
+    "og": "/og/buff/indictbump.png?v=759fef41",
     "definition": "A temporary condition in which being charged raises the bearer's standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
     "confusedWith": [
       {
@@ -13438,6 +13545,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/News_feed"
     },
     "summary": "The habitat that chooses its own inhabitants: a place with no address, no closing time, and an editor that is a model trained on what you paused on.",
+    "og": "/og/habitat/the-feed.png?v=ef2ddd5a",
     "definition": "The habitat that chooses its own inhabitants: a place with no address, no closing time, and an editor that is a model trained on what you paused on.",
     "confusedWith": [
       {
@@ -13613,6 +13721,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Rubber_chicken_circuit"
     },
     "summary": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch.",
+    "og": "/og/habitat/rubber-chicken-circuit.png?v=b99c66f1",
     "definition": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch.",
     "confusedWith": [
       {
@@ -13731,6 +13840,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Push_poll"
     },
     "summary": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery.",
+    "og": "/og/move/push-poll.png?v=f2c0167c",
     "definition": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery.",
     "confusedWith": [
       {
@@ -13848,6 +13958,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/James_S._Brady_Press_Briefing_Room"
     },
     "summary": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras...",
+    "og": "/og/habitat/briefing-room.png?v=ab83bcfb",
     "definition": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras neither side controls.",
     "confusedWith": [
       {
@@ -14020,7 +14131,8 @@ export const entries = [
       "label": "Wikipedia · Spin room",
       "url": "https://en.wikipedia.org/wiki/Spin_room"
     },
-    "summary": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the...",
+    "summary": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes...",
+    "og": "/og/habitat/spin-room.png?v=1d602062",
     "definition": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning's story.",
     "confusedWith": [
       {
@@ -14152,6 +14264,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Political_rally"
     },
     "summary": "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back.",
+    "og": "/og/habitat/rally.png?v=7813171d",
     "definition": "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back.",
     "confusedWith": [
       {
@@ -14329,7 +14442,8 @@ export const entries = [
     "notes": [],
     "example": "\"Four **frankincense** mailers in one month, all marked official, all carrying the same photograph, and the challenger's first ad was a picture of them in a pile.\"",
     "cite": null,
-    "summary": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the...",
+    "summary": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite...",
+    "og": "/og/buff/frankincense.png?v=83b63bfd",
     "definition": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the reason the mailbox fills before every election.",
     "confusedWith": [
       {
@@ -14433,6 +14547,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Pseudo-event"
     },
     "summary": "An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement.",
+    "og": "/og/habitat/pseudo-event.png?v=ee4a365b",
     "definition": "An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement.",
     "confusedWith": [
       {
@@ -14543,6 +14658,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Perp_walk"
     },
     "summary": "The staged walk: a suspect moved past cameras at the pace of the photographer, in restraints, before a jury has been chosen.",
+    "og": "/og/habitat/perp-walk.png?v=d771c1c3",
     "definition": "The staged walk: a suspect moved past cameras at the pace of the photographer, in restraints, before a jury has been chosen.",
     "confusedWith": [
       {
@@ -14661,6 +14777,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Access_journalism"
     },
     "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible...",
+    "og": "/og/buff/access.png?v=aa0e9bc4",
     "definition": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and the next hard question expensive.",
     "confusedWith": [
       {
@@ -14758,6 +14875,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Hot_mic"
     },
     "summary": "The condition of being recorded while off: the green-room joke, the hallway aside, the thing said to the aide who is still holding the microphone.",
+    "og": "/og/buff/hot-mic.png?v=78d43f45",
     "definition": "The condition of being recorded while off: the green-room joke, the hallway aside, the thing said to the aide who is still holding the microphone.",
     "confusedWith": [
       {
@@ -14855,6 +14973,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction"
     },
     "summary": "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory...",
+    "og": "/og/move/wmd-mongering.png?v=0c354a30",
     "definition": "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory that is always forty-five minutes away.",
     "confusedWith": [
       {
@@ -14961,6 +15080,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Lobbying"
     },
     "summary": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade...",
+    "og": "/og/ability/lobbyism.png?v=4c249257",
     "definition": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee's friends.",
     "confusedWith": [
       {
@@ -15059,6 +15179,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Political_action_committee"
     },
     "summary": "The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt.",
+    "og": "/og/buff/pac-check.png?v=b98ba1f7",
     "definition": "The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt.",
     "confusedWith": [
       {
@@ -15134,7 +15255,8 @@ export const entries = [
       "label": "Wikipedia · Energy diplomacy",
       "url": "https://en.wikipedia.org/wiki/Energy_diplomacy"
     },
-    "summary": "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really a...",
+    "summary": "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really...",
+    "og": "/og/ability/oil-diplomacy.png?v=1ab92b38",
     "definition": "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really a market position.",
     "confusedWith": [
       {
@@ -15224,6 +15346,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Climate_change_denial"
     },
     "summary": "The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else...",
+    "og": "/og/ability/climate-hoax.png?v=8d34506b",
     "definition": "The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else, the study that is always about to be published.",
     "confusedWith": [
       {
@@ -15315,6 +15438,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Perpetual_war"
     },
     "summary": "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor...",
+    "og": "/og/ability/forever-war.png?v=e2c0d770",
     "definition": "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor rather than a decision, the enemy renamed so the paperwork still applies.",
     "confusedWith": [
       {
@@ -15412,6 +15536,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_emotion"
     },
     "summary": "Informal · Red herring fallacy: Treating an emotional reaction as evidence for a factual claim - fear, anger, sympathy, or pride standing in for a reason.",
+    "og": "/og/fallacy/appeal-to-emotion.png?v=35a4afeb",
     "definition": "Treating an emotional reaction as evidence for a factual claim - fear, anger, sympathy, or pride standing in for a reason.",
     "confusedWith": [
       {
@@ -15567,6 +15692,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_fear"
     },
     "summary": "Informal · Red herring fallacy: Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.",
+    "og": "/og/fallacy/appeal-to-fear.png?v=a4887673",
     "definition": "Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work.",
     "confusedWith": [
       {
@@ -15727,6 +15853,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Moving_the_goalposts"
     },
     "summary": "Informal · Presumption fallacy: Demanding new evidence after the original demand has been met.",
+    "og": "/og/fallacy/moving-the-goalposts.png?v=81588fd4",
     "definition": "Demanding new evidence after the original demand has been met.",
     "confusedWith": [
       {
@@ -15842,6 +15969,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
     },
     "summary": "Informal · Statistical fallacy: Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
+    "og": "/og/fallacy/survivorship-bias.png?v=e7d0cad7",
     "definition": "Drawing a conclusion from the cases that are visible while ignoring the cases that are missing because they failed.",
     "confusedWith": [
       {
@@ -15957,6 +16085,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Association_fallacy"
     },
     "summary": "Informal · Red herring fallacy: Rejecting or accepting an idea because of who else holds it, rather than because of what it says.",
+    "og": "/og/fallacy/association-fallacy.png?v=7dea7f74",
     "definition": "Rejecting or accepting an idea because of who else holds it, rather than because of what it says.",
     "confusedWith": [
       {
@@ -16072,6 +16201,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_motive"
     },
     "summary": "Informal · Red herring fallacy: Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
+    "og": "/og/fallacy/appeal-to-motive.png?v=7b6ef2cd",
     "definition": "Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
     "confusedWith": [
       {
@@ -16182,6 +16312,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_pity"
     },
     "summary": "Informal · Red herring fallacy: Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.",
+    "og": "/og/fallacy/appeal-to-pity.png?v=307ea9b4",
     "definition": "Arguing that a claim is true, or an act excusable, because of the hardship of the person making it.",
     "confusedWith": [
       {
@@ -16287,6 +16418,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Ad_nauseam"
     },
     "summary": "Informal · Relevance fallacy: Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.",
+    "og": "/og/fallacy/ad-nauseam.png?v=b20e0b0c",
     "definition": "Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.",
     "confusedWith": [
       {
@@ -16409,6 +16541,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_novelty"
     },
     "summary": "Informal · Red herring fallacy: Treating a claim or a practice as correct because it is new, or an older one as wrong because it is old.",
+    "og": "/og/fallacy/appeal-to-novelty.png?v=e690c68e",
     "definition": "Treating a claim or a practice as correct because it is new, or an older one as wrong because it is old.",
     "confusedWith": [
       {
@@ -16531,6 +16664,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_consequences"
     },
     "summary": "Informal · Red herring fallacy: Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.",
+    "og": "/og/fallacy/appeal-to-consequences.png?v=eb0672a5",
     "definition": "Arguing that a claim is false because its consequences would be unpleasant, or true because they would be convenient.",
     "confusedWith": [
       {
@@ -16641,7 +16775,8 @@ export const entries = [
     "notes": [],
     "example": "\"Asked what she thought of the removals, the **passoffist** observed that everyone was getting very heated, and suggested they talk about something else.\"",
     "cite": null,
-    "summary": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the...",
+    "summary": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant...",
+    "og": "/og/species/passoffist.png?v=5a160c45",
     "definition": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the view never tested because it was never said.",
     "confusedWith": [
       {
@@ -16780,7 +16915,8 @@ export const entries = [
     "notes": [],
     "example": "\"Tucked into dad jeans at the hardware store, the **provocrop** was wearing this morning's headline and had not read past it.\"",
     "cite": null,
-    "summary": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the...",
+    "summary": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn...",
+    "og": "/og/species/provocrop.png?v=de1e0c73",
     "definition": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the charge it carries rather than for anything it commits the wearer to.",
     "confusedWith": [
       {
@@ -16910,7 +17046,8 @@ export const entries = [
       "label": "Wikipedia · Status quo bias",
       "url": "https://en.wikipedia.org/wiki/Status_quo_bias"
     },
-    "summary": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the...",
+    "summary": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed...",
+    "og": "/og/species/precedentarian.png?v=7862965e",
     "definition": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the fact that somebody answered it once.",
     "confusedWith": [
       {
@@ -17018,7 +17155,8 @@ export const entries = [
       "label": "Wikipedia · Soft launch",
       "url": "https://en.wikipedia.org/wiki/Soft_launch"
     },
-    "summary": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by...",
+    "summary": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past...",
+    "og": "/og/move/soft-launch.png?v=27649eaf",
     "definition": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by the time anyone notices they are living under the arrangement.",
     "confusedWith": [
       {
@@ -17117,7 +17255,8 @@ export const entries = [
       "label": "Wikipedia · Grandfather clause",
       "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
     },
-    "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the...",
+    "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice...",
+    "og": "/og/ability/grandfather-clause.png?v=fb821042",
     "definition": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule was written about survives because it arrived first.",
     "confusedWith": [
       {
@@ -17222,7 +17361,8 @@ export const entries = [
       "label": "Wikipedia · Regulatory capture",
       "url": "https://en.wikipedia.org/wiki/Regulatory_capture"
     },
-    "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work an...",
+    "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work...",
+    "og": "/og/habitat/industry-conference.png?v=451d551b",
     "definition": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work an argument would have had to do.",
     "confusedWith": [
       {
@@ -17344,7 +17484,8 @@ export const entries = [
       "label": "Wikipedia · Alarm fatigue",
       "url": "https://en.wikipedia.org/wiki/Alarm_fatigue"
     },
-    "summary": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in...",
+    "summary": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph...",
+    "og": "/og/buff/outrage-fatigue.png?v=37b616e6",
     "definition": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in September, and the conduct has not changed.",
     "confusedWith": [
       {
@@ -17430,6 +17571,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Hasty_generalization"
     },
     "summary": "Informal · Faulty generalization fallacy: Drawing a broad conclusion from a sample too small, or too selected, to support it.",
+    "og": "/og/fallacy/hasty-generalization.png?v=fea3dfb7",
     "definition": "Drawing a broad conclusion from a sample too small, or too selected, to support it.",
     "confusedWith": [
       {
@@ -17564,6 +17706,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Cherry_picking"
     },
     "summary": "Informal · Faulty generalization fallacy: Selecting the evidence that supports a conclusion while ignoring the evidence that does not.",
+    "og": "/og/fallacy/cherry-picking.png?v=018b7a6b",
     "definition": "Selecting the evidence that supports a conclusion while ignoring the evidence that does not.",
     "confusedWith": [
       {
@@ -17710,6 +17853,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/False_equivalence"
     },
     "summary": "Informal · Presumption fallacy: Treating two things as equally bad, or equally serious, because they share a name or a shape.",
+    "og": "/og/fallacy/false-equivalence.png?v=ab2675fa",
     "definition": "Treating two things as equally bad, or equally serious, because they share a name or a shape.",
     "confusedWith": [
       {
@@ -17837,6 +17981,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Anecdotal_evidence"
     },
     "summary": "Informal · Faulty generalization fallacy: Using a single personal story as though it outweighed systematic evidence about the same question.",
+    "og": "/og/fallacy/anecdotal-evidence.png?v=7463ccb1",
     "definition": "Using a single personal story as though it outweighed systematic evidence about the same question.",
     "confusedWith": [
       {
@@ -17952,6 +18097,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Equivocation"
     },
     "summary": "Informal · Ambiguity fallacy: Using one word in two different senses inside a single argument, so the conclusion appears to follow.",
+    "og": "/og/fallacy/equivocation.png?v=d985d74b",
     "definition": "Using one word in two different senses inside a single argument, so the conclusion appears to follow.",
     "confusedWith": [
       {
@@ -18093,6 +18239,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Tu_quoque"
     },
     "summary": "Informal · Red herring fallacy: Answering a charge by charging the accuser with the same thing, as though a second offence cancelled the first.",
+    "og": "/og/fallacy/tu-quoque.png?v=3ff41ec7",
     "definition": "Answering a charge by charging the accuser with the same thing, as though a second offence cancelled the first.",
     "confusedWith": [
       {
@@ -18227,6 +18374,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Whataboutism"
     },
     "summary": "Informal · Red herring fallacy: Deflecting a question by raising a different grievance, so the original subject never gets answered.",
+    "og": "/og/fallacy/whataboutism.png?v=7fd0f456",
     "definition": "Deflecting a question by raising a different grievance, so the original subject never gets answered.",
     "confusedWith": [
       {
@@ -18349,6 +18497,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_ridicule"
     },
     "summary": "Informal · Red herring fallacy: Dismissing a position by making it sound absurd rather than by showing that it is wrong.",
+    "og": "/og/fallacy/appeal-to-ridicule.png?v=361adcae",
     "definition": "Dismissing a position by making it sound absurd rather than by showing that it is wrong.",
     "confusedWith": [
       {
@@ -18476,6 +18625,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Argumentum_ad_populum"
     },
     "summary": "Informal · Red herring fallacy: Treating a belief as true because many people hold it, or as false because few do.",
+    "og": "/og/fallacy/argumentum-ad-populum.png?v=9bcc0aec",
     "definition": "Treating a belief as true because many people hold it, or as false because few do.",
     "confusedWith": [
       {
@@ -18662,6 +18812,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9"
     },
     "summary": "Informal · Faulty generalization fallacy: Closing a line of thought with a stock phrase that sounds like a conclusion and forecloses the next question.",
+    "og": "/og/fallacy/thought-terminating-cliche.png?v=16eca72f",
     "definition": "Closing a line of thought with a stock phrase that sounds like a conclusion and forecloses the next question.",
     "confusedWith": [
       {
@@ -18803,6 +18954,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/False_attribution"
     },
     "summary": "Informal · Red herring fallacy: Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never...",
+    "og": "/og/fallacy/false-attribution.png?v=3924dc63",
     "definition": "Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never said it.",
     "confusedWith": [
       {
@@ -18918,6 +19070,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy)"
     },
     "summary": "Informal · Presumption fallacy: Demanding that others disprove a claim instead of supporting it, so that the absence of disproof is treated as support.",
+    "og": "/og/fallacy/shifting-the-burden-of-proof.png?v=8b941659",
     "definition": "Demanding that others disprove a claim instead of supporting it, so that the absence of disproof is treated as support.",
     "confusedWith": [
       {
@@ -19054,6 +19207,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Gish_gallop"
     },
     "summary": "Informal · Relevance fallacy: Overwhelming an opponent with a flood of dubious claims so that answering all of them is impossible in the time available.",
+    "og": "/og/fallacy/gish-gallop.png?v=97254d65",
     "definition": "Overwhelming an opponent with a flood of dubious claims so that answering all of them is impossible in the time available.",
     "confusedWith": [
       {
@@ -19195,6 +19349,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Appeal_to_the_stone"
     },
     "summary": "Informal · Relevance fallacy: Dismissing a claim as absurd without saying what is wrong with it, treating obviousness as an argument.",
+    "og": "/og/fallacy/appeal-to-the-stone.png?v=213b6975",
     "definition": "Dismissing a claim as absurd without saying what is wrong with it, treating obviousness as an argument.",
     "confusedWith": [
       {
@@ -19310,6 +19465,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Shifting_baseline"
     },
     "summary": "Informal · Statistical fallacy: Judging the present against the last generation's memory instead of the record: the lake still has fish, the river...",
+    "og": "/og/fallacy/shifting-baseline.png?v=a50d9497",
     "definition": "Judging the present against the last generation's memory instead of the record: the lake still has fish, the river still runs clear enough, the airport still works, so nothing has changed.",
     "confusedWith": [
       {
@@ -19457,7 +19613,8 @@ export const entries = [
       "label": "Wikipedia · Creeping normality",
       "url": "https://en.wikipedia.org/wiki/Creeping_normality"
     },
-    "summary": "Informal · Presumption fallacy: Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend: the...",
+    "summary": "Informal · Presumption fallacy: Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend...",
+    "og": "/og/fallacy/creeping-normality.png?v=2863f8d1",
     "definition": "Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend: the fee, then the surcharge, then the surcharge with the waiting period.",
     "confusedWith": [
       {
@@ -19584,7 +19741,8 @@ export const entries = [
       "label": "Wikipedia · Normalcy bias",
       "url": "https://en.wikipedia.org/wiki/Normalcy_bias"
     },
-    "summary": "Informal · Presumption fallacy: Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke, so...",
+    "summary": "Informal · Presumption fallacy: Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke...",
+    "og": "/og/fallacy/normalcy-bias.png?v=1800ddfb",
     "definition": "Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke, so the thing being described cannot be coming.",
     "confusedWith": [
       {
@@ -19714,6 +19872,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Just-world_hypothesis"
     },
     "summary": "Informal · Improper premise fallacy: Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient...",
+    "og": "/og/fallacy/just-world-hypothesis.png?v=8c74de65",
     "definition": "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner, the country that should have governed itself better.",
     "confusedWith": [
       {
@@ -19833,6 +19992,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/City_clerk"
     },
     "summary": "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most...",
+    "og": "/og/keystone/the-clerk.png?v=835103ae",
     "definition": "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.",
     "confusedWith": [
       {
@@ -19961,7 +20121,8 @@ export const entries = [
       "label": "Wikipedia · Election official",
       "url": "https://en.wikipedia.org/wiki/Election_official"
     },
-    "summary": "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job is...",
+    "summary": "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job...",
+    "og": "/og/keystone/the-poll-worker.png?v=8bb78e81",
     "definition": "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job is temporary and public, which is the point: the count is run by neighbours who can be watched.",
     "confusedWith": [
       {
@@ -20070,6 +20231,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Archivist_of_the_United_States"
     },
     "summary": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists...",
+    "og": "/og/keystone/the-archivist.png?v=8e96d3db",
     "definition": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are usually the only people in an institution with a professional duty to keep things nobody is asking for.",
     "confusedWith": [
       {
@@ -20198,7 +20360,8 @@ export const entries = [
       "label": "Wikipedia · Librarian",
       "url": "https://en.wikipedia.org/wiki/Librarian"
     },
-    "summary": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The...",
+    "summary": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone....",
+    "og": "/og/keystone/the-librarian.png?v=529673f7",
     "definition": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The job is not to know the answer; it is to know how the answer is checked.",
     "confusedWith": [
       {
@@ -20300,6 +20463,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Social_work"
     },
     "summary": "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political...",
+    "og": "/og/keystone/the-caseworker.png?v=6b17e539",
     "definition": "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political scientists call this street-level bureaucracy, and it is where most of the state is actually experienced.",
     "confusedWith": [
       {
@@ -20408,6 +20572,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Copy_editing"
     },
     "summary": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides...",
+    "og": "/og/keystone/the-editor.png?v=f42293ab",
     "definition": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides what the story is actually claiming. The job is institutional rather than personal - it exists so the decision is not made by the person who wrote the sentence.",
     "confusedWith": [
       {
@@ -20516,6 +20681,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Debate_moderator"
     },
     "summary": "The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was...",
+    "og": "/og/keystone/the-moderator.png?v=0079ac64",
     "definition": "The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was asked. Moderation is a procedural job that everybody mistakes for a personality.",
     "confusedWith": [
       {
@@ -20638,6 +20804,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Government_Accountability_Office"
     },
     "summary": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not...",
+    "og": "/og/keystone/the-auditor.png?v=cd587367",
     "definition": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate with the audited. The output is not an opinion; it is a finding with a name and a date attached.",
     "confusedWith": [
       {
@@ -20750,7 +20917,8 @@ export const entries = [
       "label": "Wikipedia · Freedom of Information Act (United States)",
       "url": "https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)"
     },
-    "summary": "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need a...",
+    "summary": "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need...",
+    "og": "/og/remedy/records-request.png?v=6b84bb46",
     "definition": "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need a lawyer or a reason - you need the right office and the right words.",
     "confusedWith": [
       {
@@ -20888,6 +21056,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Court_reporter"
     },
     "summary": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about...",
+    "og": "/og/remedy/the-transcript.png?v=3a4a4e79",
     "definition": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about what somebody said on Tuesday.",
     "confusedWith": [
       {
@@ -21045,7 +21214,8 @@ export const entries = [
       "label": "Wikipedia · Media literacy",
       "url": "https://en.wikipedia.org/wiki/Media_literacy"
     },
-    "summary": "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who the...",
+    "summary": "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who...",
+    "og": "/og/remedy/lateral-reading.png?v=8001c8fe",
     "definition": "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who the publisher is, what they have got wrong before, and who else is reporting the same thing.",
     "confusedWith": [
       {
@@ -21162,6 +21332,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Source_criticism"
     },
     "summary": "The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It...",
+    "og": "/og/remedy/the-second-source.png?v=0a09eb9e",
     "definition": "The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It is a cost, deliberately, and the cost is the quality control.",
     "confusedWith": [
       {
@@ -21290,6 +21461,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Steelmanning"
     },
     "summary": "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather...",
+    "og": "/og/remedy/the-steelman.png?v=72da15e5",
     "definition": "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather than a mood.",
     "confusedWith": [
       {
@@ -21411,6 +21583,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Risk-limiting_audit"
     },
     "summary": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted...",
+    "og": "/og/remedy/the-public-count.png?v=5a40d624",
     "definition": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted, and a number published that matches the room.",
     "confusedWith": [
       {
@@ -21538,7 +21711,8 @@ export const entries = [
       "label": "Wikipedia · Ratio decidendi",
       "url": "https://en.wikipedia.org/wiki/Ratio_decidendi"
     },
-    "summary": "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It is the...",
+    "summary": "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It...",
+    "og": "/og/remedy/the-written-reason.png?v=951afe85",
     "definition": "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It is the cheapest accountability mechanism ever invented, and the one most often reduced to a template.",
     "confusedWith": [
       {
@@ -21676,6 +21850,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Audit"
     },
     "summary": "The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it...",
+    "og": "/og/remedy/the-audit.png?v=a00fd674",
     "definition": "The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it examined and to the public at the same time.",
     "confusedWith": [
       {
@@ -21804,6 +21979,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Sortition"
     },
     "summary": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works...",
+    "og": "/og/remedy/random-draw.png?v=b79b3236",
     "definition": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works by making the choice uninteresting.",
     "confusedWith": [
       {
@@ -21902,7 +22078,8 @@ export const entries = [
       "label": "Wikipedia · Fee shifting",
       "url": "https://en.wikipedia.org/wiki/Fee_shifting"
     },
-    "summary": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the...",
+    "summary": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if...",
+    "og": "/og/remedy/fee-shift.png?v=a5778e9e",
     "definition": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit was brought to silence them.",
     "confusedWith": [
       {
@@ -22001,7 +22178,8 @@ export const entries = [
       "label": "Wikipedia · Sunset provision",
       "url": "https://en.wikipedia.org/wiki/Sunset_provision"
     },
-    "summary": "The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked for...",
+    "summary": "The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked...",
+    "og": "/og/remedy/sunset-clause.png?v=082b4015",
     "definition": "The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked for out loud.",
     "confusedWith": [
       {
@@ -22120,6 +22298,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Ombudsman"
     },
     "summary": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly...",
+    "og": "/og/keystone/the-ombudsman.png?v=0d08bc29",
     "definition": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what went wrong. The office is old, cheap and structurally boring, which is most of why it works.",
     "confusedWith": [
       {
@@ -22221,6 +22400,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Public_defender"
     },
     "summary": "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole...",
+    "og": "/og/keystone/the-public-defender.png?v=c0310056",
     "definition": "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole story - a defender carrying two hundred files cannot investigate any of them.",
     "confusedWith": [
       {
@@ -22329,6 +22509,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Translation"
     },
     "summary": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice...",
+    "og": "/og/keystone/the-translator.png?v=8c536b9f",
     "definition": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice that says what happens next instead of citing the section that says it.",
     "confusedWith": [
       {
@@ -22437,6 +22618,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Jury"
     },
     "summary": "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened....",
+    "og": "/og/keystone/the-juror.png?v=e0a209d6",
     "definition": "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened. It is the only public duty that requires a person to weigh evidence rather than repeat a conclusion.",
     "confusedWith": [
       {
@@ -22550,6 +22732,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Statistician"
     },
     "summary": "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion...",
+    "og": "/og/keystone/the-statistician.png?v=090d008f",
     "definition": "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion about the number; it is to publish how the number was made so that anyone can argue with the method.",
     "confusedWith": [
       {
@@ -22672,6 +22855,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Recusal"
     },
     "summary": "The rule that a person with a financial interest, a family tie, or a prior role in the matter steps out of it - and says so in writing, so the step...",
+    "og": "/og/remedy/recusal.png?v=eed177da",
     "definition": "The rule that a person with a financial interest, a family tie, or a prior role in the matter steps out of it - and says so in writing, so the step is checkable rather than gallant.",
     "confusedWith": [
       {
@@ -22766,6 +22950,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Cross-examination"
     },
     "summary": "The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given...",
+    "og": "/og/remedy/cross-examination.png?v=298a261e",
     "definition": "The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given rather than a theme restated.",
     "confusedWith": [
       {
@@ -22881,7 +23066,8 @@ export const entries = [
       "label": "Wikipedia · Stay of proceedings",
       "url": "https://en.wikipedia.org/wiki/Stay_of_proceedings"
     },
-    "summary": "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent of a...",
+    "summary": "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent...",
+    "og": "/og/remedy/the-stay.png?v=ad347879",
     "definition": "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent of a hand on the arm, granted or refused by a judge who has to say why.",
     "confusedWith": [
       {
@@ -22975,7 +23161,8 @@ export const entries = [
       "label": "Wikipedia · Redistricting commission",
       "url": "https://en.wikipedia.org/wiki/Redistricting_commission"
     },
-    "summary": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a...",
+    "summary": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment...",
+    "og": "/og/keystone/the-redistricting-commission.png?v=96f67c53",
     "definition": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a final map that has to be defended against the criteria rather than against the seat count.",
     "confusedWith": [
       {
@@ -23076,7 +23263,8 @@ export const entries = [
       "label": "Wikipedia · Grandfather clause",
       "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
     },
-    "summary": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced in a...",
+    "summary": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced...",
+    "og": "/og/remedy/the-carve-out.png?v=bfb7defa",
     "definition": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced in a harassment claim, the release that cannot waive a wage claim, the arbitration agreement that does not reach a civil-rights suit.",
     "confusedWith": [
       {
@@ -23171,6 +23359,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Rulemaking"
     },
     "summary": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative...",
+    "og": "/og/remedy/notice-and-comment.png?v=e5b4297e",
     "definition": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state's version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
     "confusedWith": [
       {
@@ -23308,6 +23497,7 @@ export const entries = [
       "url": "https://en.wikipedia.org/wiki/Article_50_of_the_Treaty_on_European_Union"
     },
     "summary": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule...",
+    "og": "/og/remedy/the-withdrawal-clause.png?v=d8a7fcdf",
     "definition": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule of what the departing party still owes.",
     "confusedWith": [
       {
@@ -23401,7 +23591,8 @@ export const entries = [
       "label": "Wikipedia · Stand by Your Ad provision",
       "url": "https://en.wikipedia.org/wiki/Stand_by_Your_Ad_provision"
     },
-    "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the...",
+    "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment...",
+    "og": "/og/remedy/the-sponsor-line.png?v=3e8bb77f",
     "definition": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
     "confusedWith": [
       {
@@ -23507,7 +23698,8 @@ export const entries = [
       "label": "Wikipedia · Strategic Petroleum Reserve (United States)",
       "url": "https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States)"
     },
-    "summary": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the...",
+    "summary": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made...",
+    "og": "/og/remedy/the-reserve.png?v=e1bddef1",
     "definition": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the commodity a worse weapon.",
     "confusedWith": [
       {
