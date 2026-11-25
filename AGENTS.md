@@ -368,11 +368,17 @@ appending.
   buff with no `counters` edge is not a gap. If one is later needed, wire it then.
 - `part_of_speech` and `ipa` use the loose conventions already in the file; IPA is
   approximate and follows the coining, not a dictionary.
-- Prose uses ` - ` (spaced hyphen), never an em dash. The site converts quotes to curly at
-  generation time; `lexicon.json` keeps straight quotes.
+- Prose uses ` - ` (spaced hyphen), never an em dash. `lexicon.json` keeps straight quotes;
+  `build_site.py` runs every prose field through `typographic()`, so the site is curly
+  throughout. `build.py` prints the record as written, so the book stays straight. Type the
+  source the way you want the book to read.
 - The example is one line of reported speech, with the coined term in `**bold**` and the
   whole quote in italics. It is the "sighting in the wild"; `call` is the different thing -
-  what the character says, not what someone says about it.
+  what the character says, not what someone says about it. Reference entries are the
+  exception: a fallacy quotes the sentence that commits it, then says what it does, and has
+  no coinage to bold.
+- `related` never repeats a `confused_with` twin. Both generators filter the twin out of the
+  compare list, so the link would render nowhere; it is dead data, not a second connection.
 - Voice is satirical and pointed, aimed at behavior, institutions, and power - never at
   identity, and never at the people on the receiving end. The bestiary frame carries the
   rule: the species is the pattern, not the person.

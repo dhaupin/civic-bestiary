@@ -1440,6 +1440,11 @@ export const entries = [
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
         "path": "/habitats/rubber-chicken-circuit/"
+      },
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
       }
     ],
     "edges": [
@@ -2770,6 +2775,11 @@ export const entries = [
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
         "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -2880,6 +2890,11 @@ export const entries = [
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
         "path": "/fallacies/moving-the-goalposts/"
+      },
+      {
+        "term": "Nut-picking",
+        "slug": "nut-picking",
+        "path": "/fallacies/nut-picking/"
       }
     ],
     "edges": [],
@@ -3117,6 +3132,11 @@ export const entries = [
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
         "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
     "edges": [],
@@ -3363,6 +3383,11 @@ export const entries = [
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
         "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      },
+      {
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
       }
     ],
     "edges": [],
@@ -3468,6 +3493,11 @@ export const entries = [
         "term": "Equivocation",
         "slug": "equivocation",
         "path": "/fallacies/equivocation/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
       }
     ],
     "edges": [],
@@ -6057,6 +6087,11 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
       }
     ],
     "edges": [
@@ -6719,6 +6754,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/"
       }
     ],
     "edges": [],
@@ -6829,6 +6869,11 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/"
       }
     ],
     "edges": [],
@@ -7073,6 +7118,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Whataboutism",
+        "slug": "whataboutism",
+        "path": "/fallacies/whataboutism/"
       }
     ],
     "edges": [],
@@ -7183,6 +7233,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
       }
     ],
     "edges": [],
@@ -7415,6 +7470,11 @@ export const entries = [
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
         "path": "/fallacies/appeal-to-motive/"
+      },
+      {
+        "term": "Tu quoque",
+        "slug": "tu-quoque",
+        "path": "/fallacies/tu-quoque/"
       }
     ],
     "edges": [],
@@ -7546,6 +7606,11 @@ export const entries = [
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
         "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/"
       }
     ],
     "edges": [],
@@ -7651,6 +7716,11 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/"
       }
     ],
     "edges": [],
@@ -10635,6 +10705,11 @@ export const entries = [
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
         "path": "/habitats/good-ol-boys-club/"
+      },
+      {
+        "term": "Pseudo-event",
+        "slug": "pseudo-event",
+        "path": "/habitats/pseudo-event/"
       }
     ],
     "edges": [
@@ -10735,6 +10810,11 @@ export const entries = [
         "term": "Secret meeting",
         "slug": "secret-meeting",
         "path": "/habitats/secret-meeting/"
+      },
+      {
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
       }
     ],
     "edges": [
@@ -10833,6 +10913,11 @@ export const entries = [
         "term": "Nightdocket",
         "slug": "nightdocket",
         "path": "/abilities/nightdocket/"
+      },
+      {
+        "term": "Lame duck",
+        "slug": "lame-duck",
+        "path": "/buffs/lame-duck/"
       }
     ],
     "edges": [],
@@ -10910,6 +10995,11 @@ export const entries = [
         "term": "Special pleading",
         "slug": "special-pleading",
         "path": "/fallacies/special-pleading/"
+      },
+      {
+        "term": "Whataboutism",
+        "slug": "whataboutism",
+        "path": "/fallacies/whataboutism/"
       }
     ],
     "edges": [],
@@ -11027,6 +11117,11 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
       }
     ],
     "edges": [],
@@ -11137,6 +11232,11 @@ export const entries = [
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
         "path": "/fallacies/moving-the-goalposts/"
+      },
+      {
+        "term": "No true Scotsman",
+        "slug": "no-true-scotsman",
+        "path": "/fallacies/no-true-scotsman/"
       }
     ],
     "edges": [],
@@ -11296,6 +11396,11 @@ export const entries = [
         "term": "False dilemma",
         "slug": "false-dilemma",
         "path": "/fallacies/false-dilemma/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -11406,6 +11511,11 @@ export const entries = [
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
         "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
       }
     ],
     "edges": [],
@@ -11516,6 +11626,11 @@ export const entries = [
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
         "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
     "edges": [],
@@ -14831,6 +14946,11 @@ export const entries = [
         "term": "Citizens United",
         "slug": "citizens-united",
         "path": "/abilities/citizens-united/"
+      },
+      {
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "path": "/abilities/cronycle/"
       }
     ],
     "edges": [],
@@ -15082,6 +15202,11 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
       }
     ],
     "edges": [],
@@ -15168,6 +15293,11 @@ export const entries = [
         "term": "WMD mongering",
         "slug": "wmd-mongering",
         "path": "/moves/wmd-mongering/"
+      },
+      {
+        "term": "Climate hoax",
+        "slug": "climate-hoax",
+        "path": "/abilities/climate-hoax/"
       }
     ],
     "edges": [],
@@ -15575,6 +15705,11 @@ export const entries = [
         "term": "Special pleading",
         "slug": "special-pleading",
         "path": "/fallacies/special-pleading/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -15685,6 +15820,11 @@ export const entries = [
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
         "path": "/fallacies/anecdotal-evidence/"
+      },
+      {
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/"
       }
     ],
     "edges": [],
@@ -15795,6 +15935,11 @@ export const entries = [
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
         "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
       }
     ],
     "edges": [],
@@ -15905,6 +16050,11 @@ export const entries = [
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
         "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
       }
     ],
     "edges": [],
@@ -16115,6 +16265,11 @@ export const entries = [
         "term": "Gish gallop",
         "slug": "gish-gallop",
         "path": "/fallacies/gish-gallop/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
       }
     ],
     "edges": [],
@@ -16232,6 +16387,11 @@ export const entries = [
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
         "path": "/fallacies/appeal-to-nature/"
+      },
+      {
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
     "edges": [],
@@ -16713,6 +16873,11 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "path": "/fallacies/cherry-picking/"
+      },
+      {
+        "term": "Nut-picking",
+        "slug": "nut-picking",
+        "path": "/fallacies/nut-picking/"
       }
     ],
     "edges": [],
@@ -17230,6 +17395,11 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
       }
     ],
     "edges": [],
@@ -17366,6 +17536,11 @@ export const entries = [
         "term": "Whataboutism",
         "slug": "whataboutism",
         "path": "/fallacies/whataboutism/"
+      },
+      {
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
       }
     ],
     "edges": [],
@@ -17495,6 +17670,11 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "path": "/fallacies/ad-hominem/"
+      },
+      {
+        "term": "Two wrongs make a right",
+        "slug": "two-wrongs-make-a-right",
+        "path": "/fallacies/two-wrongs-make-a-right/"
       }
     ],
     "edges": [],
@@ -17612,6 +17792,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Tone policing",
+        "slug": "tone-policing",
+        "path": "/fallacies/tone-policing/"
       }
     ],
     "edges": [],
@@ -17734,6 +17919,11 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "term": "Appeal to nature",
+        "slug": "appeal-to-nature",
+        "path": "/fallacies/appeal-to-nature/"
       }
     ],
     "edges": [],
@@ -17908,6 +18098,11 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/"
       }
     ],
     "edges": [],
@@ -18037,6 +18232,11 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "path": "/fallacies/cherry-picking/"
+      },
+      {
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/"
       }
     ],
     "edges": [],
@@ -18147,6 +18347,11 @@ export const entries = [
         "term": "Sealioning",
         "slug": "sealioning",
         "path": "/fallacies/sealioning/"
+      },
+      {
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/"
       }
     ],
     "edges": [],
@@ -18278,6 +18483,11 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "path": "/fallacies/proof-by-assertion/"
+      },
+      {
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
     "edges": [],
@@ -18414,6 +18624,11 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "path": "/fallacies/proof-by-assertion/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
       }
     ],
     "edges": [],
@@ -18524,6 +18739,11 @@ export const entries = [
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
         "path": "/fallacies/normalcy-bias/"
+      },
+      {
+        "term": "Sunk cost fallacy",
+        "slug": "sunk-cost-fallacy",
+        "path": "/fallacies/sunk-cost-fallacy/"
       }
     ],
     "edges": [],
