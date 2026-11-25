@@ -5,7 +5,7 @@
 import { Link, useParams } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site from '../site.js'
-import { entryFor, neighbors, positionOf, sorts } from '../lexicon.js'
+import { entryFor, kinds, neighbors, positionOf, sorts } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
 import ShareButton from '../components/ShareButton.jsx'
 import NotFound from './NotFound.jsx'
@@ -16,6 +16,65 @@ function groupByLabel(edges) {
     (groups[edge.label] = groups[edge.label] || []).push(edge)
     return groups
   }, {})
+}
+
+/**
+ * A relation that points at more than one kind names each kind inside it. A
+ * habitat's houses list runs species, moves and fallacies together, and a room
+ * that appears to house a reasoning error reads as a mistake rather than as a
+ * taxonomy. One kind, and there is nothing to distinguish.
+ */
+const HOUSE_HEADINGS = {
+  species: "Species you'll meet here",
+  move: "Moves you'll see here",
+  fallacy: "Fallacies at home here",
+}
+
+function kindGroups(links, rel) {
+  const order = Object.keys(kinds)
+  const present = [...new Set(links.map((link) => link.kind))]
+  // A kind the vocabulary does not know would drop its links from the split, so
+  // the list stays flat rather than losing one.
+  if (present.length < 2 || present.some((kind) => !kinds[kind])) return null
+  present.sort((a, b) => order.indexOf(a) - order.indexOf(b))
+  return present.map((kind) => ({
+    kind,
+    heading: rel === 'houses' ? HOUSE_HEADINGS[kind] || kinds[kind].plural : kinds[kind].plural,
+    links: links.filter((link) => link.kind === kind),
+  }))
+}
+
+/** The terms of one relation, each pointing at its own URL. */
+function EdgeLinks({ links }) {
+  return links.map((link, index) => (
+    <span key={link.slug}>
+      {index > 0 && <span className="sep">·</span>}
+      <Link to={link.path}>{link.term}</Link>
+    </span>
+  ))
+}
+
+function EdgeRow({ label, links, rel }) {
+  const groups = kindGroups(links, rel)
+  if (!groups) {
+    return (
+      <p className="species-edge">
+        <span className="species-edge-label">{label}</span>
+        <EdgeLinks links={links} />
+      </p>
+    )
+  }
+  return (
+    <div className="species-edge species-edge-grouped">
+      <span className="species-edge-label">{label}</span>
+      {groups.map((group) => (
+        <p key={group.kind} className="species-edge-group">
+          <span className={`species-edge-group-label kind-${group.kind}`}>{group.heading}</span>
+          <EdgeLinks links={group.links} />
+        </p>
+      ))}
+    </div>
+  )
 }
 
 export default function Species() {
@@ -131,15 +190,7 @@ export default function Species() {
         {entry.edges.length > 0 && (
           <div className="species-edges">
             {Object.entries(groupByLabel(entry.edges)).map(([label, links]) => (
-              <p key={label} className="species-edge">
-                <span className="species-edge-label">{label}</span>
-                {links.map((link, index) => (
-                  <span key={link.slug}>
-                    {index > 0 && <span className="sep">·</span>}
-                    <Link to={link.path}>{link.term}</Link>
-                  </span>
-                ))}
-              </p>
+              <EdgeRow key={label} label={label} links={links} rel={links[0].rel} />
             ))}
           </div>
         )}
@@ -147,15 +198,7 @@ export default function Species() {
         {entry.backlinks.length > 0 && (
           <div className="species-backlinks">
             {Object.entries(groupByLabel(entry.backlinks)).map(([label, links]) => (
-              <p key={label} className="species-edge">
-                <span className="species-edge-label">{label}</span>
-                {links.map((link, index) => (
-                  <span key={link.slug}>
-                    {index > 0 && <span className="sep">·</span>}
-                    <Link to={link.path}>{link.term}</Link>
-                  </span>
-                ))}
-              </p>
+              <EdgeRow key={label} label={label} links={links} rel={links[0].rel} />
             ))}
             {chapterSpread.length > 0 && (
               <p className="species-edge species-chapters">
