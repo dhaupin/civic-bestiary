@@ -1,0 +1,49 @@
+{
+  "term": "The reserve",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 34,
+  "part_of_speech": "noun",
+  "ipa": "/ðə rɪˈzɜːv/",
+  "etymology": "French réserve, from Latin reservare, to keep back: the stockpile held against the day a price becomes a policy.",
+  "effect": "Breaks the price lever by holding the thing in stock: barrels released on a published schedule, substitutes bought before they are needed, and contracts that outlast the spot price.",
+  "costs": "Money parked in a warehouse, and the political price of spending it at the moment it is most useful.",
+  "failure": "The release that arrives after the price has already moved, and the reserve that becomes the market's new floor.",
+  "tell": [
+    "A release schedule with dates on it",
+    "A stock level published monthly",
+    "A contract whose term is longer than the price cycle"
+  ],
+  "confused_with": [
+    {
+      "term": "Sunset clause",
+      "tell": "The sunset clause puts a date on a power; the reserve puts a quantity between the power and its price."
+    }
+  ],
+  "senses": [
+    "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the commodity a worse weapon.",
+    "It works because leverage needs scarcity to stay credible. A published reserve turns a threat into a calculation - the squeeze has to outlast the stockpile, and a stockpile is measured in months while an election is measured in weeks."
+  ],
+  "notes": [],
+  "example": "*\"**The reserve** released nine million barrels over six weeks, and the foreign minister's visit was rescheduled for the following quarter.\"*",
+  "related": [
+    "Oil diplomacy",
+    "The statistician",
+    "Forever war"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Oil diplomacy"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Strategic Petroleum Reserve (United States)",
+    "url": "https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States)"
+  },
+  "sort": {
+    "impact": 3,
+    "abuse": 1,
+    "blowback": 3
+  }
+}

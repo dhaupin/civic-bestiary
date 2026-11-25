@@ -59,6 +59,10 @@
     {
       "rel": "counters",
       "to": "Dead cat"
+    },
+    {
+      "rel": "counters",
+      "to": "Hot mic"
     }
   ],
   "cite": {

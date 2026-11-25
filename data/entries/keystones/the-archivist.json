@@ -51,6 +51,10 @@
     {
       "rel": "counters",
       "to": "Hypocontortionist"
+    },
+    {
+      "rel": "counters",
+      "to": "Secret meeting"
     }
   ],
   "cite": {

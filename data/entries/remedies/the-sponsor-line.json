@@ -1,0 +1,49 @@
+{
+  "term": "The sponsor line",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 33,
+  "part_of_speech": "noun",
+  "ipa": "/ˈspɒn.sə laɪn/",
+  "etymology": "English: the sentence at the end of an advertisement that names who paid for it - in the United States, \"I'm a candidate and I approve this message.\"",
+  "effect": "Puts the funder's name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote.",
+  "costs": "A disclosure rule enforced against bodies that can afford better lawyers than the regulator can.",
+  "failure": "The disclaimer read at speed over the last half-second, and the shell company whose name is a noun with an LLC after it.",
+  "tell": [
+    "A funder named in the ad, not after it",
+    "A list published before the ballot",
+    "A shell company that has to name its own shell"
+  ],
+  "confused_with": [
+    {
+      "term": "Records request",
+      "tell": "The records request produces the document after the decision; the sponsor line puts the payer's name in front of the audience before the vote."
+    }
+  ],
+  "senses": [
+    "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
+    "It works because anonymity is the doctrine's operating condition - an argument made by a body nobody can summon is an argument nobody can answer. The sponsor line does not cap the spending; it makes the spender answerable to the audience the spending was aimed at."
+  ],
+  "notes": [],
+  "example": "*\"**The sponsor line** ran for four seconds under a ninety-second advertisement, and the four seconds were the only part of it anybody could check.\"*",
+  "related": [
+    "Citizens United",
+    "The second source",
+    "Lobbyism"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Citizens United"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Stand by Your Ad provision",
+    "url": "https://en.wikipedia.org/wiki/Stand_by_Your_Ad_provision"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

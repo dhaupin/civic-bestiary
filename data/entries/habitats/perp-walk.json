@@ -34,6 +34,14 @@
     {
       "rel": "commits",
       "to": "Poisoning the well"
+    },
+    {
+      "rel": "houses",
+      "to": "Martyrholic"
+    },
+    {
+      "rel": "houses",
+      "to": "Just-world hypothesis"
     }
   ],
   "cite": {

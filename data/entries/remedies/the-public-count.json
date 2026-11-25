@@ -29,7 +29,8 @@
   "related": [
     "The poll worker",
     "The audit",
-    "Notice and comment"
+    "Notice and comment",
+    "The reserve"
   ],
   "edges": [
     {
@@ -39,6 +40,14 @@
     {
       "rel": "counters",
       "to": "Rally"
+    },
+    {
+      "rel": "counters",
+      "to": "Cloture"
+    },
+    {
+      "rel": "counters",
+      "to": "Good ol' boys club"
     }
   ],
   "cite": {

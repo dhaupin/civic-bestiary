@@ -51,6 +51,10 @@
     {
       "rel": "counters",
       "to": "Recessure"
+    },
+    {
+      "rel": "counters",
+      "to": "Discharge petition"
     }
   ],
   "cite": {

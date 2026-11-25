@@ -29,7 +29,8 @@
   "related": [
     "The editor",
     "Lateral reading",
-    "The transcript"
+    "The transcript",
+    "The sponsor line"
   ],
   "edges": [
     {
@@ -43,6 +44,10 @@
     {
       "rel": "counters",
       "to": "Patriotainer"
+    },
+    {
+      "rel": "counters",
+      "to": "WMD mongering"
     }
   ],
   "cite": {

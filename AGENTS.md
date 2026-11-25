@@ -285,8 +285,16 @@ appending.
   will drift on a rename: `web/public/site.webmanifest`, the `aria-label` in
   `web/public/icon.svg`, the canonical placeholder in `web/index.html`, the two
   `package.json` names, and the OG `alt` in `web/ssr.config.js`. Check them on any rename.
-- `web/public/icon.svg` is the authored mark; `node scripts/icons.mjs` (run from `web/` after
-  `npm i --no-save @resvg/resvg-js`) re-rasterizes the favicons and `og-image.png`.
+- `web/public/icon.svg` is the authored mark; `npm --prefix web run icons` re-rasterizes the
+  favicons from it. `@resvg/resvg-js` is a dev dependency for that and for the social card, so
+  there is nothing to install by hand.
+- `web/public/og-image.svg` is **generated** by `web/scripts/og.mjs` from the counts in
+  `lexicon.js` and the identity in `site.config.js`, and `og-image.png` is rasterized from it on
+  every build (`npm run og` runs first in `web`'s build). The card is content, not identity: a
+  card claiming a count the guide no longer has is a claim the guide disproves. The SVG is
+  committed because it is text and `--check` can compare it exactly; the PNG is not, because
+  rasterizer output is not byte-stable across platforms. Edit the data or `site.config.js` and
+  rebuild - never the SVG.
 - **Deploy is Cloudflare Pages, built from Git.** The dashboard must hold exactly:
 
   | Setting | Value |
@@ -346,6 +354,12 @@ appending.
   the fallacy is a fallacy; the illogician believes it"), not a restatement of either entry.
   A twin is filtered out of `related` by both generators, so the same species never appears
   under both "Easily confused with" and "Compare with".
+- Counters are authored from the side that ends it: the remedy or keystone carries the
+  `counters` edge, and the coinage's page renders the inverse. A coinage whose `counter` prose
+  names a procedure the guide already has should point at it - the prose and the graph saying
+  the same thing in different places is how a page ends up describing an answer it does not
+  link to. Buffs are the exception: their identification row is `expires`, not `counter`, so a
+  buff with no `counters` edge is not a gap. If one is later needed, wire it then.
 - `part_of_speech` and `ipa` use the loose conventions already in the file; IPA is
   approximate and follows the coining, not a dictionary.
 - Prose uses ` - ` (spaced hyphen), never an em dash. The site converts quotes to curly at

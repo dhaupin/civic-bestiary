@@ -43,6 +43,14 @@
     {
       "rel": "counters",
       "to": "Push poll"
+    },
+    {
+      "rel": "counters",
+      "to": "Climate hoax"
+    },
+    {
+      "rel": "counters",
+      "to": "Convention bounce"
     }
   ],
   "cite": {

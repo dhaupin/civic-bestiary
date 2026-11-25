@@ -34,6 +34,18 @@
     {
       "rel": "commits",
       "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "houses",
+      "to": "Capitulectual"
+    },
+    {
+      "rel": "houses",
+      "to": "Equivocation"
+    },
+    {
+      "rel": "houses",
+      "to": "Motte-and-bailey fallacy"
     }
   ],
   "cite": {
