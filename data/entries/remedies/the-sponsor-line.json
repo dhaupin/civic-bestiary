@@ -35,6 +35,10 @@
     {
       "rel": "counters",
       "to": "Citizens United"
+    },
+    {
+      "rel": "counters",
+      "to": "Industry conference"
     }
   ],
   "cite": {
