@@ -27,7 +27,6 @@
   "notes": [],
   "example": "*\"Two years later the only proof of what the council had voted for was the **clerk**'s minutes, and the member who had denied it was reading them aloud.\"*",
   "related": [
-    "The archivist",
     "The poll worker",
     "Records request"
   ],
@@ -51,6 +50,10 @@
     {
       "rel": "counters",
       "to": "Recessure"
+    },
+    {
+      "rel": "counters",
+      "to": "Discharge petition"
     }
   ],
   "cite": {

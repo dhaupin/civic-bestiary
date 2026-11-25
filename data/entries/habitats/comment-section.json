@@ -66,6 +66,42 @@
     {
       "rel": "houses",
       "to": "Kafka trap"
+    },
+    {
+      "rel": "houses",
+      "to": "Freetard"
+    },
+    {
+      "rel": "houses",
+      "to": "Illogician"
+    },
+    {
+      "rel": "houses",
+      "to": "Sophistroll"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to motive"
+    },
+    {
+      "rel": "houses",
+      "to": "Bulverism"
+    },
+    {
+      "rel": "houses",
+      "to": "I'm entitled to my opinion"
+    },
+    {
+      "rel": "houses",
+      "to": "No true Scotsman"
+    },
+    {
+      "rel": "houses",
+      "to": "Tone policing"
+    },
+    {
+      "rel": "houses",
+      "to": "Two wrongs make a right"
     }
   ],
   "sort": {

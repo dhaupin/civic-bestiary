@@ -13,7 +13,7 @@
     "Presenting a choice between two options when more exist, so that refusing one is treated as choosing the other.",
     "It works by shrinking the field. Most real disputes have a third, boring option - wait, fund it differently, do half of it - and the boring option is exactly what the dilemma is built to hide."
   ],
-  "example": "*“You are either with us or with the terrorists.”* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
+  "example": "*\"You are either with us or with the terrorists.\"* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
   "confused_with": [
     {
       "term": "False equivalence",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "False equivalence",
-    "Argument to moderation"
+    "Argument to moderation",
+    "Nirvana fallacy"
   ],
   "cite": {
     "label": "Wikipedia · False dilemma",

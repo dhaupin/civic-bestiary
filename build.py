@@ -109,12 +109,21 @@ def validate(doc):
         if folder != wanted:
             errors.append(f"{name}: filed under data/entries/{folder}/ but a {entry.get('kind')} lives in data/entries/{wanted}/")
     for chapter in chapters:
-        positions = [e.get("position") for e in doc["entries"] if e.get("chapter") == chapter]
+        entries = [e for e in doc["entries"] if e.get("chapter") == chapter]
+        positions = [e.get("position") for e in entries]
         dupes = sorted({p for p in positions if positions.count(p) > 1})
         if dupes:
             errors.append(f"{chapter}: duplicate position {dupes}")
         if not positions:
             errors.append(f"{chapter}: no entries")
+        # A chapter reads as a guide and then as an appendix: the coinages hold
+        # the low positions and the documented errors start at 101. The 101 is
+        # only a spacer that leaves room to append; the invariant is the seam.
+        coined = [e["position"] for e in entries if KINDS.get(e.get("kind"), {}).get("coined")]
+        reference = [e["position"] for e in entries if not KINDS.get(e.get("kind"), {}).get("coined")]
+        if coined and reference and max(coined) >= min(reference):
+            errors.append(f"{chapter}: coinages must sort ahead of the reference entries "
+                          f"(position {max(coined)} vs {min(reference)})")
     # The graph has to stay connected, but "related" is only one of the ways to
     # connect now: a fallacy is reached through the characters that commit it.
     referenced = {ref.lower() for e in doc["entries"] for ref in e.get("related", [])}

@@ -120,7 +120,7 @@ def build(doc):
                 "ipa": entry.get("ipa"),
                 "position": entry["position"],
                 "sort": entry.get("sort", {}),
-                "etymology": entry["etymology"],
+                "etymology": typographic(entry["etymology"]),
                 "identification": [
                     {
                         "key": row["key"],
@@ -184,6 +184,18 @@ def build(doc):
                     "slug": entry["slug"],
                     "path": entry["path"],
                 })
+
+    # A fallacy is filed by the argument it names; the characters that commit it
+    # are filed by what they do. Deriving the spread lets a page say where the
+    # fallacy turns up without moving the authored chapter.
+    for entry in entries:
+        sources = [by_slug[link["slug"]] for link in entry["backlinks"]
+                   if link["rel"] == "commits" and link["slug"] in by_slug]
+        seen = {source["chapter"] for source in sources}
+        entry["committedFrom"] = [
+            {"id": chapter["id"], "roman": chapter["roman"], "title": chapter["title"]}
+            for chapter in chapters if chapter["id"] in seen
+        ]
 
     counts = {key: sum(1 for entry in entries if entry["kind"] == key) for key in kinds}
     fallacies = counts.get("fallacy", 0)

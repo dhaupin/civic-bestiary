@@ -28,8 +28,7 @@
   "example": "*\"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional.\"*",
   "related": [
     "The archivist",
-    "The second source",
-    "Records request"
+    "The second source"
   ],
   "edges": [
     {
@@ -59,6 +58,14 @@
     {
       "rel": "counters",
       "to": "Dead cat"
+    },
+    {
+      "rel": "counters",
+      "to": "Hot mic"
+    },
+    {
+      "rel": "counters",
+      "to": "Precedentarian"
     }
   ],
   "cite": {

@@ -1,0 +1,44 @@
+{
+  "term": "Soft launch",
+  "kind": "move",
+  "chapter": "normalization",
+  "position": 4,
+  "part_of_speech": "noun / verb",
+  "ipa": "/sɒft lɔːntʃ/",
+  "etymology": "English: from software, where a product ships quietly to see whether it breaks before anyone is told it exists.",
+  "trigger": "A change that would be contested if it were announced and unremarkable if it were not.",
+  "tell": "A form that quietly gains a field, a fee that appears on the next statement, a policy page edited on a Friday with no changelog.",
+  "counter": "Ask for the changelog. Every quiet change has an author, a date and a diff; publish the diff on a schedule and the soft launch becomes an announcement with worse timing.",
+  "confused_with": [
+    {
+      "term": "Trial balloon",
+      "tell": "The trial balloon asks the room; the soft launch asks the silence."
+    }
+  ],
+  "senses": [
+    "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by the time anyone notices they are living under the arrangement.",
+    "It works because implementation beats argument. An announcement invites a hearing, a comment period and a vote; a deployment invites a complaint from whoever happens to meet it, and the people who would have organised against it find out one at a time."
+  ],
+  "notes": [],
+  "example": "*\"The **soft launch** was a checkbox on page four of a renewal form; by the time the council asked who approved it, four thousand people had already agreed.\"*",
+  "related": [
+    "Trial balloon",
+    "Friday news dump",
+    "Creeping normality"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Shifting baseline"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Soft launch",
+    "url": "https://en.wikipedia.org/wiki/Soft_launch"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}

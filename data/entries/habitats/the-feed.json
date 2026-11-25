@@ -22,7 +22,6 @@
   "notes": [],
   "example": "*\"He opened the app to check the weather, and the **feed** gave him a war, a grievance, and a supplement in ninety seconds.\"*",
   "related": [
-    "Comment section",
     "Group chat",
     "Algodemic"
   ],
@@ -58,6 +57,22 @@
     {
       "rel": "houses",
       "to": "Base rate fallacy"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to novelty"
+    },
+    {
+      "rel": "houses",
+      "to": "Creeping normality"
+    },
+    {
+      "rel": "houses",
+      "to": "Normalcy bias"
+    },
+    {
+      "rel": "houses",
+      "to": "Post hoc ergo propter hoc"
     }
   ],
   "cite": {

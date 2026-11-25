@@ -1,0 +1,48 @@
+{
+  "term": "The withdrawal clause",
+  "kind": "remedy",
+  "chapter": "keystones",
+  "position": 32,
+  "part_of_speech": "noun",
+  "ipa": "/ˈwɪð.drɔː.əl klɔːz/",
+  "etymology": "English: the paragraph at the back of an agreement that decides how a signatory may leave it - notice, survival, and price.",
+  "effect": "Turns an exit into a scheduled act with a bill attached: notice in writing, a published list of the obligations that survive the withdrawal, and a successor agreement that names what leaving costs.",
+  "costs": "Negotiating leverage, because a state that prices its own exit has admitted it might use it.",
+  "failure": "The clause that sets a notice period and nothing else - twelve months of waiting, then the same exit with a cleaner headline.",
+  "tell": [
+    "A notice period with a date on it",
+    "A list of obligations that survive the signature",
+    "Allies who price the exit into the next agreement"
+  ],
+  "confused_with": [
+    {
+      "term": "Sunset clause",
+      "tell": "The sunset clause gives a power a date; the withdrawal clause gives an exit a price, and publishes it before anyone leaves."
+    }
+  ],
+  "senses": [
+    "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule of what the departing party still owes.",
+    "It works because the benefit of an agreement is paid over decades and the cost of leaving is paid once, in a news cycle. Moving the cost into the text - a notice period the market can read, obligations that outlive the signature - makes the arbitrage visible while it is being proposed instead of after it is done."
+  ],
+  "notes": [],
+  "example": "*\"The **withdrawal clause** bought the other parties a year of notice and a list of agreements that would outlive the government that left; the announcement ran three minutes and the bill ran four years.\"*",
+  "related": [
+    "Breaking treaties",
+    "Signaway"
+  ],
+  "edges": [
+    {
+      "rel": "counters",
+      "to": "Breaking treaties"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Article 50 of the Treaty on European Union",
+    "url": "https://en.wikipedia.org/wiki/Article_50_of_the_Treaty_on_European_Union"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 2,
+    "blowback": 3
+  }
+}

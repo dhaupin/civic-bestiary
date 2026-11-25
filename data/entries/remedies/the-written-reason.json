@@ -28,7 +28,6 @@
   "example": "*\"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it.\"*",
   "related": [
     "The caseworker",
-    "The transcript",
     "The audit"
   ],
   "edges": [
@@ -43,6 +42,10 @@
     {
       "rel": "counters",
       "to": "Capitulectual"
+    },
+    {
+      "rel": "counters",
+      "to": "Vague promises"
     }
   ],
   "cite": {

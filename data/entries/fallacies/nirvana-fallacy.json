@@ -7,13 +7,13 @@
   "etymology": "English, from the Buddhist state of perfect peace: the comparison of a real proposal with an unreal alternative.",
   "family": "Informal · Presumption",
   "committed_when": "A policy has been proposed that would improve something, and somebody has found a flaw in it.",
-  "tell": "The objection is measured against perfection and the status quo is measured against nothing. “It won't fix everything” is offered as a reason to do nothing.",
+  "tell": "The objection is measured against perfection and the status quo is measured against nothing. \"It won't fix everything\" is offered as a reason to do nothing.",
   "counter": "Ask what happens without it, and compare the two. A proposal is not competing with an ideal; it is competing with the world it would replace.",
   "senses": [
     "Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost.",
     "It works because the status quo is the invisible baseline. Nobody has to defend the current waiting list, the current price, or the current number of deaths - so any reform carries the burden of proof and the alternative carries none."
   ],
-  "example": "*“The bill only covers half the uninsured, so it doesn't really solve the problem.”* Half the uninsured is the comparison, not the bill.",
+  "example": "*\"The bill only covers half the uninsured, so it doesn't really solve the problem.\"* Half the uninsured is the comparison, not the bill.",
   "confused_with": [
     {
       "term": "False dilemma",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "False dilemma",
     "Appeal to the stone",
     "Argument to moderation"
   ],

@@ -28,8 +28,7 @@
   "example": "*\"The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade.\"*",
   "related": [
     "Xenophobricator",
-    "The audit",
-    "The auditor"
+    "The audit"
   ],
   "edges": [
     {
@@ -43,6 +42,14 @@
     {
       "rel": "counters",
       "to": "Push poll"
+    },
+    {
+      "rel": "counters",
+      "to": "Climate hoax"
+    },
+    {
+      "rel": "counters",
+      "to": "Convention bounce"
     }
   ],
   "cite": {

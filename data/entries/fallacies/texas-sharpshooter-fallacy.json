@@ -13,7 +13,7 @@
     "Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted.",
     "It works because a cluster really is a cluster. With enough data, some grouping will be tight; the fallacy is the order of operations, which nobody can see in the finished result."
   ],
-  "example": "*“Crimes cluster around these three blocks.”* So does every address in the city, when you draw the box around three blocks.",
+  "example": "*\"Crimes cluster around these three blocks.\"* So does every address in the city, when you draw the box around three blocks.",
   "confused_with": [
     {
       "term": "Cherry picking",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "Cherry picking",
-    "Post hoc ergo propter hoc"
+    "Post hoc ergo propter hoc",
+    "McNamara fallacy"
   ],
   "cite": {
     "label": "Wikipedia · Texas sharpshooter fallacy",

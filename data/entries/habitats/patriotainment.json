@@ -24,7 +24,6 @@
   "related": [
     "Playtriot",
     "Sabotriot",
-    "Ragesturbationist",
     "Patriotainer"
   ],
   "edges": [
@@ -51,6 +50,18 @@
     {
       "rel": "uses",
       "to": "Citizens United"
+    },
+    {
+      "rel": "houses",
+      "to": "Mythstorian"
+    },
+    {
+      "rel": "houses",
+      "to": "Circular reasoning"
+    },
+    {
+      "rel": "houses",
+      "to": "Survivorship bias"
     }
   ],
   "sort": {

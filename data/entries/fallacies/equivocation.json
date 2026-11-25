@@ -4,7 +4,7 @@
   "chapter": "normalization",
   "position": 105,
   "part_of_speech": "noun",
-  "etymology": "Latin: aequus vox, “equal voice” - one word doing two jobs in the same argument.",
+  "etymology": "Latin: aequus vox, \"equal voice\" - one word doing two jobs in the same argument.",
   "family": "Informal · Ambiguity",
   "committed_when": "A word with more than one sense is load-bearing in the argument.",
   "tell": "The term means one thing in the premise and another in the conclusion.",
@@ -13,7 +13,7 @@
     "Using one word in two different senses inside a single argument, so the conclusion appears to follow.",
     "It works because the word really is the same word. The shift happens in the meaning, which is invisible on the page and audible only if you ask what the word meant each time."
   ],
-  "example": "*“Speech is free, so my platform must host it.”* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.",
+  "example": "*\"Speech is free, so my platform must host it.\"* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.",
   "confused_with": [
     {
       "term": "Motte-and-bailey fallacy",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "Motte-and-bailey fallacy",
-    "Loaded question"
+    "Loaded question",
+    "Special pleading"
   ],
   "cite": {
     "label": "Wikipedia · Equivocation",

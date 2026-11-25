@@ -29,12 +29,21 @@
   "related": [
     "The audit",
     "The written reason",
-    "The public count"
+    "The public count",
+    "The withdrawal clause"
   ],
   "edges": [
     {
       "rel": "counters",
       "to": "Crisisglow"
+    },
+    {
+      "rel": "counters",
+      "to": "Forever war"
+    },
+    {
+      "rel": "counters",
+      "to": "Grandfather clause"
     }
   ],
   "cite": {

@@ -22,7 +22,6 @@
   "notes": [],
   "example": "*\"Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned.\"*",
   "related": [
-    "Crisisglow",
     "Playtriot",
     "Patriotainer"
   ],
@@ -40,5 +39,9 @@
     "impact": 3,
     "abuse": 3,
     "blowback": 3
+  },
+  "cite": {
+    "label": "Wikipedia · Grace period (politics)",
+    "url": "https://en.wikipedia.org/wiki/Grace_period#Politics"
   }
 }

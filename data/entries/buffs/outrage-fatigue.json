@@ -1,0 +1,43 @@
+{
+  "term": "Outrage fatigue",
+  "kind": "buff",
+  "chapter": "normalization",
+  "position": 7,
+  "part_of_speech": "noun",
+  "ipa": "/ˈaʊt.reɪdʒ fəˈtiːɡ/",
+  "etymology": "English: from alarm fatigue, the ward's habit of turning down a monitor that cries wolf - the fourth alarm gets a slower answer than the first.",
+  "effect": "Makes each fresh revelation land softer than the last, so the same conduct can be disclosed three times and count once.",
+  "tell": "The second story about the same thing gets a shorter article, and the third gets a line in the round-up.",
+  "expires": "Never on its own: it ends when something new arrives to be outraged about, which is the day the old conduct becomes the background.",
+  "confused_with": [
+    {
+      "term": "Crisisglow",
+      "tell": "The crisisglow is authority for as long as the emergency lasts; the outrage fatigue is the audience's attention running out. One is a uniform, the other a battery."
+    }
+  ],
+  "senses": [
+    "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in September, and the conduct has not changed.",
+    "It works because attention is finite and disclosures are not. Nobody decides to stop caring; the caring is allocated to the newest thing, and the pattern that produced the story keeps producing it until the stories stop being news."
+  ],
+  "notes": [],
+  "example": "*\"By the third disclosure the **outrage fatigue** showed in the coverage: a front page, then a column, then a line in the round-up.\"*",
+  "related": [
+    "Crisisglow",
+    "Honeymoan"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Normalcy bias"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Alarm fatigue",
+    "url": "https://en.wikipedia.org/wiki/Alarm_fatigue"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 1
+  }
+}

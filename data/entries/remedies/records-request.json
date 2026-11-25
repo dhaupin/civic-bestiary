@@ -28,7 +28,6 @@
   "example": "*\"The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website.\"*",
   "related": [
     "The clerk",
-    "The transcript",
     "The audit"
   ],
   "edges": [
@@ -51,6 +50,10 @@
     {
       "rel": "counters",
       "to": "Blueslip"
+    },
+    {
+      "rel": "counters",
+      "to": "Lobbyism"
     }
   ],
   "cite": {

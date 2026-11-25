@@ -13,18 +13,18 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 184,
-  "coinages": 93,
+  "entries": 192,
+  "coinages": 98,
   "fallacies": 61,
   "chapters": 6,
   "kinds": {
-    "species": 26,
-    "move": 17,
-    "ability": 23,
-    "habitat": 14,
-    "buff": 13,
+    "species": 27,
+    "move": 18,
+    "ability": 24,
+    "habitat": 15,
+    "buff": 14,
     "fallacy": 61,
-    "remedy": 16,
+    "remedy": 19,
     "keystone": 14
   }
 }
@@ -493,6 +493,11 @@ export const chapters = [
     "slugs": [
       "passoffist",
       "provocrop",
+      "precedentarian",
+      "soft-launch",
+      "grandfather-clause",
+      "industry-conference",
+      "outrage-fatigue",
       "hasty-generalization",
       "cherry-picking",
       "false-equivalence",
@@ -548,7 +553,10 @@ export const chapters = [
       "the-stay",
       "the-redistricting-commission",
       "the-carve-out",
-      "notice-and-comment"
+      "notice-and-comment",
+      "the-withdrawal-clause",
+      "the-sponsor-line",
+      "the-reserve"
     ]
   }
 ]
@@ -572,7 +580,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"play\" + \"patriot\"",
+    "etymology": "Blend of “play” + “patriot”",
     "identification": [
       {
         "key": "occasion",
@@ -685,7 +693,8 @@ export const entries = [
         "slug": "the-poll-worker",
         "path": "/keystones/the-poll-worker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Freetard",
@@ -705,7 +714,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",
+    "etymology": "Blend of “free” + “retard” [verb: to delay, hinder, or impede progress]",
     "identification": [
       {
         "key": "occasion",
@@ -789,13 +798,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The translator",
         "slug": "the-translator",
         "path": "/keystones/the-translator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "LARPtarian",
@@ -815,7 +832,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
+    "etymology": "Blend of “LARP” [Live Action Role-Play] + “libertarian”",
     "identification": [
       {
         "key": "occasion",
@@ -913,13 +930,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The caseworker",
         "slug": "the-caseworker",
         "path": "/keystones/the-caseworker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Critizen",
@@ -939,7 +964,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of \"critic\" + \"citizen\" - the citizen whose critique of the rules exempts them from the rules",
+    "etymology": "Blend of “critic” + “citizen” - the citizen whose critique of the rules exempts them from the rules",
     "identification": [
       {
         "key": "occasion",
@@ -1042,6 +1067,13 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The poll worker",
@@ -1055,7 +1087,8 @@ export const entries = [
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Sabotriot",
@@ -1075,7 +1108,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of \"saboteur\" + \"patriot\"",
+    "etymology": "Blend of “saboteur” + “patriot”",
     "identification": [
       {
         "key": "occasion",
@@ -1161,13 +1194,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The clerk",
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Patriotainment",
@@ -1187,7 +1228,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Blend of \"patriot\" + \"entertainment\"",
+    "etymology": "Blend of “patriot” + “entertainment”",
     "identification": [
       {
         "key": "carriers",
@@ -1291,6 +1332,27 @@ export const entries = [
         "term": "Citizens United",
         "slug": "citizens-united",
         "path": "/abilities/citizens-united/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Mythstorian",
+        "slug": "mythstorian",
+        "path": "/species/mythstorian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Circular reasoning",
+        "slug": "circular-reasoning",
+        "path": "/fallacies/circular-reasoning/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Survivorship bias",
+        "slug": "survivorship-bias",
+        "path": "/fallacies/survivorship-bias/"
       }
     ],
     "backlinks": [
@@ -1301,7 +1363,8 @@ export const entries = [
         "slug": "the-audit",
         "path": "/remedies/the-audit/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Patriotainer",
@@ -1321,7 +1384,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
+    "etymology": "Back-formation from “patriotainment”: the performer the format cannot run without",
     "identification": [
       {
         "key": "occasion",
@@ -1382,6 +1445,11 @@ export const entries = [
         "term": "Rubber chicken circuit",
         "slug": "rubber-chicken-circuit",
         "path": "/habitats/rubber-chicken-circuit/"
+      },
+      {
+        "term": "Slopagandist",
+        "slug": "slopagandist",
+        "path": "/species/slopagandist/"
       }
     ],
     "edges": [
@@ -1457,7 +1525,8 @@ export const entries = [
         "slug": "the-second-source",
         "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Filibluster",
@@ -1477,7 +1546,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"filibuster\" + \"bluster\"",
+    "etymology": "Blend of “filibuster” + “bluster”",
     "identification": [
       {
         "key": "effect",
@@ -1562,7 +1631,8 @@ export const entries = [
         "slug": "discharge-petition",
         "path": "/abilities/discharge-petition/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Gerrythm",
@@ -1582,7 +1652,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"gerrymander\" + \"algorithm\"",
+    "etymology": "Blend of “gerrymander” + “algorithm”",
     "identification": [
       {
         "key": "effect",
@@ -1665,7 +1735,8 @@ export const entries = [
         "slug": "the-redistricting-commission",
         "path": "/keystones/the-redistricting-commission/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Omnibust",
@@ -1685,7 +1756,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"omnibus\" + \"bust\"",
+    "etymology": "Blend of “omnibus” + “bust”",
     "identification": [
       {
         "key": "effect",
@@ -1763,7 +1834,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Honeymoan",
@@ -1783,7 +1855,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"honeymoon\" + \"moan\"",
+    "etymology": "Blend of “honeymoon” + “moan”",
     "identification": [
       {
         "key": "effect",
@@ -1811,7 +1883,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Grace period (politics)",
+      "url": "https://en.wikipedia.org/wiki/Grace_period#Politics"
+    },
     "summary": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
     "definition": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
     "confusedWith": [
@@ -1850,7 +1925,8 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Pocketveto",
@@ -1870,7 +1946,7 @@ export const entries = [
       "abuse": 2,
       "blowback": 4
     },
-    "etymology": "Blend of \"pocket\" + \"veto\", from the constitutional pocket veto",
+    "etymology": "Blend of “pocket” + “veto”, from the constitutional pocket veto",
     "identification": [
       {
         "key": "effect",
@@ -1946,7 +2022,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Nightdocket",
@@ -1966,7 +2043,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"night\" + \"docket\", from the emergency docket the court keeps after hours",
+    "etymology": "Blend of “night” + “docket”, from the emergency docket the court keeps after hours",
     "identification": [
       {
         "key": "effect",
@@ -2049,7 +2126,8 @@ export const entries = [
         "slug": "the-stay",
         "path": "/remedies/the-stay/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Coattails",
@@ -2137,7 +2215,8 @@ export const entries = [
         "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Convention bounce",
@@ -2225,7 +2304,16 @@ export const entries = [
         "path": "/fallacies/hasty-generalization/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Cloture",
@@ -2320,7 +2408,16 @@ export const entries = [
         "path": "/abilities/filibluster/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Discharge petition",
@@ -2410,7 +2507,16 @@ export const entries = [
         "path": "/abilities/filibluster/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Vague promises",
@@ -2457,7 +2563,7 @@ export const entries = [
       "It works because the shape of a promise is enough to be reported as one. The listener hears the certainty, the journalist quotes the adjective, and the only person who needed the figure was the one who will be blamed for asking."
     ],
     "notes": [],
-    "example": "“We will have a **bold, historic plan** within the first hundred days” - the plan had a title, a press conference, and no sentence that could be checked.",
+    "example": "“We will have a bold, historic plan within the first hundred days” - **vague promises**: a title, a press conference, and no sentence that could be checked.",
     "cite": null,
     "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a...",
     "definition": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.",
@@ -2489,8 +2595,23 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Citizens United",
@@ -2562,6 +2683,11 @@ export const entries = [
         "term": "PAC check",
         "slug": "pac-check",
         "path": "/buffs/pac-check/"
+      },
+      {
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
       }
     ],
     "edges": [],
@@ -2572,8 +2698,16 @@ export const entries = [
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Slippery slope",
@@ -2646,6 +2780,11 @@ export const entries = [
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
         "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -2663,6 +2802,25 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -2684,7 +2842,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
+    "etymology": "From Antony Flew’s example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
     "identification": [
       {
         "key": "family",
@@ -2737,6 +2895,11 @@ export const entries = [
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
         "path": "/fallacies/moving-the-goalposts/"
+      },
+      {
+        "term": "Nut-picking",
+        "slug": "nut-picking",
+        "path": "/fallacies/nut-picking/"
       }
     ],
     "edges": [],
@@ -2749,11 +2912,30 @@ export const entries = [
         "path": "/species/larptarian/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
         "path": "/species/hypocontortionist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -2828,6 +3010,16 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "term": "Sunk cost fallacy",
+        "slug": "sunk-cost-fallacy",
+        "path": "/fallacies/sunk-cost-fallacy/"
+      },
+      {
+        "term": "Appeal to novelty",
+        "slug": "appeal-to-novelty",
+        "path": "/fallacies/appeal-to-novelty/"
       }
     ],
     "edges": [],
@@ -2859,6 +3051,37 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Grandfather clause",
+        "slug": "grandfather-clause",
+        "path": "/abilities/grandfather-clause/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -2933,6 +3156,11 @@ export const entries = [
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
         "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
     "edges": [],
@@ -2950,6 +3178,25 @@ export const entries = [
         "term": "Mythstorian",
         "slug": "mythstorian",
         "path": "/species/mythstorian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -3024,6 +3271,11 @@ export const entries = [
         "term": "Appeal to authority",
         "slug": "appeal-to-authority",
         "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "term": "I'm entitled to my opinion",
+        "slug": "im-entitled-to-my-opinion",
+        "path": "/fallacies/im-entitled-to-my-opinion/"
       }
     ],
     "edges": [],
@@ -3069,6 +3321,18 @@ export const entries = [
         "term": "Pseudo-event",
         "slug": "pseudo-event",
         "path": "/habitats/pseudo-event/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -3143,6 +3407,11 @@ export const entries = [
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
         "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      },
+      {
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
       }
     ],
     "edges": [],
@@ -3160,6 +3429,20 @@ export const entries = [
         "term": "Sabotriot",
         "slug": "sabotriot",
         "path": "/species/sabotriot/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
       }
     ]
   },
@@ -3234,6 +3517,11 @@ export const entries = [
         "term": "Equivocation",
         "slug": "equivocation",
         "path": "/fallacies/equivocation/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
       }
     ],
     "edges": [],
@@ -3251,6 +3539,25 @@ export const entries = [
         "term": "Decorumancer",
         "slug": "decorumancer",
         "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -3272,7 +3579,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of \"sophist\" + \"troll\"",
+    "etymology": "Blend of “sophist” + “troll”",
     "identification": [
       {
         "key": "occasion",
@@ -3407,13 +3714,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The moderator",
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Illogician",
@@ -3433,7 +3748,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"illogical\" + \"logician\"",
+    "etymology": "Blend of “illogical” + “logician”",
     "identification": [
       {
         "key": "occasion",
@@ -3533,13 +3848,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The librarian",
         "slug": "the-librarian",
         "path": "/keystones/the-librarian/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "JAQing Off",
@@ -3559,7 +3882,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"JAQ\" [\"Just Asking Questions\"] + vulgar slang \"jacking off\"",
+    "etymology": "Blend of “JAQ” [“Just Asking Questions”] + vulgar slang “jacking off”",
     "identification": [
       {
         "key": "trigger",
@@ -3645,13 +3968,21 @@ export const entries = [
         "path": "/species/patriotainer/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "Cross-examination",
         "slug": "cross-examination",
         "path": "/remedies/cross-examination/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Trust-Me-Brofessor",
@@ -3671,7 +4002,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 4
     },
-    "etymology": "Blend of \"trust me, bro\" + \"professor\"",
+    "etymology": "Blend of “trust me, bro” + “professor”",
     "identification": [
       {
         "key": "occasion",
@@ -3757,13 +4088,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The translator",
         "slug": "the-translator",
         "path": "/keystones/the-translator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Biasographer",
@@ -3783,7 +4122,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of \"bias\" + \"biographer\" / \"bibliographer\"",
+    "etymology": "Blend of “bias” + “biographer” / “bibliographer”",
     "identification": [
       {
         "key": "occasion",
@@ -3890,13 +4229,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The steelman",
         "slug": "the-steelman",
         "path": "/remedies/the-steelman/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bleatkeeper",
@@ -3916,7 +4263,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 4
     },
-    "etymology": "Blend of \"bleat\" + \"gatekeeper\"",
+    "etymology": "Blend of “bleat” + “gatekeeper”",
     "identification": [
       {
         "key": "occasion",
@@ -4009,13 +4356,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Equivangelist",
@@ -4035,7 +4390,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"equivocate\" + \"evangelist\"",
+    "etymology": "Blend of “equivocate” + “evangelist”",
     "identification": [
       {
         "key": "occasion",
@@ -4119,13 +4474,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The steelman",
         "slug": "the-steelman",
         "path": "/remedies/the-steelman/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Gallopologist",
@@ -4145,7 +4508,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"gish gallop\" + \"-ologist\"",
+    "etymology": "Blend of “gish gallop” + “-ologist”",
     "identification": [
       {
         "key": "occasion",
@@ -4238,13 +4601,21 @@ export const entries = [
         "path": "/abilities/cloture/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The juror",
         "slug": "the-juror",
         "path": "/keystones/the-juror/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Decorumancer",
@@ -4264,7 +4635,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"decorum\" + \"necromancer\"",
+    "etymology": "Blend of “decorum” + “necromancer”",
     "identification": [
       {
         "key": "occasion",
@@ -4355,8 +4726,16 @@ export const entries = [
         "term": "Discharge petition",
         "slug": "discharge-petition",
         "path": "/abilities/discharge-petition/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Comment section",
@@ -4508,6 +4887,69 @@ export const entries = [
         "term": "Kafka trap",
         "slug": "kafka-trap",
         "path": "/fallacies/kafka-trap/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Freetard",
+        "slug": "freetard",
+        "path": "/species/freetard/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Illogician",
+        "slug": "illogician",
+        "path": "/species/illogician/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to motive",
+        "slug": "appeal-to-motive",
+        "path": "/fallacies/appeal-to-motive/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "I'm entitled to my opinion",
+        "slug": "im-entitled-to-my-opinion",
+        "path": "/fallacies/im-entitled-to-my-opinion/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "No true Scotsman",
+        "slug": "no-true-scotsman",
+        "path": "/fallacies/no-true-scotsman/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Tone policing",
+        "slug": "tone-policing",
+        "path": "/fallacies/tone-policing/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Two wrongs make a right",
+        "slug": "two-wrongs-make-a-right",
+        "path": "/fallacies/two-wrongs-make-a-right/"
       }
     ],
     "backlinks": [
@@ -4518,7 +4960,8 @@ export const entries = [
         "slug": "the-ombudsman",
         "path": "/keystones/the-ombudsman/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bothsidesing",
@@ -4538,7 +4981,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"both sides\" + the \"-ing\" of an argument still running",
+    "etymology": "Blend of “both sides” + the “-ing” of an argument still running",
     "identification": [
       {
         "key": "trigger",
@@ -4637,7 +5080,8 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Vaguebooking",
@@ -4657,7 +5101,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"vague\" + \"Facebook\" + the \"-ing\" of a status update",
+    "etymology": "Blend of “vague” + “Facebook” + the “-ing” of a status update",
     "identification": [
       {
         "key": "trigger",
@@ -4742,7 +5186,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Receiptbomb",
@@ -4762,7 +5207,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"receipts\", the slang for evidence, + \"bomb\"",
+    "etymology": "Blend of “receipts”, the slang for evidence, + “bomb”",
     "identification": [
       {
         "key": "trigger",
@@ -4844,7 +5289,8 @@ export const entries = [
         "slug": "the-second-source",
         "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Dead cat",
@@ -4947,7 +5393,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Trial balloon",
@@ -4967,7 +5414,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "English: from ballooning, where a ballon d'essai is released to see which way the wind blows.",
+    "etymology": "English: from ballooning, where a ballon d’essai is released to see which way the wind blows.",
     "identification": [
       {
         "key": "trigger",
@@ -5016,14 +5463,14 @@ export const entries = [
         "path": "/moves/friday-news-dump/"
       },
       {
-        "term": "Biasographer",
-        "slug": "biasographer",
-        "path": "/species/biasographer/"
-      },
-      {
         "term": "Briefing room",
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
+      },
+      {
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
       }
     ],
     "edges": [
@@ -5037,13 +5484,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "Records request",
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Friday news dump",
@@ -5063,7 +5518,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: the hour after the last deadline, when the week's worst news gets filed.",
+    "etymology": "English: the hour after the last deadline, when the week’s worst news gets filed.",
     "identification": [
       {
         "key": "trigger",
@@ -5138,13 +5593,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Astroturfing",
@@ -5247,7 +5710,8 @@ export const entries = [
         "slug": "lateral-reading",
         "path": "/remedies/lateral-reading/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Motte hop",
@@ -5357,7 +5821,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Heckler's veto",
@@ -5467,7 +5932,8 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Flood the zone",
@@ -5577,7 +6043,8 @@ export const entries = [
         "slug": "the-audit",
         "path": "/remedies/the-audit/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Good cop, bad cop",
@@ -5644,9 +6111,22 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
       }
     ],
-    "edges": [],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      }
+    ],
     "backlinks": [
       {
         "rel": "performs",
@@ -5654,8 +6134,23 @@ export const entries = [
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Ad hominem",
@@ -5728,6 +6223,16 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/"
+      },
+      {
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
       }
     ],
     "edges": [],
@@ -5752,6 +6257,13 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -5831,6 +6343,16 @@ export const entries = [
         "term": "False dilemma",
         "slug": "false-dilemma",
         "path": "/fallacies/false-dilemma/"
+      },
+      {
+        "term": "The fallacy fallacy",
+        "slug": "the-fallacy-fallacy",
+        "path": "/fallacies/the-fallacy-fallacy/"
+      },
+      {
+        "term": "False attribution",
+        "slug": "false-attribution",
+        "path": "/fallacies/false-attribution/"
       }
     ],
     "edges": [],
@@ -5862,6 +6384,18 @@ export const entries = [
         "term": "School board meeting",
         "slug": "school-board-meeting",
         "path": "/habitats/school-board-meeting/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -5936,6 +6470,11 @@ export const entries = [
         "term": "Argument from ignorance",
         "slug": "argument-from-ignorance",
         "path": "/fallacies/argument-from-ignorance/"
+      },
+      {
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
     "edges": [],
@@ -5976,6 +6515,13 @@ export const entries = [
         "path": "/abilities/cronycle/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Bluecheck",
@@ -6002,6 +6548,28 @@ export const entries = [
         "term": "Access",
         "slug": "access",
         "path": "/buffs/access/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -6076,6 +6644,11 @@ export const entries = [
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
         "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -6097,9 +6670,40 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Crisisglow",
         "slug": "crisisglow",
         "path": "/buffs/crisisglow/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -6174,6 +6778,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/"
       }
     ],
     "edges": [],
@@ -6198,6 +6807,18 @@ export const entries = [
         "term": "Push poll",
         "slug": "push-poll",
         "path": "/moves/push-poll/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -6272,10 +6893,22 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/"
       }
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -6289,6 +6922,13 @@ export const entries = [
         "term": "Bleatkeeper",
         "slug": "bleatkeeper",
         "path": "/species/bleatkeeper/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -6363,6 +7003,16 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/"
+      },
+      {
+        "term": "Argument from silence",
+        "slug": "argument-from-silence",
+        "path": "/fallacies/argument-from-silence/"
       }
     ],
     "edges": [],
@@ -6394,6 +7044,30 @@ export const entries = [
         "term": "Subpoenado",
         "slug": "subpoenado",
         "path": "/abilities/subpoenado/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -6421,7 +7095,7 @@ export const entries = [
         "key": "family",
         "label": "Family",
         "type": "text",
-        "value": "Informal · Red herring (ad hominem family)"
+        "value": "Informal · Red herring"
       },
       {
         "key": "committed_when",
@@ -6453,7 +7127,7 @@ export const entries = [
       "label": "Wikipedia · Tone policing",
       "url": "https://en.wikipedia.org/wiki/Tone_policing"
     },
-    "summary": "Informal · Red herring (ad hominem family) fallacy: Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
+    "summary": "Informal · Red herring fallacy: Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
     "definition": "Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
     "confusedWith": [
       {
@@ -6468,6 +7142,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Whataboutism",
+        "slug": "whataboutism",
+        "path": "/fallacies/whataboutism/"
       }
     ],
     "edges": [],
@@ -6480,11 +7159,30 @@ export const entries = [
         "path": "/species/decorumancer/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Nonpology",
         "slug": "nonpology",
         "path": "/moves/nonpology/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -6559,6 +7257,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
       }
     ],
     "edges": [],
@@ -6576,6 +7279,20 @@ export const entries = [
         "term": "Motte hop",
         "slug": "motte-hop",
         "path": "/moves/motte-hop/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -6650,6 +7367,11 @@ export const entries = [
         "term": "Post hoc ergo propter hoc",
         "slug": "post-hoc-ergo-propter-hoc",
         "path": "/fallacies/post-hoc-ergo-propter-hoc/"
+      },
+      {
+        "term": "McNamara fallacy",
+        "slug": "mcnamara-fallacy",
+        "path": "/fallacies/mcnamara-fallacy/"
       }
     ],
     "edges": [],
@@ -6674,6 +7396,30 @@ export const entries = [
         "term": "Judge shopping",
         "slug": "judge-shopping",
         "path": "/abilities/judge-shopping/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -6748,6 +7494,11 @@ export const entries = [
         "term": "Appeal to motive",
         "slug": "appeal-to-motive",
         "path": "/fallacies/appeal-to-motive/"
+      },
+      {
+        "term": "Tu quoque",
+        "slug": "tu-quoque",
+        "path": "/fallacies/tu-quoque/"
       }
     ],
     "edges": [],
@@ -6765,6 +7516,13 @@ export const entries = [
         "term": "Vaguebooking",
         "slug": "vaguebooking",
         "path": "/moves/vaguebooking/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
       },
       {
         "rel": "commits",
@@ -6786,6 +7544,18 @@ export const entries = [
         "term": "Perp walk",
         "slug": "perp-walk",
         "path": "/habitats/perp-walk/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -6860,6 +7630,11 @@ export const entries = [
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
         "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/"
       }
     ],
     "edges": [],
@@ -6884,6 +7659,13 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -6958,6 +7740,11 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/"
       }
     ],
     "edges": [],
@@ -6983,6 +7770,13 @@ export const entries = [
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      }
     ]
   },
   {
@@ -7003,7 +7797,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Named for Kafka's The Trial: the accusation is the process, and the defence is the evidence.",
+    "etymology": "Named for Kafka’s The Trial: the accusation is the process, and the defence is the evidence.",
     "identification": [
       {
         "key": "family",
@@ -7085,6 +7879,13 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -7176,11 +7977,30 @@ export const entries = [
         "path": "/species/biasographer/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -7272,11 +8092,30 @@ export const entries = [
         "path": "/species/capitulectual/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -7381,6 +8220,13 @@ export const entries = [
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -7483,6 +8329,18 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -7587,6 +8445,13 @@ export const entries = [
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      }
     ]
   },
   {
@@ -7607,7 +8472,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Named for Robert McNamara's defence metrics: body counts offered as the measure of a war the counts could not describe.",
+    "etymology": "Named for Robert McNamara’s defence metrics: body counts offered as the measure of a war the counts could not describe.",
     "identification": [
       {
         "key": "family",
@@ -7670,6 +8535,13 @@ export const entries = [
     "edges": [],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
@@ -7682,6 +8554,13 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -7703,7 +8582,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of \"hypocrite\" + \"contortionist\"",
+    "etymology": "Blend of “hypocrite” + “contortionist”",
     "identification": [
       {
         "key": "occasion",
@@ -7808,13 +8687,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Mythstorian",
@@ -7834,7 +8721,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"myth\" + \"historian\"",
+    "etymology": "Blend of “myth” + “historian”",
     "identification": [
       {
         "key": "occasion",
@@ -7932,13 +8819,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The archivist",
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bootcurious",
@@ -7958,7 +8853,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"bootlicker\" + \"curious\"",
+    "etymology": "Blend of “bootlicker” + “curious”",
     "identification": [
       {
         "key": "effect",
@@ -8052,7 +8947,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Crookmaxxing",
@@ -8072,7 +8968,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of \"crook\" + \"-maxxing\"",
+    "etymology": "Blend of “crook” + “-maxxing”",
     "identification": [
       {
         "key": "trigger",
@@ -8154,7 +9050,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Capitulectual",
@@ -8174,7 +9071,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"capitulate\" + \"intellectual\"",
+    "etymology": "Blend of “capitulate” + “intellectual”",
     "identification": [
       {
         "key": "occasion",
@@ -8286,13 +9183,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The written reason",
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Subpoenado",
@@ -8312,7 +9217,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"subpoena\" + \"tornado\"",
+    "etymology": "Blend of “subpoena” + “tornado”",
     "identification": [
       {
         "key": "effect",
@@ -8390,7 +9295,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Cronycle",
@@ -8410,7 +9316,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"crony\" + \"cycle\" - and a chronicle is what it writes over the machinery",
+    "etymology": "Blend of “crony” + “cycle” - and a chronicle is what it writes over the machinery",
     "identification": [
       {
         "key": "effect",
@@ -8485,7 +9391,8 @@ export const entries = [
         "slug": "the-auditor",
         "path": "/keystones/the-auditor/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Nonpology",
@@ -8505,7 +9412,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"non-\" + \"apology\"",
+    "etymology": "Blend of “non-” + “apology”",
     "identification": [
       {
         "key": "trigger",
@@ -8597,7 +9504,8 @@ export const entries = [
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "School board meeting",
@@ -8717,6 +9625,62 @@ export const entries = [
         "term": "Heckler's veto",
         "slug": "hecklers-veto",
         "path": "/moves/hecklers-veto/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Decorumancer",
+        "slug": "decorumancer",
+        "path": "/species/decorumancer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Sabotriot",
+        "slug": "sabotriot",
+        "path": "/species/sabotriot/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "McNamara fallacy",
+        "slug": "mcnamara-fallacy",
+        "path": "/fallacies/mcnamara-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Moving the goalposts",
+        "slug": "moving-the-goalposts",
+        "path": "/fallacies/moving-the-goalposts/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Sunk cost fallacy",
+        "slug": "sunk-cost-fallacy",
+        "path": "/fallacies/sunk-cost-fallacy/"
       }
     ],
     "backlinks": [
@@ -8727,7 +9691,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Blueslip",
@@ -8830,7 +9795,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Recessure",
@@ -8850,7 +9816,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"recess\" + \"seizure\"",
+    "etymology": "Blend of “recess” + “seizure”",
     "identification": [
       {
         "key": "effect",
@@ -8926,7 +9892,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Signaway",
@@ -8946,7 +9913,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of \"signing statement\" + \"sign away\"",
+    "etymology": "Blend of “signing statement” + “sign away”",
     "identification": [
       {
         "key": "effect",
@@ -9029,7 +9996,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Lame duck",
@@ -9117,7 +10085,8 @@ export const entries = [
         "path": "/fallacies/special-pleading/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Judge shopping",
@@ -9220,7 +10189,8 @@ export const entries = [
         "slug": "random-draw",
         "path": "/remedies/random-draw/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "SLAPP",
@@ -9323,7 +10293,8 @@ export const entries = [
         "slug": "fee-shift",
         "path": "/remedies/fee-shift/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "NDA",
@@ -9419,7 +10390,8 @@ export const entries = [
         "slug": "the-carve-out",
         "path": "/remedies/the-carve-out/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Qualified immunity",
@@ -9515,7 +10487,8 @@ export const entries = [
         "slug": "the-public-defender",
         "path": "/keystones/the-public-defender/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Consent decree",
@@ -9590,7 +10563,16 @@ export const entries = [
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Breaking treaties",
@@ -9657,10 +10639,24 @@ export const entries = [
         "term": "Forever war",
         "slug": "forever-war",
         "path": "/abilities/forever-war/"
+      },
+      {
+        "term": "The withdrawal clause",
+        "slug": "the-withdrawal-clause",
+        "path": "/remedies/the-withdrawal-clause/"
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The withdrawal clause",
+        "slug": "the-withdrawal-clause",
+        "path": "/remedies/the-withdrawal-clause/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Secret meeting",
@@ -9686,7 +10682,7 @@ export const entries = [
         "key": "carriers",
         "label": "Carriers",
         "type": "text",
-        "value": "Cabinets, boards, caucuses, and the dinner that appears on nobody’s schedule."
+        "value": "Cabinets, boards, caucuses, the dinner that appears on nobody’s schedule, and the hunting camp where the season’s legislation is agreed before the season opens."
       },
       {
         "key": "economics",
@@ -9698,7 +10694,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "A decision that arrives fully formed, attributed to a process nobody watched."
+        "value": "A decision that arrives fully formed, attributed to a process nobody watched, and a guest list nobody kept."
       },
       {
         "key": "counter",
@@ -9707,10 +10703,10 @@ export const entries = [
         "value": "A calendar rule: no decision without a record, and no record without a date. What cannot be minuted cannot be appealed."
       }
     ],
-    "voice": "A decision that arrives fully formed, attributed to a process nobody watched.",
+    "voice": "A decision that arrives fully formed, attributed to a process nobody watched, and a guest list nobody kept.",
     "senses": [
       "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum’s authority and none of a quorum’s exposure.",
-      "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else."
+      "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else. It is the same room at every scale: four trustees in a kitchen, a caucus in a cabin, a cabinet at a weekend retreat."
     ],
     "notes": [],
     "example": "“The decision was made in the ordinary course” - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.",
@@ -9733,10 +10729,39 @@ export const entries = [
         "term": "Good ol' boys club",
         "slug": "good-ol-boys-club",
         "path": "/habitats/good-ol-boys-club/"
+      },
+      {
+        "term": "Pseudo-event",
+        "slug": "pseudo-event",
+        "path": "/habitats/pseudo-event/"
       }
     ],
-    "edges": [],
-    "backlinks": []
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Good ol' boys club",
@@ -9762,7 +10787,7 @@ export const entries = [
         "key": "carriers",
         "label": "Carriers",
         "type": "text",
-        "value": "The alumni network, the county party, the trade association, and the fraternity that became a hiring pipeline."
+        "value": "The alumni network, the county party, the trade association, the fraternity that became a hiring pipeline, and the lodge whose parking lot is full on a Tuesday night."
       },
       {
         "key": "economics",
@@ -9774,7 +10799,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "Every post is filled before it is advertised, and every candidate is somebody’s nephew."
+        "value": "Every post is filled before it is advertised, every candidate is somebody’s nephew, and the vote is a formality held in a room with no chairs for the public."
       },
       {
         "key": "counter",
@@ -9783,10 +10808,10 @@ export const entries = [
         "value": "Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting."
       }
     ],
-    "voice": "Every post is filled before it is advertised, and every candidate is somebody’s nephew.",
+    "voice": "Every post is filled before it is advertised, every candidate is somebody’s nephew, and the vote is a formality held in a room with no chairs for the public.",
     "senses": [
       "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
-      "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document."
+      "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document. It scales without changing shape: the same room picks the shift supervisor and the attorney general, and the lodge hall and the cabinet differ only in the size of the parking lot."
     ],
     "notes": [],
     "example": "“He’s one of us” - the whole interview, in four words, before the résumé was opened: the **good ol’ boys club** doing its hiring in the open.",
@@ -9809,10 +10834,46 @@ export const entries = [
         "term": "Secret meeting",
         "slug": "secret-meeting",
         "path": "/habitats/secret-meeting/"
+      },
+      {
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/"
       }
     ],
-    "edges": [],
-    "backlinks": []
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Hypocontortionist",
+        "slug": "hypocontortionist",
+        "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Trust-Me-Brofessor",
+        "slug": "trust-me-brofessor",
+        "path": "/species/trust-me-brofessor/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Unelected official",
@@ -9876,10 +10937,16 @@ export const entries = [
         "term": "Nightdocket",
         "slug": "nightdocket",
         "path": "/abilities/nightdocket/"
+      },
+      {
+        "term": "Lame duck",
+        "slug": "lame-duck",
+        "path": "/buffs/lame-duck/"
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Two wrongs make a right",
@@ -9952,6 +11019,11 @@ export const entries = [
         "term": "Special pleading",
         "slug": "special-pleading",
         "path": "/fallacies/special-pleading/"
+      },
+      {
+        "term": "Whataboutism",
+        "slug": "whataboutism",
+        "path": "/fallacies/whataboutism/"
       }
     ],
     "edges": [],
@@ -9962,6 +11034,13 @@ export const entries = [
         "term": "Freetard",
         "slug": "freetard",
         "path": "/species/freetard/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
       },
       {
         "rel": "commits",
@@ -9976,6 +11055,18 @@ export const entries = [
         "term": "Crookmaxxing",
         "slug": "crookmaxxing",
         "path": "/moves/crookmaxxing/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -10050,6 +11141,11 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
       }
     ],
     "edges": [],
@@ -10067,6 +11163,25 @@ export const entries = [
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -10141,6 +11256,11 @@ export const entries = [
         "term": "Moving the goalposts",
         "slug": "moving-the-goalposts",
         "path": "/fallacies/moving-the-goalposts/"
+      },
+      {
+        "term": "No true Scotsman",
+        "slug": "no-true-scotsman",
+        "path": "/fallacies/no-true-scotsman/"
       }
     ],
     "edges": [],
@@ -10207,6 +11327,25 @@ export const entries = [
         "term": "Qualified immunity",
         "slug": "qualified-immunity",
         "path": "/abilities/qualified-immunity/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -10281,6 +11420,11 @@ export const entries = [
         "term": "False dilemma",
         "slug": "false-dilemma",
         "path": "/fallacies/false-dilemma/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -10298,6 +11442,25 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -10372,6 +11535,11 @@ export const entries = [
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
         "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "path": "/moves/bothsidesing/"
       }
     ],
     "edges": [],
@@ -10396,6 +11564,18 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -10470,6 +11650,11 @@ export const entries = [
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
         "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
     "edges": [],
@@ -10523,6 +11708,23 @@ export const entries = [
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      }
     ]
   },
   {
@@ -10543,7 +11745,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 5
     },
-    "etymology": "Blend of \"xenophobe\" + \"fabricator\"",
+    "etymology": "Blend of “xenophobe” + “fabricator”",
     "identification": [
       {
         "key": "occasion",
@@ -10643,13 +11845,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The statistician",
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Dramagogue",
@@ -10669,7 +11879,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"drama\" + \"demagogue\"",
+    "etymology": "Blend of “drama” + “demagogue”",
     "identification": [
       {
         "key": "occasion",
@@ -10781,13 +11991,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "The public defender",
         "slug": "the-public-defender",
         "path": "/keystones/the-public-defender/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Ragesturbationist",
@@ -10807,7 +12025,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",
+    "etymology": "Blend of “rage” + “masturbation” + “-ist”",
     "identification": [
       {
         "key": "occasion",
@@ -10906,7 +12124,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Martyrholic",
@@ -10926,7 +12145,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"martyr\" + \"-holic\"",
+    "etymology": "Blend of “martyr” + “-holic”",
     "identification": [
       {
         "key": "occasion",
@@ -11019,13 +12238,21 @@ export const entries = [
     ],
     "backlinks": [
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
+      },
+      {
         "rel": "counters",
         "label": "Countered by",
         "term": "Cross-examination",
         "slug": "cross-examination",
         "path": "/remedies/cross-examination/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Algodemic",
@@ -11045,7 +12272,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",
+    "etymology": "Blend of “algorithm” + “academic” / “pandemic”",
     "identification": [
       {
         "key": "occasion",
@@ -11172,7 +12399,8 @@ export const entries = [
         "slug": "lateral-reading",
         "path": "/remedies/lateral-reading/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Plutomartyr",
@@ -11192,7 +12420,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"plutocrat\" + \"martyr\"",
+    "etymology": "Blend of “plutocrat” + “martyr”",
     "identification": [
       {
         "key": "occasion",
@@ -11319,7 +12547,8 @@ export const entries = [
         "slug": "the-caseworker",
         "path": "/keystones/the-caseworker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Slopagandist",
@@ -11339,7 +12568,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of \"slop\" + \"propagandist\"",
+    "etymology": "Blend of “slop” + “propagandist”",
     "identification": [
       {
         "key": "occasion",
@@ -11494,7 +12723,8 @@ export const entries = [
         "slug": "the-second-source",
         "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Cable panel",
@@ -11630,6 +12860,55 @@ export const entries = [
         "term": "The fallacy fallacy",
         "slug": "the-fallacy-fallacy",
         "path": "/fallacies/the-fallacy-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "path": "/species/biasographer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Equivangelist",
+        "slug": "equivangelist",
+        "path": "/species/equivangelist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "path": "/species/gallopologist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to authority",
+        "slug": "appeal-to-authority",
+        "path": "/fallacies/appeal-to-authority/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argument to moderation",
+        "slug": "argument-to-moderation",
+        "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "False equivalence",
+        "slug": "false-equivalence",
+        "path": "/fallacies/false-equivalence/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/"
       }
     ],
     "backlinks": [
@@ -11640,7 +12919,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Group chat",
@@ -11769,6 +13049,34 @@ export const entries = [
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Anecdotal evidence",
+        "slug": "anecdotal-evidence",
+        "path": "/fallacies/anecdotal-evidence/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Hasty generalization",
+        "slug": "hasty-generalization",
+        "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/"
       }
     ],
     "backlinks": [
@@ -11779,7 +13087,8 @@ export const entries = [
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Bluecheck",
@@ -11799,7 +13108,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of \"blue check\" + the verb \"to check\" - the mark and the act of vouching",
+    "etymology": "Blend of “blue check” + the verb “to check” - the mark and the act of vouching",
     "identification": [
       {
         "key": "effect",
@@ -11827,7 +13136,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“He lost the thread, then posted a screenshot of his own tick, and the **bluecheck** did the rest of the arguing for him.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Twitter verification",
+      "url": "https://en.wikipedia.org/wiki/Twitter_verification"
+    },
     "summary": "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as...",
     "definition": "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as the account being right.",
     "confusedWith": [
@@ -11874,7 +13186,8 @@ export const entries = [
         "slug": "the-editor",
         "path": "/keystones/the-editor/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Crisisglow",
@@ -11894,7 +13207,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of \"crisis\" + \"afterglow\"",
+    "etymology": "Blend of “crisis” + “afterglow”",
     "identification": [
       {
         "key": "effect",
@@ -11945,9 +13258,9 @@ export const entries = [
         "path": "/species/dramagogue/"
       },
       {
-        "term": "Sunset clause",
-        "slug": "sunset-clause",
-        "path": "/remedies/sunset-clause/"
+        "term": "Outrage fatigue",
+        "slug": "outrage-fatigue",
+        "path": "/buffs/outrage-fatigue/"
       }
     ],
     "edges": [
@@ -11974,7 +13287,8 @@ export const entries = [
         "slug": "sunset-clause",
         "path": "/remedies/sunset-clause/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Indictbump",
@@ -11994,7 +13308,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Blend of \"indictment\" + \"bump\", the poll movement",
+    "etymology": "Blend of “indictment” + “bump”, the poll movement",
     "identification": [
       {
         "key": "effect",
@@ -12022,7 +13336,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Rally 'round the flag effect",
+      "url": "https://en.wikipedia.org/wiki/Rally_%27round_the_flag_effect"
+    },
     "summary": "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of...",
     "definition": "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
     "confusedWith": [
@@ -12061,7 +13378,8 @@ export const entries = [
         "path": "/fallacies/poisoning-the-well/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The Feed",
@@ -12197,6 +13515,34 @@ export const entries = [
         "term": "Base rate fallacy",
         "slug": "base-rate-fallacy",
         "path": "/fallacies/base-rate-fallacy/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to novelty",
+        "slug": "appeal-to-novelty",
+        "path": "/fallacies/appeal-to-novelty/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Post hoc ergo propter hoc",
+        "slug": "post-hoc-ergo-propter-hoc",
+        "path": "/fallacies/post-hoc-ergo-propter-hoc/"
       }
     ],
     "backlinks": [
@@ -12207,7 +13553,8 @@ export const entries = [
         "slug": "lateral-reading",
         "path": "/remedies/lateral-reading/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Rubber chicken circuit",
@@ -12285,6 +13632,11 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
       }
     ],
     "edges": [
@@ -12308,6 +13660,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Vague promises",
+        "slug": "vague-promises",
+        "path": "/moves/vague-promises/"
       }
     ],
     "backlinks": [
@@ -12318,7 +13677,8 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Push poll",
@@ -12428,7 +13788,8 @@ export const entries = [
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Briefing room",
@@ -12541,6 +13902,55 @@ export const entries = [
         "term": "Flood the zone",
         "slug": "flood-the-zone",
         "path": "/moves/flood-the-zone/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Bleatkeeper",
+        "slug": "bleatkeeper",
+        "path": "/species/bleatkeeper/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "JAQing Off",
+        "slug": "jaqing-off",
+        "path": "/moves/jaqing-off/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "path": "/moves/trial-balloon/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Cherry picking",
+        "slug": "cherry-picking",
+        "path": "/fallacies/cherry-picking/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
     "backlinks": [
@@ -12551,7 +13961,8 @@ export const entries = [
         "slug": "records-request",
         "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Spin room",
@@ -12571,7 +13982,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: 'spin alley', the room behind a debate where each side declares what the audience just saw.",
+    "etymology": "English: ‘spin alley’, the room behind a debate where each side declares what the audience just saw.",
     "identification": [
       {
         "key": "carriers",
@@ -12650,6 +14061,27 @@ export const entries = [
         "term": "Argumentum ad populum",
         "slug": "argumentum-ad-populum",
         "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Capitulectual",
+        "slug": "capitulectual",
+        "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Equivocation",
+        "slug": "equivocation",
+        "path": "/fallacies/equivocation/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Motte-and-bailey fallacy",
+        "slug": "motte-and-bailey-fallacy",
+        "path": "/fallacies/motte-and-bailey-fallacy/"
       }
     ],
     "backlinks": [
@@ -12660,7 +14092,8 @@ export const entries = [
         "slug": "the-written-reason",
         "path": "/remedies/the-written-reason/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Rally",
@@ -12680,7 +14113,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: from 'rally' - to gather again, and to recover.",
+    "etymology": "English: from ‘rally’ - to gather again, and to recover.",
     "identification": [
       {
         "key": "carriers",
@@ -12780,6 +14213,62 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Dramagogue",
+        "slug": "dramagogue",
+        "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "LARPtarian",
+        "slug": "larptarian",
+        "path": "/species/larptarian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to consequences",
+        "slug": "appeal-to-consequences",
+        "path": "/fallacies/appeal-to-consequences/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to nature",
+        "slug": "appeal-to-nature",
+        "path": "/fallacies/appeal-to-nature/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Slippery slope",
+        "slug": "slippery-slope",
+        "path": "/fallacies/slippery-slope/"
       }
     ],
     "backlinks": [
@@ -12790,7 +14279,8 @@ export const entries = [
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Frankincense",
@@ -12810,7 +14300,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of \"franking\", the privilege of free official mail, + \"incense\", to inflame",
+    "etymology": "Blend of “franking”, the privilege of free official mail, + “incense”, to inflame",
     "identification": [
       {
         "key": "effect",
@@ -12883,7 +14373,8 @@ export const entries = [
         "slug": "the-audit",
         "path": "/remedies/the-audit/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Pseudo-event",
@@ -12992,7 +14483,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Perp walk",
@@ -13091,6 +14583,20 @@ export const entries = [
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
         "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Martyrholic",
+        "slug": "martyrholic",
+        "path": "/species/martyrholic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Just-world hypothesis",
+        "slug": "just-world-hypothesis",
+        "path": "/fallacies/just-world-hypothesis/"
       }
     ],
     "backlinks": [
@@ -13101,7 +14607,8 @@ export const entries = [
         "slug": "the-juror",
         "path": "/keystones/the-juror/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Access",
@@ -13149,7 +14656,10 @@ export const entries = [
     ],
     "notes": [],
     "example": "“The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour.”",
-    "cite": null,
+    "cite": {
+      "label": "Wikipedia · Access journalism",
+      "url": "https://en.wikipedia.org/wiki/Access_journalism"
+    },
     "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and...",
     "definition": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and the next hard question expensive.",
     "confusedWith": [
@@ -13194,7 +14704,8 @@ export const entries = [
         "slug": "recusal",
         "path": "/remedies/recusal/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Hot mic",
@@ -13282,7 +14793,16 @@ export const entries = [
         "path": "/fallacies/appeal-to-emotion/"
       }
     ],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "WMD mongering",
@@ -13356,7 +14876,15 @@ export const entries = [
         "path": "/species/dramagogue/"
       }
     ],
-    "edges": [],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to fear",
+        "slug": "appeal-to-fear",
+        "path": "/fallacies/appeal-to-fear/"
+      }
+    ],
     "backlinks": [
       {
         "rel": "performs",
@@ -13364,8 +14892,23 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Lobbyism",
@@ -13432,6 +14975,11 @@ export const entries = [
         "term": "Citizens United",
         "slug": "citizens-united",
         "path": "/abilities/citizens-united/"
+      },
+      {
+        "term": "Cronycle",
+        "slug": "cronycle",
+        "path": "/abilities/cronycle/"
       }
     ],
     "edges": [],
@@ -13442,8 +14990,23 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "uses",
+        "label": "Used by",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "PAC check",
@@ -13463,7 +15026,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "American political finance: the committee's cheque, delivered before the vote and disclosed after it.",
+    "etymology": "American political finance: the committee’s cheque, delivered before the vote and disclosed after it.",
     "identification": [
       {
         "key": "effect",
@@ -13518,7 +15081,8 @@ export const entries = [
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Oil diplomacy",
@@ -13590,10 +15154,24 @@ export const entries = [
         "term": "Signaway",
         "slug": "signaway",
         "path": "/abilities/signaway/"
+      },
+      {
+        "term": "The reserve",
+        "slug": "the-reserve",
+        "path": "/remedies/the-reserve/"
       }
     ],
     "edges": [],
-    "backlinks": []
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The reserve",
+        "slug": "the-reserve",
+        "path": "/remedies/the-reserve/"
+      }
+    ],
+    "committedFrom": []
   },
   {
     "term": "Climate hoax",
@@ -13660,6 +15238,11 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
       }
     ],
     "edges": [],
@@ -13670,8 +15253,16 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Forever war",
@@ -13738,6 +15329,11 @@ export const entries = [
         "term": "WMD mongering",
         "slug": "wmd-mongering",
         "path": "/moves/wmd-mongering/"
+      },
+      {
+        "term": "Climate hoax",
+        "slug": "climate-hoax",
+        "path": "/abilities/climate-hoax/"
       }
     ],
     "edges": [],
@@ -13748,8 +15344,16 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Appeal to emotion",
@@ -13822,6 +15426,11 @@ export const entries = [
         "term": "Motte-and-bailey fallacy",
         "slug": "motte-and-bailey-fallacy",
         "path": "/fallacies/motte-and-bailey-fallacy/"
+      },
+      {
+        "term": "Appeal to pity",
+        "slug": "appeal-to-pity",
+        "path": "/fallacies/appeal-to-pity/"
       }
     ],
     "edges": [],
@@ -13881,6 +15490,23 @@ export const entries = [
         "term": "Hot mic",
         "slug": "hot-mic",
         "path": "/buffs/hot-mic/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -13955,6 +15581,11 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "term": "Appeal to force",
+        "slug": "appeal-to-force",
+        "path": "/fallacies/appeal-to-force/"
       }
     ],
     "edges": [],
@@ -14007,6 +15638,35 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "path": "/buffs/crisisglow/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14081,6 +15741,11 @@ export const entries = [
         "term": "Special pleading",
         "slug": "special-pleading",
         "path": "/fallacies/special-pleading/"
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/"
       }
     ],
     "edges": [],
@@ -14093,11 +15758,30 @@ export const entries = [
         "path": "/species/bleatkeeper/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14172,6 +15856,11 @@ export const entries = [
         "term": "Anecdotal evidence",
         "slug": "anecdotal-evidence",
         "path": "/fallacies/anecdotal-evidence/"
+      },
+      {
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/"
       }
     ],
     "edges": [],
@@ -14184,11 +15873,30 @@ export const entries = [
         "path": "/species/larptarian/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Patriotainment",
+        "slug": "patriotainment",
+        "path": "/habitats/patriotainment/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14263,6 +15971,11 @@ export const entries = [
         "term": "Hasty generalization",
         "slug": "hasty-generalization",
         "path": "/fallacies/hasty-generalization/"
+      },
+      {
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
       }
     ],
     "edges": [],
@@ -14280,6 +15993,25 @@ export const entries = [
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14354,10 +16086,22 @@ export const entries = [
         "term": "Poisoning the well",
         "slug": "poisoning-the-well",
         "path": "/fallacies/poisoning-the-well/"
+      },
+      {
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/"
       }
     ],
     "edges": [],
     "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/"
+      },
       {
         "rel": "commits",
         "label": "Committed by",
@@ -14371,6 +16115,13 @@ export const entries = [
         "term": "Dramagogue",
         "slug": "dramagogue",
         "path": "/species/dramagogue/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14470,6 +16221,13 @@ export const entries = [
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
       }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      }
     ]
   },
   {
@@ -14543,6 +16301,11 @@ export const entries = [
         "term": "Gish gallop",
         "slug": "gish-gallop",
         "path": "/fallacies/gish-gallop/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
       }
     ],
     "edges": [],
@@ -14574,6 +16337,18 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14648,6 +16423,11 @@ export const entries = [
         "term": "Appeal to nature",
         "slug": "appeal-to-nature",
         "path": "/fallacies/appeal-to-nature/"
+      },
+      {
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
       }
     ],
     "edges": [],
@@ -14665,6 +16445,32 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14739,6 +16545,11 @@ export const entries = [
         "term": "Slippery slope",
         "slug": "slippery-slope",
         "path": "/fallacies/slippery-slope/"
+      },
+      {
+        "term": "Just-world hypothesis",
+        "slug": "just-world-hypothesis",
+        "path": "/fallacies/just-world-hypothesis/"
       }
     ],
     "edges": [],
@@ -14756,6 +16567,20 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -14777,7 +16602,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of \"pass off\" + \"pacifist\" - the peacemaker whose peace is the subject never coming up",
+    "etymology": "Blend of “pass off” + “pacifist” - the peacemaker whose peace is the subject never coming up",
     "identification": [
       {
         "key": "occasion",
@@ -14836,6 +16661,11 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
       }
     ],
     "edges": [
@@ -14890,7 +16720,8 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Provocrop",
@@ -14910,7 +16741,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of \"provocation\" + \"sharecropper\" - works a field of someone else's outrage and keeps a share of the crop",
+    "etymology": "Blend of “provocation” + “sharecropper” - works a field of someone else’s outrage and keeps a share of the crop",
     "identification": [
       {
         "key": "occasion",
@@ -15016,7 +16847,531 @@ export const entries = [
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
       }
-    ]
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Precedentarian",
+    "slug": "precedentarian",
+    "kind": "species",
+    "kindLabel": "Species",
+    "source": "data/entries/species/precedentarian.json",
+    "path": "/species/precedentarian/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌpres.ɪˈden.tɛə.ri.ən/",
+    "position": 3,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Blend of “precedent” + “authoritarian” - the one authority that never has to run for anything",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A budget line, a bylaw, or a rota that nobody in the room can remember choosing."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“This is how we have always done it.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Can name the year, never the reason",
+          "Answers what was decided when the question is what it was for",
+          "Treats a precedent as proof the question is closed"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the decision, not the tradition: who signed it, what it replaced, and what it cost. A precedent that survives the minutes is a rule; one that does not was a habit, and habits are not authority."
+      }
+    ],
+    "voice": "“This is how we have always done it.”",
+    "senses": [
+      "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the fact that somebody answered it once.",
+      "It works because continuity is worth something and memory is short. Most rules do carry a reason, so the precedentarian is right often enough never to have to say which ones - the burden lands on you to prove this is the exception, and the minutes are in a basement."
+    ],
+    "notes": [],
+    "example": "“Asked why the roster worked that way, the **precedentarian** said it had been like that since 1994, which was true, and which nobody had checked.”",
+    "cite": {
+      "label": "Wikipedia · Status quo bias",
+      "url": "https://en.wikipedia.org/wiki/Status_quo_bias"
+    },
+    "summary": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the...",
+    "definition": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the fact that somebody answered it once.",
+    "confusedWith": [
+      {
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "tell": "The biasographer writes the flattering account; the precedentarian cites it as a constraint.",
+        "path": "/species/biasographer/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Soft launch",
+    "slug": "soft-launch",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/soft-launch.json",
+    "path": "/moves/soft-launch/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/sɒft lɔːntʃ/",
+    "position": 4,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "English: from software, where a product ships quietly to see whether it breaks before anyone is told it exists.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A change that would be contested if it were announced and unremarkable if it were not."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A form that quietly gains a field, a fee that appears on the next statement, a policy page edited on a Friday with no changelog."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the changelog. Every quiet change has an author, a date and a diff; publish the diff on a schedule and the soft launch becomes an announcement with worse timing."
+      }
+    ],
+    "voice": "A form that quietly gains a field, a fee that appears on the next statement, a policy page edited on a Friday with no changelog.",
+    "senses": [
+      "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by the time anyone notices they are living under the arrangement.",
+      "It works because implementation beats argument. An announcement invites a hearing, a comment period and a vote; a deployment invites a complaint from whoever happens to meet it, and the people who would have organised against it find out one at a time."
+    ],
+    "notes": [],
+    "example": "“The **soft launch** was a checkbox on page four of a renewal form; by the time the council asked who approved it, four thousand people had already agreed.”",
+    "cite": {
+      "label": "Wikipedia · Soft launch",
+      "url": "https://en.wikipedia.org/wiki/Soft_launch"
+    },
+    "summary": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by...",
+    "definition": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by the time anyone notices they are living under the arrangement.",
+    "confusedWith": [
+      {
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "tell": "The trial balloon asks the room; the soft launch asks the silence.",
+        "path": "/moves/trial-balloon/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/"
+      },
+      {
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Grandfather clause",
+    "slug": "grandfather-clause",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/grandfather-clause.json",
+    "path": "/abilities/grandfather-clause/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɡræn.fɑː.ðə klɔːz/",
+    "position": 5,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "American: from the literacy tests that exempted any man whose grandfather had voted - the exemption was the point and the test was the alibi.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Keeps the existing practice legal while the new rule binds everyone who arrives after it, so the baseline never actually moves."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any legislature that wants a reform to look larger than the number of people it covers."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Date the exemption. A grandfather clause with an end date is a transition; one without is a permanent carve-out in a reform’s clothes, and the difference is a line nobody reads."
+      }
+    ],
+    "voice": "Keeps the existing practice legal while the new rule binds everyone who arrives after it, so the baseline never actually moves.",
+    "senses": [
+      "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule was written about survives because it arrived first.",
+      "It works because transition relief is reasonable. Every real reform lets people finish what they started, and the grandfather clause arrives wearing that reason - when the transition ends is the only thing that separates the two, and that date is never in the text."
+    ],
+    "notes": [],
+    "example": "“The **grandfather clause** exempted every plant already built, which was every plant, so the rule applied to a future that had not been scheduled.”",
+    "cite": {
+      "label": "Wikipedia · Grandfather clause",
+      "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
+    },
+    "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule...",
+    "definition": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule was written about survives because it arrived first.",
+    "confusedWith": [
+      {
+        "term": "The carve-out",
+        "slug": "the-carve-out",
+        "tell": "The carve-out writes the exception into the rule; the grandfather clause writes the rule around what already exists.",
+        "path": "/remedies/the-carve-out/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "path": "/fallacies/appeal-to-tradition/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Industry conference",
+    "slug": "industry-conference",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "source": "data/entries/habitats/industry-conference.json",
+    "path": "/habitats/industry-conference/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɪn.də.stri ˈkɒn.fər.əns/",
+    "position": 6,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "English: a conference is where an industry agrees with itself in public, and the programme is the agreement.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "The breakout session, the sponsored coffee break, the panel titled “Navigating the New Normal”, the lanyard that says who paid for lunch."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Exhibit fees, sponsored sessions, and a regulator on the panel who also sits on the advisory board."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A practice that was a scandal in last year’s programme is a best practice in this one, and two of the three speakers are the same."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Read the programme from three years ago. The room does not change its mind; it changes its slide deck, and the archive is the only record of what it used to say."
+      }
+    ],
+    "voice": "A practice that was a scandal in last year’s programme is a best practice in this one, and two of the three speakers are the same.",
+    "senses": [
+      "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would have had to do.",
+      "It works because the room is full of people whose jobs depend on the practice being normal, and the one who objects is on a panel with three who do not. Nobody votes - the programme is the vote, and it was printed a year in advance."
+    ],
+    "notes": [],
+    "example": "“Last year the **industry conference** ran a session on avoiding the practice; this year it ran a keynote on scaling it, with two of the same three speakers.”",
+    "cite": {
+      "label": "Wikipedia · Regulatory capture",
+      "url": "https://en.wikipedia.org/wiki/Regulatory_capture"
+    },
+    "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would...",
+    "definition": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would have had to do.",
+    "confusedWith": [
+      {
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "tell": "The circuit is the same speech in a different hall; the conference is a different speech about the same practice.",
+        "path": "/habitats/rubber-chicken-circuit/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to novelty",
+        "slug": "appeal-to-novelty",
+        "path": "/fallacies/appeal-to-novelty/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "uses",
+        "label": "Uses",
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Outrage fatigue",
+    "slug": "outrage-fatigue",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "source": "data/entries/buffs/outrage-fatigue.json",
+    "path": "/buffs/outrage-fatigue/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈaʊt.reɪdʒ fəˈtiːɡ/",
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 1
+    },
+    "etymology": "English: from alarm fatigue, the ward’s habit of turning down a monitor that cries wolf - the fourth alarm gets a slower answer than the first.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Makes each fresh revelation land softer than the last, so the same conduct can be disclosed three times and count once."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The second story about the same thing gets a shorter article, and the third gets a line in the round-up."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "Never on its own: it ends when something new arrives to be outraged about, which is the day the old conduct becomes the background."
+      }
+    ],
+    "voice": "The second story about the same thing gets a shorter article, and the third gets a line in the round-up.",
+    "senses": [
+      "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in September, and the conduct has not changed.",
+      "It works because attention is finite and disclosures are not. Nobody decides to stop caring; the caring is allocated to the newest thing, and the pattern that produced the story keeps producing it until the stories stop being news."
+    ],
+    "notes": [],
+    "example": "“By the third disclosure the **outrage fatigue** showed in the coverage: a front page, then a column, then a line in the round-up.”",
+    "cite": {
+      "label": "Wikipedia · Alarm fatigue",
+      "url": "https://en.wikipedia.org/wiki/Alarm_fatigue"
+    },
+    "summary": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in...",
+    "definition": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in September, and the conduct has not changed.",
+    "confusedWith": [
+      {
+        "term": "Crisisglow",
+        "slug": "crisisglow",
+        "tell": "The crisisglow is authority for as long as the emergency lasts; the outrage fatigue is the audience’s attention running out. One is a uniform, the other a battery.",
+        "path": "/buffs/crisisglow/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "path": "/buffs/honeymoan/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Hasty generalization",
@@ -15089,6 +17444,11 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "path": "/fallacies/cherry-picking/"
+      },
+      {
+        "term": "Nut-picking",
+        "slug": "nut-picking",
+        "path": "/fallacies/nut-picking/"
       }
     ],
     "edges": [],
@@ -15120,6 +17480,30 @@ export const entries = [
         "term": "Xenophobricator",
         "slug": "xenophobricator",
         "path": "/species/xenophobricator/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15194,6 +17578,11 @@ export const entries = [
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
         "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Nut-picking",
+        "slug": "nut-picking",
+        "path": "/fallacies/nut-picking/"
       }
     ],
     "edges": [],
@@ -15232,6 +17621,35 @@ export const entries = [
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15306,6 +17724,11 @@ export const entries = [
         "term": "Argument to moderation",
         "slug": "argument-to-moderation",
         "path": "/fallacies/argument-to-moderation/"
+      },
+      {
+        "term": "False balance",
+        "slug": "false-balance",
+        "path": "/fallacies/false-balance/"
       }
     ],
     "edges": [],
@@ -15325,11 +17748,35 @@ export const entries = [
         "path": "/species/plutomartyr/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -15404,6 +17851,11 @@ export const entries = [
         "term": "Survivorship bias",
         "slug": "survivorship-bias",
         "path": "/fallacies/survivorship-bias/"
+      },
+      {
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/"
       }
     ],
     "edges": [],
@@ -15421,6 +17873,25 @@ export const entries = [
         "term": "Martyrholic",
         "slug": "martyrholic",
         "path": "/species/martyrholic/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15495,6 +17966,11 @@ export const entries = [
         "term": "Loaded question",
         "slug": "loaded-question",
         "path": "/fallacies/loaded-question/"
+      },
+      {
+        "term": "Special pleading",
+        "slug": "special-pleading",
+        "path": "/fallacies/special-pleading/"
       }
     ],
     "edges": [],
@@ -15533,6 +18009,30 @@ export const entries = [
         "term": "Signaway",
         "slug": "signaway",
         "path": "/abilities/signaway/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -15607,6 +18107,11 @@ export const entries = [
         "term": "Whataboutism",
         "slug": "whataboutism",
         "path": "/fallacies/whataboutism/"
+      },
+      {
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/"
       }
     ],
     "edges": [],
@@ -15645,6 +18150,23 @@ export const entries = [
         "term": "Indictbump",
         "slug": "indictbump",
         "path": "/buffs/indictbump/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -15719,6 +18241,11 @@ export const entries = [
         "term": "Ad hominem",
         "slug": "ad-hominem",
         "path": "/fallacies/ad-hominem/"
+      },
+      {
+        "term": "Two wrongs make a right",
+        "slug": "two-wrongs-make-a-right",
+        "path": "/fallacies/two-wrongs-make-a-right/"
       }
     ],
     "edges": [],
@@ -15750,6 +18277,18 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -15824,6 +18363,11 @@ export const entries = [
         "term": "Straw man",
         "slug": "straw-man",
         "path": "/fallacies/straw-man/"
+      },
+      {
+        "term": "Tone policing",
+        "slug": "tone-policing",
+        "path": "/fallacies/tone-policing/"
       }
     ],
     "edges": [],
@@ -15855,6 +18399,23 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -15929,6 +18490,11 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "term": "Appeal to nature",
+        "slug": "appeal-to-nature",
+        "path": "/fallacies/appeal-to-nature/"
       }
     ],
     "edges": [],
@@ -15983,6 +18549,13 @@ export const entries = [
         "path": "/habitats/rally/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
@@ -15995,6 +18568,40 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -16069,6 +18676,11 @@ export const entries = [
         "term": "Appeal to tradition",
         "slug": "appeal-to-tradition",
         "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/"
       }
     ],
     "edges": [],
@@ -16107,6 +18719,30 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -16181,6 +18817,11 @@ export const entries = [
         "term": "Cherry picking",
         "slug": "cherry-picking",
         "path": "/fallacies/cherry-picking/"
+      },
+      {
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/"
       }
     ],
     "edges": [],
@@ -16205,6 +18846,18 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -16279,6 +18932,11 @@ export const entries = [
         "term": "Sealioning",
         "slug": "sealioning",
         "path": "/fallacies/sealioning/"
+      },
+      {
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/"
       }
     ],
     "edges": [],
@@ -16317,6 +18975,25 @@ export const entries = [
         "term": "Subpoenado",
         "slug": "subpoenado",
         "path": "/abilities/subpoenado/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       }
     ]
   },
@@ -16391,6 +19068,11 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "path": "/fallacies/proof-by-assertion/"
+      },
+      {
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/"
       }
     ],
     "edges": [],
@@ -16436,6 +19118,23 @@ export const entries = [
         "term": "Cable panel",
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -16510,6 +19209,11 @@ export const entries = [
         "term": "Proof by assertion",
         "slug": "proof-by-assertion",
         "path": "/fallacies/proof-by-assertion/"
+      },
+      {
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
       }
     ],
     "edges": [],
@@ -16534,6 +19238,18 @@ export const entries = [
         "term": "Comment section",
         "slug": "comment-section",
         "path": "/habitats/comment-section/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       }
     ]
   },
@@ -16608,6 +19324,11 @@ export const entries = [
         "term": "Normalcy bias",
         "slug": "normalcy-bias",
         "path": "/fallacies/normalcy-bias/"
+      },
+      {
+        "term": "Sunk cost fallacy",
+        "slug": "sunk-cost-fallacy",
+        "path": "/fallacies/sunk-cost-fallacy/"
       }
     ],
     "edges": [],
@@ -16618,6 +19339,13 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/"
       },
       {
         "rel": "commits",
@@ -16632,6 +19360,44 @@ export const entries = [
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Grandfather clause",
+        "slug": "grandfather-clause",
+        "path": "/abilities/grandfather-clause/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -16653,7 +19419,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 1
     },
-    "etymology": "Jared Diamond's term for change that arrives in increments too small to object to, each one accepted because the last one was.",
+    "etymology": "Jared Diamond’s term for change that arrives in increments too small to object to, each one accepted because the last one was.",
     "identification": [
       {
         "key": "family",
@@ -16730,11 +19496,35 @@ export const entries = [
         "path": "/species/hypocontortionist/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -16826,11 +19616,44 @@ export const entries = [
         "path": "/species/algodemic/"
       },
       {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/"
+      },
+      {
         "rel": "commits",
         "label": "Committed by",
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Outrage fatigue",
+        "slug": "outrage-fatigue",
+        "path": "/buffs/outrage-fatigue/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -16852,7 +19675,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Melvin Lerner's term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
+    "etymology": "Melvin Lerner’s term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
     "identification": [
       {
         "key": "family",
@@ -16927,6 +19750,25 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/"
+      }
+    ],
+    "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "fearmongering-grift",
+        "roman": "IV",
+        "title": "Fearmongering, Grift & Algorithmic Radicalization"
       }
     ]
   },
@@ -17047,9 +19889,17 @@ export const entries = [
         "term": "Recessure",
         "slug": "recessure",
         "path": "/abilities/recessure/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Discharge petition",
+        "slug": "discharge-petition",
+        "path": "/abilities/discharge-petition/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The poll worker",
@@ -17156,7 +20006,8 @@ export const entries = [
         "path": "/species/playtriot/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The archivist",
@@ -17275,9 +20126,17 @@ export const entries = [
         "term": "Hypocontortionist",
         "slug": "hypocontortionist",
         "path": "/species/hypocontortionist/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The librarian",
@@ -17377,7 +20236,8 @@ export const entries = [
         "path": "/species/illogician/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The caseworker",
@@ -17484,7 +20344,8 @@ export const entries = [
         "path": "/species/larptarian/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The editor",
@@ -17591,7 +20452,8 @@ export const entries = [
         "path": "/buffs/bluecheck/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The moderator",
@@ -17712,7 +20574,8 @@ export const entries = [
         "path": "/habitats/rubber-chicken-circuit/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The auditor",
@@ -17815,9 +20678,17 @@ export const entries = [
         "term": "Cronycle",
         "slug": "cronycle",
         "path": "/abilities/cronycle/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Consent decree",
+        "slug": "consent-decree",
+        "path": "/abilities/consent-decree/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Records request",
@@ -17936,6 +20807,13 @@ export const entries = [
         "term": "Blueslip",
         "slug": "blueslip",
         "path": "/abilities/blueslip/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
       }
     ],
     "backlinks": [
@@ -17946,7 +20824,8 @@ export const entries = [
         "slug": "the-clerk",
         "path": "/keystones/the-clerk/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The transcript",
@@ -18079,6 +20958,20 @@ export const entries = [
         "term": "Dead cat",
         "slug": "dead-cat",
         "path": "/moves/dead-cat/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Hot mic",
+        "slug": "hot-mic",
+        "path": "/buffs/hot-mic/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
       }
     ],
     "backlinks": [
@@ -18089,7 +20982,8 @@ export const entries = [
         "slug": "the-archivist",
         "path": "/keystones/the-archivist/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Lateral reading",
@@ -18204,7 +21098,8 @@ export const entries = [
         "slug": "the-librarian",
         "path": "/keystones/the-librarian/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The second source",
@@ -18286,6 +21181,11 @@ export const entries = [
         "term": "The transcript",
         "slug": "the-transcript",
         "path": "/remedies/the-transcript/"
+      },
+      {
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
       }
     ],
     "edges": [
@@ -18309,6 +21209,13 @@ export const entries = [
         "term": "Patriotainer",
         "slug": "patriotainer",
         "path": "/species/patriotainer/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/"
       }
     ],
     "backlinks": [
@@ -18319,7 +21226,8 @@ export const entries = [
         "slug": "the-editor",
         "path": "/keystones/the-editor/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The steelman",
@@ -18439,7 +21347,8 @@ export const entries = [
         "slug": "the-juror",
         "path": "/keystones/the-juror/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The public count",
@@ -18521,6 +21430,11 @@ export const entries = [
         "term": "Notice and comment",
         "slug": "notice-and-comment",
         "path": "/remedies/notice-and-comment/"
+      },
+      {
+        "term": "The reserve",
+        "slug": "the-reserve",
+        "path": "/remedies/the-reserve/"
       }
     ],
     "edges": [
@@ -18537,6 +21451,20 @@ export const entries = [
         "term": "Rally",
         "slug": "rally",
         "path": "/habitats/rally/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Cloture",
+        "slug": "cloture",
+        "path": "/abilities/cloture/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/"
       }
     ],
     "backlinks": [
@@ -18547,7 +21475,8 @@ export const entries = [
         "slug": "the-poll-worker",
         "path": "/keystones/the-poll-worker/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The written reason",
@@ -18652,6 +21581,13 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Vague promises",
+        "slug": "vague-promises",
+        "path": "/moves/vague-promises/"
       }
     ],
     "backlinks": [
@@ -18676,7 +21612,8 @@ export const entries = [
         "slug": "the-translator",
         "path": "/keystones/the-translator/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The audit",
@@ -18803,7 +21740,8 @@ export const entries = [
         "slug": "the-statistician",
         "path": "/keystones/the-statistician/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "Random draw",
@@ -18901,7 +21839,8 @@ export const entries = [
         "path": "/abilities/judge-shopping/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Fee shift",
@@ -18999,7 +21938,8 @@ export const entries = [
         "path": "/abilities/slapp/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Sunset clause",
@@ -19086,6 +22026,11 @@ export const entries = [
         "term": "The public count",
         "slug": "the-public-count",
         "path": "/remedies/the-public-count/"
+      },
+      {
+        "term": "The withdrawal clause",
+        "slug": "the-withdrawal-clause",
+        "path": "/remedies/the-withdrawal-clause/"
       }
     ],
     "edges": [
@@ -19095,9 +22040,24 @@ export const entries = [
         "term": "Crisisglow",
         "slug": "crisisglow",
         "path": "/buffs/crisisglow/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Grandfather clause",
+        "slug": "grandfather-clause",
+        "path": "/abilities/grandfather-clause/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The ombudsman",
@@ -19197,7 +22157,8 @@ export const entries = [
         "path": "/remedies/the-written-reason/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The public defender",
@@ -19304,7 +22265,8 @@ export const entries = [
         "path": "/abilities/qualified-immunity/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The translator",
@@ -19411,7 +22373,8 @@ export const entries = [
         "path": "/species/freetard/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The juror",
@@ -19523,7 +22486,8 @@ export const entries = [
         "path": "/habitats/perp-walk/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The statistician",
@@ -19628,9 +22592,24 @@ export const entries = [
         "term": "Push poll",
         "slug": "push-poll",
         "path": "/moves/push-poll/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Climate hoax",
+        "slug": "climate-hoax",
+        "path": "/abilities/climate-hoax/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Convention bounce",
+        "slug": "convention-bounce",
+        "path": "/buffs/convention-bounce/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Recusal",
@@ -19723,7 +22702,8 @@ export const entries = [
         "path": "/buffs/access/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Cross-examination",
@@ -19821,6 +22801,13 @@ export const entries = [
         "term": "JAQing Off",
         "slug": "jaqing-off",
         "path": "/moves/jaqing-off/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/"
       }
     ],
     "backlinks": [
@@ -19831,7 +22818,8 @@ export const entries = [
         "slug": "the-public-defender",
         "path": "/keystones/the-public-defender/"
       }
-    ]
+    ],
+    "committedFrom": []
   },
   {
     "term": "The stay",
@@ -19924,7 +22912,8 @@ export const entries = [
         "path": "/abilities/nightdocket/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The redistricting commission",
@@ -20024,7 +23013,8 @@ export const entries = [
         "path": "/remedies/notice-and-comment/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "The carve-out",
@@ -20117,7 +23107,8 @@ export const entries = [
         "path": "/abilities/nda/"
       }
     ],
-    "backlinks": []
+    "backlinks": [],
+    "committedFrom": []
   },
   {
     "term": "Notice and comment",
@@ -20236,6 +23227,13 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
       }
     ],
     "backlinks": [
@@ -20246,6 +23244,306 @@ export const entries = [
         "slug": "the-redistricting-commission",
         "path": "/keystones/the-redistricting-commission/"
       }
-    ]
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "The withdrawal clause",
+    "slug": "the-withdrawal-clause",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-withdrawal-clause.json",
+    "path": "/remedies/the-withdrawal-clause/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈwɪð.drɔː.əl klɔːz/",
+    "position": 32,
+    "sort": {
+      "impact": 4,
+      "abuse": 2,
+      "blowback": 3
+    },
+    "etymology": "English: the paragraph at the back of an agreement that decides how a signatory may leave it - notice, survival, and price.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Turns an exit into a scheduled act with a bill attached: notice in writing, a published list of the obligations that survive the withdrawal, and a successor agreement that names what leaving costs."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Negotiating leverage, because a state that prices its own exit has admitted it might use it."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The clause that sets a notice period and nothing else - twelve months of waiting, then the same exit with a cleaner headline."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A notice period with a date on it",
+          "A list of obligations that survive the signature",
+          "Allies who price the exit into the next agreement"
+        ]
+      }
+    ],
+    "voice": "Turns an exit into a scheduled act with a bill attached: notice in writing, a published list of the obligations that survive the withdrawal, and a successor agreement that names what leaving costs.",
+    "senses": [
+      "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule of what the departing party still owes.",
+      "It works because the benefit of an agreement is paid over decades and the cost of leaving is paid once, in a news cycle. Moving the cost into the text - a notice period the market can read, obligations that outlive the signature - makes the arbitrage visible while it is being proposed instead of after it is done."
+    ],
+    "notes": [],
+    "example": "“The **withdrawal clause** bought the other parties a year of notice and a list of agreements that would outlive the government that left; the announcement ran three minutes and the bill ran four years.”",
+    "cite": {
+      "label": "Wikipedia · Article 50 of the Treaty on European Union",
+      "url": "https://en.wikipedia.org/wiki/Article_50_of_the_Treaty_on_European_Union"
+    },
+    "summary": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule...",
+    "definition": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule of what the departing party still owes.",
+    "confusedWith": [
+      {
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "tell": "The sunset clause gives a power a date; the withdrawal clause gives an exit a price, and publishes it before anyone leaves.",
+        "path": "/remedies/sunset-clause/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Breaking treaties",
+        "slug": "breaking-treaties",
+        "path": "/abilities/breaking-treaties/"
+      },
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Breaking treaties",
+        "slug": "breaking-treaties",
+        "path": "/abilities/breaking-treaties/"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
+    "term": "The sponsor line",
+    "slug": "the-sponsor-line",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-sponsor-line.json",
+    "path": "/remedies/the-sponsor-line/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈspɒn.sə laɪn/",
+    "position": 33,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "English: the sentence at the end of an advertisement that names who paid for it - in the United States, “I’m a candidate and I approve this message.”",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Puts the funder’s name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "A disclosure rule enforced against bodies that can afford better lawyers than the regulator can."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The disclaimer read at speed over the last half-second, and the shell company whose name is a noun with an LLC after it."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A funder named in the ad, not after it",
+          "A list published before the ballot",
+          "A shell company that has to name its own shell"
+        ]
+      }
+    ],
+    "voice": "Puts the funder’s name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote.",
+    "senses": [
+      "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
+      "It works because anonymity is the doctrine’s operating condition - an argument made by a body nobody can summon is an argument nobody can answer. The sponsor line does not cap the spending; it makes the spender answerable to the audience the spending was aimed at."
+    ],
+    "notes": [],
+    "example": "“**The sponsor line** ran for four seconds under a ninety-second advertisement, and the four seconds were the only part of it anybody could check.”",
+    "cite": {
+      "label": "Wikipedia · Stand by Your Ad provision",
+      "url": "https://en.wikipedia.org/wiki/Stand_by_Your_Ad_provision"
+    },
+    "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same...",
+    "definition": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
+    "confusedWith": [
+      {
+        "term": "Records request",
+        "slug": "records-request",
+        "tell": "The records request produces the document after the decision; the sponsor line puts the payer’s name in front of the audience before the vote.",
+        "path": "/remedies/records-request/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/"
+      },
+      {
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/"
+      },
+      {
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
+    "term": "The reserve",
+    "slug": "the-reserve",
+    "kind": "remedy",
+    "kindLabel": "Remedy",
+    "source": "data/entries/remedies/the-reserve.json",
+    "path": "/remedies/the-reserve/",
+    "chapter": "keystones",
+    "chapterRoman": "VI",
+    "chapterTitle": "The Keystones",
+    "partOfSpeech": "noun",
+    "ipa": "/ðə rɪˈzɜːv/",
+    "position": 34,
+    "sort": {
+      "impact": 3,
+      "abuse": 1,
+      "blowback": 3
+    },
+    "etymology": "French réserve, from Latin reservare, to keep back: the stockpile held against the day a price becomes a policy.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Breaks the price lever by holding the thing in stock: barrels released on a published schedule, substitutes bought before they are needed, and contracts that outlast the spot price."
+      },
+      {
+        "key": "costs",
+        "label": "Costs",
+        "type": "text",
+        "value": "Money parked in a warehouse, and the political price of spending it at the moment it is most useful."
+      },
+      {
+        "key": "failure",
+        "label": "Failure mode",
+        "type": "text",
+        "value": "The release that arrives after the price has already moved, and the reserve that becomes the market’s new floor."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "A release schedule with dates on it",
+          "A stock level published monthly",
+          "A contract whose term is longer than the price cycle"
+        ]
+      }
+    ],
+    "voice": "Breaks the price lever by holding the thing in stock: barrels released on a published schedule, substitutes bought before they are needed, and contracts that outlast the spot price.",
+    "senses": [
+      "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the commodity a worse weapon.",
+      "It works because leverage needs scarcity to stay credible. A published reserve turns a threat into a calculation - the squeeze has to outlast the stockpile, and a stockpile is measured in months while an election is measured in weeks."
+    ],
+    "notes": [],
+    "example": "“**The reserve** released nine million barrels over six weeks, and the foreign minister’s visit was rescheduled for the following quarter.”",
+    "cite": {
+      "label": "Wikipedia · Strategic Petroleum Reserve (United States)",
+      "url": "https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States)"
+    },
+    "summary": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the...",
+    "definition": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made the commodity a worse weapon.",
+    "confusedWith": [
+      {
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "tell": "The sunset clause puts a date on a power; the reserve puts a quantity between the power and its price.",
+        "path": "/remedies/sunset-clause/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Oil diplomacy",
+        "slug": "oil-diplomacy",
+        "path": "/abilities/oil-diplomacy/"
+      },
+      {
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/"
+      },
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Oil diplomacy",
+        "slug": "oil-diplomacy",
+        "path": "/abilities/oil-diplomacy/"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
   }
 ]

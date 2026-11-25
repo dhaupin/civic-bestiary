@@ -13,7 +13,7 @@
     "Continuing a failing course of action because of what has already been invested in it.",
     "It works because abandoning a cost feels like admitting the cost was wasted. The loss is already real; the sentence only makes it feel avoidable."
   ],
-  "example": "*“We cannot withdraw now, after everything we have spent.”* The spending is the reason the account is empty, not the reason to keep filling it.",
+  "example": "*\"We cannot withdraw now, after everything we have spent.\"* The spending is the reason the account is empty, not the reason to keep filling it.",
   "confused_with": [
     {
       "term": "Appeal to tradition",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "Appeal to tradition",
-    "Post hoc ergo propter hoc"
+    "Post hoc ergo propter hoc",
+    "Shifting baseline"
   ],
   "cite": {
     "label": "Wikipedia · Sunk cost",

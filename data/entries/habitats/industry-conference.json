@@ -1,0 +1,64 @@
+{
+  "term": "Industry conference",
+  "kind": "habitat",
+  "chapter": "normalization",
+  "position": 6,
+  "part_of_speech": "noun",
+  "ipa": "/ˈɪn.də.stri ˈkɒn.fər.əns/",
+  "etymology": "English: a conference is where an industry agrees with itself in public, and the programme is the agreement.",
+  "carriers": "The breakout session, the sponsored coffee break, the panel titled \"Navigating the New Normal\", the lanyard that says who paid for lunch.",
+  "economics": "Exhibit fees, sponsored sessions, and a regulator on the panel who also sits on the advisory board.",
+  "signature": "A practice that was a scandal in last year's programme is a best practice in this one, and two of the three speakers are the same.",
+  "counter": "Read the programme from three years ago. The room does not change its mind; it changes its slide deck, and the archive is the only record of what it used to say.",
+  "confused_with": [
+    {
+      "term": "Rubber chicken circuit",
+      "tell": "The circuit is the same speech in a different hall; the conference is a different speech about the same practice."
+    }
+  ],
+  "senses": [
+    "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work an argument would have had to do.",
+    "It works because the room is full of people whose jobs depend on the practice being normal, and the one who objects is on a panel with three who do not. Nobody votes - the programme is the vote, and it was printed a year in advance."
+  ],
+  "notes": [],
+  "example": "*\"Last year the **industry conference** ran a session on avoiding the practice; this year it ran a keynote on scaling it, with two of the same three speakers.\"*",
+  "related": [
+    "Rubber chicken circuit",
+    "Spin room"
+  ],
+  "edges": [
+    {
+      "rel": "houses",
+      "to": "Precedentarian"
+    },
+    {
+      "rel": "houses",
+      "to": "Soft launch"
+    },
+    {
+      "rel": "houses",
+      "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to novelty"
+    },
+    {
+      "rel": "houses",
+      "to": "Shifting baseline"
+    },
+    {
+      "rel": "uses",
+      "to": "Lobbyism"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Regulatory capture",
+    "url": "https://en.wikipedia.org/wiki/Regulatory_capture"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

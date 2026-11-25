@@ -25,7 +25,12 @@
     "Forever war",
     "Dramagogue"
   ],
-  "edges": [],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to fear"
+    }
+  ],
   "cite": {
     "label": "Wikipedia · Iraq and weapons of mass destruction",
     "url": "https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction"

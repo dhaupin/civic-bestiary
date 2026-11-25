@@ -28,8 +28,7 @@
   "example": "*\"The **editor** held the story a day, the second call changed the second paragraph, and the version that ran was the one that survived being read to the person it was about.\"*",
   "related": [
     "The librarian",
-    "The second source",
-    "The moderator"
+    "The second source"
   ],
   "edges": [
     {

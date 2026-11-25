@@ -33,6 +33,11 @@ export default function Species() {
 
   const { previous, next } = neighbors(slug)
   const position = positionOf(slug)
+  // Where the characters that commit this fallacy are filed. The line earns its
+  // place only when it says something the breadcrumb does not: a spread of two
+  // or more chapters, or a single chapter that is not this entry's own.
+  const spread = entry.committedFrom ?? []
+  const chapterSpread = spread.length > 1 || (spread[0] && spread[0].id !== entry.chapter) ? spread : []
 
   return (
     <article className="species">
@@ -150,6 +155,17 @@ export default function Species() {
                 ))}
               </p>
             ))}
+            {chapterSpread.length > 0 && (
+              <p className="species-edge species-chapters">
+                <span className="species-edge-label">In chapters</span>
+                {entry.committedFrom.map((chapter, index) => (
+                  <span key={chapter.id}>
+                    {index > 0 && <span className="sep">·</span>}
+                    <Link to={`/chapters/${chapter.id}/`} title={chapter.title}>{chapter.roman}</Link>
+                  </span>
+                ))}
+              </p>
+            )}
           </div>
         )}
 

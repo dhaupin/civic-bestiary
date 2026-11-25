@@ -46,6 +46,38 @@
     {
       "rel": "houses",
       "to": "Provocrop"
+    },
+    {
+      "rel": "houses",
+      "to": "Dramagogue"
+    },
+    {
+      "rel": "houses",
+      "to": "LARPtarian"
+    },
+    {
+      "rel": "houses",
+      "to": "Xenophobricator"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to consequences"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to nature"
+    },
+    {
+      "rel": "houses",
+      "to": "Argumentum ad populum"
+    },
+    {
+      "rel": "houses",
+      "to": "False dilemma"
+    },
+    {
+      "rel": "houses",
+      "to": "Slippery slope"
     }
   ],
   "cite": {

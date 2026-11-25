@@ -8,12 +8,12 @@
   "family": "Informal · Improper premise",
   "committed_when": "The speaker wants a concession that cannot be asked for directly.",
   "tell": "The question has an assumption in it, and every answer is an admission.",
-  "counter": "Answer the presupposition, not the question: “there is no plan yet, so the question does not apply.”",
+  "counter": "Answer the presupposition, not the question: \"there is no plan yet, so the question does not apply.\"",
   "senses": [
     "Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it.",
     "It works because a question feels like an invitation, not an assertion. Answering accepts its frame; refusing looks evasive. The frame is the argument."
   ],
-  "example": "*“Why does your plan keep raising costs?”* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
+  "example": "*\"Why does your plan keep raising costs?\"* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
   "confused_with": [
     {
       "term": "Circular reasoning",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "Circular reasoning",
-    "Straw man"
+    "Straw man",
+    "Proof by assertion"
   ],
   "cite": {
     "label": "Wikipedia · Loaded question",

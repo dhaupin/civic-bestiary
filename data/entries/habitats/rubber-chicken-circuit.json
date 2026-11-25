@@ -22,9 +22,9 @@
   "notes": [],
   "example": "*\"Nine counties in four days, four **rubber chicken circuit** dinners, and the same joke about the local football team told nine times to nine rooms that all laughed.\"*",
   "related": [
-    "Patriotainment",
     "Cable panel",
-    "Plutomartyr"
+    "Plutomartyr",
+    "Industry conference"
   ],
   "edges": [
     {
@@ -38,6 +38,10 @@
     {
       "rel": "houses",
       "to": "Patriotainer"
+    },
+    {
+      "rel": "houses",
+      "to": "Vague promises"
     }
   ],
   "cite": {

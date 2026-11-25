@@ -1,0 +1,56 @@
+{
+  "term": "Precedentarian",
+  "kind": "species",
+  "chapter": "normalization",
+  "position": 3,
+  "part_of_speech": "noun",
+  "ipa": "/ˌpres.ɪˈden.tɛə.ri.ən/",
+  "etymology": "Blend of \"precedent\" + \"authoritarian\" - the one authority that never has to run for anything",
+  "occasion": "A budget line, a bylaw, or a rota that nobody in the room can remember choosing.",
+  "call": "\"This is how we have always done it.\"",
+  "tell": [
+    "Can name the year, never the reason",
+    "Answers what was decided when the question is what it was for",
+    "Treats a precedent as proof the question is closed"
+  ],
+  "counter": "Ask for the decision, not the tradition: who signed it, what it replaced, and what it cost. A precedent that survives the minutes is a rule; one that does not was a habit, and habits are not authority.",
+  "confused_with": [
+    {
+      "term": "Biasographer",
+      "tell": "The biasographer writes the flattering account; the precedentarian cites it as a constraint."
+    }
+  ],
+  "senses": [
+    "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the fact that somebody answered it once.",
+    "It works because continuity is worth something and memory is short. Most rules do carry a reason, so the precedentarian is right often enough never to have to say which ones - the burden lands on you to prove this is the exception, and the minutes are in a basement."
+  ],
+  "notes": [],
+  "example": "*\"Asked why the roster worked that way, the **precedentarian** said it had been like that since 1994, which was true, and which nobody had checked.\"*",
+  "related": [
+    "Passoffist",
+    "Biasographer"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Appeal to tradition"
+    },
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    },
+    {
+      "rel": "commits",
+      "to": "Normalcy bias"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Status quo bias",
+    "url": "https://en.wikipedia.org/wiki/Status_quo_bias"
+  },
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}

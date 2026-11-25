@@ -22,7 +22,6 @@
   "notes": [],
   "example": "*\"Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday.\"*",
   "related": [
-    "Martyrholic",
     "Plutomartyr",
     "Bluecheck"
   ],
@@ -40,5 +39,9 @@
     "impact": 4,
     "abuse": 3,
     "blowback": 2
+  },
+  "cite": {
+    "label": "Wikipedia · Rally 'round the flag effect",
+    "url": "https://en.wikipedia.org/wiki/Rally_%27round_the_flag_effect"
   }
 }

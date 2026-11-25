@@ -22,7 +22,6 @@
   "notes": [],
   "example": "*\"Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant.\"*",
   "related": [
-    "Comment section",
     "Patriotainment",
     "School board meeting"
   ],
@@ -58,6 +57,34 @@
     {
       "rel": "houses",
       "to": "The fallacy fallacy"
+    },
+    {
+      "rel": "houses",
+      "to": "Biasographer"
+    },
+    {
+      "rel": "houses",
+      "to": "Equivangelist"
+    },
+    {
+      "rel": "houses",
+      "to": "Gallopologist"
+    },
+    {
+      "rel": "houses",
+      "to": "Appeal to authority"
+    },
+    {
+      "rel": "houses",
+      "to": "Argument to moderation"
+    },
+    {
+      "rel": "houses",
+      "to": "False equivalence"
+    },
+    {
+      "rel": "houses",
+      "to": "Texas sharpshooter fallacy"
     }
   ],
   "cite": {
