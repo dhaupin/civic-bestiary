@@ -371,10 +371,10 @@ appending.
   buff with no `counters` edge is not a gap. If one is later needed, wire it then.
 - `part_of_speech` and `ipa` use the loose conventions already in the file; IPA is
   approximate and follows the coining, not a dictionary.
-- Prose uses ` - ` (spaced hyphen), never an em dash. `lexicon.json` keeps straight quotes;
-  `build_site.py` runs every prose field through `typographic()`, so the site is curly
-  throughout. `build.py` prints the record as written, so the book stays straight. Type the
-  source the way you want the book to read.
+- Prose uses ` - ` (spaced hyphen), never an em dash. Quotes are straight everywhere - data,
+  book and site - and nothing converts them at render time. Curly quotes break copy-paste, and
+  the entries are written to be quoted from; the validator and the diff both stay honest when
+  one character means one character.
 - The example is one line of reported speech, with the coined term in `**bold**` and the
   whole quote in italics. It is the "sighting in the wild"; `call` is the different thing -
   what the character says, not what someone says about it. Reference entries are the

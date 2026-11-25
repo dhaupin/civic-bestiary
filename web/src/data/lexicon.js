@@ -6,7 +6,7 @@ export const meta = {
 }
 
 export const preface = [
-  "This is a bestiary, not a dictionary. The characters in it are real, common, and close by - the flag hoodie in the school-board queue, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.",
+  "This is a bestiary, not a dictionary. The characters in it are real, common, and close by - the flag hoodie in the school-board queue, the centrist with one newsletter, the commentator monetizing your uncle's anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.",
   "Two rules keep the guide from collapsing into a list of insults. The species is a pattern, not a person - a costume that wears people, not a kind of human, and one you can catch yourself in. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the name stays a tool for recognition rather than a way to end an argument.",
   "The coinages are portmanteaus on purpose: legible on first contact, slightly ridiculous on second thought. Some of these characters are trolls in the old sense, things that live under bridges and demand a toll; some are trolls in the newer one. Both are field-observed here. That is roughly the right posture for the subject.",
   "The fallacies work the other way round. They are not coinages and are not ours: they are documented errors in reasoning, named by logicians and studied by psychologists, and every one of them links to its source. Each chapter ends with the documented errors its own characters commit, so the joke arrives with its receipt attached. The definitions here are written in this guide's voice, but nothing in them is invented - if a claim about a fallacy cannot be traced to the literature, it does not go in the record. The errors that turn up in every chapter and belong to none get a chapter of their own, because a fallacy no character owns is one the whole room has stopped noticing - that is chapter V, and it is the one you will meet most often. The coinages are the joke; the fallacies are the part you can cite."
@@ -580,7 +580,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of “play” + “patriot”",
+    "etymology": "Blend of \"play\" + \"patriot\"",
     "identification": [
       {
         "key": "occasion",
@@ -592,7 +592,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Do you support the troops?”"
+        "value": "\"Do you support the troops?\""
       },
       {
         "key": "tell",
@@ -601,7 +601,7 @@ export const entries = [
         "value": [
           "Flag decal on a leased vehicle",
           "Quotes a founder, never a statute",
-          "Knows the anthem’s tune, not its third verse"
+          "Knows the anthem's tune, not its third verse"
         ]
       },
       {
@@ -611,13 +611,13 @@ export const entries = [
         "value": "Answer the flag question, then ask the policy question again. Patriotism is not a reply, and it does not survive being asked what it costs."
       }
     ],
-    "voice": "“Do you support the troops?”",
+    "voice": "\"Do you support the troops?\"",
     "senses": [
       "The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.",
       "It works because symbols are cheap and legible while obligations are slow and unphotogenic, so the display can carry a loyalty the conduct would otherwise have to earn."
     ],
     "notes": [],
-    "example": "“He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.”",
+    "example": "\"He wrapped himself in the flag at every rally, yet his refusal to respect basic civic responsibilities showed he was more of a **playtriot** than a true patriot.\"",
     "cite": null,
     "summary": "The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.",
     "definition": "The pattern of substituting the symbols of citizenship for its obligations: the flag worn, the anthem invoked, the ballot skipped, the jury excused.",
@@ -714,7 +714,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of “free” + “retard” [verb: to delay, hinder, or impede progress]",
+    "etymology": "Blend of \"free\" + \"retard\" [verb: to delay, hinder, or impede progress]",
     "identification": [
       {
         "key": "occasion",
@@ -726,7 +726,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“It’s a free country.”"
+        "value": "\"It's a free country.\""
       },
       {
         "key": "tell",
@@ -745,7 +745,7 @@ export const entries = [
         "value": "Ask which clause, and what it says. A right that cannot be quoted is a preference with a flag on it."
       }
     ],
-    "voice": "“It’s a free country.”",
+    "voice": "\"It's a free country.\"",
     "senses": [
       "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
       "It works because rights are real and specific, so a claim that sounds like one is hard to refuse in public - and the specificity only appears when somebody asks which clause."
@@ -756,7 +756,7 @@ export const entries = [
         "text": "Derived from the traditional verb *retard* (as in *fire-retardant*), signifying an understanding of freedom actively slowed or stunted by external agendas. Because the suffix *-tard* is commonly used online as an ableist slur, readers unfamiliar with this specific root framing may still interpret the word as derogatory without context."
       }
     ],
-    "example": "“Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right.”",
+    "example": "\"Because his view of liberty was completely **retarded** by partisan talking points, the **freetard** argued that endangering his neighbors was his constitutional right.\"",
     "cite": null,
     "summary": "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
     "definition": "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read.",
@@ -832,7 +832,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “LARP” [Live Action Role-Play] + “libertarian”",
+    "etymology": "Blend of \"LARP\" [Live Action Role-Play] + \"libertarian\"",
     "identification": [
       {
         "key": "occasion",
@@ -844,7 +844,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“I could live off the grid tomorrow.”"
+        "value": "\"I could live off the grid tomorrow.\""
       },
       {
         "key": "tell",
@@ -863,13 +863,13 @@ export const entries = [
         "value": "Ask what happens on the third day. Preparedness is a supply chain, and the fantasy usually ends where the delivery does."
       }
     ],
-    "voice": "“I could live off the grid tomorrow.”",
+    "voice": "\"I could live off the grid tomorrow.\"",
     "senses": [
       "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
       "It works because the costume is legible and the dependency is invisible, and nobody audits the third day of a fantasy."
     ],
     "notes": [],
-    "example": "“Posting about ‘living off the grid’ from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior.”",
+    "example": "\"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior.\"",
     "cite": null,
     "summary": "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
     "definition": "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
@@ -877,7 +877,7 @@ export const entries = [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "tell": "The LARPtarian can name the rifle’s caliber; the playtriot can only name the flag’s manufacturer.",
+        "tell": "The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer.",
         "path": "/species/playtriot/"
       }
     ],
@@ -964,7 +964,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of “critic” + “citizen” - the citizen whose critique of the rules exempts them from the rules",
+    "etymology": "Blend of \"critic\" + \"citizen\" - the citizen whose critique of the rules exempts them from the rules",
     "identification": [
       {
         "key": "occasion",
@@ -976,7 +976,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“That doesn’t apply to me.”"
+        "value": "\"That doesn't apply to me.\""
       },
       {
         "key": "tell",
@@ -995,7 +995,7 @@ export const entries = [
         "value": "Ask for the citation, then read it aloud. Every defect this species alleges has an address, and the claim rarely survives being read in the room where it was made."
       }
     ],
-    "voice": "“That doesn’t apply to me.”",
+    "voice": "\"That doesn't apply to me.\"",
     "senses": [
       "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation, the permit argued instead of filed.",
       "It works because a rule is cheaper to dispute than to obey - the objection costs a sentence and the deadline costs a day - and a defect, once named, sounds like diligence rather than exemption."
@@ -1006,7 +1006,7 @@ export const entries = [
         "text": "Formerly **Sovereign Shillizen**, a name that aimed at the shill and missed the wider species: the shillizen is one costume the critizen wears, and not the most common one."
       }
     ],
-    "example": "“Pulled over on plates he had printed himself, the **critizen** explained that he was travelling rather than driving, and that the officer was a corporation.”",
+    "example": "\"Pulled over on plates he had printed himself, the **critizen** explained that he was travelling rather than driving, and that the officer was a corporation.\"",
     "cite": null,
     "summary": "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation...",
     "definition": "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation, the permit argued instead of filed.",
@@ -1108,7 +1108,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of “saboteur” + “patriot”",
+    "etymology": "Blend of \"saboteur\" + \"patriot\"",
     "identification": [
       {
         "key": "occasion",
@@ -1120,7 +1120,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“I voted for the guy who’ll cut it.”"
+        "value": "\"I voted for the guy who'll cut it.\""
       },
       {
         "key": "tell",
@@ -1139,13 +1139,13 @@ export const entries = [
         "value": "Put the vote next to the closure. This is not a private hypocrisy; it is a public choice with a public receipt."
       }
     ],
-    "voice": "“I voted for the guy who’ll cut it.”",
+    "voice": "\"I voted for the guy who'll cut it.\"",
     "senses": [
       "The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.",
       "It works because a vote is private and a closure is public, and the distance between them is where the explanation usually stops."
     ],
     "notes": [],
-    "example": "“Cheerfully voting to defund his own town’s hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**.”",
+    "example": "\"Cheerfully voting to defund his own town's hospital and public schools just to spite people in another zip code makes him a textbook **sabotriot**.\"",
     "cite": null,
     "summary": "The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.",
     "definition": "The pattern of voting against the service you use: the library closed by the ballot, the clinic defunded by the same hand that needed it.",
@@ -1153,7 +1153,7 @@ export const entries = [
       {
         "term": "Playtriot",
         "slug": "playtriot",
-        "tell": "A playtriot performs the loyalty; a sabotriot votes it into your hospital’s closure.",
+        "tell": "A playtriot performs the loyalty; a sabotriot votes it into your hospital's closure.",
         "path": "/species/playtriot/"
       }
     ],
@@ -1228,7 +1228,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Blend of “patriot” + “entertainment”",
+    "etymology": "Blend of \"patriot\" + \"entertainment\"",
     "identification": [
       {
         "key": "carriers",
@@ -1261,9 +1261,9 @@ export const entries = [
       "A mode of civic life in which the spectacle of patriotism substitutes entirely for its obligations, so that cheering loudest counts as service and noticing anything else counts as betrayal."
     ],
     "notes": [],
-    "example": "“Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn’t a movement, that’s **patriotainment** at arena scale.”",
+    "example": "\"Eighty-dollar hoodies, four-hundred-dollar seats, and a two-hour set about how the country is under attack - that isn't a movement, that's **patriotainment** at arena scale.\"",
     "cite": null,
-    "summary": "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the...",
+    "summary": "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving...",
     "definition": "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving the country is something you buy a ticket to watch rather than something you owe the people living in it.",
     "confusedWith": [
       {
@@ -1384,7 +1384,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Back-formation from “patriotainment”: the performer the format cannot run without",
+    "etymology": "Back-formation from \"patriotainment\": the performer the format cannot run without",
     "identification": [
       {
         "key": "occasion",
@@ -1396,7 +1396,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Folks, they don’t want you to know this.”"
+        "value": "\"Folks, they don't want you to know this.\""
       },
       {
         "key": "tell",
@@ -1405,7 +1405,7 @@ export const entries = [
         "value": [
           "Every segment ends on a sponsor read",
           "Owns the flag as a prop and licenses the footage",
-          "Says “the country” when meaning “my audience”",
+          "Says \"the country\" when meaning \"my audience\"",
           "No position survives a ratings dip"
         ]
       },
@@ -1413,16 +1413,16 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask what was withheld and who was paid. The audience is the product, and the “they” is usually the sponsor."
+        "value": "Ask what was withheld and who was paid. The audience is the product, and the \"they\" is usually the sponsor."
       }
     ],
-    "voice": "“Folks, they don’t want you to know this.”",
+    "voice": "\"Folks, they don't want you to know this.\"",
     "senses": [
       "The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.",
       "It works because the segment is paid for by attention, and a conclusion is more bookable than a question - so being right becomes a liability no sponsor will underwrite."
     ],
     "notes": [],
-    "example": "“He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break.”",
+    "example": "\"He spent one segment mourning the republic and the next selling the supplement that would save it - a **patriotainer** to the last ad break.\"",
     "cite": null,
     "summary": "The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.",
     "definition": "The pattern of converting national identity into inventory: the flag as a prop, the outrage as a slot, the certainty as a requirement of the format.",
@@ -1546,7 +1546,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of “filibuster” + “bluster”",
+    "etymology": "Blend of \"filibuster\" + \"bluster\"",
     "identification": [
       {
         "key": "effect",
@@ -1570,10 +1570,10 @@ export const entries = [
     "voice": "Converts a minority into a veto by outlasting the clock, without ever having to win the argument.",
     "senses": [
       "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather than the person, available to anyone willing to read the phone book into the record.",
-      "It works because the rules protect the speaker, not the subject. The longer a speech runs, the more the room’s patience - and not its argument - becomes the thing under negotiation, so the win goes to whoever has least to lose by staying."
+      "It works because the rules protect the speaker, not the subject. The longer a speech runs, the more the room's patience - and not its argument - becomes the thing under negotiation, so the win goes to whoever has least to lose by staying."
     ],
     "notes": [],
-    "example": "“He read the bill’s table of contents, then the Bible, then his own memoir; by hour nine the compromise was dead and the cameras had gone home - a textbook **filibluster**.”",
+    "example": "\"He read the bill's table of contents, then the Bible, then his own memoir; by hour nine the compromise was dead and the cameras had gone home - a textbook **filibluster**.\"",
     "cite": {
       "label": "Wikipedia · Filibuster",
       "url": "https://en.wikipedia.org/wiki/Filibuster"
@@ -1652,7 +1652,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “gerrymander” + “algorithm”",
+    "etymology": "Blend of \"gerrymander\" + \"algorithm\"",
     "identification": [
       {
         "key": "effect",
@@ -1679,7 +1679,7 @@ export const entries = [
       "It works because a district line is not an argument, so it never has to be defended as one. By the time anyone can prove the intent, the map has already elected three cycles of the people who drew it."
     ],
     "notes": [],
-    "example": "“The county split cleanly down a cul-de-sac, and the incumbent’s house landed in a district with none of his old voters - the **gerrythm** had run overnight and nobody had seen the code.”",
+    "example": "\"The county split cleanly down a cul-de-sac, and the incumbent's house landed in a district with none of his old voters - the **gerrythm** had run overnight and nobody had seen the code.\"",
     "cite": {
       "label": "Wikipedia · Gerrymandering",
       "url": "https://en.wikipedia.org/wiki/Gerrymandering"
@@ -1756,7 +1756,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of “omnibus” + “bust”",
+    "etymology": "Blend of \"omnibus\" + \"bust\"",
     "identification": [
       {
         "key": "effect",
@@ -1780,10 +1780,10 @@ export const entries = [
     "voice": "Passes a thousand pages nobody has read by making the reading of them the thing that keeps the lights off.",
     "senses": [
       "The capability of a legislature to bundle everything it cannot defend separately into one document too large to read and too urgent to refuse.",
-      "It works because the deadline does the arguing. Every objection can be answered with the same sentence - the government closes Friday - so the bill’s contents are never weighed against each other, only against the clock."
+      "It works because the deadline does the arguing. Every objection can be answered with the same sentence - the government closes Friday - so the bill's contents are never weighed against each other, only against the clock."
     ],
     "notes": [],
-    "example": "“The **omnibust** carried a bridge, a ban, three tax credits and a paragraph nobody has explained, and it passed at 3:41 a.m. because the alternative was a shutdown.”",
+    "example": "\"The **omnibust** carried a bridge, a ban, three tax credits and a paragraph nobody has explained, and it passed at 3:41 a.m. because the alternative was a shutdown.\"",
     "cite": {
       "label": "Wikipedia · Omnibus bill",
       "url": "https://en.wikipedia.org/wiki/Omnibus_bill"
@@ -1855,7 +1855,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “honeymoon” + “moan”",
+    "etymology": "Blend of \"honeymoon\" + \"moan\"",
     "identification": [
       {
         "key": "effect",
@@ -1867,7 +1867,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "“Give him a chance” from someone who gave the last one four years of scrutiny and no chance at all."
+        "value": "\"Give him a chance\" from someone who gave the last one four years of scrutiny and no chance at all."
       },
       {
         "key": "expires",
@@ -1876,13 +1876,13 @@ export const entries = [
         "value": "The first budget, the first appointment, or the first scandal - whichever lands before the hundred days are up."
       }
     ],
-    "voice": "“Give him a chance” from someone who gave the last one four years of scrutiny and no chance at all.",
+    "voice": "\"Give him a chance\" from someone who gave the last one four years of scrutiny and no chance at all.",
     "senses": [
       "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it.",
       "It works because a new administration is owed a hearing, and a hearing is easy to extend into a silence. The grace period is real; the only open question is who gets to decide when it ends."
     ],
     "notes": [],
-    "example": "“Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned.”",
+    "example": "\"Every question about the transition was met with **honeymoan** - he just got there, give him time - and the time ran out with the ethics waivers still unsigned.\"",
     "cite": {
       "label": "Wikipedia · Grace period (politics)",
       "url": "https://en.wikipedia.org/wiki/Grace_period#Politics"
@@ -1946,7 +1946,7 @@ export const entries = [
       "abuse": 2,
       "blowback": 4
     },
-    "etymology": "Blend of “pocket” + “veto”, from the constitutional pocket veto",
+    "etymology": "Blend of \"pocket\" + \"veto\", from the constitutional pocket veto",
     "identification": [
       {
         "key": "effect",
@@ -1973,7 +1973,7 @@ export const entries = [
       "It works because absence is not an act. A regular veto is a public document that invites a two-thirds fight; a pocket veto is a calendar, and there is nobody to argue with. The clause was written for a president travelling by horse, and it still works because Congress still goes home."
     ],
     "notes": [],
-    "example": "“The bill passed in December, the president went to Camp David, and the **pocketveto** did what a veto message could not - it ended the argument without leaving a record to run against.”",
+    "example": "\"The bill passed in December, the president went to Camp David, and the **pocketveto** did what a veto message could not - it ended the argument without leaving a record to run against.\"",
     "cite": {
       "label": "Wikipedia · Pocket veto",
       "url": "https://en.wikipedia.org/wiki/Pocket_veto"
@@ -2043,7 +2043,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of “night” + “docket”, from the emergency docket the court keeps after hours",
+    "etymology": "Blend of \"night\" + \"docket\", from the emergency docket the court keeps after hours",
     "identification": [
       {
         "key": "effect",
@@ -2070,12 +2070,12 @@ export const entries = [
       "It works because emergencies are real and calendars are not. A stay granted at midnight is legally identical to a stay granted after argument, but it arrives without the record that would let anyone argue with it - and the emergency is often the point."
     ],
     "notes": [],
-    "example": "“The **nightdocket** granted the stay at 11:40 p.m., one paragraph, no signature, and by morning the policy was suspended and the reasoning was a footnote in somebody else’s brief.”",
+    "example": "\"The **nightdocket** granted the stay at 11:40 p.m., one paragraph, no signature, and by morning the policy was suspended and the reasoning was a footnote in somebody else's brief.\"",
     "cite": {
       "label": "Wikipedia · Shadow docket",
       "url": "https://en.wikipedia.org/wiki/Shadow_docket"
     },
-    "summary": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes the...",
+    "summary": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes...",
     "definition": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes the law without the hearing the law usually requires.",
     "confusedWith": [
       {
@@ -2159,7 +2159,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "A state legislator whose ads feature somebody else’s name, and a victory speech that says “we” about a race the speaker did not run."
+        "value": "A state legislator whose ads feature somebody else's name, and a victory speech that says \"we\" about a race the speaker did not run."
       },
       {
         "key": "expires",
@@ -2168,18 +2168,18 @@ export const entries = [
         "value": "The first midterm, when the coat is not on the ballot and the hem has to stand up on its own."
       }
     ],
-    "voice": "A state legislator whose ads feature somebody else’s name, and a victory speech that says “we” about a race the speaker did not run.",
+    "voice": "A state legislator whose ads feature somebody else's name, and a victory speech that says \"we\" about a race the speaker did not run.",
     "senses": [
       "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride the same wave, whether or not the wave was about them.",
       "It works because most voters do not finish the ballot. They pick a top and stop, and the stopping point is the gift - which is why a legislature can swing wildly without a single district changing its mind."
     ],
     "notes": [],
-    "example": "“She won by nine, and the **coattails** carried a county clerk who had run on a road-repair budget and never mentioned the president once.”",
+    "example": "\"She won by nine, and the **coattails** carried a county clerk who had run on a road-repair budget and never mentioned the president once.\"",
     "cite": {
       "label": "Wikipedia · Coattail effect",
       "url": "https://en.wikipedia.org/wiki/Coattail_effect"
     },
-    "summary": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride the...",
+    "summary": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride...",
     "definition": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride the same wave, whether or not the wave was about them.",
     "confusedWith": [
       {
@@ -2248,7 +2248,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "A poll released on the last night of the convention, and a surrogate saying “the map has expanded” before the ballots are printed."
+        "value": "A poll released on the last night of the convention, and a surrogate saying \"the map has expanded\" before the ballots are printed."
       },
       {
         "key": "expires",
@@ -2257,13 +2257,13 @@ export const entries = [
         "value": "Ten days after the balloons, or the first post-convention poll that disagrees with the first post-convention poll."
       }
     ],
-    "voice": "A poll released on the last night of the convention, and a surrogate saying “the map has expanded” before the ballots are printed.",
+    "voice": "A poll released on the last night of the convention, and a surrogate saying \"the map has expanded\" before the ballots are printed.",
     "senses": [
       "The polling lift a party gets from its own convention: four days of unchallenged messaging, a balloon drop, and a sample that is briefly paying attention.",
       "It works because attention is the mechanism, not persuasion. The bounce measures who was watching, so it decays as the audience returns to its habits - which is why the number is real and the meaning is mostly theatrical. Conventions have also stopped being news; the bounce shrank as the broadcast became an infomercial."
     ],
     "notes": [],
-    "example": "“The **convention bounce** put him up six, the coverage called it a reset, and three weeks later the same pollster found the race exactly where it started.”",
+    "example": "\"The **convention bounce** put him up six, the coverage called it a reset, and three weeks later the same pollster found the race exactly where it started.\"",
     "cite": {
       "label": "Wikipedia · Convention bounce",
       "url": "https://en.wikipedia.org/wiki/Convention_bounce"
@@ -2360,7 +2360,7 @@ export const entries = [
       "It works because the price is time, and time is the one thing a majority cannot borrow. The two-step - cloture on the motion to proceed, then cloture on the bill - means a determined minority is charged twice for the same hour."
     ],
     "notes": [],
-    "example": "“They had the votes for the bill and not the votes for **cloture**, so the week went to the calendar and the bill went to the next session.”",
+    "example": "\"They had the votes for the bill and not the votes for **cloture**, so the week went to the calendar and the bill went to the next session.\"",
     "cite": {
       "label": "Wikipedia · Cloture",
       "url": "https://en.wikipedia.org/wiki/Cloture"
@@ -2460,17 +2460,17 @@ export const entries = [
     ],
     "voice": "Pulls a bill out of a committee that will not move it, using a majority that has to sign its name.",
     "senses": [
-      "The House’s escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218 names, filed with the clerk, open for anyone to read.",
+      "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218 names, filed with the clerk, open for anyone to read.",
       "It works because the signature is public and the alternative is invisible. A chair can kill a bill in private; a discharge petition makes every member choose in the open, which is why it is used rarely and threatened constantly."
     ],
     "notes": [],
-    "example": "“The bill sat in committee for a year, the **discharge petition** reached 218 on a Tuesday, and the chair scheduled a hearing by Thursday.”",
+    "example": "\"The bill sat in committee for a year, the **discharge petition** reached 218 on a Tuesday, and the chair scheduled a hearing by Thursday.\"",
     "cite": {
       "label": "Wikipedia · Discharge petition",
       "url": "https://en.wikipedia.org/wiki/Discharge_petition"
     },
-    "summary": "The House’s escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218...",
-    "definition": "The House’s escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218 names, filed with the clerk, open for anyone to read.",
+    "summary": "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the...",
+    "definition": "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it to the floor - 218 names, filed with the clerk, open for anyone to read.",
     "confusedWith": [
       {
         "term": "Cloture",
@@ -2563,9 +2563,9 @@ export const entries = [
       "It works because the shape of a promise is enough to be reported as one. The listener hears the certainty, the journalist quotes the adjective, and the only person who needed the figure was the one who will be blamed for asking."
     ],
     "notes": [],
-    "example": "“We will have a bold, historic plan within the first hundred days” - **vague promises**: a title, a press conference, and no sentence that could be checked.",
+    "example": "\"We will have a bold, historic plan within the first hundred days\" - **vague promises**: a title, a press conference, and no sentence that could be checked.",
     "cite": null,
-    "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a...",
+    "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given...",
     "definition": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given a day.",
     "confusedWith": [
       {
@@ -2637,7 +2637,7 @@ export const entries = [
         "key": "effect",
         "label": "Effect",
         "type": "text",
-        "value": "The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen’s voice without taking on the citizen’s obligations."
+        "value": "The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen's voice without taking on the citizen's obligations."
       },
       {
         "key": "available_to",
@@ -2652,13 +2652,13 @@ export const entries = [
         "value": "Disclosure before the vote rather than after it. An advertisement that has to name its funders loses the anonymity the doctrine depends on."
       }
     ],
-    "voice": "The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen’s voice without taking on the citizen’s obligations.",
+    "voice": "The capability of money to speak in the first person: the expenditure is protected as speech, so the corporation gains the citizen's voice without taking on the citizen's obligations.",
     "senses": [
       "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker.",
-      "It works because the first amendment was written for people and the corporation learned to stand where the person stood. What the citizen has is a voice and a vote; what the doctrine grants is the voice, at any volume, without the vote’s obligation to answer for it."
+      "It works because the first amendment was written for people and the corporation learned to stand where the person stood. What the citizen has is a voice and a vote; what the doctrine grants is the voice, at any volume, without the vote's obligation to answer for it."
     ],
     "notes": [],
-    "example": "“**Citizens United** means we are just exercising our speech” - said by a body that has never been to a town meeting and cannot be summoned to one.",
+    "example": "\"**Citizens United** means we are just exercising our speech\" - said by a body that has never been to a town meeting and cannot be summoned to one.",
     "cite": {
       "label": "Wikipedia · Citizens United v. FEC",
       "url": "https://en.wikipedia.org/wiki/Citizens_United_v._FEC"
@@ -2760,7 +2760,7 @@ export const entries = [
       "It works because nobody can audit a chain of consequences they have not seen. Each link sounds plausible alone; the whole chain is narrated rather than argued."
     ],
     "notes": [],
-    "example": "*“First they ban the plastic bag, then they ban the car.”* Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.",
+    "example": "*\"First they ban the plastic bag, then they ban the car.\"* Between the two there are four legislatures, a court, and an election, none of which appears in the sentence.",
     "cite": {
       "label": "Wikipedia · Slippery slope",
       "url": "https://en.wikipedia.org/wiki/Slippery_slope"
@@ -2842,7 +2842,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "From Antony Flew’s example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
+    "etymology": "From Antony Flew's example: no Scotsman puts sugar on his porridge - and any Scot who does is reclassified.",
     "identification": [
       {
         "key": "family",
@@ -2875,18 +2875,18 @@ export const entries = [
       "It works because definitions are genuinely negotiable. The sentence sounds like a clarification, and a clarification is much harder to argue with than a false claim."
     ],
     "notes": [],
-    "example": "*“No real conservative would vote for that.”* The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.",
+    "example": "*\"No real conservative would vote for that.\"* The vote happened; the sentence has quietly moved the boundary so it cannot count against the brand.",
     "cite": {
       "label": "Wikipedia · No true Scotsman",
       "url": "https://en.wikipedia.org/wiki/No_true_Scotsman"
     },
-    "summary": "Informal · Faulty generalization fallacy: Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside...",
+    "summary": "Informal · Faulty generalization fallacy: Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall...",
     "definition": "Protecting a generalisation from counterexamples by redefining the category until the counterexamples fall outside it.",
     "confusedWith": [
       {
         "term": "Straw man",
         "slug": "straw-man",
-        "tell": "The straw man weakens the opponent’s claim; the Scotsman strengthens the speaker’s, by shrinking the group until the counterexample is expelled.",
+        "tell": "The straw man weakens the opponent's claim; the Scotsman strengthens the speaker's, by shrinking the group until the counterexample is expelled.",
         "path": "/fallacies/straw-man/"
       }
     ],
@@ -2975,7 +2975,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The argument’s only support is that the practice has always been there."
+        "value": "The argument's only support is that the practice has always been there."
       },
       {
         "key": "counter",
@@ -2984,13 +2984,13 @@ export const entries = [
         "value": "Ask what the practice does now. Duration is a reason to be careful, not a reason to stop asking."
       }
     ],
-    "voice": "The argument’s only support is that the practice has always been there.",
+    "voice": "The argument's only support is that the practice has always been there.",
     "senses": [
       "Treating a practice as correct because it is old, without showing that age is evidence of anything.",
       "It works because inherited arrangements carry the weight of everyone who lived with them. Age is genuine information about endurance; it is not information about fairness or function."
     ],
     "notes": [],
-    "example": "*“We have always opened with a prayer.”* The question was whether the chamber should, and always is not an answer to should.",
+    "example": "*\"We have always opened with a prayer.\"* The question was whether the chamber should, and always is not an answer to should.",
     "cite": {
       "label": "Wikipedia · Appeal to tradition",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
@@ -3133,10 +3133,10 @@ export const entries = [
     "voice": "The justification is a claim about what is natural, with no account of why natural is good.",
     "senses": [
       "Concluding that something is right or healthy because it is natural, or wrong because it is artificial.",
-      "It works because “natural” smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement."
+      "It works because \"natural\" smuggles in a standard it never defends. Nature is a description; the sentence spends it as an endorsement."
     ],
     "notes": [],
-    "example": "*“It is natural for people to sort themselves by tribe.”* It is also natural to die of an infected cut, and we stopped doing that on purpose.",
+    "example": "*\"It is natural for people to sort themselves by tribe.\"* It is also natural to die of an infected cut, and we stopped doing that on purpose.",
     "cite": {
       "label": "Wikipedia · Appeal to nature",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_nature"
@@ -3251,7 +3251,7 @@ export const entries = [
       "It works because certainty is contagious. An audience without the means to check infers from composure that there is something to check against."
     ],
     "notes": [],
-    "example": "*“It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.”* Four sentences, one assertion, zero evidence.",
+    "example": "*\"It is the worst deal in history. The worst deal. Everybody knows it is the worst deal.\"* Four sentences, one assertion, zero evidence.",
     "cite": {
       "label": "Wikipedia · Proof by assertion",
       "url": "https://en.wikipedia.org/wiki/Proof_by_assertion"
@@ -3387,7 +3387,7 @@ export const entries = [
       "It works because abandoning a cost feels like admitting the cost was wasted. The loss is already real; the sentence only makes it feel avoidable."
     ],
     "notes": [],
-    "example": "*“We cannot withdraw now, after everything we have spent.”* The spending is the reason the account is empty, not the reason to keep filling it.",
+    "example": "*\"We cannot withdraw now, after everything we have spent.\"* The spending is the reason the account is empty, not the reason to keep filling it.",
     "cite": {
       "label": "Wikipedia · Sunk cost",
       "url": "https://en.wikipedia.org/wiki/Sunk_cost"
@@ -3497,7 +3497,7 @@ export const entries = [
       "It works because the entitlement is real. Everyone is entitled to their opinion, and nobody is entitled to their own facts - the sentence fuses the two so the second disappears into the first."
     ],
     "notes": [],
-    "example": "*“I am entitled to my opinion.”* You are. The water is still poisoned, and the entitlement has not tested it.",
+    "example": "*\"I am entitled to my opinion.\"* You are. The water is still poisoned, and the entitlement has not tested it.",
     "cite": {
       "label": "Wikipedia · I'm entitled to my opinion",
       "url": "https://en.wikipedia.org/wiki/I%27m_entitled_to_my_opinion"
@@ -3579,7 +3579,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of “sophist” + “troll”",
+    "etymology": "Blend of \"sophist\" + \"troll\"",
     "identification": [
       {
         "key": "occasion",
@@ -3591,7 +3591,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“I’m just asking questions.”"
+        "value": "\"I'm just asking questions.\""
       },
       {
         "key": "tell",
@@ -3610,13 +3610,13 @@ export const entries = [
         "value": "Ask what would settle it, then settle it. The troll needs the argument to continue; the answer is to end it."
       }
     ],
-    "voice": "“I’m just asking questions.”",
+    "voice": "\"I'm just asking questions.\"",
     "senses": [
       "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
       "It works because a bad argument costs nothing to make and something to answer, so the exchange is won by whoever is willing to spend less."
     ],
     "notes": [],
-    "example": "“You can’t have a productive discussion with a **sophistroll**; the second you disprove his point, he’ll pivot to three different straw men and an ad hominem attack.”",
+    "example": "\"You can't have a productive discussion with a **sophistroll**; the second you disprove his point, he'll pivot to three different straw men and an ad hominem attack.\"",
     "cite": null,
     "summary": "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
     "definition": "The pattern of arguing to exhaust rather than to settle: a fallacy deployed, a subject changed, a request for evidence answered with another request.",
@@ -3748,7 +3748,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of “illogical” + “logician”",
+    "etymology": "Blend of \"illogical\" + \"logician\"",
     "identification": [
       {
         "key": "occasion",
@@ -3760,7 +3760,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Do your own research.”"
+        "value": "\"Do your own research.\""
       },
       {
         "key": "tell",
@@ -3779,13 +3779,13 @@ export const entries = [
         "value": "Ask for the best single source and read it together. Research is a task, and a task handed to the audience is not an argument."
       }
     ],
-    "voice": "“Do your own research.”",
+    "voice": "\"Do your own research.\"",
     "senses": [
       "The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second question.",
       "It works because form is easier to imitate than substance, and an audience that recognises the shape of an argument will often accept it without checking the joints."
     ],
     "notes": [],
-    "example": "“He spent twenty minutes smugly lecturing the thread about ‘facts and logic’ while committing four textbook fallacies per paragraph - a true **illogician** at work.”",
+    "example": "\"He spent twenty minutes smugly lecturing the thread about 'facts and logic' while committing four textbook fallacies per paragraph - a true **illogician** at work.\"",
     "cite": null,
     "summary": "The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second...",
     "definition": "The pattern of reasoning that sounds like method: the vocabulary of logic, the cadence of proof, and a premise that does not survive a second question.",
@@ -3882,7 +3882,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of “JAQ” [“Just Asking Questions”] + vulgar slang “jacking off”",
+    "etymology": "Blend of \"JAQ\" [\"Just Asking Questions\"] + vulgar slang \"jacking off\"",
     "identification": [
       {
         "key": "trigger",
@@ -3894,7 +3894,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "Questions shaped like accusations - “just asking” - and never the claim itself. Ask for evidence and it retreats behind the question."
+        "value": "Questions shaped like accusations - \"just asking\" - and never the claim itself. Ask for evidence and it retreats behind the question."
       },
       {
         "key": "counter",
@@ -3903,19 +3903,19 @@ export const entries = [
         "value": "Answer once, in writing, then ask what evidence would change their mind. The move dies when the question stops being cheaper than the answer."
       }
     ],
-    "voice": "Questions shaped like accusations - “just asking” - and never the claim itself. Ask for evidence and it retreats behind the question.",
+    "voice": "Questions shaped like accusations - \"just asking\" - and never the claim itself. Ask for evidence and it retreats behind the question.",
     "senses": [
-      "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as “innocent questions,” solely for self-gratification and plausible deniability - immediately retreating behind *“Hey, I’m just asking questions!”* the second anyone demands accountability.",
-      "Weaponizing feigned curiosity to plant poisonous insinuations in an audience’s head without ever having to back them up with evidence, facts, or the courage to own the claim outright."
+      "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\" solely for self-gratification and plausible deniability - immediately retreating behind *\"Hey, I'm just asking questions!\"* the second anyone demands accountability.",
+      "Weaponizing feigned curiosity to plant poisonous insinuations in an audience's head without ever having to back them up with evidence, facts, or the courage to own the claim outright."
     ],
     "notes": [],
-    "example": "“Instead of presenting a shred of evidence, the podcast host spent two hours **JAQing off** about rigged weather machines before hiding behind ‘I’m not saying it’s true, I’m just asking questions!’”",
+    "example": "\"Instead of presenting a shred of evidence, the podcast host spent two hours **JAQing off** about rigged weather machines before hiding behind 'I'm not saying it's true, I'm just asking questions!'\"",
     "cite": {
       "label": "Wikipedia · Sealioning",
       "url": "https://en.wikipedia.org/wiki/Sealioning"
     },
-    "summary": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as “innocent questions,” solely for...",
-    "definition": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as “innocent questions,” solely for self-gratification and plausible deniability - immediately retreating behind “Hey, I’m just asking questions!” the second anyone demands accountability.",
+    "summary": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\"...",
+    "definition": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\" solely for self-gratification and plausible deniability - immediately retreating behind \"Hey, I'm just asking questions!\" the second anyone demands accountability.",
     "confusedWith": [
       {
         "term": "Sophistroll",
@@ -4002,7 +4002,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 4
     },
-    "etymology": "Blend of “trust me, bro” + “professor”",
+    "etymology": "Blend of \"trust me, bro\" + \"professor\"",
     "identification": [
       {
         "key": "occasion",
@@ -4014,7 +4014,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Trust me, bro.”"
+        "value": "\"Trust me, bro.\""
       },
       {
         "key": "tell",
@@ -4033,13 +4033,13 @@ export const entries = [
         "value": "Ask for the name, the field, and the paper. Authority is checkable, and the check takes a minute."
       }
     ],
-    "voice": "“Trust me, bro.”",
+    "voice": "\"Trust me, bro.\"",
     "senses": [
       "The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.",
       "It works because credentials are checkable only if somebody asks, and asking is precisely the move the performance is built to make expensive."
     ],
     "notes": [],
-    "example": "“He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to ‘look it up themselves.’”",
+    "example": "\"He spent three paragraphs lecturing virologists on how vaccines work, but the second someone asked for a single peer-reviewed study, the **trust-me-brofessor** told everyone to 'look it up themselves.'\"",
     "cite": null,
     "summary": "The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.",
     "definition": "The pattern of authority without a name: the claim that needs an expert, delivered in the voice of one, with no expert produced.",
@@ -4122,7 +4122,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of “bias” + “biographer” / “bibliographer”",
+    "etymology": "Blend of \"bias\" + \"biographer\" / \"bibliographer\"",
     "identification": [
       {
         "key": "occasion",
@@ -4134,7 +4134,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Consider the source.”"
+        "value": "\"Consider the source.\""
       },
       {
         "key": "tell",
@@ -4150,19 +4150,19 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask what the claim gets wrong. The source’s history can be real and the claim can still be right, and only one of those is on the table."
+        "value": "Ask what the claim gets wrong. The source's history can be real and the claim can still be right, and only one of those is on the table."
       }
     ],
-    "voice": "“Consider the source.”",
+    "voice": "\"Consider the source.\"",
     "senses": [
-      "The pattern of answering a finding with a bibliography: the source’s history produced instead of the claim’s evidence.",
+      "The pattern of answering a finding with a bibliography: the source's history produced instead of the claim's evidence.",
       "It works because a source can be flawed and the claim still true, so the move wins whenever nobody separates the two - which is the whole of its business."
     ],
     "notes": [],
-    "example": "“Don’t bother asking him for actual peer-reviewed studies; he’s a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy.”",
+    "example": "\"Don't bother asking him for actual peer-reviewed studies; he's a seasoned **biasographer** with a bookmark folder full of unhinged op-eds and cropped charts ready to deploy.\"",
     "cite": null,
-    "summary": "The pattern of answering a finding with a bibliography: the source’s history produced instead of the claim’s evidence.",
-    "definition": "The pattern of answering a finding with a bibliography: the source’s history produced instead of the claim’s evidence.",
+    "summary": "The pattern of answering a finding with a bibliography: the source's history produced instead of the claim's evidence.",
+    "definition": "The pattern of answering a finding with a bibliography: the source's history produced instead of the claim's evidence.",
     "confusedWith": [
       {
         "term": "Trust-Me-Brofessor",
@@ -4263,7 +4263,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 4
     },
-    "etymology": "Blend of “bleat” + “gatekeeper”",
+    "etymology": "Blend of \"bleat\" + \"gatekeeper\"",
     "identification": [
       {
         "key": "occasion",
@@ -4275,7 +4275,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Fake news.”"
+        "value": "\"Fake news.\""
       },
       {
         "key": "tell",
@@ -4294,13 +4294,13 @@ export const entries = [
         "value": "Read the correction aloud, then ask what else they repeated. The phrase is not a reply to a story, and it does not survive being asked about one."
       }
     ],
-    "voice": "“Fake news.”",
+    "voice": "\"Fake news.\"",
     "senses": [
       "The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.",
       "It works because a phrase is faster than a document and travels without its context, so repeating it costs nothing and answering it costs a reading."
     ],
     "notes": [],
-    "example": "“Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as ‘fake news’ and patronizingly told the researcher to ‘wake up and learn how the world actually works.’”",
+    "example": "\"Even after being shown primary court records and decades of peer-reviewed data, the **bleatkeeper** dismissed it all as 'fake news' and patronizingly told the researcher to 'wake up and learn how the world actually works.'\"",
     "cite": null,
     "summary": "The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.",
     "definition": "The pattern of answering a document with a phrase: the correction repeated as though it were the error, the evidence met with a slogan about evidence.",
@@ -4390,7 +4390,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of “equivocate” + “evangelist”",
+    "etymology": "Blend of \"equivocate\" + \"evangelist\"",
     "identification": [
       {
         "key": "occasion",
@@ -4402,7 +4402,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Both sides do it.”"
+        "value": "\"Both sides do it.\""
       },
       {
         "key": "tell",
@@ -4421,13 +4421,13 @@ export const entries = [
         "value": "Ask which side the evidence is on. Symmetry is a claim about the evidence, not a courtesy owed to the guests."
       }
     ],
-    "voice": "“Both sides do it.”",
+    "voice": "\"Both sides do it.\"",
     "senses": [
       "The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.",
       "It works because balance is easy to see and asymmetry is not, so the format can be defended as neutral while it settles the question by refusing to settle it."
     ],
     "notes": [],
-    "example": "“Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims ‘raise real questions’ before cutting to commercial.”",
+    "example": "\"Asked about a collapsed bridge and a rumor about one, the **equivangelist** spent the segment noting that both claims 'raise real questions' before cutting to commercial.\"",
     "cite": null,
     "summary": "The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.",
     "definition": "The pattern of seating a fact and a fabrication at the same table, and calling the arrangement fairness.",
@@ -4508,7 +4508,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “gish gallop” + “-ologist”",
+    "etymology": "Blend of \"gish gallop\" + \"-ologist\"",
     "identification": [
       {
         "key": "occasion",
@@ -4520,7 +4520,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“And another thing -”"
+        "value": "\"And another thing -\""
       },
       {
         "key": "tell",
@@ -4539,13 +4539,13 @@ export const entries = [
         "value": "Answer one claim, and name which one. A gallop is a race against the clock; the counter is to stop running it."
       }
     ],
-    "voice": "“And another thing -”",
+    "voice": "\"And another thing -\"",
     "senses": [
       "The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.",
       "It works because the format ends whether or not the argument does, so whoever controls the volume controls what the room remembers - and the room remembers the noise."
     ],
     "notes": [],
-    "example": "“In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator’s time limit ‘proof’ that he’d won.”",
+    "example": "\"In ninety seconds he cited eleven studies, four of which existed; the **gallopologist** called the moderator's time limit 'proof' that he'd won.\"",
     "cite": null,
     "summary": "The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.",
     "definition": "The pattern of burying an argument in claims: forty assertions, each cheap to make and expensive to answer, timed to the clock.",
@@ -4635,7 +4635,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of “decorum” + “necromancer”",
+    "etymology": "Blend of \"decorum\" + \"necromancer\"",
     "identification": [
       {
         "key": "occasion",
@@ -4647,7 +4647,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Let’s keep this civil.”"
+        "value": "\"Let's keep this civil.\""
       },
       {
         "key": "tell",
@@ -4666,13 +4666,13 @@ export const entries = [
         "value": "Answer the substance first, then the tone. Civility is a rule for how to disagree, not a reason not to."
       }
     ],
-    "voice": "“Let’s keep this civil.”",
+    "voice": "\"Let's keep this civil.\"",
     "senses": [
       "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.",
       "It works because civility is a real value and a cheap objection, so it can be raised against any complaint at no cost to the person raising it."
     ],
     "notes": [],
-    "example": "“The panel spent four minutes on the policy and twenty on whether the audience’s booing was ‘divisive’ - a textbook **decorumancer** performance.”",
+    "example": "\"The panel spent four minutes on the policy and twenty on whether the audience's booing was 'divisive' - a textbook **decorumancer** performance.\"",
     "cite": null,
     "summary": "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.",
     "definition": "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence.",
@@ -4788,7 +4788,7 @@ export const entries = [
       "It rewards the reply that travels over the reply that is right. Because the cheapest sentence to write is a verdict, the habitat selects for verdicts - which is why so many of the fallacies filed at the end of this chapter are at home here."
     ],
     "notes": [],
-    "example": "“Four hundred comments under a budget story, and not one of them about the budget - three about the mayor’s brother, two hundred about each other, and a bot selling a supplement.”",
+    "example": "\"Four hundred comments under a budget story, and not one of them about the budget - three about the mayor's brother, two hundred about each other, and a bot selling a supplement.\"",
     "cite": null,
     "summary": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.",
     "definition": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.",
@@ -4981,7 +4981,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of “both sides” + the “-ing” of an argument still running",
+    "etymology": "Blend of \"both sides\" + the \"-ing\" of an argument still running",
     "identification": [
       {
         "key": "trigger",
@@ -4993,7 +4993,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "“Well, to be fair -” arrives before the fact is acknowledged. The two sides are named, weighed, and never once measured."
+        "value": "\"Well, to be fair -\" arrives before the fact is acknowledged. The two sides are named, weighed, and never once measured."
       },
       {
         "key": "counter",
@@ -5002,19 +5002,19 @@ export const entries = [
         "value": "Ask which side the evidence is on, and whether the question was ever symmetric to begin with."
       }
     ],
-    "voice": "“Well, to be fair -” arrives before the fact is acknowledged. The two sides are named, weighed, and never once measured.",
+    "voice": "\"Well, to be fair -\" arrives before the fact is acknowledged. The two sides are named, weighed, and never once measured.",
     "senses": [
-      "The move of answering a documented fact with the existence of a contrary claim, as though the claim’s existence were evidence of its weight.",
+      "The move of answering a documented fact with the existence of a contrary claim, as though the claim's existence were evidence of its weight.",
       "It works because fairness is a procedure and procedures are easier to perform than judgments. The panel that gives equal time feels impartial to the audience and safe to the sponsor, and the fact leaves the room exactly as contested as it arrived."
     ],
     "notes": [],
-    "example": "“Asked about the audit, the host **bothsidesed** it: two minutes for the accountant, two for the man who says audits are a myth, and a promise to keep following the story.”",
+    "example": "\"Asked about the audit, the host **bothsidesed** it: two minutes for the accountant, two for the man who says audits are a myth, and a promise to keep following the story.\"",
     "cite": {
       "label": "Wikipedia · False balance",
       "url": "https://en.wikipedia.org/wiki/False_balance"
     },
-    "summary": "The move of answering a documented fact with the existence of a contrary claim, as though the claim’s existence were evidence of its weight.",
-    "definition": "The move of answering a documented fact with the existence of a contrary claim, as though the claim’s existence were evidence of its weight.",
+    "summary": "The move of answering a documented fact with the existence of a contrary claim, as though the claim's existence were evidence of its weight.",
+    "definition": "The move of answering a documented fact with the existence of a contrary claim, as though the claim's existence were evidence of its weight.",
     "confusedWith": [
       {
         "term": "Equivangelist",
@@ -5101,7 +5101,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of “vague” + “Facebook” + the “-ing” of a status update",
+    "etymology": "Blend of \"vague\" + \"Facebook\" + the \"-ing\" of a status update",
     "identification": [
       {
         "key": "trigger",
@@ -5113,7 +5113,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "A post about “some people” and “certain behaviour”, with no names, no dates, and a comment section full of allies asking if they are okay."
+        "value": "A post about \"some people\" and \"certain behaviour\", with no names, no dates, and a comment section full of allies asking if they are okay."
       },
       {
         "key": "counter",
@@ -5122,13 +5122,13 @@ export const entries = [
         "value": "Ask in public who, and what. The move only pays while the accusation stays unspecific enough to be unfalsifiable."
       }
     ],
-    "voice": "A post about “some people” and “certain behaviour”, with no names, no dates, and a comment section full of allies asking if they are okay.",
+    "voice": "A post about \"some people\" and \"certain behaviour\", with no names, no dates, and a comment section full of allies asking if they are okay.",
     "senses": [
       "The move of publishing a grievance without its subject, so that every reader supplies the name they already suspected.",
       "It works because the audience does the accusing. The poster keeps deniability, the crowd does the damage, and the target cannot answer a sentence that was never finished."
     ],
     "notes": [],
-    "example": "“No names, no context, just ‘some people showed their true colours today’ - and by evening three of us were **vaguebooking** about each other.”",
+    "example": "\"No names, no context, just 'some people showed their true colours today' - and by evening three of us were **vaguebooking** about each other.\"",
     "cite": {
       "label": "Wikipedia · Vaguebooking",
       "url": "https://en.wikipedia.org/wiki/Vaguebooking"
@@ -5207,7 +5207,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of “receipts”, the slang for evidence, + “bomb”",
+    "etymology": "Blend of \"receipts\", the slang for evidence, + \"bomb\"",
     "identification": [
       {
         "key": "trigger",
@@ -5219,7 +5219,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "Forty screenshots, no captions, no order, and a demand to “do your own research” attached to the last one."
+        "value": "Forty screenshots, no captions, no order, and a demand to \"do your own research\" attached to the last one."
       },
       {
         "key": "counter",
@@ -5228,15 +5228,15 @@ export const entries = [
         "value": "Ask for the single best screenshot and read it. The move depends on nobody reading all of them."
       }
     ],
-    "voice": "Forty screenshots, no captions, no order, and a demand to “do your own research” attached to the last one.",
+    "voice": "Forty screenshots, no captions, no order, and a demand to \"do your own research\" attached to the last one.",
     "senses": [
       "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost to make.",
       "It works because evidence has an optimum and the bomb goes well past it. A single document can be read and answered; forty cannot, and the unanswered pile looks exactly like a refutation."
     ],
     "notes": [],
-    "example": "“He replied with forty-one screenshots, three of them duplicates and a link to a folder - a **receiptbomb** that took an hour to find the one paragraph that mattered in.”",
+    "example": "\"He replied with forty-one screenshots, three of them duplicates and a link to a folder - a **receiptbomb** that took an hour to find the one paragraph that mattered in.\"",
     "cite": null,
-    "summary": "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost to...",
+    "summary": "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost...",
     "definition": "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost to make.",
     "confusedWith": [
       {
@@ -5337,7 +5337,7 @@ export const entries = [
       "It works because attention is finite and news is a queue. Coverage can only hold one thing at a time, so the object does not have to be relevant - it only has to be louder, and the agenda moves while the question stays unanswered. What changed was never the facts; it was what everyone was looking at."
     ],
     "notes": [],
-    "example": "“The contract story was finally landing, and then a **dead cat** hit the table at eight in the morning - by noon nobody could remember what the contract said.”",
+    "example": "\"The contract story was finally landing, and then a **dead cat** hit the table at eight in the morning - by noon nobody could remember what the contract said.\"",
     "cite": {
       "label": "Wikipedia · Dead cat strategy",
       "url": "https://en.wikipedia.org/wiki/Dead_cat_strategy"
@@ -5414,7 +5414,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "English: from ballooning, where a ballon d’essai is released to see which way the wind blows.",
+    "etymology": "English: from ballooning, where a ballon d'essai is released to see which way the wind blows.",
     "identification": [
       {
         "key": "trigger",
@@ -5426,7 +5426,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "An unnamed official, a draft that “circulated”, and a story that is neither confirmed nor denied for exactly one day."
+        "value": "An unnamed official, a draft that \"circulated\", and a story that is neither confirmed nor denied for exactly one day."
       },
       {
         "key": "counter",
@@ -5435,13 +5435,13 @@ export const entries = [
         "value": "Ask for the name and the document. A balloon with an author is a policy; one without is a rumour with a schedule."
       }
     ],
-    "voice": "An unnamed official, a draft that “circulated”, and a story that is neither confirmed nor denied for exactly one day.",
+    "voice": "An unnamed official, a draft that \"circulated\", and a story that is neither confirmed nor denied for exactly one day.",
     "senses": [
       "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy.",
       "It works because denial is free and attention is not. The public pays for the trial with a day of argument, and the office keeps both outcomes - the policy if it flies, the disavowal if it does not. The unnamed source is the mechanism, not the courtesy."
     ],
     "notes": [],
-    "example": "“A **trial balloon** went up on a Sunday: a mileage tax, unnamed officials, no bill - and by Wednesday it was ‘not under consideration’.”",
+    "example": "\"A **trial balloon** went up on a Sunday: a mileage tax, unnamed officials, no bill - and by Wednesday it was 'not under consideration'.\"",
     "cite": {
       "label": "Wikipedia · Trial balloon",
       "url": "https://en.wikipedia.org/wiki/Trial_balloon"
@@ -5518,7 +5518,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: the hour after the last deadline, when the week’s worst news gets filed.",
+    "etymology": "English: the hour after the last deadline, when the week's worst news gets filed.",
     "identification": [
       {
         "key": "trigger",
@@ -5550,7 +5550,7 @@ export const entries = [
         "text": "The feed has bent this rather than broken it: the release is now permanent and searchable, so the dump no longer hides the story, it only starves it of the attention it would have had."
       }
     ],
-    "example": "“The settlement went out at 5:47 on a Friday, in a **Friday news dump** with a cover note that said ‘for immediate release’.”",
+    "example": "\"The settlement went out at 5:47 on a Friday, in a **Friday news dump** with a cover note that said 'for immediate release'.\"",
     "cite": {
       "label": "Wikipedia · Friday news dump",
       "url": "https://en.wikipedia.org/wiki/Friday_news_dump"
@@ -5639,7 +5639,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "A burst of new accounts using the same phrase, a “local” group with a Washington address, and a comment section that agrees too quickly."
+        "value": "A burst of new accounts using the same phrase, a \"local\" group with a Washington address, and a comment section that agrees too quickly."
       },
       {
         "key": "counter",
@@ -5648,13 +5648,13 @@ export const entries = [
         "value": "Ask who is paying, and when the group was incorporated. Grassroots has a membership list; astroturf has an invoice."
       }
     ],
-    "voice": "A burst of new accounts using the same phrase, a “local” group with a Washington address, and a comment section that agrees too quickly.",
+    "voice": "A burst of new accounts using the same phrase, a \"local\" group with a Washington address, and a comment section that agrees too quickly.",
     "senses": [
       "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule.",
       "It works because numbers are read as consent. A legislator cannot count the people behind the letters, so forty identical emails from forty constituents and forty from a vendor look the same in the inbox - and the vendor knows it."
     ],
     "notes": [],
-    "example": "“Two hundred identical letters, three local groups sharing a PO box, and an **astroturfing** campaign that one staffer had drafted on a Tuesday.”",
+    "example": "\"Two hundred identical letters, three local groups sharing a PO box, and an **astroturfing** campaign that one staffer had drafted on a Tuesday.\"",
     "cite": {
       "label": "Wikipedia · Astroturfing",
       "url": "https://en.wikipedia.org/wiki/Astroturfing"
@@ -5758,7 +5758,7 @@ export const entries = [
       "It works because each step is individually reasonable. Nobody has to defend the yard if they can be seen defending the tower, and the audience remembers the exchange as a win for the side that never left the tower."
     ],
     "notes": [],
-    "example": "“He said the policy was a plot, then said he only meant it was a mistake, then said the plot again on Friday - a **motte hop** in three acts.”",
+    "example": "\"He said the policy was a plot, then said he only meant it was a mistake, then said the plot again on Friday - a **motte hop** in three acts.\"",
     "cite": {
       "label": "Wikipedia · Motte and bailey fallacy",
       "url": "https://en.wikipedia.org/wiki/Motte_and_bailey_fallacy"
@@ -5869,18 +5869,18 @@ export const entries = [
       "It works because the cost is carried by somebody else. The heckler risks a fine; the organiser risks the insurance, and the calculation that ends the event is made by a third party who was never part of the argument."
     ],
     "notes": [],
-    "example": "“The talk was cancelled ninety minutes before it started, not because anyone won the argument but because the **heckler’s veto** made the room uninsurable.”",
+    "example": "\"The talk was cancelled ninety minutes before it started, not because anyone won the argument but because the **heckler's veto** made the room uninsurable.\"",
     "cite": {
       "label": "Wikipedia · Heckler's veto",
       "url": "https://en.wikipedia.org/wiki/Heckler%27s_veto"
     },
-    "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is not...",
+    "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is...",
     "definition": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event is not worth holding.",
     "confusedWith": [
       {
         "term": "Decorumancer",
         "slug": "decorumancer",
-        "tell": "The decorumancer silences with the rule; the heckler’s veto silences with the noise the rule cannot stop.",
+        "tell": "The decorumancer silences with the rule; the heckler's veto silences with the noise the rule cannot stop.",
         "path": "/species/decorumancer/"
       }
     ],
@@ -5980,7 +5980,7 @@ export const entries = [
       "It works because verification is slower than publication. Each item costs the press minutes to check and the source seconds to produce, and that asymmetry is the whole tactic - the flood does not have to convince anybody, only to keep them busy."
     ],
     "notes": [],
-    "example": "“Nine press releases before noon, two of them true, and **flood the zone** worked exactly as designed: by Friday the story was a list nobody had finished.”",
+    "example": "\"Nine press releases before noon, two of them true, and **flood the zone** worked exactly as designed: by Friday the story was a list nobody had finished.\"",
     "cite": {
       "label": "Wikipedia · Firehose of falsehood",
       "url": "https://en.wikipedia.org/wiki/Firehose_of_falsehood"
@@ -6091,7 +6091,7 @@ export const entries = [
       "It works because a range of options is easier to accept than an ultimatum, and two speakers are cheaper than one concession. The subject negotiates with the kind one, which is the point - the kind one is not authorised to move either."
     ],
     "notes": [],
-    "example": "“My colleague is being unreasonable, but I think we can work something out” - the **good cop, bad cop** routine, with the something being the same something and a hand on the shoulder.",
+    "example": "\"My colleague is being unreasonable, but I think we can work something out\" - the **good cop, bad cop** routine, with the something being the same something and a hand on the shoulder.",
     "cite": {
       "label": "Wikipedia · Good cop/bad cop",
       "url": "https://en.wikipedia.org/wiki/Good_cop/bad_cop"
@@ -6170,7 +6170,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Latin: argumentum ad hominem, “argument to the person” - the target moves from the claim to the one who made it.",
+    "etymology": "Latin: argumentum ad hominem, \"argument to the person\" - the target moves from the claim to the one who made it.",
     "identification": [
       {
         "key": "family",
@@ -6203,7 +6203,7 @@ export const entries = [
       "It works because people are credulous about character: once you dislike the speaker, their sentence loses weight even when it is true. The claim is never touched, so it is never answered."
     ],
     "notes": [],
-    "example": "*“You want to talk about the audit? You were late on your taxes in 2011.”* The audit is still late, and now nobody is looking at it.",
+    "example": "*\"You want to talk about the audit? You were late on your taxes in 2011.\"* The audit is still late, and now nobody is looking at it.",
     "cite": {
       "label": "Wikipedia · Ad hominem",
       "url": "https://en.wikipedia.org/wiki/Ad_hominem"
@@ -6214,7 +6214,7 @@ export const entries = [
       {
         "term": "Tone policing",
         "slug": "tone-policing",
-        "tell": "Ad hominem attacks the person’s record or character; tone policing attacks the manner of the delivery.",
+        "tell": "Ad hominem attacks the person's record or character; tone policing attacks the manner of the delivery.",
         "path": "/fallacies/tone-policing/"
       }
     ],
@@ -6297,7 +6297,7 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "An opponent’s position is paraphrased before it is answered."
+        "value": "An opponent's position is paraphrased before it is answered."
       },
       {
         "key": "tell",
@@ -6314,17 +6314,17 @@ export const entries = [
     ],
     "voice": "The refutation lands cleanly, and the person refuted never said the thing.",
     "senses": [
-      "Replacing someone’s position with a weaker, sillier version of it and then defeating the version you built.",
+      "Replacing someone's position with a weaker, sillier version of it and then defeating the version you built.",
       "It works because the audience rarely holds the original wording in mind. Whoever supplies the paraphrase controls what gets refuted, so an argument can be lost without ever being made."
     ],
     "notes": [],
-    "example": "*“They want to fund the libraries because they think books are free and nobody should work.”* Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.",
+    "example": "*\"They want to fund the libraries because they think books are free and nobody should work.\"* Nobody said that. The library budget passed anyway, because the argument on the table was the straw one.",
     "cite": {
       "label": "Wikipedia · Straw man",
       "url": "https://en.wikipedia.org/wiki/Straw_man"
     },
-    "summary": "Informal · Red herring fallacy: Replacing someone’s position with a weaker, sillier version of it and then defeating the version you built.",
-    "definition": "Replacing someone’s position with a weaker, sillier version of it and then defeating the version you built.",
+    "summary": "Informal · Red herring fallacy: Replacing someone's position with a weaker, sillier version of it and then defeating the version you built.",
+    "definition": "Replacing someone's position with a weaker, sillier version of it and then defeating the version you built.",
     "confusedWith": [
       {
         "term": "Motte-and-bailey fallacy",
@@ -6441,7 +6441,7 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask what the expert’s evidence is, and whether their expertise covers this question. A title is a pointer to evidence, not a substitute for it."
+        "value": "Ask what the expert's evidence is, and whether their expertise covers this question. A title is a pointer to evidence, not a substitute for it."
       }
     ],
     "voice": "The credentials arrive before the findings, and the findings never arrive.",
@@ -6450,7 +6450,7 @@ export const entries = [
       "It works because expertise is a genuine shortcut: nobody can verify everything, so we trust the people who did. The fallacy is trusting the title outside the field, or after the field has moved."
     ],
     "notes": [],
-    "example": "*“A Nobel laureate says the water is safe.”* He holds the prize in economics. The water has never met him.",
+    "example": "*\"A Nobel laureate says the water is safe.\"* He holds the prize in economics. The water has never met him.",
     "cite": {
       "label": "Wikipedia · Appeal to authority",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_authority"
@@ -6603,7 +6603,7 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "A decision is framed as a choice between the speaker’s option and a disaster."
+        "value": "A decision is framed as a choice between the speaker's option and a disaster."
       },
       {
         "key": "tell",
@@ -6624,7 +6624,7 @@ export const entries = [
       "It works by shrinking the field. Most real disputes have a third, boring option - wait, fund it differently, do half of it - and the boring option is exactly what the dilemma is built to hide."
     ],
     "notes": [],
-    "example": "*“You are either with us or with the terrorists.”* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
+    "example": "*\"You are either with us or with the terrorists.\"* There is a third position - a citizen with a question about the evidence - and the sentence has just made it unsayable.",
     "cite": {
       "label": "Wikipedia · False dilemma",
       "url": "https://en.wikipedia.org/wiki/False_dilemma"
@@ -6749,7 +6749,7 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Answer the presupposition, not the question: “there is no plan yet, so the question does not apply.”"
+        "value": "Answer the presupposition, not the question: \"there is no plan yet, so the question does not apply.\""
       }
     ],
     "voice": "The question has an assumption in it, and every answer is an admission.",
@@ -6758,7 +6758,7 @@ export const entries = [
       "It works because a question feels like an invitation, not an assertion. Answering accepts its frame; refusing looks evasive. The frame is the argument."
     ],
     "notes": [],
-    "example": "*“Why does your plan keep raising costs?”* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
+    "example": "*\"Why does your plan keep raising costs?\"* There is no plan yet. Answer the question and you have agreed there is one, and that it costs more.",
     "cite": {
       "label": "Wikipedia · Loaded question",
       "url": "https://en.wikipedia.org/wiki/Loaded_question"
@@ -6840,7 +6840,7 @@ export const entries = [
       "abuse": 2,
       "blowback": 4
     },
-    "etymology": "Latin: circulus in probando, “a circle in the proving” - the premise and the conclusion take turns holding each other up.",
+    "etymology": "Latin: circulus in probando, \"a circle in the proving\" - the premise and the conclusion take turns holding each other up.",
     "identification": [
       {
         "key": "family",
@@ -6873,7 +6873,7 @@ export const entries = [
       "It works because a short loop reads as an argument. Each sentence sounds like it is adding something, and the last one sounds like a conclusion because it is the last one."
     ],
     "notes": [],
-    "example": "*“The policy is sound because it is what serious people support, and serious people support it because it is sound.”* Two sentences, one step each, no ground.",
+    "example": "*\"The policy is sound because it is what serious people support, and serious people support it because it is sound.\"* Two sentences, one step each, no ground.",
     "cite": {
       "label": "Wikipedia · Circular reasoning",
       "url": "https://en.wikipedia.org/wiki/Circular_reasoning"
@@ -6983,7 +6983,7 @@ export const entries = [
       "It works because the burden of proof feels like a formality. Most audiences assume a claim is either established or refuted, and the sentence supplies the third option, absence, as if it settled the matter."
     ],
     "notes": [],
-    "example": "*“Nobody has proven the machines are safe.”* Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
+    "example": "*\"Nobody has proven the machines are safe.\"* Nobody has proven them unsafe either; the sentence treats the missing study as a finding.",
     "cite": {
       "label": "Wikipedia · Argument from ignorance",
       "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance"
@@ -7122,7 +7122,7 @@ export const entries = [
       "It works because tone is a real problem sometimes and a distraction every time. The complaint is unfalsifiable, so answering it costs a turn and concedes the frame."
     ],
     "notes": [],
-    "example": "*“I agree with the concern, but the way you said it lost the room.”* The room was lost by the sentence, not the volume, and the sentence is still standing.",
+    "example": "*\"I agree with the concern, but the way you said it lost the room.\"* The room was lost by the sentence, not the volume, and the sentence is still standing.",
     "cite": {
       "label": "Wikipedia · Tone policing",
       "url": "https://en.wikipedia.org/wiki/Tone_policing"
@@ -7237,12 +7237,12 @@ export const entries = [
       "It works because the two claims are related. The retreat is sincere-sounding because the modest claim is genuinely held; the strong claim is never withdrawn, only set down."
     ],
     "notes": [],
-    "example": "*“Defund the police”* argued, then “we only mean reallocating the overtime budget” defended, then argued again by Thursday.",
+    "example": "*\"Defund the police\"* argued, then \"we only mean reallocating the overtime budget\" defended, then argued again by Thursday.",
     "cite": {
       "label": "Wikipedia · Motte-and-bailey fallacy",
       "url": "https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy"
     },
-    "summary": "Informal · Presumption fallacy: Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing...",
+    "summary": "Informal · Presumption fallacy: Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and...",
     "definition": "Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing the strong claim once the pressure is off.",
     "confusedWith": [
       {
@@ -7347,7 +7347,7 @@ export const entries = [
       "It works because a cluster really is a cluster. With enough data, some grouping will be tight; the fallacy is the order of operations, which nobody can see in the finished result."
     ],
     "notes": [],
-    "example": "*“Crimes cluster around these three blocks.”* So does every address in the city, when you draw the box around three blocks.",
+    "example": "*\"Crimes cluster around these three blocks.\"* So does every address in the city, when you draw the box around three blocks.",
     "cite": {
       "label": "Wikipedia · Texas sharpshooter fallacy",
       "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy"
@@ -7474,7 +7474,7 @@ export const entries = [
       "It works because a prior doubt is hard to unhear. The audience now listens for confirmation of the warning rather than for the content, and the content is never engaged."
     ],
     "notes": [],
-    "example": "*“Before you read that report, remember who wrote it.”* The report is unread and already dismissed; nobody has said what is wrong in it.",
+    "example": "*\"Before you read that report, remember who wrote it.\"* The report is unread and already dismissed; nobody has said what is wrong in it.",
     "cite": {
       "label": "Wikipedia · Poisoning the well",
       "url": "https://en.wikipedia.org/wiki/Poisoning_the_well"
@@ -7577,7 +7577,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "From “nut” in the American sense: cherry picking the most extreme case and calling it the group.",
+    "etymology": "From \"nut\" in the American sense: cherry picking the most extreme case and calling it the group.",
     "identification": [
       {
         "key": "family",
@@ -7589,13 +7589,13 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "A group’s worst member is easier to find than its actual position."
+        "value": "A group's worst member is easier to find than its actual position."
       },
       {
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The reply is a screenshot of someone unrepresentative, presented as the movement’s face."
+        "value": "The reply is a screenshot of someone unrepresentative, presented as the movement's face."
       },
       {
         "key": "counter",
@@ -7604,13 +7604,13 @@ export const entries = [
         "value": "Ask whether the case is typical, and who speaks for the group. If nobody does, the loudest member is a poor proxy."
       }
     ],
-    "voice": "The reply is a screenshot of someone unrepresentative, presented as the movement’s face.",
+    "voice": "The reply is a screenshot of someone unrepresentative, presented as the movement's face.",
     "senses": [
       "Judging a movement by its worst adherents, or defending it by its most reasonable ones.",
       "It works because the extreme case is vivid and the movement is large. Any sizeable group contains someone who will embarrass it, so the example is always available and never representative."
     ],
     "notes": [],
-    "example": "*“Look at this comment, this is what they all think.”* One comment, four hundred thousand readers, no survey.",
+    "example": "*\"Look at this comment, this is what they all think.\"* One comment, four hundred thousand readers, no survey.",
     "cite": {
       "label": "Wikipedia · Nutpicking",
       "url": "https://en.wikipedia.org/wiki/Nutpicking"
@@ -7720,7 +7720,7 @@ export const entries = [
       "It works because every single request is reasonable. Only the sequence is the tactic, and a sequence is invisible in any one message - which is why it is so hard to call out without looking rude."
     ],
     "notes": [],
-    "example": "*“I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.”* Four polite requests, one derailed argument.",
+    "example": "*\"I am just asking for a source. And for the methodology. And for the raw data. And for your credentials.\"* Four polite requests, one derailed argument.",
     "cite": {
       "label": "Wikipedia · Sealioning",
       "url": "https://en.wikipedia.org/wiki/Sealioning"
@@ -7797,7 +7797,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Named for Kafka’s The Trial: the accusation is the process, and the defence is the evidence.",
+    "etymology": "Named for Kafka's The Trial: the accusation is the process, and the defence is the evidence.",
     "identification": [
       {
         "key": "family",
@@ -7830,7 +7830,7 @@ export const entries = [
       "It works because the test is unfalsifiable by design. Any response - silence, anger, calm, evidence - can be read as consistent with guilt, so the accusation can never be closed and never has to be proved."
     ],
     "notes": [],
-    "example": "“He denied it, which is exactly what someone with something to hide would do.”",
+    "example": "\"He denied it, which is exactly what someone with something to hide would do.\"",
     "cite": {
       "label": "Unstrange Mind · Kafka trap",
       "url": "https://unstrangemind.com/kafka-trap/"
@@ -7940,7 +7940,7 @@ export const entries = [
       "It works because causes are always available and usually unflattering. Any position can be given a psychology, and a psychology is much easier to produce than a counter-argument."
     ],
     "notes": [],
-    "example": "*“Of course he thinks the zoning reform is fine - he bought his house in 1998.”* The reform is still on the table.",
+    "example": "*\"Of course he thinks the zoning reform is fine - he bought his house in 1998.\"* The reform is still on the table.",
     "cite": {
       "label": "Wikipedia · Bulverism",
       "url": "https://en.wikipedia.org/wiki/Bulverism"
@@ -8040,7 +8040,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The objection is measured against perfection and the status quo is measured against nothing. “It won’t fix everything” is offered as a reason to do nothing."
+        "value": "The objection is measured against perfection and the status quo is measured against nothing. \"It won't fix everything\" is offered as a reason to do nothing."
       },
       {
         "key": "counter",
@@ -8049,13 +8049,13 @@ export const entries = [
         "value": "Ask what happens without it, and compare the two. A proposal is not competing with an ideal; it is competing with the world it would replace."
       }
     ],
-    "voice": "The objection is measured against perfection and the status quo is measured against nothing. “It won’t fix everything” is offered as a reason to do nothing.",
+    "voice": "The objection is measured against perfection and the status quo is measured against nothing. \"It won't fix everything\" is offered as a reason to do nothing.",
     "senses": [
       "Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost.",
       "It works because the status quo is the invisible baseline. Nobody has to defend the current waiting list, the current price, or the current number of deaths - so any reform carries the burden of proof and the alternative carries none."
     ],
     "notes": [],
-    "example": "*“The bill only covers half the uninsured, so it doesn’t really solve the problem.”* Half the uninsured is the comparison, not the bill.",
+    "example": "*\"The bill only covers half the uninsured, so it doesn't really solve the problem.\"* Half the uninsured is the comparison, not the bill.",
     "cite": {
       "label": "Wikipedia · Nirvana fallacy",
       "url": "https://en.wikipedia.org/wiki/Nirvana_fallacy"
@@ -8170,12 +8170,12 @@ export const entries = [
       "It works because the vivid case is the one that reaches you. Selection decides what you see, so the sample in your head is not the sample in the world - and the denominator is the part of the story that never travels."
     ],
     "notes": [],
-    "example": "*“Three of them in one month.”* Three out of how many, in a city of how many, against a five-year average of what?",
+    "example": "*\"Three of them in one month.\"* Three out of how many, in a city of how many, against a five-year average of what?",
     "cite": {
       "label": "Wikipedia · Base rate fallacy",
       "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy"
     },
-    "summary": "Informal · Statistical fallacy: Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was...",
+    "summary": "Informal · Statistical fallacy: Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event...",
     "definition": "Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with.",
     "confusedWith": [
       {
@@ -8280,7 +8280,7 @@ export const entries = [
       "It works because it does not need to be stated. A reminder of who signs the contract is cheaper than an argument and much harder to complain about - and the person who complains has just demonstrated that they understood it."
     ],
     "notes": [],
-    "example": "*“I’d think carefully about how this looks for the department.”* The policy was not discussed again.",
+    "example": "*\"I'd think carefully about how this looks for the department.\"* The policy was not discussed again.",
     "cite": {
       "label": "Wikipedia · Appeal to force",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_force"
@@ -8380,7 +8380,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The fallacy is named with confidence and the conclusion is never examined. “That’s a slippery slope” ends the discussion about the slope."
+        "value": "The fallacy is named with confidence and the conclusion is never examined. \"That's a slippery slope\" ends the discussion about the slope."
       },
       {
         "key": "counter",
@@ -8389,13 +8389,13 @@ export const entries = [
         "value": "Separate the argument from the claim, then test the claim on its own. A conclusion can be true and badly defended, and a named fallacy is not a refutation."
       }
     ],
-    "voice": "The fallacy is named with confidence and the conclusion is never examined. “That’s a slippery slope” ends the discussion about the slope.",
+    "voice": "The fallacy is named with confidence and the conclusion is never examined. \"That's a slippery slope\" ends the discussion about the slope.",
     "senses": [
       "Concluding that a claim is false because the argument offered for it is invalid.",
       "It works because naming a fallacy is cheap and sounds decisive. The name does the work of an argument while leaving the actual question exactly where it was - which is why it is popular with people who want to win without reading."
     ],
     "notes": [],
-    "example": "*“That’s an appeal to authority, so the study doesn’t count.”* The study is still a study.",
+    "example": "*\"That's an appeal to authority, so the study doesn't count.\"* The study is still a study.",
     "cite": {
       "label": "Wikipedia · Fallacy fallacy",
       "url": "https://en.wikipedia.org/wiki/Fallacy_fallacy"
@@ -8472,7 +8472,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Named for Robert McNamara’s defence metrics: body counts offered as the measure of a war the counts could not describe.",
+    "etymology": "Named for Robert McNamara's defence metrics: body counts offered as the measure of a war the counts could not describe.",
     "identification": [
       {
         "key": "family",
@@ -8505,12 +8505,12 @@ export const entries = [
       "It works because numbers are auditable and judgements are not. A figure can be defended line by line, so the institution reports the figure - and the thing that could not be counted slowly stops being the thing that is managed."
     ],
     "notes": [],
-    "example": "*“Response times are down 12%.”* The response is faster and the ambulance no longer comes.",
+    "example": "*\"Response times are down 12%.\"* The response is faster and the ambulance no longer comes.",
     "cite": {
       "label": "Wikipedia · McNamara fallacy",
       "url": "https://en.wikipedia.org/wiki/McNamara_fallacy"
     },
-    "summary": "Informal · Statistical fallacy: Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the...",
+    "summary": "Informal · Statistical fallacy: Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted...",
     "definition": "Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the charge is not.",
     "confusedWith": [
       {
@@ -8582,7 +8582,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 4
     },
-    "etymology": "Blend of “hypocrite” + “contortionist”",
+    "etymology": "Blend of \"hypocrite\" + \"contortionist\"",
     "identification": [
       {
         "key": "occasion",
@@ -8594,7 +8594,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“That was different.”"
+        "value": "\"That was different.\""
       },
       {
         "key": "tell",
@@ -8613,13 +8613,13 @@ export const entries = [
         "value": "Ask what the difference is, and who it protects. The contortion only shows when the same rule is read twice."
       }
     ],
-    "voice": "“That was different.”",
+    "voice": "\"That was different.\"",
     "senses": [
       "The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.",
       "It works because most principles are asserted rather than written down, so the exemption never has to be argued - only survived. The tell is not the reversal but the speed."
     ],
     "notes": [],
-    "example": "“After spending years screaming about ‘law and order’ and ‘treason,’ the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump’s latest authoritarian threat was ‘obviously just a joke.’”",
+    "example": "\"After spending years screaming about 'law and order' and 'treason,' the **hypocontortionist** instantly folded himself into a pretzel to insist that Trump's latest authoritarian threat was 'obviously just a joke.'\"",
     "cite": null,
     "summary": "The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.",
     "definition": "The pattern of holding a principle against opponents and releasing it for allies, with the release performed in public and never mentioned again.",
@@ -8721,7 +8721,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “myth” + “historian”",
+    "etymology": "Blend of \"myth\" + \"historian\"",
     "identification": [
       {
         "key": "occasion",
@@ -8733,7 +8733,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“In my day -”"
+        "value": "\"In my day -\""
       },
       {
         "key": "tell",
@@ -8752,13 +8752,13 @@ export const entries = [
         "value": "Ask for the year, the statute, and the source. Nostalgia cannot survive a date."
       }
     ],
-    "voice": "“In my day -”",
+    "voice": "\"In my day -\"",
     "senses": [
       "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.",
       "It works because nostalgia is unfalsifiable by default - nobody was there - until somebody produces the year, the statute, and the source."
     ],
     "notes": [],
-    "example": "“Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism.”",
+    "example": "\"Trying to ban primary historical documents while claiming the past was a peaceful utopia without systemic injustice is pure **mythstorian** revisionism.\"",
     "cite": null,
     "summary": "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.",
     "definition": "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen.",
@@ -8853,7 +8853,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of “bootlicker” + “curious”",
+    "etymology": "Blend of \"bootlicker\" + \"curious\"",
     "identification": [
       {
         "key": "effect",
@@ -8865,7 +8865,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "“I’m socially liberal, but -” arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable."
+        "value": "\"I'm socially liberal, but -\" arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable."
       },
       {
         "key": "expires",
@@ -8874,16 +8874,16 @@ export const entries = [
         "value": "The next story that forces a choice between the strongman and the neighbour - usually within a month, rarely at a ballot."
       }
     ],
-    "voice": "“I’m socially liberal, but -” arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable.",
+    "voice": "\"I'm socially liberal, but -\" arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable.",
     "senses": [
-      "*(noun)* An individual who claims to be an “independent thinker,” “centrist,” or “anti-establishment rebel,” yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
+      "*(noun)* An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
       "*(adjective)* Exhibiting a submissive fascination with unchecked authority - eagerly surrendering personal dignity, critical thinking, and civic principles to worship powerful figures who openly hold them in contempt."
     ],
     "notes": [],
-    "example": "“For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests.”",
+    "example": "\"For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests.\"",
     "cite": null,
-    "summary": "An individual who claims to be an “independent thinker,” “centrist,” or “anti-establishment rebel,” yet consistently finds themselves drawn to...",
-    "definition": "An individual who claims to be an “independent thinker,” “centrist,” or “anti-establishment rebel,” yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
+    "summary": "An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently...",
+    "definition": "An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
     "confusedWith": [
       {
         "term": "Capitulectual",
@@ -8968,7 +8968,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 5
     },
-    "etymology": "Blend of “crook” + “-maxxing”",
+    "etymology": "Blend of \"crook\" + \"-maxxing\"",
     "identification": [
       {
         "key": "trigger",
@@ -8980,7 +8980,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "Blatant, unbothered, on the record: “It’s not illegal,” delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest."
+        "value": "Blatant, unbothered, on the record: \"It's not illegal,\" delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest."
       },
       {
         "key": "counter",
@@ -8989,13 +8989,13 @@ export const entries = [
         "value": "Price it in public - name the number, the hour, the invoice. Crookmaxxing runs on the cost staying abstract."
       }
     ],
-    "voice": "Blatant, unbothered, on the record: “It’s not illegal,” delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest.",
+    "voice": "Blatant, unbothered, on the record: \"It's not illegal,\" delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest.",
     "senses": [
       "*(noun)* The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.",
-      "*(verb)* Aggressively projecting one’s own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity."
+      "*(verb)* Aggressively projecting one's own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity."
     ],
     "notes": [],
-    "example": "“Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**.”",
+    "example": "\"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**.\"",
     "cite": null,
     "summary": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing...",
     "definition": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.",
@@ -9071,7 +9071,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of “capitulate” + “intellectual”",
+    "etymology": "Blend of \"capitulate\" + \"intellectual\"",
     "identification": [
       {
         "key": "occasion",
@@ -9083,7 +9083,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“We have to understand both sides.”"
+        "value": "\"We have to understand both sides.\""
       },
       {
         "key": "tell",
@@ -9102,13 +9102,13 @@ export const entries = [
         "value": "Ask what would be too far. An analysis that cannot name a limit is not analysis; it is a mood with footnotes."
       }
     ],
-    "voice": "“We have to understand both sides.”",
+    "voice": "\"We have to understand both sides.\"",
     "senses": [
       "The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.",
       "It works because the concession is rewarded as seriousness, so the speaker is thanked for arriving early at the conclusion that power wanted."
     ],
     "notes": [],
-    "example": "“The order hadn’t been signed yet and the **capitulectual** already had a column explaining why resistance would be ‘counterproductive’ and ‘unserious.’”",
+    "example": "\"The order hadn't been signed yet and the **capitulectual** already had a column explaining why resistance would be 'counterproductive' and 'unserious.'\"",
     "cite": null,
     "summary": "The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.",
     "definition": "The pattern of conceding in advance: the hedge, the pre-apology, the retreat published as realism before the fight was joined.",
@@ -9217,7 +9217,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of “subpoena” + “tornado”",
+    "etymology": "Blend of \"subpoena\" + \"tornado\"",
     "identification": [
       {
         "key": "effect",
@@ -9244,12 +9244,12 @@ export const entries = [
       "It works because a subpoena looks like accountability from a distance. The audience sees the summons and stops watching, the witness sees the clock and runs it out, and the file closes when the cycle does rather than when the question is answered."
     ],
     "notes": [],
-    "example": "“Three **subpoenados** in one month, each announced with a graphic, none of them producing a report - and the base counted it as three wins.”",
+    "example": "\"Three **subpoenados** in one month, each announced with a graphic, none of them producing a report - and the base counted it as three wins.\"",
     "cite": {
       "label": "Wikipedia · Subpoena",
       "url": "https://en.wikipedia.org/wiki/Subpoena"
     },
-    "summary": "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is timed...",
+    "summary": "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is...",
     "definition": "The oversight power of a legislative body to compel testimony and documents - a real capability that becomes theatre the moment the summons is timed for the cameras rather than the calendar.",
     "confusedWith": [
       {
@@ -9316,7 +9316,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of “crony” + “cycle” - and a chronicle is what it writes over the machinery",
+    "etymology": "Blend of \"crony\" + \"cycle\" - and a chronicle is what it writes over the machinery",
     "identification": [
       {
         "key": "effect",
@@ -9343,7 +9343,7 @@ export const entries = [
       "It works because the machinery is invisible. Nobody votes on a personnel schedule, so a government can be rebuilt in a year and no headline has to say so; the effect surfaces later, as a service that quietly stops answering."
     ],
     "notes": [],
-    "example": "“The agency’s new senior advisers were the donor list with titles, and the **cronycle** had finished before the ethics waiver was filed.”",
+    "example": "\"The agency's new senior advisers were the donor list with titles, and the **cronycle** had finished before the ethics waiver was filed.\"",
     "cite": null,
     "summary": "The capability of an administration to replace the people who run the machinery with the people who donated to it - not by firing anyone, but by...",
     "definition": "The capability of an administration to replace the people who run the machinery with the people who donated to it - not by firing anyone, but by reclassifying the jobs until loyalty is a qualification.",
@@ -9412,7 +9412,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of “non-” + “apology”",
+    "etymology": "Blend of \"non-\" + \"apology\"",
     "identification": [
       {
         "key": "trigger",
@@ -9424,7 +9424,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "“I’m sorry if anyone was offended” - the conditional does the work, and the second sentence explains why the offended person is the problem."
+        "value": "\"I'm sorry if anyone was offended\" - the conditional does the work, and the second sentence explains why the offended person is the problem."
       },
       {
         "key": "counter",
@@ -9433,13 +9433,13 @@ export const entries = [
         "value": "Ask for the sentence that names the act, the person, and the remedy. Anything less is the move continuing."
       }
     ],
-    "voice": "“I’m sorry if anyone was offended” - the conditional does the work, and the second sentence explains why the offended person is the problem.",
+    "voice": "\"I'm sorry if anyone was offended\" - the conditional does the work, and the second sentence explains why the offended person is the problem.",
     "senses": [
       "The move of answering a documented harm with regret about its reception, so that the apology becomes a second accusation.",
       "It works because the form is satisfied without the substance. Listeners hear the cadence of contrition and stop listening for the object of it; the record now shows an apology, and the harm is still standing."
     ],
     "notes": [],
-    "example": "“He **nonpologised** for ninety seconds - sorry if people misread it, sorry the media was unfair - and by the end the only person still at fault was the one who complained.”",
+    "example": "\"He **nonpologised** for ninety seconds - sorry if people misread it, sorry the media was unfair - and by the end the only person still at fault was the one who complained.\"",
     "cite": {
       "label": "Wikipedia · Non-apology apology",
       "url": "https://en.wikipedia.org/wiki/Non-apology_apology"
@@ -9558,7 +9558,7 @@ export const entries = [
       "It works because the stakes are real and the audience is not. A curriculum vote can be swung by people who will never send a child to the school, and the members who live there have to sit through it, in public, on a Tuesday."
     ],
     "notes": [],
-    "example": "“The **school board meeting** ran four hours, three of them about a book, and the budget passed at eleven with nobody left in the room.”",
+    "example": "\"The **school board meeting** ran four hours, three of them about a book, and the budget passed at eleven with nobody left in the room.\"",
     "cite": {
       "label": "Wikipedia · Board of education",
       "url": "https://en.wikipedia.org/wiki/Board_of_education"
@@ -9739,7 +9739,7 @@ export const entries = [
       "It works because the courtesy is custom, not rule. Nothing requires the committee to honour a withheld slip, which makes the veto real but unattributable - the nominee is not rejected, only never scheduled, and the seat is not empty, only unfilled."
     ],
     "notes": [],
-    "example": "“The judge had been confirmed twice before, and never got a hearing - the **blueslip** went out in March and came back in a drawer.”",
+    "example": "\"The judge had been confirmed twice before, and never got a hearing - the **blueslip** went out in March and came back in a drawer.\"",
     "cite": {
       "label": "Wikipedia · Blue slip",
       "url": "https://en.wikipedia.org/wiki/Blue_slip"
@@ -9816,7 +9816,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “recess” + “seizure”",
+    "etymology": "Blend of \"recess\" + \"seizure\"",
     "identification": [
       {
         "key": "effect",
@@ -9840,21 +9840,21 @@ export const entries = [
     "voice": "Installs an official while the chamber is empty, and calls the emptiness a recess.",
     "senses": [
       "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session - a temporary official holding a permanent-looking title.",
-      "It works because recess is a word the Senate can disprove by showing up. The power is real but the trigger is procedural, so the fight is never about the nominee’s qualifications; it is about whether anyone is standing in the chamber to object."
+      "It works because recess is a word the Senate can disprove by showing up. The power is real but the trigger is procedural, so the fight is never about the nominee's qualifications; it is about whether anyone is standing in the chamber to object."
     ],
     "notes": [],
-    "example": "“The nominee had been stalled for eight months, so the **recessure** happened on a Tuesday when the Senate was technically out of town, and the oath was administered by Thursday.”",
+    "example": "\"The nominee had been stalled for eight months, so the **recessure** happened on a Tuesday when the Senate was technically out of town, and the oath was administered by Thursday.\"",
     "cite": {
       "label": "Wikipedia · Recess appointment",
       "url": "https://en.wikipedia.org/wiki/Recess_appointment"
     },
-    "summary": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session - a...",
+    "summary": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session...",
     "definition": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session - a temporary official holding a permanent-looking title.",
     "confusedWith": [
       {
         "term": "Cronycle",
         "slug": "cronycle",
-        "tell": "The cronycle installs friends with the chamber’s consent; the recessure installs them without it.",
+        "tell": "The cronycle installs friends with the chamber's consent; the recessure installs them without it.",
         "path": "/abilities/cronycle/"
       }
     ],
@@ -9913,7 +9913,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Blend of “signing statement” + “sign away”",
+    "etymology": "Blend of \"signing statement\" + \"sign away\"",
     "identification": [
       {
         "key": "effect",
@@ -9940,7 +9940,7 @@ export const entries = [
       "It works because a signature is the only thing the Constitution actually requires. The statement carries no vote and binds no court, but it is a public instruction to the agencies that have to enforce the statute, and instructions are followed more often than they are litigated."
     ],
     "notes": [],
-    "example": "“He signed the oversight bill with a **signaway** attached, and the agency read the note instead of the statute.”",
+    "example": "\"He signed the oversight bill with a **signaway** attached, and the agency read the note instead of the statute.\"",
     "cite": {
       "label": "Wikipedia · Signing statement",
       "url": "https://en.wikipedia.org/wiki/Signing_statement"
@@ -10035,7 +10035,7 @@ export const entries = [
         "key": "expires",
         "label": "Expires",
         "type": "text",
-        "value": "Inauguration Day, or the moment the successor’s transition team starts answering the phone instead."
+        "value": "Inauguration Day, or the moment the successor's transition team starts answering the phone instead."
       }
     ],
     "voice": "A pardon list, a regulation filed in December, and a press office that has stopped scheduling interviews.",
@@ -10044,7 +10044,7 @@ export const entries = [
       "It works because the clock is the only constraint left. The voters have spoken, the donors have moved on, and the remaining costs are historical - which is why the last weeks of a term produce the pardons, the midnight rules, and the appointments nobody would defend on a ballot."
     ],
     "notes": [],
-    "example": "“In six weeks of **lame duck** he issued forty-one pardons, three of them for people who had donated to the transition.”",
+    "example": "\"In six weeks of **lame duck** he issued forty-one pardons, three of them for people who had donated to the transition.\"",
     "cite": {
       "label": "Wikipedia · Lame duck (politics)",
       "url": "https://en.wikipedia.org/wiki/Lame_duck_(politics)"
@@ -10129,17 +10129,17 @@ export const entries = [
     ],
     "voice": "Lets a litigant choose which judge hears the case, by choosing which courthouse to file in.",
     "senses": [
-      "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case’s outcome can be shaped by a courthouse choice that never once mentions a judge.",
+      "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped by a courthouse choice that never once mentions a judge.",
       "It works because venue is procedure and procedure is unglamorous. Nobody campaigns on a filing rule, so a litigant can select a forum without having to defend the selection - and the ruling that follows looks like law rather than like a choice."
     ],
     "notes": [],
-    "example": "“The challenge was filed in a division with one judge, nine hundred miles from the agency it challenged, and the **judge shopping** was over before the docket sheet printed.”",
+    "example": "\"The challenge was filed in a division with one judge, nine hundred miles from the agency it challenged, and the **judge shopping** was over before the docket sheet printed.\"",
     "cite": {
       "label": "Wikipedia · Judge shopping",
       "url": "https://en.wikipedia.org/wiki/Judge_shopping"
     },
-    "summary": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case’s outcome can be shaped by a courthouse...",
-    "definition": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case’s outcome can be shaped by a courthouse choice that never once mentions a judge.",
+    "summary": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped by a...",
+    "definition": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped by a courthouse choice that never once mentions a judge.",
     "confusedWith": [
       {
         "term": "Gerrythm",
@@ -10228,7 +10228,7 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "An anti-SLAPP statute with an automatic stay and a fee shift, so the defendant’s costs land on the plaintiff who filed it."
+        "value": "An anti-SLAPP statute with an automatic stay and a fee shift, so the defendant's costs land on the plaintiff who filed it."
       }
     ],
     "voice": "Turns a lawsuit into a gag order by making the cost of speaking the punishment.",
@@ -10237,7 +10237,7 @@ export const entries = [
       "It works because the legal system prices speech in billable hours. Winning is optional; the filing alone raises the price of the next article, and the next editor remembers the last one."
     ],
     "notes": [],
-    "example": "“The review was accurate and the **SLAPP** was dismissed in fourteen months, by which time the writer had spent her savings and the magazine had stopped assigning the beat.”",
+    "example": "\"The review was accurate and the **SLAPP** was dismissed in fourteen months, by which time the writer had spent her savings and the magazine had stopped assigning the beat.\"",
     "cite": {
       "label": "Wikipedia · Strategic lawsuit against public participation",
       "url": "https://en.wikipedia.org/wiki/Strategic_lawsuit_against_public_participation"
@@ -10341,12 +10341,12 @@ export const entries = [
       "It works because contracts are private and rights are public. A clause nobody can see is a rule nobody can challenge, and the signature makes the silence look voluntary - which is what the doctrine requires and what the power imbalance supplies."
     ],
     "notes": [],
-    "example": "“She settled, signed the **NDA**, and spent four years unable to say the word harassment in an interview without a lawyer on the line.”",
+    "example": "\"She settled, signed the **NDA**, and spent four years unable to say the word harassment in an interview without a lawyer on the line.\"",
     "cite": {
       "label": "Wikipedia · Non-disclosure agreement",
       "url": "https://en.wikipedia.org/wiki/Non-disclosure_agreement"
     },
-    "summary": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you owe...",
+    "summary": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you...",
     "definition": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you owe rather than something you know.",
     "confusedWith": [
       {
@@ -10438,12 +10438,12 @@ export const entries = [
       "It works because it is a rule about rules. The question is not what happened but whether a previous court had described it precisely enough, so each new fact pattern restarts the clock and the law develops only as fast as the plaintiffs who can afford to lose."
     ],
     "notes": [],
-    "example": "“The video was clear, the policy was clear, and **qualified immunity** turned on whether a 2011 case from another circuit had described the same handcuffs.”",
+    "example": "\"The video was clear, the policy was clear, and **qualified immunity** turned on whether a 2011 case from another circuit had described the same handcuffs.\"",
     "cite": {
       "label": "Wikipedia · Qualified immunity",
       "url": "https://en.wikipedia.org/wiki/Qualified_immunity"
     },
-    "summary": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first person...",
+    "summary": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first...",
     "definition": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first person to be wronged usually loses, and the rule is established by losing.",
     "confusedWith": [
       {
@@ -10535,7 +10535,7 @@ export const entries = [
       "It works because enforcement outlives the news cycle. A press conference ends; a decree has reporting deadlines, and the department that signed it has to file paperwork with a judge who is still there next year."
     ],
     "notes": [],
-    "example": "“The **consent decree** gave the department eighteen months, an independent monitor and a reporting requirement, and the monitor’s third report was the first thing anyone had read about the department in a decade.”",
+    "example": "\"The **consent decree** gave the department eighteen months, an independent monitor and a reporting requirement, and the monitor's third report was the first thing anyone had read about the department in a decade.\"",
     "cite": {
       "label": "Wikipedia · Consent decree",
       "url": "https://en.wikipedia.org/wiki/Consent_decree"
@@ -10619,12 +10619,12 @@ export const entries = [
       "It works because the benefit of a treaty is paid over decades and the cost of leaving is paid once, in a news cycle. A signatory that keeps the benefits and drops the obligations has arbitraged its own credibility, and the bill arrives as a premium on every later promise."
     ],
     "notes": [],
-    "example": "“We are withdrawing from the agreement to protect our sovereignty” - the treaty had been drafted by the same government, and **breaking treaties** was the sovereignty in question.",
+    "example": "\"We are withdrawing from the agreement to protect our sovereignty\" - the treaty had been drafted by the same government, and **breaking treaties** was the sovereignty in question.",
     "cite": {
       "label": "Wikipedia · Vienna Convention on the Law of Treaties",
       "url": "https://en.wikipedia.org/wiki/Vienna_Convention_on_the_Law_of_Treaties"
     },
-    "summary": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal is...",
+    "summary": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal...",
     "definition": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal is announced in the language of liberation.",
     "confusedWith": [
       {
@@ -10682,7 +10682,7 @@ export const entries = [
         "key": "carriers",
         "label": "Carriers",
         "type": "text",
-        "value": "Cabinets, boards, caucuses, the dinner that appears on nobody’s schedule, and the hunting camp where the season’s legislation is agreed before the season opens."
+        "value": "Cabinets, boards, caucuses, the dinner that appears on nobody's schedule, and the hunting camp where the season's legislation is agreed before the season opens."
       },
       {
         "key": "economics",
@@ -10705,17 +10705,17 @@ export const entries = [
     ],
     "voice": "A decision that arrives fully formed, attributed to a process nobody watched, and a guest list nobody kept.",
     "senses": [
-      "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum’s authority and none of a quorum’s exposure.",
+      "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum's authority and none of a quorum's exposure.",
       "It works because deliberation is the part of government that can be watched, and watching is expensive. Move the deliberation one room over and the public process becomes theatre - the vote is real, the argument happened somewhere else. It is the same room at every scale: four trustees in a kitchen, a caucus in a cabin, a cabinet at a weekend retreat."
     ],
     "notes": [],
-    "example": "“The decision was made in the ordinary course” - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.",
+    "example": "\"The decision was made in the ordinary course\" - in a room with no minutes and no names: a **secret meeting**, with the announcement as its only record.",
     "cite": {
       "label": "Wikipedia · Executive session",
       "url": "https://en.wikipedia.org/wiki/Executive_session"
     },
-    "summary": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision...",
-    "definition": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum’s authority and none of a quorum’s exposure.",
+    "summary": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a...",
+    "definition": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room, and a decision that emerges with a quorum's authority and none of a quorum's exposure.",
     "confusedWith": [
       {
         "term": "Nightdocket",
@@ -10799,7 +10799,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "Every post is filled before it is advertised, every candidate is somebody’s nephew, and the vote is a formality held in a room with no chairs for the public."
+        "value": "Every post is filled before it is advertised, every candidate is somebody's nephew, and the vote is a formality held in a room with no chairs for the public."
       },
       {
         "key": "counter",
@@ -10808,18 +10808,18 @@ export const entries = [
         "value": "Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting."
       }
     ],
-    "voice": "Every post is filled before it is advertised, every candidate is somebody’s nephew, and the vote is a formality held in a room with no chairs for the public.",
+    "voice": "Every post is filled before it is advertised, every candidate is somebody's nephew, and the vote is a formality held in a room with no chairs for the public.",
     "senses": [
       "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
       "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document. It scales without changing shape: the same room picks the shift supervisor and the attorney general, and the lodge hall and the cabinet differ only in the size of the parking lot."
     ],
     "notes": [],
-    "example": "“He’s one of us” - the whole interview, in four words, before the résumé was opened: the **good ol’ boys club** doing its hiring in the open.",
+    "example": "\"He's one of us\" - the whole interview, in four words, before the résumé was opened: the **good ol' boys club** doing its hiring in the open.",
     "cite": {
       "label": "Wikipedia · Old boy network",
       "url": "https://en.wikipedia.org/wiki/Old_boy_network"
     },
-    "summary": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to...",
+    "summary": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes...",
     "definition": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
     "confusedWith": [
       {
@@ -10920,7 +10920,7 @@ export const entries = [
       "It works because expertise is a real defence and a convenient one. Some offices should be insulated from the electorate - and the insulation is exactly what makes the office useful to the people who appointed it."
     ],
     "notes": [],
-    "example": "“Per the guidance issued by the office” - an **unelected official** whose name nobody in the room could give, exercising a power nobody in the room could vote on.",
+    "example": "\"Per the guidance issued by the office\" - an **unelected official** whose name nobody in the room could give, exercising a power nobody in the room could vote on.",
     "cite": null,
     "summary": "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate...",
     "definition": "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate and answers to nobody who votes.",
@@ -10978,7 +10978,7 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "One’s own side has just been caught doing something."
+        "value": "One's own side has just been caught doing something."
       },
       {
         "key": "tell",
@@ -10999,7 +10999,7 @@ export const entries = [
       "It works because fairness is a stronger instinct than consistency. The hearer wants the ledger balanced, and the sentence offers balance without ever asking whether either entry was wrong."
     ],
     "notes": [],
-    "example": "*“They gerrymandered too.”* Both maps are still rigged; the sentence has only arranged for nobody to fix either.",
+    "example": "*\"They gerrymandered too.\"* Both maps are still rigged; the sentence has only arranged for nobody to fix either.",
     "cite": {
       "label": "Wikipedia · Two wrongs make a right",
       "url": "https://en.wikipedia.org/wiki/Two_wrongs_make_a_right"
@@ -11010,7 +11010,7 @@ export const entries = [
       {
         "term": "Ad hominem",
         "slug": "ad-hominem",
-        "tell": "The tu quoque changes the subject to the accuser’s conduct; ad hominem changes it to the accuser’s character.",
+        "tell": "The tu quoque changes the subject to the accuser's conduct; ad hominem changes it to the accuser's character.",
         "path": "/fallacies/ad-hominem/"
       }
     ],
@@ -11088,7 +11088,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Latin: “after this, therefore because of this” - the first reason children believe the rooster makes the sun rise.",
+    "etymology": "Latin: \"after this, therefore because of this\" - the first reason children believe the rooster makes the sun rise.",
     "identification": [
       {
         "key": "family",
@@ -11121,7 +11121,7 @@ export const entries = [
       "It works because sequence is the one causal cue an audience can observe directly. Order is visible; mechanism has to be argued, so order wins by default."
     ],
     "notes": [],
-    "example": "*“I took the supplement and the cough cleared in a week.”* A week is also how long a cough lasts.",
+    "example": "*\"I took the supplement and the cough cleared in a week.\"* A week is also how long a cough lasts.",
     "cite": {
       "label": "Wikipedia · Post hoc ergo propter hoc",
       "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc"
@@ -11236,7 +11236,7 @@ export const entries = [
       "It works because the exemption is usually framed as context. Every rule has context; the fallacy is invoking it only for one side."
     ],
     "notes": [],
-    "example": "*“Attacking a public official’s family is out of bounds.”* Said by the account that spent last spring on a mayor’s brother.",
+    "example": "*\"Attacking a public official's family is out of bounds.\"* Said by the account that spent last spring on a mayor's brother.",
     "cite": {
       "label": "Wikipedia · Special pleading",
       "url": "https://en.wikipedia.org/wiki/Special_pleading"
@@ -11400,7 +11400,7 @@ export const entries = [
       "It works because compromise is a genuine virtue in negotiation. The sentence borrows that virtue for questions of fact, where the midpoint of true and false is still false."
     ],
     "notes": [],
-    "example": "*“One side says the water is safe, the other says it is poison - surely the truth is in the middle.”* The test results are not in the middle; they are in the lab.",
+    "example": "*\"One side says the water is safe, the other says it is poison - surely the truth is in the middle.\"* The test results are not in the middle; they are in the lab.",
     "cite": {
       "label": "Wikipedia · Argument to moderation",
       "url": "https://en.wikipedia.org/wiki/Argument_to_moderation"
@@ -11515,7 +11515,7 @@ export const entries = [
       "It works because fairness is a real journalistic virtue and symmetry looks like it. But a coin that lands heads ninety times out of a hundred is not evenly disputed, and equal time misrepresents it as such."
     ],
     "notes": [],
-    "example": "*“Some say the bridge is safe, others say it will fall.”* One of those groups has the inspection report.",
+    "example": "*\"Some say the bridge is safe, others say it will fall.\"* One of those groups has the inspection report.",
     "cite": {
       "label": "Wikipedia · False balance",
       "url": "https://en.wikipedia.org/wiki/False_balance"
@@ -11630,7 +11630,7 @@ export const entries = [
       "It works because silence is genuinely informative sometimes. Whether it is depends entirely on whether the silence was supposed to be broken, and that question is the one the sentence skips."
     ],
     "notes": [],
-    "example": "*“No complaints were filed, so everyone was satisfied.”* Nobody knew there was a form.",
+    "example": "*\"No complaints were filed, so everyone was satisfied.\"* Nobody knew there was a form.",
     "cite": {
       "label": "Wikipedia · Argument from silence",
       "url": "https://en.wikipedia.org/wiki/Argument_from_silence"
@@ -11745,7 +11745,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 5
     },
-    "etymology": "Blend of “xenophobe” + “fabricator”",
+    "etymology": "Blend of \"xenophobe\" + \"fabricator\"",
     "identification": [
       {
         "key": "occasion",
@@ -11757,7 +11757,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“They’re taking over.”"
+        "value": "\"They're taking over.\""
       },
       {
         "key": "tell",
@@ -11776,13 +11776,13 @@ export const entries = [
         "value": "Ask for the number and the year. A panic that cannot produce a denominator is a rumour with a map."
       }
     ],
-    "voice": "“They’re taking over.”",
+    "voice": "\"They're taking over.\"",
     "senses": [
       "The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest arrivals.",
       "It works because a scapegoat supplies a cause where the real one is diffuse - and a denominator is the one thing a panic never volunteers."
     ],
     "notes": [],
-    "example": "“Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program.”",
+    "example": "\"Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program.\"",
     "cite": null,
     "summary": "The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest...",
     "definition": "The pattern of explaining a complex failure by the presence of a small group: the budget, the waiting list, or the roster attributed to the newest arrivals.",
@@ -11879,7 +11879,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of “drama” + “demagogue”",
+    "etymology": "Blend of \"drama\" + \"demagogue\"",
     "identification": [
       {
         "key": "occasion",
@@ -11891,7 +11891,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Everything you know is a lie.”"
+        "value": "\"Everything you know is a lie.\""
       },
       {
         "key": "tell",
@@ -11910,13 +11910,13 @@ export const entries = [
         "value": "Ask for one verifiable thing: a name, a date, a document. An apocalypse on a schedule never survives a specific question."
       }
     ],
-    "voice": "“Everything you know is a lie.”",
+    "voice": "\"Everything you know is a lie.\"",
     "senses": [
       "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
       "It works because fear is the cheapest way to hold attention, and an emergency is the fastest route to powers that would otherwise need an argument."
     ],
     "notes": [],
-    "example": "“Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior.”",
+    "example": "\"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior.\"",
     "cite": null,
     "summary": "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
     "definition": "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
@@ -12025,7 +12025,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of “rage” + “masturbation” + “-ist”",
+    "etymology": "Blend of \"rage\" + \"masturbation\" + \"-ist\"",
     "identification": [
       {
         "key": "occasion",
@@ -12037,7 +12037,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Are you angry yet?”"
+        "value": "\"Are you angry yet?\""
       },
       {
         "key": "tell",
@@ -12056,13 +12056,13 @@ export const entries = [
         "value": "Ask what the anger is for. Outrage that cannot name a remedy is a product, not a politics."
       }
     ],
-    "voice": "“Are you angry yet?”",
+    "voice": "\"Are you angry yet?\"",
     "senses": [
       "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.",
       "It works because outrage travels further than explanation and needs no conclusion - so the one thing it must never supply is the thing that would end it."
     ],
     "notes": [],
-    "example": "“He has zero intention of fixing the issue he screams about every night; he’s a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities.”",
+    "example": "\"He has zero intention of fixing the issue he screams about every night; he's a full-time **ragesturbationist** getting off on ad revenue and engagement while his followers burn down their own communities.\"",
     "cite": null,
     "summary": "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.",
     "definition": "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named.",
@@ -12145,7 +12145,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of “martyr” + “-holic”",
+    "etymology": "Blend of \"martyr\" + \"-holic\"",
     "identification": [
       {
         "key": "occasion",
@@ -12157,7 +12157,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“So I’m the bad guy now?”"
+        "value": "\"So I'm the bad guy now?\""
       },
       {
         "key": "tell",
@@ -12176,16 +12176,16 @@ export const entries = [
         "value": "Name the act, not the person, and refuse to argue about who suffers more. Suffering is not a rebuttal."
       }
     ],
-    "voice": "“So I’m the bad guy now?”",
+    "voice": "\"So I'm the bad guy now?\"",
     "senses": [
-      "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker’s suffering.",
+      "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.",
       "It works because suffering cannot be measured in public, so the argument is moved to ground where no evidence can be produced - and the criticism is left unanswered while it is being deplored."
     ],
     "notes": [],
-    "example": "“Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior.”",
+    "example": "\"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior.\"",
     "cite": null,
-    "summary": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker’s suffering.",
-    "definition": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker’s suffering.",
+    "summary": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.",
+    "definition": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.",
     "confusedWith": [
       {
         "term": "Plutomartyr",
@@ -12272,7 +12272,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of “algorithm” + “academic” / “pandemic”",
+    "etymology": "Blend of \"algorithm\" + \"academic\" / \"pandemic\"",
     "identification": [
       {
         "key": "occasion",
@@ -12284,7 +12284,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“The data doesn’t lie.”"
+        "value": "\"The data doesn't lie.\""
       },
       {
         "key": "tell",
@@ -12303,13 +12303,13 @@ export const entries = [
         "value": "Ask for the axis, the sample, and where the number came from. A chart that cannot produce them is a poster, not a finding."
       }
     ],
-    "voice": "“The data doesn’t lie.”",
+    "voice": "\"The data doesn't lie.\"",
     "senses": [
       "The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.",
       "It works because recommendation systems are optimised for the next click rather than the last fact, so a curiosity can be walked - one suggestion at a time - into a cosmology."
     ],
     "notes": [],
-    "example": "“Bragging that he ‘escaped the matrix’ while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**.”",
+    "example": "\"Bragging that he 'escaped the matrix' while parroting word-for-word talking points from a supplement-selling YouTube algorithm makes him a textbook **algodemic**.\"",
     "cite": null,
     "summary": "The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.",
     "definition": "The pattern of assembling a worldview from what the feed supplied: unrelated dots connected, context stripped, the conclusion arriving first.",
@@ -12420,7 +12420,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “plutocrat” + “martyr”",
+    "etymology": "Blend of \"plutocrat\" + \"martyr\"",
     "identification": [
       {
         "key": "occasion",
@@ -12432,7 +12432,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“They’re coming for people like me.”"
+        "value": "\"They're coming for people like me.\""
       },
       {
         "key": "tell",
@@ -12451,13 +12451,13 @@ export const entries = [
         "value": "Ask what is being taken, and by whom. Hardship with a legal team is a negotiating position."
       }
     ],
-    "voice": "“They’re coming for people like me.”",
+    "voice": "\"They're coming for people like me.\"",
     "senses": [
       "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the speaker.",
       "It works because the powerful are rarely inconvenienced, so any inconvenience reads as extraordinary - and a grievance is the cheapest available evidence of virtue."
     ],
     "notes": [],
-    "example": "“A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**.”",
+    "example": "\"A man with three private jets and a media company told the audience he was the most silenced person in the country - textbook **plutomartyr**.\"",
     "cite": null,
     "summary": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the...",
     "definition": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against the speaker.",
@@ -12568,7 +12568,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of “slop” + “propagandist”",
+    "etymology": "Blend of \"slop\" + \"propagandist\"",
     "identification": [
       {
         "key": "occasion",
@@ -12580,7 +12580,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Sources say.”"
+        "value": "\"Sources say.\""
       },
       {
         "key": "tell",
@@ -12599,13 +12599,13 @@ export const entries = [
         "value": "Ask who wrote it and who would correct it. A byline and a corrections policy are the two things slop cannot fake for long."
       }
     ],
-    "voice": "“Sources say.”",
+    "voice": "\"Sources say.\"",
     "senses": [
       "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was accountable for the piece.",
       "It works because volume beats verification on a time budget - a fact-checker answers one item while the pipeline ships twenty - so the race is lost before it is run."
     ],
     "notes": [],
-    "example": "“Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn’t believe the story, he just ships it.”",
+    "example": "\"Twelve accounts, one prompt, four hundred posts a day - the **slopagandist** doesn't believe the story, he just ships it.\"",
     "cite": null,
     "summary": "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was...",
     "definition": "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was accountable for the piece.",
@@ -12777,7 +12777,7 @@ export const entries = [
       "It rewards the claim that fits before the break. A false claim costs nothing inside ninety seconds and an answer costs most of them, so the format systematically favours the gallop over the reply."
     ],
     "notes": [],
-    "example": "“Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant.”",
+    "example": "\"Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant.\"",
     "cite": {
       "label": "Wikipedia · Panel discussion",
       "url": "https://en.wikipedia.org/wiki/Panel_discussion"
@@ -12946,7 +12946,7 @@ export const entries = [
         "key": "carriers",
         "label": "Carriers",
         "type": "text",
-        "value": "The family thread, the neighbours’ thread, the school parents’ thread, and the one with the uncle."
+        "value": "The family thread, the neighbours' thread, the school parents' thread, and the one with the uncle."
       },
       {
         "key": "economics",
@@ -12973,7 +12973,7 @@ export const entries = [
       "It exploits trust rather than speed. Nobody fact-checks their aunt, so the habitat runs almost entirely on Appeals to Authority and Pity, and the correction that would fix it never gets forwarded."
     ],
     "notes": [],
-    "example": "“Three forwards before breakfast: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link.”",
+    "example": "\"Three forwards before breakfast: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link.\"",
     "cite": {
       "label": "Wikipedia · Group chat",
       "url": "https://en.wikipedia.org/wiki/Group_chat"
@@ -13108,7 +13108,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Blend of “blue check” + the verb “to check” - the mark and the act of vouching",
+    "etymology": "Blend of \"blue check\" + the verb \"to check\" - the mark and the act of vouching",
     "identification": [
       {
         "key": "effect",
@@ -13120,7 +13120,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "A small blue tick, a large claim, and a reply that begins “as a verified-”"
+        "value": "A small blue tick, a large claim, and a reply that begins \"as a verified-\""
       },
       {
         "key": "expires",
@@ -13129,19 +13129,19 @@ export const entries = [
         "value": "When the platform sells the mark to anyone, which is the same week it stops meaning anything."
       }
     ],
-    "voice": "A small blue tick, a large claim, and a reply that begins “as a verified-”",
+    "voice": "A small blue tick, a large claim, and a reply that begins \"as a verified-\"",
     "senses": [
-      "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as the account being right.",
+      "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real, and gets heard as the account being right.",
       "It works because verification is a claim about identity that audiences receive as a claim about authority. The bearer does not have to argue better; the interface has already agreed with them in advance."
     ],
     "notes": [],
-    "example": "“He lost the thread, then posted a screenshot of his own tick, and the **bluecheck** did the rest of the arguing for him.”",
+    "example": "\"He lost the thread, then posted a screenshot of his own tick, and the **bluecheck** did the rest of the arguing for him.\"",
     "cite": {
       "label": "Wikipedia · Twitter verification",
       "url": "https://en.wikipedia.org/wiki/Twitter_verification"
     },
-    "summary": "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as...",
-    "definition": "A temporary platform condition in which the site’s own endorsement is mistaken for the reader’s: the tick says the account is real, and gets heard as the account being right.",
+    "summary": "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real, and...",
+    "definition": "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real, and gets heard as the account being right.",
     "confusedWith": [
       {
         "term": "Bootcurious",
@@ -13207,7 +13207,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 3
     },
-    "etymology": "Blend of “crisis” + “afterglow”",
+    "etymology": "Blend of \"crisis\" + \"afterglow\"",
     "identification": [
       {
         "key": "effect",
@@ -13219,7 +13219,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "“Now is not the time to politicise this”, from someone who has been politicising everything else since Tuesday."
+        "value": "\"Now is not the time to politicise this\", from someone who has been politicising everything else since Tuesday."
       },
       {
         "key": "expires",
@@ -13228,13 +13228,13 @@ export const entries = [
         "value": "When the emergency is declared over - a decision the bearer also gets to make."
       }
     ],
-    "voice": "“Now is not the time to politicise this”, from someone who has been politicising everything else since Tuesday.",
+    "voice": "\"Now is not the time to politicise this\", from someone who has been politicising everything else since Tuesday.",
     "senses": [
       "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
       "It works because urgency is real and disagreement is slow. A crisis genuinely does compress the timetable, and the bearer decides how long the compression lasts - which is why so few emergencies end on schedule."
     ],
     "notes": [],
-    "example": "“For six weeks of **crisisglow** the mayor could not be criticised without someone asking whether you supported the recovery.”",
+    "example": "\"For six weeks of **crisisglow** the mayor could not be criticised without someone asking whether you supported the recovery.\"",
     "cite": null,
     "summary": "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
     "definition": "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction.",
@@ -13308,7 +13308,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "Blend of “indictment” + “bump”, the poll movement",
+    "etymology": "Blend of \"indictment\" + \"bump\", the poll movement",
     "identification": [
       {
         "key": "effect",
@@ -13331,17 +13331,17 @@ export const entries = [
     ],
     "voice": "A legal defence fund launched before the arraignment, and merchandise with the case number printed on it.",
     "senses": [
-      "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
+      "A temporary condition in which being charged raises the bearer's standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
       "It works because the charge is processed as proof of sincerity rather than proof of conduct. The base never has to believe the defendant is innocent; it only has to believe the prosecution is political, and any prosecution is political once you have said so first."
     ],
     "notes": [],
-    "example": "“Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday.”",
+    "example": "\"Four counts, and the **indictbump** cleared two million by Friday; the mugshot was on a coffee mug by Monday.\"",
     "cite": {
       "label": "Wikipedia · Rally 'round the flag effect",
       "url": "https://en.wikipedia.org/wiki/Rally_%27round_the_flag_effect"
     },
-    "summary": "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of...",
-    "definition": "A temporary condition in which being charged raises the bearer’s standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
+    "summary": "A temporary condition in which being charged raises the bearer's standing with their own audience, because persecution is the strongest...",
+    "definition": "A temporary condition in which being charged raises the bearer's standing with their own audience, because persecution is the strongest evidence of authenticity a movement can be handed.",
     "confusedWith": [
       {
         "term": "Martyrholic",
@@ -13432,7 +13432,7 @@ export const entries = [
       "It works because it is not a venue but a selection pressure. Nothing in the feed has to be true, or even popular in general; it only has to keep one person on the page, and the person most likely to stay is the one who has just been made angry."
     ],
     "notes": [],
-    "example": "“He opened the app to check the weather, and the **feed** gave him a war, a grievance, and a supplement in ninety seconds.”",
+    "example": "\"He opened the app to check the weather, and the **feed** gave him a war, a grievance, and a supplement in ninety seconds.\"",
     "cite": {
       "label": "Wikipedia · News feed",
       "url": "https://en.wikipedia.org/wiki/News_feed"
@@ -13603,17 +13603,17 @@ export const entries = [
     ],
     "voice": "A joke about the local team, a story about a diner, and a policy nobody will mention again after dessert.",
     "senses": [
-      "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift’s front porch.",
+      "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch.",
       "It works because access is the product. Nobody buys a chicken dinner for the chicken; they buy four minutes at the head table, and the receipt is written off as a political contribution."
     ],
     "notes": [],
-    "example": "“Nine counties in four days, four **rubber chicken circuit** dinners, and the same joke about the local football team told nine times to nine rooms that all laughed.”",
+    "example": "\"Nine counties in four days, four **rubber chicken circuit** dinners, and the same joke about the local football team told nine times to nine rooms that all laughed.\"",
     "cite": {
       "label": "Wikipedia · Rubber chicken circuit",
       "url": "https://en.wikipedia.org/wiki/Rubber_chicken_circuit"
     },
-    "summary": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift’s front porch.",
-    "definition": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift’s front porch.",
+    "summary": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch.",
+    "definition": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch.",
     "confusedWith": [
       {
         "term": "Patriotainment",
@@ -13710,7 +13710,7 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "A survey that asks whether you would still support the candidate ‘if you knew’ something, and never asks anything else."
+        "value": "A survey that asks whether you would still support the candidate 'if you knew' something, and never asks anything else."
       },
       {
         "key": "counter",
@@ -13719,19 +13719,19 @@ export const entries = [
         "value": "Demand the script, the sample, and the crosstabs. A poll that cannot produce them was never measuring anything."
       }
     ],
-    "voice": "A survey that asks whether you would still support the candidate ‘if you knew’ something, and never asks anything else.",
+    "voice": "A survey that asks whether you would still support the candidate 'if you knew' something, and never asks anything else.",
     "senses": [
-      "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear’s delivery.",
-      "It works because the form of a poll is a claim to neutrality. Nobody expects a phone survey to persuade them, which is why an accusation delivered in the register of a questionnaire gets past the defence a leaflet would trigger. The polling profession’s own standards body says plainly that a push poll is not a poll - it is telemarketing with a clipboard."
+      "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery.",
+      "It works because the form of a poll is a claim to neutrality. Nobody expects a phone survey to persuade them, which is why an accusation delivered in the register of a questionnaire gets past the defence a leaflet would trigger. The polling profession's own standards body says plainly that a push poll is not a poll - it is telemarketing with a clipboard."
     ],
     "notes": [],
-    "example": "“The **push poll** called nine thousand households to ask whether they would still vote for her if they knew about the investigation - there was no investigation, and the poll was the only place it existed.”",
+    "example": "\"The **push poll** called nine thousand households to ask whether they would still vote for her if they knew about the investigation - there was no investigation, and the poll was the only place it existed.\"",
     "cite": {
       "label": "Wikipedia · Push poll",
       "url": "https://en.wikipedia.org/wiki/Push_poll"
     },
-    "summary": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear’s delivery.",
-    "definition": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear’s delivery.",
+    "summary": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery.",
+    "definition": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery.",
     "confusedWith": [
       {
         "term": "Biasographer",
@@ -13827,7 +13827,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "‘I’ll circle back to you on that’ - and the next question goes to the front row."
+        "value": "'I'll circle back to you on that' - and the next question goes to the front row."
       },
       {
         "key": "counter",
@@ -13836,18 +13836,18 @@ export const entries = [
         "value": "The records request. The room speaks in documents, and the documents outlast the room."
       }
     ],
-    "voice": "‘I’ll circle back to you on that’ - and the next question goes to the front row.",
+    "voice": "'I'll circle back to you on that' - and the next question goes to the front row.",
     "senses": [
       "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras neither side controls.",
       "It works because access is the currency on both sides. The reporter needs the room for a quote, the podium needs the room for a clip, and neither can afford to say the questions are not being answered - so the ritual repeats, and the record shows that a press conference happened."
     ],
     "notes": [],
-    "example": "“Eleven questions in the **briefing room**, four answered, and the transcript read like a conversation because both sides needed it to.”",
+    "example": "\"Eleven questions in the **briefing room**, four answered, and the transcript read like a conversation because both sides needed it to.\"",
     "cite": {
       "label": "Wikipedia · James S. Brady Press Briefing Room",
       "url": "https://en.wikipedia.org/wiki/James_S._Brady_Press_Briefing_Room"
     },
-    "summary": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras neither...",
+    "summary": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras...",
     "definition": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras neither side controls.",
     "confusedWith": [
       {
@@ -13982,7 +13982,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: ‘spin alley’, the room behind a debate where each side declares what the audience just saw.",
+    "etymology": "English: 'spin alley', the room behind a debate where each side declares what the audience just saw.",
     "identification": [
       {
         "key": "carriers",
@@ -14000,7 +14000,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "A surrogate declaring victory before the closing statements are over, and a ‘what the American people heard tonight’ that nobody heard."
+        "value": "A surrogate declaring victory before the closing statements are over, and a 'what the American people heard tonight' that nobody heard."
       },
       {
         "key": "counter",
@@ -14009,19 +14009,19 @@ export const entries = [
         "value": "The written reason, published after the spin. The spin room is where a decision is explained; the reason is where it is checked."
       }
     ],
-    "voice": "A surrogate declaring victory before the closing statements are over, and a ‘what the American people heard tonight’ that nobody heard.",
+    "voice": "A surrogate declaring victory before the closing statements are over, and a 'what the American people heard tonight' that nobody heard.",
     "senses": [
-      "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning’s story.",
+      "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning's story.",
       "It works because the first interpretation usually wins. Viewers form a verdict in minutes and reporters file in minutes, so the campaign that names the story first sets the frame the rest of the coverage has to argue with."
     ],
     "notes": [],
-    "example": "“The **spin room** had three tables and four winners, and by midnight the debate was being remembered the way the loudest table had described it.”",
+    "example": "\"The **spin room** had three tables and four winners, and by midnight the debate was being remembered the way the loudest table had described it.\"",
     "cite": {
       "label": "Wikipedia · Spin room",
       "url": "https://en.wikipedia.org/wiki/Spin_room"
     },
-    "summary": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning’s...",
-    "definition": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning’s story.",
+    "summary": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the...",
+    "definition": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes the morning's story.",
     "confusedWith": [
       {
         "term": "Cable panel",
@@ -14113,7 +14113,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "English: from ‘rally’ - to gather again, and to recover.",
+    "etymology": "English: from 'rally' - to gather again, and to recover.",
     "identification": [
       {
         "key": "carriers",
@@ -14143,10 +14143,10 @@ export const entries = [
     "voice": "A chant the crowd already knows, a pause to let them say it, and a crowd estimate disputed by two police departments.",
     "senses": [
       "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back.",
-      "It works because a crowd is evidence. Attendance gets reported as support, the chant gets reported as a position, and the room’s enthusiasm becomes a data point in coverage that has no way to count the people who stayed home."
+      "It works because a crowd is evidence. Attendance gets reported as support, the chant gets reported as a position, and the room's enthusiasm becomes a data point in coverage that has no way to count the people who stayed home."
     ],
     "notes": [],
-    "example": "“Twelve thousand in the **rally**, a chant that had been running since the primaries, and a news cycle about the crowd size rather than the speech.”",
+    "example": "\"Twelve thousand in the **rally**, a chant that had been running since the primaries, and a news cycle about the crowd size rather than the speech.\"",
     "cite": {
       "label": "Wikipedia · Political rally",
       "url": "https://en.wikipedia.org/wiki/Political_rally"
@@ -14300,7 +14300,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Blend of “franking”, the privilege of free official mail, + “incense”, to inflame",
+    "etymology": "Blend of \"franking\", the privilege of free official mail, + \"incense\", to inflame",
     "identification": [
       {
         "key": "effect",
@@ -14312,22 +14312,22 @@ export const entries = [
         "key": "tell",
         "label": "Tell",
         "type": "text",
-        "value": "A glossy mailer from the incumbent, postage paid by the office, with a survey card and a ‘tell me what you think’ that is already a mailing list."
+        "value": "A glossy mailer from the incumbent, postage paid by the office, with a survey card and a 'tell me what you think' that is already a mailing list."
       },
       {
         "key": "expires",
         "label": "Expires",
         "type": "text",
-        "value": "The day the franking rules are read aloud, or the day the challenger mails the envelope back with the incumbent’s own words circled."
+        "value": "The day the franking rules are read aloud, or the day the challenger mails the envelope back with the incumbent's own words circled."
       }
     ],
-    "voice": "A glossy mailer from the incumbent, postage paid by the office, with a survey card and a ‘tell me what you think’ that is already a mailing list.",
+    "voice": "A glossy mailer from the incumbent, postage paid by the office, with a survey card and a 'tell me what you think' that is already a mailing list.",
     "senses": [
       "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the reason the mailbox fills before every election.",
       "It works because the line between official and campaign mail is drawn by the institution that benefits from it. The frank pays for the paper, the constituent sees a letter from their representative, and whether that letter is service or solicitation is decided by a commission of members - which is to say, by the people whose mail it is."
     ],
     "notes": [],
-    "example": "“Four **frankincense** mailers in one month, all marked official, all carrying the same photograph, and the challenger’s first ad was a picture of them in a pile.”",
+    "example": "\"Four **frankincense** mailers in one month, all marked official, all carrying the same photograph, and the challenger's first ad was a picture of them in a pile.\"",
     "cite": null,
     "summary": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the...",
     "definition": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite, and the reason the mailbox fills before every election.",
@@ -14427,7 +14427,7 @@ export const entries = [
       "It works because coverage is the deliverable. A pseudo-event costs almost nothing to stage, produces a clip on schedule and can be repeated - which is why it crowds out the events that happen on their own timetable."
     ],
     "notes": [],
-    "example": "“The **pseudo-event** had a ribbon, a hard hat and a site that had not been funded, and it led the local news for two nights.”",
+    "example": "\"The **pseudo-event** had a ribbon, a hard hat and a site that had not been funded, and it led the local news for two nights.\"",
     "cite": {
       "label": "Wikipedia · Pseudo-event",
       "url": "https://en.wikipedia.org/wiki/Pseudo-event"
@@ -14537,7 +14537,7 @@ export const entries = [
       "It works because an image of custody is read as evidence of guilt. The walk costs the state nothing, requires no finding, and cannot be retracted by an acquittal - the picture outlives the verdict."
     ],
     "notes": [],
-    "example": "“The **perp walk** ran on three networks, the charges were dropped in March, and the photograph was still the thumbnail on the story in June.”",
+    "example": "\"The **perp walk** ran on three networks, the charges were dropped in March, and the photograph was still the thumbnail on the story in June.\"",
     "cite": {
       "label": "Wikipedia · Perp walk",
       "url": "https://en.wikipedia.org/wiki/Perp_walk"
@@ -14634,7 +14634,7 @@ export const entries = [
         "key": "effect",
         "label": "Effect",
         "type": "text",
-        "value": "Makes the bearer’s questions worth answering, and the answers worth not printing."
+        "value": "Makes the bearer's questions worth answering, and the answers worth not printing."
       },
       {
         "key": "tell",
@@ -14655,12 +14655,12 @@ export const entries = [
       "It works because information is a renewable resource that requires cooperation. A reporter who asks the question loses the call, and the call is where the next three stories come from - so the incentive is not to lie, it is to ask something else."
     ],
     "notes": [],
-    "example": "“The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour.”",
+    "example": "\"The profile was warm, the follow-up never came, and the **access** lasted exactly as long as the book tour.\"",
     "cite": {
       "label": "Wikipedia · Access journalism",
       "url": "https://en.wikipedia.org/wiki/Access_journalism"
     },
-    "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and...",
+    "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible...",
     "definition": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible and the next hard question expensive.",
     "confusedWith": [
       {
@@ -14752,7 +14752,7 @@ export const entries = [
       "It works because the performance is the exception and the aside is the habit. An official who is careful for the cameras and careless in the corridor has told you which one is the act, and the microphone has told everybody else."
     ],
     "notes": [],
-    "example": "“The **hot mic** caught him calling the voters the base and the donor the customer, and the distinction explained the next three years of policy.”",
+    "example": "\"The **hot mic** caught him calling the voters the base and the donor the customer, and the distinction explained the next three years of policy.\"",
     "cite": {
       "label": "Wikipedia · Hot mic",
       "url": "https://en.wikipedia.org/wiki/Hot_mic"
@@ -14840,16 +14840,16 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Demand the inspectors’ report and the date, in public, before the vote. A threat that cannot survive inspection was a sales document."
+        "value": "Demand the inspectors' report and the date, in public, before the vote. A threat that cannot survive inspection was a sales document."
       }
     ],
     "voice": "The case is a dossier, the dossier is a summary, and the summary is a mood.",
     "senses": [
       "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory that is always forty-five minutes away.",
-      "It works because the public cannot audit a capability and the claim is unfalsifiable in the time available. By the time the inspectors publish, the vote is taken, the war is running, and the correction is a footnote in somebody else’s memoir."
+      "It works because the public cannot audit a capability and the claim is unfalsifiable in the time available. By the time the inspectors publish, the vote is taken, the war is running, and the correction is a footnote in somebody else's memoir."
     ],
     "notes": [],
-    "example": "“We cannot wait for the smoking gun to become a mushroom cloud” - **WMD mongering**, in the sentence that made waiting sound like complicity.",
+    "example": "\"We cannot wait for the smoking gun to become a mushroom cloud\" - **WMD mongering**, in the sentence that made waiting sound like complicity.",
     "cite": {
       "label": "Wikipedia · Iraq and weapons of mass destruction",
       "url": "https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction"
@@ -14934,7 +14934,7 @@ export const entries = [
         "key": "effect",
         "label": "Effect",
         "type": "text",
-        "value": "The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party’s letterhead already on it."
+        "value": "The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party's letterhead already on it."
       },
       {
         "key": "available_to",
@@ -14946,22 +14946,22 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Read the bill’s authorship and the revolving door’s dates: who wrote it, and where they worked the year before."
+        "value": "Read the bill's authorship and the revolving door's dates: who wrote it, and where they worked the year before."
       }
     ],
-    "voice": "The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party’s letterhead already on it.",
+    "voice": "The capability of an industry to staff the committee that oversees it: the draft arrives with the regulated party's letterhead already on it.",
     "senses": [
-      "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee’s friends.",
+      "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee's friends.",
       "It works because the legislator needs the expertise and the industry is the only body that funds it at scale. The information is real, the interest is real, and the two arrive in the same envelope."
     ],
     "notes": [],
-    "example": "“The bill was drafted with input from stakeholders” - **lobbyism** in one line: the stakeholders wrote it, and the input was the comma they removed.",
+    "example": "\"The bill was drafted with input from stakeholders\" - **lobbyism** in one line: the stakeholders wrote it, and the input was the comma they removed.",
     "cite": {
       "label": "Wikipedia · Lobbying",
       "url": "https://en.wikipedia.org/wiki/Lobbying"
     },
-    "summary": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group...",
-    "definition": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee’s friends.",
+    "summary": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade...",
+    "definition": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade group, the hearing whose witnesses were chosen by the committee's friends.",
     "confusedWith": [
       {
         "term": "Access",
@@ -15026,7 +15026,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "American political finance: the committee’s cheque, delivered before the vote and disclosed after it.",
+    "etymology": "American political finance: the committee's cheque, delivered before the vote and disclosed after it.",
     "identification": [
       {
         "key": "effect",
@@ -15044,7 +15044,7 @@ export const entries = [
         "key": "expires",
         "label": "Expires",
         "type": "text",
-        "value": "At the next filing deadline, or when the donor’s interest moves to a different committee."
+        "value": "At the next filing deadline, or when the donor's interest moves to a different committee."
       }
     ],
     "voice": "The money is disclosed after the vote and remembered at the next one.",
@@ -15053,7 +15053,7 @@ export const entries = [
       "It works because nothing about it is a secret. The amount is public, the timing is legal, and the favour is never written down - a transaction with a receipt and no contract."
     ],
     "notes": [],
-    "example": "“Our support reflects a shared commitment to the district” - the **PAC check** was itemised in the filing, one month before the markup.",
+    "example": "\"Our support reflects a shared commitment to the district\" - the **PAC check** was itemised in the filing, one month before the markup.",
     "cite": {
       "label": "Wikipedia · Political action committee",
       "url": "https://en.wikipedia.org/wiki/Political_action_committee"
@@ -15064,7 +15064,7 @@ export const entries = [
       {
         "term": "Coattails",
         "slug": "coattails",
-        "tell": "Coattails carry a candidate on somebody else’s popularity; a PAC check carries a vote on somebody else’s money.",
+        "tell": "Coattails carry a candidate on somebody else's popularity; a PAC check carries a vote on somebody else's money.",
         "path": "/buffs/coattails/"
       }
     ],
@@ -15129,7 +15129,7 @@ export const entries = [
       "It works because the commodity is real and the leverage is measurable. A state that can move the price can move the government that buys it, and no memorandum of understanding is as binding as a winter."
     ],
     "notes": [],
-    "example": "“We discussed energy security” - **oil diplomacy**: the two governments discussed the price, and the price was the discussion.",
+    "example": "\"We discussed energy security\" - **oil diplomacy**: the two governments discussed the price, and the price was the discussion.",
     "cite": {
       "label": "Wikipedia · Energy diplomacy",
       "url": "https://en.wikipedia.org/wiki/Energy_diplomacy"
@@ -15218,7 +15218,7 @@ export const entries = [
       "It works because doubt is cheaper than denial. You do not have to win the argument, only keep it open - and an open argument is a reason to wait, which is the only policy the funder needed."
     ],
     "notes": [],
-    "example": "“The science isn’t settled” - the **climate hoax** in six words, forty years after the first consensus, by a body that had settled its own position in a memo.",
+    "example": "\"The science isn't settled\" - the **climate hoax** in six words, forty years after the first consensus, by a body that had settled its own position in a memo.",
     "cite": {
       "label": "Wikipedia · Climate change denial",
       "url": "https://en.wikipedia.org/wiki/Climate_change_denial"
@@ -15306,10 +15306,10 @@ export const entries = [
     "voice": "The capability of a conflict to keep going without being decided: the authorisation renews itself, the enemy becomes a noun, and the budget becomes a baseline.",
     "senses": [
       "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor rather than a decision, the enemy renamed so the paperwork still applies.",
-      "It works because ending a war requires a majority and continuing one requires only inertia. Each year’s appropriation is last year’s plus a little, and nobody has to defend the sum - only the increment."
+      "It works because ending a war requires a majority and continuing one requires only inertia. Each year's appropriation is last year's plus a little, and nobody has to defend the sum - only the increment."
     ],
     "notes": [],
-    "example": "“We remain engaged in the region” - a **forever war**, authorised before most of the current Congress was elected and renewed by nobody in particular.",
+    "example": "\"We remain engaged in the region\" - a **forever war**, authorised before most of the current Congress was elected and renewed by nobody in particular.",
     "cite": {
       "label": "Wikipedia · Perpetual war",
       "url": "https://en.wikipedia.org/wiki/Perpetual_war"
@@ -15406,7 +15406,7 @@ export const entries = [
       "It works because a feeling is real. The hearer is not imagining the dread; they are imagining that the dread is proof. Emotion supplies the urgency a premises-and-conclusion argument cannot."
     ],
     "notes": [],
-    "example": "*“Think of the children”* attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.",
+    "example": "*\"Think of the children\"* attached to a zoning variance about a parking lot. The children are real, the parking lot is real, and the sentence has not connected them.",
     "cite": {
       "label": "Wikipedia · Appeal to emotion",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_emotion"
@@ -15561,7 +15561,7 @@ export const entries = [
       "It works because fear narrows attention. A frightened audience stops asking whether the proposal is good and starts asking whether the alternative is survivable."
     ],
     "notes": [],
-    "example": "*“If we do nothing, they win.”* Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.",
+    "example": "*\"If we do nothing, they win.\"* Nothing is not on the ballot; the question was the budget line, which is a different sentence about a different thing.",
     "cite": {
       "label": "Wikipedia · Appeal to fear",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_fear"
@@ -15721,7 +15721,7 @@ export const entries = [
       "It works because each new request sounds reasonable on its own. Nobody agrees to an impossible standard all at once; they agree to a series of fair-sounding ones."
     ],
     "notes": [],
-    "example": "*“Show me the emails.”* The emails are produced. “Emails can be edited - show me the metadata.” The metadata would not have been mentioned yesterday.",
+    "example": "*\"Show me the emails.\"* The emails are produced. \"Emails can be edited - show me the metadata.\" The metadata would not have been mentioned yesterday.",
     "cite": {
       "label": "Wikipedia · Moving the goalposts",
       "url": "https://en.wikipedia.org/wiki/Moving_the_goalposts"
@@ -15827,7 +15827,7 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask where the failures went. If the answer is “they are not in the dataset”, the dataset is the argument."
+        "value": "Ask where the failures went. If the answer is \"they are not in the dataset\", the dataset is the argument."
       }
     ],
     "voice": "Every case you can see succeeded, and nothing explains what happened to the others.",
@@ -15836,7 +15836,7 @@ export const entries = [
       "It works because the missing cases are missing. The sample looks complete precisely because the ones that would have completed it are not there to be counted."
     ],
     "notes": [],
-    "example": "*“Every founder I know says the degree was useless.”* The founders who dropped out and failed are not at the conferences where this sentence gets said.",
+    "example": "*\"Every founder I know says the degree was useless.\"* The founders who dropped out and failed are not at the conferences where this sentence gets said.",
     "cite": {
       "label": "Wikipedia · Survivorship bias",
       "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
@@ -15930,7 +15930,7 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "An idea’s supporters are easier to attack than the idea."
+        "value": "An idea's supporters are easier to attack than the idea."
       },
       {
         "key": "tell",
@@ -15951,7 +15951,7 @@ export const entries = [
       "It works because groups really do cluster. Sharing a conclusion with a bad actor is genuine information about the actor, and none at all about whether the conclusion is true."
     ],
     "notes": [],
-    "example": "*“That is the same thing the crank down the street says.”* The crank is also right about the weather, and nobody checks the sky by checking him.",
+    "example": "*\"That is the same thing the crank down the street says.\"* The crank is also right about the weather, and nobody checks the sky by checking him.",
     "cite": {
       "label": "Wikipedia · Association fallacy",
       "url": "https://en.wikipedia.org/wiki/Association_fallacy"
@@ -16051,7 +16051,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The reply is entirely about who benefits, and the claim’s evidence is not mentioned."
+        "value": "The reply is entirely about who benefits, and the claim's evidence is not mentioned."
       },
       {
         "key": "counter",
@@ -16060,13 +16060,13 @@ export const entries = [
         "value": "Separate interest from evidence: ask what the numbers say, then ask who profits. Both questions have answers and only one is about truth."
       }
     ],
-    "voice": "The reply is entirely about who benefits, and the claim’s evidence is not mentioned.",
+    "voice": "The reply is entirely about who benefits, and the claim's evidence is not mentioned.",
     "senses": [
       "Dismissing a claim by attributing a motive to whoever made it, as though the motive settled the facts.",
       "It works because motives are real and often relevant. But a motive explains why someone is talking, not whether what they said is accurate - and the audience conflates the two."
     ],
     "notes": [],
-    "example": "*“Of course the landlord says rents are fine - he owns the building.”* He does; the rent roll is still a document.",
+    "example": "*\"Of course the landlord says rents are fine - he owns the building.\"* He does; the rent roll is still a document.",
     "cite": {
       "label": "Wikipedia · Appeal to motive",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_motive"
@@ -16077,7 +16077,7 @@ export const entries = [
       {
         "term": "Ad hominem",
         "slug": "ad-hominem",
-        "tell": "Appeal to motive attacks the reason behind the claim; ad hominem attacks the person’s character or record.",
+        "tell": "Appeal to motive attacks the reason behind the claim; ad hominem attacks the person's character or record.",
         "path": "/fallacies/ad-hominem/"
       }
     ],
@@ -16176,7 +16176,7 @@ export const entries = [
       "It works because sympathy is a real moral response and the hardship is often genuine. Neither fact tells you whether the claim is accurate."
     ],
     "notes": [],
-    "example": "*“I lost my job over this, so you know I am telling the truth.”* Losing a job is terrible and says nothing about the facts.",
+    "example": "*\"I lost my job over this, so you know I am telling the truth.\"* Losing a job is terrible and says nothing about the facts.",
     "cite": {
       "label": "Wikipedia · Appeal to pity",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_pity"
@@ -16248,7 +16248,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Latin: “to the point of sickness” - the argument that wins by making the audience tired.",
+    "etymology": "Latin: \"to the point of sickness\" - the argument that wins by making the audience tired.",
     "identification": [
       {
         "key": "family",
@@ -16281,7 +16281,7 @@ export const entries = [
       "It works on volume rather than content. Nobody can answer the same sentence forty times, so the fortieth repetition lands unanswered and looks unanswerable."
     ],
     "notes": [],
-    "example": "*“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.”* Three sentences, one claim, no count.",
+    "example": "*\"It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.\"* Three sentences, one claim, no count.",
     "cite": {
       "label": "Wikipedia · Ad nauseam",
       "url": "https://en.wikipedia.org/wiki/Ad_nauseam"
@@ -16403,7 +16403,7 @@ export const entries = [
       "It works because progress is real and the future usually arrives. Recency is genuine evidence of relevance; it is not evidence of correctness, and the two are easy to confuse in a feed."
     ],
     "notes": [],
-    "example": "*“Nobody uses cash anymore.”* Most people still do; the sentence is about the future the speaker would like.",
+    "example": "*\"Nobody uses cash anymore.\"* Most people still do; the sentence is about the future the speaker would like.",
     "cite": {
       "label": "Wikipedia · Appeal to novelty",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_novelty"
@@ -16525,7 +16525,7 @@ export const entries = [
       "It works because consequences are legitimately part of policy - just not of truth. The sentence moves from what follows to what is, and the move is one word wide."
     ],
     "notes": [],
-    "example": "*“If that were true, the whole policy would be indefensible.”* It may well be indefensible; the audit found what it found.",
+    "example": "*\"If that were true, the whole policy would be indefensible.\"* It may well be indefensible; the audit found what it found.",
     "cite": {
       "label": "Wikipedia · Appeal to consequences",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_consequences"
@@ -16602,7 +16602,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of “pass off” + “pacifist” - the peacemaker whose peace is the subject never coming up",
+    "etymology": "Blend of \"pass off\" + \"pacifist\" - the peacemaker whose peace is the subject never coming up",
     "identification": [
       {
         "key": "occasion",
@@ -16614,7 +16614,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Let’s not make this political.”"
+        "value": "\"Let's not make this political.\""
       },
       {
         "key": "tell",
@@ -16630,16 +16630,16 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask what they think, not what should be done. Neutrality is a position on someone else’s fight, and it survives only while the question stays about them: put it in the first person and the passoffist has to pick a side, which is the thing the mediating was for."
+        "value": "Ask what they think, not what should be done. Neutrality is a position on someone else's fight, and it survives only while the question stays about them: put it in the first person and the passoffist has to pick a side, which is the thing the mediating was for."
       }
     ],
-    "voice": "“Let’s not make this political.”",
+    "voice": "\"Let's not make this political.\"",
     "senses": [
       "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the view never tested because it was never said.",
       "It works because a mediator is handed authority over a dispute without having to enter it, so the passoffist gets the standing of a neutral and the safety of a partisan - a seat at the table that never requires a vote."
     ],
     "notes": [],
-    "example": "“Asked what she thought of the removals, the **passoffist** observed that everyone was getting very heated, and suggested they talk about something else.”",
+    "example": "\"Asked what she thought of the removals, the **passoffist** observed that everyone was getting very heated, and suggested they talk about something else.\"",
     "cite": null,
     "summary": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the...",
     "definition": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant, the view never tested because it was never said.",
@@ -16741,7 +16741,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 3
     },
-    "etymology": "Blend of “provocation” + “sharecropper” - works a field of someone else’s outrage and keeps a share of the crop",
+    "etymology": "Blend of \"provocation\" + \"sharecropper\" - works a field of someone else's outrage and keeps a share of the crop",
     "identification": [
       {
         "key": "occasion",
@@ -16753,7 +16753,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“It’s just a shirt.”"
+        "value": "\"It's just a shirt.\""
       },
       {
         "key": "tell",
@@ -16769,18 +16769,18 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Ask what they would vote for, not what they would wear. The provocrop holds the position on loan - the crop is someone else’s, worn for the charge it carries - and a question about the policy calls in the rent."
+        "value": "Ask what they would vote for, not what they would wear. The provocrop holds the position on loan - the crop is someone else's, worn for the charge it carries - and a question about the policy calls in the rent."
       }
     ],
-    "voice": "“It’s just a shirt.”",
+    "voice": "\"It's just a shirt.\"",
     "senses": [
       "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the charge it carries rather than for anything it commits the wearer to.",
       "It works because a shirt is a claim with no obligation attached. The take arrives ready-made, the reaction is immediate, nothing is asked of the wearer, and the rent for all of it is paid in what the room now finds normal."
     ],
     "notes": [],
-    "example": "“Tucked into dad jeans at the hardware store, the **provocrop** was wearing this morning’s headline and had not read past it.”",
+    "example": "\"Tucked into dad jeans at the hardware store, the **provocrop** was wearing this morning's headline and had not read past it.\"",
     "cite": null,
-    "summary": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the charge...",
+    "summary": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the...",
     "definition": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn for the charge it carries rather than for anything it commits the wearer to.",
     "confusedWith": [
       {
@@ -16868,7 +16868,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Blend of “precedent” + “authoritarian” - the one authority that never has to run for anything",
+    "etymology": "Blend of \"precedent\" + \"authoritarian\" - the one authority that never has to run for anything",
     "identification": [
       {
         "key": "occasion",
@@ -16880,7 +16880,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“This is how we have always done it.”"
+        "value": "\"This is how we have always done it.\""
       },
       {
         "key": "tell",
@@ -16899,13 +16899,13 @@ export const entries = [
         "value": "Ask for the decision, not the tradition: who signed it, what it replaced, and what it cost. A precedent that survives the minutes is a rule; one that does not was a habit, and habits are not authority."
       }
     ],
-    "voice": "“This is how we have always done it.”",
+    "voice": "\"This is how we have always done it.\"",
     "senses": [
       "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the fact that somebody answered it once.",
       "It works because continuity is worth something and memory is short. Most rules do carry a reason, so the precedentarian is right often enough never to have to say which ones - the burden lands on you to prove this is the exception, and the minutes are in a basement."
     ],
     "notes": [],
-    "example": "“Asked why the roster worked that way, the **precedentarian** said it had been like that since 1994, which was true, and which nobody had checked.”",
+    "example": "\"Asked why the roster worked that way, the **precedentarian** said it had been like that since 1994, which was true, and which nobody had checked.\"",
     "cite": {
       "label": "Wikipedia · Status quo bias",
       "url": "https://en.wikipedia.org/wiki/Status_quo_bias"
@@ -17013,7 +17013,7 @@ export const entries = [
       "It works because implementation beats argument. An announcement invites a hearing, a comment period and a vote; a deployment invites a complaint from whoever happens to meet it, and the people who would have organised against it find out one at a time."
     ],
     "notes": [],
-    "example": "“The **soft launch** was a checkbox on page four of a renewal form; by the time the council asked who approved it, four thousand people had already agreed.”",
+    "example": "\"The **soft launch** was a checkbox on page four of a renewal form; by the time the council asked who approved it, four thousand people had already agreed.\"",
     "cite": {
       "label": "Wikipedia · Soft launch",
       "url": "https://en.wikipedia.org/wiki/Soft_launch"
@@ -17103,7 +17103,7 @@ export const entries = [
         "key": "counter",
         "label": "Counter",
         "type": "text",
-        "value": "Date the exemption. A grandfather clause with an end date is a transition; one without is a permanent carve-out in a reform’s clothes, and the difference is a line nobody reads."
+        "value": "Date the exemption. A grandfather clause with an end date is a transition; one without is a permanent carve-out in a reform's clothes, and the difference is a line nobody reads."
       }
     ],
     "voice": "Keeps the existing practice legal while the new rule binds everyone who arrives after it, so the baseline never actually moves.",
@@ -17112,12 +17112,12 @@ export const entries = [
       "It works because transition relief is reasonable. Every real reform lets people finish what they started, and the grandfather clause arrives wearing that reason - when the transition ends is the only thing that separates the two, and that date is never in the text."
     ],
     "notes": [],
-    "example": "“The **grandfather clause** exempted every plant already built, which was every plant, so the rule applied to a future that had not been scheduled.”",
+    "example": "\"The **grandfather clause** exempted every plant already built, which was every plant, so the rule applied to a future that had not been scheduled.\"",
     "cite": {
       "label": "Wikipedia · Grandfather clause",
       "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
     },
-    "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule...",
+    "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the...",
     "definition": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule was written about survives because it arrived first.",
     "confusedWith": [
       {
@@ -17190,7 +17190,7 @@ export const entries = [
         "key": "carriers",
         "label": "Carriers",
         "type": "text",
-        "value": "The breakout session, the sponsored coffee break, the panel titled “Navigating the New Normal”, the lanyard that says who paid for lunch."
+        "value": "The breakout session, the sponsored coffee break, the panel titled \"Navigating the New Normal\", the lanyard that says who paid for lunch."
       },
       {
         "key": "economics",
@@ -17202,7 +17202,7 @@ export const entries = [
         "key": "signature",
         "label": "Signature",
         "type": "text",
-        "value": "A practice that was a scandal in last year’s programme is a best practice in this one, and two of the three speakers are the same."
+        "value": "A practice that was a scandal in last year's programme is a best practice in this one, and two of the three speakers are the same."
       },
       {
         "key": "counter",
@@ -17211,19 +17211,19 @@ export const entries = [
         "value": "Read the programme from three years ago. The room does not change its mind; it changes its slide deck, and the archive is the only record of what it used to say."
       }
     ],
-    "voice": "A practice that was a scandal in last year’s programme is a best practice in this one, and two of the three speakers are the same.",
+    "voice": "A practice that was a scandal in last year's programme is a best practice in this one, and two of the three speakers are the same.",
     "senses": [
-      "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would have had to do.",
+      "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work an argument would have had to do.",
       "It works because the room is full of people whose jobs depend on the practice being normal, and the one who objects is on a panel with three who do not. Nobody votes - the programme is the vote, and it was printed a year in advance."
     ],
     "notes": [],
-    "example": "“Last year the **industry conference** ran a session on avoiding the practice; this year it ran a keynote on scaling it, with two of the same three speakers.”",
+    "example": "\"Last year the **industry conference** ran a session on avoiding the practice; this year it ran a keynote on scaling it, with two of the same three speakers.\"",
     "cite": {
       "label": "Wikipedia · Regulatory capture",
       "url": "https://en.wikipedia.org/wiki/Regulatory_capture"
     },
-    "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would...",
-    "definition": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would have had to do.",
+    "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work an...",
+    "definition": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work an argument would have had to do.",
     "confusedWith": [
       {
         "term": "Rubber chicken circuit",
@@ -17312,7 +17312,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 1
     },
-    "etymology": "English: from alarm fatigue, the ward’s habit of turning down a monitor that cries wolf - the fourth alarm gets a slower answer than the first.",
+    "etymology": "English: from alarm fatigue, the ward's habit of turning down a monitor that cries wolf - the fourth alarm gets a slower answer than the first.",
     "identification": [
       {
         "key": "effect",
@@ -17339,7 +17339,7 @@ export const entries = [
       "It works because attention is finite and disclosures are not. Nobody decides to stop caring; the caring is allocated to the newest thing, and the pattern that produced the story keeps producing it until the stories stop being news."
     ],
     "notes": [],
-    "example": "“By the third disclosure the **outrage fatigue** showed in the coverage: a front page, then a column, then a line in the round-up.”",
+    "example": "\"By the third disclosure the **outrage fatigue** showed in the coverage: a front page, then a column, then a line in the round-up.\"",
     "cite": {
       "label": "Wikipedia · Alarm fatigue",
       "url": "https://en.wikipedia.org/wiki/Alarm_fatigue"
@@ -17350,7 +17350,7 @@ export const entries = [
       {
         "term": "Crisisglow",
         "slug": "crisisglow",
-        "tell": "The crisisglow is authority for as long as the emergency lasts; the outrage fatigue is the audience’s attention running out. One is a uniform, the other a battery.",
+        "tell": "The crisisglow is authority for as long as the emergency lasts; the outrage fatigue is the audience's attention running out. One is a uniform, the other a battery.",
         "path": "/buffs/crisisglow/"
       }
     ],
@@ -17391,7 +17391,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 3
     },
-    "etymology": "Latin: secundum quid, “according to a particular” - a rule drawn from too narrow a sample.",
+    "etymology": "Latin: secundum quid, \"according to a particular\" - a rule drawn from too narrow a sample.",
     "identification": [
       {
         "key": "family",
@@ -17424,7 +17424,7 @@ export const entries = [
       "It works because a single vivid case feels like a pattern. The mind generalises from what it can picture, and one picture is enough to feel like evidence."
     ],
     "notes": [],
-    "example": "*“I met two rude tourists from there, so that is what they are like.”* Two people, one airport, an entire country.",
+    "example": "*\"I met two rude tourists from there, so that is what they are like.\"* Two people, one airport, an entire country.",
     "cite": {
       "label": "Wikipedia · Hasty generalization",
       "url": "https://en.wikipedia.org/wiki/Hasty_generalization"
@@ -17558,7 +17558,7 @@ export const entries = [
       "It works because every selection is individually true. Nothing in the sentence is a lie, so the audit has to ask what was left out - and the audience rarely sees the tree."
     ],
     "notes": [],
-    "example": "*“Crime fell in the years we cut the programme.”* It also fell in the four years before, in the neighbouring county, and by more.",
+    "example": "*\"Crime fell in the years we cut the programme.\"* It also fell in the four years before, in the neighbouring county, and by more.",
     "cite": {
       "label": "Wikipedia · Cherry picking",
       "url": "https://en.wikipedia.org/wiki/Cherry_picking"
@@ -17683,7 +17683,7 @@ export const entries = [
         "key": "committed_when",
         "label": "Committed when",
         "type": "text",
-        "value": "Two acts are being compared and the comparison flatters the speaker’s side."
+        "value": "Two acts are being compared and the comparison flatters the speaker's side."
       },
       {
         "key": "tell",
@@ -17701,10 +17701,10 @@ export const entries = [
     "voice": "The two things share a category and nothing else: scale, intent, effect, and remedy are all different.",
     "senses": [
       "Treating two things as equally bad, or equally serious, because they share a name or a shape.",
-      "It works because a shared label feels like a shared scale. Once both acts are called “unfair”, the sentence can weigh them evenly without ever measuring them."
+      "It works because a shared label feels like a shared scale. Once both acts are called \"unfair\", the sentence can weigh them evenly without ever measuring them."
     ],
     "notes": [],
-    "example": "*“Both sides traffic in misinformation.”* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.",
+    "example": "*\"Both sides traffic in misinformation.\"* One retracted a chart; the other broadcast a fabricated one to nine million people for a week.",
     "cite": {
       "label": "Wikipedia · False equivalence",
       "url": "https://en.wikipedia.org/wiki/False_equivalence"
@@ -17798,7 +17798,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "From the Greek anekdota, “unpublished things” - the story that never made it into the record.",
+    "etymology": "From the Greek anekdota, \"unpublished things\" - the story that never made it into the record.",
     "identification": [
       {
         "key": "family",
@@ -17816,7 +17816,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The reply begins “well, in my experience” and ends the discussion."
+        "value": "The reply begins \"well, in my experience\" and ends the discussion."
       },
       {
         "key": "counter",
@@ -17825,13 +17825,13 @@ export const entries = [
         "value": "Ask whether the story is typical. One case is a reason to check the data, not a substitute for it."
       }
     ],
-    "voice": "The reply begins “well, in my experience” and ends the discussion.",
+    "voice": "The reply begins \"well, in my experience\" and ends the discussion.",
     "senses": [
       "Using a single personal story as though it outweighed systematic evidence about the same question.",
       "It works because stories are persuasive and statistics are not. One concrete case is easier to hold in mind than a distribution, so it feels heavier even when it is one data point."
     ],
     "notes": [],
-    "example": "*“My uncle smoked for sixty years.”* The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.",
+    "example": "*\"My uncle smoked for sixty years.\"* The actuarial table is not about his uncle; it is about the twenty thousand uncles behind it.",
     "cite": {
       "label": "Wikipedia · Anecdotal evidence",
       "url": "https://en.wikipedia.org/wiki/Anecdotal_evidence"
@@ -17913,7 +17913,7 @@ export const entries = [
       "abuse": 3,
       "blowback": 4
     },
-    "etymology": "Latin: aequus vox, “equal voice” - one word doing two jobs in the same argument.",
+    "etymology": "Latin: aequus vox, \"equal voice\" - one word doing two jobs in the same argument.",
     "identification": [
       {
         "key": "family",
@@ -17946,7 +17946,7 @@ export const entries = [
       "It works because the word really is the same word. The shift happens in the meaning, which is invisible on the page and audible only if you ask what the word meant each time."
     ],
     "notes": [],
-    "example": "*“Speech is free, so my platform must host it.”* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.",
+    "example": "*\"Speech is free, so my platform must host it.\"* Free as in protected from the state, free as in provided by a company - one word, two sentences, no bridge.",
     "cite": {
       "label": "Wikipedia · Equivocation",
       "url": "https://en.wikipedia.org/wiki/Equivocation"
@@ -18054,7 +18054,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Latin: “you too” - the second-person form of the two-wrongs move, and the most common sentence on the internet.",
+    "etymology": "Latin: \"you too\" - the second-person form of the two-wrongs move, and the most common sentence on the internet.",
     "identification": [
       {
         "key": "family",
@@ -18087,7 +18087,7 @@ export const entries = [
       "It works because hypocrisy is genuinely relevant to credibility, so the deflection has a real foothold. The foothold is about the speaker; the question was about the act."
     ],
     "notes": [],
-    "example": "*“You are funded by a billionaire.”* “So are you.” Both disclosures are true; only one of them was on the table.",
+    "example": "*\"You are funded by a billionaire.\"* \"So are you.\" Both disclosures are true; only one of them was on the table.",
     "cite": {
       "label": "Wikipedia · Tu quoque",
       "url": "https://en.wikipedia.org/wiki/Tu_quoque"
@@ -18098,7 +18098,7 @@ export const entries = [
       {
         "term": "Two wrongs make a right",
         "slug": "two-wrongs-make-a-right",
-        "tell": "Tu quoque attacks the accuser’s consistency; two wrongs uses the comparison as a defence of the act itself.",
+        "tell": "Tu quoque attacks the accuser's consistency; two wrongs uses the comparison as a defence of the act itself.",
         "path": "/fallacies/two-wrongs-make-a-right/"
       }
     ],
@@ -18188,7 +18188,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Named for the Soviet reply to every complaint: “and what about…?”",
+    "etymology": "Named for the Soviet reply to every complaint: \"and what about…?\"",
     "identification": [
       {
         "key": "family",
@@ -18206,7 +18206,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The reply begins with “what about” and never returns to the question."
+        "value": "The reply begins with \"what about\" and never returns to the question."
       },
       {
         "key": "counter",
@@ -18215,13 +18215,13 @@ export const entries = [
         "value": "Say that the other case can be discussed after this one, and repeat the question. The order of questions is a fair thing to insist on."
       }
     ],
-    "voice": "The reply begins with “what about” and never returns to the question.",
+    "voice": "The reply begins with \"what about\" and never returns to the question.",
     "senses": [
       "Deflecting a question by raising a different grievance, so the original subject never gets answered.",
       "It works because there is always another grievance. The move does not have to be false - it only has to be more interesting than the question being asked."
     ],
     "notes": [],
-    "example": "*“What about the crime in your city?”* The question was about a contract. Both can be answered; only one was asked.",
+    "example": "*\"What about the crime in your city?\"* The question was about a contract. Both can be answered; only one was asked.",
     "cite": {
       "label": "Wikipedia · Whataboutism",
       "url": "https://en.wikipedia.org/wiki/Whataboutism"
@@ -18340,10 +18340,10 @@ export const entries = [
     "voice": "The reply gets a laugh, and the claim is not restated anywhere in it.",
     "senses": [
       "Dismissing a position by making it sound absurd rather than by showing that it is wrong.",
-      "It works because ridicule is cheap and memorable. A laugh is a conclusion the audience reaches themselves, which makes it feel like their own judgement rather than the speaker’s."
+      "It works because ridicule is cheap and memorable. A laugh is a conclusion the audience reaches themselves, which makes it feel like their own judgement rather than the speaker's."
     ],
     "notes": [],
-    "example": "*“So we should just let everyone do whatever they want, then?”* Nobody proposed that; the sentence made the proposal funny and then defeated the joke.",
+    "example": "*\"So we should just let everyone do whatever they want, then?\"* Nobody proposed that; the sentence made the proposal funny and then defeated the joke.",
     "cite": {
       "label": "Wikipedia · Appeal to ridicule",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_ridicule"
@@ -18437,7 +18437,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Latin: “to the people” - the crowd is treated as the evidence, and the bandwagon as the proof.",
+    "etymology": "Latin: \"to the people\" - the crowd is treated as the evidence, and the bandwagon as the proof.",
     "identification": [
       {
         "key": "family",
@@ -18470,7 +18470,7 @@ export const entries = [
       "It works because consensus is usually a decent heuristic and occasionally the only evidence available. The fallacy is treating a majority as a measurement."
     ],
     "notes": [],
-    "example": "*“Everyone knows the water is fine.”* Everyone knew a lot of things that turned out to be false; the water has a test result.",
+    "example": "*\"Everyone knows the water is fine.\"* Everyone knew a lot of things that turned out to be false; the water has a test result.",
     "cite": {
       "label": "Wikipedia · Argumentum ad populum",
       "url": "https://en.wikipedia.org/wiki/Argumentum_ad_populum"
@@ -18656,7 +18656,7 @@ export const entries = [
       "It works because the phrase is familiar and warm. Familiarity reads as wisdom, and the sentence arrives pre-approved, so using it feels like agreeing with everyone rather than ending an argument."
     ],
     "notes": [],
-    "example": "*“It is what it is.”* Said about a policy that could be changed, by the people who could change it.",
+    "example": "*\"It is what it is.\"* Said about a policy that could be changed, by the people who could change it.",
     "cite": {
       "label": "Wikipedia · Thought-terminating cliché",
       "url": "https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9"
@@ -18797,18 +18797,18 @@ export const entries = [
       "It works because the citation is true as far as it goes. Verifying a quote means opening the transcript, and most readers will only verify the part that already agrees with them."
     ],
     "notes": [],
-    "example": "*“They said the plan was dead on arrival.”* The transcript says it was dead on arrival in the Senate, which then passed it.",
+    "example": "*\"They said the plan was dead on arrival.\"* The transcript says it was dead on arrival in the Senate, which then passed it.",
     "cite": {
       "label": "Wikipedia · False attribution",
       "url": "https://en.wikipedia.org/wiki/False_attribution"
     },
-    "summary": "Informal · Red herring fallacy: Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never said...",
+    "summary": "Informal · Red herring fallacy: Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never...",
     "definition": "Ascribing to someone a claim they did not make - by misquoting, by quoting a fragment, or by naming a source that never said it.",
     "confusedWith": [
       {
         "term": "Straw man",
         "slug": "straw-man",
-        "tell": "False attribution puts new words in someone’s mouth; the straw man puts a weaker argument there.",
+        "tell": "False attribution puts new words in someone's mouth; the straw man puts a weaker argument there.",
         "path": "/fallacies/straw-man/"
       }
     ],
@@ -18897,7 +18897,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The reply is “prove me wrong” or “do your own research”, and the original claim is never defended."
+        "value": "The reply is \"prove me wrong\" or \"do your own research\", and the original claim is never defended."
       },
       {
         "key": "counter",
@@ -18906,13 +18906,13 @@ export const entries = [
         "value": "State who holds the burden and what would count as evidence. A claim does not become true by surviving an audit it never had to pass."
       }
     ],
-    "voice": "The reply is “prove me wrong” or “do your own research”, and the original claim is never defended.",
+    "voice": "The reply is \"prove me wrong\" or \"do your own research\", and the original claim is never defended.",
     "senses": [
       "Demanding that others disprove a claim instead of supporting it, so that the absence of disproof is treated as support.",
       "It works because a demand sounds like an invitation to debate. The audience rarely notices that the person making the claim has not made a case for it."
     ],
     "notes": [],
-    "example": "*“Show me the study that says it is harmful.”* The claim was that it is safe; the absent study is not a finding.",
+    "example": "*\"Show me the study that says it is harmful.\"* The claim was that it is safe; the absent study is not a finding.",
     "cite": {
       "label": "Wikipedia · Burden of proof (philosophy)",
       "url": "https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy)"
@@ -19048,7 +19048,7 @@ export const entries = [
       "It works on arithmetic, not argument. Each claim takes ten seconds to make and ten minutes to check, and the format does not care that they are not equally cheap."
     ],
     "notes": [],
-    "example": "*“Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…”* Fourteen claims, ninety seconds, one of them true.",
+    "example": "*\"Fourteen points: the vote, the machines, the ballots, the envelopes, the couriers…\"* Fourteen claims, ninety seconds, one of them true.",
     "cite": {
       "label": "Wikipedia · Gish gallop",
       "url": "https://en.wikipedia.org/wiki/Gish_gallop"
@@ -19156,7 +19156,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 2
     },
-    "etymology": "Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying “I refute it thus”.",
+    "etymology": "Latin: argumentum ad lapidem - Dr Johnson refuted Berkeley by kicking a stone and saying \"I refute it thus\".",
     "identification": [
       {
         "key": "family",
@@ -19189,7 +19189,7 @@ export const entries = [
       "It works because most absurd-sounding claims are absurd, so the reflex is usually right. The problem is that it cannot tell the two cases apart, and it never has to show its work."
     ],
     "notes": [],
-    "example": "*“That is the dumbest thing I have heard all week.”* Possible. The sentence has not said which part is wrong.",
+    "example": "*\"That is the dumbest thing I have heard all week.\"* Possible. The sentence has not said which part is wrong.",
     "cite": {
       "label": "Wikipedia · Appeal to the stone",
       "url": "https://en.wikipedia.org/wiki/Appeal_to_the_stone"
@@ -19289,7 +19289,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The standard of normal is the speaker’s own first memory, offered as though it were the original condition."
+        "value": "The standard of normal is the speaker's own first memory, offered as though it were the original condition."
       },
       {
         "key": "counter",
@@ -19298,19 +19298,19 @@ export const entries = [
         "value": "Ask what the number was before anyone now living was measuring it. A baseline is a record, not a memory."
       }
     ],
-    "voice": "The standard of normal is the speaker’s own first memory, offered as though it were the original condition.",
+    "voice": "The standard of normal is the speaker's own first memory, offered as though it were the original condition.",
     "senses": [
-      "Judging the present against the last generation’s memory instead of the record: the lake still has fish, the river still runs clear enough, the airport still works, so nothing has changed.",
+      "Judging the present against the last generation's memory instead of the record: the lake still has fish, the river still runs clear enough, the airport still works, so nothing has changed.",
       "It works because every generation is honest and every generation starts late. Nobody alive has seen the earlier state, so the degraded one is the only one anyone can compare against - and the comparison comes out clean every time."
     ],
     "notes": [],
-    "example": "*“The lake still has fish in it”* - it has a third of the fish it had when the speaker’s father fished it, and the father’s father said the same thing about the same lake.",
+    "example": "*\"The lake still has fish in it\"* - it has a third of the fish it had when the speaker's father fished it, and the father's father said the same thing about the same lake.",
     "cite": {
       "label": "Wikipedia · Shifting baseline",
       "url": "https://en.wikipedia.org/wiki/Shifting_baseline"
     },
-    "summary": "Informal · Statistical fallacy: Judging the present against the last generation’s memory instead of the record: the lake still has fish, the river still runs...",
-    "definition": "Judging the present against the last generation’s memory instead of the record: the lake still has fish, the river still runs clear enough, the airport still works, so nothing has changed.",
+    "summary": "Informal · Statistical fallacy: Judging the present against the last generation's memory instead of the record: the lake still has fish, the river...",
+    "definition": "Judging the present against the last generation's memory instead of the record: the lake still has fish, the river still runs clear enough, the airport still works, so nothing has changed.",
     "confusedWith": [
       {
         "term": "Creeping normality",
@@ -19419,7 +19419,7 @@ export const entries = [
       "abuse": 4,
       "blowback": 1
     },
-    "etymology": "Jared Diamond’s term for change that arrives in increments too small to object to, each one accepted because the last one was.",
+    "etymology": "Jared Diamond's term for change that arrives in increments too small to object to, each one accepted because the last one was.",
     "identification": [
       {
         "key": "family",
@@ -19452,7 +19452,7 @@ export const entries = [
       "It works because objection has a fixed cost and every increment is smaller than that cost. The room is never wrong about any single step; it is only never asked about the direction."
     ],
     "notes": [],
-    "example": "*“Nobody voted to end public comment.”* The period went from thirty days to ten, then to “as practicable”, then to a form that closed on Fridays.",
+    "example": "*\"Nobody voted to end public comment.\"* The period went from thirty days to ten, then to \"as practicable\", then to a form that closed on Fridays.",
     "cite": {
       "label": "Wikipedia · Creeping normality",
       "url": "https://en.wikipedia.org/wiki/Creeping_normality"
@@ -19579,7 +19579,7 @@ export const entries = [
       "It works because the quiet is real and the record is short. A hazard that has not arrived looks exactly like a hazard that is not there, and the difference only shows up once - which is the once the belief was protecting against."
     ],
     "notes": [],
-    "example": "*“We have never had a fire in this building”* - said on the fourth floor of a building with one stairwell, above the floor where the alarm panel had been disabled to stop the nuisance trips.",
+    "example": "*\"We have never had a fire in this building\"* - said on the fourth floor of a building with one stairwell, above the floor where the alarm panel had been disabled to stop the nuisance trips.",
     "cite": {
       "label": "Wikipedia · Normalcy bias",
       "url": "https://en.wikipedia.org/wiki/Normalcy_bias"
@@ -19675,7 +19675,7 @@ export const entries = [
       "abuse": 5,
       "blowback": 2
     },
-    "etymology": "Melvin Lerner’s term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
+    "etymology": "Melvin Lerner's term for the belief that people get what they deserve, which turns an unexplained suffering into an accusation.",
     "identification": [
       {
         "key": "family",
@@ -19693,7 +19693,7 @@ export const entries = [
         "key": "tell",
         "label": "The tell",
         "type": "text",
-        "value": "The victim’s conduct is examined for a cause, and the cause is found before the facts are in."
+        "value": "The victim's conduct is examined for a cause, and the cause is found before the facts are in."
       },
       {
         "key": "counter",
@@ -19702,18 +19702,18 @@ export const entries = [
         "value": "Ask what this person did that the survivors did not. The question is not whether suffering is deserved but whether the explanation arrived before the evidence."
       }
     ],
-    "voice": "The victim’s conduct is examined for a cause, and the cause is found before the facts are in.",
+    "voice": "The victim's conduct is examined for a cause, and the cause is found before the facts are in.",
     "senses": [
       "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner, the country that should have governed itself better.",
       "It works because a deserved outcome is a bearable one. If the world pays out what people earn, then the room is safe and the sufferer is owed nothing - which is why the explanation is produced before the facts arrive, and defended after they do."
     ],
     "notes": [],
-    "example": "*“She should have left.”* The sentence turns a crime into a decision, and the room into a place where it could not have happened to them.",
+    "example": "*\"She should have left.\"* The sentence turns a crime into a decision, and the room into a place where it could not have happened to them.",
     "cite": {
       "label": "Wikipedia · Just-world hypothesis",
       "url": "https://en.wikipedia.org/wiki/Just-world_hypothesis"
     },
-    "summary": "Informal · Improper premise fallacy: Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who...",
+    "summary": "Informal · Improper premise fallacy: Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient...",
     "definition": "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner, the country that should have governed itself better.",
     "confusedWith": [
       {
@@ -19802,7 +19802,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“That’s not in the record.”"
+        "value": "\"That's not in the record.\""
       },
       {
         "key": "tell",
@@ -19821,19 +19821,19 @@ export const entries = [
         "value": "Without the clerk there is no record, and without a record there is no way to prove what the body did - which is the first thing a Sabotriot needs and the last thing they check."
       }
     ],
-    "voice": "“That’s not in the record.”",
+    "voice": "\"That's not in the record.\"",
     "senses": [
-      "The officer who keeps the body’s memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.",
-      "It works because procedure is evidence. A vote nobody recorded is a vote somebody can deny, so the clerk’s real power is not the gavel but the file - and the job stays invisible precisely until it is done badly."
+      "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.",
+      "It works because procedure is evidence. A vote nobody recorded is a vote somebody can deny, so the clerk's real power is not the gavel but the file - and the job stays invisible precisely until it is done badly."
     ],
     "notes": [],
-    "example": "“Two years later the only proof of what the council had voted for was the **clerk**’s minutes, and the member who had denied it was reading them aloud.”",
+    "example": "\"Two years later the only proof of what the council had voted for was the **clerk**'s minutes, and the member who had denied it was reading them aloud.\"",
     "cite": {
       "label": "Wikipedia · City clerk",
       "url": "https://en.wikipedia.org/wiki/City_clerk"
     },
-    "summary": "The officer who keeps the body’s memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this...",
-    "definition": "The officer who keeps the body’s memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.",
+    "summary": "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most...",
+    "definition": "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most places this is an elected or appointed post with a statutory duty to the record.",
     "confusedWith": [
       {
         "term": "The archivist",
@@ -19931,7 +19931,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Name and address, please.”"
+        "value": "\"Name and address, please.\""
       },
       {
         "key": "tell",
@@ -19947,16 +19947,16 @@ export const entries = [
         "key": "keystone",
         "label": "Keystone",
         "type": "text",
-        "value": "Without them the ballot is a rumour and the count is an assertion. The Critizen needs an empty table to make ‘That doesn’t apply to me’ sound like law; the poll worker is the person who fills it."
+        "value": "Without them the ballot is a rumour and the count is an assertion. The Critizen needs an empty table to make 'That doesn't apply to me' sound like law; the poll worker is the person who fills it."
       }
     ],
-    "voice": "“Name and address, please.”",
+    "voice": "\"Name and address, please.\"",
     "senses": [
       "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job is temporary and public, which is the point: the count is run by neighbours who can be watched.",
       "It works because every ballot that crosses the table is accounted for by two people who are allowed to disagree. The whole apparatus exists so that a stranger with a clipboard can prove the number is right, months later, without trusting anybody."
     ],
     "notes": [],
-    "example": "“The scanner jammed at nine, and the **poll worker** did what the training had covered: sealed the bin, called the county, and read the numbers into the log with an observer watching.”",
+    "example": "\"The scanner jammed at nine, and the **poll worker** did what the training had covered: sealed the bin, called the county, and read the numbers into the log with an observer watching.\"",
     "cite": {
       "label": "Wikipedia · Election official",
       "url": "https://en.wikipedia.org/wiki/Election_official"
@@ -20039,7 +20039,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“We have that. It’s in the 1974 series.”"
+        "value": "\"We have that. It's in the 1974 series.\""
       },
       {
         "key": "tell",
@@ -20058,18 +20058,18 @@ export const entries = [
         "value": "Without the archive the past is a rumour with a monument, and every Mythstorian gets to write the decade. Retention schedules are boring until the only copy of the decision is in a shredder."
       }
     ],
-    "voice": "“We have that. It’s in the 1974 series.”",
+    "voice": "\"We have that. It's in the 1974 series.\"",
     "senses": [
       "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are usually the only people in an institution with a professional duty to keep things nobody is asking for.",
-      "It works because provenance is checkable. A document with a series, a date and a custodian can be authenticated by a stranger; a document in somebody’s drawer cannot - and that difference decides whether a claim about the past can be settled at all."
+      "It works because provenance is checkable. A document with a series, a date and a custodian can be authenticated by a stranger; a document in somebody's drawer cannot - and that difference decides whether a claim about the past can be settled at all."
     ],
     "notes": [],
-    "example": "“The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it.”",
+    "example": "\"The department said the policy had never existed, and the **archivist** produced the 1998 memo, the routing slip, and the name of the official who had signed it.\"",
     "cite": {
       "label": "Wikipedia · Archivist of the United States",
       "url": "https://en.wikipedia.org/wiki/Archivist_of_the_United_States"
     },
-    "summary": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are...",
+    "summary": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists...",
     "definition": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists are usually the only people in an institution with a professional duty to keep things nobody is asking for.",
     "confusedWith": [
       {
@@ -20168,7 +20168,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Let’s find out together.”"
+        "value": "\"Let's find out together.\""
       },
       {
         "key": "tell",
@@ -20176,7 +20176,7 @@ export const entries = [
         "type": "list",
         "value": [
           "Answers with a source and a call number",
-          "Says ‘I don’t know’ without flinching",
+          "Says 'I don't know' without flinching",
           "Teaches the search instead of the answer"
         ]
       },
@@ -20184,21 +20184,21 @@ export const entries = [
         "key": "keystone",
         "label": "Keystone",
         "type": "text",
-        "value": "Without the desk, ‘do your own research’ means ‘go alone into the feed’, which is the Illogician’s entire business model. The library is the one place in town where being wrong is free."
+        "value": "Without the desk, 'do your own research' means 'go alone into the feed', which is the Illogician's entire business model. The library is the one place in town where being wrong is free."
       }
     ],
-    "voice": "“Let’s find out together.”",
+    "voice": "\"Let's find out together.\"",
     "senses": [
       "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The job is not to know the answer; it is to know how the answer is checked.",
       "It works because the desk is neutral by design. A librarian has no stake in which source wins, which is why the same question can be asked there without a cost - and why the institution gets defunded by people who would rather the question cost something."
     ],
     "notes": [],
-    "example": "“He had done his own research for a year, and the **librarian** found the study he had been citing, the correction to it, and the retraction, in about eleven minutes.”",
+    "example": "\"He had done his own research for a year, and the **librarian** found the study he had been citing, the correction to it, and the retraction, in about eleven minutes.\"",
     "cite": {
       "label": "Wikipedia · Librarian",
       "url": "https://en.wikipedia.org/wiki/Librarian"
     },
-    "summary": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The job...",
+    "summary": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The...",
     "definition": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone. The job is not to know the answer; it is to know how the answer is checked.",
     "confusedWith": [
       {
@@ -20269,7 +20269,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“You qualify. Here’s the page that says so.”"
+        "value": "\"You qualify. Here's the page that says so.\""
       },
       {
         "key": "tell",
@@ -20288,13 +20288,13 @@ export const entries = [
         "value": "Without the caseworker, policy is a press release. The Plutomartyr needs a benefit that arrives as a favour rather than as an entitlement; the caseworker is the person who hands it over as a right."
       }
     ],
-    "voice": "“You qualify. Here’s the page that says so.”",
+    "voice": "\"You qualify. Here's the page that says so.\"",
     "senses": [
       "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political scientists call this street-level bureaucracy, and it is where most of the state is actually experienced.",
       "It works because discretion is unavoidable and therefore visible. No rule covers every case, so the caseworker decides, and the decision is only legitimate if it comes with reasons - which makes the job both the most humane part of the state and the easiest part to cut."
     ],
     "notes": [],
-    "example": "“The letter said no, the **caseworker** read the appeal, found the clause the automated screen had missed, and the cheque arrived nine days later.”",
+    "example": "\"The letter said no, the **caseworker** read the appeal, found the clause the automated screen had missed, and the cheque arrived nine days later.\"",
     "cite": {
       "label": "Wikipedia · Caseworker",
       "url": "https://en.wikipedia.org/wiki/Social_work"
@@ -20377,7 +20377,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Who else has this?”"
+        "value": "\"Who else has this?\""
       },
       {
         "key": "tell",
@@ -20396,19 +20396,19 @@ export const entries = [
         "value": "Without the desk, volume is the only quality signal left and the Slopagandist wins by publishing first. Editing is the cost that makes publishing expensive enough to mean something."
       }
     ],
-    "voice": "“Who else has this?”",
+    "voice": "\"Who else has this?\"",
     "senses": [
-      "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject’s lawyer, and decides what the story is actually claiming. The job is institutional rather than personal - it exists so the decision is not made by the person who wrote the sentence.",
+      "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides what the story is actually claiming. The job is institutional rather than personal - it exists so the decision is not made by the person who wrote the sentence.",
       "It works because a published correction is expensive. An editor who has had to print one remembers it, and that memory is the only thing standing between a newsroom and a feed - which is why the desk is the first thing cut when the business model moves to volume."
     ],
     "notes": [],
-    "example": "“The **editor** held the story a day, the second call changed the second paragraph, and the version that ran was the one that survived being read to the person it was about.”",
+    "example": "\"The **editor** held the story a day, the second call changed the second paragraph, and the version that ran was the one that survived being read to the person it was about.\"",
     "cite": {
       "label": "Wikipedia · Editing",
       "url": "https://en.wikipedia.org/wiki/Copy_editing"
     },
-    "summary": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject’s lawyer, and decides what...",
-    "definition": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject’s lawyer, and decides what the story is actually claiming. The job is institutional rather than personal - it exists so the decision is not made by the person who wrote the sentence.",
+    "summary": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides...",
+    "definition": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides what the story is actually claiming. The job is institutional rather than personal - it exists so the decision is not made by the person who wrote the sentence.",
     "confusedWith": [
       {
         "term": "The moderator",
@@ -20485,7 +20485,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“That’s not what I asked.”"
+        "value": "\"That's not what I asked.\""
       },
       {
         "key": "tell",
@@ -20504,13 +20504,13 @@ export const entries = [
         "value": "Without the moderator, a debate is two broadcasts sharing a room and the Sophistroll wins by making the format the argument. A question that has to be answered is a question that can be marked unanswered."
       }
     ],
-    "voice": "“That’s not what I asked.”",
+    "voice": "\"That's not what I asked.\"",
     "senses": [
       "The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was asked. Moderation is a procedural job that everybody mistakes for a personality.",
       "It works because a live check is cheap. A moderator can ask for the source while the claim is still in the room, which is the one moment when verification costs the speaker something - and the reason formats without moderators are so popular with people who need a claim to travel."
     ],
     "notes": [],
-    "example": "“The **moderator** asked the same question three times, got three answers about something else, and said so on air - which was the whole of the remedy.”",
+    "example": "\"The **moderator** asked the same question three times, got three answers about something else, and said so on air - which was the whole of the remedy.\"",
     "cite": {
       "label": "Wikipedia · Moderator (debate)",
       "url": "https://en.wikipedia.org/wiki/Debate_moderator"
@@ -20607,7 +20607,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Show me the transaction.”"
+        "value": "\"Show me the transaction.\""
       },
       {
         "key": "tell",
@@ -20626,18 +20626,18 @@ export const entries = [
         "value": "Without the auditor the books are a story an office tells about itself, and the Cronycle is just a friend with a contract. Audit is the difference between a claim and a record."
       }
     ],
-    "voice": "“Show me the transaction.”",
+    "voice": "\"Show me the transaction.\"",
     "senses": [
       "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate with the audited. The output is not an opinion; it is a finding with a name and a date attached.",
       "It works because the sample is public and repeatable. An audit that says how it chose what to look at can be checked by anyone, which is what separates it from a review - and why the first move against an auditor is always to shrink the scope."
     ],
     "notes": [],
-    "example": "“The **auditor** pulled forty contracts, found the same vendor in eleven of them, and published the sampling method so that the finding could be argued with.”",
+    "example": "\"The **auditor** pulled forty contracts, found the same vendor in eleven of them, and published the sampling method so that the finding could be argued with.\"",
     "cite": {
       "label": "Wikipedia · Government Accountability Office",
       "url": "https://en.wikipedia.org/wiki/Government_Accountability_Office"
     },
-    "summary": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate...",
+    "summary": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not...",
     "definition": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not negotiate with the audited. The output is not an opinion; it is a finding with a name and a date attached.",
     "confusedWith": [
       {
@@ -20742,10 +20742,10 @@ export const entries = [
     "voice": "Turns a question into a deadline: the agency has to answer in writing, or say in writing why it will not.",
     "senses": [
       "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need a lawyer or a reason - you need the right office and the right words.",
-      "It works because writing is expensive. A request forces the agency to produce the record or name the exemption, and either answer is itself a document - so the remedy’s real product is often not the file but the refusal, which can be appealed, published, and read aloud."
+      "It works because writing is expensive. A request forces the agency to produce the record or name the exemption, and either answer is itself a document - so the remedy's real product is often not the file but the refusal, which can be appealed, published, and read aloud."
     ],
     "notes": [],
-    "example": "“The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website.”",
+    "example": "\"The **records request** came back in eleven weeks with forty pages, nine redactions, and an exemption cited for a document the agency had already put on its own website.\"",
     "cite": {
       "label": "Wikipedia · Freedom of Information Act (United States)",
       "url": "https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)"
@@ -20882,12 +20882,12 @@ export const entries = [
       "It works because a text can be searched and a performance cannot. The clip is chosen by whoever edits it; the transcript is chosen by whoever reads it - and that difference is the whole of the remedy."
     ],
     "notes": [],
-    "example": "“The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional.”",
+    "example": "\"The clip was everywhere by noon, and the **transcript** showed that the sentence had begun eleven seconds earlier, in a conditional.\"",
     "cite": {
       "label": "Wikipedia · Court reporter",
       "url": "https://en.wikipedia.org/wiki/Court_reporter"
     },
-    "summary": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about what...",
+    "summary": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about...",
     "definition": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about what somebody said on Tuesday.",
     "confusedWith": [
       {
@@ -21021,7 +21021,7 @@ export const entries = [
         "key": "failure",
         "label": "Failure mode",
         "type": "text",
-        "value": "The search that returns the claim’s own ecosystem, and the fact-check that cites the thing it is checking."
+        "value": "The search that returns the claim's own ecosystem, and the fact-check that cites the thing it is checking."
       },
       {
         "key": "tell",
@@ -21040,7 +21040,7 @@ export const entries = [
       "It works because the web is cheap to search and expensive to fake at scale. A claim can be dressed up on one page; it is much harder to be independently confirmed by people with nothing to gain - so the check is not the page, it is the company the page keeps."
     ],
     "notes": [],
-    "example": "“The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead.”",
+    "example": "\"The site looked like a newspaper, so she did the **lateral reading**: nine seconds to the about page, nine more to the domain registration, and the story was a press release with a masthead.\"",
     "cite": {
       "label": "Wikipedia · Media literacy",
       "url": "https://en.wikipedia.org/wiki/Media_literacy"
@@ -21131,13 +21131,13 @@ export const entries = [
         "key": "costs",
         "label": "Costs",
         "type": "text",
-        "value": "A day of the story’s life, and the possibility that the second call kills it."
+        "value": "A day of the story's life, and the possibility that the second call kills it."
       },
       {
         "key": "failure",
         "label": "Failure mode",
         "type": "text",
-        "value": "The second source that is the first source’s spokesperson, and the wire copy everyone treats as confirmation."
+        "value": "The second source that is the first source's spokesperson, and the wire copy everyone treats as confirmation."
       },
       {
         "key": "tell",
@@ -21156,7 +21156,7 @@ export const entries = [
       "It works because independence is checkable. Two sources who share a motive are one source with two mouths, so the discipline is not counting - it is asking how each of them knows, and whether their knowing depends on the same thing."
     ],
     "notes": [],
-    "example": "“The **second source** was the clerk’s copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph.”",
+    "example": "\"The **second source** was the clerk's copy of the filing, which did not depend on the first source at all, and the story ran with the page number in the second paragraph.\"",
     "cite": {
       "label": "Wikipedia · Source criticism",
       "url": "https://en.wikipedia.org/wiki/Source_criticism"
@@ -21253,7 +21253,7 @@ export const entries = [
         "key": "effect",
         "label": "Effect",
         "type": "text",
-        "value": "States the other side’s argument in its strongest form, then answers that version instead of the worst one."
+        "value": "States the other side's argument in its strongest form, then answers that version instead of the worst one."
       },
       {
         "key": "costs",
@@ -21272,25 +21272,25 @@ export const entries = [
         "label": "Tell",
         "type": "list",
         "value": [
-          "The other side says ‘yes, that’s it’",
+          "The other side says 'yes, that's it'",
           "The strongest source, not the loudest",
           "A reply that addresses the claim"
         ]
       }
     ],
-    "voice": "States the other side’s argument in its strongest form, then answers that version instead of the worst one.",
+    "voice": "States the other side's argument in its strongest form, then answers that version instead of the worst one.",
     "senses": [
-      "The discipline of reconstructing an opponent’s position at its best before answering it: the principle of charity, run as a procedure rather than a mood.",
+      "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather than a mood.",
       "It works because a weak target is a way of not answering. If you can only refute the worst version of an argument you have not refuted the argument - and saying the strong version out loud is what makes the difference visible to everyone in the room."
     ],
     "notes": [],
-    "example": "“She wrote the **steelman** first, sent it to the person she disagreed with, got a ‘yes, that’s it’, and only then wrote the reply.”",
+    "example": "\"She wrote the **steelman** first, sent it to the person she disagreed with, got a 'yes, that's it', and only then wrote the reply.\"",
     "cite": {
       "label": "Wikipedia · Steelmanning",
       "url": "https://en.wikipedia.org/wiki/Steelmanning"
     },
-    "summary": "The discipline of reconstructing an opponent’s position at its best before answering it: the principle of charity, run as a procedure rather than a...",
-    "definition": "The discipline of reconstructing an opponent’s position at its best before answering it: the principle of charity, run as a procedure rather than a mood.",
+    "summary": "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather...",
+    "definition": "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather than a mood.",
     "confusedWith": [
       {
         "term": "Bothsidesing",
@@ -21405,12 +21405,12 @@ export const entries = [
       "It works because the alternative is a claim. A count nobody watched is an assertion about arithmetic, and an assertion can be doubted forever; a count that was watched can only be doubted by producing a different number from a different room."
     ],
     "notes": [],
-    "example": "“The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted.”",
+    "example": "\"The **public count** ran until two in the morning with both parties at the table, and the number that came out was the number both parties had watched being counted.\"",
     "cite": {
       "label": "Wikipedia · Risk-limiting audit",
       "url": "https://en.wikipedia.org/wiki/Risk-limiting_audit"
     },
-    "summary": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted, and...",
+    "summary": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted...",
     "definition": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted, and a number published that matches the room.",
     "confusedWith": [
       {
@@ -21533,7 +21533,7 @@ export const entries = [
       "It works because a reason can be tested. A decision without reasons can only be disliked; a decision with reasons can be checked against the rule it claims to apply - which is why the template exists, and why reading the reasons is the first move of any appeal."
     ],
     "notes": [],
-    "example": "“The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it.”",
+    "example": "\"The refusal cited policy, the **written reason** was one sentence long, and the appeal quoted it back with the statute printed beside it.\"",
     "cite": {
       "label": "Wikipedia · Ratio decidendi",
       "url": "https://en.wikipedia.org/wiki/Ratio_decidendi"
@@ -21670,7 +21670,7 @@ export const entries = [
       "It works because the method is the argument. An audit that says how it chose what to look at can be replicated or attacked on its merits; a review that says we found no wrongdoing cannot be checked at all - and the difference is the sampling."
     ],
     "notes": [],
-    "example": "“The **audit** sampled forty contracts, published the sampling method, and the finding survived three attempts to discredit it because the method was in the appendix.”",
+    "example": "\"The **audit** sampled forty contracts, published the sampling method, and the finding survived three attempts to discredit it because the method was in the appendix.\"",
     "cite": {
       "label": "Wikipedia · Audit",
       "url": "https://en.wikipedia.org/wiki/Audit"
@@ -21798,12 +21798,12 @@ export const entries = [
       "It works because randomness removes the negotiation. Any assignment system that can be gamed will be gamed, so the fix is not a better rule about who chooses - it is the removal of the choice, which is also why the carve-outs matter more than the rule."
     ],
     "notes": [],
-    "example": "“The division was redrawn to assign cases by **random draw**, and the filing that had gone to one courthouse for six years started going to nine.”",
+    "example": "\"The division was redrawn to assign cases by **random draw**, and the filing that had gone to one courthouse for six years started going to nine.\"",
     "cite": {
       "label": "Wikipedia · Sortition",
       "url": "https://en.wikipedia.org/wiki/Sortition"
     },
-    "summary": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works by...",
+    "summary": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works...",
     "definition": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works by making the choice uninteresting.",
     "confusedWith": [
       {
@@ -21894,15 +21894,15 @@ export const entries = [
     "voice": "Moves the bill for a bad suit onto the party who filed it.",
     "senses": [
       "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit was brought to silence them.",
-      "It works because it changes the arithmetic before the harm is done. The SLAPP’s business model is that defending is expensive, so the remedy is not a bigger verdict at the end - it is a smaller bill at the start."
+      "It works because it changes the arithmetic before the harm is done. The SLAPP's business model is that defending is expensive, so the remedy is not a bigger verdict at the end - it is a smaller bill at the start."
     ],
     "notes": [],
-    "example": "“The **fee shift** turned a two-year defence into a nine-week motion, and the second letter from the same lawyer never arrived.”",
+    "example": "\"The **fee shift** turned a two-year defence into a nine-week motion, and the second letter from the same lawyer never arrived.\"",
     "cite": {
       "label": "Wikipedia · Fee shifting",
       "url": "https://en.wikipedia.org/wiki/Fee_shifting"
     },
-    "summary": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit...",
+    "summary": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the...",
     "definition": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if the suit was brought to silence them.",
     "confusedWith": [
       {
@@ -21996,7 +21996,7 @@ export const entries = [
       "It works because a deadline creates a moment. A standing power is invisible; a power that expires generates a hearing, a report, and a vote - and even a routine renewal leaves a record of who voted for it, which is the thing a standing power never has to produce."
     ],
     "notes": [],
-    "example": "“The authority had been renewed eleven times, but the **sunset clause** meant every renewal had a hearing, and the eleventh was the one where somebody read the reports aloud.”",
+    "example": "\"The authority had been renewed eleven times, but the **sunset clause** meant every renewal had a hearing, and the eleventh was the one where somebody read the reports aloud.\"",
     "cite": {
       "label": "Wikipedia · Sunset provision",
       "url": "https://en.wikipedia.org/wiki/Sunset_provision"
@@ -22089,7 +22089,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Tell me what happened, in order.”"
+        "value": "\"Tell me what happened, in order.\""
       },
       {
         "key": "tell",
@@ -22108,18 +22108,18 @@ export const entries = [
         "value": "Without the office, a complaint has nowhere to go but the feed, where it becomes a story instead of a case. The comment section is what an institution gets when it refuses to build one of these."
       }
     ],
-    "voice": "“Tell me what happened, in order.”",
+    "voice": "\"Tell me what happened, in order.\"",
     "senses": [
       "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what went wrong. The office is old, cheap and structurally boring, which is most of why it works.",
       "It works because it gives a grievance a destination short of a lawsuit. Most people who have been treated badly do not want damages; they want somebody with authority to read the file and admit what it says - and an institution that offers nothing else will be discussed in public instead."
     ],
     "notes": [],
-    "example": "“The **ombudsman** read the refusal letter, found the assessment it had relied on, and published the four sentences the department had left out of its own summary.”",
+    "example": "\"The **ombudsman** read the refusal letter, found the assessment it had relied on, and published the four sentences the department had left out of its own summary.\"",
     "cite": {
       "label": "Wikipedia · Ombudsman",
       "url": "https://en.wikipedia.org/wiki/Ombudsman"
     },
-    "summary": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what...",
+    "summary": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly...",
     "definition": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly what went wrong. The office is old, cheap and structurally boring, which is most of why it works.",
     "confusedWith": [
       {
@@ -22190,7 +22190,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Don’t talk to anyone until I get there.”"
+        "value": "\"Don't talk to anyone until I get there.\""
       },
       {
         "key": "tell",
@@ -22199,7 +22199,7 @@ export const entries = [
         "value": [
           "Knows the docket better than the prosecutor does",
           "Asks for the bail hearing nobody scheduled",
-          "Says ‘we will take it to trial’ and means it"
+          "Says 'we will take it to trial' and means it"
         ]
       },
       {
@@ -22209,13 +22209,13 @@ export const entries = [
         "value": "Without counsel the right to a defence is a form, and every claim about the system being fair is unfalsifiable. The Dramagogue needs an undefended defendant to make a case sound like a verdict."
       }
     ],
-    "voice": "“Don’t talk to anyone until I get there.”",
+    "voice": "\"Don't talk to anyone until I get there.\"",
     "senses": [
       "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole story - a defender carrying two hundred files cannot investigate any of them.",
       "It works because the state has to prove its case to somebody whose job is to make it try. A defence that is funded, resourced and allowed to investigate is the difference between a plea bargain and a verdict."
     ],
     "notes": [],
-    "example": "“The **public defender** had the file for eleven minutes, asked for the body-camera footage, and the charge was withdrawn before the second hearing.”",
+    "example": "\"The **public defender** had the file for eleven minutes, asked for the body-camera footage, and the charge was withdrawn before the second hearing.\"",
     "cite": {
       "label": "Wikipedia · Public defender",
       "url": "https://en.wikipedia.org/wiki/Public_defender"
@@ -22226,7 +22226,7 @@ export const entries = [
       {
         "term": "The juror",
         "slug": "the-juror",
-        "tell": "The defender argues the case; the juror decides it, and neither can do the other’s job.",
+        "tell": "The defender argues the case; the juror decides it, and neither can do the other's job.",
         "path": "/keystones/the-juror/"
       }
     ],
@@ -22298,7 +22298,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Say that again, without the acronym.”"
+        "value": "\"Say that again, without the acronym.\""
       },
       {
         "key": "tell",
@@ -22317,18 +22317,18 @@ export const entries = [
         "value": "Without plain language, a right that exists on paper is a right only the literate can use, which is the quietest way to keep a franchise small. Jargon is not an accident of drafting; it is a filter."
       }
     ],
-    "voice": "“Say that again, without the acronym.”",
+    "voice": "\"Say that again, without the acronym.\"",
     "senses": [
       "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice that says what happens next instead of citing the section that says it.",
       "It works because comprehension is a distribution problem. A rule that only a lawyer can parse has not been published, it has been filed - and the test of a notice is not whether it is accurate but whether the person holding it knows what to do on Monday."
     ],
     "notes": [],
-    "example": "“The form had been rewritten by the **translator**, and the number of people who missed the deadline because they could not tell it was a deadline fell by half.”",
+    "example": "\"The form had been rewritten by the **translator**, and the number of people who missed the deadline because they could not tell it was a deadline fell by half.\"",
     "cite": {
       "label": "Wikipedia · Translation",
       "url": "https://en.wikipedia.org/wiki/Translation"
     },
-    "summary": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice that...",
+    "summary": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice...",
     "definition": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice that says what happens next instead of citing the section that says it.",
     "confusedWith": [
       {
@@ -22406,7 +22406,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Show us the document.”"
+        "value": "\"Show us the document.\""
       },
       {
         "key": "tell",
@@ -22422,16 +22422,16 @@ export const entries = [
         "key": "keystone",
         "label": "Keystone",
         "type": "text",
-        "value": "Without the jury the trial is a negotiation between professionals and the Gallopologist’s clock decides. Deliberation is the one format where the volume of claims buys nothing, because everybody in the room has the same amount of time."
+        "value": "Without the jury the trial is a negotiation between professionals and the Gallopologist's clock decides. Deliberation is the one format where the volume of claims buys nothing, because everybody in the room has the same amount of time."
       }
     ],
-    "voice": "“Show us the document.”",
+    "voice": "\"Show us the document.\"",
     "senses": [
       "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened. It is the only public duty that requires a person to weigh evidence rather than repeat a conclusion.",
       "It works because a verdict has to be unanimous and is explained to nobody. The requirement forces the argument to continue past the point where a broadcast would have moved on - and the instruction, read aloud, is the closest thing the system has to a published standard of proof."
     ],
     "notes": [],
-    "example": "“The **juror** asked for the transcript of the first interview, and the answer that had been quoted all week turned out to be a sentence about somebody else.”",
+    "example": "\"The **juror** asked for the transcript of the first interview, and the answer that had been quoted all week turned out to be a sentence about somebody else.\"",
     "cite": {
       "label": "Wikipedia · Jury",
       "url": "https://en.wikipedia.org/wiki/Jury"
@@ -22519,7 +22519,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Out of how many?”"
+        "value": "\"Out of how many?\""
       },
       {
         "key": "tell",
@@ -22538,13 +22538,13 @@ export const entries = [
         "value": "Without the office there is no denominator, and a panic about a number nobody can size is unanswerable by argument. The Xenophobricator is not defeated by a feeling; it is defeated by a rate per hundred thousand."
       }
     ],
-    "voice": "“Out of how many?”",
+    "voice": "\"Out of how many?\"",
     "senses": [
       "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion about the number; it is to publish how the number was made so that anyone can argue with the method.",
       "It works because a rate is checkable and an anecdote is not. The moment a claim acquires a denominator it can be tested, replicated or refuted - which is why the first move against an unwelcome figure is always to attack the sample rather than the arithmetic."
     ],
     "notes": [],
-    "example": "“The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade.”",
+    "example": "\"The **statistician** put the local figure next to the national rate, and the emergency that had dominated three council meetings turned out to be a rounding error in a series that had been falling for a decade.\"",
     "cite": {
       "label": "Wikipedia · Statistician",
       "url": "https://en.wikipedia.org/wiki/Statistician"
@@ -22666,7 +22666,7 @@ export const entries = [
       "It works because influence is cheapest when it is invisible. A gift, a friendship or a former employer does not have to change a decision in order to change how the decision looks; recusal removes the question instead of answering it, which is the point."
     ],
     "notes": [],
-    "example": "“The **recusal** was filed on a Friday, the substitute read the record cold, and the contract drafted for one signature went out to tender.”",
+    "example": "\"The **recusal** was filed on a Friday, the substitute read the record cold, and the contract drafted for one signature went out to tender.\"",
     "cite": {
       "label": "Wikipedia · Recusal",
       "url": "https://en.wikipedia.org/wiki/Recusal"
@@ -22760,7 +22760,7 @@ export const entries = [
       "It works because it is the one procedure that makes a claim cost something at the moment it is made. A statement in a hearing can be a performance; the same statement under cross-examination has to survive being interrupted, dated, and read back."
     ],
     "notes": [],
-    "example": "“Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version.”",
+    "example": "\"Under **cross-examination** the witness was shown the letter he had said did not exist, and the account that had held for two years acquired a date, a recipient, and a second version.\"",
     "cite": {
       "label": "Wikipedia · Cross-examination",
       "url": "https://en.wikipedia.org/wiki/Cross-examination"
@@ -22771,7 +22771,7 @@ export const entries = [
       {
         "term": "The steelman",
         "slug": "the-steelman",
-        "tell": "The steelman strengthens the other side’s argument; cross-examination finds out whether it holds.",
+        "tell": "The steelman strengthens the other side's argument; cross-examination finds out whether it holds.",
         "path": "/remedies/the-steelman/"
       }
     ],
@@ -22876,7 +22876,7 @@ export const entries = [
       "It works because it changes who bears the risk of the delay. Without a stay the challenger loses by default - the thing is done before the argument is heard - so the remedy is not the ruling, it is the preservation of the possibility of one."
     ],
     "notes": [],
-    "example": "“The **stay** came through at four in the afternoon, the demolition crew stood down, and the hearing that followed was about the building instead of about the rubble.”",
+    "example": "\"The **stay** came through at four in the afternoon, the demolition crew stood down, and the hearing that followed was about the building instead of about the rubble.\"",
     "cite": {
       "label": "Wikipedia · Stay of proceedings",
       "url": "https://en.wikipedia.org/wiki/Stay_of_proceedings"
@@ -22945,7 +22945,7 @@ export const entries = [
         "key": "call",
         "label": "Call",
         "type": "text",
-        "value": "“Show us the map, and the criteria you drew it with.”"
+        "value": "\"Show us the map, and the criteria you drew it with.\""
       },
       {
         "key": "tell",
@@ -22964,18 +22964,18 @@ export const entries = [
         "value": "Without the commission the map is drawn by the people it measures, and Gerrythm is not a flaw in the drawing - it is the drawing. Independence here is not a better class of person; it is a different address for the pencil."
       }
     ],
-    "voice": "“Show us the map, and the criteria you drew it with.”",
+    "voice": "\"Show us the map, and the criteria you drew it with.\"",
     "senses": [
       "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a final map that has to be defended against the criteria rather than against the seat count.",
-      "It works because it separates the pencil from the beneficiary. A legislature drawing its own districts is answering a question about its own employment, and no amount of good faith changes what the question is - the commission’s advantage is distance, not virtue."
+      "It works because it separates the pencil from the beneficiary. A legislature drawing its own districts is answering a question about its own employment, and no amount of good faith changes what the question is - the commission's advantage is distance, not virtue."
     ],
     "notes": [],
-    "example": "“The **redistricting commission** published three drafts, took comment in the one town the first draft split in half, and the final map moved four precincts - which was enough.”",
+    "example": "\"The **redistricting commission** published three drafts, took comment in the one town the first draft split in half, and the final map moved four precincts - which was enough.\"",
     "cite": {
       "label": "Wikipedia · Redistricting commission",
       "url": "https://en.wikipedia.org/wiki/Redistricting_commission"
     },
-    "summary": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a final...",
+    "summary": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a...",
     "definition": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment, and a final map that has to be defended against the criteria rather than against the seat count.",
     "confusedWith": [
       {
@@ -23067,17 +23067,17 @@ export const entries = [
     ],
     "voice": "Voids the silence clause for a defined category of claim, and makes the agreement unenforceable in that respect.",
     "senses": [
-      "A statutory exception that removes a contract term’s power over one kind of dispute: the silence clause that cannot be enforced in a harassment claim, the release that cannot waive a wage claim, the arbitration agreement that does not reach a civil-rights suit.",
+      "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced in a harassment claim, the release that cannot waive a wage claim, the arbitration agreement that does not reach a civil-rights suit.",
       "It works because it changes the default without banning the contract. Nobody has to prove the NDA was coerced; the clause simply has no effect where the statute says so - which is why the drafting fight moves to the definition of the category, where it is quiet and decisive."
     ],
     "notes": [],
-    "example": "“The **carve-out** passed with a definition of harassment that excluded contractors, and the clause held for everyone the statute had not named.”",
+    "example": "\"The **carve-out** passed with a definition of harassment that excluded contractors, and the clause held for everyone the statute had not named.\"",
     "cite": {
       "label": "Wikipedia · Grandfather clause",
       "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
     },
-    "summary": "A statutory exception that removes a contract term’s power over one kind of dispute: the silence clause that cannot be enforced in a harassment...",
-    "definition": "A statutory exception that removes a contract term’s power over one kind of dispute: the silence clause that cannot be enforced in a harassment claim, the release that cannot waive a wage claim, the arbitration agreement that does not reach a civil-rights suit.",
+    "summary": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced in a...",
+    "definition": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced in a harassment claim, the release that cannot waive a wage claim, the arbitration agreement that does not reach a civil-rights suit.",
     "confusedWith": [
       {
         "term": "NDA",
@@ -23161,17 +23161,17 @@ export const entries = [
     ],
     "voice": "Publishes a proposed rule, opens a docket, and requires the agency to answer the comments it received before the rule can take effect.",
     "senses": [
-      "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state’s version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
+      "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state's version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
       "It works because it creates a record before the decision instead of after it. A comment that names a flaw in the text has to be answered on the record, and an answer on the record is the thing a court can review - which is why the procedure is worth more than the consultation it resembles."
     ],
     "notes": [],
-    "example": "“The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned.”",
+    "example": "\"The **notice and comment** docket drew nine thousand comments, four of them from people who had read the appendix, and the final rule moved the threshold they had questioned.\"",
     "cite": {
       "label": "Wikipedia · Rulemaking",
       "url": "https://en.wikipedia.org/wiki/Rulemaking"
     },
     "summary": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative...",
-    "definition": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state’s version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
+    "definition": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative state's version of a hearing, and it governs thousands of decisions a year that no camera ever covers.",
     "confusedWith": [
       {
         "term": "School board meeting",
@@ -23302,7 +23302,7 @@ export const entries = [
       "It works because the benefit of an agreement is paid over decades and the cost of leaving is paid once, in a news cycle. Moving the cost into the text - a notice period the market can read, obligations that outlive the signature - makes the arbitrage visible while it is being proposed instead of after it is done."
     ],
     "notes": [],
-    "example": "“The **withdrawal clause** bought the other parties a year of notice and a list of agreements that would outlive the government that left; the announcement ran three minutes and the bill ran four years.”",
+    "example": "\"The **withdrawal clause** bought the other parties a year of notice and a list of agreements that would outlive the government that left; the announcement ran three minutes and the bill ran four years.\"",
     "cite": {
       "label": "Wikipedia · Article 50 of the Treaty on European Union",
       "url": "https://en.wikipedia.org/wiki/Article_50_of_the_Treaty_on_European_Union"
@@ -23359,13 +23359,13 @@ export const entries = [
       "abuse": 3,
       "blowback": 2
     },
-    "etymology": "English: the sentence at the end of an advertisement that names who paid for it - in the United States, “I’m a candidate and I approve this message.”",
+    "etymology": "English: the sentence at the end of an advertisement that names who paid for it - in the United States, \"I'm a candidate and I approve this message.\"",
     "identification": [
       {
         "key": "effect",
         "label": "Effect",
         "type": "text",
-        "value": "Puts the funder’s name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote."
+        "value": "Puts the funder's name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote."
       },
       {
         "key": "costs",
@@ -23390,24 +23390,24 @@ export const entries = [
         ]
       }
     ],
-    "voice": "Puts the funder’s name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote.",
+    "voice": "Puts the funder's name inside the advertisement, in the same medium and before the vote, at the size of the claim rather than the size of the footnote.",
     "senses": [
       "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
-      "It works because anonymity is the doctrine’s operating condition - an argument made by a body nobody can summon is an argument nobody can answer. The sponsor line does not cap the spending; it makes the spender answerable to the audience the spending was aimed at."
+      "It works because anonymity is the doctrine's operating condition - an argument made by a body nobody can summon is an argument nobody can answer. The sponsor line does not cap the spending; it makes the spender answerable to the audience the spending was aimed at."
     ],
     "notes": [],
-    "example": "“**The sponsor line** ran for four seconds under a ninety-second advertisement, and the four seconds were the only part of it anybody could check.”",
+    "example": "\"**The sponsor line** ran for four seconds under a ninety-second advertisement, and the four seconds were the only part of it anybody could check.\"",
     "cite": {
       "label": "Wikipedia · Stand by Your Ad provision",
       "url": "https://en.wikipedia.org/wiki/Stand_by_Your_Ad_provision"
     },
-    "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same...",
+    "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the...",
     "definition": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment and in the same medium as the claim.",
     "confusedWith": [
       {
         "term": "Records request",
         "slug": "records-request",
-        "tell": "The records request produces the document after the decision; the sponsor line puts the payer’s name in front of the audience before the vote.",
+        "tell": "The records request produces the document after the decision; the sponsor line puts the payer's name in front of the audience before the vote.",
         "path": "/remedies/records-request/"
       }
     ],
@@ -23483,7 +23483,7 @@ export const entries = [
         "key": "failure",
         "label": "Failure mode",
         "type": "text",
-        "value": "The release that arrives after the price has already moved, and the reserve that becomes the market’s new floor."
+        "value": "The release that arrives after the price has already moved, and the reserve that becomes the market's new floor."
       },
       {
         "key": "tell",
@@ -23502,7 +23502,7 @@ export const entries = [
       "It works because leverage needs scarcity to stay credible. A published reserve turns a threat into a calculation - the squeeze has to outlast the stockpile, and a stockpile is measured in months while an election is measured in weeks."
     ],
     "notes": [],
-    "example": "“**The reserve** released nine million barrels over six weeks, and the foreign minister’s visit was rescheduled for the following quarter.”",
+    "example": "\"**The reserve** released nine million barrels over six weeks, and the foreign minister's visit was rescheduled for the following quarter.\"",
     "cite": {
       "label": "Wikipedia · Strategic Petroleum Reserve (United States)",
       "url": "https://en.wikipedia.org/wiki/Strategic_Petroleum_Reserve_(United_States)"
