@@ -4,7 +4,7 @@
   "chapter": "fearmongering-grift",
   "position": 108,
   "part_of_speech": "noun",
-  "etymology": "Latin: “to the point of sickness” - the argument that wins by making the audience tired.",
+  "etymology": "Latin: \"to the point of sickness\" - the argument that wins by making the audience tired.",
   "family": "Informal · Relevance",
   "committed_when": "A claim has been answered once and the answer was not accepted.",
   "tell": "The same sentence returns unchanged, and the replies get shorter.",
@@ -13,7 +13,7 @@
     "Repeating a claim until objection feels pointless, and treating the exhaustion as agreement.",
     "It works on volume rather than content. Nobody can answer the same sentence forty times, so the fortieth repetition lands unanswered and looks unanswerable."
   ],
-  "example": "*“It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.”* Three sentences, one claim, no count.",
+  "example": "*\"It was the biggest crowd ever. Biggest crowd. Everyone agrees it was the biggest crowd.\"* Three sentences, one claim, no count.",
   "confused_with": [
     {
       "term": "Proof by assertion",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "Proof by assertion",
-    "Gish gallop"
+    "Gish gallop",
+    "Thought-terminating cliché"
   ],
   "cite": {
     "label": "Wikipedia · Ad nauseam",

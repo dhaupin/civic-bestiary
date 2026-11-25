@@ -7,13 +7,13 @@
   "etymology": "English, from the informal-logic literature: the mistake of thinking that a bad argument makes a false conclusion.",
   "family": "Informal · Presumption",
   "committed_when": "An argument has been shown to contain a named fallacy, and the conclusion is being discarded on that basis.",
-  "tell": "The fallacy is named with confidence and the conclusion is never examined. “That's a slippery slope” ends the discussion about the slope.",
+  "tell": "The fallacy is named with confidence and the conclusion is never examined. \"That's a slippery slope\" ends the discussion about the slope.",
   "counter": "Separate the argument from the claim, then test the claim on its own. A conclusion can be true and badly defended, and a named fallacy is not a refutation.",
   "senses": [
     "Concluding that a claim is false because the argument offered for it is invalid.",
     "It works because naming a fallacy is cheap and sounds decisive. The name does the work of an argument while leaving the actual question exactly where it was - which is why it is popular with people who want to win without reading."
   ],
-  "example": "*“That's an appeal to authority, so the study doesn't count.”* The study is still a study.",
+  "example": "*\"That's an appeal to authority, so the study doesn't count.\"* The study is still a study.",
   "confused_with": [
     {
       "term": "Straw man",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Straw man",
     "Ad hominem",
     "Thought-terminating cliché"
   ],

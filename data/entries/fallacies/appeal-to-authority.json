@@ -13,7 +13,7 @@
     "Treating a claim as settled because someone respected said it, in place of the evidence that made them worth respecting.",
     "It works because expertise is a genuine shortcut: nobody can verify everything, so we trust the people who did. The fallacy is trusting the title outside the field, or after the field has moved."
   ],
-  "example": "*“A Nobel laureate says the water is safe.”* He holds the prize in economics. The water has never met him.",
+  "example": "*\"A Nobel laureate says the water is safe.\"* He holds the prize in economics. The water has never met him.",
   "confused_with": [
     {
       "term": "Circular reasoning",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Circular reasoning",
     "Argument from ignorance",
     "Argumentum ad populum"
   ],

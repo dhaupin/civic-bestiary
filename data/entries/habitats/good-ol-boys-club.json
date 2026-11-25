@@ -12,8 +12,7 @@
   "counter": "Post the job, publish the shortlist, and count the room. A club survives on the assumption that nobody is counting.",
   "senses": [
     "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes to the brother-in-law, the seat that is warm before the vacancy is announced.",
-    "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document.",
-    "It scales without changing shape. The same room picks the shift supervisor and the attorney general; the lodge hall and the cabinet differ only in the size of the parking lot, and in both the membership assumes nobody is counting."
+    "It works because it does not need to conspire. Nobody has to be excluded by name if the room is chosen by acquaintance - the filter is the guest list, and the guest list is never a document. It scales without changing shape: the same room picks the shift supervisor and the attorney general, and the lodge hall and the cabinet differ only in the size of the parking lot."
   ],
   "notes": [],
   "example": "*\"He's one of us\" - the whole interview, in four words, before the résumé was opened: the **good ol' boys club** doing its hiring in the open.*",
@@ -24,8 +23,8 @@
     }
   ],
   "related": [
-    "Cronycle",
-    "Secret meeting"
+    "Secret meeting",
+    "Rubber chicken circuit"
   ],
   "edges": [
     {

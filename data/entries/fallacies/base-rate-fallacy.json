@@ -13,7 +13,7 @@
     "Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with.",
     "It works because the vivid case is the one that reaches you. Selection decides what you see, so the sample in your head is not the sample in the world - and the denominator is the part of the story that never travels."
   ],
-  "example": "*“Three of them in one month.”* Three out of how many, in a city of how many, against a five-year average of what?",
+  "example": "*\"Three of them in one month.\"* Three out of how many, in a city of how many, against a five-year average of what?",
   "confused_with": [
     {
       "term": "Anecdotal evidence",
@@ -21,7 +21,6 @@
     }
   ],
   "related": [
-    "Anecdotal evidence",
     "Survivorship bias",
     "Hasty generalization"
   ],

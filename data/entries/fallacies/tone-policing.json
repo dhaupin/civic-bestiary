@@ -5,7 +5,7 @@
   "position": 108,
   "part_of_speech": "noun",
   "etymology": "From policing: the offence is not what was said but the manner of saying it.",
-  "family": "Informal · Red herring (ad hominem family)",
+  "family": "Informal · Red herring",
   "committed_when": "A claim has landed and its content is inconvenient.",
   "tell": "The reply is about volume, spelling, or mood rather than the sentence that was said.",
   "counter": "Separate the manner from the claim and answer the claim. If the manner really was the problem, it can be raised after.",
@@ -13,7 +13,7 @@
     "Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon.",
     "It works because tone is a real problem sometimes and a distraction every time. The complaint is unfalsifiable, so answering it costs a turn and concedes the frame."
   ],
-  "example": "*“I agree with the concern, but the way you said it lost the room.”* The room was lost by the sentence, not the volume, and the sentence is still standing.",
+  "example": "*\"I agree with the concern, but the way you said it lost the room.\"* The room was lost by the sentence, not the volume, and the sentence is still standing.",
   "confused_with": [
     {
       "term": "Ad hominem",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "Ad hominem",
-    "Straw man"
+    "Straw man",
+    "Whataboutism"
   ],
   "cite": {
     "label": "Wikipedia · Tone policing",

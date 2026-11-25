@@ -4,7 +4,7 @@
   "chapter": "normalization",
   "position": 106,
   "part_of_speech": "noun",
-  "etymology": "Latin: “you too” - the second-person form of the two-wrongs move, and the most common sentence on the internet.",
+  "etymology": "Latin: \"you too\" - the second-person form of the two-wrongs move, and the most common sentence on the internet.",
   "family": "Informal · Red herring",
   "committed_when": "A criticism has been made that one cannot answer on the merits.",
   "tell": "The reply is a counter-accusation, and the original charge is never mentioned again.",
@@ -13,7 +13,7 @@
     "Answering a charge by charging the accuser with the same thing, as though a second offence cancelled the first.",
     "It works because hypocrisy is genuinely relevant to credibility, so the deflection has a real foothold. The foothold is about the speaker; the question was about the act."
   ],
-  "example": "*“You are funded by a billionaire.”* “So are you.” Both disclosures are true; only one of them was on the table.",
+  "example": "*\"You are funded by a billionaire.\"* \"So are you.\" Both disclosures are true; only one of them was on the table.",
   "confused_with": [
     {
       "term": "Two wrongs make a right",
@@ -21,8 +21,8 @@
     }
   ],
   "related": [
-    "Two wrongs make a right",
-    "Whataboutism"
+    "Whataboutism",
+    "Poisoning the well"
   ],
   "cite": {
     "label": "Wikipedia · Tu quoque",

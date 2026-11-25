@@ -120,7 +120,7 @@ def build(doc):
                 "ipa": entry.get("ipa"),
                 "position": entry["position"],
                 "sort": entry.get("sort", {}),
-                "etymology": entry["etymology"],
+                "etymology": typographic(entry["etymology"]),
                 "identification": [
                     {
                         "key": row["key"],
