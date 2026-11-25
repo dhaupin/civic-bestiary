@@ -8,7 +8,7 @@ A field guide to the characters of the body politic: portmanteaus for performati
 
 ## Preface
 
-This is a bestiary, not a dictionary. The characters in it are real, common, and close by - the flag hoodie in the school-board queue, the centrist with one newsletter, the commentator monetizing your uncle’s anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.
+This is a bestiary, not a dictionary. The characters in it are real, common, and close by - the flag hoodie in the school-board queue, the centrist with one newsletter, the commentator monetizing your uncle's anger. Each species is named the way a naturalist would name it: by the trait that makes it unmistakable, and by the psy-loop it runs.
 
 Two rules keep the guide from collapsing into a list of insults. The species is a pattern, not a person - a costume that wears people, not a kind of human, and one you can catch yourself in. And every entry describes a mechanism you could point at in a transcript, a rally, or a comment thread, so the name stays a tool for recognition rather than a way to end an argument.
 
