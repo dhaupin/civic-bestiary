@@ -47,7 +47,7 @@ export default function About() {
           <p className="eyebrow">about</p>
           <h1>A guide, not a verdict</h1>
           <p className="sub">
-            What this is for, who it is for, and the rules that keep it from turning into a list of
+            What the guide is, how it is built, and the rules that keep it from turning into a list of
             insults.
           </p>
         </div>
@@ -55,6 +55,15 @@ export default function About() {
 
       <section className="section">
         <div className="wrap prose">
+          <p>
+            The guide is one dataset read four ways: this site, a book, a README, and the JSON records
+            anyone can propose a change to. It holds <strong>{stats.entries}</strong> entries in{' '}
+            <strong>{kindsList.length}</strong> kinds - species, moves, abilities, habitats, buffs,
+            fallacies, remedies, and keystones - arranged in <strong>{chapters.length}</strong>{' '}
+            chapters that run from the characters who wear their politics to the offices that answer
+            them. Every entry answers the same three questions: what it is, how you would recognise it
+            in the wild, and what actually works on it.
+          </p>
           {preface.map((paragraph) => (
             <p key={paragraph.slice(0, 32)}>{paragraph}</p>
           ))}
