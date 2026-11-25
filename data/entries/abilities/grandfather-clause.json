@@ -1,0 +1,47 @@
+{
+  "term": "Grandfather clause",
+  "kind": "ability",
+  "chapter": "normalization",
+  "position": 5,
+  "part_of_speech": "noun",
+  "ipa": "/ˈɡræn.fɑː.ðə klɔːz/",
+  "etymology": "American: from the literacy tests that exempted any man whose grandfather had voted - the exemption was the point and the test was the alibi.",
+  "effect": "Keeps the existing practice legal while the new rule binds everyone who arrives after it, so the baseline never actually moves.",
+  "available_to": "Any legislature that wants a reform to look larger than the number of people it covers.",
+  "counter": "Date the exemption. A grandfather clause with an end date is a transition; one without is a permanent carve-out in a reform's clothes, and the difference is a line nobody reads.",
+  "confused_with": [
+    {
+      "term": "The carve-out",
+      "tell": "The carve-out writes the exception into the rule; the grandfather clause writes the rule around what already exists."
+    }
+  ],
+  "senses": [
+    "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule was written about survives because it arrived first.",
+    "It works because transition relief is reasonable. Every real reform lets people finish what they started, and the grandfather clause arrives wearing that reason - when the transition ends is the only thing that separates the two, and that date is never in the text."
+  ],
+  "notes": [],
+  "example": "*\"The **grandfather clause** exempted every plant already built, which was every plant, so the rule applied to a future that had not been scheduled.\"*",
+  "related": [
+    "Signaway",
+    "Pocketveto"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Shifting baseline"
+    },
+    {
+      "rel": "commits",
+      "to": "Appeal to tradition"
+    }
+  ],
+  "cite": {
+    "label": "Wikipedia · Grandfather clause",
+    "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
+  },
+  "sort": {
+    "impact": 5,
+    "abuse": 3,
+    "blowback": 2
+  }
+}

@@ -13,16 +13,16 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 187,
-  "coinages": 93,
+  "entries": 192,
+  "coinages": 98,
   "fallacies": 61,
   "chapters": 6,
   "kinds": {
-    "species": 26,
-    "move": 17,
-    "ability": 23,
-    "habitat": 14,
-    "buff": 13,
+    "species": 27,
+    "move": 18,
+    "ability": 24,
+    "habitat": 15,
+    "buff": 14,
     "fallacy": 61,
     "remedy": 19,
     "keystone": 14
@@ -493,6 +493,11 @@ export const chapters = [
     "slugs": [
       "passoffist",
       "provocrop",
+      "precedentarian",
+      "soft-launch",
+      "grandfather-clause",
+      "industry-conference",
+      "outrage-fatigue",
       "hasty-generalization",
       "cherry-picking",
       "false-equivalence",
@@ -3046,6 +3051,20 @@ export const entries = [
         "term": "Group chat",
         "slug": "group-chat",
         "path": "/habitats/group-chat/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Grandfather clause",
+        "slug": "grandfather-clause",
+        "path": "/abilities/grandfather-clause/"
       }
     ],
     "committedFrom": [
@@ -3058,6 +3077,11 @@ export const entries = [
         "id": "hypocrisy-revisionism",
         "roman": "III",
         "title": "Hypocrisy, Revisionism & Authoritarian Submission"
+      },
+      {
+        "id": "normalization",
+        "roman": "V",
+        "title": "Normalization, Numbness & the Noise Floor"
       }
     ]
   },
@@ -5439,14 +5463,14 @@ export const entries = [
         "path": "/moves/friday-news-dump/"
       },
       {
-        "term": "Biasographer",
-        "slug": "biasographer",
-        "path": "/species/biasographer/"
-      },
-      {
         "term": "Briefing room",
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/"
+      },
+      {
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
       }
     ],
     "edges": [
@@ -13234,9 +13258,9 @@ export const entries = [
         "path": "/species/dramagogue/"
       },
       {
-        "term": "Sunset clause",
-        "slug": "sunset-clause",
-        "path": "/remedies/sunset-clause/"
+        "term": "Outrage fatigue",
+        "slug": "outrage-fatigue",
+        "path": "/buffs/outrage-fatigue/"
       }
     ],
     "edges": [
@@ -13608,6 +13632,11 @@ export const entries = [
         "term": "Plutomartyr",
         "slug": "plutomartyr",
         "path": "/species/plutomartyr/"
+      },
+      {
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
       }
     ],
     "edges": [
@@ -14961,6 +14990,13 @@ export const entries = [
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/"
+      },
+      {
+        "rel": "uses",
+        "label": "Used by",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
       },
       {
         "rel": "counters",
@@ -16416,6 +16452,13 @@ export const entries = [
         "term": "The Feed",
         "slug": "the-feed",
         "path": "/habitats/the-feed/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
       }
     ],
     "committedFrom": [
@@ -16618,6 +16661,11 @@ export const entries = [
         "term": "Capitulectual",
         "slug": "capitulectual",
         "path": "/species/capitulectual/"
+      },
+      {
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
       }
     ],
     "edges": [
@@ -16800,6 +16848,529 @@ export const entries = [
         "path": "/remedies/notice-and-comment/"
       }
     ],
+    "committedFrom": []
+  },
+  {
+    "term": "Precedentarian",
+    "slug": "precedentarian",
+    "kind": "species",
+    "kindLabel": "Species",
+    "source": "data/entries/species/precedentarian.json",
+    "path": "/species/precedentarian/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌpres.ɪˈden.tɛə.ri.ən/",
+    "position": 3,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Blend of “precedent” + “authoritarian” - the one authority that never has to run for anything",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A budget line, a bylaw, or a rota that nobody in the room can remember choosing."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "“This is how we have always done it.”"
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Can name the year, never the reason",
+          "Answers what was decided when the question is what it was for",
+          "Treats a precedent as proof the question is closed"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the decision, not the tradition: who signed it, what it replaced, and what it cost. A precedent that survives the minutes is a rule; one that does not was a habit, and habits are not authority."
+      }
+    ],
+    "voice": "“This is how we have always done it.”",
+    "senses": [
+      "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the fact that somebody answered it once.",
+      "It works because continuity is worth something and memory is short. Most rules do carry a reason, so the precedentarian is right often enough never to have to say which ones - the burden lands on you to prove this is the exception, and the minutes are in a basement."
+    ],
+    "notes": [],
+    "example": "“Asked why the roster worked that way, the **precedentarian** said it had been like that since 1994, which was true, and which nobody had checked.”",
+    "cite": {
+      "label": "Wikipedia · Status quo bias",
+      "url": "https://en.wikipedia.org/wiki/Status_quo_bias"
+    },
+    "summary": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the...",
+    "definition": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed by the fact that somebody answered it once.",
+    "confusedWith": [
+      {
+        "term": "Biasographer",
+        "slug": "biasographer",
+        "tell": "The biasographer writes the flattering account; the precedentarian cites it as a constraint.",
+        "path": "/species/biasographer/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "path": "/fallacies/appeal-to-tradition/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Soft launch",
+    "slug": "soft-launch",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/soft-launch.json",
+    "path": "/moves/soft-launch/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/sɒft lɔːntʃ/",
+    "position": 4,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "English: from software, where a product ships quietly to see whether it breaks before anyone is told it exists.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A change that would be contested if it were announced and unremarkable if it were not."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "A form that quietly gains a field, a fee that appears on the next statement, a policy page edited on a Friday with no changelog."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the changelog. Every quiet change has an author, a date and a diff; publish the diff on a schedule and the soft launch becomes an announcement with worse timing."
+      }
+    ],
+    "voice": "A form that quietly gains a field, a fee that appears on the next statement, a policy page edited on a Friday with no changelog.",
+    "senses": [
+      "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by the time anyone notices they are living under the arrangement.",
+      "It works because implementation beats argument. An announcement invites a hearing, a comment period and a vote; a deployment invites a complaint from whoever happens to meet it, and the people who would have organised against it find out one at a time."
+    ],
+    "notes": [],
+    "example": "“The **soft launch** was a checkbox on page four of a renewal form; by the time the council asked who approved it, four thousand people had already agreed.”",
+    "cite": {
+      "label": "Wikipedia · Soft launch",
+      "url": "https://en.wikipedia.org/wiki/Soft_launch"
+    },
+    "summary": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by...",
+    "definition": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past, and by the time anyone notices they are living under the arrangement.",
+    "confusedWith": [
+      {
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "tell": "The trial balloon asks the room; the soft launch asks the silence.",
+        "path": "/moves/trial-balloon/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/"
+      },
+      {
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Grandfather clause",
+    "slug": "grandfather-clause",
+    "kind": "ability",
+    "kindLabel": "Ability",
+    "source": "data/entries/abilities/grandfather-clause.json",
+    "path": "/abilities/grandfather-clause/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɡræn.fɑː.ðə klɔːz/",
+    "position": 5,
+    "sort": {
+      "impact": 5,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "American: from the literacy tests that exempted any man whose grandfather had voted - the exemption was the point and the test was the alibi.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Keeps the existing practice legal while the new rule binds everyone who arrives after it, so the baseline never actually moves."
+      },
+      {
+        "key": "available_to",
+        "label": "Available to",
+        "type": "text",
+        "value": "Any legislature that wants a reform to look larger than the number of people it covers."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Date the exemption. A grandfather clause with an end date is a transition; one without is a permanent carve-out in a reform’s clothes, and the difference is a line nobody reads."
+      }
+    ],
+    "voice": "Keeps the existing practice legal while the new rule binds everyone who arrives after it, so the baseline never actually moves.",
+    "senses": [
+      "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule was written about survives because it arrived first.",
+      "It works because transition relief is reasonable. Every real reform lets people finish what they started, and the grandfather clause arrives wearing that reason - when the transition ends is the only thing that separates the two, and that date is never in the text."
+    ],
+    "notes": [],
+    "example": "“The **grandfather clause** exempted every plant already built, which was every plant, so the rule applied to a future that had not been scheduled.”",
+    "cite": {
+      "label": "Wikipedia · Grandfather clause",
+      "url": "https://en.wikipedia.org/wiki/Grandfather_clause"
+    },
+    "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule...",
+    "definition": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice the rule was written about survives because it arrived first.",
+    "confusedWith": [
+      {
+        "term": "The carve-out",
+        "slug": "the-carve-out",
+        "tell": "The carve-out writes the exception into the rule; the grandfather clause writes the rule around what already exists.",
+        "path": "/remedies/the-carve-out/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/"
+      },
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Appeal to tradition",
+        "slug": "appeal-to-tradition",
+        "path": "/fallacies/appeal-to-tradition/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Industry conference",
+    "slug": "industry-conference",
+    "kind": "habitat",
+    "kindLabel": "Habitat",
+    "source": "data/entries/habitats/industry-conference.json",
+    "path": "/habitats/industry-conference/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɪn.də.stri ˈkɒn.fər.əns/",
+    "position": 6,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "English: a conference is where an industry agrees with itself in public, and the programme is the agreement.",
+    "identification": [
+      {
+        "key": "carriers",
+        "label": "Carriers",
+        "type": "text",
+        "value": "The breakout session, the sponsored coffee break, the panel titled “Navigating the New Normal”, the lanyard that says who paid for lunch."
+      },
+      {
+        "key": "economics",
+        "label": "Economics",
+        "type": "text",
+        "value": "Exhibit fees, sponsored sessions, and a regulator on the panel who also sits on the advisory board."
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "type": "text",
+        "value": "A practice that was a scandal in last year’s programme is a best practice in this one, and two of the three speakers are the same."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Read the programme from three years ago. The room does not change its mind; it changes its slide deck, and the archive is the only record of what it used to say."
+      }
+    ],
+    "voice": "A practice that was a scandal in last year’s programme is a best practice in this one, and two of the three speakers are the same.",
+    "senses": [
+      "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would have had to do.",
+      "It works because the room is full of people whose jobs depend on the practice being normal, and the one who objects is on a panel with three who do not. Nobody votes - the programme is the vote, and it was printed a year in advance."
+    ],
+    "notes": [],
+    "example": "“Last year the **industry conference** ran a session on avoiding the practice; this year it ran a keynote on scaling it, with two of the same three speakers.”",
+    "cite": {
+      "label": "Wikipedia · Regulatory capture",
+      "url": "https://en.wikipedia.org/wiki/Regulatory_capture"
+    },
+    "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would...",
+    "definition": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase “industry standard” doing the work an argument would have had to do.",
+    "confusedWith": [
+      {
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "tell": "The circuit is the same speech in a different hall; the conference is a different speech about the same practice.",
+        "path": "/habitats/rubber-chicken-circuit/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Argumentum ad populum",
+        "slug": "argumentum-ad-populum",
+        "path": "/fallacies/argumentum-ad-populum/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Appeal to novelty",
+        "slug": "appeal-to-novelty",
+        "path": "/fallacies/appeal-to-novelty/"
+      },
+      {
+        "rel": "houses",
+        "label": "Houses",
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/"
+      },
+      {
+        "rel": "uses",
+        "label": "Uses",
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Outrage fatigue",
+    "slug": "outrage-fatigue",
+    "kind": "buff",
+    "kindLabel": "Buff",
+    "source": "data/entries/buffs/outrage-fatigue.json",
+    "path": "/buffs/outrage-fatigue/",
+    "chapter": "normalization",
+    "chapterRoman": "V",
+    "chapterTitle": "Normalization, Numbness & the Noise Floor",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈaʊt.reɪdʒ fəˈtiːɡ/",
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 1
+    },
+    "etymology": "English: from alarm fatigue, the ward’s habit of turning down a monitor that cries wolf - the fourth alarm gets a slower answer than the first.",
+    "identification": [
+      {
+        "key": "effect",
+        "label": "Effect",
+        "type": "text",
+        "value": "Makes each fresh revelation land softer than the last, so the same conduct can be disclosed three times and count once."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The second story about the same thing gets a shorter article, and the third gets a line in the round-up."
+      },
+      {
+        "key": "expires",
+        "label": "Expires",
+        "type": "text",
+        "value": "Never on its own: it ends when something new arrives to be outraged about, which is the day the old conduct becomes the background."
+      }
+    ],
+    "voice": "The second story about the same thing gets a shorter article, and the third gets a line in the round-up.",
+    "senses": [
+      "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in September, and the conduct has not changed.",
+      "It works because attention is finite and disclosures are not. Nobody decides to stop caring; the caring is allocated to the newest thing, and the pattern that produced the story keeps producing it until the stories stop being news."
+    ],
+    "notes": [],
+    "example": "“By the third disclosure the **outrage fatigue** showed in the coverage: a front page, then a column, then a line in the round-up.”",
+    "cite": {
+      "label": "Wikipedia · Alarm fatigue",
+      "url": "https://en.wikipedia.org/wiki/Alarm_fatigue"
+    },
+    "summary": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in...",
+    "definition": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph in September, and the conduct has not changed.",
+    "confusedWith": [
+      {
+        "term": "Crisisglow",
+        "slug": "crisisglow",
+        "tell": "The crisisglow is authority for as long as the emergency lasts; the outrage fatigue is the audience’s attention running out. One is a uniform, the other a battery.",
+        "path": "/buffs/crisisglow/"
+      }
+    ],
+    "related": [
+      {
+        "term": "Honeymoan",
+        "slug": "honeymoan",
+        "path": "/buffs/honeymoan/"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/"
+      }
+    ],
+    "backlinks": [],
     "committedFrom": []
   },
   {
@@ -17997,6 +18568,13 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
       }
     ],
     "committedFrom": [
@@ -18141,6 +18719,13 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
       }
     ],
     "committedFrom": [
@@ -18775,6 +19360,27 @@ export const entries = [
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Grandfather clause",
+        "slug": "grandfather-clause",
+        "path": "/abilities/grandfather-clause/"
+      },
+      {
+        "rel": "houses",
+        "label": "Found in",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
       }
     ],
     "committedFrom": [
@@ -19022,6 +19628,20 @@ export const entries = [
         "term": "Passoffist",
         "slug": "passoffist",
         "path": "/species/passoffist/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Outrage fatigue",
+        "slug": "outrage-fatigue",
+        "path": "/buffs/outrage-fatigue/"
       }
     ],
     "committedFrom": [
@@ -20345,6 +20965,13 @@ export const entries = [
         "term": "Hot mic",
         "slug": "hot-mic",
         "path": "/buffs/hot-mic/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/"
       }
     ],
     "backlinks": [
@@ -21420,6 +22047,13 @@ export const entries = [
         "term": "Forever war",
         "slug": "forever-war",
         "path": "/abilities/forever-war/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Grandfather clause",
+        "slug": "grandfather-clause",
+        "path": "/abilities/grandfather-clause/"
       }
     ],
     "backlinks": [],
@@ -22593,6 +23227,13 @@ export const entries = [
         "term": "Provocrop",
         "slug": "provocrop",
         "path": "/species/provocrop/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/"
       }
     ],
     "backlinks": [
@@ -22794,6 +23435,13 @@ export const entries = [
         "term": "Citizens United",
         "slug": "citizens-united",
         "path": "/abilities/citizens-united/"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/"
       }
     ],
     "backlinks": [],

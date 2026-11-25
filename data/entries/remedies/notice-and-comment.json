@@ -50,6 +50,10 @@
     {
       "rel": "counters",
       "to": "Provocrop"
+    },
+    {
+      "rel": "counters",
+      "to": "Soft launch"
     }
   ],
   "cite": {

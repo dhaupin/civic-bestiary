@@ -40,6 +40,10 @@
     {
       "rel": "counters",
       "to": "Forever war"
+    },
+    {
+      "rel": "counters",
+      "to": "Grandfather clause"
     }
   ],
   "cite": {
