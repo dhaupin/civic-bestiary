@@ -136,11 +136,26 @@ export default function Guide() {
     [inView, view.kind],
   )
   const heading = headingFor(view, master.length)
+  // The front doors have cards of their own, and the counts here match the
+  // baked URLs: site-wide for a kind, the chapter's own for a chapter. Without
+  // this, a client-side hop onto /fallacies/ keeps the previous page's card.
+  const card = view.primary === 'kind'
+    ? {
+        image: `${site.url}/og/kinds/${view.kind.id}.png?v=${stats.kinds[view.kind.id]}`,
+        imageAlt: `${view.kind.plural} - ${site.name}`,
+      }
+    : view.primary === 'chapter'
+      ? {
+          image: `${site.url}/og/chapters/${view.chapter.id}.png?v=${inView.length}`,
+          imageAlt: `Chapter ${view.chapter.roman} · ${view.chapter.title} - ${site.name}`,
+        }
+      : {}
   usePageMeta({
     siteUrl: site.url,
     path: heading.path,
     title: `${heading.title} | ${site.name}`,
     description: heading.description,
+    ...card,
   })
 
   const present = useMemo(() => new Set(entries.map((entry) => entry.term[0].toUpperCase())), [])
