@@ -9,6 +9,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site, { routeMeta } from '../site.js'
+import { FAQ } from '../data/faq.js'
 import { chapters, entries, stats } from '../lexicon.js'
 
 const POOL = entries.filter((entry) => entry.kind !== 'fallacy')
@@ -179,6 +180,24 @@ export default function Home() {
                 The documented arguments each character commits, with the counter that names the exit.
               </p>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section" id="faq">
+        <div className="wrap">
+          <h2>Questions the guide gets asked</h2>
+          <p className="sub">
+            What this is, what it is not, and what it is built from. The long answers live on the
+            about and contribute pages.
+          </p>
+          <div className="faq">
+            {FAQ.map((item) => (
+              <details key={item.q} className="faq-item">
+                <summary>{item.q}</summary>
+                <p>{item.a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>

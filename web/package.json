@@ -6,7 +6,7 @@
   "description": "The Civic Bestiary - a field guide to the characters of the body politic, generated from one dataset into a book, a README and a prestruct-prerendered static site.",
   "scripts": {
     "dev": "vite",
-    "build": "npm run og && prestruct build",
+    "build": "npm run og && prestruct build && node scripts/og-type.mjs",
     "preview": "vite preview",
     "og": "node scripts/og.mjs",
     "check:og": "node scripts/og.mjs --check",

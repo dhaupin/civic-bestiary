@@ -287,6 +287,23 @@ appending.
   (verified against the family's own Pages sites). Declaring routes as `/species/<slug>/` keeps
   the canonical equal to the served URL and saves a redirect on every click. If you add a
   `Link` or a route, match that form.
+- **Structured data is per-route, never site-wide.** `buildJsonLd()` used to ship the whole
+  `DefinedTermSet` on all 210 pages - 69KB each, and a claim that every entry was about all 192
+  terms. `route.meta.jsonLd` is the seam that fixes it: an entry carries one `DefinedTerm`, a
+  kind or a chapter a `CollectionPage` with its `ItemList`, and only `/guide/` - the page that
+  actually lists them - carries the set. The engine's own defaults add `Organization` +
+  `WebSite` everywhere. Do not reintroduce a global `buildJsonLd`.
+- **Breadcrumbs are authored here, not by prestruct.** The engine's auto trail drops the
+  trailing slash (so every crumb 308s to its own target) and routes chapter pages through a
+  `/chapters/` index that does not exist. `crumb()` in `ssr.config.js` writes the trail with the
+  served URLs; a route carrying its own `BreadcrumbList` suppresses the engine's, so the two
+  can never double up.
+- **`og:type` is patched after the build.** prestruct hardcodes `website` on every page, which
+  is wrong for the pages that are one record. `web/scripts/og-type.mjs` sets `article` on the
+  entry and chapter pages and fails the build if the engine's markup stops matching. Retire it
+  when prestruct grows a per-route `ogType`.
+- **The home FAQ is one source.** `web/src/data/faq.js` feeds both the visible section and the
+  `FAQPage` JSON-LD, so an answer cannot be marked up for a crawler without being on the page.
 - **Adopted from coreforge, deliberately trimmed.** The shell's Jekyll `docs/` rig and its
   paint-scheme preset picker are not shipped: this site has one palette and no docs site.
   Everything else follows the family rules - tokens own the palette, theme is one
