@@ -291,17 +291,35 @@ appending.
   `DefinedTermSet` on all 210 pages - 69KB each, and a claim that every entry was about all 192
   terms. `route.meta.jsonLd` is the seam that fixes it: an entry carries one `DefinedTerm`, a
   kind or a chapter a `CollectionPage` with its `ItemList`, and only `/guide/` - the page that
-  actually lists them - carries the set. The engine's own defaults add `Organization` +
-  `WebSite` everywhere. Do not reintroduce a global `buildJsonLd`.
+  actually lists them - carries the set. Do not reintroduce a global `buildJsonLd`.
+- **The identity graph is this repo's, not the engine's.** prestruct's defaults emit an
+  `Organization` and a `WebSite` with a name and a URL, no `@id`, no logo, no author, and in a
+  separate block that a route cannot reference. `jsonLdDefaults: false` turns them off and
+  `pageGraph()` ships one `@graph` per page: `Organization` (logo, `sameAs` the repo,
+  `founder`), `WebSite` (`publisher` the org), `Person` (the author, linked to GitHub), then
+  the page's own node, then its breadcrumb. Every node has an `@id`, so `publisher`, `founder`,
+  `isPartOf`, and `mainEntity` are references rather than copies. `/about/` is the one page
+  that names the org as its `mainEntity`, which is what an `AboutPage` is for.
+- **A record's `cite` is the graph's `citation`.** Where the record carries a source, the
+  `DefinedTerm` names it as a `CreativeWork`; where it does not, no citation is emitted - the
+  same rule the prose follows. The guide's `DefinedTermSet` lists names and URLs only, because
+  the descriptions live on the entry pages and 192 of them here was 40KB of JSON-LD on the one
+  page that needs it least.
 - **Breadcrumbs are authored here, not by prestruct.** The engine's auto trail drops the
   trailing slash (so every crumb 308s to its own target) and routes chapter pages through a
   `/chapters/` index that does not exist. `crumb()` in `ssr.config.js` writes the trail with the
-  served URLs; a route carrying its own `BreadcrumbList` suppresses the engine's, so the two
-  can never double up.
+  served URLs. `breadcrumb: false` switches the engine's pass off outright, so the two can never
+  double up and no page depends on the broken trail coming back correct.
 - **`og:type` is patched after the build.** prestruct hardcodes `website` on every page, which
   is wrong for the pages that are one record. `web/scripts/og-type.mjs` sets `article` on the
   entry and chapter pages and fails the build if the engine's markup stops matching. Retire it
   when prestruct grows a per-route `ogType`.
+- **robots.txt is the AEO preset, and the meta asks for large previews.** `robots: { aeo: {
+  aiBots: 'allow' } }` emits explicit `Allow` groups for the search-visibility bots (OpenAI,
+  Perplexity, Anthropic, Apple, Google, Bing) and for the training crawlers - the guide is
+  public civic material, so refusing the training crawl buys nothing here. Flip `aiBots` to
+  `'block'` if that call ever changes. The `robots` meta in `web/index.html` carries
+  `max-image-preview:large`, without which Google will not serve a large thumbnail.
 - **The home FAQ is one source.** `web/src/data/faq.js` feeds both the visible section and the
   `FAQPage` JSON-LD, so an answer cannot be marked up for a crawler without being on the page.
 - **Adopted from coreforge, deliberately trimmed.** The shell's Jekyll `docs/` rig and its
@@ -336,6 +354,11 @@ appending.
   `build_site.py` and emitted as `entry.og`; `web/ssr.config.js` puts it in the route's
   `ogImage`, and `usePageMeta` keeps it in step on client-side navigation. A changed entry is
   therefore a changed URL, and scrapers refetch instead of serving the old card.
+- `web/public/og/kinds/<id>.png` and `web/public/og/chapters/<id>.png` are **generated** too, in
+  the same pass and the same frame: a link to `/fallacies/` unfurls as the fallacies rather than
+  as the site card. They have no per-record version to hash, so the count rides in the URL
+  (`?v=61`) - a card whose tally changed is a new URL. Like the entry cards, they are wiped and
+  rebuilt each run and never committed.
 - **Deploy is Cloudflare Pages, built from Git.** The dashboard must hold exactly:
 
   | Setting | Value |
