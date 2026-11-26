@@ -384,10 +384,15 @@ appending.
   `site.config.js` holds Field guide / Fallacies / About (all `group: 'site'`), and
   `footerExtras` holds Contribute / GitHub / License. The header, the burger sidebar, and the
   footer all render from those two lists - do not hand-type a nav link in a component.
-- **`/about/` is the essay.** The landing (`pages/Home.jsx`) is browse-first: hero, a random
-  entry, the chapter map, the answers. The preface prose lives on `/about/`, which reads it
-  from `lexicon.json` so it cannot drift from the book. Adding a landing section is cheap -
-  it should send a reader into an entry, not into an argument.
+- **`/about/` is the essay, in front-matter shape.** The landing (`pages/Home.jsx`) is
+  browse-first: hero, a random entry, the chapter map, the answers. The preface prose lives on
+  `/about/`, which reads it from `lexicon.json` so it cannot drift from the book - the page
+  breaks the four paragraphs into blocks (lede, two rules, coinages, fallacies) but changes no
+  words. Its centre is a **specimen plate**: one real record (`entryFor('playtriot')`, with a
+  fallback to the first species) rendered through the same `.draw` furniture as the landing,
+  beside a numbered legend of the six parts. Never hand-write an example entry into the page -
+  the plate is the thing the guide ships. Adding a landing section is cheap - it should send a
+  reader into an entry, not into an argument.
 - **`labs/*.md` is served from the site.** `build_site.py` copies it to `web/public/labs/`, so
   `labs/prd-codex.md` (the product + record contract) resolves at `/labs/prd-codex.md`, which is
   what the contribute page's "Read the record contract" button points at. Edit the file in
