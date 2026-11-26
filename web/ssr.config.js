@@ -34,37 +34,93 @@ const LD = 'https://schema.org'
 // or chapter is a CollectionPage, and only the two index pages carry the whole
 // set. Emitting the set from buildJsonLd() put 69KB on all 210 pages and told a
 // crawler every entry was "about" all 192 terms.
-const definedTerm = (entry) => ({
+// Stable node identities. prestruct merges a route's jsonLd nodes into ONE
+// @graph block, so an @id declared here resolves on the page that uses it.
+// The engine's own defaults (a name+url Organization and WebSite on every page,
+// with no @id, no logo and no author) are switched off in the export below;
+// this file owns the graph instead.
+const ORG_ID = `${ORIGIN}/#org`
+const SITE_ID = `${ORIGIN}/#site`
+const AUTHOR_ID = `${ORIGIN}/#author`
+const SET_ID = `${ORIGIN}/guide/#set`
+
+const orgNode = {
+  '@type': 'Organization',
+  '@id': ORG_ID,
+  name: site.name,
+  url: ORIGIN,
+  description: site.description,
+  logo: {
+    '@type': 'ImageObject',
+    url: `${ORIGIN}/icon-512.png`,
+    width: 512,
+    height: 512,
+  },
+  sameAs: [site.repo],
+  founder: { '@id': AUTHOR_ID },
+}
+
+const siteNode = {
+  '@type': 'WebSite',
+  '@id': SITE_ID,
+  name: site.name,
+  url: ORIGIN,
+  inLanguage: 'en',
+  publisher: { '@id': ORG_ID },
+}
+
+const authorNode = {
+  '@type': 'Person',
+  '@id': AUTHOR_ID,
+  name: site.author,
+  url: `https://github.com/${site.author}`,
+}
+
+// Every page carries the same three identity nodes plus its own, so the graph
+// is complete on any entry point a crawler lands on.
+const pageGraph = (...nodes) => ({
   '@context': LD,
+  '@graph': [orgNode, siteNode, authorNode, ...nodes.flat().filter(Boolean)],
+})
+
+const definedTerm = (entry) => ({
   '@type': 'DefinedTerm',
+  '@id': `${abs(entry.path)}#term`,
   name: entry.term,
   description: entry.summary,
   url: abs(entry.path),
+  inLanguage: 'en',
   inDefinedTermSet: `${ORIGIN}/guide/`,
+  // The record carries its source and the page shows it, so the graph says it.
+  ...(entry.cite
+    ? { citation: { '@type': 'CreativeWork', name: entry.cite.label, url: entry.cite.url } }
+    : {}),
 })
 
 const termSet = {
-  '@context': LD,
   '@type': 'DefinedTermSet',
+  '@id': SET_ID,
   name: lexicon.title,
   description: lexicon.description,
   url: ORIGIN,
   inLanguage: 'en',
   license: `${site.repo}/blob/main/LICENSE`,
-  hasDefinedTerm: entries.map(({ term, summary, path }) => ({
+  author: { '@id': AUTHOR_ID },
+  // Names and URLs only: the descriptions live on the entry pages, and 192 of
+  // them here put 40KB of JSON-LD on the one page that needs it least.
+  hasDefinedTerm: entries.map(({ term, path }) => ({
     '@type': 'DefinedTerm',
     name: term,
-    description: summary,
     url: abs(path),
   })),
 }
 
 const collection = (name, description, path, items) => ({
-  '@context': LD,
   '@type': 'CollectionPage',
   name,
   description,
   url: abs(path),
+  isPartOf: { '@id': SITE_ID },
   mainEntity: {
     '@type': 'ItemList',
     numberOfItems: items.length,
@@ -78,7 +134,6 @@ const collection = (name, description, path, items) => ({
 })
 
 const faqPage = {
-  '@context': LD,
   '@type': 'FAQPage',
   mainEntity: FAQ.map((item) => ({
     '@type': 'Question',
@@ -86,6 +141,18 @@ const faqPage = {
     acceptedAnswer: { '@type': 'Answer', text: item.a },
   })),
 }
+
+// The about page explains the organization, so it says so rather than carrying
+// a breadcrumb and nothing else.
+const aboutPage = (route) => ({
+  '@type': 'AboutPage',
+  '@id': `${abs(route.path)}#page`,
+  name: route.meta.title.split(' | ')[0],
+  description: route.meta.description,
+  url: abs(route.path),
+  isPartOf: { '@id': SITE_ID },
+  mainEntity: { '@id': ORG_ID },
+})
 
 // --- breadcrumbs ----------------------------------------------------------
 // prestruct's auto trail drops the route's trailing slash (so every crumb is a
@@ -98,7 +165,6 @@ const labelFor = (segment) =>
     : segment.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase())
 
 const breadcrumb = (trail) => ({
-  '@context': LD,
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: site.name, item: ORIGIN },
@@ -134,7 +200,15 @@ const kindRoutes = Object.entries(kinds).map(([id, spec]) => {
     meta: {
       title: `${spec.plural} | ${site.name}`,
       description,
-      jsonLd: [collection(spec.plural, description, spec.path, own), crumb(spec.path, spec.plural)],
+      jsonLd: pageGraph(collection(spec.plural, description, spec.path, own), crumb(spec.path, spec.plural)),
+      // The count is the version: a card whose tally changed must not be served
+      // from a scraper's cache under the old URL.
+      ogImage: {
+        url: `${site.url}/og/kinds/${id}.png?v=${stats.kinds[id]}`,
+        width: 1200,
+        height: 630,
+        alt: `${spec.plural} - ${site.name}`,
+      },
     },
   }
 })
@@ -154,11 +228,17 @@ const chapterRoutes = chapters.map((chapter) => {
     meta: {
       title: `${label} | ${site.name}`.length <= 65 ? `${label} | ${site.name}` : label,
       description,
-      jsonLd: [
+      jsonLd: pageGraph(
         collection(label, description, `/chapters/${chapter.id}/`, own),
         // There is no /chapters/ index page, so the trail is root -> chapter.
         breadcrumb([[label, `${ORIGIN}/chapters/${chapter.id}/`]]),
-      ],
+      ),
+      ogImage: {
+        url: `${site.url}/og/chapters/${chapter.id}.png?v=${own.length}`,
+        width: 1200,
+        height: 630,
+        alt: `${label} - ${site.name}`,
+      },
     },
   }
 })
@@ -170,7 +250,7 @@ const termRoutes = entries.map((entry) => ({
   meta: {
     title: `${entry.term} - ${entry.partOfSpeech} | ${site.name}`,
     description: entry.summary,
-    jsonLd: [definedTerm(entry), crumb(entry.path, entry.term)],
+    jsonLd: pageGraph(definedTerm(entry), crumb(entry.path, entry.term)),
     // The object form, so prerender also reconciles the width/height/alt
     // companions - a card declared 1200x630 but measured otherwise renders
     // letterboxed or cropped in the big unfurl.
@@ -188,14 +268,32 @@ const siteRoutes = site.routes.map((route) => {
   if (route.path === '/') {
     // The landing does not list the terms, so it does not claim the set; the
     // guide does, and every page links to it.
-    return { ...route, meta: { ...route.meta, jsonLd: [faqPage] } }
+    return { ...route, meta: { ...route.meta, jsonLd: pageGraph(faqPage) } }
   }
   if (route.path === '/guide/') {
-    return { ...route, meta: { ...route.meta, jsonLd: [termSet, crumb('/guide/', 'The field guide')] } }
+    return {
+      ...route,
+      meta: {
+        ...route.meta,
+        jsonLd: pageGraph(termSet, crumb('/guide/', 'The field guide')),
+      },
+    }
+  }
+  if (route.path === '/about/') {
+    return {
+      ...route,
+      meta: {
+        ...route.meta,
+        jsonLd: pageGraph(aboutPage(route), crumb(route.path, 'About the guide')),
+      },
+    }
   }
   return {
     ...route,
-    meta: { ...route.meta, jsonLd: [crumb(route.path, route.meta.title.split(' | ')[0])] },
+    meta: {
+      ...route.meta,
+      jsonLd: pageGraph(crumb(route.path, route.meta.title.split(' | ')[0])),
+    },
   }
 })
 
@@ -207,7 +305,13 @@ const ogVersion = fs.existsSync(ogCard)
 export default {
   siteUrl: site.url,
   siteName: site.name,
-  breadcrumb: true,
+  // The graph above is complete, so the engine's thin defaults (name+url, no
+  // @id, no logo) would only duplicate it in a second block.
+  jsonLdDefaults: false,
+  // Every route authors its own trail; the engine's pass drops trailing
+  // slashes and invents a /chapters/ index, so it is off rather than corrected
+  // per page.
+  breadcrumb: false,
   author: site.author,
   tagline: site.tagline,
   ogImage: {
@@ -220,7 +324,11 @@ export default {
     alt: `${site.name} - a field guide to the characters of the body politic`,
   },
   keywords: site.keywords,
-  robots: true,
+  // The AEO preset: explicit Allow groups for the search-visibility bots (so
+  // ChatGPT/Perplexity/Claude/Apple search can cite the guide), and training
+  // crawls allowed too - the guide is public civic material, and refusing the
+  // training crawl buys nothing here. Flip to aiBots: 'block' to refuse it.
+  robots: { aeo: { aiBots: 'allow' } },
   routes: [...siteRoutes, ...kindRoutes, ...chapterRoutes, ...termRoutes],
   notFound: site.notFound,
 }

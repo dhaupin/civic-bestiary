@@ -24,7 +24,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import site from '../../site.config.js'
-import { entries, stats } from '../src/data/lexicon.js'
+import { chapters, entries, kinds, stats } from '../src/data/lexicon.js'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const WEB = path.resolve(HERE, '..')
@@ -32,6 +32,8 @@ const PUBLIC = path.join(WEB, 'public')
 const SVG = path.join(PUBLIC, 'og-image.svg')
 const PNG = path.join(PUBLIC, 'og-image.png')
 const ENTRY_DIR = path.join(PUBLIC, 'og')
+const KIND_DIR = path.join(ENTRY_DIR, 'kinds')
+const CHAPTER_DIR = path.join(ENTRY_DIR, 'chapters')
 
 const PAPER = '#f4efe6'
 const INK = '#1b1512'
@@ -174,6 +176,30 @@ ${lines.map((line, i) => `  <text x="140" y="${456 + i * 42}" font-family="DejaV
 `
 }
 
+// --- collection cards ------------------------------------------------------
+// A kind or chapter front door gets shared as often as an entry, and the site
+// card understates it: a link to /fallacies/ unfurled as "The Civic Bestiary".
+// Same frame as the entry cards, so a feed of them reads as one set.
+
+function collectionCard({ ink, eyebrow, title, lines }) {
+  const titleLines = wrap(title, title.length > 26 ? 30 : 24).slice(0, 2)
+  const size = titleLines.length > 1 ? 54 : 60
+  const ruleY = titleLines.length > 1 ? 452 : 402
+  const body = lines.slice(0, titleLines.length > 1 ? 2 : 3)
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="${PAPER}"/>
+  <rect x="0" y="0" width="1200" height="10" fill="${ACCENT}"/>
+  <rect x="80" y="150" width="6" height="330" fill="${ink}"/>
+  ${mark(140, 128, 1.0)}
+  <text x="140" y="248" font-family="DejaVu Sans Mono" font-size="22" letter-spacing="3" fill="${ink}">${escape(eyebrow.toUpperCase())}</text>
+${titleLines.map((line, i) => `  <text x="140" y="${ruleY - 50 - (titleLines.length - 1 - i) * 62}" font-family="DejaVu Serif" font-weight="bold" font-size="${size}" letter-spacing="-1.5" fill="${INK}">${escape(line)}</text>`).join('\n')}
+  <line x1="140" y1="${ruleY}" x2="1060" y2="${ruleY}" stroke="${SOFT}" stroke-opacity="0.35"/>
+${body.map((line, i) => `  <text x="140" y="${ruleY + 54 + i * 40}" font-family="DejaVu Sans" font-size="27" fill="${SOFT}">${escape(line)}</text>`).join('\n')}
+  <text x="1060" y="592" text-anchor="end" font-family="DejaVu Sans Mono" font-size="20" fill="${SOFT}">${escape(HOST)}</text>
+</svg>
+`
+}
+
 const svg = card()
 
 if (process.argv.includes('--check')) {
@@ -212,8 +238,31 @@ for (const entry of entries) {
   rasterize(entryCard(entry), path.join(ENTRY_DIR, entry.kind, `${entry.slug}.png`))
 }
 
+// The same rebuild rule for the front doors: a kind whose plural changed, or a
+// chapter that was renamed, must not leave a stale card at a live URL.
+for (const [id, spec] of Object.entries(kinds)) {
+  rasterize(collectionCard({
+    ink: kindInk(id),
+    eyebrow: `${spec.plural} \u00b7 ${stats.kinds[id]} entries`,
+    title: spec.plural,
+    lines: wrap(spec.blurb, 62).slice(0, 3),
+  }), path.join(KIND_DIR, `${id}.png`))
+}
+
+for (const chapter of chapters) {
+  const own = chapter.slugs.map((slug) => entries.find((entry) => entry.slug === slug)).filter(Boolean)
+  const teaser = `${own.slice(0, 3).map((entry) => entry.term).join(' \u00b7 ')} and ${own.length - 3} more.`
+  rasterize(collectionCard({
+    ink: ACCENT,
+    eyebrow: `Chapter ${chapter.roman} \u00b7 ${own.length} entries`,
+    title: chapter.title,
+    lines: wrap(chapter.note || teaser, 62).slice(0, 3),
+  }), path.join(CHAPTER_DIR, `${chapter.id}.png`))
+}
+
 console.log(
-  `wrote public/og-image.svg, public/og-image.png, and ${entries.length} entry cards`
+  `wrote public/og-image.svg, public/og-image.png, ${entries.length} entry cards,`
+  + ` ${Object.keys(kinds).length} kind cards, and ${chapters.length} chapter cards`
   + ` in ${((Date.now() - started) / 1000).toFixed(1)}s`,
 )
 
