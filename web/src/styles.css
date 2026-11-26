@@ -785,7 +785,59 @@ button.chip { appearance: none; }
 .contract-list { margin: 0; padding-left: 18px; color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; }
 .contract-list strong { color: var(--ink); }
 
+/* /about/ - the specimen plate and its legend, then the graph read out loud.
+   The legend numbers line up with the plate's rows by label, not by pixel, so
+   the pair survives a reflow without a second set of breakpoints. */
+.anatomy {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 42px; align-items: start;
+}
+.anatomy .draw { margin: 0; }
+/* Stacked labels: the plate's prose needs the full card width, and the legend
+   already carries the label column's job. */
+.anatomy .draw-marks > div { grid-template-columns: 1fr; gap: 4px; }
+.anatomy-legend {
+  margin: 0; padding: 0; list-style: none; counter-reset: part;
+  display: grid; gap: 18px;
+}
+.anatomy-legend > li { counter-increment: part; position: relative; padding-left: 38px; }
+.anatomy-legend > li::before {
+  content: counter(part, decimal-leading-zero); position: absolute; left: 0; top: 3px;
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--accent);
+}
+.anatomy-legend h3 { font-size: 15.5px; margin: 0 0 3px; }
+.anatomy-legend p { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.55; }
+
+.walks { margin: 0 0 24px; }
+.walk {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px;
+  margin: 0; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 17px;
+}
+.walk:first-child { border-top: 1px solid var(--line); }
+.walk-subject { color: var(--ink); font-weight: 600; text-decoration-color: var(--accent); }
+.walk-subject:hover { color: var(--accent); }
+.walk-arrow { color: var(--accent); }
+.walk-verb {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ink-soft);
+}
+.walk a { color: var(--ink); text-decoration-color: var(--accent); }
+.walk a:hover { color: var(--accent); }
+.walk .sep { color: var(--ink-soft); opacity: 0.45; margin: 0 5px; }
+.walk .walk-rest { color: var(--ink-soft); margin-left: 10px; }
+
+.names {
+  display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 18px 0 0;
+  font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.names a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--line); }
+.names a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.note-line { font-size: 14.5px; color: var(--ink-soft); }
+
 @media (max-width: 780px) {
+  .anatomy { grid-template-columns: 1fr; gap: 26px; }
   .contribute-steps { grid-template-columns: 1fr; }
   .draw-marks > div { grid-template-columns: 1fr; gap: 5px; }
   .contribute-grid { grid-template-columns: 1fr; gap: 30px; }
