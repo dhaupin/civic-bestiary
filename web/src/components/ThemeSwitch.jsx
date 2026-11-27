@@ -5,7 +5,7 @@
  * a CSS rule per theme shows the relevant one - so the prerendered markup
  * and the hydrated markup agree (no hydration mismatch, no flash-of-wrong-icon).
  */
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { THEME_KEY, paperFor } from '../theme.js'
 
 function setThemeColor(light) {
@@ -22,12 +22,28 @@ function toggleTheme() {
 }
 
 export default function ThemeSwitch() {
+  // null until mounted: the prerender cannot know which theme the bootstrap
+  // picked, so the attribute appears only after hydration rather than being
+  // baked wrong and corrected. aria-pressed is the toggle's state; the label is
+  // what the button controls, not what it will do next.
+  const [dark, setDark] = useState(null)
   useEffect(() => {
-    // Keep the meta theme-color honest if the bootstrap already flipped to light.
-    if (document.documentElement.dataset.theme === 'light') setThemeColor(true)
+    const isLight = document.documentElement.dataset.theme === 'light'
+    if (isLight) setThemeColor(true)
+    setDark(!isLight)
   }, [])
+  const onClick = () => {
+    toggleTheme()
+    setDark(document.documentElement.dataset.theme !== 'light')
+  }
   return (
-    <button type="button" className="theme-switch" onClick={toggleTheme} aria-label="Toggle light/dark mode">
+    <button
+      type="button"
+      className="theme-switch"
+      onClick={onClick}
+      aria-label="Dark mode"
+      aria-pressed={dark === null ? undefined : dark}
+    >
       {/* sun: shown in dark mode - clicking goes light (icon = the action) */}
       <svg className="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />

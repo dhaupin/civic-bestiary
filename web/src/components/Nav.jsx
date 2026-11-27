@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { CHAPTER_LINKS, FOOTER_EXTRAS, KIND_LINKS, NAV_ITEMS } from './navItems.js'
 import site from '../site.js'
@@ -15,20 +15,45 @@ import ThemeSwitch from './ThemeSwitch.jsx'
 // way in (Contribute) live in the footer, plus the sidebar's "Elsewhere" list
 // for the phone, where the footer is a long scroll away.
 const HEADER_LINKS = NAV_ITEMS.filter(i => i.group === 'site')
-// The sidebar's Kinds list opens with the field guide itself, so the header's
-// shortcut to the same page would be the second copy of one link.
+// The sidebar's Menu is the header's own routes in the same order - the field
+// guide first, ahead of Latest - so a reader who opens the menu finds the book
+// where the header puts it. Kinds below lists the eight, and no link twice.
 const SIDEBAR_ITEMS = NAV_ITEMS.filter(
-  i => i.to !== '/guide/' && !KIND_LINKS.some(kind => kind.to === i.to),
+  i => !KIND_LINKS.some(kind => kind.to === i.to),
 )
 export default function Nav() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
+  const burgerRef = useRef(null)
+  const sidebarRef = useRef(null)
+  const wasOpen = useRef(false)
 
-  // Route change closes the drawer (and Escape dismisses it).
+  // Route change closes the drawer.
   useEffect(() => { setOpen(false) }, [location.pathname])
+
+  // Opening moves focus into the drawer and closing gives it back to the button
+  // that opened it. Without the return, a keyboard reader who closes the menu
+  // lands back at the top of the document.
+  useEffect(() => {
+    if (open) sidebarRef.current?.querySelector('a, button')?.focus()
+    else if (wasOpen.current) burgerRef.current?.focus()
+    wasOpen.current = open
+  }, [open])
+
+  // Escape closes; Tab cycles inside the drawer while it is open, so the page
+  // behind it - which a reader cannot see - is not what they tab into next.
   useEffect(() => {
     if (!open) return
-    const onKey = (e) => { if (e.key === 'Escape') setOpen(false) }
+    const onKey = (e) => {
+      if (e.key === 'Escape') { setOpen(false); return }
+      if (e.key !== 'Tab') return
+      const items = sidebarRef.current?.querySelectorAll('a[href], button:not([disabled])')
+      if (!items?.length) return
+      const first = items[0]
+      const last = items[items.length - 1]
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus() }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus() }
+    }
     document.addEventListener('keydown', onKey)
     return () => document.removeEventListener('keydown', onKey)
   }, [open])
@@ -37,7 +62,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="nav">
+      <nav className="nav" aria-label="Primary">
         <div className="wrap nav-inner">
           <Link to="/" className="brand" onClick={() => setOpen(false)}>
             <img src="/icon.svg" alt="" className="brand-logo" aria-hidden="true" />
@@ -57,6 +82,7 @@ export default function Nav() {
               ))}
             </div>
             <button
+              ref={burgerRef}
               className="nav-burger"
               aria-label={open ? 'Close menu' : 'Open menu'}
               aria-expanded={open}
@@ -73,7 +99,12 @@ export default function Nav() {
       </nav>
 
       <div className={'nav-overlay' + (open ? ' open' : '')} onClick={() => setOpen(false)} aria-hidden="true" />
-      <aside className={'nav-sidebar' + (open ? ' open' : '')} aria-hidden={!open}>
+      <nav
+        ref={sidebarRef}
+        className={'nav-sidebar' + (open ? ' open' : '')}
+        aria-label="Menu"
+        aria-hidden={!open}
+      >
         <div className="nav-sidebar-title">Menu</div>
         <ul className="nav-sidebar-nav">
           {SIDEBAR_ITEMS.map(item => (
@@ -86,11 +117,6 @@ export default function Nav() {
         </ul>
         <div className="nav-sidebar-title">Kinds</div>
         <ul className="nav-sidebar-nav">
-          <li>
-            <NavLink to="/guide/" end className={cls} onClick={() => setOpen(false)}>
-              The field guide
-            </NavLink>
-          </li>
           {KIND_LINKS.map(item => (
             <li key={item.label}>
               <NavLink to={item.to} className={cls} onClick={() => setOpen(false)} title={item.blurb}>
@@ -116,7 +142,7 @@ export default function Nav() {
             <li key={item.label}><a href={item.href} target="_blank" rel="noreferrer">{item.label}</a></li>
           ))}
         </ul>
-      </aside>
+      </nav>
     </>
   )
 }
