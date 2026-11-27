@@ -595,6 +595,9 @@ is the claim; keep it true when a provider changes.
 - A `confused_with` entry is an object, `{ "term", "tell" }`, while `related`, `edges` and
   `mentions` carry bare terms. An audit that reads the pair edge as a string reports 205
   unresolved references that do not exist; unwrap `term` first.
+- Dates print in US order everywhere the interface says one: `November 26, 2026`. That
+  covers the release `display`, the post revision line, the legal effective dates, and the
+  privacy page's recorded date. Prose may be British in spelling; the date order is not.
 - Voice is satirical and pointed, aimed at behavior, institutions, and power - never at
   identity, and never at the people on the receiving end. The bestiary frame carries the
   rule: the species is the pattern, not the person.

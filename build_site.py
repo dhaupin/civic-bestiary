@@ -437,13 +437,13 @@ def load_releases(data):
             # A revision the reader cannot see is a timestamp, not news: the line
             # only appears when the note was revised on a later day.
             "updatedDisplay": (
-                f"{revised.day} {MONTHS[revised.month - 1]} {revised.year}"
+                f"{MONTHS[revised.month - 1]} {revised.day}, {revised.year}"
                 if revised and stamp and revised.date() != stamp.date()
                 else ""
             ),
             "words": sum(len(text.split()) for text in [post.get("lede", ""), *body]),
             "date": stamp.date().isoformat() if stamp else "",
-            "display": f"{stamp.day} {MONTHS[stamp.month - 1]} {stamp.year}" if stamp else published[:10],
+            "display": f"{MONTHS[stamp.month - 1]} {stamp.day}, {stamp.year}" if stamp else published[:10],
             "slug": slug,
             "title": post.get("title", ""),
             "lede": post.get("lede", ""),
