@@ -18,6 +18,10 @@
     {
       "term": "Dramagogue",
       "tell": "The xenophobricator needs a specific outsider; the dramagogue only needs a crowd."
+    },
+    {
+      "term": "Ismatic",
+      "tell": "The xenophobricator names a suspect; the ismatic names a slogan. One blames a group for the outcome, the other blames the outcome with a group's word."
     }
   ],
   "senses": [

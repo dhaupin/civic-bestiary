@@ -13,6 +13,10 @@
     {
       "term": "Equivangelist",
       "tell": "The equivangelist preaches the symmetry as a virtue; the bothsideser performs it as a booking decision."
+    },
+    {
+      "term": "Shibbolether",
+      "tell": "The bothsideser hands you two sides and calls it fairness; the shibbolether hands you one and calls it loyalty."
     }
   ],
   "senses": [
@@ -23,8 +27,7 @@
   "example": "*\"Asked about the audit, the host **bothsidesed** it: two minutes for the accountant, two for the man who says audits are a myth, and a promise to keep following the story.\"*",
   "related": [
     "Decorumancer",
-    "Cable panel",
-    "Shibbolether"
+    "Cable panel"
   ],
   "edges": [
     {
