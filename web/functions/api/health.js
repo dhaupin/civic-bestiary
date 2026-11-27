@@ -5,7 +5,7 @@ export async function onRequestGet(context) {
   return Response.json(
     {
       ok: true,
-      name: context.env.SITE_NAME || 'civicbestiary',
+      name: context.env.SITE_NAME || 'civic-bestiary',
       service: 'landing',
       ts: new Date().toISOString(),
     },

@@ -6,7 +6,7 @@
  * prestruct engine expects. The bestiary's own content lives in data/ -
  * this file is identity and routing only.
  */
-const REPO = 'https://github.com/dhaupin/civicbestiary'
+const REPO = 'https://github.com/dhaupin/civic-bestiary'
 
 export default {
   // --- identity -----------------------------------------------------------
@@ -30,7 +30,7 @@ export default {
     'bestiary, field guide, portmanteau, satire, rhetoric, propaganda, trolls, civic, nationalism, media literacy',
 
   copyright: { label: 'Creadev.org', url: 'https://creadev.org' },
-  org: { name: 'civicbestiary', url: REPO },
+  org: { name: 'civic-bestiary', url: REPO },
 
   // --- theme --------------------------------------------------------------
   // Protocol constants shared by the pre-paint bootstrap and the switch; not

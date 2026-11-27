@@ -8,9 +8,15 @@
 
 import { spawnSync } from 'node:child_process'
 
+// The pin. An audit is a gate, so it must not move under us - but a gate on a version
+// that cannot report is not a gate either, so this line moves with a release and nothing
+// else does. See AGENTS.md for what the next release changes and why the verdict here
+// stays 8/198/1119/0.
+const TRESRIDGE = 'tresridge@1.1.0'
+
 const args = [
   '--yes',
-  'tresridge@1.1.0',
+  TRESRIDGE,
   'lint',
   'data/entries',
   '--reader',
@@ -25,11 +31,25 @@ const out = run.stdout || ''
 const start = out.indexOf('{')
 
 if (start < 0) {
-  process.stderr.write(run.stderr || out || 'tresridge produced no verdict\n')
+  process.stderr.write(run.stderr || out || `tresridge produced no verdict (exit ${run.status})\n`)
   process.exit(1)
 }
 
-const verdict = JSON.parse(out.slice(start))
+let verdict
+try {
+  verdict = JSON.parse(out.slice(start))
+} catch (err) {
+  // The failure that looked like a bad tree and was not: tresridge 1.1.0 calls
+  // process.exit() without draining stdout, so a verdict over ~146KB arrives cut off
+  // mid-string and JSON.parse dies on a payload the lint produced in full. Say that,
+  // rather than a SyntaxError with no byte count and no way to tell the two apart.
+  console.error(`[graph] tresridge wrote ${out.length} bytes that do not parse: ${err.message}`)
+  console.error(`[graph] tail: ${JSON.stringify(out.slice(-60))}`)
+  if (out.length > 131072) {
+    console.error('[graph] over 128KB and truncated: this is the pre-drain stdout bug, not a tree problem')
+  }
+  process.exit(1)
+}
 const { families, records, edges, violations = [], warnings = [] } = verdict
 
 if (edges === 0) {

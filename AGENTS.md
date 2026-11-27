@@ -132,13 +132,39 @@ refusal rather than a convention. Three files carry it:
   that returns bare strings reads zero edges and reports a clean lint over nothing, so the
   edge count is the check that the gate is looking at the tree at all.
 
-The reader reports `idDeclared: false`: no record carries an `id` field, and tresridge's
-`filename-id-mismatch` compares stems with `.tres` stripped regardless of the reader's
-suffix, so a declared id would refuse every record in the tree.
+The reader reports `idDeclared: false`: no record carries an `id` field, and the filename
+is the id. (Under tresridge 1.1.0 a declared id would also be refused outright -
+`filename-id-mismatch` stripped `.tres` whatever the reader's suffix was. The next release
+fixes that; the tree does not need the second opinion either way.)
 
 Add a new kind and the declaration needs a family row; add a reference field and it needs
-edge rows for every family that carries it. `tresridge graph data/entries --reader
-tools/tres-reader.mjs` re-derives a draft if that is easier than editing by hand.
+edge rows for every family that carries it.
+
+#### The pin, and the bump
+
+`tools/lint-graph.mjs` pins `tresridge@1.1.0` in one constant. An audit is a gate, so it
+must not move under us - but a gate on a version that cannot report is not a gate either,
+so that line moves with a release and nothing else does.
+
+The next release carries eight fixes found by running this gate against this tree. The
+verdict here does not change with them: 8 families, 198 records, 1119 edges, 0 violations,
+checked against the patched build before it was published. The bump is one line and one
+`npm run lint:graph`.
+
+Two things become available with it, both verified clean on this tree:
+
+- A drift gate:
+  `node bin/cli.mjs graph data/entries --reader tools/tres-reader.mjs --against data/relations.json`
+  answers `0 added, 0 removed, 0 changed, 1 not inferable` - the `fallacies` family carries
+  no `confused_with` values, so the naming rule cannot see that row, which is not drift.
+  Add it to `verify` in the same commit as the bump.
+- A large `--json` verdict is no longer cut off at ~146KB on a pipe. Under 1.1.0 a bad
+  enough afternoon in the tree broke the gate with a `JSON.parse` error instead of
+  reporting it; `tools/lint-graph.mjs` now says so in words if it ever happens.
+
+Never let `graph --out` write `data/relations.json`: inference cannot see `related` or
+`to` (they are not `*_id`), so the draft declares no edges and a lint against it is clean
+over an empty graph. The `edges === 0` guard in the wrapper is what catches that.
 
 ## The eyes (`labs/.eyes/`)
 

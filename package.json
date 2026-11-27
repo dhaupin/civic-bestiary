@@ -1,5 +1,5 @@
 {
-  "name": "civicbestiary",
+  "name": "civic-bestiary",
   "private": true,
   "type": "module",
   "description": "The Civic Bestiary - a field guide to the characters of the body politic, generated from one dataset into a book, a README and a prestruct-prerendered static site.",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhaupin/civicbestiary.git"
+    "url": "git+https://github.com/dhaupin/civic-bestiary.git"
   },
   "engines": {
     "node": ">=20.19"
