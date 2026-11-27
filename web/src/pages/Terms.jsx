@@ -10,7 +10,7 @@ import site, { routeMeta } from '../site.js'
 import Email from '../components/Email.jsx'
 
 const VERSION = '1.0'
-const EFFECTIVE = '27 November 2026'
+const EFFECTIVE = 'November 27, 2026'
 
 const SECTIONS = [
   {
