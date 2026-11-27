@@ -53,7 +53,8 @@ npm run check               # CI gate: all three --check runs, plus pack lint
 
 npm run audit               # poststruct over web/dist: head/site/links/i18n/a11y/language + our pack
 npm run lint:packs          # packstruct lint over packs/ --deep
-npm run verify              # check + build + audit + eyes, end to end
+npm run lint:graph          # tresridge over data/entries: every declared edge resolves
+npm run verify              # check + build + audit + graph + eyes, end to end
 
 npm run eyes                # browserless: every committed baseline is explained by a ledger row
 npm run eyes:look           # capture the whole matrix into labs/.eyes-candidates/ (needs a browser)
@@ -113,6 +114,31 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
 One build warning is expected and harmless: `[IMPORT_IS_UNDEFINED] Import 'default' will always
 be undefined` at `src/hooks/usePageMeta.js`, from the deliberate v6/v7 interop shim in that file.
 It does not fail the build; do not "fix" it by deleting the fallback.
+
+### The relation gate (`npm run lint:graph`)
+
+`build.py` walks the graph in Python. `tresridge` walks the same graph from outside the
+build, against a written declaration, which is what makes an undeclared or dangling edge a
+refusal rather than a convention. Three files carry it:
+
+- `data/relations.json` is the declaration: the eight families, and the three reference
+  fields every record may carry - `related` (`refs`), `confused_with[].term` and
+  `edges[].to` (`nested`), each targeting all eight families. Fallacies declare no `edges`.
+- `tools/tres-reader.mjs` is the reader that lets tresridge read JSON. It also owns the one
+  mapping the grammar cannot know: records author a reference as a **term** while an id is
+  a **filename stem**, so the reader indexes `term` and `aliases` and emits the id. A value
+  that does not resolve is emitted as written, which is why the lint can still refuse it.
+- `tools/lint-graph.mjs` runs the lint and refuses a verdict that counted no edges. A reader
+  that returns bare strings reads zero edges and reports a clean lint over nothing, so the
+  edge count is the check that the gate is looking at the tree at all.
+
+The reader reports `idDeclared: false`: no record carries an `id` field, and tresridge's
+`filename-id-mismatch` compares stems with `.tres` stripped regardless of the reader's
+suffix, so a declared id would refuse every record in the tree.
+
+Add a new kind and the declaration needs a family row; add a reference field and it needs
+edge rows for every family that carries it. `tresridge graph data/entries --reader
+tools/tres-reader.mjs` re-derives a draft if that is easier than editing by hand.
 
 ## The eyes (`labs/.eyes/`)
 

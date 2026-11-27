@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    {
+      "key": "species",
+      "schema": "",
+      "idPrefix": ""
+    },
+    {
+      "key": "moves",
+      "schema": "",
+      "idPrefix": ""
+    },
+    {
+      "key": "abilities",
+      "schema": "",
+      "idPrefix": ""
+    },
+    {
+      "key": "habitats",
+      "schema": "",
+      "idPrefix": ""
+    },
+    {
+      "key": "buffs",
+      "schema": "",
+      "idPrefix": ""
+    },
+    {
+      "key": "fallacies",
+      "schema": "",
+      "idPrefix": ""
+    },
+    {
+      "key": "remedies",
+      "schema": "",
+      "idPrefix": ""
+    },
+    {
+      "key": "keystones",
+      "schema": "",
+      "idPrefix": ""
+    }
+  ],
+  "edges": [
+    {
+      "family": "species",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "species",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "species",
+      "field": "edges[].to",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "moves",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "moves",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "moves",
+      "field": "edges[].to",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "abilities",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "abilities",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "abilities",
+      "field": "edges[].to",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "habitats",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "habitats",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "habitats",
+      "field": "edges[].to",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "buffs",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "buffs",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "buffs",
+      "field": "edges[].to",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "fallacies",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "fallacies",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "remedies",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "remedies",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "remedies",
+      "field": "edges[].to",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "keystones",
+      "field": "related",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "refs",
+      "required": true
+    },
+    {
+      "family": "keystones",
+      "field": "confused_with[].term",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    },
+    {
+      "family": "keystones",
+      "field": "edges[].to",
+      "target": [
+        "species",
+        "moves",
+        "abilities",
+        "habitats",
+        "buffs",
+        "fallacies",
+        "remedies",
+        "keystones"
+      ],
+      "kind": "nested",
+      "required": true
+    }
+  ]
+}
