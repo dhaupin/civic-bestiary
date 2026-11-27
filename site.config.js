@@ -48,6 +48,7 @@ export default {
   nav: [
     { label: 'Field guide', to: '/guide/', group: 'site' },
     { label: 'Fallacies', to: '/fallacies/', group: 'site' },
+    { label: 'Latest', to: '/latest/', group: 'site' },
     { label: 'About', to: '/about/', group: 'site' },
   ],
   footerExtras: [
@@ -78,6 +79,16 @@ export default {
         title: 'About the guide | The Civic Bestiary',
         description:
           'What the Civic Bestiary is, how the entries are built, and the rules that keep it from becoming a list of insults.',
+      },
+    },
+    {
+      path: '/latest/',
+      priority: '0.6',
+      changefreq: 'weekly',
+      meta: {
+        title: 'Latest | The Civic Bestiary',
+        description:
+          'New entries as they land, and notes on the ones already in the guide - the chronology of the bestiary, newest first.',
       },
     },
     {
