@@ -433,7 +433,19 @@ how a post reaches an entry from inside a sentence.
 an entry another release already claimed, claims entries from a `note`, repeats a
 term, uses a filename that does not match `<date>-<slug>.json`, omits the UTC offset,
 carries an em dash or a curly quote, or ships an empty body. A `note` that wants to
-claim entries is a `release`.
+claim entries is a `release`. A post edited after publication may carry `updated`; the
+build refuses one without a UTC offset or one earlier than `published`, and the value
+becomes the `BlogPosting` `dateModified` and the feed's `<updated>`.
+
+### Backfilling a round
+
+The log began mid-history, so the earlier rounds were reconstructed from the merges
+that landed them: `git diff --diff-filter=A <merge>^1 <merge> -- data/entries/` is the
+exact set the round added, and the merge timestamp with its offset is the `published`
+value. A backfilled post is an ordinary `release` and claims its entries like any
+other. Two rounds written up as one session share a post, which then takes the later
+timestamp. The 97-record import of 2026-11-24 02:21 is deliberately not written up: it
+was a build, not a session, and the pending bucket is the honest place for it.
 
 ### The hybrid half
 
@@ -462,7 +474,10 @@ position is not a recency signal.
 
 Save it as `data/releases/2026-11-26-three-ways-of-not-answering.json`, run
 `python3 build_site.py`, then `npm run build`. The post gets its own route, its own
-Open Graph card, a `BlogPosting` node in the graph, and an entry in the feed.
+Open Graph card, a `BlogPosting` node in the graph (`image`, `wordCount`,
+`articleSection`, and the claimed entries as `about`), and an entry in the feed. The
+`Blog` node on `/latest/` lists every post, so a new one is discoverable from the
+collection page as well as its own URL.
 
 ## House style
 
