@@ -1,0 +1,47 @@
+{
+  "term": "Depositioning",
+  "kind": "move",
+  "chapter": "hypocrisy-revisionism",
+  "position": 25,
+  "part_of_speech": "noun / verb",
+  "ipa": "/ˌdɛp.əˈzɪʃ.ən.ɪŋ/",
+  "etymology": "Blend of \"deposition\" + \"de-position\" - the move of taking a witness out of their position, one objection at a time.",
+  "trigger": "A deposition where the witness's account is the thing that would settle it, and the clock belongs to the side that talks.",
+  "tell": "The objections are spoken, not reserved: form, foundation, asked and answered, vague - each one a pause, each pause a page, and the instruction not to answer arrives before the answer does.",
+  "counter": "Object in one word and let the answer land on the record: objection, form, then the answer, then a ruling at the end. The derailment needs the objection to be a speech, and no rule requires a speech.",
+  "confused_with": [
+    {
+      "term": "Sealioning",
+      "tell": "The sealion will not accept an answer and keeps asking; the depositioning will not allow an answer and keeps objecting."
+    },
+    {
+      "term": "Heckler's veto",
+      "tell": "The heckler's veto stops the room; the depositioning stops the record, and the room goes on looking orderly."
+    }
+  ],
+  "senses": [
+    "The move of derailing a deposition from inside the format: speaking objections, instructions not to answer, a break every twenty minutes, so that six hours of testimony produce a transcript with nothing in it that can be read out.",
+    "It works because the record is the product, and a record can be made useless without being made wrong. Nothing in the transcript is false; it is only unreadable, and unreadable is enough."
+  ],
+  "notes": [],
+  "example": "*\"Six hours of **depositioning** produced four hundred pages, and the only complete answer in them was the witness's name.\"*",
+  "related": [
+    "Subpoenado",
+    "The transcript"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Argument from ignorance"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 2
+  },
+  "cite": {
+    "label": "Legal Information Institute · Rule 30. Depositions by Oral Examination",
+    "url": "https://www.law.cornell.edu/rules/frcp/rule_30"
+  }
+}

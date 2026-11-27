@@ -1,0 +1,42 @@
+{
+  "term": "Plead the Fifth",
+  "kind": "move",
+  "chapter": "hypocrisy-revisionism",
+  "position": 24,
+  "part_of_speech": "verb phrase",
+  "ipa": "/pliːd ðə fɪfθ/",
+  "etymology": "From the Fifth Amendment, which says no person shall be compelled to witness against himself - a right, and now a move.",
+  "trigger": "A question whose answer would be evidence, asked in a room where nobody is being prosecuted.",
+  "tell": "The answer arrives as a procedure: on the advice of counsel, I decline to answer. It is the same sentence for every question, including the ones that would have cleared him, and it is never followed by a second sentence.",
+  "counter": "Take the questions the privilege cannot reach - the documents, the staff, the same question to the next witness - and read the refusal into the record by name. The Fifth protects the answer, not the fact that he would not give one.",
+  "confused_with": [
+    {
+      "term": "Unawares",
+      "tell": "The unawares claims he never knew; the Fifth says he knows and will not say. One leaves a hole in the record, the other puts a wall where the record should be."
+    }
+  ],
+  "senses": [
+    "The move of answering with a right: the question is put, and what comes back is the Fifth Amendment, in the voice of counsel, identically, for every question on the list.",
+    "It works because the privilege is real, and it is his, and it turns a refusal into a status - the silence is lawful, so it cannot be held against him, and it cannot be read either. The right is old and this guide is not against it; the move is what the right becomes when it is the only sentence in the answer, offered in a hearing where what is at stake is a headline, not a cell."
+  ],
+  "notes": [],
+  "example": "*\"Forty questions and forty times he **pleaded the Fifth** - including the one about a meeting that was already in his own calendar.\"*",
+  "related": [
+    "Subpoenado"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 3,
+    "blowback": 3
+  },
+  "cite": {
+    "label": "Legal Information Institute · Fifth Amendment",
+    "url": "https://www.law.cornell.edu/constitution/fifth_amendment"
+  }
+}
