@@ -1,0 +1,35 @@
+{
+  "type": "release",
+  "published": "2026-11-24T02:52:11-05:00",
+  "slug": "the-procedural-layer",
+  "title": "The procedural layer",
+  "lede": "Fifteen entries that are not habits. They are the machinery that makes the habit affordable.",
+  "entries": [
+    "Access",
+    "Astroturfing",
+    "Cloture",
+    "Consent decree",
+    "Discharge petition",
+    "Flood the zone",
+    "Heckler's veto",
+    "Hot mic",
+    "Judge shopping",
+    "Motte hop",
+    "NDA",
+    "Perp walk",
+    "Pseudo-event",
+    "Qualified immunity",
+    "SLAPP"
+  ],
+  "mentions": [
+    "School board meeting",
+    "Motte-and-bailey fallacy"
+  ],
+  "body": [
+    "Fifteen entries, and the tone changes. [SLAPP](/abilities/slapp/) is a suit filed not to win but to cost. [Qualified immunity](/abilities/qualified-immunity/) shields an official unless the right was clearly established at the time. [NDA](/abilities/nda/) converts a fact into a liability. None of these is a personality. They are the machinery that makes the personality affordable.",
+    "Half the round is that machinery, and the other half is the machinery that can still close the gap. [Cloture](/abilities/cloture/) closes debate. [Discharge petition](/abilities/discharge-petition/) escapes a committee that will not report. [Consent decree](/abilities/consent-decree/) turns a settlement into an order a judge enforces. [Judge shopping](/abilities/judge-shopping/) is the same procedure used from the other end: file where the bench is favourable.",
+    "Four moves need a crowd. [Astroturfing](/moves/astroturfing/) manufactures one, [flood the zone](/moves/flood-the-zone/) drowns it, [motte hop](/moves/motte-hop/) retreats inside it, and the [heckler's veto](/moves/hecklers-veto/) makes speaking impossible rather than answering. Two habitats stage it: the [perp walk](/habitats/perp-walk/) before a jury has been chosen, and the [pseudo-event](/habitats/pseudo-event/) that exists in order to be covered.",
+    "Two conditions finish the list, and both are about standing. [Access](/buffs/access/) is being allowed in: the interview, the background call, the standing that makes a question possible. A [hot mic](/buffs/hot-mic/) is the same standing without the control.",
+    "A guide that only names the creature is a list of insults. The procedural layer is what makes it usable, because a mechanism has a name and a name can be argued with."
+  ]
+}
