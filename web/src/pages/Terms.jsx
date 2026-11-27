@@ -185,7 +185,7 @@ const SECTIONS = [
     id: 'contact',
     title: '22. Contact, and corrections',
     body: [
-      <>Write to <Email user="legal" domain="creadev.org" />, or open an issue in the project repository.</>,
+      <>Write to <Email user="hello" domain="creadev.org" />, or open an issue in the project repository.</>,
       'If you believe an entry identifies you or your organisation and gets something wrong, say which page and which sentence. We will look at it, and correct or remove what is wrong. A guide that cannot be corrected is not a guide.',
       'For a copyright or trademark complaint, write with the page, the material in question, and the basis of the claim. We will review it and remove what should not be there.',
     ],
