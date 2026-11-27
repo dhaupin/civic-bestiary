@@ -13,12 +13,12 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 192,
-  "coinages": 98,
+  "entries": 193,
+  "coinages": 99,
   "fallacies": 61,
   "chapters": 6,
   "kinds": {
-    "species": 27,
+    "species": 28,
     "move": 18,
     "ability": 24,
     "habitat": 15,
@@ -368,6 +368,7 @@ export const chapters = [
       "equivangelist",
       "gallopologist",
       "decorumancer",
+      "ricochetoric",
       "comment-section",
       "bothsidesing",
       "vaguebooking",
@@ -3502,6 +3503,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/",
@@ -3537,6 +3546,11 @@ export const entries = [
         "id": "performative-identity",
         "roman": "I",
         "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       },
       {
         "id": "fearmongering-grift",
@@ -4857,6 +4871,13 @@ export const entries = [
         "tell": "The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast.",
         "path": "/species/sophistroll/",
         "kind": "species"
+      },
+      {
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "tell": "The gallopologist wants the clock to run out; the ricochetoric wants the subject never to settle. Both win by exhaustion, one of the format, the other of the question.",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
       }
     ],
     "related": [
@@ -5057,6 +5078,136 @@ export const entries = [
     "committedFrom": []
   },
   {
+    "term": "Ricochetoric",
+    "slug": "ricochetoric",
+    "kind": "species",
+    "kindLabel": "Species",
+    "source": "data/entries/species/ricochetoric.json",
+    "path": "/species/ricochetoric/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌrɪk.ə.ʃeɪˈtɒr.ɪk/",
+    "position": 10,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Blend of \"ricochet\" + \"rhetoric\" - the claim that bounces off the argument and comes back as a new subject.",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A live exchange where one side is answering and the other is producing, and the clock is on nobody's side."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "\"And another thing -\""
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "One claim per sentence, none of them sourced",
+          "Answers a refutation with a new claim, not a defence",
+          "Never returns to the claim you pinned"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Make them pick one and stay on it: which of these are you actually claiming? A ricochet cannot be answered, only stopped, and it has to be stopped before the second bounce."
+      }
+    ],
+    "voice": "\"And another thing -\"",
+    "senses": [
+      "The pattern of firing claims faster than any of them can be answered, so a refuted one is never withdrawn: it is reloaded as the next subject.",
+      "It works because a claim only costs something when its owner has to stand behind it, and here nothing is owned - every miss is free, every answer is a fresh opening, and the exchange never runs out of things to be about."
+    ],
+    "notes": [],
+    "example": "\"He had an answer for every question and a question for every answer, and by the third exchange nobody could remember which of his **ricochetoric** shots was still in play.\"",
+    "cite": null,
+    "summary": "The pattern of firing claims faster than any of them can be answered, so a refuted one is never withdrawn: it is reloaded as the next subject.",
+    "og": "/og/species/ricochetoric.png?v=a4901bee",
+    "definition": "The pattern of firing claims faster than any of them can be answered, so a refuted one is never withdrawn: it is reloaded as the next subject.",
+    "confusedWith": [
+      {
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "tell": "Both produce volume; the gallopologist is racing the clock to the end of the format, the ricochetoric is keeping a subject in the air so that none of them has to land.",
+        "path": "/species/gallopologist/",
+        "kind": "species"
+      }
+    ],
+    "related": [
+      {
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/",
+        "kind": "species"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Ad nauseam",
+        "slug": "ad-nauseam",
+        "path": "/fallacies/ad-nauseam/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "performs",
+        "label": "Performs",
+        "term": "Flood the zone",
+        "slug": "flood-the-zone",
+        "path": "/moves/flood-the-zone/",
+        "kind": "move"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
     "term": "Comment section",
     "slug": "comment-section",
     "kind": "habitat",
@@ -5068,7 +5219,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈkɒm.ɛnt ˌsɛk.ʃən/",
-    "position": 10,
+    "position": 11,
     "sort": {
       "impact": 3,
       "abuse": 5,
@@ -5319,7 +5470,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈbəʊθ.saɪ.dɪŋ/",
-    "position": 11,
+    "position": 12,
     "sort": {
       "impact": 4,
       "abuse": 5,
@@ -5449,7 +5600,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈveɪɡ.bʊk.ɪŋ/",
-    "position": 12,
+    "position": 13,
     "sort": {
       "impact": 3,
       "abuse": 4,
@@ -5563,7 +5714,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/rɪˈsiːt.bɒm/",
-    "position": 13,
+    "position": 14,
     "sort": {
       "impact": 3,
       "abuse": 4,
@@ -5674,7 +5825,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/dɛd kæt/",
-    "position": 14,
+    "position": 15,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -5786,7 +5937,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈtraɪ.əl bəˈluːn/",
-    "position": 15,
+    "position": 16,
     "sort": {
       "impact": 3,
       "abuse": 3,
@@ -5898,7 +6049,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈfraɪ.deɪ njuːz dʌmp/",
-    "position": 16,
+    "position": 17,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -6015,7 +6166,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈæs.trəʊˌtɜː.fɪŋ/",
-    "position": 17,
+    "position": 18,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -6127,7 +6278,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈmɒt hɒp/",
-    "position": 18,
+    "position": 19,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -6247,7 +6398,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈhɛk.ləz ˈviː.təʊ/",
-    "position": 19,
+    "position": 20,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -6367,7 +6518,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "verb phrase / gerund",
     "ipa": "/flʌd ðə zəʊn/",
-    "position": 20,
+    "position": 21,
     "sort": {
       "impact": 5,
       "abuse": 4,
@@ -6435,6 +6586,12 @@ export const entries = [
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/",
         "kind": "habitat"
+      },
+      {
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -6456,6 +6613,14 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "performs",
+        "label": "Performed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
       {
         "rel": "houses",
         "label": "Found in",
@@ -6487,7 +6652,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ɡʊd kɒp bæd kɒp/",
-    "position": 21,
+    "position": 22,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -7910,6 +8075,14 @@ export const entries = [
         "term": "Biasographer",
         "slug": "biasographer",
         "path": "/species/biasographer/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
         "kind": "species"
       },
       {
@@ -17520,6 +17693,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/",
@@ -17547,6 +17728,11 @@ export const entries = [
         "id": "performative-identity",
         "roman": "I",
         "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       },
       {
         "id": "fearmongering-grift",
@@ -20333,6 +20519,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Receiptbomb",
         "slug": "receiptbomb",
         "path": "/moves/receiptbomb/",
@@ -20483,6 +20677,14 @@ export const entries = [
         "slug": "filibluster",
         "path": "/abilities/filibluster/",
         "kind": "ability"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
       },
       {
         "rel": "commits",
