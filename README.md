@@ -4,7 +4,7 @@
 
 # The Civic Bestiary
 
-[![verify](https://github.com/dhaupin/civicbestiary/actions/workflows/verify.yml/badge.svg)](https://github.com/dhaupin/civicbestiary/actions/workflows/verify.yml)
+[![verify](https://github.com/dhaupin/civic-bestiary/actions/workflows/verify.yml/badge.svg)](https://github.com/dhaupin/civic-bestiary/actions/workflows/verify.yml)
 
 A field guide to the characters of the body politic: portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization - plus the documented fallacies they commit and the procedures that answer them.
 
@@ -58,8 +58,8 @@ The relation graph is checked, not decorative. An edge has to point at a term th
 Node 20.19 or newer (see `web/.nvmrc`) and Python 3.12. The generators are stdlib-only, so there is nothing to install on the Python side.
 
 ```bash
-git clone https://github.com/dhaupin/civicbestiary.git
-cd civicbestiary
+git clone https://github.com/dhaupin/civic-bestiary.git
+cd civic-bestiary
 npm run install:web   # site dependencies
 npm run build         # data -> LEXICON.md -> web/src/data -> web/dist
 npm run preview       # serves the built site on http://localhost:4173

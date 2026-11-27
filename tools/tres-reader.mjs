@@ -92,8 +92,9 @@ export const reader = {
     }
 
     // No record carries an `id` field: the filename IS the id, so the stem needs no
-    // second opinion. Declaring one would also trip `filename-id-mismatch`, whose
-    // stem comparison strips `.tres` rather than the reader's suffix.
+    // second opinion. Declaring one would hand `filename-id-mismatch` a comparison this
+    // tree does not need - and on tresridge 1.1.0 that rule strips `.tres` whatever the
+    // reader's suffix is, so the declaration would refuse every record instead.
     return { id: basename(file, '.json'), idDeclared: false, scriptClass: '', fields, nested }
   },
 }
