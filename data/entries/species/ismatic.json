@@ -1,0 +1,65 @@
+{
+  "term": "Ismatic",
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 6,
+  "part_of_speech": "noun",
+  "ipa": "/ˌɪzˈmæt.ɪk/",
+  "etymology": "Blend of \"-ism\" + \"automatic\" - the label that fires before anything has been read.",
+  "occasion": "A proposal that could be argued on its merits, and a room where the cheapest available reply is a word that ends the argument.",
+  "call": "\"Sounds like socialism to me.\"",
+  "tell": [
+    "Uses the word for a policy, a person and a sandwich in the same thread",
+    "Cannot define it when asked, but is certain who has it",
+    "The accusation grows as the argument is won"
+  ],
+  "counter": "Ask for the definition, then the instance: which policy, and which clause? An accusation that has to name a target stops being one.",
+  "confused_with": [
+    {
+      "term": "Ricochetoric",
+      "tell": "Both fire without aiming; the ricochetoric fires claims, the ismatic fires labels, and neither has to defend a shot."
+    },
+    {
+      "term": "Xenophobricator",
+      "tell": "The xenophobricator blames the newest arrivals for a failure; the ismatic blames the proposal with the word that belongs to them. Both skip the mechanism."
+    }
+  ],
+  "senses": [
+    "The pattern of accusing by label: socialist, communist, Marxist, groomer, woke - the word is fired at whatever is in front of it, so the accusation never has to survive a definition.",
+    "It works because the label is a loyalty test and not a claim: \"socialist\" here means \"not one of us\", which cannot be checked and therefore cannot be answered."
+  ],
+  "notes": [],
+  "example": "*\"He called the library levy socialist, the zoning change communist and the flu shot Marxist, and could not define any of the three - a textbook **ismatic**, firing the word before reading the thing.\"*",
+  "related": [
+    "Ricochetoric",
+    "Shibbolether",
+    "Xenophobricator"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Bulverism"
+    },
+    {
+      "rel": "commits",
+      "to": "Poisoning the well"
+    },
+    {
+      "rel": "commits",
+      "to": "Kafka trap"
+    },
+    {
+      "rel": "commits",
+      "to": "Association fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Thought-terminating cliché"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 3
+  }
+}
