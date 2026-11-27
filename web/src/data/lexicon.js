@@ -4420,8 +4420,8 @@ export const entries = [
     ],
     "voice": "Questions shaped like accusations - \"just asking\" - and never the claim itself. Ask for evidence and it retreats behind the question.",
     "senses": [
-      "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\" solely for self-gratification and plausible deniability - immediately retreating behind *\"Hey, I'm just asking questions!\"* the second anyone demands accountability.",
-      "Weaponizing feigned curiosity to plant poisonous insinuations in an audience's head without ever having to back them up with evidence, facts, or the courage to own the claim outright."
+      "The move of asking a question shaped like a smear: the loaded premise, the invented number, the \"people are saying\" - phrased as inquiry so the asker never has to own the claim.",
+      "It works because a question costs nothing to ask and something to refuse, and it is the refusal that gets quoted - so the smear travels inside the question and the burden lands on whoever has to deny it."
     ],
     "notes": [],
     "example": "\"Instead of presenting a shred of evidence, the podcast host spent two hours **JAQing off** about rigged weather machines before hiding behind 'I'm not saying it's true, I'm just asking questions!'\"",
@@ -4429,9 +4429,9 @@ export const entries = [
       "label": "Wikipedia · Sealioning",
       "url": "https://en.wikipedia.org/wiki/Sealioning"
     },
-    "summary": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\"...",
-    "og": "/og/move/jaqing-off.png?v=c4345ab5",
-    "definition": "The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as \"innocent questions,\" solely for self-gratification and plausible deniability - immediately retreating behind \"Hey, I'm just asking questions!\" the second anyone demands accountability.",
+    "summary": "The move of asking a question shaped like a smear: the loaded premise, the invented number, the \"people are saying\" - phrased as inquiry...",
+    "og": "/og/move/jaqing-off.png?v=b6b46a8b",
+    "definition": "The move of asking a question shaped like a smear: the loaded premise, the invented number, the \"people are saying\" - phrased as inquiry so the asker never has to own the claim.",
     "confusedWith": [
       {
         "term": "Sophistroll",
@@ -5395,15 +5395,16 @@ export const entries = [
         "tell": "Both produce volume; the gallopologist is racing the clock to the end of the format, the ricochetoric is keeping a subject in the air so that none of them has to land.",
         "path": "/species/gallopologist/",
         "kind": "species"
-      }
-    ],
-    "related": [
+      },
       {
         "term": "Ismatic",
         "slug": "ismatic",
+        "tell": "The ismatic fires one label at a thing; the ricochetoric fires claims until nobody remembers the thing.",
         "path": "/species/ismatic/",
         "kind": "species"
-      },
+      }
+    ],
+    "related": [
       {
         "term": "Sophistroll",
         "slug": "sophistroll",
@@ -5515,7 +5516,7 @@ export const entries = [
       "It rewards the reply that travels over the reply that is right. Because the cheapest sentence to write is a verdict, the habitat selects for verdicts - which is why so many of the fallacies filed at the end of this chapter are at home here."
     ],
     "notes": [],
-    "example": "\"Four hundred comments under a budget story, and not one of them about the budget - three about the mayor's brother, two hundred about each other, and a bot selling a supplement.\"",
+    "example": "\"Four hundred comments under a budget story, and not one of them about the budget: the **comment section** had three about the mayor's brother, two hundred about each other, and a bot selling a supplement.\"",
     "cite": null,
     "summary": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.",
     "og": "/og/habitat/comment-section.png?v=4bad08b1",
@@ -5775,6 +5776,13 @@ export const entries = [
         "tell": "The equivangelist preaches the symmetry as a virtue; the bothsideser performs it as a booking decision.",
         "path": "/species/equivangelist/",
         "kind": "species"
+      },
+      {
+        "term": "Shibbolether",
+        "slug": "shibbolether",
+        "tell": "The bothsideser hands you two sides and calls it fairness; the shibbolether hands you one and calls it loyalty.",
+        "path": "/species/shibbolether/",
+        "kind": "species"
       }
     ],
     "related": [
@@ -5789,12 +5797,6 @@ export const entries = [
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/",
         "kind": "habitat"
-      },
-      {
-        "term": "Shibbolether",
-        "slug": "shibbolether",
-        "path": "/species/shibbolether/",
-        "kind": "species"
       }
     ],
     "edges": [
@@ -6765,6 +6767,14 @@ export const entries = [
         "slug": "the-moderator",
         "path": "/keystones/the-moderator/",
         "kind": "keystone"
+      },
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
       }
     ],
     "committedFrom": []
@@ -10000,15 +10010,15 @@ export const entries = [
     ],
     "voice": "\"I'm socially liberal, but -\" arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable.",
     "senses": [
-      "*(noun)* An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
-      "*(adjective)* Exhibiting a submissive fascination with unchecked authority - eagerly surrendering personal dignity, critical thinking, and civic principles to worship powerful figures who openly hold them in contempt."
+      "The condition of finding authoritarianism interesting rather than alarming: the strongman interview watched twice, the emergency powers explained as efficiency, the banned book ordered \"for research\".",
+      "It works because curiosity is the one enthusiasm nobody can object to - the bootcurious are only ever looking, and looking never has to become agreement."
     ],
     "notes": [],
     "example": "\"For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests.\"",
     "cite": null,
-    "summary": "An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently...",
-    "og": "/og/buff/bootcurious.png?v=ff8f6483",
-    "definition": "An individual who claims to be an \"independent thinker,\" \"centrist,\" or \"anti-establishment rebel,\" yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.",
+    "summary": "The condition of finding authoritarianism interesting rather than alarming: the strongman interview watched twice, the emergency powers explained...",
+    "og": "/og/buff/bootcurious.png?v=53dab681",
+    "definition": "The condition of finding authoritarianism interesting rather than alarming: the strongman interview watched twice, the emergency powers explained as efficiency, the banned book ordered \"for research\".",
     "confusedWith": [
       {
         "term": "Capitulectual",
@@ -10125,15 +10135,15 @@ export const entries = [
     ],
     "voice": "Blatant, unbothered, on the record: \"It's not illegal,\" delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest.",
     "senses": [
-      "*(noun)* The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.",
-      "*(verb)* Aggressively projecting one's own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity."
+      "The move of doing the thing in the open while accusing the other side of it: the family contract announced at a press conference, the token launch plugged from the podium, the indictment called a witch hunt in the week it lands.",
+      "It works because an accusation is louder than a filing and it arrives first - by the time the receipts are public, the audience has already attached the crime to the other side, and every denial sounds like the denial the other side made."
     ],
     "notes": [],
     "example": "\"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**.\"",
     "cite": null,
-    "summary": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing...",
-    "og": "/og/move/crookmaxxing.png?v=f017f72c",
-    "definition": "The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.",
+    "summary": "The move of doing the thing in the open while accusing the other side of it: the family contract announced at a press conference, the token launch...",
+    "og": "/og/move/crookmaxxing.png?v=90230580",
+    "definition": "The move of doing the thing in the open while accusing the other side of it: the family contract announced at a press conference, the token launch plugged from the podium, the indictment called a witch hunt in the week it lands.",
     "confusedWith": [
       {
         "term": "Critizen",
@@ -13133,6 +13143,13 @@ export const entries = [
         "tell": "The xenophobricator needs a specific outsider; the dramagogue only needs a crowd.",
         "path": "/species/dramagogue/",
         "kind": "species"
+      },
+      {
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "tell": "The xenophobricator names a suspect; the ismatic names a slogan. One blames a group for the outcome, the other blames the outcome with a group's word.",
+        "path": "/species/ismatic/",
+        "kind": "species"
       }
     ],
     "related": [
@@ -14202,7 +14219,7 @@ export const entries = [
       "It rewards the claim that fits before the break. A false claim costs nothing inside ninety seconds and an answer costs most of them, so the format systematically favours the gallop over the reply."
     ],
     "notes": [],
-    "example": "\"Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant.\"",
+    "example": "\"Ninety seconds, four panellists, eleven claims on the **cable panel**, and a hard break before anyone could ask what the second one meant.\"",
     "cite": {
       "label": "Wikipedia · Panel discussion",
       "url": "https://en.wikipedia.org/wiki/Panel_discussion"
@@ -14418,7 +14435,7 @@ export const entries = [
       "It exploits trust rather than speed. Nobody fact-checks their aunt, so the habitat runs almost entirely on Appeals to Authority and Pity, and the correction that would fix it never gets forwarded."
     ],
     "notes": [],
-    "example": "\"Three forwards before breakfast: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link.\"",
+    "example": "\"Three forwards before breakfast in the **group chat**: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link.\"",
     "cite": {
       "label": "Wikipedia · Group chat",
       "url": "https://en.wikipedia.org/wiki/Group_chat"
@@ -15747,14 +15764,6 @@ export const entries = [
         "kind": "species"
       },
       {
-        "rel": "commits",
-        "label": "Commits",
-        "term": "Argumentum ad populum",
-        "slug": "argumentum-ad-populum",
-        "path": "/fallacies/argumentum-ad-populum/",
-        "kind": "fallacy"
-      },
-      {
         "rel": "houses",
         "label": "Houses",
         "term": "Appeal to force",
@@ -15836,6 +15845,14 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
+      },
       {
         "rel": "counters",
         "label": "Countered by",
@@ -20435,14 +20452,6 @@ export const entries = [
         "kind": "habitat"
       },
       {
-        "rel": "commits",
-        "label": "Committed by",
-        "term": "Rally",
-        "slug": "rally",
-        "path": "/habitats/rally/",
-        "kind": "habitat"
-      },
-      {
         "rel": "houses",
         "label": "Found in",
         "term": "Rally",
@@ -23061,6 +23070,22 @@ export const entries = [
         "slug": "precedentarian",
         "path": "/species/precedentarian/",
         "kind": "species"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/",
+        "kind": "move"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/",
+        "kind": "habitat"
       }
     ],
     "backlinks": [
