@@ -436,7 +436,19 @@ appending.
   project as a custom domain. It is baked into canonicals, OG tags, JSON-LD, `sitemap.xml`, and
   `llms.txt`. Changing it means changing that one line in `site.config.js` and rebuilding - not
   editing the baked files. `civicbestiary.pages.dev` still serves the same build, so it needs a
-  zone-level redirect if the duplicate host should not be indexed.
+  Bulk Redirect if the duplicate host should not be indexed - not a `_redirects` entry, since
+  that file is served by the project and the redirect has to outrank it.
+  (https://developers.cloudflare.com/pages/how-to/redirect-to-custom-domain/)
+- **The Pages project keeps its old name on purpose.** The repo is `civic-bestiary` and the
+  project is still `civicbestiary`, so the two disagree; that is the decision, not an oversight.
+  The API can rename a project - `name` is an optional body parameter on
+  `PATCH /accounts/{account_id}/pages/projects/{project_name}` - but what a rename does to a
+  live project is undocumented: whether deployment history survives, whether attached custom
+  domains stay attached, and whether the old `pages.dev` name is released are all unstated.
+  The deployment history and the historical preview URLs are the audit trail, and this repo
+  would rather keep a stale name than gamble the trail for a vanity subdomain. Deleting the
+  project instead would give the name up outright, and `pages.dev` names are global - nothing
+  guarantees the old one could be reclaimed.
 - The repo URL is authored once, in `site.config.js` (`REPO`); the nav link, the footer, and
   the JSON-LD license all derive from it. A few surfaces still carry hand-copied identity and
   will drift on a rename: `web/public/site.webmanifest`, the `aria-label` in
