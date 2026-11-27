@@ -1,0 +1,27 @@
+{
+  "type": "release",
+  "published": "2026-11-24T04:47:19-05:00",
+  "slug": "a-second-sighting",
+  "title": "A second sighting",
+  "lede": "Seven fallacies went into the reference end, and every fallacy already there got a second entry wired to it.",
+  "entries": [
+    "Kafka trap",
+    "Bulverism",
+    "McNamara fallacy",
+    "Nirvana fallacy",
+    "Base rate fallacy",
+    "Appeal to force",
+    "The fallacy fallacy"
+  ],
+  "mentions": [
+    "Heckler's veto",
+    "Plutomartyr"
+  ],
+  "body": [
+    "The seven are [Kafka trap](/fallacies/kafka-trap/), Bulverism, [McNamara fallacy](/fallacies/mcnamara-fallacy/), Nirvana fallacy, base rate fallacy, appeal to force, [the fallacy fallacy](/fallacies/the-fallacy-fallacy/). The same pass went back over the ones already filed and gave each a second sighting, a second entry that commits it in the wild.",
+    "The rule that forced the sweep: a fallacy filed on one sighting cannot be told apart from the habit of the entry that produced it. Two sightings is the smallest evidence that a move is portable, and a guide that keeps the rule can be checked from outside, because the graph either has the second edge or it does not. Every fallacy now carries at least two, so a reader can walk from the fallacy to the things that commit it instead of taking the entry's word for the pattern.",
+    "Three of the seven are the same trick at different distances. The Kafka trap makes the denial into the evidence. Bulverism answers the argument by explaining the arguer. The fallacy fallacy takes one bad argument as proof that the claim is false. All three end the argument without touching it.",
+    "The other four are about what gets weighed. McNamara counts what can be counted and files the rest as commentary. Nirvana compares a proposal to nothing and the present arrangement to nothing, so only the proposal looks expensive. The base rate fallacy weighs one vivid instance against the frequency it came from. Appeal to force prices the dissent before the merits are weighed at all.",
+    "A guide is only as good as its sightings. Two is the smallest number that is not an anecdote."
+  ]
+}
