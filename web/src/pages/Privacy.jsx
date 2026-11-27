@@ -66,7 +66,7 @@ const SECTIONS = [
     id: 'responsible',
     title: '1. Who is responsible',
     body: [
-      <>This site is published by Creadev. For data protection purposes the publisher is the controller of the little that is processed here, and can be reached at <Email user="privacy" domain="creadev.org" />.</>,
+      <>This site is published by Creadev. For data protection purposes the publisher is the controller of the little that is processed here, and can be reached at <Email user="hello" domain="creadev.org" />.</>,
       'This notice covers codex.creadev.org. It does not cover the project repository, the publisher\'s other sites, or any site we link to; each of those has its own notice.',
     ],
   },
@@ -172,7 +172,7 @@ const SECTIONS = [
     id: 'contact',
     title: '14. Contact and complaints',
     body: [
-      <>Write to <Email user="privacy" domain="creadev.org" /> for any request about your data, including access, deletion, or a correction to this notice. If you are not satisfied with the answer, you may complain to your local data protection authority.</>,
+      <>Write to <Email user="hello" domain="creadev.org" /> for any request about your data, including access, deletion, or a correction to this notice. If you are not satisfied with the answer, you may complain to your local data protection authority.</>,
     ],
   },
 ]
@@ -185,7 +185,14 @@ export default function Privacy() {
   // the effect reports what is actually stored.
   const [state, setState] = useState(null)
   useEffect(() => {
-    setState(effectiveConsent())
+    const sync = () => setState(effectiveConsent())
+    sync()
+    window.addEventListener('cb:consent-changed', sync)
+    window.addEventListener('storage', sync)
+    return () => {
+      window.removeEventListener('cb:consent-changed', sync)
+      window.removeEventListener('storage', sync)
+    }
   }, [])
 
   const choose = (analytics) => setState(saveConsent(analytics))
@@ -234,28 +241,40 @@ export default function Privacy() {
             storage.
           </p>
           <p className="legal-state">
-            Analytics:{' '}
-            <strong>
-              {state === null ? 'reading…' : state.analytics ? 'allowed' : 'off'}
-            </strong>
-            {state && (
+            {state === null ? (
+              <>Analytics: <strong>checking this browser</strong></>
+            ) : (
               <>
-                {' '}
-                <span className="sep">·</span> based on {CHOICE_LABELS[state.source] || 'your choice'}
+                Analytics: <strong>{state.analytics ? 'on' : 'off'}</strong>{' '}
+                <span className="sep">·</span> {CHOICE_LABELS[state.source] || 'your choice'}
                 {state.at ? ` · recorded ${new Date(state.at).toLocaleDateString()}` : ''}
               </>
             )}
           </p>
-          <p className="legal-actions">
-            <button type="button" className="btn btn-primary" onClick={() => choose(true)}>
-              Allow analytics
+          <p className="legal-actions consent-choice" role="group" aria-label="Analytics choice">
+            <button
+              type="button"
+              aria-pressed={state?.analytics === true}
+              className={`btn ${state?.analytics === true ? 'btn-primary' : 'btn-ghost'}`}
+              onClick={() => choose(true)}
+            >
+              Analytics on
             </button>
-            <button type="button" className="btn btn-ghost" onClick={() => choose(false)}>
-              Turn analytics off
+            <button
+              type="button"
+              aria-pressed={state?.analytics === false}
+              className={`btn ${state?.analytics === false ? 'btn-primary' : 'btn-ghost'}`}
+              onClick={() => choose(false)}
+            >
+              Analytics off
             </button>
             <button type="button" className="btn btn-ghost" onClick={openConsentBanner}>
               Show the banner again
             </button>
+          </p>
+          <p className="legal-hint">
+            The filled option is what this browser is set to right now. Either answer can be
+            changed at any time, and both are one click.
           </p>
         </div>
       </section>

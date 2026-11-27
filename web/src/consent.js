@@ -17,6 +17,11 @@
 export const CONSENT_KEY = 'cb-consent'
 export const CONSENT_VERSION = 1
 
+// Must match the purpose name in the Zaraz dashboard exactly: Zaraz addresses
+// a purpose by the name it was given there, and a name it does not know is a
+// silent no-op. The dashboard currently calls it "Google Analytics".
+export const ZARAZ_PURPOSE = 'Google Analytics'
+
 /** The browser's own refusal, if it has one. */
 export function privacySignals() {
   if (typeof navigator === 'undefined') return { gpc: false, dnt: false }
@@ -65,7 +70,7 @@ export function applyConsent(analytics) {
   const zaraz = window.zaraz
   if (zaraz && zaraz.consent && typeof zaraz.consent.set === 'function') {
     try {
-      zaraz.consent.set({ analytics: granted })
+      zaraz.consent.set({ [ZARAZ_PURPOSE]: granted })
     } catch {
       // Zaraz not ready yet; the next page load applies the stored choice.
     }
@@ -86,6 +91,16 @@ export function effectiveConsent() {
   if (stored) return { ...stored, source: 'choice' }
   const { gpc, dnt } = privacySignals()
   return { analytics: false, at: null, source: gpc ? 'gpc' : dnt ? 'dnt' : 'default' }
+}
+
+/**
+ * Zaraz is injected at the edge and may arrive after the app mounts, so the
+ * choice is applied again as it appears. Without this the first page view of a
+ * session could leave the tag blocked (or, worse, ungated) until a reload.
+ */
+export function watchZaraz(analytics, delays = [300, 1200, 3000, 8000]) {
+  if (typeof window === 'undefined') return
+  delays.forEach((delay) => setTimeout(() => applyConsent(analytics), delay))
 }
 
 /** Reopen the banner from anywhere (the privacy page, the footer). */
