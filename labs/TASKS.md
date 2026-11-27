@@ -25,6 +25,10 @@ ownership disclosure, a nonprofit newsroom) - a natural chapter V addition.
 
 ## Next
 
+- **A release post per session.** `/latest/` is live and the count at the foot of the
+  page is the prompt: when it grows, something landed without a write-up. The three
+  posts that seeded the log are the shape to copy.
+
 - **Render the contract.** `/labs/prd-codex.md` is served raw. If it becomes a
   front door, add a rendered route.
 - **Fallacy families.** The fallacies cluster on a handful of family labels; a family

@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
-"""Render the site's data module from lexicon.json.
+"""Render the site's data modules from lexicon.json and data/releases.
 
 Writes web/src/data/lexicon.js, which the React app and web/ssr.config.js both
 import. It is a JS module rather than a JSON import because prestruct loads
 ssr.config.js through plain Node ESM, where JSON imports need import
 attributes.
 
+Also writes web/src/data/releases.js (the /latest chronology) and the Atom feed
+at web/public/latest.xml, both derived from data/releases/*.json.
+
 Usage:
-    python3 build_site.py           # regenerate web/src/data/lexicon.js
-    python3 build_site.py --check   # exit 1 if the module is out of date
+    python3 build_site.py           # regenerate the modules and the feed
+    python3 build_site.py --check   # exit 1 if any of them is out of date
 """
 
 import json
@@ -16,13 +19,18 @@ import html
 import hashlib
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 from build import SCHEMA, SORTS, load, slugify
 
 ROOT = Path(__file__).parent
 OUTPUT = ROOT / "web" / "src" / "data" / "lexicon.js"
+RELEASES = ROOT / "data" / "releases"
+RELEASES_OUTPUT = ROOT / "web" / "src" / "data" / "releases.js"
+FEED_OUTPUT = ROOT / "web" / "public" / "latest.xml"
 BANNER = "// Generated from lexicon.json by build_site.py - edit the JSON, not this file."
+RELEASES_BANNER = "// Generated from data/releases/*.json by build_site.py - edit the JSON, not this file."
 SUMMARY_LIMIT = 150
 META_LIMIT = 158
 
@@ -266,19 +274,228 @@ def sync_labs():
         (dest / path.name).write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
 
 
+# --- the latest chronology -------------------------------------------------
+# data/releases/*.json is the editorial record of what landed when, because the
+# order cannot be derived: the repository history was squashed, and CI checks
+# out a single commit, so a build that read git would disagree with a local one
+# and break --check. The post is the record.
+
+TYPOGRAPHY = {
+    "\u2014": "an em dash",
+    "\u2013": "an en dash",
+    "\u201c": "a curly quote",
+    "\u201d": "a curly quote",
+    "\u2019": "a curly apostrophe",
+}
+SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+# Rendered in Python so the prerender is the same on every machine and in every
+# locale, and so the date a reader sees is the author's date, not UTC's.
+MONTHS = ("January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December")
+INLINE_LINK = re.compile(r"\[([^\]]+)\]\((/[^)\s]+)\)")
+BOLD = re.compile(r"\*\*([^*]+)\*\*")
+ITALIC = re.compile(r"\*([^*]+)\*")
+
+
+def read_author():
+    """site.config.js is the identity file, and Python cannot import it."""
+    text = (ROOT / "site.config.js").read_text(encoding="utf-8")
+    match = re.search(r"^\s*author:\s*'([^']+)'", text, re.M)
+    return match.group(1) if match else ""
+
+
+def check_prose(where, text, errors):
+    for char, name in TYPOGRAPHY.items():
+        if char in text:
+            errors.append(f"{where}: contains {name}; the book uses a hyphen and a straight quote")
+    if text != text.strip():
+        errors.append(f"{where}: leading or trailing space")
+    if not text:
+        errors.append(f"{where}: empty")
+
+
+def entry_link(entry):
+    return {
+        "term": entry["term"],
+        "slug": entry["slug"],
+        "path": entry["path"],
+        "kind": entry["kind"],
+        "kindLabel": entry["kindLabel"],
+        "summary": summarize(entry["senses"][0]),
+    }
+
+
+def unclaimed(entries, claimed):
+    """Entries no release has named yet, alphabetically.
+
+    Deliberately not ordered by recency: the positions a new entry gets are the
+    ones after it, but the fallacy seam (the appendix starts at 101) means a
+    high position is as likely to be an old reference entry as a new one. The
+    count is the signal that something landed unwritten-up, not the order."""
+    rest = [entry for entry in entries if entry["term"] not in claimed]
+    rest.sort(key=lambda entry: entry["term"].lower())
+    return [entry_link(entry) for entry in rest]
+
+
+def load_releases(entries):
+    by_term = {entry["term"]: entry for entry in entries}
+    errors = []
+    posts = []
+    claimed = {}
+    for path in sorted(RELEASES.glob("*.json")) if RELEASES.is_dir() else []:
+        name = path.name
+        try:
+            post = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as error:
+            errors.append(f"{name}: {error}")
+            continue
+        kind = post.get("type")
+        if kind not in ("release", "note"):
+            errors.append(f"{name}: type must be 'release' or 'note', not {kind!r}")
+            continue
+        slug = post.get("slug", "")
+        if not SLUG_RE.match(slug):
+            errors.append(f"{name}: slug must be kebab-case, not {slug!r}")
+        published = post.get("published", "")
+        try:
+            stamp = datetime.fromisoformat(published)
+        except ValueError:
+            errors.append(f"{name}: published must be an ISO timestamp, not {published!r}")
+            stamp = None
+        if stamp is not None:
+            if stamp.tzinfo is None:
+                errors.append(f"{name}: published needs a UTC offset; a feed without one is ambiguous")
+            elif name != f"{stamp.date().isoformat()}-{slug}.json":
+                errors.append(f"{name}: file name should be {stamp.date().isoformat()}-{slug}.json")
+        for key in ("title", "lede"):
+            check_prose(f"{name}: {key}", post.get(key, ""), errors)
+        if meta_length(post.get("lede", "")) > META_LIMIT:
+            errors.append(f"{name}: lede runs past a meta description ({META_LIMIT} escaped characters)")
+        body = post.get("body")
+        if not isinstance(body, list) or not body:
+            errors.append(f"{name}: body must be a non-empty list of paragraphs")
+            body = []
+        for index, paragraph in enumerate(body, 1):
+            check_prose(f"{name}: body[{index}]", paragraph, errors)
+        wanted = post.get("entries") or []
+        mentions = post.get("mentions") or []
+        if kind == "note" and wanted:
+            errors.append(f"{name}: a note does not claim entries - use mentions, or file it as a release")
+        if kind == "release" and not wanted:
+            errors.append(f"{name}: a release must name at least one entry")
+        for field, terms in (("entries", wanted), ("mentions", mentions)):
+            for term in terms:
+                if term not in by_term:
+                    errors.append(f"{name}: {field} names {term!r}, which is not an entry")
+            for term in sorted({term for term in terms if terms.count(term) > 1}):
+                errors.append(f"{name}: {field} names {term!r} twice")
+        for term in sorted(set(mentions) & set(wanted)):
+            errors.append(f"{name}: {term!r} is both claimed and mentioned; the post renders it once")
+        for term in wanted:
+            if term in claimed:
+                errors.append(f"{name}: {term!r} is already claimed by {claimed[term]}")
+            else:
+                claimed[term] = slug
+        posts.append({
+            "type": kind,
+            "published": published,
+            "date": stamp.date().isoformat() if stamp else "",
+            "display": f"{MONTHS[stamp.month - 1]} {stamp.day}, {stamp.year}" if stamp else published[:10],
+            "slug": slug,
+            "title": post.get("title", ""),
+            "lede": post.get("lede", ""),
+            "path": f"/latest/{slug}/",
+            "body": body,
+            "entries": [entry_link(by_term[term]) for term in wanted if term in by_term],
+            "mentions": [entry_link(by_term[term]) for term in mentions if term in by_term],
+        })
+    if errors:
+        sys.exit("data/releases:" + "".join(f"\n  {error}" for error in errors))
+    posts.sort(key=lambda post: (post["published"], post["slug"]), reverse=True)
+    return posts, claimed, unclaimed(entries, claimed)
+
+
+def render_releases(posts, claimed, rest):
+    payload = {
+        "posts": posts,
+        "claimed": claimed,
+        "unreleased": rest,
+        "latest": posts[0] if posts else None,
+    }
+    parts = [RELEASES_BANNER, ""]
+    for key in ("posts", "claimed", "unreleased", "latest"):
+        parts.append(f"export const {key} = {json.dumps(payload[key], indent=2, ensure_ascii=False)}")
+        parts.append("")
+    return "\n".join(parts).rstrip() + "\n"
+
+
+def inline_html(text, origin):
+    """The three inline forms the book uses, as HTML for the feed."""
+    out = html.escape(text, quote=False)
+    out = INLINE_LINK.sub(lambda m: f'<a href="{origin}{m.group(2)}">{m.group(1)}</a>', out)
+    out = BOLD.sub(r"<strong>\1</strong>", out)
+    return ITALIC.sub(r"<em>\1</em>", out)
+
+
+def render_feed(posts, doc):
+    origin = doc["site"].rstrip("/")
+    updated = posts[0]["published"] if posts else "1970-01-01T00:00:00+00:00"
+    lines = [
+        '<?xml version="1.0" encoding="utf-8"?>',
+        '<feed xmlns="http://www.w3.org/2005/Atom">',
+        f"  <title>{html.escape(doc['title'])} - latest</title>",
+        "  <subtitle>New entries, and notes on the ones already in the guide.</subtitle>",
+        f'  <link rel="self" type="application/atom+xml" href="{origin}/latest.xml"/>',
+        f'  <link rel="alternate" type="text/html" href="{origin}/latest/"/>',
+        f"  <id>{origin}/latest/</id>",
+        f"  <updated>{updated}</updated>",
+        f"  <author><name>{html.escape(read_author())}</name></author>",
+    ]
+    for post in posts:
+        content = "".join(f"<p>{inline_html(paragraph, origin)}</p>" for paragraph in post["body"])
+        lines.extend([
+            "  <entry>",
+            f"    <title>{html.escape(post['title'])}</title>",
+            f'    <link rel="alternate" type="text/html" href="{origin}{post["path"]}"/>',
+            f"    <id>{origin}{post['path']}</id>",
+            f"    <published>{post['published']}</published>",
+            f"    <updated>{post['published']}</updated>",
+            f"    <summary>{html.escape(post['lede'])}</summary>",
+            f'    <content type="html">{html.escape(content)}</content>',
+            "  </entry>",
+        ])
+    lines.append("</feed>")
+    return "\n".join(lines) + "\n"
+
+
+def check_file(path, text):
+    current = path.read_text(encoding="utf-8") if path.exists() else ""
+    if current != text:
+        sys.exit(f"{path.relative_to(ROOT)} is out of date; run `python3 build_site.py`")
+    print(f"{path.relative_to(ROOT)} is up to date")
+
+
 def main():
-    data = build(load())
+    doc = load()
+    data = build(doc)
     text = render(data)
+    posts, claimed, rest = load_releases(data["entries"])
+    release_text = render_releases(posts, claimed, rest)
+    feed_text = render_feed(posts, doc)
     if "--check" in sys.argv:
-        current = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else ""
-        if current != text:
-            sys.exit("web/src/data/lexicon.js is out of date; run `python3 build_site.py`")
-        print("web/src/data/lexicon.js is up to date")
+        check_file(OUTPUT, text)
+        check_file(RELEASES_OUTPUT, release_text)
+        check_file(FEED_OUTPUT, feed_text)
         return
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(text, encoding="utf-8")
+    RELEASES_OUTPUT.write_text(release_text, encoding="utf-8")
+    FEED_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    FEED_OUTPUT.write_text(feed_text, encoding="utf-8")
     sync_labs()
-    print(f"wrote {OUTPUT.relative_to(ROOT)} ({data['stats']['entries']} entries)")
+    print(f"wrote {OUTPUT.relative_to(ROOT)} ({data['stats']['entries']} entries), "
+          f"{RELEASES_OUTPUT.relative_to(ROOT)} ({len(posts)} posts, {len(rest)} entries not yet written up), "
+          f"and {FEED_OUTPUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

@@ -5,8 +5,9 @@
  * src/ imports the JSON directly, so that generated shape is the single seam.
  */
 import { chapters, entries, kinds, meta, preface, sorts, stats } from './data/lexicon.js'
+import { claimed, latest, posts, unreleased } from './data/releases.js'
 
-export { chapters, entries, kinds, meta, preface, sorts, stats }
+export { chapters, claimed, entries, kinds, latest, meta, posts, preface, sorts, stats, unreleased }
 
 /** The kinds as a list, in schema order, for chips and legends. */
 export const kindsList = Object.entries(kinds).map(([id, spec]) => ({ id, ...spec }))
@@ -74,4 +75,14 @@ export function sortByAxis(items, axis) {
 /** Which axis a view opens on: fallacies lead with how abused they are. */
 export function defaultAxis(view) {
   return view?.kind?.id === 'fallacy' ? 'abuse' : 'impact'
+}
+
+/** One post of the chronology, by slug. */
+export function postFor(slug) {
+  return posts.find((post) => post.slug === slug) || null
+}
+
+/** The release that first named an entry, for the "Added in" line on its page. */
+export function releaseFor(term) {
+  return claimed[term] ? postFor(claimed[term]) : null
 }

@@ -14,6 +14,7 @@ import fs from 'node:fs'
 import site from '../site.config.js'
 import { FAQ } from './src/data/faq.js'
 import { chapters, entries, kinds, meta as lexicon, stats } from './src/data/lexicon.js'
+import { posts } from './src/data/releases.js'
 
 // A kind's front door, and a chapter's. Both are real pages with their own
 // title, so a reader can land on "the moves" from a search result instead of
@@ -43,6 +44,7 @@ const ORG_ID = `${ORIGIN}/#org`
 const SITE_ID = `${ORIGIN}/#site`
 const AUTHOR_ID = `${ORIGIN}/#author`
 const SET_ID = `${ORIGIN}/guide/#set`
+const BLOG_ID = `${ORIGIN}/latest/#blog`
 
 const orgNode = {
   '@type': 'Organization',
@@ -141,6 +143,46 @@ const faqPage = {
     acceptedAnswer: { '@type': 'Answer', text: item.a },
   })),
 }
+
+// --- the latest chronology ------------------------------------------------
+// A post is a BlogPosting, and the chronology is a Blog that lists them. The
+// entries a release claims are `about`; the ones a note merely discusses are
+// `mentions`, so a crawler can tell an addition from a reference.
+const termNode = (entry) => ({ '@type': 'DefinedTerm', name: entry.term, url: abs(entry.path) })
+
+const blogNode = {
+  '@type': 'Blog',
+  '@id': BLOG_ID,
+  name: `${site.name} - latest`,
+  description: 'New entries, and notes on the ones already in the guide.',
+  url: `${ORIGIN}/latest/`,
+  inLanguage: 'en',
+  isPartOf: { '@id': SITE_ID },
+  publisher: { '@id': ORG_ID },
+  blogPost: posts.map((post) => ({
+    '@type': 'BlogPosting',
+    name: post.title,
+    url: abs(post.path),
+    datePublished: post.published,
+  })),
+}
+
+const blogPosting = (post) => ({
+  '@type': 'BlogPosting',
+  '@id': `${abs(post.path)}#post`,
+  headline: post.title,
+  description: post.lede,
+  url: abs(post.path),
+  mainEntityOfPage: abs(post.path),
+  datePublished: post.published,
+  dateModified: post.published,
+  inLanguage: 'en',
+  author: { '@id': AUTHOR_ID },
+  publisher: { '@id': ORG_ID },
+  isPartOf: { '@id': BLOG_ID },
+  ...(post.entries.length ? { about: post.entries.map(termNode) } : {}),
+  ...(post.mentions.length ? { mentions: post.mentions.map(termNode) } : {}),
+})
 
 // The about page explains the organization, so it says so rather than carrying
 // a breadcrumb and nothing else.
@@ -243,6 +285,26 @@ const chapterRoutes = chapters.map((chapter) => {
   }
 })
 
+const postRoutes = posts.map((post) => ({
+  path: post.path,
+  priority: '0.6',
+  changefreq: 'yearly',
+  meta: {
+    title: `${post.title} | ${site.name}`,
+    description: post.lede,
+    jsonLd: pageGraph(
+      blogPosting(post),
+      breadcrumb([['Latest', `${ORIGIN}/latest/`], [post.title, abs(post.path)]]),
+    ),
+    ogImage: {
+      url: `${site.url}/og/latest/${post.slug}.png`,
+      width: 1200,
+      height: 630,
+      alt: `${post.title} - ${site.name}`,
+    },
+  },
+}))
+
 const termRoutes = entries.map((entry) => ({
   path: entry.path,
   priority: '0.7',
@@ -276,6 +338,20 @@ const siteRoutes = site.routes.map((route) => {
       meta: {
         ...route.meta,
         jsonLd: pageGraph(termSet, crumb('/guide/', 'The field guide')),
+      },
+    }
+  }
+  if (route.path === '/latest/') {
+    return {
+      ...route,
+      meta: {
+        ...route.meta,
+        jsonLd: pageGraph(
+          blogNode,
+          collection('Latest', route.meta.description, route.path,
+            posts.map((post) => ({ term: post.title, path: post.path }))),
+          crumb(route.path, 'Latest'),
+        ),
       },
     }
   }
@@ -329,6 +405,6 @@ export default {
   // crawls allowed too - the guide is public civic material, and refusing the
   // training crawl buys nothing here. Flip to aiBots: 'block' to refuse it.
   robots: { aeo: { aiBots: 'allow' } },
-  routes: [...siteRoutes, ...kindRoutes, ...chapterRoutes, ...termRoutes],
+  routes: [...siteRoutes, ...kindRoutes, ...chapterRoutes, ...postRoutes, ...termRoutes],
   notFound: site.notFound,
 }

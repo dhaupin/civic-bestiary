@@ -888,3 +888,61 @@ button.chip { appearance: none; }
   font-family: var(--font-mono); font-size: 10px;
   color: var(--ink-soft); opacity: 0.7;
 }
+
+/* --- latest: the chronology --------------------------------------------- */
+/* A log, not a list: the date column is the spine, and a release and a note
+   read the same way, so a month of notes cannot look like a different site. */
+.latest { padding: 32px 0 20px; }
+.latest-feed { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; }
+.latest-feed a { color: var(--ink-soft); }
+.latest-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.latest-item { padding: 22px 0; border-bottom: 1px solid var(--line); }
+.latest-meta {
+  display: flex; align-items: center; gap: 2px; flex-wrap: wrap;
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-soft); margin: 0 0 6px;
+}
+.latest-type { color: var(--accent); }
+.latest-title { font-family: var(--font-display); font-size: 24px; margin: 0 0 6px; }
+.latest-title a { color: var(--ink); text-decoration: none; }
+.latest-title a:hover, .latest-title a:focus-visible { color: var(--accent); }
+.latest-lede { margin: 0 0 10px; max-width: 68ch; color: var(--ink-soft); }
+.latest-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
+.latest-chip {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.03em;
+  padding: 3px 8px; border: 1px solid var(--rule); border-radius: 2px;
+  color: var(--ink-soft); text-decoration: none;
+}
+.latest-chip:hover, .latest-chip:focus-visible { color: var(--accent); border-color: var(--accent); }
+.latest-more { margin: 14px 0 0; font-family: var(--font-mono); font-size: 11px; }
+.latest-more a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.latest-more a:hover, .latest-more a:focus-visible { color: var(--accent); border-bottom-color: var(--accent); }
+.latest-pending { border-top: 1px solid var(--rule); }
+
+/* --- a post ------------------------------------------------------------- */
+.post { padding: 32px 0 20px; }
+.post-wrap { max-width: 940px; }
+.post-wrap > * { max-width: 760px; }
+.post-head { padding-bottom: 22px; border-bottom: 1px solid var(--rule); margin-bottom: 26px; }
+.post-title { font-family: var(--font-display); font-size: clamp(30px, 4.4vw, 44px); line-height: 1.1; margin: 0 0 12px; }
+.post-body p { font-size: 18px; line-height: 1.62; }
+.post-body a, .post-mentions a, .post-foot a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); }
+.post-body a:hover, .post-mentions a:hover, .post-foot a:hover { color: var(--accent); }
+.post-entries { border-top: 1px solid var(--line); }
+.post-entry-list { list-style: none; margin: 0; padding: 0; }
+.post-entry { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.post-entry:last-child { border-bottom: none; }
+.post-entry-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin: 0 0 4px; }
+.post-entry-name { font-family: var(--font-display); font-size: 20px; color: var(--ink); text-decoration: none; }
+.post-entry-name:hover, .post-entry-name:focus-visible { color: var(--accent); }
+.post-entry-sense { margin: 0; max-width: 72ch; color: var(--ink-soft); }
+.post-mentions { margin: 26px 0 0; font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft); }
+.post-mentions-label {
+  display: inline-block; margin-right: 10px; letter-spacing: 0.12em;
+  text-transform: uppercase; font-size: 10px; color: var(--rule);
+}
+.post-foot { margin: 34px 0 0; font-family: var(--font-mono); font-size: 11px; }
+
+.species-release { color: var(--ink-soft); }
+.species-release a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); }
+.species-release a:hover, .species-release a:focus-visible { color: var(--accent); border-bottom-color: var(--accent); }
