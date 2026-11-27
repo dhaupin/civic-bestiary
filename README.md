@@ -10,6 +10,8 @@ A field guide to the characters of the body politic: portmanteaus for performati
 
 **Read the guide at [codex.creadev.org](https://codex.creadev.org).** The whole book, generated from the same records, is [LEXICON.md](LEXICON.md).
 
+A [Creadev.org](https://creadev.org) project. The same records build the site, the single-file book, the schema and the issue form, so a correction lands everywhere at once.
+
 ## What it is
 
 This is a bestiary, not a dictionary. Each species is named the way a naturalist would name it, by the trait that makes it unmistakable, and drawn so you could point at it in a transcript, a rally or a comment thread. Two rules keep the thing from collapsing into a list of insults: the species is a pattern and not a person, and every entry describes a mechanism rather than delivering a verdict.
@@ -78,11 +80,18 @@ python3 build.py --chapters  # audit: fallacies filed against the commit graph
 npm run check   # every generated artifact current, plus pack manifest lint
 npm run audit   # poststruct over web/dist: head, links, i18n, a11y, language
 npm run lint:graph # tresridge: every reference in data/entries resolves
+npm run lint:a11y # axe over the built site: every page shape, both palettes, a phone
 npm run eyes    # the visual memory: every committed baseline has a ledger row
 npm run verify  # all of it, plus a full build
 ```
 
 CI runs `check` on every push and pull request to `main` and `staging`.
+
+`lint:a11y` is the one gate a screenshot cannot stand in for. It serves the built
+site, runs axe-core against every page shape - both palettes, and at phone width,
+where the menu, the tables and the drawers differ - and fails on any violation.
+It needs a Chrome binary (`EYESTRUCT_BROWSER` or `CHROME_PATH`, else the puppeteer
+cache) and no network.
 
 The site also keeps 25 committed screenshots in `labs/.eyes/` - one per page shape,
 plus a mobile row and a dark row - so a layout change has to be explained rather than
