@@ -32,8 +32,8 @@
   --kind-fallacy: #9b9187;
   --kind-buff: #cf7f9f;
 
-  --font-display: "Fraunces", "Newsreader", Georgia, serif;
-  --font-body: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-display: "Fraunces", "Fraunces Fallback", Georgia, serif;
+  --font-body: "Newsreader", "Newsreader Fallback", Georgia, "Times New Roman", serif;
   --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
   color-scheme: dark;
@@ -1019,7 +1019,11 @@ html[data-consent='pending'] .consent { display: block; }
 }
 body.consent-open,
 html[data-consent='pending'] body { padding-bottom: 104px; }
-.consent-text { margin: 0; font-size: 13.5px; line-height: 1.5; max-width: 66ch; }
+/* The bar is fixed to the bottom edge, so a line gained or lost on the font
+   swap moves its own top edge - the last 0.1 of the page's CLS. Reserving the
+   line count costs nothing when the copy fits it and absorbs the swap when the
+   fallback sets one line fewer. */
+.consent-text { margin: 0; font-size: 13.5px; line-height: 1.5; max-width: 66ch; min-height: 3em; }
 .consent-text strong { font-weight: 600; }
 .consent-actions { display: flex; gap: 8px; flex-shrink: 0; }
 .consent-text a { color: var(--accent); }
@@ -1029,6 +1033,7 @@ html[data-consent='pending'] body { padding-bottom: 104px; }
   body.consent-open,
   html[data-consent='pending'] body { padding-bottom: 168px; }
   .consent-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .consent-text { min-height: 6em; }
   .consent-actions { width: 100%; }
   .consent-actions .btn { flex: 1; }
 }
