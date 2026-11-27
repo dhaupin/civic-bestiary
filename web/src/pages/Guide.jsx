@@ -423,28 +423,38 @@ export default function Guide() {
           const runs = coined.length && filed.length
             ? [{ key: 'coined', label: null, items: coined }, { key: 'filed', label: 'Documented fallacies', items: filed }]
             : [{ key: 'all', label: null, items: own }]
+          // A chapter renders one group, so it has no group head to sit under.
+          // The entries are then the top level of the page after its h1, and the
+          // "Documented fallacies" seam is the section they fall under. Heading
+          // levels follow that structure rather than being fixed at h3, which on a
+          // chapter page jumped h1 to h3 and left a screen reader without a level
+          // to skip between.
+          const grouped = groups.length > 1 || appendix
           return (
             <div key={group.key} className="group">
-              {(groups.length > 1 || appendix) && (
+              {grouped && (
                 <h2 className="group-head">
                   <span className="group-roman">{group.eyebrow}</span>
                   {group.label}
                 </h2>
               )}
-              {runs.map((run) => (
+              {runs.map((run) => {
+                const SubHead = grouped ? 'h3' : 'h2'
+                const NameHead = grouped || run.label ? 'h3' : 'h2'
+                return (
                 <div key={run.key} className="run">
                   {run.label && (
-                    <h3 className="group-sub">
+                    <SubHead className="group-sub">
                       {run.label}
                       <span className="group-sub-count">{run.items.length}</span>
-                    </h3>
+                    </SubHead>
                   )}
                   {run.items.map((entry) => (
                 <article key={entry.slug} id={entry.slug} className="listing">
                   <div className="listing-head">
-                    <h3 className="listing-name">
+                    <NameHead className="listing-name">
                       <Link to={entry.path}>{entry.term}</Link>
-                    </h3>
+                    </NameHead>
                     <p className="listing-meta">
                       <span className={`badge badge-${entry.kind}`}>{entry.kindLabel}</span>
                       <span>{entry.partOfSpeech}</span>
@@ -476,7 +486,8 @@ export default function Guide() {
                 </article>
                   ))}
                 </div>
-              ))}
+                )
+              })}
             </div>
           )
         })}

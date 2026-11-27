@@ -1,7 +1,7 @@
 # The Civic Bestiary - product and record contract
 
 **Status:** living document. Last revision: 2026-11-24.
-**Live:** https://codex.creadev.org · **Repo:** https://github.com/dhaupin/civicbestiary
+**Live:** https://codex.creadev.org · **Repo:** https://github.com/dhaupin/civic-bestiary
 **Published by** [Creadev](https://creadev.org). Text is MIT.
 
 This is the document the "Read the record contract" button points at. It covers

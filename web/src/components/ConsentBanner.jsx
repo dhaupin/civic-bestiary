@@ -1,9 +1,11 @@
 /**
  * components/ConsentBanner.jsx
  * ============================
- * The analytics choice, asked once and stored. It renders nothing on the
- * server and nothing before the first effect runs, so prerendered HTML never
- * carries a banner that a reader without JavaScript would be stuck with.
+ * The analytics choice, asked once and stored. The markup ships with the page
+ * and CSS decides whether it is shown (the consent bootstrap in index.html sets
+ * data-consent before first paint), so a reader without JavaScript never sees
+ * a banner whose buttons cannot work, and a reader with it sees the choice
+ * immediately instead of four seconds into the article.
  *
  * A visitor who has already chosen, or whose browser sends Global Privacy
  * Control or Do Not Track, is not asked again: a signal is a no, and the
@@ -14,7 +16,9 @@ import { Link } from 'react-router-dom'
 import { applyConsent, privacySignals, readConsent, saveConsent, watchZaraz } from '../consent.js'
 
 export default function ConsentBanner() {
-  const [open, setOpen] = useState(false)
+  // True on the first render so the prerendered HTML and the hydrated tree
+  // agree; the effect below closes it for a reader who has already answered.
+  const [open, setOpen] = useState(true)
 
   useEffect(() => {
     const stored = readConsent()
@@ -23,7 +27,9 @@ export default function ConsentBanner() {
     watchZaraz(analytics)
     if (!stored) {
       const { gpc, dnt } = privacySignals()
-      if (!gpc && !dnt) setOpen(true)
+      if (gpc || dnt) setOpen(false)
+    } else {
+      setOpen(false)
     }
     const reopen = () => setOpen(true)
     const chosen = () => setOpen(false)

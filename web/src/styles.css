@@ -1,3 +1,5 @@
+@import './fonts.css';
+
 /* The Civic Bestiary - an editorial field guide on warm paper.
    Tokens keep the coreforge family names (paper/surface/raised/ink/ink-soft/
    accent/moss/err/line/code-bg/nav-bg/accent-contrast) so the shell's layout
@@ -30,8 +32,8 @@
   --kind-fallacy: #9b9187;
   --kind-buff: #cf7f9f;
 
-  --font-display: "Fraunces", "Newsreader", Georgia, serif;
-  --font-body: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-display: "Fraunces", "Fraunces Fallback", Georgia, serif;
+  --font-body: "Newsreader", "Newsreader Fallback", Georgia, "Times New Roman", serif;
   --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
   color-scheme: dark;
@@ -158,9 +160,18 @@ html[data-theme="light"] .theme-switch .icon-moon { display: block; }
   position: fixed; top: 0; bottom: 0; left: 0; width: 268px; max-width: 86vw;
   background: var(--surface); border-right: 1px solid var(--rule);
   padding: 26px 0; overflow-y: auto; z-index: 50;
-  transform: translateX(-100%); transition: transform .26s ease;
+  transform: translateX(-100%);
+  /* Off-screen is not closed: a translated drawer still holds focusable links,
+     so a keyboard reader tabs into a menu they cannot see. `visibility` takes it
+     out of the tab order and the accessibility tree, and the delay keeps it
+     visible for the length of the slide out. */
+  visibility: hidden;
+  transition: transform .26s ease, visibility 0s linear .26s;
 }
-.nav-sidebar.open { transform: translateX(0); }
+.nav-sidebar.open {
+  transform: translateX(0); visibility: visible;
+  transition: transform .26s ease, visibility 0s;
+}
 .nav-sidebar-title {
   color: var(--ink-soft); font-family: var(--font-mono);
   font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
@@ -353,12 +364,15 @@ button.chip { appearance: none; }
   text-transform: uppercase; color: var(--ink-soft); margin-right: 4px;
 }
 .chip-count, .listing-score {
-  margin-left: 6px; opacity: 0.62; font-size: 10px;
+  /* The count is quieter than its label, not invisible: at 0.62 over the paper it
+     measured 2.54:1 (WCAG AA wants 4.5 at 10px). A softer ink at full opacity is
+     the same hierarchy without the contrast failure. */
+  margin-left: 6px; font-size: 10px; color: var(--ink-soft);
 }
 .listing-score {
-  font-family: var(--font-mono); color: var(--accent); opacity: 0.9;
+  font-family: var(--font-mono); color: var(--accent);
 }
-.chip-on .chip-count { opacity: 0.8; }
+.chip-on .chip-count { color: var(--accent-contrast); opacity: 0.85; }
 .search-box { position: relative; display: block; }
 .search-clear {
   position: absolute; right: 0; top: 50%; transform: translateY(-50%);
@@ -544,6 +558,9 @@ button.chip { appearance: none; }
   text-transform: uppercase; text-decoration: none;
 }
 .skip:focus { left: 12px; top: 12px; }
+/* The skip target takes focus but needs no ring of its own - the reader can see
+   the page has moved, and an outline around the whole page reads as an error. */
+main:focus, main:focus-visible { outline: none; }
 
 /* --- one species -------------------------------------------------------- */
 .species { padding: 32px 0 20px; }
@@ -885,8 +902,7 @@ button.chip { appearance: none; }
 .score-bar i.on { background: var(--accent); }
 
 .nav-sidebar-count {
-  font-family: var(--font-mono); font-size: 10px;
-  color: var(--ink-soft); opacity: 0.7;
+  font-family: var(--font-mono); font-size: 10px; color: var(--ink-soft);
 }
 
 /* --- latest: the chronology --------------------------------------------- */
@@ -939,7 +955,7 @@ button.chip { appearance: none; }
 .post-mentions { margin: 26px 0 0; font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft); }
 .post-mentions-label {
   display: inline-block; margin-right: 10px; letter-spacing: 0.12em;
-  text-transform: uppercase; font-size: 10px; color: var(--rule);
+  text-transform: uppercase; font-size: 10px; color: var(--ink-soft);
 }
 .post-foot { margin: 34px 0 0; font-family: var(--font-mono); font-size: 11px; }
 
@@ -987,6 +1003,11 @@ button.chip { appearance: none; }
 .legal-table code { font-family: var(--font-mono); font-size: 12px; }
 .legal-dim { color: var(--ink-soft); font-size: 11.5px; }
 
+/* Rendered with the page (see the consent bootstrap in index.html): hidden
+   until that script says the reader has not chosen, so a settled reader never
+   sees it and a pending one sees it at first paint rather than after hydration. */
+.consent { display: none; }
+html[data-consent='pending'] .consent { display: block; }
 .consent {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
   background: var(--raised); border-top: 1px solid var(--rule);
@@ -996,16 +1017,23 @@ button.chip { appearance: none; }
   display: flex; gap: 20px; align-items: center; justify-content: space-between;
   padding-top: 16px; padding-bottom: 16px;
 }
-body.consent-open { padding-bottom: 104px; }
-.consent-text { margin: 0; font-size: 13.5px; line-height: 1.5; max-width: 66ch; }
+body.consent-open,
+html[data-consent='pending'] body { padding-bottom: 104px; }
+/* The bar is fixed to the bottom edge, so a line gained or lost on the font
+   swap moves its own top edge - the last 0.1 of the page's CLS. Reserving the
+   line count costs nothing when the copy fits it and absorbs the swap when the
+   fallback sets one line fewer. */
+.consent-text { margin: 0; font-size: 13.5px; line-height: 1.5; max-width: 66ch; min-height: 3em; }
 .consent-text strong { font-weight: 600; }
 .consent-actions { display: flex; gap: 8px; flex-shrink: 0; }
 .consent-text a { color: var(--accent); }
 .consent-actions .btn { font-size: 12.5px; padding: 8px 14px; }
 
 @media (max-width: 720px) {
-  body.consent-open { padding-bottom: 168px; }
+  body.consent-open,
+  html[data-consent='pending'] body { padding-bottom: 168px; }
   .consent-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .consent-text { min-height: 6em; }
   .consent-actions { width: 100%; }
   .consent-actions .btn { flex: 1; }
 }

@@ -4,11 +4,13 @@
 
 # The Civic Bestiary
 
-[![verify](https://github.com/dhaupin/civicbestiary/actions/workflows/verify.yml/badge.svg)](https://github.com/dhaupin/civicbestiary/actions/workflows/verify.yml)
+[![verify](https://github.com/dhaupin/civic-bestiary/actions/workflows/verify.yml/badge.svg)](https://github.com/dhaupin/civic-bestiary/actions/workflows/verify.yml)
 
 A field guide to the characters of the body politic: portmanteaus for performative patriotism, bad-faith debate, hypocrisy, and algorithmic radicalization - plus the documented fallacies they commit and the procedures that answer them.
 
 **Read the guide at [codex.creadev.org](https://codex.creadev.org).** The whole book, generated from the same records, is [LEXICON.md](LEXICON.md).
+
+A [Creadev.org](https://creadev.org) project. The same records build the site, the single-file book, the schema and the issue form, so a correction lands everywhere at once.
 
 ## What it is
 
@@ -56,8 +58,8 @@ The relation graph is checked, not decorative. An edge has to point at a term th
 Node 20.19 or newer (see `web/.nvmrc`) and Python 3.12. The generators are stdlib-only, so there is nothing to install on the Python side.
 
 ```bash
-git clone https://github.com/dhaupin/civicbestiary.git
-cd civicbestiary
+git clone https://github.com/dhaupin/civic-bestiary.git
+cd civic-bestiary
 npm run install:web   # site dependencies
 npm run build         # data -> LEXICON.md -> web/src/data -> web/dist
 npm run preview       # serves the built site on http://localhost:4173
@@ -78,11 +80,18 @@ python3 build.py --chapters  # audit: fallacies filed against the commit graph
 npm run check   # every generated artifact current, plus pack manifest lint
 npm run audit   # poststruct over web/dist: head, links, i18n, a11y, language
 npm run lint:graph # tresridge: every reference in data/entries resolves
+npm run lint:a11y # axe over the built site: every page shape, both palettes, a phone
 npm run eyes    # the visual memory: every committed baseline has a ledger row
 npm run verify  # all of it, plus a full build
 ```
 
 CI runs `check` on every push and pull request to `main` and `staging`.
+
+`lint:a11y` is the one gate a screenshot cannot stand in for. It serves the built
+site, runs axe-core against every page shape - both palettes, and at phone width,
+where the menu, the tables and the drawers differ - and fails on any violation.
+It needs a Chrome binary (`EYESTRUCT_BROWSER` or `CHROME_PATH`, else the puppeteer
+cache) and no network.
 
 The site also keeps 25 committed screenshots in `labs/.eyes/` - one per page shape,
 plus a mobile row and a dark row - so a layout change has to be explained rather than
