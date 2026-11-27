@@ -77,10 +77,17 @@ python3 build.py --chapters  # audit: fallacies filed against the commit graph
 ```bash
 npm run check   # every generated artifact current, plus pack manifest lint
 npm run audit   # poststruct over web/dist: head, links, i18n, a11y, language
-npm run verify  # both, plus a full build
+npm run eyes    # the visual memory: every committed baseline has a ledger row
+npm run verify  # all three, plus a full build
 ```
 
-CI runs `check` on every push and pull request to `main` and `staging`. Deployment is Cloudflare Pages building the `web` directory, so nobody rebuilds the site a second way and disagrees with what shipped.
+CI runs `check` on every push and pull request to `main` and `staging`.
+
+The site also keeps 25 committed screenshots in `labs/.eyes/` - one per page shape,
+plus a mobile row and a dark row - so a layout change has to be explained rather than
+noticed later. `npm run eyes` checks that memory in a second without a browser;
+`npm run eyes:look` takes new pictures, and `.github/workflows/eyes.yml` re-captures
+in the pinned browser on demand. Deployment is Cloudflare Pages building the `web` directory, so nobody rebuilds the site a second way and disagrees with what shipped.
 
 ## Contribute a term
 

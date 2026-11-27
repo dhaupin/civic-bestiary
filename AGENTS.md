@@ -53,7 +53,12 @@ npm run check               # CI gate: all three --check runs, plus pack lint
 
 npm run audit               # poststruct over web/dist: head/site/links/i18n/a11y/language + our pack
 npm run lint:packs          # packstruct lint over packs/ --deep
-npm run verify              # check + build + audit, end to end
+npm run verify              # check + build + audit + eyes, end to end
+
+npm run eyes                # browserless: every committed baseline is explained by a ledger row
+npm run eyes:look           # capture the whole matrix into labs/.eyes-candidates/ (needs a browser)
+npm run eyes:ratify         # re-capture in the pin and refuse any slot whose bytes drifted
+npm run eyes:serve          # serve web/dist on :4173 for a look/spot session
 
 npm --prefix web install    # once
 npm --prefix web run build  # prestruct: validate -> vite build -> inject meta -> prerender -> audit
@@ -108,6 +113,52 @@ link), the site/feeds contract, and the language module (dash classes FAIL by de
 One build warning is expected and harmless: `[IMPORT_IS_UNDEFINED] Import 'default' will always
 be undefined` at `src/hooks/usePageMeta.js`, from the deliberate v6/v7 interop shim in that file.
 It does not fail the build; do not "fix" it by deleting the fallback.
+
+## The eyes (`labs/.eyes/`)
+
+The site keeps a visual memory: 25 committed screenshots, one per page shape, that a
+change has to explain before it lands. It is `dhaupin/eyestruct`, a devDependency, and
+its home is `labs/.eyes/` - manifest, baselines, ledger, nothing else.
+
+```text
+labs/.eyes/manifest.yml        the pin (browser build) + the route matrix
+labs/.eyes/<slug>/<view>/      the canon: current.png per slot, committed
+labs/.eyes/ledger.json         append-only: every baseline change, with a note
+labs/.eyes-candidates/         disposable captures, gitignored
+```
+
+Three rules, and the rest follows:
+
+1. **A baseline change is a ledger row, or it is drift.** `npm run eyes` (what
+   `npm run verify` ends with, and what `verify.yml` runs on every push) walks the
+   canon and the ledger against each other: an image with no row fails `UNRECORDED`,
+   a row pointing at a missing file fails `DANGLING_ROW`. It needs no browser and
+   takes about a second, which is why it belongs in the gate rather than in a report.
+2. **Captures are proposals.** `npm run eyes:look` writes candidates and touches
+   nothing. To accept a new picture you copy it over the slot's `current.png` and
+   record it: `npx eyestruct adopt <slug>/<view>/current.png --note "what changed and
+   why"` - the note is mandatory, and a `--wave` row can explain a whole matrix in
+   one sentence.
+3. **Only the pinned browser cuts canon.** The manifest names the browser build, and
+   the `.github/workflows/eyes.yml` dispatch installs exactly that. A different build
+   paints different pixels for the same page, so a local capture on another Chromium
+   is evidence, not canon.
+
+The matrix covers each *shape* once - home, a kind index, a chapter, an entry, a post,
+the legal pages - plus a mobile row and a dark row. It does not cover all 198 entries:
+they are one component with different data, so shooting them all buys noise. Add a row
+when a shape changes, not when a record does.
+
+The site honours the OS colour scheme on a first visit (no stored choice means follow
+`prefers-color-scheme`), which is what makes the dark row mean something: before that
+fix the dark capture was byte-identical to the light one, and the row was a lie.
+
+To read a page with your own eyes instead of diffing it:
+
+```bash
+npm run build && npm run eyes:serve          # in one shell
+npx eyestruct spot http://127.0.0.1:4173/privacy/ --no-overlay   # in another
+```
 
 ## Adding an entry
 

@@ -37,7 +37,11 @@
     // page never flashes the wrong palette. Keys and paper values are shared
     // with src/theme.js and ThemeSwitch.jsx - keep all three in sync.
     try {
-      var dark = localStorage.getItem('site-theme') === 'dark'
+      // No stored choice means the reader has not chosen: follow the OS. A site
+      // that ignores a dark desktop is a site that flashes white at 2am.
+      var stored = localStorage.getItem('site-theme')
+      var dark = stored ? stored === 'dark'
+        : window.matchMedia('(prefers-color-scheme: dark)').matches
       document.documentElement.dataset.theme = dark ? 'dark' : 'light'
       var meta = document.querySelector('meta[name="theme-color"]')
       if (meta) meta.setAttribute('content', dark ? '#12100e' : '#f4efe6')

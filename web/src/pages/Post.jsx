@@ -43,6 +43,12 @@ export default function Post() {
                 ? `Release · ${post.entries.length} new ${post.entries.length === 1 ? 'entry' : 'entries'}`
                 : 'Note'}
             </span>
+            {post.updatedDisplay && (
+              <>
+                <span className="sep">·</span>
+                <span className="latest-updated">updated {post.updatedDisplay}</span>
+              </>
+            )}
           </p>
           <h1 className="post-title">{post.title}</h1>
           <p className="lede"><Inline text={post.lede} /></p>

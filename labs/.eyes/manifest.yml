@@ -1,0 +1,41 @@
+# The eye home: what CI shoots, and against which browser.
+#
+# The matrix is deliberately small. It covers each page shape once (home, a kind
+# index, a chapter, an entry, a post, a legal page) rather than every route: the
+# 198 entries are one component with different data, so shooting all of them
+# buys noise, not coverage. Add a row when a shape changes, not when a record does.
+pin:
+  browser-image: chrome@156.0.8078.80
+  renderer: resvg@2.6.2
+
+routes:
+  - path: /                                  slot: home        view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /                                  slot: home-dark   view: desktop-dark  theme: dark   viewport: 1280x800
+  - path: /                                  slot: home        view: mobile-390    theme: light  viewport: 390x844
+
+  - path: /guide/                            slot: guide       view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /species/                          slot: species     view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /moves/                            slot: moves       view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /habitats/                         slot: habitats    view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /fallacies/                        slot: fallacies   view: desktop-1280  theme: light  viewport: 1280x800
+
+  - path: /chapters/performative-identity/   slot: chapter-i   view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /chapters/bad-faith-debate/        slot: chapter-ii  view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /chapters/hypocrisy-revisionism/   slot: chapter-iii view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /chapters/fearmongering-grift/     slot: chapter-iv  view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /chapters/normalization/           slot: chapter-v   view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /chapters/keystones/               slot: chapter-vi  view: desktop-1280  theme: light  viewport: 1280x800
+
+  - path: /species/sophistroll/              slot: entry-species  view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /species/sophistroll/              slot: entry-species  view: mobile-390    theme: light  viewport: 390x844
+  - path: /moves/flood-the-zone/             slot: entry-move     view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /fallacies/moving-the-goalposts/   slot: entry-fallacy  view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /habitats/the-feed/                slot: entry-habitat  view: desktop-1280  theme: light  viewport: 1280x800
+
+  - path: /latest/                           slot: latest      view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /latest/a-second-sighting/         slot: post        view: desktop-1280  theme: light  viewport: 1280x800
+
+  - path: /about/                            slot: about       view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /contribute/                       slot: contribute  view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /terms/                            slot: terms       view: desktop-1280  theme: light  viewport: 1280x800
+  - path: /privacy/                          slot: privacy     view: desktop-1280  theme: light  viewport: 1280x800
