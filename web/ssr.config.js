@@ -192,6 +192,23 @@ const blogPosting = (post) => ({
   ...(post.mentions.length ? { mentions: post.mentions.map(termNode) } : {}),
 })
 
+// The legal pages are an agreement and a notice, so each says what it is and
+// when it last changed, rather than carrying a breadcrumb and nothing else.
+const LEGAL_REVISED = '2026-11-27'
+
+const legalPage = (route, type) => ({
+  '@type': type,
+  '@id': `${abs(route.path)}#page`,
+  name: route.meta.title.split(' | ')[0],
+  description: route.meta.description,
+  url: abs(route.path),
+  inLanguage: 'en',
+  isPartOf: { '@id': SITE_ID },
+  publisher: { '@id': ORG_ID },
+  datePublished: LEGAL_REVISED,
+  dateModified: LEGAL_REVISED,
+})
+
 // The about page explains the organization, so it says so rather than carrying
 // a breadcrumb and nothing else.
 const aboutPage = (route) => ({
@@ -359,6 +376,19 @@ const siteRoutes = site.routes.map((route) => {
           collection('Latest', route.meta.description, route.path,
             posts.map((post) => ({ term: post.title, path: post.path }))),
           crumb(route.path, 'Latest'),
+        ),
+      },
+    }
+  }
+  if (route.path === '/terms/' || route.path === '/privacy/') {
+    const privacy = route.path === '/privacy/'
+    return {
+      ...route,
+      meta: {
+        ...route.meta,
+        jsonLd: pageGraph(
+          legalPage(route, privacy ? 'PrivacyPolicy' : 'WebPage'),
+          crumb(route.path, privacy ? 'Privacy notice' : 'Terms of use'),
         ),
       },
     }

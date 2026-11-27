@@ -10,6 +10,7 @@ import site from '../site.js'
 export default function Footer() {
   return (
     <footer className="footer">
+      <div className="wrap footer-note">{site.footerNote}</div>
       <div className="wrap footer-inner">
         <span>{site.name}</span>
         {FOOTER_EXTRAS.map(i => (

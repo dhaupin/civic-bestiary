@@ -53,9 +53,16 @@ export default {
   ],
   footerExtras: [
     { label: 'Contribute', href: '/contribute/' },
+    { label: 'Terms', href: '/terms/' },
+    { label: 'Privacy', href: '/privacy/' },
     { label: 'GitHub', href: REPO },
     { label: 'License', href: `${REPO}/blob/main/LICENSE` },
   ],
+
+  // Sits above the footer links on every page: the fiction is stated once,
+  // plainly, wherever a reader lands. Terms of use carry the long version.
+  footerNote:
+    'Satire, written inside a fictional universe. Any resemblance to real persons, organisations, or events is coincidental.',
 
   // --- routes -------------------------------------------------------------
   // Base routes only. The per-species routes are content, so web/ssr.config.js
@@ -99,6 +106,26 @@ export default {
         title: 'Propose a term | The Civic Bestiary',
         description:
           'How to add a character to the bestiary: what the record contract asks for, and where to send the proposal.',
+      },
+    },
+    {
+      path: '/terms/',
+      priority: '0.3',
+      changefreq: 'yearly',
+      meta: {
+        title: 'Terms of use | The Civic Bestiary',
+        description:
+          'Satire in a fictional universe: what this site is, what it does not claim about anyone, the licence, and the limits that apply.',
+      },
+    },
+    {
+      path: '/privacy/',
+      priority: '0.3',
+      changefreq: 'yearly',
+      meta: {
+        title: 'Privacy notice | The Civic Bestiary',
+        description:
+          'No accounts, no ads, no profiles. What Cloudflare, Zaraz, and Google Analytics actually do here, and how to turn analytics off.',
       },
     },
     {
