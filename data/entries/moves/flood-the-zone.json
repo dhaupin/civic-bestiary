@@ -2,7 +2,7 @@
   "term": "Flood the zone",
   "kind": "move",
   "chapter": "bad-faith-debate",
-  "position": 20,
+  "position": 21,
   "part_of_speech": "verb phrase / gerund",
   "ipa": "/flʌd ðə zəʊn/",
   "etymology": "From the advice attributed to Steve Bannon: drown the press in so much material that nothing can be checked.",
@@ -24,7 +24,8 @@
   "related": [
     "Dead cat",
     "The Feed",
-    "Briefing room"
+    "Briefing room",
+    "Ricochetoric"
   ],
   "edges": [
     {

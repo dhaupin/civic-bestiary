@@ -1,0 +1,64 @@
+{
+  "term": "Ricochetoric",
+  "kind": "species",
+  "chapter": "bad-faith-debate",
+  "position": 10,
+  "part_of_speech": "noun",
+  "ipa": "/ˌrɪk.ə.ʃeɪˈtɒr.ɪk/",
+  "etymology": "Blend of \"ricochet\" + \"rhetoric\" - the claim that bounces off the argument and comes back as a new subject.",
+  "occasion": "A live exchange where one side is answering and the other is producing, and the clock is on nobody's side.",
+  "call": "\"And another thing -\"",
+  "tell": [
+    "One claim per sentence, none of them sourced",
+    "Answers a refutation with a new claim, not a defence",
+    "Never returns to the claim you pinned"
+  ],
+  "counter": "Make them pick one and stay on it: which of these are you actually claiming? A ricochet cannot be answered, only stopped, and it has to be stopped before the second bounce.",
+  "confused_with": [
+    {
+      "term": "Gallopologist",
+      "tell": "Both produce volume; the gallopologist is racing the clock to the end of the format, the ricochetoric is keeping a subject in the air so that none of them has to land."
+    }
+  ],
+  "senses": [
+    "The pattern of firing claims faster than any of them can be answered, so a refuted one is never withdrawn: it is reloaded as the next subject.",
+    "It works because a claim only costs something when its owner has to stand behind it, and here nothing is owned - every miss is free, every answer is a fresh opening, and the exchange never runs out of things to be about."
+  ],
+  "notes": [],
+  "example": "*\"He had an answer for every question and a question for every answer, and by the third exchange nobody could remember which of his **ricochetoric** shots was still in play.\"*",
+  "related": [
+    "Gallopologist",
+    "Sophistroll"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Gish gallop"
+    },
+    {
+      "rel": "commits",
+      "to": "Proof by assertion"
+    },
+    {
+      "rel": "commits",
+      "to": "Ad nauseam"
+    },
+    {
+      "rel": "commits",
+      "to": "Texas sharpshooter fallacy"
+    },
+    {
+      "rel": "commits",
+      "to": "Shifting the burden of proof"
+    },
+    {
+      "rel": "performs",
+      "to": "Flood the zone"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 2
+  }
+}
