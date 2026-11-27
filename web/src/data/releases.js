@@ -4,6 +4,8 @@ export const posts = [
   {
     "type": "release",
     "published": "2026-11-26T20:03:25-05:00",
+    "updated": "2026-11-26T20:03:25-05:00",
+    "words": 228,
     "date": "2026-11-26",
     "display": "November 26, 2026",
     "slug": "three-ways-of-not-answering",
@@ -64,6 +66,8 @@ export const posts = [
   {
     "type": "note",
     "published": "2026-11-26T19:36:49-05:00",
+    "updated": "2026-11-26T21:14:59-05:00",
+    "words": 405,
     "date": "2026-11-26",
     "display": "November 26, 2026",
     "slug": "what-a-polish-pass-finds",
@@ -109,6 +113,8 @@ export const posts = [
   {
     "type": "release",
     "published": "2026-11-26T19:27:27-05:00",
+    "updated": "2026-11-26T19:27:27-05:00",
+    "words": 206,
     "date": "2026-11-26",
     "display": "November 26, 2026",
     "slug": "three-words-that-end-an-argument",
@@ -150,7 +156,474 @@ export const posts = [
   },
   {
     "type": "release",
+    "published": "2026-11-24T21:37:12-05:00",
+    "updated": "2026-11-24T21:37:12-05:00",
+    "words": 228,
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "how-a-remedy-gets-captured",
+    "title": "How a remedy gets captured",
+    "lede": "Three remedies that assume the other side cares what the record says, and five entries about making a thing normal first.",
+    "path": "/latest/how-a-remedy-gets-captured/",
+    "body": [
+      "Chapter VI closed with three remedies about the far side of a remedy. [The reserve](/remedies/the-reserve/) puts supply on the market to break a leverage play. [The sponsor line](/remedies/the-sponsor-line/) names who paid for the advertisement. [The withdrawal clause](/remedies/the-withdrawal-clause/) makes leaving a procedure rather than an announcement.",
+      "All three assume the other party cares what the record says. That is the difference between a remedy and a hope, and the chapter is honest about it, because every entry in it carries its failure mode. A reserve can be sold off. A sponsor line can be routed through a name. A withdrawal clause can be triggered by the side that wanted out.",
+      "The other five entries arrived in the same round, and they are chapter V's machinery of respectability. [Industry conference](/habitats/industry-conference/) is the room where a practice becomes respectable. [Soft launch](/moves/soft-launch/) ships the contested change with no speech and a line on a form. [Grandfather clause](/abilities/grandfather-clause/) exempts what is already there. [Outrage fatigue](/buffs/outrage-fatigue/) is the audience having spent its capacity to be shocked. [Precedentarian](/species/precedentarian/) treats the last decision as the decision.",
+      "Read together they are one sentence: nothing has to be defended if it can be made normal first.",
+      "A remedy that assumes good faith is a test of it."
+    ],
+    "entries": [
+      {
+        "term": "Grandfather clause",
+        "slug": "grandfather-clause",
+        "path": "/abilities/grandfather-clause/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice..."
+      },
+      {
+        "term": "Outrage fatigue",
+        "slug": "outrage-fatigue",
+        "path": "/buffs/outrage-fatigue/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph..."
+      },
+      {
+        "term": "Industry conference",
+        "slug": "industry-conference",
+        "path": "/habitats/industry-conference/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work..."
+      },
+      {
+        "term": "Soft launch",
+        "slug": "soft-launch",
+        "path": "/moves/soft-launch/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past..."
+      },
+      {
+        "term": "The reserve",
+        "slug": "the-reserve",
+        "path": "/remedies/the-reserve/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made..."
+      },
+      {
+        "term": "The sponsor line",
+        "slug": "the-sponsor-line",
+        "path": "/remedies/the-sponsor-line/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment..."
+      },
+      {
+        "term": "The withdrawal clause",
+        "slug": "the-withdrawal-clause",
+        "path": "/remedies/the-withdrawal-clause/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule..."
+      },
+      {
+        "term": "Precedentarian",
+        "slug": "precedentarian",
+        "path": "/species/precedentarian/",
+        "kind": "species",
+        "kindLabel": "Species",
+        "summary": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed..."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch."
+      }
+    ]
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T17:36:55-05:00",
+    "updated": "2026-11-24T17:36:55-05:00",
+    "words": 264,
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "the-policy-turn",
+    "title": "The policy turn",
+    "lede": "Thirteen entries, six of them capabilities of a body rather than habits of a person.",
+    "path": "/latest/the-policy-turn/",
+    "body": [
+      "Thirteen entries, and six of them are the same kind: capabilities of an institution. [Citizens United](/abilities/citizens-united/) holds that spending is speech. [Forever war](/abilities/forever-war/) continues because the alternative is a vote. [Oil diplomacy](/abilities/oil-diplomacy/) conducts foreign policy by supply. [Breaking treaties](/abilities/breaking-treaties/) treats an accord as a policy preference. [Lobbyism](/abilities/lobbyism/) is the system in which the regulated write the regulation, and [WMD mongering](/moves/wmd-mongering/) sells a war with a threat nobody can see.",
+      "That is a different animal from a species. A species is a pattern a person wears. An ability belongs to a body, an office, or a machine, and no single person owns it. The guide's most uncomfortable claim lives in that difference: the most damaging moves are legal, and they belong to entities rather than to anybody you can point at.",
+      "The rest of the round is the furniture around it. [PAC check](/buffs/pac-check/) is the condition of being funded. [Unelected official](/buffs/unelected-official/) is governing without a ballot. [Good ol' boys club](/habitats/good-ol-boys-club/) is the room where the decision is made by people who already know each other, and [secret meeting](/habitats/secret-meeting/) is the room where it was decided before the meeting where it was announced.",
+      "Two moves finish it. [Good cop, bad cop](/moves/good-cop-bad-cop/) presents one position twice, once as a threat and once as a kindness, so the second sounds like a concession. [Vague promises](/moves/vague-promises/) commits to nothing in the grammar of commitment.",
+      "A field guide to characters can stop at the characters. This is the round where it stopped being able to."
+    ],
+    "entries": [
+      {
+        "term": "Breaking treaties",
+        "slug": "breaking-treaties",
+        "path": "/abilities/breaking-treaties/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal..."
+      },
+      {
+        "term": "Citizens United",
+        "slug": "citizens-united",
+        "path": "/abilities/citizens-united/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker."
+      },
+      {
+        "term": "Climate hoax",
+        "slug": "climate-hoax",
+        "path": "/abilities/climate-hoax/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else..."
+      },
+      {
+        "term": "Forever war",
+        "slug": "forever-war",
+        "path": "/abilities/forever-war/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor..."
+      },
+      {
+        "term": "Lobbyism",
+        "slug": "lobbyism",
+        "path": "/abilities/lobbyism/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade..."
+      },
+      {
+        "term": "Oil diplomacy",
+        "slug": "oil-diplomacy",
+        "path": "/abilities/oil-diplomacy/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really..."
+      },
+      {
+        "term": "PAC check",
+        "slug": "pac-check",
+        "path": "/buffs/pac-check/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt."
+      },
+      {
+        "term": "Unelected official",
+        "slug": "unelected-official",
+        "path": "/buffs/unelected-official/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate..."
+      },
+      {
+        "term": "Good ol' boys club",
+        "slug": "good-ol-boys-club",
+        "path": "/habitats/good-ol-boys-club/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes..."
+      },
+      {
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room..."
+      },
+      {
+        "term": "Good cop, bad cop",
+        "slug": "good-cop-bad-cop",
+        "path": "/moves/good-cop-bad-cop/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions..."
+      },
+      {
+        "term": "Vague promises",
+        "slug": "vague-promises",
+        "path": "/moves/vague-promises/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given..."
+      },
+      {
+        "term": "WMD mongering",
+        "slug": "wmd-mongering",
+        "path": "/moves/wmd-mongering/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory..."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "Group chat",
+        "slug": "group-chat",
+        "path": "/habitats/group-chat/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "A private, high-trust, low-correction forum - the room where a claim arrives from someone you love and is therefore not audited."
+      },
+      {
+        "term": "Rubber chicken circuit",
+        "slug": "rubber-chicken-circuit",
+        "path": "/habitats/rubber-chicken-circuit/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The travelling dinner circuit where money meets a candidate in a room with a rubberised meal and no reporters - the grift's front porch."
+      }
+    ]
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T15:38:41-05:00",
+    "updated": "2026-11-24T15:38:41-05:00",
+    "words": 213,
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "chapter-v-gets-a-cast",
+    "title": "Chapter V gets a cast",
+    "lede": "The chapter about normalization had an appendix and no characters. Now it has two, and four ways of missing the drift.",
+    "path": "/latest/chapter-v-gets-a-cast/",
+    "body": [
+      "Chapter V is about normalization, and until this afternoon it had no cast. The chapter had an appendix of fallacies and nothing at the front of the book: no species, nobody to point at. Then [Passoffist](/species/passoffist/) and [Provocrop](/species/provocrop/) went in at positions one and two.",
+      "[Passoffist](/species/passoffist/) keeps a subject off the table while looking fair about it: the topic changed, the link not opened, the question answered with the process for answering it. [Provocrop](/species/provocrop/) carries the provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper.",
+      "Four fallacies followed, and all four are about a baseline that moves. [Creeping normality](/fallacies/creeping-normality/) accepts each small change because it is small. [Shifting baseline](/fallacies/shifting-baseline/) judges the present against the last generation's memory instead of the record. [Normalcy bias](/fallacies/normalcy-bias/) reads the absence of disaster as evidence against it. [Just-world hypothesis](/fallacies/just-world-hypothesis/) explains suffering by the character of the sufferer.",
+      "That is the chapter in one round: a person who moves the line, a person who wears the line, and four ways of not noticing that it moved.",
+      "A chapter with no cast is a chapter nobody can be found in."
+    ],
+    "entries": [
+      {
+        "term": "Passoffist",
+        "slug": "passoffist",
+        "path": "/species/passoffist/",
+        "kind": "species",
+        "kindLabel": "Species",
+        "summary": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant..."
+      },
+      {
+        "term": "Provocrop",
+        "slug": "provocrop",
+        "path": "/species/provocrop/",
+        "kind": "species",
+        "kindLabel": "Species",
+        "summary": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn..."
+      },
+      {
+        "term": "Creeping normality",
+        "slug": "creeping-normality",
+        "path": "/fallacies/creeping-normality/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend: the fee, then the surcharge..."
+      },
+      {
+        "term": "Just-world hypothesis",
+        "slug": "just-world-hypothesis",
+        "path": "/fallacies/just-world-hypothesis/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner..."
+      },
+      {
+        "term": "Normalcy bias",
+        "slug": "normalcy-bias",
+        "path": "/fallacies/normalcy-bias/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke, so the thing being..."
+      },
+      {
+        "term": "Shifting baseline",
+        "slug": "shifting-baseline",
+        "path": "/fallacies/shifting-baseline/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Judging the present against the last generation's memory instead of the record: the lake still has fish, the river still runs clear enough..."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "The Feed",
+        "slug": "the-feed",
+        "path": "/habitats/the-feed/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The habitat that chooses its own inhabitants: a place with no address, no closing time, and an editor that is a model trained on what you paused on."
+      }
+    ]
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T06:55:29-05:00",
+    "updated": "2026-11-24T06:55:29-05:00",
+    "words": 155,
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "one-word-filed-alone",
+    "title": "One word, filed alone",
+    "lede": "One entry, one merge: Critizen, the pattern of treating a shared obligation as something that binds other people.",
+    "path": "/latest/one-word-filed-alone/",
+    "body": [
+      "The word is [Critizen](/species/critizen/), and the pattern is the tax refused on a theory, the summons answered late, the rule that is real because somebody else is following it.",
+      "It is the only entry this guide has ever added alone, in a round of its own. That is an accident of the afternoon rather than a policy, but the shape of the file is worth saying out loud: one word, one merge, one line in the log.",
+      "It could not wait for company, because it names the failure that makes every remedy expensive. A remedy depends on the obligation being general. The critizen has read the statute and decided it is a description of other people.",
+      "A guide adds what it noticed. Some days that is sixteen entries and a room. Some days it is one word."
+    ],
+    "entries": [
+      {
+        "term": "Critizen",
+        "slug": "critizen",
+        "path": "/species/critizen/",
+        "kind": "species",
+        "kindLabel": "Species",
+        "summary": "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation..."
+      }
+    ],
+    "mentions": []
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T04:56:04-05:00",
+    "updated": "2026-11-24T04:56:04-05:00",
+    "words": 239,
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "chapter-vi-outgrows-the-ballot",
+    "title": "Chapter VI outgrows the ballot",
+    "lede": "The chapter opened with the polling place and had a courtroom by lunchtime.",
+    "path": "/latest/chapter-vi-outgrows-the-ballot/",
+    "body": [
+      "Chapter VI opened with the polling place: the clerk, the poll worker, the count. Two rounds later it had a courtroom. [Cross-examination](/remedies/cross-examination/), [notice and comment](/remedies/notice-and-comment/), [recusal](/remedies/recusal/), [the stay](/remedies/the-stay/), and the offices that make them real: [the juror](/keystones/the-juror/), [the ombudsman](/keystones/the-ombudsman/), [the public defender](/keystones/the-public-defender/), [the statistician](/keystones/the-statistician/), [the translator](/keystones/the-translator/).",
+      "The two hardest arrived last. [The carve-out](/remedies/the-carve-out/) is the statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot reach a case of assault. [The redistricting commission](/keystones/the-redistricting-commission/) draws the districts outside the legislature, with a fixed membership, published criteria, and draft maps.",
+      "The chapter's argument, made twice: a remedy needs a forum. Cross-examination is a technique, and it is nothing without a juror who was instructed and a judge who excludes. Notice and comment is a procedure, and it is nothing without a record a court can review. Filing the technique beside the office is the whole point of the chapter.",
+      "The statistician and the translator are the two people forget. A count nobody can audit and a rule nobody can read are the same failure at different distances: the institution produced a number or a sentence, and nobody outside it can tell whether either is true.",
+      "The chapter outgrew the ballot in an afternoon. That is what an honest taxonomy does: the next entry tells you what the category was missing."
+    ],
+    "entries": [
+      {
+        "term": "Cross-examination",
+        "slug": "cross-examination",
+        "path": "/remedies/cross-examination/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given..."
+      },
+      {
+        "term": "Notice and comment",
+        "slug": "notice-and-comment",
+        "path": "/remedies/notice-and-comment/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative..."
+      },
+      {
+        "term": "Recusal",
+        "slug": "recusal",
+        "path": "/remedies/recusal/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The rule that a person with a financial interest, a family tie, or a prior role in the matter steps out of it - and says so in writing, so the step..."
+      },
+      {
+        "term": "The juror",
+        "slug": "the-juror",
+        "path": "/keystones/the-juror/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened...."
+      },
+      {
+        "term": "The ombudsman",
+        "slug": "the-ombudsman",
+        "path": "/keystones/the-ombudsman/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly..."
+      },
+      {
+        "term": "The public defender",
+        "slug": "the-public-defender",
+        "path": "/keystones/the-public-defender/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole..."
+      },
+      {
+        "term": "The statistician",
+        "slug": "the-statistician",
+        "path": "/keystones/the-statistician/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion..."
+      },
+      {
+        "term": "The translator",
+        "slug": "the-translator",
+        "path": "/keystones/the-translator/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice..."
+      },
+      {
+        "term": "The stay",
+        "slug": "the-stay",
+        "path": "/remedies/the-stay/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent..."
+      },
+      {
+        "term": "The carve-out",
+        "slug": "the-carve-out",
+        "path": "/remedies/the-carve-out/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced..."
+      },
+      {
+        "term": "The redistricting commission",
+        "slug": "the-redistricting-commission",
+        "path": "/keystones/the-redistricting-commission/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment..."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it..."
+      }
+    ]
+  },
+  {
+    "type": "release",
     "published": "2026-11-24T04:47:19-05:00",
+    "updated": "2026-11-24T04:47:19-05:00",
+    "words": 287,
     "date": "2026-11-24",
     "display": "November 24, 2026",
     "slug": "a-second-sighting",
@@ -244,6 +717,8 @@ export const posts = [
   {
     "type": "release",
     "published": "2026-11-24T03:15:04-05:00",
+    "updated": "2026-11-24T03:15:04-05:00",
+    "words": 312,
     "date": "2026-11-24",
     "display": "November 24, 2026",
     "slug": "chapter-vi-answers",
@@ -429,6 +904,332 @@ export const posts = [
         "summary": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended."
       }
     ]
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T02:52:11-05:00",
+    "updated": "2026-11-24T02:52:11-05:00",
+    "words": 248,
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "the-procedural-layer",
+    "title": "The procedural layer",
+    "lede": "Fifteen entries that are not habits. They are the machinery that makes the habit affordable.",
+    "path": "/latest/the-procedural-layer/",
+    "body": [
+      "Fifteen entries, and the tone changes. [SLAPP](/abilities/slapp/) is a suit filed not to win but to cost. [Qualified immunity](/abilities/qualified-immunity/) shields an official unless the right was clearly established at the time. [NDA](/abilities/nda/) converts a fact into a liability. None of these is a personality. They are the machinery that makes the personality affordable.",
+      "Half the round is that machinery, and the other half is the machinery that can still close the gap. [Cloture](/abilities/cloture/) closes debate. [Discharge petition](/abilities/discharge-petition/) escapes a committee that will not report. [Consent decree](/abilities/consent-decree/) turns a settlement into an order a judge enforces. [Judge shopping](/abilities/judge-shopping/) is the same procedure used from the other end: file where the bench is favourable.",
+      "Four moves need a crowd. [Astroturfing](/moves/astroturfing/) manufactures one, [flood the zone](/moves/flood-the-zone/) drowns it, [motte hop](/moves/motte-hop/) retreats inside it, and the [heckler's veto](/moves/hecklers-veto/) makes speaking impossible rather than answering. Two habitats stage it: the [perp walk](/habitats/perp-walk/) before a jury has been chosen, and the [pseudo-event](/habitats/pseudo-event/) that exists in order to be covered.",
+      "Two conditions finish the list, and both are about standing. [Access](/buffs/access/) is being allowed in: the interview, the background call, the standing that makes a question possible. A [hot mic](/buffs/hot-mic/) is the same standing without the control.",
+      "A guide that only names the creature is a list of insults. The procedural layer is what makes it usable, because a mechanism has a name and a name can be argued with."
+    ],
+    "entries": [
+      {
+        "term": "Access",
+        "slug": "access",
+        "path": "/buffs/access/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible..."
+      },
+      {
+        "term": "Astroturfing",
+        "slug": "astroturfing",
+        "path": "/moves/astroturfing/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule."
+      },
+      {
+        "term": "Cloture",
+        "slug": "cloture",
+        "path": "/abilities/cloture/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The motion that closes debate: a supermajority votes to stop talking and the chamber moves to the question - the procedural exit from a filibuster..."
+      },
+      {
+        "term": "Consent decree",
+        "slug": "consent-decree",
+        "path": "/abilities/consent-decree/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor..."
+      },
+      {
+        "term": "Discharge petition",
+        "slug": "discharge-petition",
+        "path": "/abilities/discharge-petition/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it..."
+      },
+      {
+        "term": "Flood the zone",
+        "slug": "flood-the-zone",
+        "path": "/moves/flood-the-zone/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of releasing more than anyone can process: real stories, fake stories and irrelevant stories in the same hour, so the true ones cannot be..."
+      },
+      {
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event..."
+      },
+      {
+        "term": "Hot mic",
+        "slug": "hot-mic",
+        "path": "/buffs/hot-mic/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The condition of being recorded while off: the green-room joke, the hallway aside, the thing said to the aide who is still holding the microphone."
+      },
+      {
+        "term": "Judge shopping",
+        "slug": "judge-shopping",
+        "path": "/abilities/judge-shopping/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped..."
+      },
+      {
+        "term": "Motte hop",
+        "slug": "motte-hop",
+        "path": "/moves/motte-hop/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of retreating from an indefensible claim to a defensible one, winning the argument about the small claim, then re-advancing the large one..."
+      },
+      {
+        "term": "NDA",
+        "slug": "nda",
+        "path": "/abilities/nda/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you..."
+      },
+      {
+        "term": "Perp walk",
+        "slug": "perp-walk",
+        "path": "/habitats/perp-walk/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The staged walk: a suspect moved past cameras at the pace of the photographer, in restraints, before a jury has been chosen."
+      },
+      {
+        "term": "Pseudo-event",
+        "slug": "pseudo-event",
+        "path": "/habitats/pseudo-event/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement."
+      },
+      {
+        "term": "Qualified immunity",
+        "slug": "qualified-immunity",
+        "path": "/abilities/qualified-immunity/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first..."
+      },
+      {
+        "term": "SLAPP",
+        "slug": "slapp",
+        "path": "/abilities/slapp/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "A suit filed not to win but to cost: the claim is weak, the discovery is wide, and the point is that defending it takes years the critic does not..."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "School board meeting",
+        "slug": "school-board-meeting",
+        "path": "/habitats/school-board-meeting/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The room where a national argument goes to be local: the smallest elected body with the largest camera, deciding what a library stocks while..."
+      },
+      {
+        "term": "Motte-and-bailey fallacy",
+        "slug": "motte-and-bailey-fallacy",
+        "path": "/fallacies/motte-and-bailey-fallacy/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Advancing a strong, controversial claim, then retreating to a modest, uncontroversial one when challenged - and re-advancing the strong claim once..."
+      }
+    ]
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T02:36:37-05:00",
+    "updated": "2026-11-24T02:36:37-05:00",
+    "words": 242,
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "the-room-and-the-calendar",
+    "title": "The room and the calendar",
+    "lede": "Sixteen entries, and the first thing to notice is how many of them are rooms.",
+    "path": "/latest/the-room-and-the-calendar/",
+    "body": [
+      "Sixteen entries, and the first thing to notice is how many are rooms. A [rally](/habitats/rally/), a [briefing room](/habitats/briefing-room/), a [spin room](/habitats/spin-room/). The first day had already filed the media habitats, the cable panel and the comment section and the group chat. This round filed the rooms the government owns, where the press is invited in and the answer is performed.",
+      "The second thing to notice is the calendar. [Lame duck](/buffs/lame-duck/) is an officeholder whose replacement is already elected: the powers intact, the consequences gone. [Convention bounce](/buffs/convention-bounce/) is four days of unchallenged messaging and a sample. [Frankincense](/buffs/frankincense/) is the franking privilege, mail that travels free because the office sent it.",
+      "Then the calendar as a weapon. [Friday news dump](/moves/friday-news-dump/) releases the inconvenient thing when the reporters who would ask are off. [Dead cat](/moves/dead-cat/) puts something so shocking on the table that the table has to be about it. [Trial balloon](/moves/trial-balloon/) leaks the proposal to see whether it survives, and [push poll](/moves/push-poll/) dresses a smear as a survey.",
+      "The quiet five are procedural. [Blueslip](/abilities/blueslip/), [nightdocket](/abilities/nightdocket/), [pocketveto](/abilities/pocketveto/), [recessure](/abilities/recessure/), [signaway](/abilities/signaway/): five ways a signature, a calendar, or a committee can decide what a debate was supposed to decide.",
+      "A habitat is not scenery. It is the reason the same creature says a different thing in a different room. The guide had the creatures. This round gave them somewhere to be found."
+    ],
+    "entries": [
+      {
+        "term": "Blueslip",
+        "slug": "blueslip",
+        "path": "/abilities/blueslip/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "Senatorial courtesy as a procedure: the committee asks both home-state senators to return a blue slip on each nominee, and a slip that never comes..."
+      },
+      {
+        "term": "Briefing room",
+        "slug": "briefing-room",
+        "path": "/habitats/briefing-room/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras..."
+      },
+      {
+        "term": "Coattails",
+        "slug": "coattails",
+        "path": "/buffs/coattails/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride..."
+      },
+      {
+        "term": "Convention bounce",
+        "slug": "convention-bounce",
+        "path": "/buffs/convention-bounce/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The polling lift a party gets from its own convention: four days of unchallenged messaging, a balloon drop, and a sample that is briefly paying..."
+      },
+      {
+        "term": "Dead cat",
+        "slug": "dead-cat",
+        "path": "/moves/dead-cat/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced..."
+      },
+      {
+        "term": "Frankincense",
+        "slug": "frankincense",
+        "path": "/buffs/frankincense/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite..."
+      },
+      {
+        "term": "Friday news dump",
+        "slug": "friday-news-dump",
+        "path": "/moves/friday-news-dump/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired."
+      },
+      {
+        "term": "Lame duck",
+        "slug": "lame-duck",
+        "path": "/buffs/lame-duck/",
+        "kind": "buff",
+        "kindLabel": "Buff",
+        "summary": "The condition of an officeholder whose replacement is already elected: still holding the powers, no longer holding the future - the stretch between..."
+      },
+      {
+        "term": "Nightdocket",
+        "slug": "nightdocket",
+        "path": "/abilities/nightdocket/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes..."
+      },
+      {
+        "term": "Pocketveto",
+        "slug": "pocketveto",
+        "path": "/abilities/pocketveto/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill..."
+      },
+      {
+        "term": "Push poll",
+        "slug": "push-poll",
+        "path": "/moves/push-poll/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery."
+      },
+      {
+        "term": "Rally",
+        "slug": "rally",
+        "path": "/habitats/rally/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back."
+      },
+      {
+        "term": "Recessure",
+        "slug": "recessure",
+        "path": "/abilities/recessure/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session..."
+      },
+      {
+        "term": "Signaway",
+        "slug": "signaway",
+        "path": "/abilities/signaway/",
+        "kind": "ability",
+        "kindLabel": "Ability",
+        "summary": "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto..."
+      },
+      {
+        "term": "Spin room",
+        "slug": "spin-room",
+        "path": "/habitats/spin-room/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes..."
+      },
+      {
+        "term": "Trial balloon",
+        "slug": "trial-balloon",
+        "path": "/moves/trial-balloon/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "Cable panel",
+        "slug": "cable-panel",
+        "path": "/habitats/cable-panel/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "A produced argument: a fixed panel, a fixed clock, and a topic chosen for heat rather than for answerability."
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended."
+      }
+    ]
   }
 ]
 
@@ -440,6 +1241,12 @@ export const claimed = {
   "Base rate fallacy": "a-second-sighting",
   "Appeal to force": "a-second-sighting",
   "The fallacy fallacy": "a-second-sighting",
+  "Passoffist": "chapter-v-gets-a-cast",
+  "Provocrop": "chapter-v-gets-a-cast",
+  "Creeping normality": "chapter-v-gets-a-cast",
+  "Just-world hypothesis": "chapter-v-gets-a-cast",
+  "Normalcy bias": "chapter-v-gets-a-cast",
+  "Shifting baseline": "chapter-v-gets-a-cast",
   "The clerk": "chapter-vi-answers",
   "The poll worker": "chapter-vi-answers",
   "The archivist": "chapter-vi-answers",
@@ -459,6 +1266,70 @@ export const claimed = {
   "Random draw": "chapter-vi-answers",
   "Fee shift": "chapter-vi-answers",
   "Sunset clause": "chapter-vi-answers",
+  "Cross-examination": "chapter-vi-outgrows-the-ballot",
+  "Notice and comment": "chapter-vi-outgrows-the-ballot",
+  "Recusal": "chapter-vi-outgrows-the-ballot",
+  "The juror": "chapter-vi-outgrows-the-ballot",
+  "The ombudsman": "chapter-vi-outgrows-the-ballot",
+  "The public defender": "chapter-vi-outgrows-the-ballot",
+  "The statistician": "chapter-vi-outgrows-the-ballot",
+  "The translator": "chapter-vi-outgrows-the-ballot",
+  "The stay": "chapter-vi-outgrows-the-ballot",
+  "The carve-out": "chapter-vi-outgrows-the-ballot",
+  "The redistricting commission": "chapter-vi-outgrows-the-ballot",
+  "Grandfather clause": "how-a-remedy-gets-captured",
+  "Outrage fatigue": "how-a-remedy-gets-captured",
+  "Industry conference": "how-a-remedy-gets-captured",
+  "Soft launch": "how-a-remedy-gets-captured",
+  "The reserve": "how-a-remedy-gets-captured",
+  "The sponsor line": "how-a-remedy-gets-captured",
+  "The withdrawal clause": "how-a-remedy-gets-captured",
+  "Precedentarian": "how-a-remedy-gets-captured",
+  "Critizen": "one-word-filed-alone",
+  "Breaking treaties": "the-policy-turn",
+  "Citizens United": "the-policy-turn",
+  "Climate hoax": "the-policy-turn",
+  "Forever war": "the-policy-turn",
+  "Lobbyism": "the-policy-turn",
+  "Oil diplomacy": "the-policy-turn",
+  "PAC check": "the-policy-turn",
+  "Unelected official": "the-policy-turn",
+  "Good ol' boys club": "the-policy-turn",
+  "Secret meeting": "the-policy-turn",
+  "Good cop, bad cop": "the-policy-turn",
+  "Vague promises": "the-policy-turn",
+  "WMD mongering": "the-policy-turn",
+  "Access": "the-procedural-layer",
+  "Astroturfing": "the-procedural-layer",
+  "Cloture": "the-procedural-layer",
+  "Consent decree": "the-procedural-layer",
+  "Discharge petition": "the-procedural-layer",
+  "Flood the zone": "the-procedural-layer",
+  "Heckler's veto": "the-procedural-layer",
+  "Hot mic": "the-procedural-layer",
+  "Judge shopping": "the-procedural-layer",
+  "Motte hop": "the-procedural-layer",
+  "NDA": "the-procedural-layer",
+  "Perp walk": "the-procedural-layer",
+  "Pseudo-event": "the-procedural-layer",
+  "Qualified immunity": "the-procedural-layer",
+  "SLAPP": "the-procedural-layer",
+  "Blueslip": "the-room-and-the-calendar",
+  "Briefing room": "the-room-and-the-calendar",
+  "Coattails": "the-room-and-the-calendar",
+  "Convention bounce": "the-room-and-the-calendar",
+  "Dead cat": "the-room-and-the-calendar",
+  "Frankincense": "the-room-and-the-calendar",
+  "Friday news dump": "the-room-and-the-calendar",
+  "Lame duck": "the-room-and-the-calendar",
+  "Nightdocket": "the-room-and-the-calendar",
+  "Pocketveto": "the-room-and-the-calendar",
+  "Push poll": "the-room-and-the-calendar",
+  "Rally": "the-room-and-the-calendar",
+  "Recessure": "the-room-and-the-calendar",
+  "Signaway": "the-room-and-the-calendar",
+  "Spin room": "the-room-and-the-calendar",
+  "Trial balloon": "the-room-and-the-calendar",
   "Unawares": "three-ways-of-not-answering",
   "Plead the Fifth": "three-ways-of-not-answering",
   "Depositioning": "three-ways-of-not-answering",
@@ -468,14 +1339,6 @@ export const claimed = {
 }
 
 export const unreleased = [
-  {
-    "term": "Access",
-    "slug": "access",
-    "path": "/buffs/access/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The condition of being allowed in: the interview, the background call, the off-the-record dinner - a standing that makes the next story possible..."
-  },
   {
     "term": "Ad hominem",
     "slug": "ad-hominem",
@@ -637,14 +1500,6 @@ export const unreleased = [
     "summary": "Rejecting or accepting an idea because of who else holds it, rather than because of what it says."
   },
   {
-    "term": "Astroturfing",
-    "slug": "astroturfing",
-    "path": "/moves/astroturfing/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule."
-  },
-  {
     "term": "Biasographer",
     "slug": "biasographer",
     "path": "/species/biasographer/",
@@ -669,14 +1524,6 @@ export const unreleased = [
     "summary": "A temporary platform condition in which the site's own endorsement is mistaken for the reader's: the tick says the account is real..."
   },
   {
-    "term": "Blueslip",
-    "slug": "blueslip",
-    "path": "/abilities/blueslip/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "Senatorial courtesy as a procedure: the committee asks both home-state senators to return a blue slip on each nominee, and a slip that never comes..."
-  },
-  {
     "term": "Bootcurious",
     "slug": "bootcurious",
     "path": "/buffs/bootcurious/",
@@ -691,22 +1538,6 @@ export const unreleased = [
     "kind": "move",
     "kindLabel": "Move",
     "summary": "The move of answering a documented fact with the existence of a contrary claim, as though the claim's existence were evidence of its weight."
-  },
-  {
-    "term": "Breaking treaties",
-    "slug": "breaking-treaties",
-    "path": "/abilities/breaking-treaties/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The capability of a government to treat its own treaty as a policy preference: the accord is binding until it is inconvenient, and the withdrawal..."
-  },
-  {
-    "term": "Briefing room",
-    "slug": "briefing-room",
-    "path": "/habitats/briefing-room/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras..."
   },
   {
     "term": "Cable panel",
@@ -741,38 +1572,6 @@ export const unreleased = [
     "summary": "Using a claim as its own support, often with an extra step so the circle is harder to see."
   },
   {
-    "term": "Citizens United",
-    "slug": "citizens-united",
-    "path": "/abilities/citizens-united/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The doctrine that spending is speech: the ad is the argument, the treasury is the lung, and a limit on either is a limit on the speaker."
-  },
-  {
-    "term": "Climate hoax",
-    "slug": "climate-hoax",
-    "path": "/abilities/climate-hoax/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The manufacture of doubt about a measurement: the same three contrarian papers circulated for a decade, the expert with a degree in something else..."
-  },
-  {
-    "term": "Cloture",
-    "slug": "cloture",
-    "path": "/abilities/cloture/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The motion that closes debate: a supermajority votes to stop talking and the chamber moves to the question - the procedural exit from a filibuster..."
-  },
-  {
-    "term": "Coattails",
-    "slug": "coattails",
-    "path": "/buffs/coattails/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The down-ballot pull of a strong top-of-ticket candidate: when the presidential margin is large, legislators, sheriffs, and ballot measures ride..."
-  },
-  {
     "term": "Comment section",
     "slug": "comment-section",
     "path": "/habitats/comment-section/",
@@ -781,44 +1580,12 @@ export const unreleased = [
     "summary": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended."
   },
   {
-    "term": "Consent decree",
-    "slug": "consent-decree",
-    "path": "/abilities/consent-decree/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The settlement that becomes an order: the parties agree a remedy, a judge signs it, and the agreement acquires a docket number, a monitor..."
-  },
-  {
-    "term": "Convention bounce",
-    "slug": "convention-bounce",
-    "path": "/buffs/convention-bounce/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The polling lift a party gets from its own convention: four days of unchallenged messaging, a balloon drop, and a sample that is briefly paying..."
-  },
-  {
-    "term": "Creeping normality",
-    "slug": "creeping-normality",
-    "path": "/fallacies/creeping-normality/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Accepting each small change because it is small, so that a large one gets assembled out of pieces nobody had to defend: the fee, then the surcharge..."
-  },
-  {
     "term": "Crisisglow",
     "slug": "crisisglow",
     "path": "/buffs/crisisglow/",
     "kind": "buff",
     "kindLabel": "Buff",
     "summary": "A temporary condition in which an emergency converts the office-holder into the responsible one, and every objection into a distraction."
-  },
-  {
-    "term": "Critizen",
-    "slug": "critizen",
-    "path": "/species/critizen/",
-    "kind": "species",
-    "kindLabel": "Species",
-    "summary": "The pattern of treating a shared obligation as something that binds other people: the tax refused on a theory, the summons answered with a citation..."
   },
   {
     "term": "Cronycle",
@@ -837,36 +1604,12 @@ export const unreleased = [
     "summary": "The move of doing the thing in the open while accusing the other side of it: the family contract announced at a press conference, the token launch..."
   },
   {
-    "term": "Cross-examination",
-    "slug": "cross-examination",
-    "path": "/remedies/cross-examination/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The questioning of a witness by the opposing side: leading questions, documents put in front of them, and the requirement that an answer be given..."
-  },
-  {
-    "term": "Dead cat",
-    "slug": "dead-cat",
-    "path": "/moves/dead-cat/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of putting something so shocking on the table that the conversation has to be about it: the story you were asked about is replaced..."
-  },
-  {
     "term": "Decorumancer",
     "slug": "decorumancer",
     "path": "/species/decorumancer/",
     "kind": "species",
     "kindLabel": "Species",
     "summary": "The pattern of answering anger with procedure: the tone corrected, the substance deferred, the volume treated as the offence."
-  },
-  {
-    "term": "Discharge petition",
-    "slug": "discharge-petition",
-    "path": "/abilities/discharge-petition/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The House's escape hatch: when a committee refuses to report a bill, a majority of the whole House can sign a petition to bring it..."
   },
   {
     "term": "Dramagogue",
@@ -933,44 +1676,12 @@ export const unreleased = [
     "summary": "The procedural power of a legislative minority to stop the body from acting by refusing to stop talking - a capability of the seat rather..."
   },
   {
-    "term": "Flood the zone",
-    "slug": "flood-the-zone",
-    "path": "/moves/flood-the-zone/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of releasing more than anyone can process: real stories, fake stories and irrelevant stories in the same hour, so the true ones cannot be..."
-  },
-  {
-    "term": "Forever war",
-    "slug": "forever-war",
-    "path": "/abilities/forever-war/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The war that continues because the alternative is a vote: the authorisation from one conflict stretched over four, the troop level that is a floor..."
-  },
-  {
-    "term": "Frankincense",
-    "slug": "frankincense",
-    "path": "/buffs/frankincense/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The franking privilege: the right of a member of Congress to send official mail to constituents without paying postage - an old perquisite..."
-  },
-  {
     "term": "Freetard",
     "slug": "freetard",
     "path": "/species/freetard/",
     "kind": "species",
     "kindLabel": "Species",
     "summary": "The pattern of invoking a right without its text: liberty asserted as a mood, then applied to a rule the speaker has not read."
-  },
-  {
-    "term": "Friday news dump",
-    "slug": "friday-news-dump",
-    "path": "/moves/friday-news-dump/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of releasing inconvenient information at the end of the week, when the audience is gone and the reporters who remain are tired."
   },
   {
     "term": "Gallopologist",
@@ -997,30 +1708,6 @@ export const unreleased = [
     "summary": "Overwhelming an opponent with a flood of dubious claims so that answering all of them is impossible in the time available."
   },
   {
-    "term": "Good cop, bad cop",
-    "slug": "good-cop-bad-cop",
-    "path": "/moves/good-cop-bad-cop/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of presenting a single position twice, once as a threat and once as a kindness, so that the second sounds like a concession: the sanctions..."
-  },
-  {
-    "term": "Good ol' boys club",
-    "slug": "good-ol-boys-club",
-    "path": "/habitats/good-ol-boys-club/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "The habitat where the decision is made by the people who already know each other: the hiring that happens at the tailgate, the contract that goes..."
-  },
-  {
-    "term": "Grandfather clause",
-    "slug": "grandfather-clause",
-    "path": "/abilities/grandfather-clause/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The legislative move that exempts what is already there: the rule applies to the future, the present keeps its permission, and the practice..."
-  },
-  {
     "term": "Group chat",
     "slug": "group-chat",
     "path": "/habitats/group-chat/",
@@ -1037,28 +1724,12 @@ export const unreleased = [
     "summary": "Drawing a broad conclusion from a sample too small, or too selected, to support it."
   },
   {
-    "term": "Heckler's veto",
-    "slug": "hecklers-veto",
-    "path": "/moves/hecklers-veto/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event..."
-  },
-  {
     "term": "Honeymoan",
     "slug": "honeymoan",
     "path": "/buffs/honeymoan/",
     "kind": "buff",
     "kindLabel": "Buff",
     "summary": "A temporary condition in which a fresh mandate excuses everything the campaign did not explain, and the losing side is expected to be quiet about it."
-  },
-  {
-    "term": "Hot mic",
-    "slug": "hot-mic",
-    "path": "/buffs/hot-mic/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The condition of being recorded while off: the green-room joke, the hallway aside, the thing said to the aide who is still holding the microphone."
   },
   {
     "term": "Hypocontortionist",
@@ -1093,44 +1764,12 @@ export const unreleased = [
     "summary": "A temporary condition in which being charged raises the bearer's standing with their own audience, because persecution is the strongest..."
   },
   {
-    "term": "Industry conference",
-    "slug": "industry-conference",
-    "path": "/habitats/industry-conference/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "The room where a practice becomes respectable: a programme, a sponsor, a panel, and the phrase \"industry standard\" doing the work..."
-  },
-  {
     "term": "JAQing Off",
     "slug": "jaqing-off",
     "path": "/moves/jaqing-off/",
     "kind": "move",
     "kindLabel": "Move",
     "summary": "The move of asking a question shaped like a smear: the loaded premise, the invented number, the \"people are saying\" - phrased as inquiry..."
-  },
-  {
-    "term": "Judge shopping",
-    "slug": "judge-shopping",
-    "path": "/abilities/judge-shopping/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The practice of filing where the bench is favourable: in districts split into single-judge divisions, a case's outcome can be shaped..."
-  },
-  {
-    "term": "Just-world hypothesis",
-    "slug": "just-world-hypothesis",
-    "path": "/fallacies/just-world-hypothesis/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner..."
-  },
-  {
-    "term": "Lame duck",
-    "slug": "lame-duck",
-    "path": "/buffs/lame-duck/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The condition of an officeholder whose replacement is already elected: still holding the powers, no longer holding the future - the stretch between..."
   },
   {
     "term": "LARPtarian",
@@ -1149,28 +1788,12 @@ export const unreleased = [
     "summary": "Asking a question that presupposes the very thing under dispute, so that any direct answer concedes it."
   },
   {
-    "term": "Lobbyism",
-    "slug": "lobbyism",
-    "path": "/abilities/lobbyism/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The system in which the regulated write the regulation: the model statute circulated to forty legislatures, the amendment drafted by the trade..."
-  },
-  {
     "term": "Martyrholic",
     "slug": "martyrholic",
     "path": "/species/martyrholic/",
     "kind": "species",
     "kindLabel": "Species",
     "summary": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering."
-  },
-  {
-    "term": "Motte hop",
-    "slug": "motte-hop",
-    "path": "/moves/motte-hop/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of retreating from an indefensible claim to a defensible one, winning the argument about the small claim, then re-advancing the large one..."
   },
   {
     "term": "Motte-and-bailey fallacy",
@@ -1197,22 +1820,6 @@ export const unreleased = [
     "summary": "The pattern of moving an argument out of the present and into a golden age: the policy defended by a past that did not happen."
   },
   {
-    "term": "NDA",
-    "slug": "nda",
-    "path": "/abilities/nda/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The contract that converts a fact into a liability: sign it to work, sign it to settle, sign it to volunteer, and the fact becomes something you..."
-  },
-  {
-    "term": "Nightdocket",
-    "slug": "nightdocket",
-    "path": "/abilities/nightdocket/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes..."
-  },
-  {
     "term": "No true Scotsman",
     "slug": "no-true-scotsman",
     "path": "/fallacies/no-true-scotsman/",
@@ -1229,22 +1836,6 @@ export const unreleased = [
     "summary": "The move of answering a documented harm with regret about its reception, so that the apology becomes a second accusation."
   },
   {
-    "term": "Normalcy bias",
-    "slug": "normalcy-bias",
-    "path": "/fallacies/normalcy-bias/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Reading an absence of disaster as evidence against the disaster: the levee has held, the audit passed, the fever broke, so the thing being..."
-  },
-  {
-    "term": "Notice and comment",
-    "slug": "notice-and-comment",
-    "path": "/remedies/notice-and-comment/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The rulemaking procedure: publish the draft, take comment for a fixed period, answer what was said, then issue the rule. It is the administrative..."
-  },
-  {
     "term": "Nut-picking",
     "slug": "nut-picking",
     "path": "/fallacies/nut-picking/",
@@ -1253,44 +1844,12 @@ export const unreleased = [
     "summary": "Judging a movement by its worst adherents, or defending it by its most reasonable ones."
   },
   {
-    "term": "Oil diplomacy",
-    "slug": "oil-diplomacy",
-    "path": "/abilities/oil-diplomacy/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The conduct of foreign policy by supply: the visit timed to the production cut, the friendship priced per barrel, the sanction that is really..."
-  },
-  {
     "term": "Omnibust",
     "slug": "omnibust",
     "path": "/abilities/omnibust/",
     "kind": "ability",
     "kindLabel": "Ability",
     "summary": "The capability of a legislature to bundle everything it cannot defend separately into one document too large to read and too urgent to refuse."
-  },
-  {
-    "term": "Outrage fatigue",
-    "slug": "outrage-fatigue",
-    "path": "/buffs/outrage-fatigue/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "A condition in which the audience has spent its capacity to be shocked: the disclosure that would have ended a career in March is a paragraph..."
-  },
-  {
-    "term": "PAC check",
-    "slug": "pac-check",
-    "path": "/buffs/pac-check/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The condition of being funded: the contribution lands inside the limit, the bundler collects the rest, and the vote that follows is the receipt."
-  },
-  {
-    "term": "Passoffist",
-    "slug": "passoffist",
-    "path": "/species/passoffist/",
-    "kind": "species",
-    "kindLabel": "Species",
-    "summary": "The pattern of keeping a subject off the table while looking fair about it: the topic changed, the link not opened, the dinner kept pleasant..."
   },
   {
     "term": "Patriotainer",
@@ -1309,14 +1868,6 @@ export const unreleased = [
     "summary": "The commercial apparatus that converts national identity into subscription content - merch lines, streaming specials, rally tours - where loving..."
   },
   {
-    "term": "Perp walk",
-    "slug": "perp-walk",
-    "path": "/habitats/perp-walk/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "The staged walk: a suspect moved past cameras at the pace of the photographer, in restraints, before a jury has been chosen."
-  },
-  {
     "term": "Playtriot",
     "slug": "playtriot",
     "path": "/species/playtriot/",
@@ -1331,14 +1882,6 @@ export const unreleased = [
     "kind": "species",
     "kindLabel": "Species",
     "summary": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against..."
-  },
-  {
-    "term": "Pocketveto",
-    "slug": "pocketveto",
-    "path": "/abilities/pocketveto/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The constitutional power to let a bill die unsigned: the president neither signs nor returns it, Congress adjourns within ten days, and the bill..."
   },
   {
     "term": "Poisoning the well",
@@ -1357,52 +1900,12 @@ export const unreleased = [
     "summary": "Concluding that one event caused another because it happened first."
   },
   {
-    "term": "Precedentarian",
-    "slug": "precedentarian",
-    "path": "/species/precedentarian/",
-    "kind": "species",
-    "kindLabel": "Species",
-    "summary": "The pattern of treating the last decision as the decision: the practice nobody chose, defended because it exists, with the question closed..."
-  },
-  {
     "term": "Proof by assertion",
     "slug": "proof-by-assertion",
     "path": "/fallacies/proof-by-assertion/",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "summary": "Repeating a claim with confidence as though repetition were support, and treating objection as noise."
-  },
-  {
-    "term": "Provocrop",
-    "slug": "provocrop",
-    "path": "/species/provocrop/",
-    "kind": "species",
-    "kindLabel": "Species",
-    "summary": "The pattern of carrying a provocation as merchandise: the slogan on the chest, the flag on the truck, the insult on the bumper - worn..."
-  },
-  {
-    "term": "Pseudo-event",
-    "slug": "pseudo-event",
-    "path": "/habitats/pseudo-event/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "An occurrence that exists in order to be covered: the photo op, the signing ceremony, the major announcement that announces a future announcement."
-  },
-  {
-    "term": "Push poll",
-    "slug": "push-poll",
-    "path": "/moves/push-poll/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of dressing a smear as a survey: a caller reads a loaded question to thousands of voters and records nothing but the smear's delivery."
-  },
-  {
-    "term": "Qualified immunity",
-    "slug": "qualified-immunity",
-    "path": "/abilities/qualified-immunity/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The doctrine that shields a public official from damages unless the violated right was clearly established at the time - which means the first..."
   },
   {
     "term": "Ragesturbationist",
@@ -1413,36 +1916,12 @@ export const unreleased = [
     "summary": "The pattern of producing anger as a product: the segment timed to the break, the grievance renewed on schedule, the remedy never named."
   },
   {
-    "term": "Rally",
-    "slug": "rally",
-    "path": "/habitats/rally/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back."
-  },
-  {
     "term": "Receiptbomb",
     "slug": "receiptbomb",
     "path": "/moves/receiptbomb/",
     "kind": "move",
     "kindLabel": "Move",
     "summary": "The move of answering an argument with an unreadable quantity of genuine documentation, so that the reply costs more to check than the claim cost..."
-  },
-  {
-    "term": "Recessure",
-    "slug": "recessure",
-    "path": "/abilities/recessure/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session..."
-  },
-  {
-    "term": "Recusal",
-    "slug": "recusal",
-    "path": "/remedies/recusal/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The rule that a person with a financial interest, a family tie, or a prior role in the matter steps out of it - and says so in writing, so the step..."
   },
   {
     "term": "Rubber chicken circuit",
@@ -1477,44 +1956,12 @@ export const unreleased = [
     "summary": "Demanding endless evidence and civility from an opponent while offering none, so the exchange becomes the punishment."
   },
   {
-    "term": "Secret meeting",
-    "slug": "secret-meeting",
-    "path": "/habitats/secret-meeting/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "The room where the thing was decided before the meeting where it was announced: no agenda, no minutes, no list of who was in the room..."
-  },
-  {
-    "term": "Shifting baseline",
-    "slug": "shifting-baseline",
-    "path": "/fallacies/shifting-baseline/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Judging the present against the last generation's memory instead of the record: the lake still has fish, the river still runs clear enough..."
-  },
-  {
     "term": "Shifting the burden of proof",
     "slug": "shifting-the-burden-of-proof",
     "path": "/fallacies/shifting-the-burden-of-proof/",
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "summary": "Demanding that others disprove a claim instead of supporting it, so that the absence of disproof is treated as support."
-  },
-  {
-    "term": "Signaway",
-    "slug": "signaway",
-    "path": "/abilities/signaway/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "The signing statement: a message issued alongside a signature, claiming a constitutional objection to part of the law just signed - a veto..."
-  },
-  {
-    "term": "SLAPP",
-    "slug": "slapp",
-    "path": "/abilities/slapp/",
-    "kind": "ability",
-    "kindLabel": "Ability",
-    "summary": "A suit filed not to win but to cost: the claim is weak, the discovery is wide, and the point is that defending it takes years the critic does not..."
   },
   {
     "term": "Slippery slope",
@@ -1533,14 +1980,6 @@ export const unreleased = [
     "summary": "The pattern of publishing at the speed of the feed: the claim generated, the byline optional, the correction never written because nobody was..."
   },
   {
-    "term": "Soft launch",
-    "slug": "soft-launch",
-    "path": "/moves/soft-launch/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of shipping a contested change without announcing it: no speech, no press release, a line on a form and a date already in the past..."
-  },
-  {
     "term": "Sophistroll",
     "slug": "sophistroll",
     "path": "/species/sophistroll/",
@@ -1555,14 +1994,6 @@ export const unreleased = [
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "summary": "Applying a standard to others while exempting oneself, without giving a reason that would not also exempt the others."
-  },
-  {
-    "term": "Spin room",
-    "slug": "spin-room",
-    "path": "/habitats/spin-room/",
-    "kind": "habitat",
-    "kindLabel": "Habitat",
-    "summary": "The room behind the stage where campaigns send their talkers to say what the audience just saw - the post-debate scrum that writes..."
   },
   {
     "term": "Straw man",
@@ -1605,100 +2036,12 @@ export const unreleased = [
     "summary": "Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted."
   },
   {
-    "term": "The carve-out",
-    "slug": "the-carve-out",
-    "path": "/remedies/the-carve-out/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced..."
-  },
-  {
     "term": "The Feed",
     "slug": "the-feed",
     "path": "/habitats/the-feed/",
     "kind": "habitat",
     "kindLabel": "Habitat",
     "summary": "The habitat that chooses its own inhabitants: a place with no address, no closing time, and an editor that is a model trained on what you paused on."
-  },
-  {
-    "term": "The juror",
-    "slug": "the-juror",
-    "path": "/keystones/the-juror/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened...."
-  },
-  {
-    "term": "The ombudsman",
-    "slug": "the-ombudsman",
-    "path": "/keystones/the-ombudsman/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly..."
-  },
-  {
-    "term": "The public defender",
-    "slug": "the-public-defender",
-    "path": "/keystones/the-public-defender/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The lawyer appointed to defend people who cannot afford one: the arraignment, the bail application, the plea, the trial. The caseload is the whole..."
-  },
-  {
-    "term": "The redistricting commission",
-    "slug": "the-redistricting-commission",
-    "path": "/keystones/the-redistricting-commission/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The body that draws electoral districts outside the legislature: a fixed membership, published criteria, draft maps released for comment..."
-  },
-  {
-    "term": "The reserve",
-    "slug": "the-reserve",
-    "path": "/remedies/the-reserve/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made..."
-  },
-  {
-    "term": "The sponsor line",
-    "slug": "the-sponsor-line",
-    "path": "/remedies/the-sponsor-line/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The disclosure requirement attached to political spending: whoever pays for the advertisement is named inside it, at the same moment..."
-  },
-  {
-    "term": "The statistician",
-    "slug": "the-statistician",
-    "path": "/keystones/the-statistician/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The official who produces the count: the census, the labour survey, the crime series, the hospital waiting list. The job is not to have an opinion..."
-  },
-  {
-    "term": "The stay",
-    "slug": "the-stay",
-    "path": "/remedies/the-stay/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent..."
-  },
-  {
-    "term": "The translator",
-    "slug": "the-translator",
-    "path": "/keystones/the-translator/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The person who carries a rule across the gap between the institution and the public: the plain-language rewrite, the translated form, the notice..."
-  },
-  {
-    "term": "The withdrawal clause",
-    "slug": "the-withdrawal-clause",
-    "path": "/remedies/the-withdrawal-clause/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule..."
   },
   {
     "term": "Thought-terminating cliché",
@@ -1715,14 +2058,6 @@ export const unreleased = [
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "summary": "Deflecting an argument by criticising how it was delivered - too angry, too shrill, too soon."
-  },
-  {
-    "term": "Trial balloon",
-    "slug": "trial-balloon",
-    "path": "/moves/trial-balloon/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of leaking a proposal to see how it lands: if the reaction is survivable, the leak becomes an announcement; if not, it was never the policy."
   },
   {
     "term": "Trust-Me-Brofessor",
@@ -1749,22 +2084,6 @@ export const unreleased = [
     "summary": "Defending an act by pointing at an equivalent act on the other side, as though symmetry settled the question."
   },
   {
-    "term": "Unelected official",
-    "slug": "unelected-official",
-    "path": "/buffs/unelected-official/",
-    "kind": "buff",
-    "kindLabel": "Buff",
-    "summary": "The condition of governing without having been on a ballot: the administrator, the commissioner, the special adviser, the board that sets the rate..."
-  },
-  {
-    "term": "Vague promises",
-    "slug": "vague-promises",
-    "path": "/moves/vague-promises/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of committing to nothing in the grammar of commitment: the historic plan, the bold new direction, the day-one priority that is never given..."
-  },
-  {
     "term": "Vaguebooking",
     "slug": "vaguebooking",
     "path": "/moves/vaguebooking/",
@@ -1781,14 +2100,6 @@ export const unreleased = [
     "summary": "Deflecting a question by raising a different grievance, so the original subject never gets answered."
   },
   {
-    "term": "WMD mongering",
-    "slug": "wmd-mongering",
-    "path": "/moves/wmd-mongering/",
-    "kind": "move",
-    "kindLabel": "Move",
-    "summary": "The move of selling a war with a threat nobody can see: the tube trailer photographed from a low angle, the aluminium tubes, the mobile laboratory..."
-  },
-  {
     "term": "Xenophobricator",
     "slug": "xenophobricator",
     "path": "/species/xenophobricator/",
@@ -1801,6 +2112,8 @@ export const unreleased = [
 export const latest = {
   "type": "release",
   "published": "2026-11-26T20:03:25-05:00",
+  "updated": "2026-11-26T20:03:25-05:00",
+  "words": 228,
   "date": "2026-11-26",
   "display": "November 26, 2026",
   "slug": "three-ways-of-not-answering",

@@ -380,6 +380,18 @@ def load_releases(data):
                 errors.append(f"{name}: published needs a UTC offset; a feed without one is ambiguous")
             elif name != f"{stamp.date().isoformat()}-{slug}.json":
                 errors.append(f"{name}: file name should be {stamp.date().isoformat()}-{slug}.json")
+        updated = post.get("updated", published)
+        if updated != published:
+            try:
+                revised = datetime.fromisoformat(updated)
+            except ValueError:
+                errors.append(f"{name}: updated must be an ISO timestamp, not {updated!r}")
+                revised = None
+            if revised is not None:
+                if revised.tzinfo is None:
+                    errors.append(f"{name}: updated needs a UTC offset")
+                elif stamp is not None and revised < stamp:
+                    errors.append(f"{name}: updated is before published; dateModified would go backwards")
         for key in ("title", "lede"):
             check_prose(f"{name}: {key}", post.get(key, ""), errors)
         if meta_length(post.get("lede", "")) > META_LIMIT:
@@ -420,6 +432,8 @@ def load_releases(data):
         posts.append({
             "type": kind,
             "published": published,
+            "updated": updated,
+            "words": sum(len(text.split()) for text in [post.get("lede", ""), *body]),
             "date": stamp.date().isoformat() if stamp else "",
             "display": f"{MONTHS[stamp.month - 1]} {stamp.day}, {stamp.year}" if stamp else published[:10],
             "slug": slug,
@@ -467,7 +481,7 @@ def inline_html(text, origin):
 
 def render_feed(posts, doc):
     origin = doc["site"].rstrip("/")
-    updated = posts[0]["published"] if posts else "1970-01-01T00:00:00+00:00"
+    updated = max((post["updated"] for post in posts), default="1970-01-01T00:00:00+00:00")
     lines = [
         '<?xml version="1.0" encoding="utf-8"?>',
         '<feed xmlns="http://www.w3.org/2005/Atom">',
@@ -487,7 +501,7 @@ def render_feed(posts, doc):
             f'    <link rel="alternate" type="text/html" href="{origin}{post["path"]}"/>',
             f"    <id>{origin}{post['path']}</id>",
             f"    <published>{post['published']}</published>",
-            f"    <updated>{post['published']}</updated>",
+            f"    <updated>{post['updated']}</updated>",
             f"    <summary>{html.escape(post['lede'])}</summary>",
             f'    <content type="html">{html.escape(content)}</content>',
             "  </entry>",
