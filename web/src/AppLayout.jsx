@@ -5,6 +5,7 @@ import { mountIslands } from './islands.js'
 import { islands } from './AppIslands.jsx'
 import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
+import ConsentBanner from './components/ConsentBanner.jsx'
 import Home from './pages/Home.jsx'
 import Guide from './pages/Guide.jsx'
 import Species from './pages/Species.jsx'
@@ -13,6 +14,8 @@ import Latest from './pages/Latest.jsx'
 import Post from './pages/Post.jsx'
 import Contribute from './pages/Contribute.jsx'
 import About from './pages/About.jsx'
+import Terms from './pages/Terms.jsx'
+import Privacy from './pages/Privacy.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function ScrollToTop() {
@@ -56,6 +59,8 @@ function RoutedViews() {
           <Route path="/latest/:slug" element={<Post />} />
           <Route path="/contribute" element={<Contribute />} />
           <Route path="/about" element={<About />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
           {/* one Route per ssr.config.js entry; species routes share this one */}
           <Route path="*" element={<NotFound />} />
     </Routes>
@@ -72,6 +77,7 @@ export default function AppLayout() {
         <RoutedViews />
       </main>
       <Footer />
+      <ConsentBanner />
     </>
   )
 }

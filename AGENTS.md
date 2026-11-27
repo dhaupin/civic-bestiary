@@ -479,6 +479,27 @@ Open Graph card, a `BlogPosting` node in the graph (`image`, `wordCount`,
 `Blog` node on `/latest/` lists every post, so a new one is discoverable from the
 collection page as well as its own URL.
 
+## The legal pages (`/terms/`, `/privacy/`)
+
+Two routes, linked from the footer and from nowhere else, and both carry a version and an
+effective date at the top of the page and in their JSON-LD (`WebPage` for terms,
+`PrivacyPolicy` for privacy, both with `dateModified`). Changing either page means changing
+the version and the date in the component, and `LEGAL_REVISED` in `web/ssr.config.js`.
+
+The footer carries `site.footerNote` above its links on every page: satire, a fictional
+universe, resemblance coincidental. It is the conspicuous version of the terms' section 3,
+and it should stay on every page rather than living only on `/terms/`.
+
+**Analytics is denied until a visitor allows it.** `web/src/consent.js` owns the record
+(`localStorage` key `cb-consent`, versioned by `CONSENT_VERSION`), the GPC/DNT check, and the
+hand-off to Cloudflare Zaraz (`zaraz.consent.set({ analytics })`) or a direct GA tag
+(`gtag('consent','update')`). `components/ConsentBanner.jsx` asks once, renders nothing on
+the server, and closes when a choice is made anywhere else (`cb:consent-changed`); the
+privacy page reads the same record and offers the same choice, so the page cannot describe a
+control the site does not have. If the list of purposes ever changes, raise
+`CONSENT_VERSION` so every stored answer is invalidated. The privacy notice's cookie table
+is the claim; keep it true when a provider changes.
+
 ## House style
 
 - Two numbered senses per entry: one concrete ("who this person is"), one structural ("what
