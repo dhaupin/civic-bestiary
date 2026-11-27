@@ -18,6 +18,10 @@
     {
       "term": "Gallopologist",
       "tell": "Both produce volume; the gallopologist is racing the clock to the end of the format, the ricochetoric is keeping a subject in the air so that none of them has to land."
+    },
+    {
+      "term": "Ismatic",
+      "tell": "The ismatic fires one label at a thing; the ricochetoric fires claims until nobody remembers the thing."
     }
   ],
   "senses": [
@@ -27,8 +31,6 @@
   "notes": [],
   "example": "*\"He had an answer for every question and a question for every answer, and by the third exchange nobody could remember which of his **ricochetoric** shots was still in play.\"*",
   "related": [
-    "Ismatic",
-    "Gallopologist",
     "Sophistroll"
   ],
   "edges": [

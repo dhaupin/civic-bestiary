@@ -279,7 +279,7 @@ appending.
   there without a second implementation.
 - **`/guide/` was `/species/`.** The guide used to live at `/species/`; that path is now the
   species front door, so there is no redirect to write (a path cannot both serve and redirect).
-  Inbound links land on the 24 species with a link to the whole guide.
+  Inbound links land on the species front door, which carries every species and a link to the whole guide.
 - Entries that changed kind since launch 301 from their old `/species/` URL in
   `web/public/_redirects`.
 - **Route paths, links, and canonicals all carry a trailing slash.** Cloudflare Pages serves

@@ -817,8 +817,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Questions shaped like accusations - "just asking" - and never the claim itself. Ask for evidence and it retreats behind the question.  
 **Counter:** Answer once, in writing, then ask what evidence would change their mind. The move dies when the question stops being cheaper than the answer.  
 
-1. The bad-faith rhetorical tactic of floating wild accusations, baseless smears, or conspiracy theories disguised as "innocent questions," solely for self-gratification and plausible deniability - immediately retreating behind *"Hey, I'm just asking questions!"* the second anyone demands accountability.
-2. Weaponizing feigned curiosity to plant poisonous insinuations in an audience's head without ever having to back them up with evidence, facts, or the courage to own the claim outright.
+1. The move of asking a question shaped like a smear: the loaded premise, the invented number, the "people are saying" - phrased as inquiry so the asker never has to own the claim.
+2. It works because a question costs nothing to ask and something to refuse, and it is the refusal that gets quoted - so the smear travels inside the question and the burden lands on whoever has to deny it.
 
 * **Example:** *"Instead of presenting a shred of evidence, the podcast host spent two hours **JAQing off** about rigged weather machines before hiding behind 'I'm not saying it's true, I'm just asking questions!'"*
 * **Easily confused with:** *Sophistroll* - The sophistroll argues badly; the JAQer never argues at all, only asks.
@@ -957,9 +957,10 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"He had an answer for every question and a question for every answer, and by the third exchange nobody could remember which of his **ricochetoric** shots was still in play."*
 * **Easily confused with:** *Gallopologist* - Both produce volume; the gallopologist is racing the clock to the end of the format, the ricochetoric is keeping a subject in the air so that none of them has to land.
+* **Easily confused with:** *Ismatic* - The ismatic fires one label at a thing; the ricochetoric fires claims until nobody remembers the thing.
 * **Performs:** [*Flood the zone*](#49-flood-the-zone)
 * **Commits:** [*Gish gallop*](#157-gish-gallop), [*Proof by assertion*](#26-proof-by-assertion), [*Ad nauseam*](#135-ad-nauseam), [*Texas sharpshooter fallacy*](#60-texas-sharpshooter-fallacy), [*Shifting the burden of proof*](#156-shifting-the-burden-of-proof)
-* **Related Terms:** [*Ismatic*](#6-ismatic), [*Sophistroll*](#29-sophistroll)
+* **Related Terms:** [*Sophistroll*](#29-sophistroll)
 
 ---
 
@@ -975,7 +976,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended.
 2. It rewards the reply that travels over the reply that is right. Because the cheapest sentence to write is a verdict, the habitat selects for verdicts - which is why so many of the fallacies filed at the end of this chapter are at home here.
 
-* **Example:** *"Four hundred comments under a budget story, and not one of them about the budget - three about the mayor's brother, two hundred about each other, and a bot selling a supplement."*
+* **Example:** *"Four hundred comments under a budget story, and not one of them about the budget: the **comment section** had three about the mayor's brother, two hundred about each other, and a bot selling a supplement."*
 * **Easily confused with:** *Cable panel* - The panel is paced and produced; the comment section is feral and asynchronous. Both are venues for the verdict.
 * **Houses:**
   * *Species you'll meet here:* [*Freetard*](#2-freetard), [*Illogician*](#30-illogician), [*Sophistroll*](#29-sophistroll)
@@ -998,8 +999,9 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Asked about the audit, the host **bothsidesed** it: two minutes for the accountant, two for the man who says audits are a myth, and a promise to keep following the story."*
 * **Easily confused with:** *Equivangelist* - The equivangelist preaches the symmetry as a virtue; the bothsideser performs it as a booking decision.
+* **Easily confused with:** *Shibbolether* - The bothsideser hands you two sides and calls it fairness; the shibbolether hands you one and calls it loyalty.
 * **Commits:** [*False balance*](#97-false-balance), [*Argument to moderation*](#96-argument-to-moderation)
-* **Related Terms:** [*Decorumancer*](#37-decorumancer), [*Cable panel*](#106-cable-panel), [*Shibbolether*](#7-shibbolether)
+* **Related Terms:** [*Decorumancer*](#37-decorumancer), [*Cable panel*](#106-cable-panel)
 * **Source:** [Wikipedia · False balance](https://en.wikipedia.org/wiki/False_balance)
 
 ---
@@ -1622,8 +1624,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** "I'm socially liberal, but -" arrives before the argument does. Reads exactly one newsletter, and finds the boot reasonable.  
 **Expires:** The next story that forces a choice between the strongman and the neighbour - usually within a month, rarely at a ballot.  
 
-1. *(noun)* An individual who claims to be an "independent thinker," "centrist," or "anti-establishment rebel," yet consistently finds themselves drawn to, making excuses for, or defending authoritarian strongmen, billionaires, and state overreach.
-2. *(adjective)* Exhibiting a submissive fascination with unchecked authority - eagerly surrendering personal dignity, critical thinking, and civic principles to worship powerful figures who openly hold them in contempt.
+1. The condition of finding authoritarianism interesting rather than alarming: the strongman interview watched twice, the emergency powers explained as efficiency, the banned book ordered "for research".
+2. It works because curiosity is the one enthusiasm nobody can object to - the bootcurious are only ever looking, and looking never has to become agreement.
 
 * **Example:** *"For someone who claims to hate government overreach, he sure acts **bootcurious** every time a strongman threatens to jail political rivals or crush protests."*
 * **Easily confused with:** *Capitulectual* - The capitulectual concedes out loud; the bootcurious one concedes in advance and calls it independence.
@@ -1640,8 +1642,8 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 **Tell:** Blatant, unbothered, on the record: "It's not illegal," delivered as a defence rather than a confession, while the same accusation is levelled at whoever is closest.  
 **Counter:** Price it in public - name the number, the hour, the invoice. Crookmaxxing runs on the cost staying abstract.  
 
-1. *(noun)* The shameless, full-throttle practice of committing blatant corruption, grift, or abuse of power in broad daylight while simultaneously accusing political rivals and critics of the exact same crimes.
-2. *(verb)* Aggressively projecting one's own fraud, censorship, or rule-breaking onto opponents as a preemptive smoke screen - treating every accusation as a confession while maximizing personal enrichment and impunity.
+1. The move of doing the thing in the open while accusing the other side of it: the family contract announced at a press conference, the token launch plugged from the podium, the indictment called a witch hunt in the week it lands.
+2. It works because an accusation is louder than a filing and it arrives first - by the time the receipts are public, the audience has already attached the crime to the other side, and every denial sounds like the denial the other side made.
 
 * **Example:** *"Using a public office to sell sketchy crypto tokens while screaming that your opponents are running a criminal syndicate is peak **crookmaxxing**."*
 * **Easily confused with:** *Critizen* - The critizen believes the law does not apply; the crookmaxxer knows it does and prices it in.
@@ -2126,6 +2128,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 
 * **Example:** *"Instead of looking at actual administrative data, the **xenophobricator** blamed a tiny immigrant community for draining an entire multi-billion-dollar federal assistance program."*
 * **Easily confused with:** *Dramagogue* - The xenophobricator needs a specific outsider; the dramagogue only needs a crowd.
+* **Easily confused with:** *Ismatic* - The xenophobricator names a suspect; the ismatic names a slogan. One blames a group for the outcome, the other blames the outcome with a group's word.
 * **Commits:** [*Hasty generalization*](#145-hasty-generalization), [*Association fallacy*](#132-association-fallacy), [*Appeal to motive*](#133-appeal-to-motive), [*Post hoc ergo propter hoc*](#94-post-hoc-ergo-propter-hoc), [*Base rate fallacy*](#67-base-rate-fallacy)
 * **Related Terms:** [*Ragesturbationist*](#101-ragesturbationist), [*The statistician*](#186-the-statistician)
 
@@ -2260,7 +2263,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. A produced argument: a fixed panel, a fixed clock, and a topic chosen for heat rather than for answerability.
 2. It rewards the claim that fits before the break. A false claim costs nothing inside ninety seconds and an answer costs most of them, so the format systematically favours the gallop over the reply.
 
-* **Example:** *"Ninety seconds, four panellists, eleven claims, and a hard break before anyone could ask what the second one meant."*
+* **Example:** *"Ninety seconds, four panellists, eleven claims on the **cable panel**, and a hard break before anyone could ask what the second one meant."*
 * **Easily confused with:** *Comment section* - The panel is produced and timed; the comment section is neither. Both punish the answer and reward the claim.
 * **Houses:**
   * *Species you'll meet here:* [*Biasographer*](#33-biasographer), [*Equivangelist*](#35-equivangelist), [*Gallopologist*](#36-gallopologist)
@@ -2283,7 +2286,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. A private, high-trust, low-correction forum - the room where a claim arrives from someone you love and is therefore not audited.
 2. It exploits trust rather than speed. Nobody fact-checks their aunt, so the habitat runs almost entirely on Appeals to Authority and Pity, and the correction that would fix it never gets forwarded.
 
-* **Example:** *"Three forwards before breakfast: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link."*
+* **Example:** *"Three forwards before breakfast in the **group chat**: one about a bank, one about a vaccine, one about a school - all from the same uncle, none with a link."*
 * **Easily confused with:** *Comment section* - The comment section is public and adversarial; the group chat is private and trusting. Same fallacies, opposite selection pressure.
 * **Houses:**
   * *Species you'll meet here:* [*Passoffist*](#138-passoffist)
@@ -2478,7 +2481,6 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Houses:**
   * *Species you'll meet here:* [*Playtriot*](#1-playtriot), [*Ragesturbationist*](#101-ragesturbationist), [*Provocrop*](#139-provocrop), [*Dramagogue*](#100-dramagogue), [*LARPtarian*](#3-larptarian), [*Xenophobricator*](#99-xenophobricator)
   * *Fallacies at home here:* [*Appeal to force*](#68-appeal-to-force), [*Appeal to consequences*](#137-appeal-to-consequences), [*Appeal to nature*](#25-appeal-to-nature), [*Argumentum ad populum*](#153-argumentum-ad-populum), [*False dilemma*](#54-false-dilemma), [*Slippery slope*](#22-slippery-slope)
-* **Commits:** [*Argumentum ad populum*](#153-argumentum-ad-populum)
 * **Related Terms:** [*Playtriot*](#1-playtriot), [*Pseudo-event*](#118-pseudo-event), [*Ragesturbationist*](#101-ragesturbationist)
 * **Source:** [Wikipedia · Political rally](https://en.wikipedia.org/wiki/Political_rally)
 
@@ -3586,9 +3588,9 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 * **Easily confused with:** *Records request* - The request gets what the body wrote down; the transcript is what it said before anybody wrote it down.
 * **Counters:**
   * *Species:* [*Precedentarian*](#140-precedentarian)
-  * *Moves:* [*Vaguebooking*](#41-vaguebooking), [*Motte hop*](#47-motte-hop), [*Dead cat*](#43-dead-cat)
+  * *Moves:* [*Vaguebooking*](#41-vaguebooking), [*Motte hop*](#47-motte-hop), [*Dead cat*](#43-dead-cat), [*Heckler's veto*](#48-hecklers-veto)
   * *Abilities:* [*Subpoenado*](#76-subpoenado)
-  * *Habitats:* [*Cable panel*](#106-cable-panel), [*Group chat*](#107-group-chat)
+  * *Habitats:* [*Cable panel*](#106-cable-panel), [*Group chat*](#107-group-chat), [*Rally*](#116-rally)
   * *Buffs:* [*Bootcurious*](#73-bootcurious), [*Hot mic*](#121-hot-mic)
 * **Related Terms:** [*The archivist*](#165-the-archivist), [*The second source*](#174-the-second-source)
 * **Source:** [Wikipedia · Court reporter](https://en.wikipedia.org/wiki/Court_reporter)

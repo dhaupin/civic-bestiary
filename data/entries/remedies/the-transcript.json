@@ -66,6 +66,14 @@
     {
       "rel": "counters",
       "to": "Precedentarian"
+    },
+    {
+      "rel": "counters",
+      "to": "Heckler's veto"
+    },
+    {
+      "rel": "counters",
+      "to": "Rally"
     }
   ],
   "cite": {
