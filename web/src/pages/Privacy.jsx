@@ -17,15 +17,15 @@ import { effectiveConsent, openConsentBanner, saveConsent } from '../consent.js'
 import Email from '../components/Email.jsx'
 
 const VERSION = '1.0'
-const EFFECTIVE = '27 November 2026'
+const EFFECTIVE = 'November 27, 2026'
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
   'August', 'September', 'October', 'November', 'December']
 
-/** The site prints dates day-first, as the prose does. */
+/** The site prints dates in US order, month first. */
 function recordedOn(iso) {
   const d = new Date(iso)
-  return Number.isNaN(d.getTime()) ? '' : `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`
+  return Number.isNaN(d.getTime()) ? '' : `${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
 }
 
 const CHOICE_LABELS = {
