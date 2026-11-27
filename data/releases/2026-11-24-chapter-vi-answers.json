@@ -1,0 +1,39 @@
+{
+  "type": "release",
+  "published": "2026-11-24T03:15:04-05:00",
+  "slug": "chapter-vi-answers",
+  "title": "Chapter VI answers the creatures",
+  "lede": "Five chapters name the failures. The sixth names the people who catch them, and the procedures that need no office at all.",
+  "entries": [
+    "The clerk",
+    "The poll worker",
+    "The archivist",
+    "The librarian",
+    "The caseworker",
+    "The editor",
+    "The moderator",
+    "The auditor",
+    "Records request",
+    "The transcript",
+    "Lateral reading",
+    "The second source",
+    "The steelman",
+    "The public count",
+    "The written reason",
+    "The audit",
+    "Random draw",
+    "Fee shift",
+    "Sunset clause"
+  ],
+  "mentions": [
+    "Heckler's veto",
+    "Comment section"
+  ],
+  "body": [
+    "A field guide that starts prescribing becomes a pamphlet, so the first five chapters only diagnose: name the creature, the move, the habitat, and stop there. Chapter VI breaks that rule on purpose. It is the first chapter whose entries are the answer rather than the description of the problem.",
+    "The keystones are offices. [The clerk](/keystones/the-clerk/) keeps the body's memory, the agenda, the roll call, the motions as adopted rather than as proposed. The poll worker runs the count everyone else argues about afterwards. The archivist keeps what nobody has asked for yet. The librarian holds the shelf the feed cannot sort. The caseworker reads the file. The editor decides what a sentence is allowed to mean. The moderator holds the line the [heckler's veto](/moves/hecklers-veto/) is built to cross. [The auditor](/keystones/the-auditor/) follows the fee. Eight of them, each filed with a tell and a counter like any creature, because an office is exactly as easy to hollow out as a person.",
+    "The remedies are the ones available to somebody with no office at all: [records request](/remedies/records-request/), lateral reading, the second source, [the steelman](/remedies/the-steelman/), the transcript, the written reason, the public count, random draw, fee shift, sunset clause, the audit. Each is written as an instruction rather than a description. Read one out loud and you can run it tomorrow.",
+    "The split is the argument. A remedy without an office is advice. An office without a remedy is a title. Filing both in one chapter lets the guide say what a body needs and who is supposed to be holding it, and lets a reader see the gap when the answer is nobody.",
+    "Five chapters describe how a body loses the thread. This one describes the people who keep the receipts."
+  ]
+}

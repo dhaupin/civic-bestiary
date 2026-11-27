@@ -147,10 +147,318 @@ export const posts = [
       }
     ],
     "mentions": []
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T04:47:19-05:00",
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "a-second-sighting",
+    "title": "A second sighting",
+    "lede": "Seven fallacies went into the reference end, and every fallacy already there got a second entry wired to it.",
+    "path": "/latest/a-second-sighting/",
+    "body": [
+      "The seven are [Kafka trap](/fallacies/kafka-trap/), Bulverism, [McNamara fallacy](/fallacies/mcnamara-fallacy/), Nirvana fallacy, base rate fallacy, appeal to force, [the fallacy fallacy](/fallacies/the-fallacy-fallacy/). The same pass went back over the ones already filed and gave each a second sighting, a second entry that commits it in the wild.",
+      "The rule that forced the sweep: a fallacy filed on one sighting cannot be told apart from the habit of the entry that produced it. Two sightings is the smallest evidence that a move is portable, and a guide that keeps the rule can be checked from outside, because the graph either has the second edge or it does not. Every fallacy now carries at least two, so a reader can walk from the fallacy to the things that commit it instead of taking the entry's word for the pattern.",
+      "Three of the seven are the same trick at different distances. The Kafka trap makes the denial into the evidence. Bulverism answers the argument by explaining the arguer. The fallacy fallacy takes one bad argument as proof that the claim is false. All three end the argument without touching it.",
+      "The other four are about what gets weighed. McNamara counts what can be counted and files the rest as commentary. Nirvana compares a proposal to nothing and the present arrangement to nothing, so only the proposal looks expensive. The base rate fallacy weighs one vivid instance against the frequency it came from. Appeal to force prices the dissent before the merits are weighed at all.",
+      "A guide is only as good as its sightings. Two is the smallest number that is not an anecdote."
+    ],
+    "entries": [
+      {
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say."
+      },
+      {
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list."
+      },
+      {
+        "term": "McNamara fallacy",
+        "slug": "mcnamara-fallacy",
+        "path": "/fallacies/mcnamara-fallacy/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the charge is not."
+      },
+      {
+        "term": "Nirvana fallacy",
+        "slug": "nirvana-fallacy",
+        "path": "/fallacies/nirvana-fallacy/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost."
+      },
+      {
+        "term": "Base rate fallacy",
+        "slug": "base-rate-fallacy",
+        "path": "/fallacies/base-rate-fallacy/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with."
+      },
+      {
+        "term": "Appeal to force",
+        "slug": "appeal-to-force",
+        "path": "/fallacies/appeal-to-force/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear."
+      },
+      {
+        "term": "The fallacy fallacy",
+        "slug": "the-fallacy-fallacy",
+        "path": "/fallacies/the-fallacy-fallacy/",
+        "kind": "fallacy",
+        "kindLabel": "Fallacy",
+        "summary": "Concluding that a claim is false because the argument offered for it is invalid."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event..."
+      },
+      {
+        "term": "Plutomartyr",
+        "slug": "plutomartyr",
+        "path": "/species/plutomartyr/",
+        "kind": "species",
+        "kindLabel": "Species",
+        "summary": "The pattern of converting accountability into persecution: the subpoena, the audit, or the declined invitation described as a campaign against..."
+      }
+    ]
+  },
+  {
+    "type": "release",
+    "published": "2026-11-24T03:15:04-05:00",
+    "date": "2026-11-24",
+    "display": "November 24, 2026",
+    "slug": "chapter-vi-answers",
+    "title": "Chapter VI answers the creatures",
+    "lede": "Five chapters name the failures. The sixth names the people who catch them, and the procedures that need no office at all.",
+    "path": "/latest/chapter-vi-answers/",
+    "body": [
+      "A field guide that starts prescribing becomes a pamphlet, so the first five chapters only diagnose: name the creature, the move, the habitat, and stop there. Chapter VI breaks that rule on purpose. It is the first chapter whose entries are the answer rather than the description of the problem.",
+      "The keystones are offices. [The clerk](/keystones/the-clerk/) keeps the body's memory, the agenda, the roll call, the motions as adopted rather than as proposed. The poll worker runs the count everyone else argues about afterwards. The archivist keeps what nobody has asked for yet. The librarian holds the shelf the feed cannot sort. The caseworker reads the file. The editor decides what a sentence is allowed to mean. The moderator holds the line the [heckler's veto](/moves/hecklers-veto/) is built to cross. [The auditor](/keystones/the-auditor/) follows the fee. Eight of them, each filed with a tell and a counter like any creature, because an office is exactly as easy to hollow out as a person.",
+      "The remedies are the ones available to somebody with no office at all: [records request](/remedies/records-request/), lateral reading, the second source, [the steelman](/remedies/the-steelman/), the transcript, the written reason, the public count, random draw, fee shift, sunset clause, the audit. Each is written as an instruction rather than a description. Read one out loud and you can run it tomorrow.",
+      "The split is the argument. A remedy without an office is advice. An office without a remedy is a title. Filing both in one chapter lets the guide say what a body needs and who is supposed to be holding it, and lets a reader see the gap when the answer is nobody.",
+      "Five chapters describe how a body loses the thread. This one describes the people who keep the receipts."
+    ],
+    "entries": [
+      {
+        "term": "The clerk",
+        "slug": "the-clerk",
+        "path": "/keystones/the-clerk/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most..."
+      },
+      {
+        "term": "The poll worker",
+        "slug": "the-poll-worker",
+        "path": "/keystones/the-poll-worker/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job..."
+      },
+      {
+        "term": "The archivist",
+        "slug": "the-archivist",
+        "path": "/keystones/the-archivist/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists..."
+      },
+      {
+        "term": "The librarian",
+        "slug": "the-librarian",
+        "path": "/keystones/the-librarian/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone...."
+      },
+      {
+        "term": "The caseworker",
+        "slug": "the-caseworker",
+        "path": "/keystones/the-caseworker/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political..."
+      },
+      {
+        "term": "The editor",
+        "slug": "the-editor",
+        "path": "/keystones/the-editor/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides..."
+      },
+      {
+        "term": "The moderator",
+        "slug": "the-moderator",
+        "path": "/keystones/the-moderator/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was..."
+      },
+      {
+        "term": "The auditor",
+        "slug": "the-auditor",
+        "path": "/keystones/the-auditor/",
+        "kind": "keystone",
+        "kindLabel": "Keystone",
+        "summary": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not..."
+      },
+      {
+        "term": "Records request",
+        "slug": "records-request",
+        "path": "/remedies/records-request/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need..."
+      },
+      {
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about..."
+      },
+      {
+        "term": "Lateral reading",
+        "slug": "lateral-reading",
+        "path": "/remedies/lateral-reading/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who..."
+      },
+      {
+        "term": "The second source",
+        "slug": "the-second-source",
+        "path": "/remedies/the-second-source/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It..."
+      },
+      {
+        "term": "The steelman",
+        "slug": "the-steelman",
+        "path": "/remedies/the-steelman/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather..."
+      },
+      {
+        "term": "The public count",
+        "slug": "the-public-count",
+        "path": "/remedies/the-public-count/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted..."
+      },
+      {
+        "term": "The written reason",
+        "slug": "the-written-reason",
+        "path": "/remedies/the-written-reason/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It..."
+      },
+      {
+        "term": "The audit",
+        "slug": "the-audit",
+        "path": "/remedies/the-audit/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it..."
+      },
+      {
+        "term": "Random draw",
+        "slug": "random-draw",
+        "path": "/remedies/random-draw/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works..."
+      },
+      {
+        "term": "Fee shift",
+        "slug": "fee-shift",
+        "path": "/remedies/fee-shift/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if..."
+      },
+      {
+        "term": "Sunset clause",
+        "slug": "sunset-clause",
+        "path": "/remedies/sunset-clause/",
+        "kind": "remedy",
+        "kindLabel": "Remedy",
+        "summary": "The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked..."
+      }
+    ],
+    "mentions": [
+      {
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "path": "/moves/hecklers-veto/",
+        "kind": "move",
+        "kindLabel": "Move",
+        "summary": "The move of making speech impossible rather than answering it: enough disruption that the venue, the police, or the platform decides the event..."
+      },
+      {
+        "term": "Comment section",
+        "slug": "comment-section",
+        "path": "/habitats/comment-section/",
+        "kind": "habitat",
+        "kindLabel": "Habitat",
+        "summary": "The space under a published thing where the public answers it in public, at a speed and volume that no editor ever intended."
+      }
+    ]
   }
 ]
 
 export const claimed = {
+  "Kafka trap": "a-second-sighting",
+  "Bulverism": "a-second-sighting",
+  "McNamara fallacy": "a-second-sighting",
+  "Nirvana fallacy": "a-second-sighting",
+  "Base rate fallacy": "a-second-sighting",
+  "Appeal to force": "a-second-sighting",
+  "The fallacy fallacy": "a-second-sighting",
+  "The clerk": "chapter-vi-answers",
+  "The poll worker": "chapter-vi-answers",
+  "The archivist": "chapter-vi-answers",
+  "The librarian": "chapter-vi-answers",
+  "The caseworker": "chapter-vi-answers",
+  "The editor": "chapter-vi-answers",
+  "The moderator": "chapter-vi-answers",
+  "The auditor": "chapter-vi-answers",
+  "Records request": "chapter-vi-answers",
+  "The transcript": "chapter-vi-answers",
+  "Lateral reading": "chapter-vi-answers",
+  "The second source": "chapter-vi-answers",
+  "The steelman": "chapter-vi-answers",
+  "The public count": "chapter-vi-answers",
+  "The written reason": "chapter-vi-answers",
+  "The audit": "chapter-vi-answers",
+  "Random draw": "chapter-vi-answers",
+  "Fee shift": "chapter-vi-answers",
+  "Sunset clause": "chapter-vi-answers",
   "Unawares": "three-ways-of-not-answering",
   "Plead the Fifth": "three-ways-of-not-answering",
   "Depositioning": "three-ways-of-not-answering",
@@ -231,14 +539,6 @@ export const unreleased = [
     "kind": "fallacy",
     "kindLabel": "Fallacy",
     "summary": "Arguing for a course of action by amplifying what will happen if it is refused, rather than by showing that it will work."
-  },
-  {
-    "term": "Appeal to force",
-    "slug": "appeal-to-force",
-    "path": "/fallacies/appeal-to-force/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Persuasion by threat: the merits are not addressed because the cost of dissent has already been made clear."
   },
   {
     "term": "Appeal to motive",
@@ -345,14 +645,6 @@ export const unreleased = [
     "summary": "The move of manufacturing the appearance of a movement: front groups, purchased lists, rented crowds, and comment sections that arrive on schedule."
   },
   {
-    "term": "Base rate fallacy",
-    "slug": "base-rate-fallacy",
-    "path": "/fallacies/base-rate-fallacy/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Judging the frequency of an event by the salience of one instance, or by a test result, while ignoring how rare the event was to begin with."
-  },
-  {
     "term": "Biasographer",
     "slug": "biasographer",
     "path": "/species/biasographer/",
@@ -415,14 +707,6 @@ export const unreleased = [
     "kind": "habitat",
     "kindLabel": "Habitat",
     "summary": "The room where a government answers questions in public: a daily ritual in which the press and the podium perform accountability for cameras..."
-  },
-  {
-    "term": "Bulverism",
-    "slug": "bulverism",
-    "path": "/fallacies/bulverism/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Refuting an argument by explaining why the person holds it: their class, their income, their resentments, their reading list."
   },
   {
     "term": "Cable panel",
@@ -641,14 +925,6 @@ export const unreleased = [
     "summary": "Treating two things as equally bad, or equally serious, because they share a name or a shape."
   },
   {
-    "term": "Fee shift",
-    "slug": "fee-shift",
-    "path": "/remedies/fee-shift/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The anti-SLAPP mechanism: a special motion to dismiss early, a stay on discovery while it is decided, and costs awarded to the defendant if..."
-  },
-  {
     "term": "Filibluster",
     "slug": "filibluster",
     "path": "/abilities/filibluster/",
@@ -849,14 +1125,6 @@ export const unreleased = [
     "summary": "Explaining suffering by the character of the sufferer: the flood victim who should not have lived there, the patient who should have gone sooner..."
   },
   {
-    "term": "Kafka trap",
-    "slug": "kafka-trap",
-    "path": "/fallacies/kafka-trap/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "The structure in which denial is treated as confirmation: you are guilty, and your objection is what a guilty person would say."
-  },
-  {
     "term": "Lame duck",
     "slug": "lame-duck",
     "path": "/buffs/lame-duck/",
@@ -871,14 +1139,6 @@ export const unreleased = [
     "kind": "species",
     "kindLabel": "Species",
     "summary": "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription."
-  },
-  {
-    "term": "Lateral reading",
-    "slug": "lateral-reading",
-    "path": "/remedies/lateral-reading/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The reading strategy taught in media literacy: do not evaluate a claim from inside the page that makes it. Open another tab and find out who..."
   },
   {
     "term": "Loaded question",
@@ -903,14 +1163,6 @@ export const unreleased = [
     "kind": "species",
     "kindLabel": "Species",
     "summary": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering."
-  },
-  {
-    "term": "McNamara fallacy",
-    "slug": "mcnamara-fallacy",
-    "path": "/fallacies/mcnamara-fallacy/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Treating what can be measured as what matters: the waiting time is measured, the diagnosis is not; the arrest is counted, the charge is not."
   },
   {
     "term": "Motte hop",
@@ -959,14 +1211,6 @@ export const unreleased = [
     "kind": "ability",
     "kindLabel": "Ability",
     "summary": "The emergency or shadow docket: applications decided on the papers, often within hours, frequently unsigned and unexplained - relief that shapes..."
-  },
-  {
-    "term": "Nirvana fallacy",
-    "slug": "nirvana-fallacy",
-    "path": "/fallacies/nirvana-fallacy/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Rejecting a measure because it is imperfect, while treating the present arrangement as though it had no cost."
   },
   {
     "term": "No true Scotsman",
@@ -1177,14 +1421,6 @@ export const unreleased = [
     "summary": "The arena event where a political identity is performed in unison: the chant, the boo, the sign held up for the cameras at the back."
   },
   {
-    "term": "Random draw",
-    "slug": "random-draw",
-    "path": "/remedies/random-draw/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "Assignment by lot: cases, judges, panels, and sometimes citizens are drawn rather than chosen. It is the same principle as the jury, and it works..."
-  },
-  {
     "term": "Receiptbomb",
     "slug": "receiptbomb",
     "path": "/moves/receiptbomb/",
@@ -1199,14 +1435,6 @@ export const unreleased = [
     "kind": "ability",
     "kindLabel": "Ability",
     "summary": "The recess appointment: a constitutional power to fill a vacancy while the Senate is out of session, good only until the end of the next session..."
-  },
-  {
-    "term": "Records request",
-    "slug": "records-request",
-    "path": "/remedies/records-request/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The open-records request: a statute that makes the document the default and the refusal the exception, with a clock attached. You do not need..."
   },
   {
     "term": "Recusal",
@@ -1361,14 +1589,6 @@ export const unreleased = [
     "summary": "Continuing a failing course of action because of what has already been invested in it."
   },
   {
-    "term": "Sunset clause",
-    "slug": "sunset-clause",
-    "path": "/remedies/sunset-clause/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The provision that ends a power unless a body votes to renew it: a statutory expiry with a review attached, so that permanence has to be asked..."
-  },
-  {
     "term": "Survivorship bias",
     "slug": "survivorship-bias",
     "path": "/fallacies/survivorship-bias/",
@@ -1385,68 +1605,12 @@ export const unreleased = [
     "summary": "Finding a pattern in data after the fact, then presenting the pattern as though it had been predicted."
   },
   {
-    "term": "The archivist",
-    "slug": "the-archivist",
-    "path": "/keystones/the-archivist/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The keeper of the record after the news cycle: the box, the series, and the schedule that says what may be destroyed and what may not. Archivists..."
-  },
-  {
-    "term": "The audit",
-    "slug": "the-audit",
-    "path": "/remedies/the-audit/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The independent examination: an office with a statutory right to the records, a sampling method it publishes, and a report that goes to the body it..."
-  },
-  {
-    "term": "The auditor",
-    "slug": "the-auditor",
-    "path": "/keystones/the-auditor/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The examiner with a statutory right to the books: the inspector general, the state auditor, the outside firm working to a scope it did not..."
-  },
-  {
     "term": "The carve-out",
     "slug": "the-carve-out",
     "path": "/remedies/the-carve-out/",
     "kind": "remedy",
     "kindLabel": "Remedy",
     "summary": "A statutory exception that removes a contract term's power over one kind of dispute: the silence clause that cannot be enforced..."
-  },
-  {
-    "term": "The caseworker",
-    "slug": "the-caseworker",
-    "path": "/keystones/the-caseworker/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The front-line official who turns a statute into a decision about one person: the form, the means test, the letter that says yes or no. Political..."
-  },
-  {
-    "term": "The clerk",
-    "slug": "the-clerk",
-    "path": "/keystones/the-clerk/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The officer who keeps the body's memory: the agenda, the roll call, the minutes, the motions as adopted rather than as proposed. In most..."
-  },
-  {
-    "term": "The editor",
-    "slug": "the-editor",
-    "path": "/keystones/the-editor/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The person between the reporter and the press: the one who asks for the second source, reads the letter from the subject's lawyer, and decides..."
-  },
-  {
-    "term": "The fallacy fallacy",
-    "slug": "the-fallacy-fallacy",
-    "path": "/fallacies/the-fallacy-fallacy/",
-    "kind": "fallacy",
-    "kindLabel": "Fallacy",
-    "summary": "Concluding that a claim is false because the argument offered for it is invalid."
   },
   {
     "term": "The Feed",
@@ -1465,44 +1629,12 @@ export const unreleased = [
     "summary": "The citizen pulled into the process for a fortnight: sworn, instructed, and shut in a room with eleven strangers until they agree on what happened...."
   },
   {
-    "term": "The librarian",
-    "slug": "the-librarian",
-    "path": "/keystones/the-librarian/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The professional who finds things: the reference interview, the interlibrary loan, the database the public paid for and cannot afford alone...."
-  },
-  {
-    "term": "The moderator",
-    "slug": "the-moderator",
-    "path": "/keystones/the-moderator/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The person who runs the format: the question, the time, the follow-up, and the willingness to say on air that the answer did not address what was..."
-  },
-  {
     "term": "The ombudsman",
     "slug": "the-ombudsman",
     "path": "/keystones/the-ombudsman/",
     "kind": "keystone",
     "kindLabel": "Keystone",
     "summary": "The independent official who takes complaints about an institution and has standing to demand its records, interview its staff, and say publicly..."
-  },
-  {
-    "term": "The poll worker",
-    "slug": "the-poll-worker",
-    "path": "/keystones/the-poll-worker/",
-    "kind": "keystone",
-    "kindLabel": "Keystone",
-    "summary": "The precinct official who checks the roll, issues the ballot, and signs the paperwork that lets the count be reconstructed afterwards. The job..."
-  },
-  {
-    "term": "The public count",
-    "slug": "the-public-count",
-    "path": "/remedies/the-public-count/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The count as a public act: ballots counted in a room with watchers from both sides, every ballot issued reconciled against every ballot counted..."
   },
   {
     "term": "The public defender",
@@ -1529,14 +1661,6 @@ export const unreleased = [
     "summary": "The strategic stockpile as a counter to supply leverage: a government that can put barrels, gas, or grain on the market on a schedule has made..."
   },
   {
-    "term": "The second source",
-    "slug": "the-second-source",
-    "path": "/remedies/the-second-source/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The rule that a claim needs independent confirmation before it runs: a second person, a document, or a record that does not depend on the first. It..."
-  },
-  {
     "term": "The sponsor line",
     "slug": "the-sponsor-line",
     "path": "/remedies/the-sponsor-line/",
@@ -1561,22 +1685,6 @@ export const unreleased = [
     "summary": "The order that suspends an action while a challenge is heard: a rule, an execution, a demolition, a transfer. It is the procedural equivalent..."
   },
   {
-    "term": "The steelman",
-    "slug": "the-steelman",
-    "path": "/remedies/the-steelman/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The discipline of reconstructing an opponent's position at its best before answering it: the principle of charity, run as a procedure rather..."
-  },
-  {
-    "term": "The transcript",
-    "slug": "the-transcript",
-    "path": "/remedies/the-transcript/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The verbatim record: what was said, in order, with who said it. Cheap to produce now and still the only artefact that settles an argument about..."
-  },
-  {
     "term": "The translator",
     "slug": "the-translator",
     "path": "/keystones/the-translator/",
@@ -1591,14 +1699,6 @@ export const unreleased = [
     "kind": "remedy",
     "kindLabel": "Remedy",
     "summary": "The clause that makes withdrawal a procedure rather than an announcement: a period of notice, a statement of what survives the exit, and a schedule..."
-  },
-  {
-    "term": "The written reason",
-    "slug": "the-written-reason",
-    "path": "/remedies/the-written-reason/",
-    "kind": "remedy",
-    "kindLabel": "Remedy",
-    "summary": "The duty to give reasons: an administrative decision must state the rule it applied, the facts it found, and the route to challenge it. It..."
   },
   {
     "term": "Thought-terminating cliché",
