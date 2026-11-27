@@ -13,13 +13,13 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 195,
-  "coinages": 101,
+  "entries": 198,
+  "coinages": 104,
   "fallacies": 61,
   "chapters": 6,
   "kinds": {
     "species": 30,
-    "move": 18,
+    "move": 21,
     "ability": 24,
     "habitat": 15,
     "buff": 14,
@@ -433,6 +433,9 @@ export const chapters = [
       "secret-meeting",
       "good-ol-boys-club",
       "unelected-official",
+      "unawares",
+      "plead-the-fifth",
+      "depositioning",
       "two-wrongs-make-a-right",
       "post-hoc-ergo-propter-hoc",
       "special-pleading",
@@ -8006,6 +8009,22 @@ export const entries = [
         "kind": "ability"
       },
       {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Unawares",
+        "slug": "unawares",
+        "path": "/moves/unawares/",
+        "kind": "move"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Depositioning",
+        "slug": "depositioning",
+        "path": "/moves/depositioning/",
+        "kind": "move"
+      },
+      {
         "rel": "houses",
         "label": "Found in",
         "term": "Briefing room",
@@ -10438,6 +10457,18 @@ export const entries = [
         "slug": "filibluster",
         "path": "/abilities/filibluster/",
         "kind": "ability"
+      },
+      {
+        "term": "Plead the Fifth",
+        "slug": "plead-the-fifth",
+        "path": "/moves/plead-the-fifth/",
+        "kind": "move"
+      },
+      {
+        "term": "Depositioning",
+        "slug": "depositioning",
+        "path": "/moves/depositioning/",
+        "kind": "move"
       }
     ],
     "edges": [
@@ -12014,6 +12045,12 @@ export const entries = [
         "slug": "pseudo-event",
         "path": "/habitats/pseudo-event/",
         "kind": "habitat"
+      },
+      {
+        "term": "Unawares",
+        "slug": "unawares",
+        "path": "/moves/unawares/",
+        "kind": "move"
       }
     ],
     "edges": [
@@ -12240,6 +12277,291 @@ export const entries = [
       }
     ],
     "edges": [],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
+    "term": "Unawares",
+    "slug": "unawares",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/unawares.json",
+    "path": "/moves/unawares/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌʌn.əˈwɛəz/",
+    "position": 23,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 3
+    },
+    "etymology": "From \"unawares\" - taken unawares - turned into a state a witness can occupy on purpose.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A decision that has come out, and a question about who made it."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The answer is about information rather than the decision: I was not aware of that, it did not come to me, I was not briefed. Nobody in the chain was aware of the thing four people signed."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask who was aware, then produce the circulation list: the signature, the calendar entry, the meeting where it was agreed. Awareness leaves a paper trail, and the trail is the answer he did not give."
+      }
+    ],
+    "voice": "The answer is about information rather than the decision: I was not aware of that, it did not come to me, I was not briefed. Nobody in the chain was aware of the thing four people signed.",
+    "senses": [
+      "The move of answering a question about a decision with a statement about knowledge: not \"we did it\" and not \"we did not\", but \"I was not aware\" - which is neither, and cannot be contradicted by the decision itself.",
+      "It works because knowledge is the one fact only the actor can testify to, and the one fact that matters to culpability. A decision can be proved from the outside; awareness has to be admitted from the inside - so the move walks the question into the only room where he is the sole witness, and answers it there."
+    ],
+    "notes": [],
+    "example": "\"The order went out under his signature, and by the afternoon he was **unawares** - not briefed, not told, not in the room where the four of them agreed it.\"",
+    "cite": {
+      "label": "Wikipedia · Plausible deniability",
+      "url": "https://en.wikipedia.org/wiki/Plausible_deniability"
+    },
+    "summary": "The move of answering a question about a decision with a statement about knowledge: not \"we did it\" and not \"we did not\"...",
+    "og": "/og/move/unawares.png?v=b80c9472",
+    "definition": "The move of answering a question about a decision with a statement about knowledge: not \"we did it\" and not \"we did not\", but \"I was not aware\" - which is neither, and cannot be contradicted by the decision itself.",
+    "confusedWith": [
+      {
+        "term": "Nonpology",
+        "slug": "nonpology",
+        "tell": "The nonpology apologizes for the reaction to the thing; the unawares never concedes that there was a thing.",
+        "path": "/moves/nonpology/",
+        "kind": "move"
+      }
+    ],
+    "related": [
+      {
+        "term": "Secret meeting",
+        "slug": "secret-meeting",
+        "path": "/habitats/secret-meeting/",
+        "kind": "habitat"
+      },
+      {
+        "term": "Crookmaxxing",
+        "slug": "crookmaxxing",
+        "path": "/moves/crookmaxxing/",
+        "kind": "move"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
+    "term": "Plead the Fifth",
+    "slug": "plead-the-fifth",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/plead-the-fifth.json",
+    "path": "/moves/plead-the-fifth/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "verb phrase",
+    "ipa": "/pliːd ðə fɪfθ/",
+    "position": 24,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 3
+    },
+    "etymology": "From the Fifth Amendment, which says no person shall be compelled to witness against himself - a right, and now a move.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A question whose answer would be evidence, asked in a room where nobody is being prosecuted."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The answer arrives as a procedure: on the advice of counsel, I decline to answer. It is the same sentence for every question, including the ones that would have cleared him, and it is never followed by a second sentence."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Take the questions the privilege cannot reach - the documents, the staff, the same question to the next witness - and read the refusal into the record by name. The Fifth protects the answer, not the fact that he would not give one."
+      }
+    ],
+    "voice": "The answer arrives as a procedure: on the advice of counsel, I decline to answer. It is the same sentence for every question, including the ones that would have cleared him, and it is never followed by a second sentence.",
+    "senses": [
+      "The move of answering with a right: the question is put, and what comes back is the Fifth Amendment, in the voice of counsel, identically, for every question on the list.",
+      "It works because the privilege is real, and it is his, and it turns a refusal into a status - the silence is lawful, so it cannot be held against him, and it cannot be read either. The right is old and this guide is not against it; the move is what the right becomes when it is the only sentence in the answer, offered in a hearing where what is at stake is a headline, not a cell."
+    ],
+    "notes": [],
+    "example": "\"Forty questions and forty times he **pleaded the Fifth** - including the one about a meeting that was already in his own calendar.\"",
+    "cite": {
+      "label": "Legal Information Institute · Fifth Amendment",
+      "url": "https://www.law.cornell.edu/constitution/fifth_amendment"
+    },
+    "summary": "The move of answering with a right: the question is put, and what comes back is the Fifth Amendment, in the voice of counsel, identically...",
+    "og": "/og/move/plead-the-fifth.png?v=52021263",
+    "definition": "The move of answering with a right: the question is put, and what comes back is the Fifth Amendment, in the voice of counsel, identically, for every question on the list.",
+    "confusedWith": [
+      {
+        "term": "Unawares",
+        "slug": "unawares",
+        "tell": "The unawares claims he never knew; the Fifth says he knows and will not say. One leaves a hole in the record, the other puts a wall where the record should be.",
+        "path": "/moves/unawares/",
+        "kind": "move"
+      }
+    ],
+    "related": [
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
+      }
+    ],
+    "backlinks": [
+      {
+        "rel": "counters",
+        "label": "Countered by",
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
+      }
+    ],
+    "committedFrom": []
+  },
+  {
+    "term": "Depositioning",
+    "slug": "depositioning",
+    "kind": "move",
+    "kindLabel": "Move",
+    "source": "data/entries/moves/depositioning.json",
+    "path": "/moves/depositioning/",
+    "chapter": "hypocrisy-revisionism",
+    "chapterRoman": "III",
+    "chapterTitle": "Hypocrisy, Revisionism & Authoritarian Submission",
+    "partOfSpeech": "noun / verb",
+    "ipa": "/ˌdɛp.əˈzɪʃ.ən.ɪŋ/",
+    "position": 25,
+    "sort": {
+      "impact": 4,
+      "abuse": 3,
+      "blowback": 2
+    },
+    "etymology": "Blend of \"deposition\" + \"de-position\" - the move of taking a witness out of their position, one objection at a time.",
+    "identification": [
+      {
+        "key": "trigger",
+        "label": "Trigger",
+        "type": "text",
+        "value": "A deposition where the witness's account is the thing that would settle it, and the clock belongs to the side that talks."
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "text",
+        "value": "The objections are spoken, not reserved: form, foundation, asked and answered, vague - each one a pause, each pause a page, and the instruction not to answer arrives before the answer does."
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Object in one word and let the answer land on the record: objection, form, then the answer, then a ruling at the end. The derailment needs the objection to be a speech, and no rule requires a speech."
+      }
+    ],
+    "voice": "The objections are spoken, not reserved: form, foundation, asked and answered, vague - each one a pause, each pause a page, and the instruction not to answer arrives before the answer does.",
+    "senses": [
+      "The move of derailing a deposition from inside the format: speaking objections, instructions not to answer, a break every twenty minutes, so that six hours of testimony produce a transcript with nothing in it that can be read out.",
+      "It works because the record is the product, and a record can be made useless without being made wrong. Nothing in the transcript is false; it is only unreadable, and unreadable is enough."
+    ],
+    "notes": [],
+    "example": "\"Six hours of **depositioning** produced four hundred pages, and the only complete answer in them was the witness's name.\"",
+    "cite": {
+      "label": "Legal Information Institute · Rule 30. Depositions by Oral Examination",
+      "url": "https://www.law.cornell.edu/rules/frcp/rule_30"
+    },
+    "summary": "The move of derailing a deposition from inside the format: speaking objections, instructions not to answer, a break every twenty minutes...",
+    "og": "/og/move/depositioning.png?v=a7551aba",
+    "definition": "The move of derailing a deposition from inside the format: speaking objections, instructions not to answer, a break every twenty minutes, so that six hours of testimony produce a transcript with nothing in it that can be read out.",
+    "confusedWith": [
+      {
+        "term": "Sealioning",
+        "slug": "sealioning",
+        "tell": "The sealion will not accept an answer and keeps asking; the depositioning will not allow an answer and keeps objecting.",
+        "path": "/fallacies/sealioning/",
+        "kind": "fallacy"
+      },
+      {
+        "term": "Heckler's veto",
+        "slug": "hecklers-veto",
+        "tell": "The heckler's veto stops the room; the depositioning stops the record, and the room goes on looking orderly.",
+        "path": "/moves/hecklers-veto/",
+        "kind": "move"
+      }
+    ],
+    "related": [
+      {
+        "term": "Subpoenado",
+        "slug": "subpoenado",
+        "path": "/abilities/subpoenado/",
+        "kind": "ability"
+      },
+      {
+        "term": "The transcript",
+        "slug": "the-transcript",
+        "path": "/remedies/the-transcript/",
+        "kind": "remedy"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Argument from ignorance",
+        "slug": "argument-from-ignorance",
+        "path": "/fallacies/argument-from-ignorance/",
+        "kind": "fallacy"
+      }
+    ],
     "backlinks": [],
     "committedFrom": []
   },
@@ -20615,6 +20937,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Plead the Fifth",
+        "slug": "plead-the-fifth",
+        "path": "/moves/plead-the-fifth/",
+        "kind": "move"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/",
@@ -20658,6 +20988,11 @@ export const entries = [
         "id": "performative-identity",
         "roman": "I",
         "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "hypocrisy-revisionism",
+        "roman": "III",
+        "title": "Hypocrisy, Revisionism & Authoritarian Submission"
       },
       {
         "id": "fearmongering-grift",
@@ -20924,6 +21259,14 @@ export const entries = [
         "slug": "subpoenado",
         "path": "/abilities/subpoenado/",
         "kind": "ability"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Unawares",
+        "slug": "unawares",
+        "path": "/moves/unawares/",
+        "kind": "move"
       },
       {
         "rel": "houses",
@@ -23086,6 +23429,14 @@ export const entries = [
         "slug": "rally",
         "path": "/habitats/rally/",
         "kind": "habitat"
+      },
+      {
+        "rel": "counters",
+        "label": "Counters",
+        "term": "Plead the Fifth",
+        "slug": "plead-the-fifth",
+        "path": "/moves/plead-the-fifth/",
+        "kind": "move"
       }
     ],
     "backlinks": [

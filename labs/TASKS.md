@@ -3,6 +3,8 @@
 Working backlog for the guide. Newest thinking at the top; finished items are
 deleted rather than archived, because git is the archive.
 
+Coined names waiting for an entry live in [prd-candidates.md](./prd-candidates.md).
+
 ---
 
 ## Now

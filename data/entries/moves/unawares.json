@@ -1,0 +1,47 @@
+{
+  "term": "Unawares",
+  "kind": "move",
+  "chapter": "hypocrisy-revisionism",
+  "position": 23,
+  "part_of_speech": "noun",
+  "ipa": "/ˌʌn.əˈwɛəz/",
+  "etymology": "From \"unawares\" - taken unawares - turned into a state a witness can occupy on purpose.",
+  "trigger": "A decision that has come out, and a question about who made it.",
+  "tell": "The answer is about information rather than the decision: I was not aware of that, it did not come to me, I was not briefed. Nobody in the chain was aware of the thing four people signed.",
+  "counter": "Ask who was aware, then produce the circulation list: the signature, the calendar entry, the meeting where it was agreed. Awareness leaves a paper trail, and the trail is the answer he did not give.",
+  "confused_with": [
+    {
+      "term": "Nonpology",
+      "tell": "The nonpology apologizes for the reaction to the thing; the unawares never concedes that there was a thing."
+    }
+  ],
+  "senses": [
+    "The move of answering a question about a decision with a statement about knowledge: not \"we did it\" and not \"we did not\", but \"I was not aware\" - which is neither, and cannot be contradicted by the decision itself.",
+    "It works because knowledge is the one fact only the actor can testify to, and the one fact that matters to culpability. A decision can be proved from the outside; awareness has to be admitted from the inside - so the move walks the question into the only room where he is the sole witness, and answers it there."
+  ],
+  "notes": [],
+  "example": "*\"The order went out under his signature, and by the afternoon he was **unawares** - not briefed, not told, not in the room where the four of them agreed it.\"*",
+  "related": [
+    "Secret meeting",
+    "Crookmaxxing"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "Shifting the burden of proof"
+    },
+    {
+      "rel": "commits",
+      "to": "Argument from ignorance"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 5,
+    "blowback": 3
+  },
+  "cite": {
+    "label": "Wikipedia · Plausible deniability",
+    "url": "https://en.wikipedia.org/wiki/Plausible_deniability"
+  }
+}

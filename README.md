@@ -23,13 +23,13 @@ And a coinage built on something real - the pocket veto, the shadow docket, the 
 ## What is in it
 
 <!-- BEGIN:generated -->
-**195 entries.** 101 coinages (30 species, 18 moves, 24 abilities, 15 habitats, 14 buffs), 61 fallacies, 19 remedies, 14 keystones. 91 of the 101 coinages carry a counter, and every entry is a record: one JSON file under `data/entries/`.
+**198 entries.** 104 coinages (30 species, 21 moves, 24 abilities, 15 habitats, 14 buffs), 61 fallacies, 19 remedies, 14 keystones. 92 of the 104 coinages carry a counter, and every entry is a record: one JSON file under `data/entries/`.
 
 | Chapter | Entries |
 | --- | --: |
 | [I. Performative Identity & Weaponized Liberty](LEXICON.md#i-performative-identity--weaponized-liberty) | 28 |
 | [II. Bad-Faith Debate & Epistemic Breakdown](LEXICON.md#ii-bad-faith-debate--epistemic-breakdown) | 42 |
-| [III. Hypocrisy, Revisionism & Authoritarian Submission](LEXICON.md#iii-hypocrisy-revisionism--authoritarian-submission) | 28 |
+| [III. Hypocrisy, Revisionism & Authoritarian Submission](LEXICON.md#iii-hypocrisy-revisionism--authoritarian-submission) | 31 |
 | [IV. Fearmongering, Grift & Algorithmic Radicalization](LEXICON.md#iv-fearmongering-grift--algorithmic-radicalization) | 39 |
 | [V. Normalization, Numbness & the Noise Floor](LEXICON.md#v-normalization-numbness--the-noise-floor) | 25 |
 | [VI. The Keystones](LEXICON.md#vi-the-keystones) | 33 |

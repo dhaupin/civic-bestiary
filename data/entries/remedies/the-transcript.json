@@ -74,6 +74,10 @@
     {
       "rel": "counters",
       "to": "Rally"
+    },
+    {
+      "rel": "counters",
+      "to": "Plead the Fifth"
     }
   ],
   "cite": {
