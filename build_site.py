@@ -292,7 +292,7 @@ SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 # locale, and so the date a reader sees is the author's date, not UTC's.
 MONTHS = ("January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December")
-INLINE_LINK = re.compile(r"\[([^\]]+)\]\((/[^)\s]+)\)")
+INLINE_LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 BOLD = re.compile(r"\*\*([^*]+)\*\*")
 ITALIC = re.compile(r"\*([^*]+)\*")
 
@@ -337,11 +337,24 @@ def unclaimed(entries, claimed):
     return [entry_link(entry) for entry in rest]
 
 
-def load_releases(entries):
+def known_paths(data, posts):
+    """Every page a post body may link to. A post about dead links should not
+    ship one, and the check is cheap because the site knows all its routes."""
+    paths = {"/", "/guide/", "/about/", "/contribute/", "/latest/"}
+    paths |= {spec["path"] for spec in data["kinds"].values()}
+    paths |= {f"/chapters/{chapter['id']}/" for chapter in data["chapters"]}
+    paths |= {entry["path"] for entry in data["entries"]}
+    paths |= {post["path"] for post in posts}
+    return paths
+
+
+def load_releases(data):
+    entries = data["entries"]
     by_term = {entry["term"]: entry for entry in entries}
     errors = []
     posts = []
     claimed = {}
+    internal = []
     for path in sorted(RELEASES.glob("*.json")) if RELEASES.is_dir() else []:
         name = path.name
         try:
@@ -377,6 +390,14 @@ def load_releases(entries):
             body = []
         for index, paragraph in enumerate(body, 1):
             check_prose(f"{name}: body[{index}]", paragraph, errors)
+            for label, target in INLINE_LINK.findall(paragraph):
+                if target.startswith("https://"):
+                    continue
+                if target.startswith("/"):
+                    internal.append((name, index, target))
+                else:
+                    errors.append(f"{name}: body[{index}] links {label!r} to {target!r}; "
+                                  "a link is either /path/ or an https:// URL")
         wanted = post.get("entries") or []
         mentions = post.get("mentions") or []
         if kind == "note" and wanted:
@@ -409,6 +430,11 @@ def load_releases(entries):
             "entries": [entry_link(by_term[term]) for term in wanted if term in by_term],
             "mentions": [entry_link(by_term[term]) for term in mentions if term in by_term],
         })
+    known = known_paths(data, posts)
+    for name, index, target in internal:
+        if target not in known:
+            errors.append(f"{name}: body[{index}] links to {target}, which is no page: "
+                          "no entry, post, or route has that path")
     if errors:
         sys.exit("data/releases:" + "".join(f"\n  {error}" for error in errors))
     posts.sort(key=lambda post: (post["published"], post["slug"]), reverse=True)
@@ -432,7 +458,9 @@ def render_releases(posts, claimed, rest):
 def inline_html(text, origin):
     """The three inline forms the book uses, as HTML for the feed."""
     out = html.escape(text, quote=False)
-    out = INLINE_LINK.sub(lambda m: f'<a href="{origin}{m.group(2)}">{m.group(1)}</a>', out)
+    out = INLINE_LINK.sub(
+        lambda m: f'<a href="{m.group(2) if m.group(2).startswith("http") else origin + m.group(2)}">'
+                  f"{m.group(1)}</a>", out)
     out = BOLD.sub(r"<strong>\1</strong>", out)
     return ITALIC.sub(r"<em>\1</em>", out)
 
@@ -479,7 +507,7 @@ def main():
     doc = load()
     data = build(doc)
     text = render(data)
-    posts, claimed, rest = load_releases(data["entries"])
+    posts, claimed, rest = load_releases(data)
     release_text = render_releases(posts, claimed, rest)
     feed_text = render_feed(posts, doc)
     if "--check" in sys.argv:
