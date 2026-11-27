@@ -25,6 +25,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import site from '../../site.config.js'
 import { chapters, entries, kinds, stats } from '../src/data/lexicon.js'
+import { posts } from '../src/data/releases.js'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const WEB = path.resolve(HERE, '..')
@@ -34,6 +35,7 @@ const PNG = path.join(PUBLIC, 'og-image.png')
 const ENTRY_DIR = path.join(PUBLIC, 'og')
 const KIND_DIR = path.join(ENTRY_DIR, 'kinds')
 const CHAPTER_DIR = path.join(ENTRY_DIR, 'chapters')
+const POST_DIR = path.join(ENTRY_DIR, 'latest')
 
 const PAPER = '#f4efe6'
 const INK = '#1b1512'
@@ -260,9 +262,18 @@ for (const chapter of chapters) {
   }), path.join(CHAPTER_DIR, `${chapter.id}.png`))
 }
 
+for (const post of posts) {
+  rasterize(collectionCard({
+    ink: ACCENT,
+    eyebrow: `Latest \u00b7 ${post.date}`,
+    title: post.title,
+    lines: wrap(post.lede, 62).slice(0, 3),
+  }), path.join(POST_DIR, `${post.slug}.png`))
+}
+
 console.log(
   `wrote public/og-image.svg, public/og-image.png, ${entries.length} entry cards,`
-  + ` ${Object.keys(kinds).length} kind cards, and ${chapters.length} chapter cards`
+  + ` ${Object.keys(kinds).length} kind cards, ${chapters.length} chapter cards, and ${posts.length} post cards`
   + ` in ${((Date.now() - started) / 1000).toFixed(1)}s`,
 )
 

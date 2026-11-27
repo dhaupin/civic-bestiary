@@ -5,7 +5,7 @@
 import { Link, useParams } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site from '../site.js'
-import { entryFor, kinds, neighbors, positionOf, sorts } from '../lexicon.js'
+import { entryFor, kinds, neighbors, positionOf, releaseFor, sorts } from '../lexicon.js'
 import Inline from '../components/Inline.jsx'
 import ShareButton from '../components/ShareButton.jsx'
 import NotFound from './NotFound.jsx'
@@ -92,6 +92,7 @@ export default function Species() {
 
   if (!entry) return <NotFound />
 
+  const release = releaseFor(entry.term)
   const { previous, next } = neighbors(slug)
   const position = positionOf(slug)
   // Where the characters that commit this fallacy are filed. The line earns its
@@ -114,6 +115,11 @@ export default function Species() {
         <p className="species-kicker">
           <span className={`badge badge-${entry.kind}`}>{entry.kindLabel}</span>
           <span>No. {position.number} of {position.total}</span>
+          {release && (
+            <span className="species-release">
+              Added in <Link to={release.path}>{release.title}</Link>
+            </span>
+          )}
         </p>
 
         <header className="species-head">

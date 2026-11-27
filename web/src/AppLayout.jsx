@@ -9,6 +9,8 @@ import Home from './pages/Home.jsx'
 import Guide from './pages/Guide.jsx'
 import Species from './pages/Species.jsx'
 import { kindsList } from './lexicon.js'
+import Latest from './pages/Latest.jsx'
+import Post from './pages/Post.jsx'
 import Contribute from './pages/Contribute.jsx'
 import About from './pages/About.jsx'
 import NotFound from './pages/NotFound.jsx'
@@ -50,6 +52,8 @@ function RoutedViews() {
               element={<Species />}
             />
           ))}
+          <Route path="/latest" element={<Latest />} />
+          <Route path="/latest/:slug" element={<Post />} />
           <Route path="/contribute" element={<Contribute />} />
           <Route path="/about" element={<About />} />
           {/* one Route per ssr.config.js entry; species routes share this one */}
