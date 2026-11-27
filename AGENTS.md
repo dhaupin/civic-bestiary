@@ -592,6 +592,9 @@ is the claim; keep it true when a provider changes.
   no coinage to bold.
 - `related` never repeats a `confused_with` twin. Both generators filter the twin out of the
   compare list, so the link would render nowhere; it is dead data, not a second connection.
+- A `confused_with` entry is an object, `{ "term", "tell" }`, while `related`, `edges` and
+  `mentions` carry bare terms. An audit that reads the pair edge as a string reports 205
+  unresolved references that do not exist; unwrap `term` first.
 - Voice is satirical and pointed, aimed at behavior, institutions, and power - never at
   identity, and never at the people on the receiving end. The bestiary frame carries the
   rule: the species is the pattern, not the person.
