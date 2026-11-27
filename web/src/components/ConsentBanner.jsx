@@ -11,14 +11,16 @@
  */
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { applyConsent, privacySignals, readConsent, saveConsent } from '../consent.js'
+import { applyConsent, privacySignals, readConsent, saveConsent, watchZaraz } from '../consent.js'
 
 export default function ConsentBanner() {
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
     const stored = readConsent()
-    applyConsent(stored ? stored.analytics : false)
+    const analytics = stored ? stored.analytics : false
+    applyConsent(analytics)
+    watchZaraz(analytics)
     if (!stored) {
       const { gpc, dnt } = privacySignals()
       if (!gpc && !dnt) setOpen(true)
@@ -49,7 +51,7 @@ export default function ConsentBanner() {
           <Link to="/privacy/">What is collected</Link>.
         </p>
         <div className="consent-actions">
-          <button type="button" className="btn btn-primary" onClick={() => choose(true)}>
+          <button type="button" className="btn btn-ghost" onClick={() => choose(true)}>
             Allow analytics
           </button>
           <button type="button" className="btn btn-ghost" onClick={() => choose(false)}>
