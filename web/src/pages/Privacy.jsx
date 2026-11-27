@@ -19,6 +19,15 @@ import Email from '../components/Email.jsx'
 const VERSION = '1.0'
 const EFFECTIVE = '27 November 2026'
 
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+  'August', 'September', 'October', 'November', 'December']
+
+/** The site prints dates day-first, as the prose does. */
+function recordedOn(iso) {
+  const d = new Date(iso)
+  return Number.isNaN(d.getTime()) ? '' : `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`
+}
+
 const CHOICE_LABELS = {
   choice: 'your own choice',
   gpc: 'Global Privacy Control, which we treat as a no',
@@ -247,7 +256,7 @@ export default function Privacy() {
               <>
                 Analytics: <strong>{state.analytics ? 'on' : 'off'}</strong>{' '}
                 <span className="sep">·</span> {CHOICE_LABELS[state.source] || 'your choice'}
-                {state.at ? ` · recorded ${new Date(state.at).toLocaleDateString()}` : ''}
+                {state.at ? ` · recorded ${recordedOn(state.at)}` : ''}
               </>
             )}
           </p>

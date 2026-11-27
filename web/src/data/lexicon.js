@@ -894,7 +894,7 @@ export const entries = [
       "It works because the costume is legible and the dependency is invisible, and nobody audits the third day of a fantasy."
     ],
     "notes": [],
-    "example": "\"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior.\"",
+    "example": "\"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behaviour.\"",
     "cite": null,
     "summary": "The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.",
     "og": "/og/species/larptarian.png?v=ee65ad54",
@@ -13605,7 +13605,7 @@ export const entries = [
       "It works because fear is the cheapest way to hold attention, and an emergency is the fastest route to powers that would otherwise need an argument."
     ],
     "notes": [],
-    "example": "\"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior.\"",
+    "example": "\"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behaviour.\"",
     "cite": null,
     "summary": "The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.",
     "og": "/og/species/dramagogue.png?v=a7e1aff2",
@@ -13893,7 +13893,7 @@ export const entries = [
       "It works because suffering cannot be measured in public, so the argument is moved to ground where no evidence can be produced - and the criticism is left unanswered while it is being deplored."
     ],
     "notes": [],
-    "example": "\"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior.\"",
+    "example": "\"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behaviour.\"",
     "cite": null,
     "summary": "The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.",
     "og": "/og/species/martyrholic.png?v=7ae44fba",

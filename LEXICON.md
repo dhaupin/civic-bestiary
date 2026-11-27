@@ -280,7 +280,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. The pattern of performing self-reliance while living on the thing being denounced: the rebel with the mortgage, the survivalist with the subscription.
 2. It works because the costume is legible and the dependency is invisible, and nobody audits the third day of a fantasy.
 
-* **Example:** *"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behavior."*
+* **Example:** *"Posting about 'living off the grid' from a climate-controlled suburb with municipal water and paved roads is peak **LARPtarian** behaviour."*
 * **Easily confused with:** *Playtriot* - The LARPtarian can name the rifle's caliber; the playtriot can only name the flag's manufacturer.
 * **Commits:** [*No true Scotsman*](#23-no-true-scotsman), [*Appeal to tradition*](#24-appeal-to-tradition), [*Appeal to the stone*](#161-appeal-to-the-stone), [*Survivorship bias*](#134-survivorship-bias)
 * **Related Terms:** [*Critizen*](#4-critizen), [*Bootcurious*](#73-bootcurious), [*Freetard*](#2-freetard)
@@ -2207,7 +2207,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. The pattern of converting a real worry into an apocalypse: the threat escalated until it explains everything, and the remedy escalated with it.
 2. It works because fear is the cheapest way to hold attention, and an emergency is the fastest route to powers that would otherwise need an argument.
 
-* **Example:** *"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behavior."*
+* **Example:** *"Turning a routine zoning permit for a minority house of worship into an apocalyptic cable-news segment is peak **dramagogue** behaviour."*
 * **Easily confused with:** *Ragesturbationist* - The dramagogue sells the apocalypse; the ragesturbationist sells the anger you feel waiting for it.
 * **Performs:** [*WMD mongering*](#125-wmd-mongering)
 * **Uses:** [*Forever war*](#130-forever-war)
@@ -2247,7 +2247,7 @@ The fallacies work the other way round. They are not coinages and are not ours: 
 1. The pattern of meeting a criticism with a wound: the accurate point answered by the size of the speaker's suffering.
 2. It works because suffering cannot be measured in public, so the argument is moved to ground where no evidence can be produced - and the criticism is left unanswered while it is being deplored.
 
-* **Example:** *"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behavior."*
+* **Example:** *"Living comfortably in a safe suburb while claiming that public libraries, immigrants, and trans kids are personally oppressing him is peak **martyrholic** behaviour."*
 * **Easily confused with:** *Plutomartyr* - Both suffer in public; the martyrholic has no jet.
 * **Commits:** [*Anecdotal evidence*](#151-anecdotal-evidence), [*Appeal to emotion*](#131-appeal-to-emotion), [*Appeal to pity*](#137-appeal-to-pity), [*Kafka trap*](#64-kafka-trap)
 * **Related Terms:** [*Dramagogue*](#103-dramagogue), [*Cross-examination*](#191-cross-examination)

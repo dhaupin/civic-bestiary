@@ -381,6 +381,7 @@ def load_releases(data):
             elif name != f"{stamp.date().isoformat()}-{slug}.json":
                 errors.append(f"{name}: file name should be {stamp.date().isoformat()}-{slug}.json")
         updated = post.get("updated", published)
+        revised = None
         if updated != published:
             try:
                 revised = datetime.fromisoformat(updated)
@@ -433,9 +434,16 @@ def load_releases(data):
             "type": kind,
             "published": published,
             "updated": updated,
+            # A revision the reader cannot see is a timestamp, not news: the line
+            # only appears when the note was revised on a later day.
+            "updatedDisplay": (
+                f"{revised.day} {MONTHS[revised.month - 1]} {revised.year}"
+                if revised and stamp and revised.date() != stamp.date()
+                else ""
+            ),
             "words": sum(len(text.split()) for text in [post.get("lede", ""), *body]),
             "date": stamp.date().isoformat() if stamp else "",
-            "display": f"{MONTHS[stamp.month - 1]} {stamp.day}, {stamp.year}" if stamp else published[:10],
+            "display": f"{stamp.day} {MONTHS[stamp.month - 1]} {stamp.year}" if stamp else published[:10],
             "slug": slug,
             "title": post.get("title", ""),
             "lede": post.get("lede", ""),

@@ -35,6 +35,13 @@ export default function ConsentBanner() {
     }
   }, [])
 
+  // The bar is fixed to the bottom edge, so the document needs the height back
+  // or the footer (and the licence link in it) sits underneath the bar.
+  useEffect(() => {
+    document.body.classList.toggle('consent-open', open)
+    return () => document.body.classList.remove('consent-open')
+  }, [open])
+
   if (!open) return null
 
   const choose = (analytics) => {
