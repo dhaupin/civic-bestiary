@@ -77,8 +77,9 @@ python3 build.py --chapters  # audit: fallacies filed against the commit graph
 ```bash
 npm run check   # every generated artifact current, plus pack manifest lint
 npm run audit   # poststruct over web/dist: head, links, i18n, a11y, language
+npm run lint:graph # tresridge: every reference in data/entries resolves
 npm run eyes    # the visual memory: every committed baseline has a ledger row
-npm run verify  # all three, plus a full build
+npm run verify  # all of it, plus a full build
 ```
 
 CI runs `check` on every push and pull request to `main` and `staging`.
