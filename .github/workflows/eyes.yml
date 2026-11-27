@@ -1,0 +1,52 @@
+name: eyes
+
+# The capture lane. `verify` runs the browserless gate on every push; this one
+# takes the pictures, so it is dispatched rather than fired: a byte-exact
+# comparison is only meaningful in the pinned environment, and a red run here
+# means "look at what moved", not "the build is broken".
+#
+# walk writes candidates (labs/.eyes-candidates/, never committed) and uploads
+# them as artifacts. ratify re-captures in the pin and refuses any slot whose
+# bytes drifted, which is the honest verdict: the canon moved, or the page did.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  look:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: web/.nvmrc
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm ci
+        working-directory: web
+      # The browser comes from the manifest pin, never from "whatever is on the
+      # runner": the canon was cut with this build and a different one paints
+      # different pixels for the same page.
+      - name: Install the pinned browser
+        run: |
+          PIN=$(grep 'browser-image:' labs/.eyes/manifest.yml | awk '{print $2}')
+          echo "installing $PIN"
+          npx --yes @puppeteer/browsers install "$PIN" --path "$HOME/.cache/puppeteer"
+      - run: npm run build
+        working-directory: web
+      - name: Walk the matrix
+        run: npx eyestruct walk --serve web/dist
+      - name: Refuse unexplained drift
+        run: npx eyestruct ratify --serve web/dist
+      - name: Keep the pictures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eyes-candidates
+          path: labs/.eyes-candidates/
+          if-no-files-found: warn
+          retention-days: 14

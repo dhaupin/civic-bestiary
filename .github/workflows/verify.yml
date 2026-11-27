@@ -44,6 +44,12 @@ jobs:
       # The pack manifest is conformant (packstruct SPEC v1) before anything
       # tries to arm it: lint the shape at author time, not at audit time.
       - run: npx --yes packstruct@1.1.2 lint packs/ --deep
+      # The eye home is committed state, so the browserless gate can run before
+      # any build: every baseline under labs/.eyes/ must be explained by a ledger
+      # row, and every row must point at a file that still exists. A baseline
+      # swapped without a note fails here, in seconds, with no browser.
+      - run: npm ci
+      - run: npx eyestruct gate
       - run: npm ci
         working-directory: web
       - run: npm run build
