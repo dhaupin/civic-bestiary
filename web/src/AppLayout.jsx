@@ -73,7 +73,10 @@ export default function AppLayout() {
       <ScrollToTop />
       <a className="skip" href="#main">Skip to content</a>
       <Nav />
-      <main id="main">
+      {/* tabIndex -1 makes the skip link's target actually take focus: without it
+          the browser only scrolls, and a screen reader keeps reading from the
+          top of the document. */}
+      <main id="main" tabIndex={-1}>
         <RoutedViews />
       </main>
       <Footer />

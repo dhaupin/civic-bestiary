@@ -297,7 +297,14 @@ export default function Privacy() {
                 <p key={index}>{paragraph}</p>
               ))}
               {section.table && (
-                <div className="legal-table-wrap">
+                <div
+                  className="legal-table-wrap"
+                  // A table wider than the phone scrolls sideways; without a tab stop
+                  // a keyboard reader can see it cut off and cannot reach the rest.
+                  tabIndex={0}
+                  role="region"
+                  aria-label={`${section.title} - table`}
+                >
                   <table className="legal-table">
                     <thead>
                       <tr>
