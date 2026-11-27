@@ -9,14 +9,15 @@
     "audit": "npx --yes poststruct@1.2.0 audit",
     "lint:packs": "npx --yes packstruct@1.1.2 lint packs/ --deep",
     "lint:graph": "node tools/lint-graph.mjs",
-    "verify": "npm run check && npm run build && npm run audit && npm run lint:graph && npm run eyes",
+    "verify": "npm run check && npm run build && npm run audit && npm run lint:graph && npm run lint:a11y && npm run eyes",
     "dev": "npm --prefix web run dev",
     "preview": "npm --prefix web run preview",
     "install:web": "npm --prefix web install",
     "eyes": "eyestruct gate",
     "eyes:look": "eyestruct walk --serve web/dist",
     "eyes:ratify": "eyestruct ratify --serve web/dist",
-    "eyes:serve": "eyestruct serve web/dist --port 4173"
+    "eyes:serve": "eyestruct serve web/dist --port 4173",
+    "lint:a11y": "node tools/a11y-audit.mjs"
   },
   "author": "dhaupin",
   "license": "MIT",
@@ -28,6 +29,7 @@
     "node": ">=20.19"
   },
   "devDependencies": {
+    "axe-core": "^4.14.1",
     "eyestruct": "^1.3.2"
   }
 }
