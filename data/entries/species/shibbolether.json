@@ -1,0 +1,57 @@
+{
+  "term": "Shibbolether",
+  "kind": "species",
+  "chapter": "performative-identity",
+  "position": 7,
+  "part_of_speech": "noun",
+  "ipa": "/ˈʃɪb.ə.leθ.ər/",
+  "etymology": "From \"shibboleth\", the word that told friend from enemy at the ford, + \"-er\" - the one who keeps asking for it.",
+  "occasion": "A question that could be answered by looking at the thing, asked in a room that would rather know which side you are on.",
+  "call": "\"Whose side are you on?\"",
+  "tell": [
+    "Answers a question about the policy with a question about allegiance",
+    "Treats \"both sides have a point\" as a betrayal rather than a position",
+    "Never says what their side is for, only who is against it"
+  ],
+  "counter": "Answer the side question once, plainly, then ask what the side is for: name one thing your side would do about this. The demand only works while the substance stays unmentioned.",
+  "confused_with": [
+    {
+      "term": "Bothsidesing",
+      "tell": "The bothsideser refuses to pick a side and calls it fairness; the shibbolether picks one for you and calls it loyalty. Both keep the question off the merits."
+    }
+  ],
+  "senses": [
+    "The pattern of replacing the question with the allegiance: every disagreement becomes a choice of sides, and having a side is offered as the whole answer.",
+    "It works because a side is cheap to declare and expensive to defend - so while the argument stays at whose side you are on, nobody has to say whether their side is right, or what it would do."
+  ],
+  "notes": [],
+  "example": "*\"Ask him what the bill changes and he asks whose side you are on - a **shibbolether** to the last, keeping the conversation at the password and never at the policy.\"*",
+  "related": [
+    "Ismatic",
+    "Playtriot",
+    "Bothsidesing"
+  ],
+  "edges": [
+    {
+      "rel": "commits",
+      "to": "False dilemma"
+    },
+    {
+      "rel": "commits",
+      "to": "Loaded question"
+    },
+    {
+      "rel": "commits",
+      "to": "Bulverism"
+    },
+    {
+      "rel": "commits",
+      "to": "Association fallacy"
+    }
+  ],
+  "sort": {
+    "impact": 4,
+    "abuse": 4,
+    "blowback": 3
+  }
+}
