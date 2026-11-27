@@ -13,12 +13,12 @@ export const preface = [
 ]
 
 export const stats = {
-  "entries": 192,
-  "coinages": 98,
+  "entries": 195,
+  "coinages": 101,
   "fallacies": 61,
   "chapters": 6,
   "kinds": {
-    "species": 27,
+    "species": 30,
     "move": 18,
     "ability": 24,
     "habitat": 15,
@@ -330,6 +330,8 @@ export const chapters = [
       "larptarian",
       "critizen",
       "sabotriot",
+      "ismatic",
+      "shibbolether",
       "patriotainment",
       "patriotainer",
       "filibluster",
@@ -368,6 +370,7 @@ export const chapters = [
       "equivangelist",
       "gallopologist",
       "decorumancer",
+      "ricochetoric",
       "comment-section",
       "bothsidesing",
       "vaguebooking",
@@ -1262,6 +1265,255 @@ export const entries = [
     "committedFrom": []
   },
   {
+    "term": "Ismatic",
+    "slug": "ismatic",
+    "kind": "species",
+    "kindLabel": "Species",
+    "source": "data/entries/species/ismatic.json",
+    "path": "/species/ismatic/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌɪzˈmæt.ɪk/",
+    "position": 6,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 3
+    },
+    "etymology": "Blend of \"-ism\" + \"automatic\" - the label that fires before anything has been read.",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A proposal that could be argued on its merits, and a room where the cheapest available reply is a word that ends the argument."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "\"Sounds like socialism to me.\""
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Uses the word for a policy, a person and a sandwich in the same thread",
+          "Cannot define it when asked, but is certain who has it",
+          "The accusation grows as the argument is won"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Ask for the definition, then the instance: which policy, and which clause? An accusation that has to name a target stops being one."
+      }
+    ],
+    "voice": "\"Sounds like socialism to me.\"",
+    "senses": [
+      "The pattern of accusing by label: socialist, communist, Marxist, groomer, woke - the word is fired at whatever is in front of it, so the accusation never has to survive a definition.",
+      "It works because the label is a loyalty test and not a claim: \"socialist\" here means \"not one of us\", which cannot be checked and therefore cannot be answered."
+    ],
+    "notes": [],
+    "example": "\"He called the library levy socialist, the zoning change communist and the flu shot Marxist, and could not define any of the three - a textbook **ismatic**, firing the word before reading the thing.\"",
+    "cite": null,
+    "summary": "The pattern of accusing by label: socialist, communist, Marxist, groomer, woke - the word is fired at whatever is in front of it, so the accusation...",
+    "og": "/og/species/ismatic.png?v=e7207916",
+    "definition": "The pattern of accusing by label: socialist, communist, Marxist, groomer, woke - the word is fired at whatever is in front of it, so the accusation never has to survive a definition.",
+    "confusedWith": [
+      {
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "tell": "Both fire without aiming; the ricochetoric fires claims, the ismatic fires labels, and neither has to defend a shot.",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "term": "Xenophobricator",
+        "slug": "xenophobricator",
+        "tell": "The xenophobricator blames the newest arrivals for a failure; the ismatic blames the proposal with the word that belongs to them. Both skip the mechanism.",
+        "path": "/species/xenophobricator/",
+        "kind": "species"
+      }
+    ],
+    "related": [
+      {
+        "term": "Shibbolether",
+        "slug": "shibbolether",
+        "path": "/species/shibbolether/",
+        "kind": "species"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Poisoning the well",
+        "slug": "poisoning-the-well",
+        "path": "/fallacies/poisoning-the-well/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Kafka trap",
+        "slug": "kafka-trap",
+        "path": "/fallacies/kafka-trap/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Thought-terminating cliché",
+        "slug": "thought-terminating-cliche",
+        "path": "/fallacies/thought-terminating-cliche/",
+        "kind": "fallacy"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
+    "term": "Shibbolether",
+    "slug": "shibbolether",
+    "kind": "species",
+    "kindLabel": "Species",
+    "source": "data/entries/species/shibbolether.json",
+    "path": "/species/shibbolether/",
+    "chapter": "performative-identity",
+    "chapterRoman": "I",
+    "chapterTitle": "Performative Identity & Weaponized Liberty",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈʃɪb.ə.leθ.ər/",
+    "position": 7,
+    "sort": {
+      "impact": 4,
+      "abuse": 4,
+      "blowback": 3
+    },
+    "etymology": "From \"shibboleth\", the word that told friend from enemy at the ford, + \"-er\" - the one who keeps asking for it.",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A question that could be answered by looking at the thing, asked in a room that would rather know which side you are on."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "\"Whose side are you on?\""
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "Answers a question about the policy with a question about allegiance",
+          "Treats \"both sides have a point\" as a betrayal rather than a position",
+          "Never says what their side is for, only who is against it"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Answer the side question once, plainly, then ask what the side is for: name one thing your side would do about this. The demand only works while the substance stays unmentioned."
+      }
+    ],
+    "voice": "\"Whose side are you on?\"",
+    "senses": [
+      "The pattern of replacing the question with the allegiance: every disagreement becomes a choice of sides, and having a side is offered as the whole answer.",
+      "It works because a side is cheap to declare and expensive to defend - so while the argument stays at whose side you are on, nobody has to say whether their side is right, or what it would do."
+    ],
+    "notes": [],
+    "example": "\"Ask him what the bill changes and he asks whose side you are on - a **shibbolether** to the last, keeping the conversation at the password and never at the policy.\"",
+    "cite": null,
+    "summary": "The pattern of replacing the question with the allegiance: every disagreement becomes a choice of sides, and having a side is offered as the whole...",
+    "og": "/og/species/shibbolether.png?v=9a9c528f",
+    "definition": "The pattern of replacing the question with the allegiance: every disagreement becomes a choice of sides, and having a side is offered as the whole answer.",
+    "confusedWith": [
+      {
+        "term": "Bothsidesing",
+        "slug": "bothsidesing",
+        "tell": "The bothsideser refuses to pick a side and calls it fairness; the shibbolether picks one for you and calls it loyalty. Both keep the question off the merits.",
+        "path": "/moves/bothsidesing/",
+        "kind": "move"
+      }
+    ],
+    "related": [
+      {
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "path": "/species/ismatic/",
+        "kind": "species"
+      },
+      {
+        "term": "Playtriot",
+        "slug": "playtriot",
+        "path": "/species/playtriot/",
+        "kind": "species"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "False dilemma",
+        "slug": "false-dilemma",
+        "path": "/fallacies/false-dilemma/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Loaded question",
+        "slug": "loaded-question",
+        "path": "/fallacies/loaded-question/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Bulverism",
+        "slug": "bulverism",
+        "path": "/fallacies/bulverism/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Association fallacy",
+        "slug": "association-fallacy",
+        "path": "/fallacies/association-fallacy/",
+        "kind": "fallacy"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
     "term": "Patriotainment",
     "slug": "patriotainment",
     "kind": "habitat",
@@ -1273,7 +1525,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈpeɪ.tri.ə.ˌteɪn.mənt/",
-    "position": 6,
+    "position": 8,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -1444,7 +1696,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈpeɪ.tri.ə.ˌteɪ.nər/",
-    "position": 7,
+    "position": 9,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -1621,7 +1873,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈfɪl.ɪˌblʌs.tər/",
-    "position": 8,
+    "position": 10,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -1735,7 +1987,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈdʒɛr.iˌðəm/",
-    "position": 9,
+    "position": 11,
     "sort": {
       "impact": 5,
       "abuse": 3,
@@ -1847,7 +2099,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈɒm.nɪˌbʌst/",
-    "position": 10,
+    "position": 12,
     "sort": {
       "impact": 5,
       "abuse": 3,
@@ -1953,7 +2205,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈhʌn.iˌməʊn/",
-    "position": 11,
+    "position": 13,
     "sort": {
       "impact": 3,
       "abuse": 3,
@@ -2050,7 +2302,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈpɒk.ɪtˌviː.təʊ/",
-    "position": 12,
+    "position": 14,
     "sort": {
       "impact": 4,
       "abuse": 2,
@@ -2154,7 +2406,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈnaɪtˌdɒk.ɪt/",
-    "position": 13,
+    "position": 15,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -2266,7 +2518,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈkəʊt.teɪlz/",
-    "position": 14,
+    "position": 16,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -2361,7 +2613,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/kənˈvɛn.ʃən baʊns/",
-    "position": 15,
+    "position": 17,
     "sort": {
       "impact": 3,
       "abuse": 3,
@@ -2465,7 +2717,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˈkləʊ.tʃə/",
-    "position": 16,
+    "position": 18,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -2577,7 +2829,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/dɪsˈtʃɑːdʒ pəˈtɪʃ.ən/",
-    "position": 17,
+    "position": 19,
     "sort": {
       "impact": 4,
       "abuse": 2,
@@ -2683,7 +2935,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/veɪɡ ˈprɒm.ɪs.ɪz/",
-    "position": 18,
+    "position": 20,
     "sort": {
       "impact": 3,
       "abuse": 5,
@@ -2785,7 +3037,7 @@ export const entries = [
     "chapterTitle": "Performative Identity & Weaponized Liberty",
     "partOfSpeech": "noun",
     "ipa": "/ˌsɪt.ɪ.zənz juːˈnaɪ.tɪd/",
-    "position": 19,
+    "position": 21,
     "sort": {
       "impact": 5,
       "abuse": 4,
@@ -3502,6 +3754,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Slopagandist",
         "slug": "slopagandist",
         "path": "/species/slopagandist/",
@@ -3537,6 +3797,11 @@ export const entries = [
         "id": "performative-identity",
         "roman": "I",
         "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       },
       {
         "id": "fearmongering-grift",
@@ -4857,6 +5122,13 @@ export const entries = [
         "tell": "The sophistroll derails with fallacies; the gallopologist derails with claims, too many and too fast.",
         "path": "/species/sophistroll/",
         "kind": "species"
+      },
+      {
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "tell": "The gallopologist wants the clock to run out; the ricochetoric wants the subject never to settle. Both win by exhaustion, one of the format, the other of the question.",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
       }
     ],
     "related": [
@@ -5057,6 +5329,142 @@ export const entries = [
     "committedFrom": []
   },
   {
+    "term": "Ricochetoric",
+    "slug": "ricochetoric",
+    "kind": "species",
+    "kindLabel": "Species",
+    "source": "data/entries/species/ricochetoric.json",
+    "path": "/species/ricochetoric/",
+    "chapter": "bad-faith-debate",
+    "chapterRoman": "II",
+    "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌrɪk.ə.ʃeɪˈtɒr.ɪk/",
+    "position": 10,
+    "sort": {
+      "impact": 4,
+      "abuse": 5,
+      "blowback": 2
+    },
+    "etymology": "Blend of \"ricochet\" + \"rhetoric\" - the claim that bounces off the argument and comes back as a new subject.",
+    "identification": [
+      {
+        "key": "occasion",
+        "label": "Occasion",
+        "type": "text",
+        "value": "A live exchange where one side is answering and the other is producing, and the clock is on nobody's side."
+      },
+      {
+        "key": "call",
+        "label": "Call",
+        "type": "text",
+        "value": "\"That's fair, but -\""
+      },
+      {
+        "key": "tell",
+        "label": "Tell",
+        "type": "list",
+        "value": [
+          "One claim per sentence, none of them sourced",
+          "Answers a refutation with a new claim, not a defence",
+          "Never returns to the claim you pinned"
+        ]
+      },
+      {
+        "key": "counter",
+        "label": "Counter",
+        "type": "text",
+        "value": "Make them pick one and stay on it: which of these are you actually claiming? A ricochet cannot be answered, only stopped, and it has to be stopped before the second bounce."
+      }
+    ],
+    "voice": "\"That's fair, but -\"",
+    "senses": [
+      "The pattern of firing claims faster than any of them can be answered, so a refuted one is never withdrawn: it is reloaded as the next subject.",
+      "It works because a claim only costs something when its owner has to stand behind it, and here nothing is owned - every miss is free, every answer is a fresh opening, and the exchange never runs out of things to be about."
+    ],
+    "notes": [],
+    "example": "\"He had an answer for every question and a question for every answer, and by the third exchange nobody could remember which of his **ricochetoric** shots was still in play.\"",
+    "cite": null,
+    "summary": "The pattern of firing claims faster than any of them can be answered, so a refuted one is never withdrawn: it is reloaded as the next subject.",
+    "og": "/og/species/ricochetoric.png?v=a4901bee",
+    "definition": "The pattern of firing claims faster than any of them can be answered, so a refuted one is never withdrawn: it is reloaded as the next subject.",
+    "confusedWith": [
+      {
+        "term": "Gallopologist",
+        "slug": "gallopologist",
+        "tell": "Both produce volume; the gallopologist is racing the clock to the end of the format, the ricochetoric is keeping a subject in the air so that none of them has to land.",
+        "path": "/species/gallopologist/",
+        "kind": "species"
+      }
+    ],
+    "related": [
+      {
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "path": "/species/ismatic/",
+        "kind": "species"
+      },
+      {
+        "term": "Sophistroll",
+        "slug": "sophistroll",
+        "path": "/species/sophistroll/",
+        "kind": "species"
+      }
+    ],
+    "edges": [
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Gish gallop",
+        "slug": "gish-gallop",
+        "path": "/fallacies/gish-gallop/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Proof by assertion",
+        "slug": "proof-by-assertion",
+        "path": "/fallacies/proof-by-assertion/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Ad nauseam",
+        "slug": "ad-nauseam",
+        "path": "/fallacies/ad-nauseam/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Texas sharpshooter fallacy",
+        "slug": "texas-sharpshooter-fallacy",
+        "path": "/fallacies/texas-sharpshooter-fallacy/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "commits",
+        "label": "Commits",
+        "term": "Shifting the burden of proof",
+        "slug": "shifting-the-burden-of-proof",
+        "path": "/fallacies/shifting-the-burden-of-proof/",
+        "kind": "fallacy"
+      },
+      {
+        "rel": "performs",
+        "label": "Performs",
+        "term": "Flood the zone",
+        "slug": "flood-the-zone",
+        "path": "/moves/flood-the-zone/",
+        "kind": "move"
+      }
+    ],
+    "backlinks": [],
+    "committedFrom": []
+  },
+  {
     "term": "Comment section",
     "slug": "comment-section",
     "kind": "habitat",
@@ -5068,7 +5476,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈkɒm.ɛnt ˌsɛk.ʃən/",
-    "position": 10,
+    "position": 11,
     "sort": {
       "impact": 3,
       "abuse": 5,
@@ -5319,7 +5727,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈbəʊθ.saɪ.dɪŋ/",
-    "position": 11,
+    "position": 12,
     "sort": {
       "impact": 4,
       "abuse": 5,
@@ -5381,6 +5789,12 @@ export const entries = [
         "slug": "cable-panel",
         "path": "/habitats/cable-panel/",
         "kind": "habitat"
+      },
+      {
+        "term": "Shibbolether",
+        "slug": "shibbolether",
+        "path": "/species/shibbolether/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -5449,7 +5863,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈveɪɡ.bʊk.ɪŋ/",
-    "position": 12,
+    "position": 13,
     "sort": {
       "impact": 3,
       "abuse": 4,
@@ -5563,7 +5977,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/rɪˈsiːt.bɒm/",
-    "position": 13,
+    "position": 14,
     "sort": {
       "impact": 3,
       "abuse": 4,
@@ -5674,7 +6088,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/dɛd kæt/",
-    "position": 14,
+    "position": 15,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -5786,7 +6200,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈtraɪ.əl bəˈluːn/",
-    "position": 15,
+    "position": 16,
     "sort": {
       "impact": 3,
       "abuse": 3,
@@ -5898,7 +6312,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈfraɪ.deɪ njuːz dʌmp/",
-    "position": 16,
+    "position": 17,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -6015,7 +6429,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈæs.trəʊˌtɜː.fɪŋ/",
-    "position": 17,
+    "position": 18,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -6127,7 +6541,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun / verb",
     "ipa": "/ˈmɒt hɒp/",
-    "position": 18,
+    "position": 19,
     "sort": {
       "impact": 4,
       "abuse": 3,
@@ -6247,7 +6661,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ˈhɛk.ləz ˈviː.təʊ/",
-    "position": 19,
+    "position": 20,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -6367,7 +6781,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "verb phrase / gerund",
     "ipa": "/flʌd ðə zəʊn/",
-    "position": 20,
+    "position": 21,
     "sort": {
       "impact": 5,
       "abuse": 4,
@@ -6435,6 +6849,12 @@ export const entries = [
         "slug": "briefing-room",
         "path": "/habitats/briefing-room/",
         "kind": "habitat"
+      },
+      {
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
       }
     ],
     "edges": [
@@ -6456,6 +6876,14 @@ export const entries = [
       }
     ],
     "backlinks": [
+      {
+        "rel": "performs",
+        "label": "Performed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
       {
         "rel": "houses",
         "label": "Found in",
@@ -6487,7 +6915,7 @@ export const entries = [
     "chapterTitle": "Bad-Faith Debate & Epistemic Breakdown",
     "partOfSpeech": "noun",
     "ipa": "/ɡʊd kɒp bæd kɒp/",
-    "position": 21,
+    "position": 22,
     "sort": {
       "impact": 4,
       "abuse": 4,
@@ -7129,6 +7557,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Shibbolether",
+        "slug": "shibbolether",
+        "path": "/species/shibbolether/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Omnibust",
         "slug": "omnibust",
         "path": "/abilities/omnibust/",
@@ -7272,6 +7708,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Shibbolether",
+        "slug": "shibbolether",
+        "path": "/species/shibbolether/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "JAQing Off",
         "slug": "jaqing-off",
         "path": "/moves/jaqing-off/",
@@ -7295,6 +7739,11 @@ export const entries = [
       }
     ],
     "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
       {
         "id": "bad-faith-debate",
         "roman": "II",
@@ -7915,6 +8364,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Judge shopping",
         "slug": "judge-shopping",
         "path": "/abilities/judge-shopping/",
@@ -8034,6 +8491,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "path": "/species/ismatic/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Sophistroll",
         "slug": "sophistroll",
         "path": "/species/sophistroll/",
@@ -8081,6 +8546,11 @@ export const entries = [
       }
     ],
     "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
       {
         "id": "bad-faith-debate",
         "roman": "II",
@@ -8412,6 +8882,14 @@ export const entries = [
     "edges": [],
     "backlinks": [
       {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "path": "/species/ismatic/",
+        "kind": "species"
+      },
+      {
         "rel": "houses",
         "label": "Found in",
         "term": "Comment section",
@@ -8437,6 +8915,11 @@ export const entries = [
       }
     ],
     "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
       {
         "id": "fearmongering-grift",
         "roman": "IV",
@@ -8531,6 +9014,22 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "path": "/species/ismatic/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Shibbolether",
+        "slug": "shibbolether",
+        "path": "/species/shibbolether/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
         "path": "/species/biasographer/",
@@ -8554,6 +9053,11 @@ export const entries = [
       }
     ],
     "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
       {
         "id": "bad-faith-debate",
         "roman": "II",
@@ -17162,6 +17666,22 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "path": "/species/ismatic/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Shibbolether",
+        "slug": "shibbolether",
+        "path": "/species/shibbolether/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Biasographer",
         "slug": "biasographer",
         "path": "/species/biasographer/",
@@ -17185,6 +17705,11 @@ export const entries = [
       }
     ],
     "committedFrom": [
+      {
+        "id": "performative-identity",
+        "roman": "I",
+        "title": "Performative Identity & Weaponized Liberty"
+      },
       {
         "id": "bad-faith-debate",
         "roman": "II",
@@ -17520,6 +18045,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Algodemic",
         "slug": "algodemic",
         "path": "/species/algodemic/",
@@ -17547,6 +18080,11 @@ export const entries = [
         "id": "performative-identity",
         "roman": "I",
         "title": "Performative Identity & Weaponized Liberty"
+      },
+      {
+        "id": "bad-faith-debate",
+        "roman": "II",
+        "title": "Bad-Faith Debate & Epistemic Breakdown"
       },
       {
         "id": "fearmongering-grift",
@@ -20052,6 +20590,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ismatic",
+        "slug": "ismatic",
+        "path": "/species/ismatic/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Patriotainment",
         "slug": "patriotainment",
         "path": "/habitats/patriotainment/",
@@ -20333,6 +20879,14 @@ export const entries = [
       {
         "rel": "commits",
         "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
         "term": "Receiptbomb",
         "slug": "receiptbomb",
         "path": "/moves/receiptbomb/",
@@ -20483,6 +21037,14 @@ export const entries = [
         "slug": "filibluster",
         "path": "/abilities/filibluster/",
         "kind": "ability"
+      },
+      {
+        "rel": "commits",
+        "label": "Committed by",
+        "term": "Ricochetoric",
+        "slug": "ricochetoric",
+        "path": "/species/ricochetoric/",
+        "kind": "species"
       },
       {
         "rel": "commits",

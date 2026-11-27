@@ -318,11 +318,7 @@ export default function About() {
           <h2>Where to go next</h2>
           <p>
             Read the guide, argue with it, or add to it. The record contract is public, and a proposal
-            is one file. Built and edited by{' '}
-            <a href={`https://github.com/${site.author}`} target="_blank" rel="noreferrer">
-              {site.author}
-            </a>
-            .
+            is one file.
           </p>
           <div className="cta-row">
             <Link className="btn btn-primary" to="/guide/">
