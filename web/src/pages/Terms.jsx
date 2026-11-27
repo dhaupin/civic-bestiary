@@ -7,6 +7,7 @@
 import { Link } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site, { routeMeta } from '../site.js'
+import Email from '../components/Email.jsx'
 
 const VERSION = '1.0'
 const EFFECTIVE = '27 November 2026'
@@ -184,7 +185,7 @@ const SECTIONS = [
     id: 'contact',
     title: '22. Contact, and corrections',
     body: [
-      'Write to legal@creadev.org, or open an issue in the project repository.',
+      <>Write to <Email user="legal" domain="creadev.org" />, or open an issue in the project repository.</>,
       'If you believe an entry identifies you or your organisation and gets something wrong, say which page and which sentence. We will look at it, and correct or remove what is wrong. A guide that cannot be corrected is not a guide.',
       'For a copyright or trademark complaint, write with the page, the material in question, and the basis of the claim. We will review it and remove what should not be there.',
     ],
@@ -236,8 +237,8 @@ export default function Terms() {
           {SECTIONS.map((section) => (
             <section key={section.id} id={section.id} className="legal-section">
               <h2>{section.title}</h2>
-              {section.body.map((paragraph) => (
-                <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+              {section.body.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
               ))}
             </section>
           ))}

@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom'
 import usePageMeta from '../hooks/usePageMeta.js'
 import site, { routeMeta } from '../site.js'
 import { effectiveConsent, openConsentBanner, saveConsent } from '../consent.js'
+import Email from '../components/Email.jsx'
 
 const VERSION = '1.0'
 const EFFECTIVE = '27 November 2026'
@@ -65,7 +66,7 @@ const SECTIONS = [
     id: 'responsible',
     title: '1. Who is responsible',
     body: [
-      'This site is published by Creadev. For data protection purposes the publisher is the controller of the little that is processed here, and can be reached at privacy@creadev.org.',
+      <>This site is published by Creadev. For data protection purposes the publisher is the controller of the little that is processed here, and can be reached at <Email user="privacy" domain="creadev.org" />.</>,
       'This notice covers codex.creadev.org. It does not cover the project repository, the publisher\'s other sites, or any site we link to; each of those has its own notice.',
     ],
   },
@@ -171,7 +172,7 @@ const SECTIONS = [
     id: 'contact',
     title: '14. Contact and complaints',
     body: [
-      'Write to privacy@creadev.org for any request about your data, including access, deletion, or a correction to this notice. If you are not satisfied with the answer, you may complain to your local data protection authority.',
+      <>Write to <Email user="privacy" domain="creadev.org" /> for any request about your data, including access, deletion, or a correction to this notice. If you are not satisfied with the answer, you may complain to your local data protection authority.</>,
     ],
   },
 ]
@@ -264,8 +265,8 @@ export default function Privacy() {
           {SECTIONS.map((section) => (
             <section key={section.id} id={section.id} className="legal-section">
               <h2>{section.title}</h2>
-              {section.body.map((paragraph) => (
-                <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+              {section.body.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
               ))}
               {section.table && (
                 <div className="legal-table-wrap">
@@ -293,8 +294,8 @@ export default function Privacy() {
                   </table>
                 </div>
               )}
-              {(section.after || []).map((paragraph) => (
-                <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+              {(section.after || []).map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
               ))}
             </section>
           ))}
