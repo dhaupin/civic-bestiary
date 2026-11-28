@@ -55,7 +55,9 @@ None of this works without the behaviour behind it.
 
 ## Open items
 
-1. **Name the forum state in §29.** "The state in which the operator maintains its principal place of business" invites a forum fight and can be read as evasive. One word fixes it.
+1. ~~Name the forum state in §29.~~ Resolved in v2.1, without naming a state. §29 said "the state in which the operator maintains its principal place of business", which is a phrase of art for entities; applied to an individual it invites the court to substitute domicile, so it produced a fight rather than a forum. It now says domicile — where the operator actually lives and intends to stay — which is a fact a court can determine, follows the operator if they move, and does not change retroactively for a dispute that arose before the move. The forum sentence is a consent rather than an exclusive lock, because exclusive-forum clauses are routinely voided against consumers in the UK and EU and buy nothing in exchange.
+
+   The structural point worth keeping: a forum clause binds parties to the contract, and the plaintiff who matters — someone who never visited and never accepted — is not a party. §29 governs users, which is the low-risk counterparty. The dangerous claim is answered by the First Amendment and the SPEECH Act, not by drafting.
 2. **A `sources:` field on every entry that names a real doctrine, office or fallacy.** §7 promises the check; the data should be able to show it.
 3. **A contributor rule: proposals may not name individuals.** Belongs in the issue template and in CONTRIBUTING, and the closure of a violating proposal is itself evidence of method.
 4. **A real /about** — a legal name, a city, a start date, funding ("none"), one contact. The single highest-value artefact for being legible as one author rather than a network.
