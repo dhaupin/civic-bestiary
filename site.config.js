@@ -59,10 +59,15 @@ export default {
     { label: 'License', href: `${REPO}/blob/main/LICENSE` },
   ],
 
-  // Sits above the footer links on every page: the fiction is stated once,
-  // plainly, wherever a reader lands. Terms of use carry the long version.
+  // Sits above the footer links on every page: what the guide is, stated once,
+  // wherever a reader lands. Terms of use carry the long version.
+  //
+  // This used to read "any resemblance ... is coincidental", which is a claim
+  // about the author's state of mind that the editorial method contradicts.
+  // Describe the work instead of denying the resemblance: the second is
+  // provable, and the first is what the entries actually do.
   footerNote:
-    'Satire, written inside a fictional universe. Any resemblance to real persons, organisations, or events is coincidental.',
+    'Satire and commentary on patterns of public behaviour. It names no one, and asserts nothing about any person.',
 
   // --- routes -------------------------------------------------------------
   // Base routes only. The per-species routes are content, so web/ssr.config.js
