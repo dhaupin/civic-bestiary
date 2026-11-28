@@ -16,8 +16,8 @@ import site, { routeMeta } from '../site.js'
 import { effectiveConsent, openConsentBanner, saveConsent } from '../consent.js'
 import Email from '../components/Email.jsx'
 
-const VERSION = '1.0'
-const EFFECTIVE = 'November 27, 2026'
+const VERSION = '1.1'
+const EFFECTIVE = 'November 28, 2026'
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
   'August', 'September', 'October', 'November', 'December']
@@ -89,12 +89,13 @@ const SECTIONS = [
   },
   {
     id: 'processed',
-    title: '3. What is processed when you visit',
+    title: '3. What is processed',
     body: [
       'Serving a page means a request, and a request carries an IP address. The site runs on Cloudflare, so Cloudflare processes request data (IP address, user agent, requested URL, timestamp, and country derived from the address) to deliver the page, keep the service up, and stop abuse. That processing is necessary to serve the site, and is done on the basis of our legitimate interest in running it securely.',
       'Cloudflare Web Analytics counts visits in aggregate. It is cookieless, does not fingerprint a browser, and does not build a profile of a person. It tells us that a page was read, not who read it.',
       'Google Analytics 4 runs only if you allow it. Cloudflare Zaraz loads the tag after your choice, and the tag is configured without advertising features, without advertising personalisation, without Google signals, and without data sharing for advertising. When it runs it processes the page path, the referrer, an approximate location derived from a truncated IP address, device and browser details, and basic interaction events. IP addresses are not stored in full.',
       'Two values are stored in your browser and never sent anywhere: your theme, and your analytics choice. They exist so the page does not flash and so you are not asked the same question on every visit.',
+      'If you write to us - a correction, a complaint, a data request, or a security report - we keep the message and our reply. That includes your name and address if you give them, the page and the sentence you wrote about, what we decided, and when. The basis is our legitimate interest in answering you and in keeping the record of corrections that the terms of use promise. It is used to answer you and to establish or defend a legal claim, it is not used for anything else, and it is not added to any list.',
     ],
   },
   {
@@ -146,6 +147,7 @@ const SECTIONS = [
     title: '9. How long it is kept',
     body: [
       'Aggregate analytics are kept for 14 months and then deleted. Cloudflare keeps request and security logs for the short period described in its own privacy policy. The two values in your browser stay until you clear them.',
+      'Correspondence is kept for three years from the last message in the thread, or longer while a complaint is unresolved or a legal claim is open, and is then deleted.',
       'We keep no database of readers, so there is no other retention period to state.',
     ],
   },
