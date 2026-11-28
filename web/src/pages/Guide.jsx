@@ -73,7 +73,10 @@ function headingFor(view, total) {
       scope: view.chapter
         ? { label: `Chapter ${view.chapter.roman} · ${view.chapter.title}`, path: `/chapters/${view.chapter.id}/` }
         : null,
-      sub: view.kind.blurb,
+      // The blurb is the one-line answer for a meta description and a card. The
+      // note is the onboarding paragraph a reader landing cold needs, the same
+      // shape a chapter's note takes, so a kind front door is not a bare list.
+      sub: view.kind.note || view.kind.blurb,
       rows: view.kind.identification.map((row) => row.label),
       path: view.kind.path,
       description: `${total} ${plural} in the bestiary${view.chapter ? `, chapter ${view.chapter.roman}` : ''}: ${view.kind.blurb}`,
