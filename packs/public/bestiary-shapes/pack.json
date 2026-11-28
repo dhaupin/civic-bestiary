@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "bestiary-shapes",
-  "version": "0.2.0",
-  "description": "The Civic Bestiary's own shape pack: every entry page ships its identification block (whose rows follow the entry's kind), its sighting, and its cross-references; the field guide links every entry at the URL its kind dictates; and every listing row offers a way in. Pure file reads over the baked tree - it proves the record grammar survived the round trip from data/ to HTML.",
+  "version": "0.3.0",
+  "description": "The Civic Bestiary's own shape pack: every entry page ships its identification block (whose rows follow the entry's kind), its sighting, and its cross-references; the field guide links every entry at the URL its kind dictates; and every listing row offers a way in. Pure file reads over the baked tree - it proves the record grammar survived the round trip from data/ to HTML. Two checks guard the fields a generator would happily render as empty: an entry with no confused_with bakes a compare heading over nothing, and an identification row with no text still counts as a row.",
   "entry": "index.mjs"
 }
