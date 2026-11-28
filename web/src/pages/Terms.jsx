@@ -10,6 +10,11 @@
  * how an entry is made, how the vocabulary may be used, one author and no
  * network, and a corrections process with dates on it.
  *
+ * v2.1 replaces "the state in which the operator maintains its principal place
+ * of business" with domicile. The old phrase is a term of art for entities;
+ * applied to a person it invites the court to substitute domicile, which is a
+ * fight rather than a forum. Domicile is a fact, so it can be determined.
+ *
  * A terms page binds readers. It cannot bind the people a satire is about,
  * because they never accepted it, and defamation is a tort rather than a
  * breach of contract. So the sections that actually protect the work are the
@@ -22,7 +27,7 @@ import usePageMeta from '../hooks/usePageMeta.js'
 import site, { routeMeta } from '../site.js'
 import Email from '../components/Email.jsx'
 
-const VERSION = '2.0'
+const VERSION = '2.1'
 const EFFECTIVE = 'November 28, 2026'
 
 const SECTIONS = [
@@ -264,8 +269,8 @@ const SECTIONS = [
     id: 'law',
     title: '29. Governing law and jurisdiction',
     body: [
-      'These terms are governed by the laws of the United States and of the state in which the operator maintains its principal place of business, without regard to conflict-of-laws rules. You and the operator agree to the exclusive jurisdiction of the courts located there.',
-      'If you are a consumer, this does not deprive you of the protection of the mandatory law of the country where you live, or of your right to bring proceedings in your local courts where the law gives you that right.',
+      'These terms are governed by the law of the state where the operator is domiciled, together with the federal law of the United States, without regard to conflict-of-laws rules. Domicile is a fact rather than a label: it is where the operator actually lives and intends to stay. If the operator moves, the governing law follows, but a move does not change the law that applies to a dispute that arose before it.',
+      'You and the operator agree that the courts of that state may hear a dispute about these terms, and the operator consents to their jurisdiction. That is a consent, not a lock: if the law where you live gives you the right to sue there, or gives you protections you cannot waive, nothing here takes either away.',
       'A judgment from a court outside the United States that is inconsistent with the First Amendment is not enforceable here. That is not our argument; it is the SPEECH Act, 28 U.S.C. sections 4101 to 4105.',
     ],
   },
