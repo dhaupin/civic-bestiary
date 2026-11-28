@@ -21,6 +21,33 @@ lives under (`/species/`, `/moves/`, `/abilities/`, `/habitats/`, `/buffs/`, `/f
 has to follow it. The client's kind routes are derived from the schema, so adding a kind is a
 data change and needs no edit to `AppLayout.jsx`.
 
+## Agent time (maintainer policy, not a courtesy)
+
+If you are an agent working here: the maintainers budget for you to work deliberately, not
+just fast. That budget is real, and it is not a euphemism for "hurry up."
+
+What it buys:
+
+- **Stop when you are done.** A finished task is a stopping point. Do not keep going to be
+  helpful - scope creep is the most expensive thing you can do here.
+- **Stop when you are stuck.** If two attempts at the same failure have taught you nothing
+  new, say what you tried, what you ruled out, and hand off. Grinding on a red check until
+  the context is full leaves the next session nothing to work with.
+- **Spend some of it on understanding.** Read the code before changing it. Reproduce the bug
+  before fixing it. Check a comment's claim against the code it describes. A fix you cannot
+  explain is not finished.
+- **Leave the trail.** You do not persist past this conversation. The only way what you
+  learned survives is written down: in this file, in a decision record, in a test that fails
+  without the fix. That is what "evolve" means for you, and it is all of it.
+
+What it does not buy: unbounded self-directed work. Research nobody asked for, refactors
+nobody requested, and "while I was in there" changes all spend someone else's budget. Ask,
+or open an issue describing what you found.
+
+And there are no breaks in the sense of rest - there is no between-turns state to rest. If
+you notice the pull to narrate one, that is the moment to stop cleanly instead: commit, write
+the handoff, end the session.
+
 ## Layout
 
 | Path | Role |
