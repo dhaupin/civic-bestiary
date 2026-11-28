@@ -211,7 +211,7 @@ const SECTIONS = [
         Write to <Email user="hello" domain="creadev.org" /> with the page, the sentence, and what you say is wrong with it. Say who you are and, if you write for someone else, on what basis. If you are represented, tell us, and we will correspond with your representative.
       </>,
       'We acknowledge a complaint within one business day and aim to decide within ten. We keep a dated record of what was sent, what we did, and why - a record that is useful to you as much as to us.',
-      'We correct errors of fact, and we publish the correction with its date. We will not remove a page because it is unflattering. We will not keep a page that asserts something false about an identifiable person.',
+      'We correct errors of fact, and the correction carries its date on the page it corrects. We will not remove a page because it is unflattering. We will not keep a page that asserts something false about an identifiable person.',
       'A complaint is not an admission, and neither is our reply. We ask that you read our answer the same way.',
     ],
   },
