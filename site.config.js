@@ -67,7 +67,7 @@ export default {
   // Describe the work instead of denying the resemblance: the second is
   // provable, and the first is what the entries actually do.
   footerNote:
-    'Satire and commentary on patterns of public behaviour. It names no one, and asserts nothing about any person.',
+    'Satire and commentary on patterns of public behaviour. It is about no one, and asserts nothing about any person.',
 
   // --- routes -------------------------------------------------------------
   // Base routes only. The per-species routes are content, so web/ssr.config.js
