@@ -438,11 +438,19 @@ export default {
     alt: `${site.name} - a field guide to the characters of the body politic`,
   },
   keywords: site.keywords,
-  // The AEO preset: explicit Allow groups for the search-visibility bots (so
-  // ChatGPT/Perplexity/Claude/Apple search can cite the guide), and training
-  // crawls allowed too - the guide is public civic material, and refusing the
-  // training crawl buys nothing here. Flip to aiBots: 'block' to refuse it.
-  robots: { aeo: { aiBots: 'allow' } },
+  // No llms.txt and no per-bot robots groups. Both curated an audience we do
+  // not control: llms.txt is one person's proposal that no model provider
+  // reads, and naming the crawlers is an endorsement that changes nothing they
+  // would not have done anyway. A crawler that wants the guide can find it the
+  // way anyone else does - the sitemap, the canonical origin, the repository.
+  // Silence is not exclusion: with no Disallow, everything is permitted, which
+  // is the honest default.
+  llms: false,
+  // A minimal robots.txt instead: every agent allowed, the sitemap named, no
+  // per-bot groups. Dropping the aeo preset alone emits no robots.txt at all,
+  // which would have quietly cost the Sitemap line - abstaining from curation
+  // is not the same as going silent about the sitemap.
+  robots: true,
   routes: [...siteRoutes, ...kindRoutes, ...chapterRoutes, ...postRoutes, ...termRoutes],
   notFound: site.notFound,
 }

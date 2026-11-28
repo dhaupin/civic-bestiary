@@ -460,8 +460,8 @@ appending.
   Everything else follows the family rules - tokens own the palette, theme is one
   `<html data-theme>` attribute, nav and footer render from `site.config.js`.
 - **`siteUrl` is the canonical origin** (`https://codex.creadev.org`), attached to the Pages
-  project as a custom domain. It is baked into canonicals, OG tags, JSON-LD, `sitemap.xml`, and
-  `llms.txt`. Changing it means changing that one line in `site.config.js` and rebuilding - not
+  project as a custom domain. It is baked into canonicals, OG tags, JSON-LD, and `sitemap.xml`.
+  Changing it means changing that one line in `site.config.js` and rebuilding - not
   editing the baked files. `civicbestiary.pages.dev` still serves the same build, so it needs a
   Bulk Redirect if the duplicate host should not be indexed - not a `_redirects` entry, since
   that file is served by the project and the redirect has to outrank it.
