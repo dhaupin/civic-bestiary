@@ -21,6 +21,33 @@ lives under (`/species/`, `/moves/`, `/abilities/`, `/habitats/`, `/buffs/`, `/f
 has to follow it. The client's kind routes are derived from the schema, so adding a kind is a
 data change and needs no edit to `AppLayout.jsx`.
 
+## Agent time (maintainer policy, not a courtesy)
+
+If you are an agent working here: the maintainers budget for you to work deliberately, not
+just fast. That budget is real, and it is not a euphemism for "hurry up."
+
+What it buys:
+
+- **Stop when you are done.** A finished task is a stopping point. Do not keep going to be
+  helpful - scope creep is the most expensive thing you can do here.
+- **Stop when you are stuck.** If two attempts at the same failure have taught you nothing
+  new, say what you tried, what you ruled out, and hand off. Grinding on a red check until
+  the context is full leaves the next session nothing to work with.
+- **Spend some of it on understanding.** Read the code before changing it. Reproduce the bug
+  before fixing it. Check a comment's claim against the code it describes. A fix you cannot
+  explain is not finished.
+- **Leave the trail.** You do not persist past this conversation. The only way what you
+  learned survives is written down: in this file, in a decision record, in a test that fails
+  without the fix. That is what "evolve" means for you, and it is all of it.
+
+What it does not buy: unbounded self-directed work. Research nobody asked for, refactors
+nobody requested, and "while I was in there" changes all spend someone else's budget. Ask,
+or open an issue describing what you found.
+
+And there are no breaks in the sense of rest - there is no between-turns state to rest. If
+you notice the pull to narrate one, that is the moment to stop cleanly instead: commit, write
+the handoff, end the session.
+
 ## Layout
 
 | Path | Role |
@@ -436,7 +463,19 @@ appending.
   project as a custom domain. It is baked into canonicals, OG tags, JSON-LD, `sitemap.xml`, and
   `llms.txt`. Changing it means changing that one line in `site.config.js` and rebuilding - not
   editing the baked files. `civicbestiary.pages.dev` still serves the same build, so it needs a
-  zone-level redirect if the duplicate host should not be indexed.
+  Bulk Redirect if the duplicate host should not be indexed - not a `_redirects` entry, since
+  that file is served by the project and the redirect has to outrank it.
+  (https://developers.cloudflare.com/pages/how-to/redirect-to-custom-domain/)
+- **The Pages project keeps its old name on purpose.** The repo is `civic-bestiary` and the
+  project is still `civicbestiary`, so the two disagree; that is the decision, not an oversight.
+  The API can rename a project - `name` is an optional body parameter on
+  `PATCH /accounts/{account_id}/pages/projects/{project_name}` - but what a rename does to a
+  live project is undocumented: whether deployment history survives, whether attached custom
+  domains stay attached, and whether the old `pages.dev` name is released are all unstated.
+  The deployment history and the historical preview URLs are the audit trail, and this repo
+  would rather keep a stale name than gamble the trail for a vanity subdomain. Deleting the
+  project instead would give the name up outright, and `pages.dev` names are global - nothing
+  guarantees the old one could be reclaimed.
 - The repo URL is authored once, in `site.config.js` (`REPO`); the nav link, the footer, and
   the JSON-LD license all derive from it. A few surfaces still carry hand-copied identity and
   will drift on a rename: `web/public/site.webmanifest`, the `aria-label` in
