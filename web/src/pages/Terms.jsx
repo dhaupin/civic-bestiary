@@ -27,7 +27,7 @@ import usePageMeta from '../hooks/usePageMeta.js'
 import site, { routeMeta } from '../site.js'
 import Email from '../components/Email.jsx'
 
-const VERSION = '2.1'
+const VERSION = '2.2'
 const EFFECTIVE = 'November 28, 2026'
 
 const SECTIONS = [
@@ -52,7 +52,7 @@ const SECTIONS = [
     title: '3. Satire, commentary, and opinion',
     body: [
       'The guide is satire, criticism, and commentary on matters of public interest. Its entries are characterisations and opinions, not reports of fact. The naturalist\'s frame - species, habitat, buff, remedy - is a literary form, not a claim that the world it describes exists.',
-      'No entry is about, refers to, or asserts anything about any identifiable person. No entry is an accusation that anyone has done, said, or believed anything.',
+      'No entry is about an identifiable person, and no entry asserts that anyone has done, said, or believed anything. Where a term is eponymous, the entry names the person it is named for and describes the conduct the name comes from as the cited record describes it: attribution, not allegation.',
       'Where an entry names a real doctrine, office, or documented fallacy, it identifies the public record and cites it, and the source controls where the description and the source differ.',
     ],
   },
@@ -211,7 +211,7 @@ const SECTIONS = [
         Write to <Email user="hello" domain="creadev.org" /> with the page, the sentence, and what you say is wrong with it. Say who you are and, if you write for someone else, on what basis. If you are represented, tell us, and we will correspond with your representative.
       </>,
       'We acknowledge a complaint within one business day and aim to decide within ten. We keep a dated record of what was sent, what we did, and why - a record that is useful to you as much as to us.',
-      'We correct errors of fact, and we publish the correction with its date. We will not remove a page because it is unflattering. We will not keep a page that asserts something false about an identifiable person.',
+      'We correct errors of fact, and the correction carries its date on the page it corrects. We will not remove a page because it is unflattering. We will not keep a page that asserts something false about an identifiable person.',
       'A complaint is not an admission, and neither is our reply. We ask that you read our answer the same way.',
     ],
   },
