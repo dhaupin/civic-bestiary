@@ -159,5 +159,62 @@ export default {
         return findings
       },
     },
+    {
+      // The compare block is the best onward link on the page: what a reader who
+      // recognised the pattern clicks next. The marker check above proves the
+      // container survived the bake; it proves nothing about what is inside it.
+      // An entry with an empty `related` renders <h2>Compare with</h2> followed
+      // by nothing, which reads as a design choice and is a missing field
+      // wearing a heading.
+      id: 'entry-compares-with-another',
+      level: 'fail',
+      run(ctx) {
+        const findings = []
+        for (const rel of walk(ctx).filter((page) => ENTRY_PAGE.test(page))) {
+          const html = ctx.text(rel) || ''
+          const start = html.indexOf('class="species-compare"')
+          if (start < 0) continue
+          const block = html.slice(start, html.indexOf('</div>', start))
+          if (!block.includes('href="/')) {
+            findings.push({ page: rel, message: 'compare block names no other entry - related is empty' })
+          }
+        }
+        return findings
+      },
+    },
+    {
+      // "Easily confused with" is the page's sharpest distinction: the term a
+      // reader is most likely to have arrived looking for. Species.jsx renders
+      // the whole section inside a length guard, so an empty confused_with does
+      // not leave a visible hole - the section simply never appears, and the
+      // page still looks complete. Every entry carries one today, so this is a
+      // ratchet: it holds the line rather than asking for new prose.
+      id: 'entry-names-what-it-is-confused-with',
+      level: 'fail',
+      run(ctx) {
+        return walk(ctx)
+          .filter((page) => ENTRY_PAGE.test(page))
+          .filter((page) => !(ctx.text(page) || '').includes('species-twins'))
+          .map((page) => ({ page, message: 'no "Easily confused with" section - confused_with is empty' }))
+      },
+    },
+    {
+      // The failure mode a row count cannot see: <dt>Counter</dt><dd></dd> is
+      // three rows and no counter. Every identification row has to carry text.
+      id: 'identification-rows-are-filled',
+      level: 'fail',
+      run(ctx) {
+        const findings = []
+        for (const rel of walk(ctx).filter((page) => ENTRY_PAGE.test(page))) {
+          const html = ctx.text(rel) || ''
+          for (const row of html.matchAll(/<dt>([^<]+)<\/dt>\s*<dd[^>]*>([\s\S]*?)<\/dd>/g)) {
+            if (!row[2].replace(/<[^>]+>/g, '').trim()) {
+              findings.push({ page: rel, message: `identification row "${row[1]}" is empty` })
+            }
+          }
+        }
+        return findings
+      },
+    },
   ],
 }
