@@ -97,6 +97,9 @@ def build(doc):
         "path": spec["path"],
         "voice": spec["voice"],
         "blurb": spec["blurb"],
+        # The onboarding paragraph, optional: a kind without one falls back to
+        # its blurb rather than rendering an empty sub.
+        "note": spec.get("note", ""),
         "identification": [
             {"key": row["key"], "label": row["label"], "type": row["type"]}
             for row in spec["identification"]

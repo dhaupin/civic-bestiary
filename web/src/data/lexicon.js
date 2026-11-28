@@ -58,6 +58,7 @@ export const kinds = {
     "path": "/species/",
     "voice": "call",
     "blurb": "A recognisable pattern of behaviour, worn like a costume - point at the pattern, not at a person.",
+    "note": "A species is a costume: a pattern of behaviour a person puts on in public and expects to be read from across the room. Each entry gives the occasion it turns up on, the call that announces it, the tell that gives it away when you get close, and a counter that works on the pattern rather than the person wearing it. Start with the tell if you are trying to recognise something, and with the counter if you are standing in the room while it happens.",
     "identification": [
       {
         "key": "occasion",
@@ -93,6 +94,7 @@ export const kinds = {
     "path": "/moves/",
     "voice": "tell",
     "blurb": "An action performed in the open, in front of witnesses.",
+    "note": "A move is something done in the open, in front of witnesses, where the doing is the argument. Each entry names the trigger that makes it available, the tell that shows it is happening, and the counter that answers it without escalating. Moves are the verbs of the guide: if a species is who is talking, the move is what the room watches them do. Read one before the meeting rather than after it.",
     "identification": [
       {
         "key": "trigger",
@@ -123,6 +125,7 @@ export const kinds = {
     "path": "/abilities/",
     "voice": "effect",
     "blurb": "A capability an office, body, or machine can wield - no single person owns it.",
+    "note": "An ability belongs to a position rather than a person: the power an office, a body, or a machine can reach for because of what it is. Each entry says what the ability does, who it is available to, and what answers it. Because nobody has to be named for an ability to be used, this is the kind most easily mistaken for background. It is not background. It is the part of the room that does the work.",
     "identification": [
       {
         "key": "effect",
@@ -153,6 +156,7 @@ export const kinds = {
     "path": "/habitats/",
     "voice": "signature",
     "blurb": "The place a character is found and fed - the show, the rally, the forum - and the condition that would change what the room produces.",
+    "note": "A habitat is the place a character is found and fed: the show, the rally, the forum, the feed. Each entry names who carries it, what pays for it, the signature that marks it as this habitat rather than a similar room, and the condition that would change what the room produces. Habitats explain why the same person behaves differently in two buildings. If you want to change a pattern, start here: a room is usually cheaper to move than a person.",
     "identification": [
       {
         "key": "carriers",
@@ -188,6 +192,7 @@ export const kinds = {
     "path": "/buffs/",
     "voice": "tell",
     "blurb": "A temporary condition that changes what a character can get away with.",
+    "note": "A buff is weather, not climate: a temporary condition that changes what a character can get away with while it lasts. Each entry says what it does, how to tell you are under it, and when it expires. Buffs answer the question of why the same move lands differently on two days, and they are the most hopeful kind in the guide, because every one of them has an expiry date printed on it.",
     "identification": [
       {
         "key": "effect",
@@ -218,6 +223,7 @@ export const kinds = {
     "path": "/fallacies/",
     "voice": "tell",
     "blurb": "A documented error in reasoning, named by logicians and psychologists - not a coinage, a real thing characters commit.",
+    "note": "Fallacies are the one kind the guide did not invent. These are documented errors in reasoning, named by logicians and psychologists, and each entry gives the family it belongs to, the situation it is committed in, the tell you can transcribe, and the counter. They are here because a species needs an error to commit, and because naming the error is often the whole answer. A fallacy you can name is one you can decline.",
     "identification": [
       {
         "key": "family",
@@ -253,6 +259,7 @@ export const kinds = {
     "path": "/remedies/",
     "voice": "effect",
     "blurb": "A procedure that works: what it does, what it costs the person using it, and how it gets captured.",
+    "note": "A remedy is a procedure that works, written down as a procedure so it can be run by someone who is tired. Each entry gives what it does, what it costs the person using it, the failure mode that turns it into a formality, and the tell that it has become one. Remedies are half of chapter VI: the keystones are the offices that hold, and these are the things those offices do. Read them before you need them, and read the costs honestly.",
     "identification": [
       {
         "key": "effect",
@@ -288,6 +295,7 @@ export const kinds = {
     "path": "/keystones/",
     "voice": "call",
     "blurb": "An office whose presence holds the ecosystem together - and whose absence is the whole problem.",
+    "note": "A keystone is an office whose presence holds the ecosystem together, and whose absence is the whole problem. Each entry names the office, the call that announces it, the tell that it is functioning, and the keystone itself: the thing that fails when the office is left empty or filled by someone who will not do it. These are the least satirical entries in the guide, and the ones most worth defending in public. Every pathology in chapters I to IV has a counterpart here with a job title.",
     "identification": [
       {
         "key": "office",
@@ -528,7 +536,7 @@ export const chapters = [
     "id": "keystones",
     "roman": "VI",
     "title": "The Keystones",
-    "note": "Every character in chapters I to IV has a counterpart with a job title: the clerk who keeps the record, the auditor who reads the books, the poll worker who counts in public. These are the species whose absence is the pathology - and the procedures they actually run.",
+    "note": "Every character in chapters I to IV has a counterpart with a job title: the clerk who keeps the record, the auditor who reads the books, the poll worker who counts in public. This chapter is the other side of the ledger. Its keystones are the offices whose presence holds an ecosystem together and whose absence is the whole problem; its remedies are the procedures those offices run, written down so they can be repeated by someone who is tired. Read this chapter when you want to know what to defend, and what to do on a Tuesday afternoon.",
     "slugs": [
       "the-clerk",
       "the-poll-worker",
